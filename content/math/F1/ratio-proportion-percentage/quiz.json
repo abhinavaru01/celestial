@@ -1,0 +1,28 @@
+{
+  "topicId": "math.F1.ratio-proportion-percentage",
+  "levels": {
+    "1": [
+      { "id": "m1l1q1", "type": "mcq", "prompt": "Simplify the ratio 12 : 18.", "choices": ["2 : 3", "3 : 2", "6 : 9", "4 : 6"], "answer": 0, "explanation": "Divide both parts by their common factor 6: 12/6 : 18/6 = 2 : 3. Simplify by dividing, never subtracting." },
+      { "id": "m1l1q2", "type": "mcq", "prompt": "In a class the ratio of boys to girls is 3 : 5. What fraction of the class are boys?", "choices": ["3/5", "3/8", "5/8", "3/2"], "answer": 1, "explanation": "Part-to-whole: total parts = 3 + 5 = 8, so boys are 3/8 of the class. (3/5 is the part-to-part fraction — a common trap.)" },
+      { "id": "m1l1q3", "type": "numeric", "prompt": "What is 20% of 350?", "answer": 70, "tolerance": 0, "explanation": "20% = 1/5, so 350 ÷ 5 = 70. Equivalently 0.20 × 350 = 70." },
+      { "id": "m1l1q4", "type": "numeric", "prompt": "Divide ₹800 between two people in the ratio 3 : 1. How many rupees does the first person get?", "answer": 600, "tolerance": 0, "unit": "₹", "explanation": "Total parts = 4, one part = 800 ÷ 4 = 200, first person = 3 × 200 = ₹600." },
+      { "id": "m1l1q5", "type": "mcq", "prompt": "Write 3/4 as a percentage.", "choices": ["34%", "75%", "43%", "0.75%"], "answer": 1, "explanation": "3/4 = 75/100 = 75%. A percentage is a fraction with denominator 100." },
+      { "id": "m1l1q6", "type": "numeric", "prompt": "If 5 pens cost ₹40, what do 8 pens cost (same price each)?", "answer": 64, "tolerance": 0, "unit": "₹", "explanation": "Unitary method: one pen = 40 ÷ 5 = ₹8, so 8 pens = 8 × 8 = ₹64." }
+    ],
+    "2": [
+      { "id": "m1l2q1", "type": "numeric", "prompt": "A shirt's price rises from ₹400 to ₹460. What is the percentage increase?", "answer": 15, "tolerance": 0, "unit": "%", "explanation": "% change = (460−400)/400 × 100 = 60/400 × 100 = 15%. Always divide by the ORIGINAL." },
+      { "id": "m1l2q2", "type": "numeric", "prompt": "After a 20% discount, a bag costs ₹480. What was the original price in rupees?", "answer": 600, "tolerance": 0, "unit": "₹", "explanation": "Sale price is 80% of the original: 0.8 × x = 480, so x = 480 ÷ 0.8 = ₹600. Reverse percentage = divide by the multiplier." },
+      { "id": "m1l2q3", "type": "numeric", "prompt": "6 workers build a wall in 8 days. How many days would 4 workers take (same wall)?", "answer": 12, "tolerance": 0, "unit": "days", "explanation": "Inverse proportion — fixed job, so worker×days is constant: 6×8 = 48 = 4×t, giving t = 12 days." },
+      { "id": "m1l2q4", "type": "mcq", "prompt": "A price increases by 10% and then decreases by 10%. Compared with the start, the final price is:", "choices": ["the same", "1% higher", "1% lower", "10% lower"], "answer": 2, "explanation": "Multiply factors: 1.10 × 0.90 = 0.99, i.e. 99% of the start — 1% lower. Successive percentages multiply, they don't add." },
+      { "id": "m1l2q5", "type": "numeric", "prompt": "Convert a speed of 5 m/s to km/h.", "answer": 18, "tolerance": 0, "unit": "km/h", "explanation": "5 m/s × (3600 s / 1 h) × (1 km / 1000 m) = 5 × 3.6 = 18 km/h. A rate is a ratio you scale by keeping units — this is the bridge to Physics F1 Motion." },
+      { "id": "m1l2q6", "type": "numeric", "prompt": "The ratio of two numbers is 5 : 7 and their sum is 96. What is the larger number?", "answer": 56, "tolerance": 0, "explanation": "Total parts = 12, one part = 96 ÷ 12 = 8, larger = 7 × 8 = 56." }
+    ],
+    "3": [
+      { "id": "m1l3q1", "type": "numeric", "prompt": "A shopkeeper marks up cost by 25%, then gives a 20% discount on the marked price. If the cost was ₹800, what is the final selling price in rupees?", "answer": 800, "tolerance": 0, "unit": "₹", "explanation": "Marked = 800 × 1.25 = 1000; after 20% off = 1000 × 0.80 = ₹800. Net effect ×1.25×0.80 = ×1.00 — he breaks even. Chain the multipliers." },
+      { "id": "m1l3q2", "type": "numeric", "prompt": "In a 2 : 3 mixture of acid to water totalling 40 litres, how many litres of water must be added to make the ratio 1 : 2?", "answer": 8, "tolerance": 0, "unit": "L", "explanation": "Start: acid = 16 L, water = 24 L. Acid is unchanged. For acid : water = 1 : 2 we need water = 2 × 16 = 32 L, so add 32 − 24 = 8 L. Fix what stays constant (acid), then re-solve the ratio." },
+      { "id": "m1l3q3", "type": "mcq", "prompt": "Population grows 20% in year 1 and 20% in year 2. Over the two years the total growth is:", "choices": ["40%", "44%", "42%", "20%"], "answer": 1, "explanation": "1.20 × 1.20 = 1.44 → 44% total, not 40%. Compound growth multiplies factors; this same mechanism is compound interest and exponential growth later." },
+      { "id": "m1l3q4", "type": "numeric", "prompt": "A car covers the first 60 km at 30 km/h and the next 60 km at 60 km/h. What is its average speed for the whole trip, in km/h? (Average speed = total distance ÷ total time.)", "answer": 40, "tolerance": 0, "unit": "km/h", "explanation": "Time1 = 60/30 = 2 h, time2 = 60/60 = 1 h. Total distance 120 km ÷ total time 3 h = 40 km/h. NOT the simple average 45 — average of rates needs total-over-total. This exact trap reappears in Physics F1 Motion.", "competitive": true },
+      { "id": "m1l3q5", "type": "numeric", "prompt": "The price of a good falls by 10%. By what percentage must a family increase the quantity it buys to keep its total spending unchanged? (Round to the nearest whole percent.)", "answer": 11, "tolerance": 0.5, "unit": "%", "explanation": "Spending = price × quantity is fixed → inverse proportion. New price factor 0.9, so quantity factor = 1/0.9 = 1.111… → an 11.1% increase. Reverse of the multiplier.", "competitive": true }
+    ]
+  }
+}

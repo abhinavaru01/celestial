@@ -1,0 +1,140 @@
+{
+  "generatedAt": "2026-07-19T14:35:59.311Z",
+  "subjects": [
+    {
+      "id": "math",
+      "title": "Mathematics",
+      "color": "#4f46e5"
+    },
+    {
+      "id": "physics",
+      "title": "Physics",
+      "color": "#0891b2"
+    },
+    {
+      "id": "chemistry",
+      "title": "Chemistry",
+      "color": "#16a34a"
+    },
+    {
+      "id": "biology",
+      "title": "Biology",
+      "color": "#ca8a04"
+    },
+    {
+      "id": "english",
+      "title": "English",
+      "color": "#db2777"
+    },
+    {
+      "id": "cs",
+      "title": "Computer Science",
+      "color": "#ea580c"
+    }
+  ],
+  "tiers": [
+    {
+      "id": "F1",
+      "tier": "Foundation",
+      "subLevel": 1,
+      "order": 1,
+      "gateId": "gate.F1",
+      "label": "Foundation 1"
+    },
+    {
+      "id": "F2",
+      "tier": "Foundation",
+      "subLevel": 2,
+      "order": 2,
+      "gateId": "gate.F2",
+      "label": "Foundation 2"
+    },
+    {
+      "id": "I1",
+      "tier": "Intermediate",
+      "subLevel": 1,
+      "order": 3,
+      "gateId": "gate.I1",
+      "label": "Intermediate 1"
+    },
+    {
+      "id": "I2",
+      "tier": "Intermediate",
+      "subLevel": 2,
+      "order": 4,
+      "gateId": "gate.I2",
+      "label": "Intermediate 2"
+    },
+    {
+      "id": "A1",
+      "tier": "Advanced",
+      "subLevel": 1,
+      "order": 5,
+      "gateId": "gate.A1",
+      "label": "Advanced 1"
+    },
+    {
+      "id": "A2",
+      "tier": "Advanced",
+      "subLevel": 2,
+      "order": 6,
+      "gateId": "gate.A2",
+      "label": "Advanced 2"
+    }
+  ],
+  "topics": [
+    {
+      "id": "cs.F1.python-variables-types-expressions",
+      "subject": "cs",
+      "tier": "F1",
+      "title": "Python: Variables, Types & Expressions",
+      "slug": "python-variables-types-expressions",
+      "core": true,
+      "order": 3,
+      "estMinutes": 240,
+      "summary": "The first real programming topic: what a variable is, the core data types, how expressions are evaluated, and how to reason about them — assuming zero prior coding experience.",
+      "prereqs": [],
+      "competitiveTags": [],
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    {
+      "id": "math.F1.ratio-proportion-percentage",
+      "subject": "math",
+      "tier": "F1",
+      "title": "Ratio, Proportion & Percentage",
+      "slug": "ratio-proportion-percentage",
+      "core": true,
+      "order": 3,
+      "estMinutes": 300,
+      "summary": "One idea — comparing quantities by division — that powers rates, scaling, percentages, and most of physics and chemistry that follows.",
+      "prereqs": [],
+      "competitiveTags": [
+        "JEE-Main",
+        "NEET"
+      ],
+      "inDegree": 0,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.F1.motion",
+      "subject": "physics",
+      "tier": "F1",
+      "title": "Motion: Speed, Velocity & Acceleration",
+      "slug": "motion-speed-velocity-acceleration",
+      "core": true,
+      "order": 2,
+      "estMinutes": 300,
+      "summary": "Speed is a rate — a ratio of distance to time — so this topic reuses ratio/proportion instead of re-teaching it, then extends to velocity, acceleration, and motion graphs.",
+      "prereqs": [
+        "math.F1.ratio-proportion-percentage"
+      ],
+      "competitiveTags": [
+        "JEE-Main",
+        "NEET"
+      ],
+      "inDegree": 1,
+      "outDegree": 0
+    }
+  ]
+}

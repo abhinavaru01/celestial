@@ -1,0 +1,72 @@
+{
+  "coverage": {
+    "CBSE": [
+      {
+        "objective": "Cl.6-8 CS/IT foundations",
+        "topicId": "cs.F1.python-variables-types-expressions"
+      },
+      {
+        "objective": "Cl.11 CS: Python data types & operators",
+        "topicId": "cs.F1.python-variables-types-expressions"
+      },
+      {
+        "objective": "Cl.6 Ratio & Proportion",
+        "topicId": "math.F1.ratio-proportion-percentage"
+      },
+      {
+        "objective": "Cl.7 Comparing Quantities",
+        "topicId": "math.F1.ratio-proportion-percentage"
+      },
+      {
+        "objective": "Cl.8 Percentages & Comparing Quantities",
+        "topicId": "math.F1.ratio-proportion-percentage"
+      },
+      {
+        "objective": "Cl.7 Motion & Time",
+        "topicId": "physics.F1.motion"
+      },
+      {
+        "objective": "Cl.9 Motion (kinematics)",
+        "topicId": "physics.F1.motion"
+      }
+    ],
+    "ICSE": [
+      {
+        "objective": "Cl.9-10 Computer Applications: variables & data types",
+        "topicId": "cs.F1.python-variables-types-expressions"
+      },
+      {
+        "objective": "Cl.6-8 Ratio, Proportion, Percentage",
+        "topicId": "math.F1.ratio-proportion-percentage"
+      },
+      {
+        "objective": "Cl.7-9 Physics: Motion",
+        "topicId": "physics.F1.motion"
+      }
+    ],
+    "IB": [
+      {
+        "objective": "MYP Design",
+        "topicId": "cs.F1.python-variables-types-expressions"
+      },
+      {
+        "objective": "DP Computer Science SL: programming fundamentals",
+        "topicId": "cs.F1.python-variables-types-expressions"
+      },
+      {
+        "objective": "MYP Number: Proportional relationships",
+        "topicId": "math.F1.ratio-proportion-percentage"
+      },
+      {
+        "objective": "MYP Sciences: Change / Movement",
+        "topicId": "physics.F1.motion"
+      }
+    ]
+  },
+  "topicCount": 3,
+  "byBoard": {
+    "CBSE": 7,
+    "ICSE": 3,
+    "IB": 4
+  }
+}

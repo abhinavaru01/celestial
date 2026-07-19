@@ -1,0 +1,28 @@
+{
+  "topicId": "cs.F1.python-variables-types-expressions",
+  "levels": {
+    "1": [
+      { "id": "c1l1q1", "type": "mcq", "prompt": "What does the operator `=` do in `x = 7`?", "choices": ["Tests whether x equals 7", "Binds the name x to the value 7", "Prints 7", "Creates a constant that can never change"], "answer": 1, "explanation": "`=` is assignment: it binds the name x to the value 7. Testing equality is `==`." },
+      { "id": "c1l1q2", "type": "mcq", "prompt": "What is the type of the value `\"42\"`?", "choices": ["int", "float", "str", "bool"], "answer": 2, "explanation": "The quotes make it a string (str) — text, not the number 42." },
+      { "id": "c1l1q3", "type": "numeric", "prompt": "What does `7 % 3` evaluate to?", "answer": 1, "tolerance": 0, "explanation": "`%` is modulo — the remainder of 7 ÷ 3, which is 1." },
+      { "id": "c1l1q4", "type": "numeric", "prompt": "What does `2 + 3 * 4` evaluate to?", "answer": 14, "tolerance": 0, "explanation": "Multiplication binds tighter than addition (PEMDAS): 3*4 = 12, then 2 + 12 = 14." },
+      { "id": "c1l1q5", "type": "mcq", "prompt": "What does `\"ab\" * 3` produce?", "choices": ["\"ababab\"", "\"ab3\"", "an error", "9"], "answer": 0, "explanation": "`*` repeats a string: \"ab\" three times = \"ababab\"." },
+      { "id": "c1l1q6", "type": "mcq", "prompt": "Which expression is a boolean (evaluates to True or False)?", "choices": ["3 + 4", "\"yes\"", "5 > 2", "10 / 2"], "answer": 2, "explanation": "`5 > 2` is a comparison, which evaluates to the boolean True." }
+    ],
+    "2": [
+      { "id": "c1l2q1", "type": "mcq", "prompt": "What does `print(10 / 2)` output?", "choices": ["5", "5.0", "2", "10"], "answer": 1, "explanation": "`/` is true division and always returns a float, so 10 / 2 is 5.0, not 5." },
+      { "id": "c1l2q2", "type": "numeric", "prompt": "After `a = 5; b = a; a = 12`, what is the value of `b`?", "answer": 5, "tolerance": 0, "explanation": "`b = a` copied the value 5 at that moment. Reassigning a to 12 afterwards does not change b." },
+      { "id": "c1l2q3", "type": "mcq", "prompt": "Why does `print(input(\"n? \") + 1)` cause a TypeError?", "choices": ["input() is spelled wrong", "input() returns a string, and you can't add a string and an int", "1 must be in quotes", "print only takes one argument"], "answer": 1, "explanation": "input() always returns a string. Adding str + int raises TypeError. Fix: int(input(\"n? \")) + 1." },
+      { "id": "c1l2q4", "type": "numeric", "prompt": "What does `int(3.9)` evaluate to?", "answer": 3, "tolerance": 0, "explanation": "int() truncates toward zero (chops the decimal), giving 3 — it does NOT round to 4." },
+      { "id": "c1l2q5", "type": "numeric", "prompt": "Trace: `a = 4; b = a + 2; a = a * 3; c = a - b; print(c)`. What is printed?", "answer": 6, "tolerance": 0, "explanation": "b = 6; then a becomes 12; c = 12 - 6 = 6. b kept its earlier value of 6." },
+      { "id": "c1l2q6", "type": "mcq", "prompt": "What does `(5 > 3) and (2 > 4)` evaluate to?", "choices": ["True", "False", "5", "an error"], "answer": 1, "explanation": "5>3 is True, 2>4 is False; True and False is False (both must be true for `and`)." }
+    ],
+    "3": [
+      { "id": "c1l3q1", "type": "mcq", "prompt": "What does `print(2 ** 3 ** 2)` output?", "choices": ["64", "512", "12", "an error"], "answer": 1, "explanation": "`**` is right-associative, so it's 2 ** (3 ** 2) = 2 ** 9 = 512, not (2**3)**2 = 64." },
+      { "id": "c1l3q2", "type": "numeric", "prompt": "What is the last digit of 2471, computed with a modulo expression `2471 % 10`?", "answer": 1, "tolerance": 0, "explanation": "n % 10 gives the last digit of n: 2471 % 10 = 1. A common, powerful use of modulo." },
+      { "id": "c1l3q3", "type": "mcq", "prompt": "After `x, y = 3, 8` then `x, y = y, x`, what are x and y?", "choices": ["x=3, y=8", "x=8, y=3", "x=8, y=8", "an error"], "answer": 1, "explanation": "The right side (y, x) = (8, 3) is fully evaluated first, then assigned, so x=8, y=3. This is the Pythonic swap." },
+      { "id": "c1l3q4", "type": "mcq", "prompt": "What does `print(\"Total: \" + str(3 * 4))` output?", "choices": ["Total: 12", "Total: 34", "Total: \"12\"", "a TypeError"], "answer": 0, "explanation": "3*4 = 12; str(12) = \"12\"; \"Total: \" + \"12\" = \"Total: 12\". The str() is required to join a number into text." },
+      { "id": "c1l3q5", "type": "numeric", "prompt": "Trace: `n = 17; tens = n // 10; ones = n % 10; print(tens + ones)`. What is printed?", "answer": 8, "tolerance": 0, "explanation": "tens = 17 // 10 = 1; ones = 17 % 10 = 7; 1 + 7 = 8. Floor division and modulo together split a number into digits." }
+    ]
+  }
+}

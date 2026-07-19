@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "id": "cs.F1.python-variables-types-expressions",
+      "subject": "cs",
+      "tier": "F1",
+      "title": "Python: Variables, Types & Expressions",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    {
+      "id": "math.F1.ratio-proportion-percentage",
+      "subject": "math",
+      "tier": "F1",
+      "title": "Ratio, Proportion & Percentage",
+      "inDegree": 0,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.F1.motion",
+      "subject": "physics",
+      "tier": "F1",
+      "title": "Motion: Speed, Velocity & Acceleration",
+      "inDegree": 1,
+      "outDegree": 0
+    }
+  ],
+  "edges": [
+    {
+      "from": "math.F1.ratio-proportion-percentage",
+      "to": "physics.F1.motion",
+      "crossSubject": true
+    }
+  ]
+}
