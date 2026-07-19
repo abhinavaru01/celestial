@@ -1,0 +1,27 @@
+{
+  "id": "math.F1.ratio-proportion-percentage",
+  "subject": "math",
+  "tier": "F1",
+  "title": "Ratio, Proportion & Percentage",
+  "slug": "ratio-proportion-percentage",
+  "core": true,
+  "order": 3,
+  "estMinutes": 300,
+  "summary": "One idea — comparing quantities by division — that powers rates, scaling, percentages, and most of physics and chemistry that follows.",
+  "outcomes": [
+    "Express and simplify ratios, and recognise a ratio as a division comparison",
+    "Distinguish part-to-part from part-to-whole ratios and convert between them",
+    "Set up and solve proportions, including the unitary method and scaling",
+    "Move fluently between fractions, decimals and percentages",
+    "Compute percentage of a quantity, percentage change, and reverse-percentage problems",
+    "Recognise a rate as a ratio of unlike quantities (the bridge to speed, density, concentration)"
+  ],
+  "prereqs": [],
+  "boardMap": {
+    "CBSE": ["Cl.6 Ratio & Proportion", "Cl.7 Comparing Quantities", "Cl.8 Percentages & Comparing Quantities"],
+    "ICSE": ["Cl.6-8 Ratio, Proportion, Percentage"],
+    "IB": ["MYP Number: Proportional relationships"]
+  },
+  "competitiveTags": ["JEE-Main", "NEET"],
+  "keywords": ["ratio", "proportion", "percentage", "rate", "unitary method", "scaling", "percentage change"]
+}

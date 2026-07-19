@@ -1,0 +1,714 @@
+{
+  "cs.F1.python-variables-types-expressions": {
+    "id": "cs.F1.python-variables-types-expressions",
+    "subject": "cs",
+    "tier": "F1",
+    "title": "Python: Variables, Types & Expressions",
+    "slug": "python-variables-types-expressions",
+    "core": true,
+    "summary": "The first real programming topic: what a variable is, the core data types, how expressions are evaluated, and how to reason about them — assuming zero prior coding experience.",
+    "outcomes": [
+      "Explain a variable as a name bound to a value, and use assignment correctly",
+      "Identify and use the core built-in types: int, float, str, bool",
+      "Build and evaluate arithmetic, string, comparison and boolean expressions with correct precedence",
+      "Predict a program's output by tracing variable state step by step",
+      "Convert between types deliberately and avoid accidental type errors",
+      "Read tracebacks well enough to fix a type-related error"
+    ],
+    "estMinutes": 240,
+    "prereqs": [],
+    "boardMap": {
+      "CBSE": [
+        "Cl.6-8 CS/IT foundations",
+        "Cl.11 CS: Python data types & operators"
+      ],
+      "ICSE": [
+        "Cl.9-10 Computer Applications: variables & data types"
+      ],
+      "IB": [
+        "MYP Design",
+        "DP Computer Science SL: programming fundamentals"
+      ]
+    },
+    "competitiveTags": [],
+    "keywords": [
+      "python",
+      "variable",
+      "assignment",
+      "data type",
+      "int",
+      "float",
+      "str",
+      "bool",
+      "expression",
+      "operator precedence",
+      "type conversion"
+    ],
+    "notes": "# Python: Variables, Types & Expressions\n\n> **Your first real step as a builder.** This assumes you have *never coded*. By the end you'll be able to store data, combine it, and predict exactly what a program prints — the foundation every later program stands on. We go slow on the mental model because a *correct model now* prevents a hundred bugs later.\n\n## 1. What a program is doing\n\nA program is a list of **instructions** the computer runs top to bottom. The most fundamental instruction is: *remember this value under this name, so I can use it later.* That's a **variable**.\n\n## 2. Variables: a name bound to a value\n\n```python\nscore = 10\n```\n\nRead this right-to-left: \"take the value `10`, and bind the name `score` to it.\" The `=` is **assignment**, not equality (it does *not* mean \"score equals 10 forever\" the way maths does — it means \"make score refer to 10 *now*\").\n\n**The box model (intuition):** picture `score` as a labelled box holding `10`. When you later write `score`, Python looks in the box and uses what's there.\n\n```python\nscore = 10\nscore = score + 5     # take what's in the box (10), add 5, put 15 back\nprint(score)          # 15\n```\n\nThat middle line confuses every beginner because it looks like the false maths statement \"score = score + 5.\" It isn't maths — it's an instruction: *compute the right side using the current value, then rebind the name.* Right side first, always.\n\n**Naming rules & good style:**\n- Letters, digits, underscores; can't start with a digit; case-sensitive (`Score` ≠ `score`).\n- Use meaningful `snake_case` names: `total_price`, not `x` or `tp`. Code is read far more than written; names are messages to the next reader (often future you).\n\n## 3. The core data types\n\nEvery value has a **type** that determines what you can do with it. The four you need now:\n\n| Type | Name | Examples | Represents |\n|---|---|---|---|\n| `int` | integer | `0`, `42`, `-7` | whole numbers |\n| `float` | floating-point | `3.14`, `-0.5`, `2.0` | numbers with a decimal part |\n| `str` | string | `\"hello\"`, `'A'`, `\"42\"` | text (a sequence of characters) |\n| `bool` | boolean | `True`, `False` | truth values |\n\nCheck a type with `type(x)`:\n```python\nprint(type(42))        # <class 'int'>\nprint(type(3.14))      # <class 'float'>\nprint(type(\"42\"))      # <class 'str'>   <- text, NOT the number 42\nprint(type(True))      # <class 'bool'>\n```\n\n**Crucial:** `\"42\"` (a string) and `42` (an int) are *different values of different types*. `\"42\"` is three-then... no — two characters of text; `42` is a number you can do arithmetic with. Confusing them is the #1 beginner bug (see Common Mistakes).\n\n## 4. Expressions and how they're evaluated\n\nAn **expression** is anything that produces a value. Python evaluates it and hands back the result.\n\n### Arithmetic (on numbers)\n```python\n7 + 3      # 10   addition\n7 - 3      # 4    subtraction\n7 * 3      # 21   multiplication\n7 / 3      # 2.333...  TRUE division — ALWAYS gives a float\n7 // 3     # 2    floor division — drops the fractional part\n7 % 3      # 1    modulo — the REMAINDER (hugely useful later)\n2 ** 3     # 8    exponent — 2 to the power 3\n```\n\nTwo dividers matter: `/` always gives a float (`6 / 2` is `3.0`, not `3`), while `//` gives the whole-number part. `%` (remainder) seems obscure now but is everywhere later — checking even/odd (`n % 2 == 0`), wrapping around clocks, cycling through lists.\n\n### Precedence (order of operations)\nSame as maths — **PEMDAS**: Parentheses, Exponents, Multiplication/Division, Addition/Subtraction, left to right.\n```python\n2 + 3 * 4        # 14, not 20  (× before +)\n(2 + 3) * 4      # 20          (parentheses first)\n2 ** 3 ** 2      # 512, not 64 (** is right-associative: 2 ** (3 ** 2))\n```\nWhen in doubt, **add parentheses** — clarity beats cleverness.\n\n### Strings have their own operators\n```python\n\"foo\" + \"bar\"    # \"foobar\"   + JOINS strings (concatenation)\n\"ab\" * 3         # \"ababab\"   * REPEATS a string\n\"foo\" + 42       # ERROR: can't add str and int\n```\n`+` means \"add\" for numbers but \"join\" for strings — the operator's meaning depends on the *types* of its operands. And you can't mix: `\"foo\" + 42` raises a `TypeError`.\n\n### Comparison expressions → booleans\n```python\n5 > 3      # True\n5 == 5     # True     (== is \"equal?\", = is \"assign\")\n5 != 3     # True     (!= is \"not equal\")\n3 >= 4     # False\n```\nNote `==` (a **question**: are these equal?) vs `=` (a **command**: bind this name). Mixing them is a classic bug.\n\n### Boolean expressions → combine truths\n```python\nTrue and False   # False  (both must be true)\nTrue or False    # True   (at least one true)\nnot True         # False\n(5 > 3) and (2 < 1)   # False\n```\nThese power every decision a program makes (next topic: conditionals).\n\n## 5. Type conversion (casting) — on purpose, not by accident\n\nYou often need to change a value's type deliberately:\n```python\nint(\"42\")      # 42     text -> integer\nstr(42)        # \"42\"   integer -> text\nfloat(\"3.14\")  # 3.14   text -> float\nint(3.9)       # 3      float -> int (truncates toward zero, does NOT round)\n```\nThis matters most with **input**: everything a user types comes in as a **string**, even if it looks like a number.\n```python\nage = input(\"Age? \")     # age is a STRING, e.g. \"15\"\nage = int(age)           # now it's the number 15, ready for arithmetic\nprint(age + 1)           # 16   (without the int(), \"15\" + 1 would crash)\n```\n\n## 6. Tracing: the core skill\n\nThe single most valuable habit is **tracing** — stepping through code line by line, tracking each variable's value, to predict the output *before running it*. Do it on paper.\n\n```python\na = 4\nb = a + 2        # a is 4 -> b is 6\na = a * 3        # a is now 12  (b is still 6 — b didn't change)\nc = a - b        # 12 - 6 -> c is 6\nprint(a, b, c)   # 12 6 6\n```\nReassigning `a` did **not** retroactively change `b`; `b` had already been computed from the *old* `a`. Tracing makes this obvious and trains the mental model that debugging depends on.\n\n## 7. Reading a type error\n\nWhen types clash, Python raises a **traceback**. Read it bottom-up:\n```\nTraceback (most recent call last):\n  File \"prog.py\", line 3, in <module>\n    total = price + \" rupees\"\nTypeError: unsupported operand type(s) for +: 'int' and 'str'\n```\nThe **last line** names the problem: you tried `int + str`. The line above shows *where*. Fix: convert first — `str(price) + \" rupees\"`. Learning to read tracebacks now (rather than fearing them) is what separates people who get unstuck from people who don't.\n\n## 8. Summary\n- A variable is a **name bound to a value**; `=` assigns, right side first.\n- Four core types: `int`, `float`, `str`, `bool` — and `\"42\"` ≠ `42`.\n- Expressions produce values; know arithmetic operators (esp. `/` vs `//` vs `%`), precedence (PEMDAS), string `+`/`*`, comparisons, and booleans.\n- Convert types **deliberately** with `int()`, `str()`, `float()`; `input()` always gives a string.\n- **Trace** code by hand to predict output — the skill everything else builds on.\n- Read tracebacks bottom-up; the last line is the diagnosis.\n",
+    "mistakes": "# Common Mistakes — Python: Variables, Types & Expressions\n\n### 1. Reading `=` as equality\nSeeing `score = score + 5` and thinking \"that's false, a thing can't equal itself plus 5.\"\n> **Fix:** `=` is an *instruction*, not a maths equation. It means \"evaluate the right side, then bind the name to that result.\" Right side first, then rebind.\n\n### 2. Confusing `\"42\"` (string) with `42` (int)\n`\"5\" + \"3\"` gives `\"53\"`, not `8`; then surprise when arithmetic breaks.\n> **Fix:** quotes mean **text**. `\"42\"` is characters; `42` is a number. Convert with `int(\"42\")` before doing arithmetic.\n\n### 3. Forgetting that `input()` returns a string\n```python\nage = input(\"Age? \")\nprint(age + 1)          # TypeError: can't add str and int\n```\n> **Fix:** wrap it: `age = int(input(\"Age? \"))`. Everything typed by a user arrives as a string.\n\n### 4. Mixing up `=` and `==`\nWriting `if x = 5:` (assignment) when you mean `if x == 5:` (comparison).\n> **Fix:** `=` assigns (a command); `==` asks \"equal?\" (a question). In Python `if x = 5:` is even a syntax error — a helpful nudge.\n\n### 5. Expecting `/` to give a whole number\n`10 / 2` is `5.0` (a float), not `5`. Beginners expect an int.\n> **Fix:** `/` is *true division* and always returns a float. Use `//` for floor (whole-number) division when you want an int-like result.\n\n### 6. Misjudging operator precedence\n`2 + 3 * 4` → expecting 20, getting 14.\n> **Fix:** `*` and `/` bind tighter than `+` and `-` (PEMDAS). When unsure, add parentheses: `(2 + 3) * 4`.\n\n### 7. Thinking reassigning one variable updates another\n```python\na = 5\nb = a\na = 10\nprint(b)      # 5, not 10\n```\n> **Fix:** `b = a` copied the *value* at that moment. Later changing `a` doesn't reach back and change `b`. Trace it line by line.\n\n### 8. Trying to concatenate a string and a number with `+`\n`\"Total: \" + 50` → `TypeError`.\n> **Fix:** convert the number: `\"Total: \" + str(50)`, or use an f-string: `f\"Total: {50}\"`.\n\n### 9. Assuming `int()` rounds\n`int(3.9)` is `3`, not `4`.\n> **Fix:** `int()` **truncates** toward zero (chops the decimal). Use `round(3.9)` if you actually want rounding.\n\n### 10. Fearing tracebacks instead of reading them\nPanicking at red error text and guessing randomly.\n> **Fix:** read the traceback **bottom-up**: the last line is the error type + message (the diagnosis); the line above is where it happened. Tracebacks are the program *telling you the fix*.\n\n### 11. Invalid or misleading variable names\nStarting a name with a digit (`2nd = 5` → error) or naming everything `x`, `data`, `temp`.\n> **Fix:** names can't start with digits; more importantly, use descriptive `snake_case` (`second_score`) so code reads like prose.\n",
+    "tricks": "# Tricks & Problem-Solving Techniques — Python: Variables, Types & Expressions\n\n### 1. Trace on paper with a variable table\nFor any tricky snippet, draw a table with one column per variable and one row per line executed. Fill in values as you \"run\" it by hand. This turns confusing code into a mechanical checklist and is the foundation of all debugging.\n\n| line | a | b | c |\n|---|---|---|---|\n| `a = 4` | 4 | — | — |\n| `b = a + 2` | 4 | 6 | — |\n| `a = a * 3` | 12 | 6 | — |\n\n### 2. Use `type()` and `print()` as your microscope\nWhen something behaves oddly, print the value **and** its type:\n```python\nprint(x, type(x))\n```\nNine times out of ten the bug is \"I thought this was an int but it's a str.\" Seeing the type instantly reveals it.\n\n### 3. f-strings beat `+` for mixing text and numbers\nInstead of fragile `\"Score: \" + str(score)`, write:\n```python\nprint(f\"Score: {score}\")\n```\nNo manual `str()`, no `TypeError`, and it reads clearly. Anything in `{}` is evaluated and inserted.\n\n### 4. `%` (modulo) is the even/odd and cycle tool\n- `n % 2 == 0` → `n` is even; `== 1` → odd.\n- `n % 10` → last digit of `n`.\n- Modulo wraps things around (clocks, days of week, cycling list positions). Remember \"modulo = remainder\" and reach for it whenever you hear \"every Nth\" or \"wrap around.\"\n\n### 5. Convert `input()` immediately, in one line\nFold the cast into the input so you never forget:\n```python\nage = int(input(\"Age? \"))\nprice = float(input(\"Price? \"))\n```\nThis kills the most common beginner bug (string-from-input) at the source.\n\n### 6. Parenthesize when precedence is unclear\nYou lose nothing by writing `(a * b) + c` even when the parentheses are technically redundant. Clarity for the next reader (and fewer precedence bugs) is worth more than brevity.\n\n### 7. Swap two variables the Pythonic way\n```python\na, b = b, a      # swaps in one line, no temp variable needed\n```\nA neat demonstration that the right side is fully evaluated before assignment.\n\n### 8. Predict-then-run to build intuition\nBefore running any snippet, write down what you *think* it prints. Then run it. Every mismatch is a gap in your mental model made visible — the fastest way to learn the language's real behaviour.\n\n### 9. Keep a \"gotchas\" note\nJot each surprise (`/` gives float, `int()` truncates, `\"5\"+\"3\"=\"53\"`) into a personal note. These few rules cause most early bugs; a glance at your list resolves them until they're automatic.\n\n### 10. Name to explain, comment to justify\nA good variable name (`remaining_lives`) removes the need for a comment. Save comments for *why* something non-obvious is done, not *what* the line does. This habit scales to every future project and to reading others' code.\n",
+    "memoryAids": "# Memory & Retention Aids — Python: Variables, Types & Expressions\n\n## Core anchors\n\n- **\"`=` is a command, `==` is a question.\"** Assign vs compare.\n- **\"A variable is a labelled box.\"** A name bound to a value; look inside to use it.\n- **\"Right side first.\"** In `a = a + 5`, compute the right, then rebind the name.\n- **\"Quotes mean text.\"** `\"42\"` is characters; `42` is a number. Different types.\n\n## Mnemonics\n\n- **PEMDAS** — Parentheses, Exponents, Multiply/Divide, Add/Subtract. Same as maths.\n- **\"Slash floats, double-slash floors.\"** `/` always gives a float; `//` drops the decimal.\n- **\"Input is always a string.\"** So `int(input(...))` before doing maths on it.\n- **\"int() chops, round() rounds.\"** `int(3.9)` → 3 (truncates); `round(3.9)` → 4.\n- **\"Read tracebacks bottom-up.\"** Last line = the diagnosis.\n- **Four types = \"I Fear Strong Bugs\"** → **I**nt, **F**loat, **S**tr, **B**ool.\n\n## Visualization\n\n- **The box-and-label picture.** Each variable is a box with a name tag; assignment puts a value in the box, reading the name peeks inside. When you reassign, you replace the contents — other boxes are untouched (kills mistake #7).\n- **The conveyor belt for expressions.** An expression feeds operands through operators (respecting precedence) and drops a single value off the end. `2 + 3 * 4` sends `3*4=12` first, then `2+12=14`.\n- **The trace table.** Columns = variables, rows = lines. Physically writing values as you step through is the single best habit for predicting output and finding bugs.\n\n## Spaced-repetition prompts\n_(Resurfaced at 1 → 3 → 7 → 16 → 35 days. Predict before checking.)_\n\n1. What does `print(7 // 2, 7 % 2)` output? (→ `3 1`)\n2. What is `type(\"3.0\")`? (→ `<class 'str'>`)\n3. `x = 5; y = x; x = 9; print(y)` — what prints? (→ `5`)\n4. Why does `int(input(\"n? \")) + 1` need the `int()`? (→ input() returns a string; can't add str + int)\n5. Evaluate `2 + 3 * 4` and `(2 + 3) * 4`. (→ `14` and `20`)\n6. What does `\"ha\" * 3` give? (→ `\"hahaha\"`)\n7. Does `int(2.9)` give 2 or 3? (→ 2 — truncates)\n8. Difference between `=` and `==`? (→ assign vs compare-equal)\n\n## The one-line recall card\n> **A variable is a labelled box (`=` assigns, right side first); values have types and `\"42\"` ≠ `42`; expressions follow PEMDAS; `/` floats and `//` floors and `%` is remainder; `input()` is always a string so cast it; trace on paper and read tracebacks bottom-up.**\n",
+    "quiz": {
+      "topicId": "cs.F1.python-variables-types-expressions",
+      "levels": {
+        "1": [
+          {
+            "id": "c1l1q1",
+            "type": "mcq",
+            "prompt": "What does the operator `=` do in `x = 7`?",
+            "choices": [
+              "Tests whether x equals 7",
+              "Binds the name x to the value 7",
+              "Prints 7",
+              "Creates a constant that can never change"
+            ],
+            "answer": 1,
+            "explanation": "`=` is assignment: it binds the name x to the value 7. Testing equality is `==`."
+          },
+          {
+            "id": "c1l1q2",
+            "type": "mcq",
+            "prompt": "What is the type of the value `\"42\"`?",
+            "choices": [
+              "int",
+              "float",
+              "str",
+              "bool"
+            ],
+            "answer": 2,
+            "explanation": "The quotes make it a string (str) — text, not the number 42."
+          },
+          {
+            "id": "c1l1q3",
+            "type": "numeric",
+            "prompt": "What does `7 % 3` evaluate to?",
+            "answer": 1,
+            "tolerance": 0,
+            "explanation": "`%` is modulo — the remainder of 7 ÷ 3, which is 1."
+          },
+          {
+            "id": "c1l1q4",
+            "type": "numeric",
+            "prompt": "What does `2 + 3 * 4` evaluate to?",
+            "answer": 14,
+            "tolerance": 0,
+            "explanation": "Multiplication binds tighter than addition (PEMDAS): 3*4 = 12, then 2 + 12 = 14."
+          },
+          {
+            "id": "c1l1q5",
+            "type": "mcq",
+            "prompt": "What does `\"ab\" * 3` produce?",
+            "choices": [
+              "\"ababab\"",
+              "\"ab3\"",
+              "an error",
+              "9"
+            ],
+            "answer": 0,
+            "explanation": "`*` repeats a string: \"ab\" three times = \"ababab\"."
+          },
+          {
+            "id": "c1l1q6",
+            "type": "mcq",
+            "prompt": "Which expression is a boolean (evaluates to True or False)?",
+            "choices": [
+              "3 + 4",
+              "\"yes\"",
+              "5 > 2",
+              "10 / 2"
+            ],
+            "answer": 2,
+            "explanation": "`5 > 2` is a comparison, which evaluates to the boolean True."
+          }
+        ],
+        "2": [
+          {
+            "id": "c1l2q1",
+            "type": "mcq",
+            "prompt": "What does `print(10 / 2)` output?",
+            "choices": [
+              "5",
+              "5.0",
+              "2",
+              "10"
+            ],
+            "answer": 1,
+            "explanation": "`/` is true division and always returns a float, so 10 / 2 is 5.0, not 5."
+          },
+          {
+            "id": "c1l2q2",
+            "type": "numeric",
+            "prompt": "After `a = 5; b = a; a = 12`, what is the value of `b`?",
+            "answer": 5,
+            "tolerance": 0,
+            "explanation": "`b = a` copied the value 5 at that moment. Reassigning a to 12 afterwards does not change b."
+          },
+          {
+            "id": "c1l2q3",
+            "type": "mcq",
+            "prompt": "Why does `print(input(\"n? \") + 1)` cause a TypeError?",
+            "choices": [
+              "input() is spelled wrong",
+              "input() returns a string, and you can't add a string and an int",
+              "1 must be in quotes",
+              "print only takes one argument"
+            ],
+            "answer": 1,
+            "explanation": "input() always returns a string. Adding str + int raises TypeError. Fix: int(input(\"n? \")) + 1."
+          },
+          {
+            "id": "c1l2q4",
+            "type": "numeric",
+            "prompt": "What does `int(3.9)` evaluate to?",
+            "answer": 3,
+            "tolerance": 0,
+            "explanation": "int() truncates toward zero (chops the decimal), giving 3 — it does NOT round to 4."
+          },
+          {
+            "id": "c1l2q5",
+            "type": "numeric",
+            "prompt": "Trace: `a = 4; b = a + 2; a = a * 3; c = a - b; print(c)`. What is printed?",
+            "answer": 6,
+            "tolerance": 0,
+            "explanation": "b = 6; then a becomes 12; c = 12 - 6 = 6. b kept its earlier value of 6."
+          },
+          {
+            "id": "c1l2q6",
+            "type": "mcq",
+            "prompt": "What does `(5 > 3) and (2 > 4)` evaluate to?",
+            "choices": [
+              "True",
+              "False",
+              "5",
+              "an error"
+            ],
+            "answer": 1,
+            "explanation": "5>3 is True, 2>4 is False; True and False is False (both must be true for `and`)."
+          }
+        ],
+        "3": [
+          {
+            "id": "c1l3q1",
+            "type": "mcq",
+            "prompt": "What does `print(2 ** 3 ** 2)` output?",
+            "choices": [
+              "64",
+              "512",
+              "12",
+              "an error"
+            ],
+            "answer": 1,
+            "explanation": "`**` is right-associative, so it's 2 ** (3 ** 2) = 2 ** 9 = 512, not (2**3)**2 = 64."
+          },
+          {
+            "id": "c1l3q2",
+            "type": "numeric",
+            "prompt": "What is the last digit of 2471, computed with a modulo expression `2471 % 10`?",
+            "answer": 1,
+            "tolerance": 0,
+            "explanation": "n % 10 gives the last digit of n: 2471 % 10 = 1. A common, powerful use of modulo."
+          },
+          {
+            "id": "c1l3q3",
+            "type": "mcq",
+            "prompt": "After `x, y = 3, 8` then `x, y = y, x`, what are x and y?",
+            "choices": [
+              "x=3, y=8",
+              "x=8, y=3",
+              "x=8, y=8",
+              "an error"
+            ],
+            "answer": 1,
+            "explanation": "The right side (y, x) = (8, 3) is fully evaluated first, then assigned, so x=8, y=3. This is the Pythonic swap."
+          },
+          {
+            "id": "c1l3q4",
+            "type": "mcq",
+            "prompt": "What does `print(\"Total: \" + str(3 * 4))` output?",
+            "choices": [
+              "Total: 12",
+              "Total: 34",
+              "Total: \"12\"",
+              "a TypeError"
+            ],
+            "answer": 0,
+            "explanation": "3*4 = 12; str(12) = \"12\"; \"Total: \" + \"12\" = \"Total: 12\". The str() is required to join a number into text."
+          },
+          {
+            "id": "c1l3q5",
+            "type": "numeric",
+            "prompt": "Trace: `n = 17; tens = n // 10; ones = n % 10; print(tens + ones)`. What is printed?",
+            "answer": 8,
+            "tolerance": 0,
+            "explanation": "tens = 17 // 10 = 1; ones = 17 % 10 = 7; 1 + 7 = 8. Floor division and modulo together split a number into digits."
+          }
+        ]
+      }
+    }
+  },
+  "math.F1.ratio-proportion-percentage": {
+    "id": "math.F1.ratio-proportion-percentage",
+    "subject": "math",
+    "tier": "F1",
+    "title": "Ratio, Proportion & Percentage",
+    "slug": "ratio-proportion-percentage",
+    "core": true,
+    "summary": "One idea — comparing quantities by division — that powers rates, scaling, percentages, and most of physics and chemistry that follows.",
+    "outcomes": [
+      "Express and simplify ratios, and recognise a ratio as a division comparison",
+      "Distinguish part-to-part from part-to-whole ratios and convert between them",
+      "Set up and solve proportions, including the unitary method and scaling",
+      "Move fluently between fractions, decimals and percentages",
+      "Compute percentage of a quantity, percentage change, and reverse-percentage problems",
+      "Recognise a rate as a ratio of unlike quantities (the bridge to speed, density, concentration)"
+    ],
+    "estMinutes": 300,
+    "prereqs": [],
+    "boardMap": {
+      "CBSE": [
+        "Cl.6 Ratio & Proportion",
+        "Cl.7 Comparing Quantities",
+        "Cl.8 Percentages & Comparing Quantities"
+      ],
+      "ICSE": [
+        "Cl.6-8 Ratio, Proportion, Percentage"
+      ],
+      "IB": [
+        "MYP Number: Proportional relationships"
+      ]
+    },
+    "competitiveTags": [
+      "JEE-Main",
+      "NEET"
+    ],
+    "keywords": [
+      "ratio",
+      "proportion",
+      "percentage",
+      "rate",
+      "unitary method",
+      "scaling",
+      "percentage change"
+    ],
+    "notes": "# Ratio, Proportion & Percentage\n\n> **Why this topic matters more than almost any other.** Ratio is not a chapter — it is a *way of comparing quantities* that reappears constantly: speed (physics), density (physics), concentration and the mole (chemistry), inheritance ratios (biology), scale drawings, currency, interest, probability, and every \"per\" you will ever meet. Learn it once, deeply, here, and dozens of later topics become *reuse* instead of new learning. That is compression in action.\n\n## 1. The one idea: comparison by division\n\nWhen you compare two quantities by **subtraction** you ask *\"how much more?\"* When you compare by **division** you ask *\"how many times as much?\"* — and that second question is a **ratio**.\n\nIf a recipe uses 2 cups of flour and 1 cup of sugar, the ratio of flour to sugar is\n$$ 2 : 1 \\quad\\text{which means}\\quad \\frac{2}{1} = 2 \\text{ — twice as much flour as sugar.}$$\n\nA ratio $a : b$ is really the fraction $\\dfrac{a}{b}$ wearing different clothes. Everything about ratios follows from that.\n\n### Intuition first\nPicture the flour and sugar as bars. Ratio doesn't care about the actual amounts — it cares about the **relationship** between them. Double both (4 cups flour, 2 sugar) and the ratio $4:2$ is *the same relationship* as $2:1$. This is the key move: **a ratio is preserved under scaling**, which is exactly why it's so useful — it describes the *shape* of a comparison independent of size.\n\n### Rigour\n- $a : b = ka : kb$ for any non-zero $k$ (multiply/divide both parts by the same number → same ratio). This is why we **simplify** ratios: $6:4 = 3:2$.\n- Order matters: $2:1 \\ne 1:2$.\n- A ratio compares quantities **in the same unit**. \"3 kg to 500 g\" must first become \"3000 g to 500 g\" $= 6:1$.\n\n## 2. Part-to-part vs part-to-whole\n\nThis distinction traps more students than any other (see Common Mistakes).\n\n- **Part-to-part:** flour : sugar $= 2 : 1$.\n- **Part-to-whole:** flour : total. Total parts $= 2 + 1 = 3$, so flour is $\\dfrac{2}{3}$ of the mixture, sugar $\\dfrac{1}{3}$.\n\n**Dividing a quantity in a given ratio.** Split ₹600 between A and B in the ratio $2:3$.\n1. Total parts $= 2 + 3 = 5$.\n2. One part $= 600 \\div 5 = 120$.\n3. A gets $2 \\times 120 = 240$; B gets $3 \\times 120 = 360$. (Check: $240 + 360 = 600$. ✓)\n\nThe move — **total parts → one part → each share** — is the workhorse. Memorise the *process*, not any formula.\n\n## 3. Proportion: two equal ratios\n\nA **proportion** says two ratios are equal: $\\dfrac{a}{b} = \\dfrac{c}{d}$, often written $a : b :: c : d$.\n\nThe engine that solves proportions is **cross-multiplication**:\n$$ \\frac{a}{b} = \\frac{c}{d} \\iff ad = bc. $$\n\nThis is not magic — multiply both sides by $bd$ and the denominators cancel.\n\n### The unitary method (find one, then scale)\n*If 5 pens cost ₹40, what do 8 pens cost?*\n- One pen $= 40 \\div 5 = ₹8$ (find the value of **one unit**).\n- 8 pens $= 8 \\times 8 = ₹64$.\n\nThe unitary method is proportion done in two safe steps and almost never leads you astray. Use it whenever a problem feels slippery.\n\n### Direct vs inverse proportion\n- **Direct:** more → more, at a constant *ratio*. Distance and cost of fuel. $y = kx$.\n- **Inverse:** more → less, at a constant *product*. Speed and time for a fixed distance; workers and days for a fixed job. $xy = k$, i.e. $x_1 y_1 = x_2 y_2$.\n\n*4 workers finish a wall in 6 days. How long for 3 workers?* Inverse: $4 \\times 6 = 3 \\times t \\Rightarrow t = 8$ days. (Fewer workers → more days — the *product* stays 24 worker-days.)\n\n## 4. Percentage: a ratio with a fixed denominator of 100\n\n\"Per cent\" literally means **per hundred**. A percentage is just a ratio (a fraction) rewritten with denominator 100, which makes different fractions instantly comparable.\n\n$$ \\frac{3}{4} = \\frac{75}{100} = 75\\% \\qquad 0.6 = \\frac{60}{100} = 60\\% \\qquad 45\\% = \\frac{45}{100} = 0.45 = \\frac{9}{20}. $$\n\n### The three moves you need\n\n**(a) Percentage *of* a quantity.** \"$p\\%$ of $N$\" $= \\dfrac{p}{100}\\times N$.\n> 15% of 240 $= 0.15 \\times 240 = 36$.\n\n**(b) Percentage change.**\n$$ \\text{% change} = \\frac{\\text{new} - \\text{old}}{\\text{old}} \\times 100. $$\nAlways divide by the **original**, never the new value. A price rising 20 → 25 is a $\\dfrac{5}{20}\\times100 = 25\\%$ increase.\n\n**(c) Reverse percentage (the hard one).** *After a 20% discount an item costs ₹480. What was the original price?*\nThe sale price is **80%** of the original: $0.8 \\times \\text{orig} = 480 \\Rightarrow \\text{orig} = 480 \\div 0.8 = ₹600.$\n> The trap is dividing 480 by 1.2 or adding 20% of 480. Set it up as *\"sale price is 80% of original\"* and solve — that is a proportion.\n\n### Successive percentages don't add\nA 10% rise then a 10% fall is **not** back to the start. Start 100 → $110$ → $110 \\times 0.9 = 99$. You end 1% *down*. Percentages compose by **multiplying factors** ($1.10 \\times 0.90 = 0.99$), not by adding. This idea returns as compound growth, interest, and depreciation later — same mechanism.\n\n## 5. The payoff: a rate is a ratio of *unlike* quantities\n\nEverything above compared like things (rupees to rupees, cups to cups). A **rate** compares **unlike** things by division:\n\n$$ \\text{speed} = \\frac{\\text{distance}}{\\text{time}} \\;\\left(\\tfrac{\\text{km}}{\\text{h}}\\right), \\quad \\text{density} = \\frac{\\text{mass}}{\\text{volume}}, \\quad \\text{price} = \\frac{\\text{cost}}{\\text{quantity}}. $$\n\nA rate is a ratio you *keep the units on*. When you reach **Physics F1 — Motion**, \"speed = distance ÷ time\" will not be a new formula to learn: it is exactly this — a rate, a ratio of unlike quantities. The physics topic *reuses* what you build here. **This is the single clearest example in the whole program of teaching something once and never re-teaching it.** Unit conversion (km/h to m/s) is likewise just scaling a ratio.\n\n## 6. Summary — the mental toolkit\n1. Ratio = comparison by division; preserved under scaling; simplify freely; same units first.\n2. Part-to-part vs part-to-whole: add the parts to get the whole.\n3. Divide in a ratio: total parts → one part → each share.\n4. Proportion = equal ratios; solve by cross-multiplication or the safe unitary method.\n5. Direct ($y=kx$) vs inverse ($xy=k$) proportion.\n6. Percentage = ratio out of 100; know *of*, *change* (÷ original), and *reverse* (set up as \"X% of original\").\n7. Successive % multiply factors; they don't add.\n8. A rate is a ratio of unlike quantities — the bridge to physics and chemistry.\n",
+    "mistakes": "# Common Mistakes — Ratio, Proportion & Percentage\n\n### 1. Confusing part-to-part with part-to-whole\n\"Boys to girls is 2 : 3, so boys are 2/3 of the class.\" **Wrong** — that's part-to-part. Boys are $\\frac{2}{2+3} = \\frac{2}{5}$ of the class.\n> **Fix:** the instant you see a ratio, ask \"am I comparing two parts, or a part to the whole?\" Add the parts to get the whole *before* forming any fraction of the total.\n\n### 2. Comparing ratios without the same units\n\"3 kg : 500 g $= 3 : 500$.\" **Wrong.** Convert first: $3000\\text{ g} : 500\\text{ g} = 6 : 1$.\n> **Fix:** same unit on both sides before you do anything else. A ratio has no units, but the quantities must share one.\n\n### 3. Percentage change divided by the wrong number\nPrice goes 20 → 25. \"Change is 5, and $5/25 = 20\\%$.\" **Wrong** — you divided by the new price.\n> **Fix:** % change is always $\\frac{\\text{change}}{\\textbf{original}}\\times100 = \\frac{5}{20}\\times100 = 25\\%$. Underline the original value before you divide.\n\n### 4. Reverse-percentage: undoing a % by applying the same %\n\"Price after 20% off is ₹480, so original $= 480 + 20\\%$ of $480 = 576$.\" **Wrong.** The 20% was taken off the *original*, not the sale price.\n> **Fix:** write the relationship as an equation. Sale price is 80% of original: $0.8x = 480 \\Rightarrow x = 600$. Note $600 \\ne 576$.\n\n### 5. Adding successive percentages\n\"Up 10% then down 10% → back to start.\" **Wrong** — you end at 99% of the start.\n> **Fix:** multiply factors: $1.10 \\times 0.90 = 0.99$. Percentages of *different* bases never simply add.\n\n### 6. Mixing up direct and inverse proportion\n\"More workers, so it takes more days\" or blindly cross-multiplying an inverse relationship.\n> **Fix:** ask \"if this quantity goes **up**, does the other go up (direct, $y=kx$) or down (inverse, $xy=k$)?\" More workers → fewer days → inverse → keep the **product** constant.\n\n### 7. Treating \"of\" and \"off\" as the same\n\"20% of 480\" vs \"20% off 480\" — students compute one when the problem means the other.\n> **Fix:** *of* = multiply ($0.20\\times480 = 96$). *Off* = subtract that from the total ($480 - 96 = 384$).\n\n### 8. Forgetting a percentage is dimensionless (and the reference matters)\n\"50% is bigger than 40%, so a 50% pay rise is more money than a 40% rise.\" Not necessarily — 50% of a small salary can be less than 40% of a large one.\n> **Fix:** a percentage always refers to *something*. Two percentages are only comparable if they're percentages **of the same base**.\n\n### 9. Simplifying a ratio by subtracting instead of dividing\n\"$6 : 4$, subtract 2 from each → $4 : 2$.\" Coincidentally looks reducible but the method is wrong and usually fails ($6:4 - 3 = 3:1 \\ne 3:2$).\n> **Fix:** simplify ratios by **dividing** both parts by a common factor, never subtracting.\n\n### 10. Losing the \"one part\" step when dividing in a ratio\nSplitting ₹600 in $2:3$ and writing A $= ₹2$, B $= ₹3$.\n> **Fix:** find the value of **one part** first ($600 \\div 5 = 120$), then multiply. Parts are shares of the whole, not rupee amounts themselves.\n",
+    "tricks": "# Tricks & Problem-Solving Techniques — Ratio, Proportion & Percentage\n\n### 1. The unitary method beats formulas\nWhenever a proportion problem feels slippery, **find the value of one unit, then scale**. It's two safe steps and almost never misleads.\n> 3 machines make 120 parts/hour → 1 machine makes 40 → 7 machines make 280. No equation needed.\n\n### 2. Percentages you should just *know* (as fractions)\nConverting to a friendly fraction turns hard mental arithmetic into easy division:\n\n| % | Fraction | Use |\n|---|---|---|\n| 10% | 1/10 | move the decimal one place |\n| 25% | 1/4 | divide by 4 |\n| 50% | 1/2 | halve |\n| 20% | 1/5 | divide by 5 |\n| 33⅓% | 1/3 | divide by 3 |\n| 12.5% | 1/8 | divide by 8 |\n\n> 25% of 84 → just $84/4 = 21$. Faster and safer than $0.25\\times84$.\n\n### 3. Build any percentage from 10% and 5% and 1%\n10% is trivial (move the decimal). 5% is half of that; 1% moves the decimal twice. Combine:\n> 15% of 240 = 10% (24) + 5% (12) = **36**.\n> 17% of 300 = 10% (30) + 5% (15) + 1%×2 (6) = **51**.\n\n### 4. \"% of\" is commutative — flip it when it's easier\n$p\\%$ of $q$ = $q\\%$ of $p$, because both equal $\\frac{pq}{100}$.\n> 8% of 50 is annoying; **50% of 8 = 4** is instant. Same answer.\n\n### 5. Percentage change → multiplier\nTurn every increase/decrease into a single **multiplier** and just multiply:\n- increase by 20% → ×1.20\n- decrease by 15% → ×0.85\n> This makes successive changes trivial: up 20% then down 15% → $\\times1.20\\times0.85 = \\times1.02$ → net +2%. No step-by-step needed.\n\n### 6. Reverse percentage: name the multiplier, then divide\n\"After X% change the result is R.\" The original $= R \\div (\\text{multiplier})$.\n> 480 after a 20% discount → multiplier 0.8 → original $= 480 / 0.8 = 600$.\n> 660 after a 10% increase → original $= 660 / 1.1 = 600$.\n\n### 7. Ratio → \"one part\" is the master key for sharing problems\nFor *any* \"divide in ratio $a:b:c$\" problem: total parts $= a+b+c$, one part $= \\text{total}\\div(a+b+c)$, then multiply. Works for 2, 3, or 10 shares identically.\n\n### 8. Scale a recipe/map/model by keeping the ratio fixed\nAny scaling problem (maps, recipes, similar shapes later in geometry) is \"same ratio, different size.\" Set up $\\frac{\\text{known}_1}{\\text{known}_2} = \\frac{\\text{want}}{\\text{given}}$ and cross-multiply. This exact skill returns as **similarity** in F2 geometry.\n\n### 9. Estimate first, compute second\nBefore calculating a percentage, bracket the answer: 23% of 480 is \"a bit less than a quarter of 480 ≈ a bit less than 120.\" If your computed answer isn't near 110, you slipped a decimal. This estimation habit catches most careless errors and is a core exam skill.\n\n### 10. Spot inverse proportion by the \"fixed total work\" cue\nWords like *fixed job, same distance, same amount* signal inverse proportion — the **product** is constant. Immediately write $x_1y_1 = x_2y_2$ and you're done.\n",
+    "memoryAids": "# Memory & Retention Aids — Ratio, Proportion & Percentage\n\n## Core anchors (the things to never forget)\n\n- **\"Ratio = division, not subtraction.\"** Comparing by \"how many times,\" not \"how much more.\"\n- **\"Per cent = per hundred.\"** The word *is* the definition: a fraction out of 100.\n- **\"% change: divide by where you started.\"** The original is the base, always.\n- **\"A rate is a ratio wearing units.\"** Speed, density, price — all ratios of unlike things.\n\n## Mnemonics\n\n- **PART + PART = WHOLE.** Before making any fraction of the total, add the parts. (Boys:Girls = 2:3 → whole is 2+3 = 5 parts.)\n- **\"OF means multiply, OFF means subtract.\"** 20% *of* 480 = 96; 20% *off* 480 = 480−96 = 384.\n- **\"Factors multiply, percentages don't add.\"** For successive changes, chain the multipliers (1.2 × 0.9), never add the percents.\n- **\"Reverse? Divide by the multiplier.\"** Result ÷ multiplier = original. (480 ÷ 0.8 = 600.)\n\n## Visualization\n\n- **The bar model.** Draw ratio parts as equal blocks. $2:3$ = two blocks and three blocks; the whole is five blocks. Shading blocks makes part-to-whole obvious and kills mistake #1.\n- **The 100-grid for percentages.** Picture a 10×10 grid; a percentage is how many squares are shaded. 45% = 45 shaded squares. Instantly shows why percentages are \"out of 100.\"\n- **Number-line for proportion.** Direct proportion is a straight line through the origin (double x → double y); this picture *is* the graph you'll meet as $y = mx$ in F2 — same idea, so remembering one reinforces the other.\n\n## Spaced-repetition prompts\n_(The platform will resurface these at expanding intervals: 1 day → 3 → 7 → 16 → 35.)_\n\n1. Split ₹540 in the ratio 4 : 5. (→ 240 and 300)\n2. A jacket costs ₹850 after a 15% discount. Original price? (→ 850 ÷ 0.85 = ₹1000)\n3. A quantity rises 25% then falls 20%. Net change? (→ ×1.25×0.80 = ×1.00 → no change)\n4. 8 taps fill a tank in 9 hours. How long with 6 taps? (inverse → 8×9 = 6×t → 12 hours)\n5. What is 35% of 60, done as \"one third + a bit\"? (→ 25% (15) + 10% (6) = 21)\n6. Convert 5 m/s to km/h by scaling the ratio. (→ ×3600/1000 = 18 km/h) — *previews Physics F1 Motion.*\n\n## The one-line recall card\n> **Ratio compares by dividing; simplify by dividing; percentage is /100; change is over the original; reverse by dividing by the multiplier; a rate is a ratio with units — and that rate is where physics begins.**\n",
+    "quiz": {
+      "topicId": "math.F1.ratio-proportion-percentage",
+      "levels": {
+        "1": [
+          {
+            "id": "m1l1q1",
+            "type": "mcq",
+            "prompt": "Simplify the ratio 12 : 18.",
+            "choices": [
+              "2 : 3",
+              "3 : 2",
+              "6 : 9",
+              "4 : 6"
+            ],
+            "answer": 0,
+            "explanation": "Divide both parts by their common factor 6: 12/6 : 18/6 = 2 : 3. Simplify by dividing, never subtracting."
+          },
+          {
+            "id": "m1l1q2",
+            "type": "mcq",
+            "prompt": "In a class the ratio of boys to girls is 3 : 5. What fraction of the class are boys?",
+            "choices": [
+              "3/5",
+              "3/8",
+              "5/8",
+              "3/2"
+            ],
+            "answer": 1,
+            "explanation": "Part-to-whole: total parts = 3 + 5 = 8, so boys are 3/8 of the class. (3/5 is the part-to-part fraction — a common trap.)"
+          },
+          {
+            "id": "m1l1q3",
+            "type": "numeric",
+            "prompt": "What is 20% of 350?",
+            "answer": 70,
+            "tolerance": 0,
+            "explanation": "20% = 1/5, so 350 ÷ 5 = 70. Equivalently 0.20 × 350 = 70."
+          },
+          {
+            "id": "m1l1q4",
+            "type": "numeric",
+            "prompt": "Divide ₹800 between two people in the ratio 3 : 1. How many rupees does the first person get?",
+            "answer": 600,
+            "tolerance": 0,
+            "unit": "₹",
+            "explanation": "Total parts = 4, one part = 800 ÷ 4 = 200, first person = 3 × 200 = ₹600."
+          },
+          {
+            "id": "m1l1q5",
+            "type": "mcq",
+            "prompt": "Write 3/4 as a percentage.",
+            "choices": [
+              "34%",
+              "75%",
+              "43%",
+              "0.75%"
+            ],
+            "answer": 1,
+            "explanation": "3/4 = 75/100 = 75%. A percentage is a fraction with denominator 100."
+          },
+          {
+            "id": "m1l1q6",
+            "type": "numeric",
+            "prompt": "If 5 pens cost ₹40, what do 8 pens cost (same price each)?",
+            "answer": 64,
+            "tolerance": 0,
+            "unit": "₹",
+            "explanation": "Unitary method: one pen = 40 ÷ 5 = ₹8, so 8 pens = 8 × 8 = ₹64."
+          }
+        ],
+        "2": [
+          {
+            "id": "m1l2q1",
+            "type": "numeric",
+            "prompt": "A shirt's price rises from ₹400 to ₹460. What is the percentage increase?",
+            "answer": 15,
+            "tolerance": 0,
+            "unit": "%",
+            "explanation": "% change = (460−400)/400 × 100 = 60/400 × 100 = 15%. Always divide by the ORIGINAL."
+          },
+          {
+            "id": "m1l2q2",
+            "type": "numeric",
+            "prompt": "After a 20% discount, a bag costs ₹480. What was the original price in rupees?",
+            "answer": 600,
+            "tolerance": 0,
+            "unit": "₹",
+            "explanation": "Sale price is 80% of the original: 0.8 × x = 480, so x = 480 ÷ 0.8 = ₹600. Reverse percentage = divide by the multiplier."
+          },
+          {
+            "id": "m1l2q3",
+            "type": "numeric",
+            "prompt": "6 workers build a wall in 8 days. How many days would 4 workers take (same wall)?",
+            "answer": 12,
+            "tolerance": 0,
+            "unit": "days",
+            "explanation": "Inverse proportion — fixed job, so worker×days is constant: 6×8 = 48 = 4×t, giving t = 12 days."
+          },
+          {
+            "id": "m1l2q4",
+            "type": "mcq",
+            "prompt": "A price increases by 10% and then decreases by 10%. Compared with the start, the final price is:",
+            "choices": [
+              "the same",
+              "1% higher",
+              "1% lower",
+              "10% lower"
+            ],
+            "answer": 2,
+            "explanation": "Multiply factors: 1.10 × 0.90 = 0.99, i.e. 99% of the start — 1% lower. Successive percentages multiply, they don't add."
+          },
+          {
+            "id": "m1l2q5",
+            "type": "numeric",
+            "prompt": "Convert a speed of 5 m/s to km/h.",
+            "answer": 18,
+            "tolerance": 0,
+            "unit": "km/h",
+            "explanation": "5 m/s × (3600 s / 1 h) × (1 km / 1000 m) = 5 × 3.6 = 18 km/h. A rate is a ratio you scale by keeping units — this is the bridge to Physics F1 Motion."
+          },
+          {
+            "id": "m1l2q6",
+            "type": "numeric",
+            "prompt": "The ratio of two numbers is 5 : 7 and their sum is 96. What is the larger number?",
+            "answer": 56,
+            "tolerance": 0,
+            "explanation": "Total parts = 12, one part = 96 ÷ 12 = 8, larger = 7 × 8 = 56."
+          }
+        ],
+        "3": [
+          {
+            "id": "m1l3q1",
+            "type": "numeric",
+            "prompt": "A shopkeeper marks up cost by 25%, then gives a 20% discount on the marked price. If the cost was ₹800, what is the final selling price in rupees?",
+            "answer": 800,
+            "tolerance": 0,
+            "unit": "₹",
+            "explanation": "Marked = 800 × 1.25 = 1000; after 20% off = 1000 × 0.80 = ₹800. Net effect ×1.25×0.80 = ×1.00 — he breaks even. Chain the multipliers."
+          },
+          {
+            "id": "m1l3q2",
+            "type": "numeric",
+            "prompt": "In a 2 : 3 mixture of acid to water totalling 40 litres, how many litres of water must be added to make the ratio 1 : 2?",
+            "answer": 8,
+            "tolerance": 0,
+            "unit": "L",
+            "explanation": "Start: acid = 16 L, water = 24 L. Acid is unchanged. For acid : water = 1 : 2 we need water = 2 × 16 = 32 L, so add 32 − 24 = 8 L. Fix what stays constant (acid), then re-solve the ratio."
+          },
+          {
+            "id": "m1l3q3",
+            "type": "mcq",
+            "prompt": "Population grows 20% in year 1 and 20% in year 2. Over the two years the total growth is:",
+            "choices": [
+              "40%",
+              "44%",
+              "42%",
+              "20%"
+            ],
+            "answer": 1,
+            "explanation": "1.20 × 1.20 = 1.44 → 44% total, not 40%. Compound growth multiplies factors; this same mechanism is compound interest and exponential growth later."
+          },
+          {
+            "id": "m1l3q4",
+            "type": "numeric",
+            "prompt": "A car covers the first 60 km at 30 km/h and the next 60 km at 60 km/h. What is its average speed for the whole trip, in km/h? (Average speed = total distance ÷ total time.)",
+            "answer": 40,
+            "tolerance": 0,
+            "unit": "km/h",
+            "explanation": "Time1 = 60/30 = 2 h, time2 = 60/60 = 1 h. Total distance 120 km ÷ total time 3 h = 40 km/h. NOT the simple average 45 — average of rates needs total-over-total. This exact trap reappears in Physics F1 Motion.",
+            "competitive": true
+          },
+          {
+            "id": "m1l3q5",
+            "type": "numeric",
+            "prompt": "The price of a good falls by 10%. By what percentage must a family increase the quantity it buys to keep its total spending unchanged? (Round to the nearest whole percent.)",
+            "answer": 11,
+            "tolerance": 0.5,
+            "unit": "%",
+            "explanation": "Spending = price × quantity is fixed → inverse proportion. New price factor 0.9, so quantity factor = 1/0.9 = 1.111… → an 11.1% increase. Reverse of the multiplier.",
+            "competitive": true
+          }
+        ]
+      }
+    }
+  },
+  "physics.F1.motion": {
+    "id": "physics.F1.motion",
+    "subject": "physics",
+    "tier": "F1",
+    "title": "Motion: Speed, Velocity & Acceleration",
+    "slug": "motion-speed-velocity-acceleration",
+    "core": true,
+    "summary": "Speed is a rate — a ratio of distance to time — so this topic reuses ratio/proportion instead of re-teaching it, then extends to velocity, acceleration, and motion graphs.",
+    "outcomes": [
+      "Define speed as a rate (distance per unit time) and compute average speed",
+      "Distinguish distance from displacement and speed from velocity (scalar vs vector)",
+      "Define acceleration as the rate of change of velocity and compute it",
+      "Read and draw distance-time and velocity-time graphs, and interpret their slopes and areas",
+      "Apply the equations of uniformly accelerated motion to one-dimensional problems",
+      "Convert between m/s and km/h fluently using ratio scaling"
+    ],
+    "estMinutes": 300,
+    "prereqs": [
+      "math.F1.ratio-proportion-percentage"
+    ],
+    "boardMap": {
+      "CBSE": [
+        "Cl.7 Motion & Time",
+        "Cl.9 Motion (kinematics)"
+      ],
+      "ICSE": [
+        "Cl.7-9 Physics: Motion"
+      ],
+      "IB": [
+        "MYP Sciences: Change / Movement"
+      ]
+    },
+    "competitiveTags": [
+      "JEE-Main",
+      "NEET"
+    ],
+    "keywords": [
+      "speed",
+      "velocity",
+      "acceleration",
+      "displacement",
+      "kinematics",
+      "motion graphs",
+      "average speed"
+    ],
+    "notes": "# Motion: Speed, Velocity & Acceleration\n\n> **You already know most of this.** In *Math F1 — Ratio, Proportion & Percentage* you learned that a **rate is a ratio of unlike quantities**. Speed is exactly that: a ratio of distance to time. We are **not** going to re-teach \"divide distance by time\" as if it were new — we're going to *apply* the rate idea you already own to the physical world, then push it further into velocity, acceleration, and graphs. This reuse is deliberate: it's how the program covers physics in less time without losing anything.\n\n## 1. Speed is a rate (the reuse)\n\n$$ \\text{speed} = \\frac{\\text{distance travelled}}{\\text{time taken}} $$\n\nThat fraction is a **rate** — a ratio of unlike quantities (metres and seconds), carrying its units, exactly as you met with price (₹/kg) and density (mass/volume). Everything you learned about rates transfers:\n- **Scaling to convert units** is just simplifying a ratio: $5\\text{ m/s} \\times \\frac{3600\\text{ s}}{1\\text{ h}} \\times \\frac{1\\text{ km}}{1000\\text{ m}} = 18\\text{ km/h}$. (Multiply by 3.6 to go m/s → km/h; divide by 3.6 to go back.)\n- **Average speed is total-over-total**, never the plain average of two speeds — the *exact* trap you met in the ratio quiz.\n\n$$ \\text{average speed} = \\frac{\\text{total distance}}{\\text{total time}}. $$\n\n> **Worked example.** A car does 60 km at 30 km/h, then 60 km at 60 km/h. Average speed? Time = 60/30 + 60/60 = 2 + 1 = 3 h; total distance 120 km; average = 120/3 = **40 km/h** — not 45. Same reasoning as mixing quantities in a ratio.\n\n## 2. Distance vs displacement, speed vs velocity (scalar vs vector)\n\nPhysics adds one idea ratios didn't need: **direction**.\n\n- **Distance** — how much ground you covered (a **scalar**, no direction). Always ≥ 0.\n- **Displacement** — the straight-line change in position, *with direction* (a **vector**). Can be zero even after a long walk if you return to start.\n- **Speed** = distance / time (scalar). **Velocity** = displacement / time (vector — it has direction).\n\n> Walk 3 km east then 3 km west in 2 hours: distance = 6 km, speed = 3 km/h; displacement = 0, velocity = 0. The numbers differ because one tracks *path length*, the other tracks *net change in position*.\n\nThis scalar/vector distinction is the seed of the full vector treatment you'll meet in **Physics I1** — planted here so it's familiar, not formal yet.\n\n## 3. Acceleration is *also* a rate — of velocity this time\n\nThe rate idea now stacks on itself. Acceleration is the **rate of change of velocity**:\n\n$$ a = \\frac{\\text{change in velocity}}{\\text{time taken}} = \\frac{v - u}{t}, $$\n\nwhere $u$ = initial velocity, $v$ = final velocity. Units: $\\frac{\\text{m/s}}{\\text{s}} = \\text{m/s}^2$.\n\n- **Positive** acceleration → speeding up (in the chosen positive direction).\n- **Negative** acceleration (deceleration/retardation) → slowing down.\n- Acceleration is a vector: a car turning a corner at constant *speed* is still accelerating, because its velocity's *direction* is changing.\n\n> **Worked example.** A bike goes from rest to 20 m/s in 5 s. $a = (20 - 0)/5 = 4\\text{ m/s}^2$. Each second it gains 4 m/s.\n\n## 4. Motion graphs — where slope and area tell the story\n\nGraphs turn motion into pictures. This reuses **Data & graphs (Math F1.7)** — reading slopes and areas.\n\n### Distance–time (d–t) graph\n- **Slope = speed.** Steeper line → faster. Horizontal line → at rest (distance not changing).\n- A straight line → constant speed; a curve → changing speed.\n\n### Velocity–time (v–t) graph — the workhorse\n- **Slope = acceleration.** (Rise in velocity over run in time — a rate again.)\n- **Area under the line = distance travelled.** A horizontal line (constant velocity) gives a rectangle: area = v × t = distance. A sloped line gives a triangle/trapezium.\n\n> This \"slope is the rate, area is the accumulation\" pattern is exactly what becomes **derivatives and integrals** in Intermediate. You are seeing calculus in picture form two years before you formalise it — another deliberate reuse.\n\n## 5. The equations of uniformly accelerated motion\n\nWhen acceleration is **constant**, three equations follow directly from the definitions above (no new physics — just algebra applied to \"slope = a\" and \"area = distance\"):\n\n$$ v = u + at \\qquad s = ut + \\tfrac{1}{2}at^2 \\qquad v^2 = u^2 + 2as $$\n\nwhere $s$ = displacement, $u$ = initial velocity, $v$ = final velocity, $a$ = acceleration, $t$ = time.\n\n- The **first** is just the definition of acceleration rearranged.\n- The **second** is the area under a v–t graph (rectangle $ut$ + triangle $\\tfrac12 at^2$).\n- The **third** is the first two combined to remove $t$ — useful when you don't know the time.\n\n> **Worked example.** A car accelerates from 10 m/s at $2\\text{ m/s}^2$ for 4 s.\n> $v = 10 + 2\\times4 = 18\\text{ m/s}$.\n> $s = 10\\times4 + \\tfrac12\\times2\\times4^2 = 40 + 16 = 56\\text{ m}$.\n> Check with the third equation: $v^2 = 10^2 + 2\\times2\\times56 = 100 + 224 = 324$, so $v = 18$. ✓ (Cross-checking with a second equation is a habit worth building.)\n\n## 6. Free fall — one important special case\nNear Earth's surface, objects fall with a constant acceleration $g \\approx 9.8\\text{ m/s}^2$ (often approximated as 10 for quick estimates), ignoring air resistance. Every equation above applies with $a = g$. Drop a stone from rest: after 2 s, $v = gt = 9.8\\times2 = 19.6\\text{ m/s}$; distance $= \\tfrac12 g t^2 = \\tfrac12\\times9.8\\times4 = 19.6\\text{ m}$.\n\n## 7. Summary — what's new vs what's reused\n| Reused from Math F1 | New in this topic |\n|---|---|\n| Rate = ratio of unlike quantities | Direction: scalar vs vector (distance/displacement, speed/velocity) |\n| Average = total ÷ total | Acceleration as rate-of-change of velocity |\n| Unit scaling (m/s ↔ km/h) | Motion graphs: slope = rate, area = distance |\n| Reading slopes/areas of graphs | The three equations of uniform acceleration; free fall |\n\nThe compression is visible right here: about half this topic is *your ratio skills in a new costume*. Master motion and you've also rehearsed the rate thinking that chemistry (rates, concentration) and later calculus will demand.\n",
+    "mistakes": "# Common Mistakes — Motion\n\n### 1. Averaging two speeds directly\n\"30 km/h for half the trip and 60 km/h for the other half → average 45 km/h.\" **Wrong** when the halves are equal *distances*.\n> **Fix:** average speed = total distance ÷ total time, *always*. For equal distances at 30 and 60, it's 40 km/h. Compute the two times and add them. (This is the same \"average of rates\" trap from the ratio topic.)\n\n### 2. Confusing distance with displacement (and speed with velocity)\nReporting velocity as non-zero for a round trip that returns to the start.\n> **Fix:** displacement is *net* change in position with direction; a round trip has zero displacement, hence zero average velocity, even though distance and average speed are not zero.\n\n### 3. Thinking constant speed means zero acceleration — even around a curve\n\"The car's speedometer reads a steady 40, so acceleration is zero.\"\n> **Fix:** velocity includes direction. Turning changes direction, so velocity changes, so there *is* acceleration even at constant speed. Zero acceleration requires constant speed **and** constant direction.\n\n### 4. Mixing up the slope of a d–t graph with a v–t graph\nReading \"area\" off a distance–time graph, or \"slope\" as distance.\n> **Fix:** on a **distance–time** graph, slope = speed (area means nothing). On a **velocity–time** graph, slope = acceleration and **area = distance**. Label which graph you're looking at before extracting anything.\n\n### 5. Using the uniform-acceleration equations when acceleration isn't constant\nApplying $v = u + at$ to a car whose acceleration is changing.\n> **Fix:** $v=u+at$, $s=ut+\\tfrac12at^2$, $v^2=u^2+2as$ hold **only** for constant acceleration. If a graph is curved (a not constant), you can't use them over that stretch.\n\n### 6. Unit inconsistency (mixing km/h and m/s in one equation)\nPlugging a speed in km/h and a time in seconds into the same equation.\n> **Fix:** convert everything to a single system first — usually SI (metres, seconds, m/s, m/s²). Remember ÷3.6 for km/h → m/s.\n\n### 7. Sign errors with deceleration\nTreating a slowing object's acceleration as positive, or forgetting the minus sign.\n> **Fix:** choose a positive direction and stick to it. If the object slows, $a$ has the opposite sign to the velocity. In free fall taking \"up\" as positive, $a = -g$.\n\n### 8. Forgetting the ½ in s = ut + ½at²\nWriting $s = ut + at^2$.\n> **Fix:** the ½ comes from the *triangle* area under the v–t graph. Picture the triangle and the ½ is unforgettable.\n\n### 9. Assuming an object at rest has no acceleration\n\"It's momentarily stopped at the top of its throw, so a = 0 there.\"\n> **Fix:** at the top of a vertical throw, velocity is zero *for an instant* but acceleration is still $g$ downward — that's exactly why it starts falling. Velocity = 0 ≠ acceleration = 0.\n\n### 10. Reading the area under a v–t graph as speed instead of distance\n> **Fix:** area = (velocity) × (time) = distance/displacement. The *height* is velocity; the *area* is how far it went.\n",
+    "tricks": "# Tricks & Problem-Solving Techniques — Motion\n\n### 1. The ×3.6 shortcut for m/s ↔ km/h\nMultiply m/s by **3.6** to get km/h; divide by 3.6 to reverse.\n> 25 m/s × 3.6 = 90 km/h. (Because 3600 s/h ÷ 1000 m/km = 3.6.) Never derive the whole ratio under time pressure — just remember 3.6.\n\n### 2. List u, v, a, s, t before touching an equation\nKinematics problems are \"given three of {u, v, a, s, t}, find another.\" Write the five symbols, fill in what's known, and pick the equation that contains your knowns + unknown:\n- no $s$? → $v = u + at$\n- no $v$? → $s = ut + \\tfrac12at^2$\n- no $t$? → $v^2 = u^2 + 2as$\n\nThis turns every problem into pattern-matching instead of guessing.\n\n### 3. \"Slope is the rate, area is the amount\" — read graphs instantly\nOn any motion graph: the **slope** tells you the rate (speed on d–t, acceleration on v–t); the **area** under a v–t line tells you the distance. Two phrases handle every graph question.\n\n### 4. Use the v–t graph to derive equations you forget\nForgot $s = ut + \\tfrac12 at^2$? Draw the v–t trapezium: a rectangle of height $u$ (area $ut$) plus a triangle of height $at$ (area $\\tfrac12 \\cdot t \\cdot at = \\tfrac12 at^2$). Add them — there's your equation, reconstructed from a picture.\n\n### 5. Average velocity for constant acceleration = (u+v)/2\nWhen acceleration is constant, the average velocity is just the midpoint of start and end: $\\bar v = \\frac{u+v}{2}$. So $s = \\frac{u+v}{2}\\,t$ — often the fastest route when you know $u$, $v$, and $t$.\n\n### 6. Free fall: use g ≈ 10 for a quick estimate, 9.8 for accuracy\nFor mental checks, $g = 10\\text{ m/s}^2$ makes numbers clean (drop for 3 s → v ≈ 30 m/s). Switch to 9.8 for a final answer if precision is asked.\n\n### 7. Symmetry of vertical throws\nThrow something straight up: time up = time down, and it returns to your hand at the **same speed** it left (opposite direction). Use the symmetry to halve the work — find the time to the top, double it for total flight.\n\n### 8. Cross-check with a second equation\nAfter solving for $v$ with $v = u + at$, verify with $v^2 = u^2 + 2as$. If they disagree, you slipped a sign or a unit. Two-equation confirmation catches most exam errors cheaply.\n\n### 9. Sanity-bracket the answer\nBefore trusting a computed speed, ask \"is this physically sane?\" A dropped stone reaching 500 m/s after 2 s is impossible ($g\\times2 ≈ 20$ m/s). Estimation guards against decimal slips — the same habit you built in the ratio topic.\n\n### 10. Direction bookkeeping with signs\nPick + direction once, write every vector (u, v, a, s) with the correct sign, and let the algebra handle the rest. A negative answer for displacement just means \"in the negative direction\" — that's information, not an error.\n",
+    "memoryAids": "# Memory & Retention Aids — Motion\n\n## Core anchors\n\n- **\"Speed is a rate — it's the ratio topic in a lab coat.\"** Distance ÷ time, a ratio of unlike quantities.\n- **\"Average speed = total distance ÷ total time.\"** Never the plain average of two speeds.\n- **\"Acceleration is the rate of a rate.\"** How fast velocity changes.\n- **\"Slope is the rate; area is the amount.\"** The two-phrase key to every motion graph.\n\n## Mnemonics\n\n- **\"3.6 goes up, 3.6 comes down.\"** ×3.6 for m/s → km/h, ÷3.6 for km/h → m/s.\n- **SUVAT** — the five kinematics symbols: **s** (displacement), **u** (initial velocity), **v** (final velocity), **a** (acceleration), **t** (time). List them, fill three, find the fourth.\n- **\"Don't lose the half\"** — $s = ut + \\tfrac{1}{2}at^2$. The ½ is the triangle under the v–t graph.\n- **\"Scalar = size, Vector = size + direction.\"** Distance/speed are scalars; displacement/velocity/acceleration are vectors.\n\n## Visualization\n\n- **The v–t graph is your calculator.** Any uniform-acceleration problem = a trapezium. Height = velocity, slope = acceleration, area = distance. Draw it and read off answers; you rarely need to *remember* the equations because the picture regenerates them.\n- **The round-trip picture.** Walk out and back: the path (distance) is long, but the arrow from start to finish (displacement) is zero. Fixes the scalar/vector confusion permanently.\n- **Top-of-the-throw freeze-frame.** At the peak, the ball is momentarily still (v = 0) but gravity is still pulling (a = g ≠ 0) — which is exactly why it drops. Cements \"v = 0 does not mean a = 0.\"\n\n## Spaced-repetition prompts\n_(Resurfaced at 1 → 3 → 7 → 16 → 35 days.)_\n\n1. Convert 90 km/h to m/s. (→ 90 ÷ 3.6 = 25 m/s)\n2. A car goes 0 → 30 m/s in 6 s. Acceleration? (→ 5 m/s²)\n3. On a velocity–time graph, what does the slope represent? The area? (→ acceleration; distance)\n4. A stone dropped from rest falls for 3 s. Speed just before landing (g = 10)? (→ 30 m/s)\n5. You run 400 m around a track back to the start in 80 s. Average speed? Average velocity? (→ 5 m/s; 0, since displacement is 0)\n6. Which equation has no time in it? (→ v² = u² + 2as)\n7. Why is a car rounding a bend at constant speed still accelerating? (→ direction of velocity changes)\n\n## The one-line recall card\n> **Speed is a rate (a ratio with units); velocity and displacement carry direction; acceleration is the rate of change of velocity; on graphs slope = rate and area = distance; for constant a use SUVAT — and don't lose the ½.**\n",
+    "quiz": {
+      "topicId": "physics.F1.motion",
+      "levels": {
+        "1": [
+          {
+            "id": "p1l1q1",
+            "type": "numeric",
+            "prompt": "A runner covers 100 m in 20 s. What is the average speed in m/s?",
+            "answer": 5,
+            "tolerance": 0,
+            "unit": "m/s",
+            "explanation": "Speed = distance ÷ time = 100 ÷ 20 = 5 m/s. Speed is a rate — a ratio of distance to time."
+          },
+          {
+            "id": "p1l1q2",
+            "type": "mcq",
+            "prompt": "Which quantity has a direction (is a vector)?",
+            "choices": [
+              "Distance",
+              "Speed",
+              "Velocity",
+              "Time"
+            ],
+            "answer": 2,
+            "explanation": "Velocity is displacement per time and carries direction (a vector). Distance, speed and time are scalars."
+          },
+          {
+            "id": "p1l1q3",
+            "type": "numeric",
+            "prompt": "A car's velocity changes from 0 to 20 m/s in 4 s. What is its acceleration in m/s²?",
+            "answer": 5,
+            "tolerance": 0,
+            "unit": "m/s^2",
+            "explanation": "a = (v − u)/t = (20 − 0)/4 = 5 m/s². Acceleration is the rate of change of velocity."
+          },
+          {
+            "id": "p1l1q4",
+            "type": "numeric",
+            "prompt": "Convert 72 km/h to m/s.",
+            "answer": 20,
+            "tolerance": 0,
+            "unit": "m/s",
+            "explanation": "Divide by 3.6: 72 ÷ 3.6 = 20 m/s. Unit conversion is ratio scaling."
+          },
+          {
+            "id": "p1l1q5",
+            "type": "mcq",
+            "prompt": "On a distance–time graph, a horizontal (flat) line means the object is:",
+            "choices": [
+              "moving at constant speed",
+              "accelerating",
+              "at rest",
+              "moving backwards"
+            ],
+            "answer": 2,
+            "explanation": "Flat line = distance not changing = at rest. The slope (which is zero here) equals the speed."
+          },
+          {
+            "id": "p1l1q6",
+            "type": "mcq",
+            "prompt": "On a velocity–time graph, the slope of the line represents:",
+            "choices": [
+              "distance",
+              "speed",
+              "acceleration",
+              "time"
+            ],
+            "answer": 2,
+            "explanation": "Slope of a v–t graph = change in velocity ÷ time = acceleration. (The AREA under it would be the distance.)"
+          }
+        ],
+        "2": [
+          {
+            "id": "p1l2q1",
+            "type": "numeric",
+            "prompt": "A car starts at 8 m/s and accelerates at 3 m/s² for 5 s. What is its final velocity in m/s?",
+            "answer": 23,
+            "tolerance": 0,
+            "unit": "m/s",
+            "explanation": "v = u + at = 8 + 3×5 = 23 m/s."
+          },
+          {
+            "id": "p1l2q2",
+            "type": "numeric",
+            "prompt": "A car starts from rest and accelerates at 2 m/s² for 6 s. How far does it travel, in metres?",
+            "answer": 36,
+            "tolerance": 0,
+            "unit": "m",
+            "explanation": "s = ut + ½at² = 0 + ½×2×6² = ½×2×36 = 36 m. Don't lose the ½."
+          },
+          {
+            "id": "p1l2q3",
+            "type": "numeric",
+            "prompt": "A stone is dropped from rest and falls for 3 s. Using g = 10 m/s², what is its speed just before landing, in m/s?",
+            "answer": 30,
+            "tolerance": 0,
+            "unit": "m/s",
+            "explanation": "v = u + gt = 0 + 10×3 = 30 m/s. Free fall uses the same equations with a = g."
+          },
+          {
+            "id": "p1l2q4",
+            "type": "numeric",
+            "prompt": "A cyclist rides 3 km east then 3 km west, taking 30 minutes total. What is the average velocity in km/h?",
+            "answer": 0,
+            "tolerance": 0,
+            "unit": "km/h",
+            "explanation": "Displacement = 0 (returns to start), so average velocity = 0, even though average speed = 6 km / 0.5 h = 12 km/h."
+          },
+          {
+            "id": "p1l2q5",
+            "type": "numeric",
+            "prompt": "A train decelerates from 30 m/s to 10 m/s over a distance of 200 m. What is its acceleration in m/s²? (Give the magnitude.)",
+            "answer": 2,
+            "tolerance": 0,
+            "unit": "m/s^2",
+            "explanation": "v² = u² + 2as → 10² = 30² + 2a(200) → 100 = 900 + 400a → a = −2 m/s². Magnitude 2 m/s² (deceleration)."
+          },
+          {
+            "id": "p1l2q6",
+            "type": "numeric",
+            "prompt": "A v–t graph shows an object moving at a constant 12 m/s for 8 s. What distance does it cover, in metres?",
+            "answer": 96,
+            "tolerance": 0,
+            "unit": "m",
+            "explanation": "Area under the v–t line = 12 × 8 = 96 m. Area = distance."
+          }
+        ],
+        "3": [
+          {
+            "id": "p1l3q1",
+            "type": "numeric",
+            "prompt": "A car covers the first half of a journey at 40 km/h and the second half (equal distance) at 60 km/h. What is its average speed for the whole journey, in km/h? (Give to one decimal place.)",
+            "answer": 48,
+            "tolerance": 0.2,
+            "unit": "km/h",
+            "explanation": "For equal distances, average = 2·v1·v2/(v1+v2) = 2·40·60/100 = 48 km/h — the harmonic mean, NOT 50. Same total-over-total logic as the ratio topic.",
+            "competitive": true
+          },
+          {
+            "id": "p1l3q2",
+            "type": "numeric",
+            "prompt": "A ball is thrown straight up at 20 m/s (g = 10 m/s²). How high does it rise, in metres?",
+            "answer": 20,
+            "tolerance": 0,
+            "unit": "m",
+            "explanation": "At the top v = 0. v² = u² − 2gs → 0 = 20² − 2×10×s → s = 400/20 = 20 m. At the peak velocity is 0 but acceleration is still g."
+          },
+          {
+            "id": "p1l3q3",
+            "type": "numeric",
+            "prompt": "A ball thrown straight up at 20 m/s (g = 10 m/s²) — what is its total time in the air before returning to the throw height, in seconds?",
+            "answer": 4,
+            "tolerance": 0,
+            "unit": "s",
+            "explanation": "Time up = u/g = 20/10 = 2 s; by symmetry time down = 2 s; total = 4 s. Use the up/down symmetry to halve the work."
+          },
+          {
+            "id": "p1l3q4",
+            "type": "mcq",
+            "prompt": "A car moving at constant 50 km/h rounds a circular bend. During the turn, the car is:",
+            "choices": [
+              "not accelerating, since speed is constant",
+              "accelerating, because the direction of velocity changes",
+              "decelerating",
+              "at rest relative to the road"
+            ],
+            "answer": 1,
+            "explanation": "Velocity is a vector. Constant speed but changing direction means velocity changes, so there IS acceleration (centripetal — studied fully in Physics I1).",
+            "competitive": true
+          },
+          {
+            "id": "p1l3q5",
+            "type": "numeric",
+            "prompt": "A body starts from rest with uniform acceleration and travels a distance s in the first 4 s. How many times s does it travel in total after 8 s (i.e., find total distance ÷ s)?",
+            "answer": 4,
+            "tolerance": 0,
+            "explanation": "s ∝ t² from rest (s = ½at²). Distance in 8 s vs 4 s scales as 8²/4² = 64/16 = 4. So total after 8 s is 4s. Recognising the t² proportionality is the shortcut.",
+            "competitive": true
+          }
+        ]
+      }
+    }
+  }
+}

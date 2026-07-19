@@ -1,0 +1,27 @@
+{
+  "id": "cs.F1.python-variables-types-expressions",
+  "subject": "cs",
+  "tier": "F1",
+  "title": "Python: Variables, Types & Expressions",
+  "slug": "python-variables-types-expressions",
+  "core": true,
+  "order": 3,
+  "estMinutes": 240,
+  "summary": "The first real programming topic: what a variable is, the core data types, how expressions are evaluated, and how to reason about them — assuming zero prior coding experience.",
+  "outcomes": [
+    "Explain a variable as a name bound to a value, and use assignment correctly",
+    "Identify and use the core built-in types: int, float, str, bool",
+    "Build and evaluate arithmetic, string, comparison and boolean expressions with correct precedence",
+    "Predict a program's output by tracing variable state step by step",
+    "Convert between types deliberately and avoid accidental type errors",
+    "Read tracebacks well enough to fix a type-related error"
+  ],
+  "prereqs": [],
+  "boardMap": {
+    "CBSE": ["Cl.6-8 CS/IT foundations", "Cl.11 CS: Python data types & operators"],
+    "ICSE": ["Cl.9-10 Computer Applications: variables & data types"],
+    "IB": ["MYP Design", "DP Computer Science SL: programming fundamentals"]
+  },
+  "competitiveTags": [],
+  "keywords": ["python", "variable", "assignment", "data type", "int", "float", "str", "bool", "expression", "operator precedence", "type conversion"]
+}

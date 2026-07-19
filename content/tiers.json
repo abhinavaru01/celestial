@@ -1,0 +1,18 @@
+{
+  "tiers": [
+    { "id": "F1", "tier": "Foundation", "subLevel": 1, "order": 1, "gateId": "gate.F1", "label": "Foundation 1" },
+    { "id": "F2", "tier": "Foundation", "subLevel": 2, "order": 2, "gateId": "gate.F2", "label": "Foundation 2" },
+    { "id": "I1", "tier": "Intermediate", "subLevel": 1, "order": 3, "gateId": "gate.I1", "label": "Intermediate 1" },
+    { "id": "I2", "tier": "Intermediate", "subLevel": 2, "order": 4, "gateId": "gate.I2", "label": "Intermediate 2" },
+    { "id": "A1", "tier": "Advanced", "subLevel": 1, "order": 5, "gateId": "gate.A1", "label": "Advanced 1" },
+    { "id": "A2", "tier": "Advanced", "subLevel": 2, "order": 6, "gateId": "gate.A2", "label": "Advanced 2" }
+  ],
+  "subjects": [
+    { "id": "math", "title": "Mathematics", "color": "#4f46e5" },
+    { "id": "physics", "title": "Physics", "color": "#0891b2" },
+    { "id": "chemistry", "title": "Chemistry", "color": "#16a34a" },
+    { "id": "biology", "title": "Biology", "color": "#ca8a04" },
+    { "id": "english", "title": "English", "color": "#db2777" },
+    { "id": "cs", "title": "Computer Science", "color": "#ea580c" }
+  ]
+}
