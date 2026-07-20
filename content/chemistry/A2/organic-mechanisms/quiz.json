@@ -8,7 +8,7 @@
         "type": "mcq",
         "prompt": "A nucleophile is:",
         "choices": [
-          "electron-rich",
+          "electron-rich (a donor)",
           "electron-poor",
           "always positive",
           "a catalyst"
@@ -21,15 +21,15 @@
       {
         "id": "chemistry_A2_organic_mechanisms_q2",
         "type": "mcq",
-        "prompt": "In mechanisms, a curly arrow represents the movement of:",
+        "prompt": "OH⁻ + CH₃Br → CH₃OH + Br⁻ is:",
         "choices": [
-          "an electron pair",
-          "a proton",
-          "an atom",
-          "energy"
+          "nucleophilic substitution",
+          "electrophilic addition",
+          "combustion",
+          "oxidation"
         ],
         "answer": 0,
-        "explanation": "Curly arrows show electron-pair movement."
+        "explanation": "The nucleophile OH⁻ substitutes for Br⁻."
       }
     ]
   }

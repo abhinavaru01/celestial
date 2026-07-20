@@ -4,7 +4,7 @@
 
 - Using Celsius instead of Kelvin.
 
-- Forgetting n (moles) links to the mole concept.
+- Mixing up which quantity is held constant.
 
-- Mixing up Boyle and Charles conditions.
+- Forgetting P and V are inversely related at fixed T.
 

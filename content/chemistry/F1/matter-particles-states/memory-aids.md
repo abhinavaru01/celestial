@@ -6,5 +6,5 @@
 
 - "Heat spreads particles apart."
 
-- Mass never changes on a state change.
+- Latent heat breaks forces — temperature stays flat.
 

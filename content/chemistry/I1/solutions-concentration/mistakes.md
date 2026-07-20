@@ -4,7 +4,7 @@
 
 - Confusing moles with molarity.
 
-- Forgetting volume must be in litres for molarity.
+- Using mL instead of L for molarity.
 
 - Thinking dilution changes the amount of solute (it does not).
 

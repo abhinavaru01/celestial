@@ -8,11 +8,11 @@
   "order": 1,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Protons, neutrons and electrons; atomic number, mass number and isotopes.",
+  "summary": "Protons, neutrons and electrons; atomic number, mass number, isotopes and relative atomic mass.",
   "outcomes": [
-    "Describe subatomic particles",
+    "Describe subatomic particles and their charges",
     "Use atomic number and mass number",
-    "Explain isotopes"
+    "Explain isotopes and compute relative atomic mass"
   ],
   "prereqs": [
     "chemistry.F1.physical-chemical-change"
@@ -38,6 +38,6 @@
     "neutron",
     "electron",
     "isotope",
-    "atomic number"
+    "relative atomic mass"
   ]
 }

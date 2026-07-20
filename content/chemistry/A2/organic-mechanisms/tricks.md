@@ -2,9 +2,9 @@
 
 > Faster, cleaner ways to handle this topic.
 
-- Curly arrows always start from an electron pair.
+- Curly arrows start from an electron pair.
 
-- Nucleophile = electron-rich attacker; electrophile = electron-poor target.
+- Nucleophile = electron-rich attacker.
 
-- Classify the pathway (substitution/addition/elimination) to predict products.
+- Classify the pathway to predict products.
 

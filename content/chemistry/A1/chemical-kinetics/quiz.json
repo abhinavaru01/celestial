@@ -5,16 +5,11 @@
     "2": [
       {
         "id": "chemistry_A1_chemical_kinetics_q2",
-        "type": "mcq",
-        "prompt": "A higher activation energy makes a reaction:",
-        "choices": [
-          "slower",
-          "faster",
-          "unchanged",
-          "spontaneous"
-        ],
-        "answer": 0,
-        "explanation": "Fewer collisions have enough energy, so it is slower."
+        "type": "numeric",
+        "prompt": "First-order k = 0.1386 s⁻¹. Half-life (s)?",
+        "answer": 5,
+        "tolerance": 0.1,
+        "explanation": "t½ = 0.693/0.1386 = 5 s."
       }
     ],
     "3": [
@@ -26,10 +21,10 @@
           "experiment",
           "the balanced equation",
           "the molar mass",
-          "the temperature only"
+          "temperature only"
         ],
         "answer": 0,
-        "explanation": "Order is found experimentally, not from coefficients."
+        "explanation": "Order is found experimentally."
       }
     ]
   }

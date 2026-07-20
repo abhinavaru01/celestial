@@ -2,9 +2,9 @@
 
 > Every learner hits these — spot them before they cost you.
 
-- Forgetting transition metals have variable oxidation states.
+- Forgetting variable oxidation states.
 
 - Confusing ligands with counter-ions.
 
-- Ignoring the link between d-electrons and colour.
+- Ignoring the d-orbital-splitting origin of colour.
 

@@ -8,10 +8,10 @@
   "order": 1,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "The particle model of matter, the three states, and changes of state.",
+  "summary": "The particle (kinetic-molecular) model of matter, the three states, and changes of state — the microscopic picture behind all of chemistry.",
   "outcomes": [
-    "Describe matter using the particle model",
-    "Explain the three states and changes between them",
+    "Describe matter using the kinetic-particle model",
+    "Explain the three states and changes between them by particle arrangement and energy",
     "Distinguish pure substances from mixtures"
   ],
   "prereqs": [],
@@ -28,13 +28,14 @@
     ]
   },
   "competitiveTags": [
-    "NEET"
+    "NEET",
+    "JEE-Main"
   ],
   "keywords": [
     "matter",
     "particle model",
     "states",
-    "melting",
-    "boiling"
+    "latent heat",
+    "kinetic theory"
   ]
 }

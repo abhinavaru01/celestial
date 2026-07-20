@@ -2,9 +2,9 @@
 
 > Faster, cleaner ways to handle this topic.
 
-- PV = nRT ties pressure, volume, moles and temperature.
+- PV = nRT ties everything together.
 
-- Always use Kelvin.
+- Always use kelvin.
 
-- Boyle: P and V inverse; Charles: V and T direct.
+- Boyle: P↕V; Charles: V↕T.
 

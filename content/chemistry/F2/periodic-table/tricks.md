@@ -2,9 +2,9 @@
 
 > Faster, cleaner ways to handle this topic.
 
-- Same group → similar chemistry (same outer electrons).
+- Same group → similar chemistry (same valence electrons).
 
-- Metals on the left, non-metals on the right.
+- Metals left, non-metals right.
 
-- Reactivity trends: predict rather than memorise.
+- Group 1 reactivity increases down; Group 17 decreases down.
 

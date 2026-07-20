@@ -8,11 +8,11 @@
   "order": 1,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Ionic, covalent and metallic bonding, and electron-dot structures.",
+  "summary": "Ionic, covalent and metallic bonding from the drive for full outer shells, and how bonding type dictates properties.",
   "outcomes": [
     "Distinguish ionic, covalent, metallic bonds",
-    "Draw electron-dot structures",
-    "Relate bonding to properties"
+    "Draw electron-dot (Lewis) structures",
+    "Relate bonding to physical properties"
   ],
   "prereqs": [
     "chemistry.F2.stoichiometry-intro",
@@ -38,6 +38,6 @@
     "covalent",
     "metallic",
     "bonding",
-    "electron-dot"
+    "Lewis structure"
   ]
 }

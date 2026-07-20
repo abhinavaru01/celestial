@@ -14,22 +14,18 @@
           "2 : 3"
         ],
         "answer": 0,
-        "explanation": "Coefficients 2 and 2 give a 1:1 ratio."
+        "explanation": "Coefficients 2 and 2 give 1:1."
       }
     ],
     "3": [
       {
         "id": "chemistry_F2_stoichiometry_intro_q2",
-        "type": "mcq",
-        "prompt": "The reactant that runs out first is called the:",
-        "choices": [
-          "limiting reactant",
-          "excess reactant",
-          "catalyst",
-          "product"
-        ],
-        "answer": 0,
-        "explanation": "It limits how much product can form."
+        "type": "numeric",
+        "prompt": "For N₂ + 3H₂ → 2NH₃, moles of NH₃ from 3 mol H₂ (excess N₂)?",
+        "answer": 2,
+        "tolerance": 0,
+        "unit": "mol",
+        "explanation": "H₂ : NH₃ = 3 : 2 → 2 mol NH₃."
       }
     ]
   }

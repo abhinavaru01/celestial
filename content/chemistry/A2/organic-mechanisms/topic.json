@@ -8,11 +8,11 @@
   "order": 1,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Nucleophiles, electrophiles and key reaction pathways — reasoned, not memorised.",
+  "summary": "Nucleophiles, electrophiles, curly-arrow mechanisms and the major pathways — reasoned, not memorised.",
   "outcomes": [
     "Identify nucleophiles and electrophiles",
-    "Follow reaction mechanisms",
-    "Predict organic products by reasoning"
+    "Follow substitution/addition/elimination mechanisms",
+    "Predict products by electron flow"
   ],
   "prereqs": [
     "chemistry.A1.periodic-properties",
@@ -39,6 +39,6 @@
     "nucleophile",
     "electrophile",
     "curly arrows",
-    "organic"
+    "substitution"
   ]
 }

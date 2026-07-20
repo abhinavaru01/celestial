@@ -15,21 +15,17 @@
         ],
         "answer": 0,
         "explanation": "Anode = oxidation; cathode = reduction."
-      },
-      {
-        "id": "chemistry_A1_electrochemistry_q2",
-        "type": "mcq",
-        "prompt": "Electrolysis is used to:",
-        "choices": [
-          "drive a non-spontaneous reaction",
-          "produce spontaneous electricity",
-          "stop reactions",
-          "measure pH"
-        ],
-        "answer": 0,
-        "explanation": "It uses electrical energy to force a reaction."
       }
     ],
-    "3": []
+    "3": [
+      {
+        "id": "chemistry_A1_electrochemistry_q2",
+        "type": "numeric",
+        "prompt": "Q = 9650 C passes. Moles of electrons (F = 96500 C/mol)?",
+        "answer": 0.1,
+        "tolerance": 0.001,
+        "explanation": "n = Q/F = 9650/96500 = 0.1 mol."
+      }
+    ]
   }
 }

@@ -1,6 +1,6 @@
 # Force & Newton's Laws (Introductory)
 
-> Forces as pushes and pulls, and Newton's three laws applied quantitatively in one dimension.
+> [!intro] Forces as pushes and pulls, and Newton's three laws applied quantitatively in one dimension.
 
 ## The three laws
 
@@ -10,6 +10,18 @@ A body stays at rest or constant velocity unless a net force acts (1st law); for
 
 It is the net (resultant) force that causes acceleration. Balanced forces mean no acceleration — not necessarily no motion.
 
+```formula Key formulas
+F = ma
+Net force = 0 ⇒ constant velocity (1st law)
+Action = −Reaction (3rd law, on different bodies)
+Weight W = mg
+```
+
+> [!example] **Worked example**
+> **Problem.** A 4 kg block accelerates at 2.5 m/s². Find the net force.
+> >
+> > **Solution.** F = ma = 4 × 2.5 = 10 N.
+
 ## What you should be able to do
 
 - State and apply Newton's three laws
@@ -18,4 +30,4 @@ It is the net (resultant) force that causes acceleration. Balanced forces mean n
 
 ---
 
-_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._
+_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._

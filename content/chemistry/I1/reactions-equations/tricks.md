@@ -2,9 +2,9 @@
 
 > Faster, cleaner ways to handle this topic.
 
-- OIL RIG: Oxidation Is Loss, Reduction Is Gain (of electrons).
+- OIL RIG for electron transfer.
 
-- In ionic equations, cancel spectator ions.
+- Cancel spectator ions for net ionic equations.
 
 - A more reactive metal displaces a less reactive one.
 

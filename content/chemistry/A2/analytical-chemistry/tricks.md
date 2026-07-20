@@ -2,9 +2,9 @@
 
 > Faster, cleaner ways to handle this topic.
 
-- Titrate to a sharp colour change; repeat for concordant results.
+- Titrate to a sharp colour change; use concordant titres.
 
-- Flame colours identify metal ions qualitatively.
+- n = CV, then apply the mole ratio.
 
-- Report measurements with their uncertainty.
+- Report measurements with uncertainty.
 

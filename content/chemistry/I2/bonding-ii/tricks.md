@@ -2,9 +2,9 @@
 
 > Faster, cleaner ways to handle this topic.
 
-- Electron pairs (including lone pairs) spread to minimise repulsion.
+- Count all electron pairs (incl. lone) for shape.
 
-- Symmetric shapes can be non-polar even with polar bonds.
+- Symmetric molecules can be non-polar even with polar bonds.
 
-- Hydrogen bonding raises boiling points sharply (e.g., water).
+- Hydrogen bonding gives anomalously high boiling points.
 

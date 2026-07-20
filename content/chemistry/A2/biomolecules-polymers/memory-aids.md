@@ -2,9 +2,9 @@
 
 > How to remember this — and keep it.
 
-- "Monomer → polymer (many units)."
+- "Monomer → polymer."
 
-- "Life's molecules: carbs, proteins, lipids, nucleic acids."
+- "Addition loses nothing; condensation loses water."
 
 - Structure dictates function.
 

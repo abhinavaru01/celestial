@@ -4,7 +4,7 @@
 
 - Metal + non-metal → ionic; non-metal + non-metal → covalent.
 
-- Count outer electrons to predict bonding.
+- Count valence electrons to predict bonding.
 
-- High melting point + conducts when molten → ionic.
+- High melting + conducts molten → ionic.
 

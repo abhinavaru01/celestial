@@ -2,7 +2,7 @@
 
 > Every learner hits these — spot them before they cost you.
 
-- Including pure solids/liquids in the K expression.
+- Including pure solids/liquids in K.
 
 - Forgetting to raise concentrations to their coefficients.
 

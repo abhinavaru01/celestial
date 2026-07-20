@@ -1,6 +1,6 @@
 # Reproduction
 
-> Asexual and sexual reproduction, and the human reproductive system.
+> [!intro] Asexual and sexual reproduction, and the human reproductive system.
 
 ## Two strategies
 
@@ -10,6 +10,17 @@ Asexual reproduction makes identical offspring from one parent (fast, no variati
 
 Sexual reproduction in humans joins sperm and egg; the resulting variation is why siblings differ. This links directly to later genetics.
 
+```formula Key facts
+Asexual: 1 parent, identical offspring
+Sexual: 2 parents, gametes, variation
+Gametes carry half the genetic information
+```
+
+> [!example] **Worked example**
+> **Problem.** Why do offspring from sexual reproduction show variation?
+> >
+> > **Solution.** They combine genes from two parents; the random mix of maternal and paternal alleles produces new combinations.
+
 ## What you should be able to do
 
 - Compare asexual and sexual reproduction
@@ -18,4 +29,4 @@ Sexual reproduction in humans joins sperm and egg; the resulting variation is wh
 
 ---
 
-_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._
+_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._

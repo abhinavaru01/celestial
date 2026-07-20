@@ -1,21 +1,32 @@
 # Energetics (Thermochemistry)
 
-> Exothermic and endothermic reactions, enthalpy, and an introduction to Hess's law.
+> [!intro] Exothermic and endothermic reactions, enthalpy change, bond energies and Hess's law.
 
-## Energy in reactions
+## Enthalpy change
 
-Reactions release energy (exothermic, ΔH negative) or absorb it (endothermic, ΔH positive). Bond breaking costs energy; bond making releases it.
+Reactions release energy (exothermic, ΔH negative) or absorb it (endothermic, ΔH positive). Breaking bonds costs energy; making bonds releases it.
 
-## Hess's law
+## Bond energies and Hess
 
-The total enthalpy change is the same regardless of the route taken — because energy is conserved. This lets us add known steps to find unknown enthalpies.
+ΔH ≈ Σ(bonds broken) − Σ(bonds made). Hess's law: total ΔH is the same by any route (energy is conserved), so you can add known steps to find an unknown ΔH.
+
+```formula Key formulas
+ΔH < 0 exothermic; ΔH > 0 endothermic
+ΔH ≈ Σ(bond energies broken) − Σ(bond energies made)
+Hess's law: ΔH is route-independent (add steps)
+```
+
+> [!example] **Worked example**
+> **Problem.** For H₂ + Cl₂ → 2HCl, broken: H–H(436) + Cl–Cl(242); made: 2×H–Cl(431) kJ/mol. Find ΔH.
+> >
+> > **Solution.** ΔH = (436 + 242) − (2×431) = 678 − 862 = −184 kJ/mol → exothermic.
 
 ## What you should be able to do
 
-- Classify reactions as exo/endothermic
-- Interpret enthalpy changes
-- Apply Hess's law (intro)
+- Classify reactions by ΔH sign
+- Estimate ΔH from bond energies
+- Apply Hess's law
 
 ---
 
-_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._
+_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._

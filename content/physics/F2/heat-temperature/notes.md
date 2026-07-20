@@ -1,6 +1,6 @@
 # Heat & Temperature
 
-> The particle model of heat, temperature vs thermal energy, transfer methods and specific heat.
+> [!intro] The particle model of heat, temperature vs thermal energy, transfer methods and specific heat.
 
 ## Heat vs temperature
 
@@ -10,6 +10,17 @@ Temperature measures average particle kinetic energy; heat is energy transferred
 
 Specific heat capacity is the energy to raise 1 kg by 1°C. Q = mcΔT lets you compute heating and cooling quantitatively.
 
+```formula Key formulas
+Q = mcΔT
+Temperature ∝ average particle KE
+Radiation needs no medium; convection needs a fluid
+```
+
+> [!example] **Worked example**
+> **Problem.** Heat needed to raise 0.5 kg of water (c = 4200) by 20°C?
+> >
+> > **Solution.** Q = mcΔT = 0.5 × 4200 × 20 = 42000 J.
+
 ## What you should be able to do
 
 - Distinguish heat from temperature
@@ -18,4 +29,4 @@ Specific heat capacity is the energy to raise 1 kg by 1°C. Q = mcΔT lets you c
 
 ---
 
-_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._
+_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._

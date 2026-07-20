@@ -1,6 +1,6 @@
 # Number Sense & Estimation
 
-> Place value, negative numbers, orders of magnitude, mental math and the discipline of estimating before computing.
+> [!intro] Place value, negative numbers, orders of magnitude, mental math and the discipline of estimating before computing.
 
 ## The number line as one model
 
@@ -14,6 +14,17 @@ Rounding each number to one significant figure gives a quick "ballpark" you can 
 
 Thinking in powers of ten (is this in the tens, thousands, millions?) lets you reason about very large or small quantities without getting lost in digits.
 
+```formula Key formulas
+a − b on the number line: start at a, move |b| left
+−(−x) = x
+Estimate: round each value to 1 significant figure first
+```
+
+> [!example] **Worked example**
+> **Problem.** Estimate 6120 ÷ 29 to check a calculator answer of 21.1.
+> >
+> > **Solution.** Round: 6000 ÷ 30 = 200. The exact answer should be ~200, so 21.1 is wrong by a factor of 10 — the decimal slipped. Correct answer ≈ 211.
+
 ## What you should be able to do
 
 - Work fluently with negative numbers and place value
@@ -22,4 +33,4 @@ Thinking in powers of ten (is this in the tens, thousands, millions?) lets you r
 
 ---
 
-_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._
+_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._

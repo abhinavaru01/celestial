@@ -1,6 +1,6 @@
 # Calculus: Limits & Differentiation
 
-> Limits made precise, the rules of differentiation, and applications like optimisation and related rates.
+> [!intro] Limits made precise, the rules of differentiation, and applications like optimisation and related rates.
 
 ## Limits underpin calculus
 
@@ -10,6 +10,18 @@ A limit describes what a function approaches near a point, even where it is unde
 
 The product, quotient and chain rules extend the power rule to any combination. The chain rule — differentiate outer, times derivative of inner — is the workhorse for composite functions.
 
+```formula Key formulas
+Product: (uv)′ = u′v + uv′
+Quotient: (u/v)′ = (u′v − uv′)/v²
+Chain: (f(g(x)))′ = f′(g(x))·g′(x)
+Max/min where f′(x) = 0
+```
+
+> [!example] **Worked example**
+> **Problem.** Differentiate y = (2x + 1)⁴.
+> >
+> > **Solution.** Chain rule: dy/dx = 4(2x + 1)³ · 2 = 8(2x + 1)³.
+
 ## What you should be able to do
 
 - Evaluate limits
@@ -18,4 +30,4 @@ The product, quotient and chain rules extend the power rule to any combination. 
 
 ---
 
-_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._
+_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._

@@ -2,7 +2,7 @@
 
 > Every learner hits these — spot them before they cost you.
 
-- Confusing aldehydes and ketones (position of the C=O).
+- Confusing aldehydes and ketones (position of C=O).
 
 - Forgetting carboxylic acids are acidic.
 

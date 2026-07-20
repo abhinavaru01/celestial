@@ -4,7 +4,7 @@
 
 - Memorising products without the mechanism.
 
-- Confusing nucleophiles (electron donors) and electrophiles.
+- Confusing nucleophiles (donors) with electrophiles.
 
-- Drawing curly arrows from positive to negative (they go from electrons).
+- Drawing curly arrows from positive to negative (they start from electrons).
 

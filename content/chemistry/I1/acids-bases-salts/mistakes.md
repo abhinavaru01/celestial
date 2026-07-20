@@ -4,7 +4,7 @@
 
 - Thinking higher pH means more acidic (it is less).
 
-- Forgetting neutralisation always produces water.
+- Forgetting neutralisation produces water.
 
-- Reading pH as a linear (not logarithmic) scale.
+- Treating pH as linear (it is logarithmic).
 

@@ -4,7 +4,7 @@
 
 - Calling dissolving a chemical change (it is physical).
 
-- Assuming mass is lost when gas escapes (it left as a product).
+- Assuming mass is lost when gas escapes (it left as product).
 
-- Missing subtle signs of reaction like a temperature change.
+- Missing subtle signs like a temperature change.
 

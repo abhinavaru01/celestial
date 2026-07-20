@@ -2,9 +2,9 @@
 
 > How to remember this — and keep it.
 
-- "Groups = columns = similar families."
+- "Groups = columns = families (same valence e⁻)."
 
-- "Periods = rows."
+- "Periods = rows = shells."
 
-- Outer electrons drive group behaviour.
+- Predict, don't memorise.
 

@@ -41,12 +41,21 @@ In a legacy curriculum, "speed = distance/time" is taught afresh in physics as i
 - **Cross-subject edges** are the interleaving map — the platform highlights them so students and teachers see *why* subjects are sequenced together.
 - **A topic unlocks** for a student when all its `prereqs` are mastered (see `mastery-gating.md`).
 
-## Current graph (proof-of-model slice)
+## Current graph (full build)
 
-| Topic | Prereqs |
+The full curriculum is authored: **192 topics** across 6 subjects × 6 tiers, connected by **282 prerequisite edges, 24 of them cross-subject** (validated acyclic by `scripts/build.mjs`; see `app/data/graph.json`). Prerequisites are generated two ways: an auto-chain along each subject's tier sequence (topic *n* builds on topic *n−1*), plus explicit cross-subject links declared as `xprereqs` in the curriculum datasets (`scripts/curriculum/*.mjs`).
+
+Representative cross-subject edges (the interleaving that makes compression real):
+
+| Prerequisite | Leads to |
 |---|---|
-| `math.F1.ratio-proportion-percentage` | (none — Foundation entry) |
-| `physics.F1.motion` | `math.F1.ratio-proportion-percentage` |
-| `cs.F1.python-variables-types-expressions` | (none — Foundation entry) |
+| `math.F1.ratio-proportion-percentage` | `physics.F1.motion` (speed *is* a rate) |
+| `math.F1.ratio-proportion-percentage` | `chemistry.F2.pressure-density`, `math.F2.linear-relationships-coordinate-plane` |
+| `math.F2.exponents-scientific-notation` | `chemistry.F2.mole-concept` |
+| `math.I1.trigonometry-i` | `physics.I1.kinematics-2d` |
+| `math.I2.derivatives-intuition` | `physics.I2.kinematics-calculus` |
+| `math.I2.exponentials-logarithms` | `chemistry.A1.chemical-kinetics`, `biology.I2.population-biology` |
+| `math.A2.differential-equations` | `physics.A2.electromagnetic-induction` |
+| `chemistry.F2.mole-concept` | `chemistry.I1.solutions-concentration`, `biology.I1.cell-processes` |
 
-As subjects are authored, each new `topic.json` extends this graph automatically. The full tier-by-tier prerequisite structure is implied by the six syllabus files in `syllabus/` and becomes machine-checked graph edges as topics are built out.
+Every new `topic.json` extends this graph automatically; the build fails on any dangling reference, cycle, or tier-order violation.

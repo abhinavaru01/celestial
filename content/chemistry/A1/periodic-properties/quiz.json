@@ -6,7 +6,7 @@
       {
         "id": "chemistry_A1_periodic_properties_q1",
         "type": "mcq",
-        "prompt": "Across a period (left to right), atomic radius generally:",
+        "prompt": "Across a period (left→right), atomic radius generally:",
         "choices": [
           "decreases",
           "increases",
@@ -14,7 +14,7 @@
           "doubles"
         ],
         "answer": 0,
-        "explanation": "Increasing nuclear charge pulls electrons in tighter."
+        "explanation": "Rising nuclear charge pulls the shell in."
       },
       {
         "id": "chemistry_A1_periodic_properties_q2",
@@ -27,7 +27,7 @@
           "is zero"
         ],
         "answer": 0,
-        "explanation": "Outer electrons are farther out and easier to remove."
+        "explanation": "Outer electrons are farther out and more shielded."
       }
     ],
     "3": []

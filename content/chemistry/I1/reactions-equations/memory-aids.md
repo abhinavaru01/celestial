@@ -4,7 +4,7 @@
 
 - "OIL RIG."
 
-- "Cancel spectator ions."
+- "Ox. number up = oxidised."
 
 - Every oxidation has a matching reduction.
 

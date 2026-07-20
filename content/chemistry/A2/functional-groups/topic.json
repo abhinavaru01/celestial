@@ -8,11 +8,11 @@
   "order": 2,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Alcohols, aldehydes, ketones, carboxylic acids and amines — reactions by group.",
+  "summary": "Alcohols, aldehydes, ketones, carboxylic acids and amines — characteristic reactions and interconversions.",
   "outcomes": [
     "Recognise major functional groups",
     "Predict characteristic reactions",
-    "Interconvert functional groups"
+    "Plan functional-group interconversions"
   ],
   "prereqs": [
     "chemistry.A2.organic-mechanisms"
@@ -38,6 +38,7 @@
     "alcohol",
     "aldehyde",
     "carboxylic acid",
-    "amine"
+    "amine",
+    "oxidation"
   ]
 }

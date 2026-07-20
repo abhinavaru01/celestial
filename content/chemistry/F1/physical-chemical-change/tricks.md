@@ -4,7 +4,7 @@
 
 - New substance formed? → chemical. Same substance, new form? → physical.
 
-- Look for gas, colour change, heat/light, or a precipitate as reaction clues.
+- Look for gas, colour change, heat/light, or a precipitate.
 
-- Total mass is unchanged — account for gases too.
+- Total mass is unchanged — count gases too.
 

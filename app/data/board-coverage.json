@@ -190,7 +190,7 @@
         "topicId": "chemistry.A2.biomolecules-polymers"
       },
       {
-        "objective": "Cl.12 d- and f-Block",
+        "objective": "Cl.12 d/f-Block",
         "topicId": "chemistry.A2.coordination-chemistry"
       },
       {
@@ -238,7 +238,7 @@
         "topicId": "chemistry.F2.mole-concept"
       },
       {
-        "objective": "Cl.11 Some Basic Concepts of Chemistry",
+        "objective": "Cl.11 Some Basic Concepts",
         "topicId": "chemistry.F2.mole-concept"
       },
       {
@@ -246,7 +246,7 @@
         "topicId": "chemistry.F2.periodic-table"
       },
       {
-        "objective": "Cl.11 Some Basic Concepts of Chemistry",
+        "objective": "Cl.11 Some Basic Concepts",
         "topicId": "chemistry.F2.stoichiometry-intro"
       },
       {
@@ -294,7 +294,7 @@
         "topicId": "chemistry.I2.organic-intro"
       },
       {
-        "objective": "Cl.11 Organic Chemistry Basics",
+        "objective": "Cl.11 Organic Basics",
         "topicId": "chemistry.I2.organic-intro"
       },
       {

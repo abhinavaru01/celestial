@@ -5,29 +5,24 @@
     "2": [
       {
         "id": "chemistry_I2_gas_laws_kinetic_theory_q1",
-        "type": "mcq",
-        "prompt": "In PV = nRT, T must be in:",
-        "choices": [
-          "kelvin",
-          "celsius",
-          "fahrenheit",
-          "joules"
-        ],
-        "answer": 0,
-        "explanation": "Absolute temperature (K) is required."
+        "type": "numeric",
+        "prompt": "Gas at 2 L, 300 K. Volume at 600 K, constant P (in L)?",
+        "answer": 4,
+        "tolerance": 0,
+        "explanation": "V ∝ T → 2 × (600/300) = 4 L."
       },
       {
         "id": "chemistry_I2_gas_laws_kinetic_theory_q2",
         "type": "mcq",
-        "prompt": "At constant temperature, doubling pressure on a gas:",
+        "prompt": "At constant temperature, halving volume:",
         "choices": [
-          "halves its volume",
-          "doubles its volume",
+          "doubles pressure",
+          "halves pressure",
           "no change",
-          "triples volume"
+          "doubles temperature"
         ],
         "answer": 0,
-        "explanation": "Boyle's law: P and V are inversely proportional."
+        "explanation": "Boyle: P and V inversely proportional."
       }
     ],
     "3": []

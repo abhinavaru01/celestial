@@ -1,21 +1,31 @@
 # Introductory Stoichiometry
 
-> Mass-mole-mass calculations from balanced equations.
+> [!intro] Using mole ratios from balanced equations for mass-to-mass calculations, and finding the limiting reactant.
 
-## Equations give ratios
+## Coefficients are mole ratios
 
-A balanced equation's coefficients are mole ratios. They let you predict how much product forms from a given amount of reactant.
+The coefficients of a balanced equation give the ratio of moles reacting. To go grams-to-grams: convert to moles, apply the mole ratio, convert back to mass.
 
-## Mass → mole → mole → mass
+## Limiting reactant
 
-Convert reactant mass to moles, apply the mole ratio, then convert product moles back to mass. This chain is the core of quantitative chemistry.
+The reactant that runs out first caps the product. Compare moles ÷ coefficient for each reactant; the smallest is limiting.
+
+```formula Key formulas
+mass → n = m/M → ×(mole ratio) → m = n×M
+Limiting reactant: smallest of (moles ÷ coefficient)
+```
+
+> [!example] **Worked example**
+> **Problem.** For N₂ + 3H₂ → 2NH₃, how many moles of NH₃ from 2 mol N₂ with excess H₂?
+> >
+> > **Solution.** Mole ratio N₂ : NH₃ = 1 : 2, so 2 mol N₂ → 4 mol NH₃ (H₂ excess, N₂ limiting).
 
 ## What you should be able to do
 
 - Use mole ratios from equations
-- Perform mass-to-mass calculations
-- Identify limiting reactants (intro)
+- Perform mass → mole → mole → mass calculations
+- Identify the limiting reactant
 
 ---
 
-_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._
+_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._

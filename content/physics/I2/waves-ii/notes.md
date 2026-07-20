@@ -1,6 +1,6 @@
 # Waves II
 
-> Superposition, standing waves, resonance and the Doppler effect.
+> [!intro] Superposition, standing waves, resonance and the Doppler effect.
 
 ## Superposition
 
@@ -10,6 +10,17 @@ When waves overlap, displacements add. This produces interference — constructi
 
 Relative motion between source and observer shifts the observed frequency: approaching raises pitch, receding lowers it. It applies to sound and light.
 
+```formula Key formulas
+Superposition: displacements add
+Constructive: path difference = nλ; destructive = (n+½)λ
+Doppler: approaching → higher observed frequency
+```
+
+> [!example] **Worked example**
+> **Problem.** Two coherent waves meet with a path difference of one full wavelength. Constructive or destructive?
+> >
+> > **Solution.** Path difference = 1λ = a whole number of wavelengths → constructive interference (a bright/loud point).
+
 ## What you should be able to do
 
 - Apply the principle of superposition
@@ -18,4 +29,4 @@ Relative motion between source and observer shifts the observed frequency: appro
 
 ---
 
-_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._
+_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._

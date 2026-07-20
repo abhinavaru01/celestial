@@ -52,6 +52,19 @@ Graphs turn motion into pictures. This reuses **Data & graphs (Math F1.7)** — 
 - **Slope = acceleration.** (Rise in velocity over run in time — a rate again.)
 - **Area under the line = distance travelled.** A horizontal line (constant velocity) gives a rectangle: area = v × t = distance. A sloped line gives a triangle/trapezium.
 
+```svg
+<svg viewBox="0 0 300 180" role="img" aria-label="Velocity-time graph: slope is acceleration, area is distance" xmlns="http://www.w3.org/2000/svg">
+  <line x1="40" y1="150" x2="280" y2="150" stroke="#6b7a99"/>
+  <line x1="40" y1="150" x2="40" y2="20" stroke="#6b7a99"/>
+  <text x="150" y="172" font-size="11" fill="#9aa8c4" text-anchor="middle">time →</text>
+  <text x="14" y="90" font-size="11" fill="#9aa8c4" transform="rotate(-90 14 90)" text-anchor="middle">velocity →</text>
+  <polygon points="40,150 240,60 240,150" fill="rgba(99,102,241,0.25)"/>
+  <line x1="40" y1="150" x2="240" y2="60" stroke="#8fa0ff" stroke-width="2.5"/>
+  <text x="150" y="135" font-size="11" fill="#a8c0ff" text-anchor="middle">area = distance</text>
+  <text x="205" y="95" font-size="11" fill="#6ee7a8" transform="rotate(-24 205 95)">slope = a</text>
+</svg>
+```
+
 > This "slope is the rate, area is the accumulation" pattern is exactly what becomes **derivatives and integrals** in Intermediate. You are seeing calculus in picture form two years before you formalise it — another deliberate reuse.
 
 ## 5. The equations of uniformly accelerated motion

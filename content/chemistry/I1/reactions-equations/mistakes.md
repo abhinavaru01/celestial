@@ -2,9 +2,9 @@
 
 > Every learner hits these — spot them before they cost you.
 
-- Forgetting redox always pairs oxidation with reduction.
+- Forgetting redox pairs oxidation with reduction.
 
-- Writing molecular equations when ionic ones are asked.
+- Writing molecular when ionic equations are asked.
 
-- Misclassifying displacement vs double displacement.
+- Misassigning oxidation numbers.
 

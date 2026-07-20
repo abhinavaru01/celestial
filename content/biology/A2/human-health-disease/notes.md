@@ -1,6 +1,6 @@
 # Human Health & Disease at Depth
 
-> Immunity, reproduction and biotechnology in medicine.
+> [!intro] Immunity, reproduction and biotechnology in medicine.
 
 ## Immune response
 
@@ -10,6 +10,17 @@ The immune system distinguishes self from non-self, mounting specific responses 
 
 Biotechnology delivers vaccines, insulin and gene therapies. Understanding disease mechanisms guides treatment.
 
+```formula Key facts
+Innate immunity: fast, general
+Adaptive immunity: specific, with memory
+Vaccines create memory cells
+```
+
+> [!example] **Worked example**
+> **Problem.** Why is the second exposure to a pathogen usually harmless after vaccination?
+> >
+> > **Solution.** Memory cells recognise it and mount a fast, strong specific response before symptoms develop.
+
 ## What you should be able to do
 
 - Detail the immune response
@@ -18,4 +29,4 @@ Biotechnology delivers vaccines, insulin and gene therapies. Understanding disea
 
 ---
 
-_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._
+_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._

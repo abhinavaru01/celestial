@@ -4,7 +4,7 @@
 
 - "Faster = more or harder collisions."
 
-- "Catalyst speeds up, stays unchanged."
+- "Catalyst lowers Eₐ, stays unchanged."
 
 - Rate = slope of the curve.
 

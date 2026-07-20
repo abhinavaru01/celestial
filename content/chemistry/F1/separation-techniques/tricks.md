@@ -6,5 +6,5 @@
 
 - Distillation separates by boiling point and recovers the liquid.
 
-- Chromatography separates dissolved substances by how far they travel.
+- Rf compares how far the spot travelled versus the solvent.
 

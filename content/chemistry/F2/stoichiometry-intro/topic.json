@@ -8,11 +8,11 @@
   "order": 5,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Mass-mole-mass calculations from balanced equations.",
+  "summary": "Using mole ratios from balanced equations for mass-to-mass calculations, and finding the limiting reactant.",
   "outcomes": [
     "Use mole ratios from equations",
-    "Perform mass-to-mass calculations",
-    "Identify limiting reactants (intro)"
+    "Perform mass → mole → mole → mass calculations",
+    "Identify the limiting reactant"
   ],
   "prereqs": [
     "chemistry.F2.chemical-formulae-equations",
@@ -20,7 +20,7 @@
   ],
   "boardMap": {
     "CBSE": [
-      "Cl.11 Some Basic Concepts of Chemistry"
+      "Cl.11 Some Basic Concepts"
     ],
     "ICSE": [
       "Cl.10 Mole & Stoichiometry"

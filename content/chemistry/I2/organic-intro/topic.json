@@ -8,11 +8,11 @@
   "order": 6,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Hydrocarbons, functional groups and naming — the chemistry of carbon.",
+  "summary": "The chemistry of carbon: hydrocarbons, functional groups, homologous series and IUPAC naming.",
   "outcomes": [
     "Recognise hydrocarbons and functional groups",
-    "Name simple organic molecules",
-    "Explain why carbon forms so many compounds"
+    "Name simple organic molecules (IUPAC)",
+    "Explain carbon's versatility (catenation)"
   ],
   "prereqs": [
     "chemistry.I2.equilibrium-intro"
@@ -20,7 +20,7 @@
   "boardMap": {
     "CBSE": [
       "Cl.10-11 Carbon Compounds",
-      "Cl.11 Organic Chemistry Basics"
+      "Cl.11 Organic Basics"
     ],
     "ICSE": [
       "Cl.10 Organic Chemistry"
@@ -39,6 +39,7 @@
     "hydrocarbon",
     "functional group",
     "alkane",
-    "alkene"
+    "alkene",
+    "IUPAC"
   ]
 }

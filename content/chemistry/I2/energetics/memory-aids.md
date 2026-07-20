@@ -2,7 +2,7 @@
 
 > How to remember this — and keep it.
 
-- "Exo out (negative), endo in (positive)."
+- "Exo out (−), endo in (+)."
 
 - "Break costs, make gives."
 

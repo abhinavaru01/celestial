@@ -8,11 +8,11 @@
   "order": 3,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Boyle, Charles and the ideal gas equation — the topic shared with physics.",
+  "summary": "Boyle's, Charles's and the combined/ideal gas laws, grounded in kinetic theory. Shared with physics.",
   "outcomes": [
-    "Apply the gas laws",
+    "Apply the individual and combined gas laws",
     "Use PV = nRT",
-    "Relate gas behaviour to particle motion"
+    "Relate macroscopic behaviour to particle motion"
   ],
   "prereqs": [
     "chemistry.I2.bonding-ii",

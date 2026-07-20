@@ -4,16 +4,11 @@
     "1": [
       {
         "id": "chemistry_I1_acids_bases_salts_q1",
-        "type": "mcq",
-        "prompt": "A solution with pH 2 is:",
-        "choices": [
-          "acidic",
-          "neutral",
-          "basic",
-          "a salt"
-        ],
-        "answer": 0,
-        "explanation": "pH below 7 is acidic."
+        "type": "numeric",
+        "prompt": "If [H⁺] = 1×10⁻² mol/L, what is the pH?",
+        "answer": 2,
+        "tolerance": 0,
+        "explanation": "pH = −log(10⁻²) = 2."
       }
     ],
     "2": [

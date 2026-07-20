@@ -2,9 +2,9 @@
 
 > Faster, cleaner ways to handle this topic.
 
-- Across a period: smaller atoms, higher ionisation energy.
+- Across a period: smaller, higher ionisation energy.
 
-- Down a group: bigger atoms, lower ionisation energy.
+- Down a group: bigger, lower ionisation energy.
 
-- Trends come from nuclear pull vs electron shielding.
+- Trends follow nuclear pull vs shielding.
 

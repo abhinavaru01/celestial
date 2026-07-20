@@ -2,9 +2,9 @@
 
 > Faster, cleaner ways to handle this topic.
 
-- K = products over reactants, each to its power.
+- K = products/reactants, each to its power.
 
-- Omit pure solids and liquids from K.
+- Compare Q to K to predict direction.
 
 - Use an ICE table to track concentrations.
 

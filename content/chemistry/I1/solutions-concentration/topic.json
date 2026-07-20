@@ -8,11 +8,11 @@
   "order": 4,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Molarity, dilution, and expressing concentration — the mole concept reused.",
+  "summary": "Molarity, dilution and the mole concept applied to real solutions.",
   "outcomes": [
     "Calculate molarity",
     "Perform dilution calculations",
-    "Relate concentration to moles"
+    "Relate concentration, moles and volume"
   ],
   "prereqs": [
     "chemistry.I1.acids-bases-salts",

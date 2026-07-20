@@ -1,6 +1,6 @@
 # Sound & Waves I
 
-> Wave parameters, the wave equation v = fλ, and properties of sound.
+> [!intro] Wave parameters, the wave equation v = fλ, and properties of sound.
 
 ## Wave anatomy
 
@@ -10,6 +10,17 @@ A wave has wavelength (length of one cycle), frequency (cycles per second) and a
 
 Sound is a pressure wave that needs particles to travel; it cannot cross a vacuum. Pitch relates to frequency, loudness to amplitude.
 
+```formula Key formulas
+v = fλ
+Frequency ↔ pitch; amplitude ↔ loudness
+Sound needs a medium (no vacuum)
+```
+
+> [!example] **Worked example**
+> **Problem.** A sound wave has frequency 340 Hz and wavelength 1 m. Find its speed.
+> >
+> > **Solution.** v = fλ = 340 × 1 = 340 m/s (the speed of sound in air).
+
 ## What you should be able to do
 
 - Define frequency, wavelength, amplitude
@@ -18,4 +29,4 @@ Sound is a pressure wave that needs particles to travel; it cannot cross a vacuu
 
 ---
 
-_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._
+_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._

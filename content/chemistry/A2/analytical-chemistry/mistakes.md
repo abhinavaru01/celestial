@@ -2,9 +2,9 @@
 
 > Every learner hits these — spot them before they cost you.
 
-- Reporting results without uncertainty.
+- Reporting a result without uncertainty.
 
 - Confusing qualitative (what) with quantitative (how much).
 
-- Poor technique invalidating titration results.
+- Using non-concordant titres.
 

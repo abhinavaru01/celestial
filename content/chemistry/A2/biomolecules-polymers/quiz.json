@@ -13,22 +13,22 @@
           "catalysts"
         ],
         "answer": 0,
-        "explanation": "Monomers link to form a polymer chain."
+        "explanation": "Monomers link to form a polymer."
       }
     ],
     "2": [
       {
         "id": "chemistry_A2_biomolecules_polymers_q2",
         "type": "mcq",
-        "prompt": "Proteins are polymers of:",
+        "prompt": "Polythene from ethene forms by:",
         "choices": [
-          "amino acids",
-          "glucose",
-          "fatty acids",
-          "nucleotides"
+          "addition polymerisation",
+          "condensation",
+          "neutralisation",
+          "combustion"
         ],
         "answer": 0,
-        "explanation": "Amino acids are the monomers of proteins."
+        "explanation": "Alkene C=C bonds open and add — no small molecule lost."
       }
     ],
     "3": []

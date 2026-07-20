@@ -4,7 +4,7 @@
 
 - "Order is experimental."
 
-- "High Eₐ, slow reaction."
+- "First-order t½ = 0.693/k."
 
 - Arrhenius plot: ln k vs 1/T.
 

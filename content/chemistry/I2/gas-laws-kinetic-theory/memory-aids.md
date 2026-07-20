@@ -6,5 +6,5 @@
 
 - "Boyle inverse, Charles direct."
 
-- Temperature = average particle KE.
+- Temperature ∝ average particle KE.
 

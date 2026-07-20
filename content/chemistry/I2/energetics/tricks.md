@@ -2,9 +2,9 @@
 
 > Faster, cleaner ways to handle this topic.
 
-- Exothermic → releases heat → ΔH negative.
+- Exothermic → ΔH negative.
 
-- Bonds broken cost energy; bonds formed release it.
+- ΔH ≈ bonds broken − bonds made.
 
-- Hess: total ΔH is route-independent — add steps.
+- Hess: add steps; ΔH is route-independent.
 

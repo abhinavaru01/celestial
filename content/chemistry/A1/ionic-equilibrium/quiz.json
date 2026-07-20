@@ -6,25 +6,26 @@
       {
         "id": "chemistry_A1_ionic_equilibrium_q1",
         "type": "numeric",
-        "prompt": "If [H⁺] = 0.001 M, what is the pH?",
-        "answer": 3,
+        "prompt": "If [H⁺] = 1×10⁻⁴ M, the pH is:",
+        "answer": 4,
         "tolerance": 0,
-        "explanation": "pH = −log(0.001) = 3."
-      },
+        "explanation": "pH = −log(10⁻⁴) = 4."
+      }
+    ],
+    "3": [
       {
         "id": "chemistry_A1_ionic_equilibrium_q2",
         "type": "mcq",
-        "prompt": "A buffer solution is made from a weak acid and its:",
+        "prompt": "A buffer of equal [A⁻] and [HA] has pH equal to:",
         "choices": [
-          "conjugate base (salt)",
-          "strong base",
-          "metal",
-          "catalyst"
+          "pKa",
+          "7",
+          "0",
+          "14"
         ],
         "answer": 0,
-        "explanation": "Weak acid + conjugate base resists pH change."
+        "explanation": "log(1) = 0, so pH = pKa."
       }
-    ],
-    "3": []
+    ]
   }
 }

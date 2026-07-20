@@ -6,5 +6,5 @@
 
 - Confusing galvanic (spontaneous) with electrolytic (driven).
 
-- Ignoring the mole-to-charge relationship in electrolysis.
+- Forgetting Q = It before dividing by F.
 

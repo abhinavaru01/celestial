@@ -4,7 +4,7 @@
 
 - Molarity = moles ÷ litres.
 
-- Dilution: C₁V₁ = C₂V₂ (moles conserved).
+- C₁V₁ = C₂V₂ for dilution.
 
 - Convert mL to L before computing molarity.
 

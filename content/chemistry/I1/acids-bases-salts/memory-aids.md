@@ -2,9 +2,9 @@
 
 > How to remember this — and keep it.
 
+- "pH = −log[H⁺]."
+
 - "Low pH, high acidity."
 
 - "Acid + base → salt + water."
-
-- pH is logarithmic — steps of ten.
 

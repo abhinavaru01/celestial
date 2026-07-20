@@ -2,9 +2,9 @@
 
 > Every learner hits these — spot them before they cost you.
 
-- Thinking equilibrium means the reaction has stopped.
+- Thinking equilibrium means the reaction stopped.
 
-- Getting the direction of a Le Chatelier shift wrong.
+- Getting the Le Chatelier direction wrong.
 
-- Ignoring that catalysts do not shift equilibrium position.
+- Believing a catalyst shifts the position (it does not).
 

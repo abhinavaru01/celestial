@@ -2,9 +2,9 @@
 
 > Every learner hits these — spot them before they cost you.
 
-- Filling higher shells before lower ones are complete (follow energy order).
+- Filling higher shells before lower ones are complete.
 
 - Confusing shells with subshells.
 
-- Forgetting outer electrons drive reactivity.
+- Forgetting valence electrons drive reactivity.
 

@@ -6,7 +6,7 @@
       {
         "id": "chemistry_I2_energetics_q1",
         "type": "mcq",
-        "prompt": "An exothermic reaction has an enthalpy change ΔH that is:",
+        "prompt": "An exothermic reaction has ΔH that is:",
         "choices": [
           "negative",
           "positive",
@@ -14,22 +14,18 @@
           "infinite"
         ],
         "answer": 0,
-        "explanation": "Heat is released, so ΔH is negative."
-      },
-      {
-        "id": "chemistry_I2_energetics_q2",
-        "type": "mcq",
-        "prompt": "Breaking chemical bonds:",
-        "choices": [
-          "absorbs energy",
-          "releases energy",
-          "has no energy change",
-          "creates atoms"
-        ],
-        "answer": 0,
-        "explanation": "Bond breaking is endothermic; bond making is exothermic."
+        "explanation": "Heat is released, so ΔH < 0."
       }
     ],
-    "3": []
+    "3": [
+      {
+        "id": "chemistry_I2_energetics_q2",
+        "type": "numeric",
+        "prompt": "Bonds broken 678 kJ, bonds made 862 kJ. ΔH (kJ)?",
+        "answer": -184,
+        "tolerance": 1,
+        "explanation": "ΔH = 678 − 862 = −184 kJ."
+      }
+    ]
   }
 }

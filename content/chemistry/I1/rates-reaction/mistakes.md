@@ -2,7 +2,7 @@
 
 > Every learner hits these — spot them before they cost you.
 
-- Thinking a catalyst is used up (it is not).
+- Thinking a catalyst is used up.
 
 - Confusing rate (speed) with yield (amount).
 
