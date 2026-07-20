@@ -1,6 +1,9 @@
-# Project Compression
+# The Ultimate Learner
+### (internal initiative name: Project Compression)
 
-A restructured global curriculum + learning platform: the equivalent of grades 6–12 delivered in **≤3 years**, without diluting depth — through **redundancy removal and cross-subject interleaving**, mastery-based progression, and a platform where every topic ships all six signature learning layers.
+A restructured global curriculum + learning platform: the equivalent of grades 6–12 delivered in **≤3 years**, without diluting depth — through **redundancy removal and cross-subject interleaving**, and a platform where every topic ships all six signature learning layers. **Everything is open** — no locked topics or gates; prerequisites are shown as informational "builds on / leads to" links.
+
+**Live:** https://abhinavaru01.github.io/celestial/ · Deploys automatically on push to `main` (GitHub Pages, `.github/workflows/deploy-pages.yml`).
 
 > New here? Read **`memory.md`** first — it is the single source of truth for project state and lets anyone resume with zero re-learning. Major decisions and their rationale live in **`decisions.md`**. The full brief is **`PRD.md`**.
 
@@ -18,8 +21,9 @@ python3 -m http.server 8000       # from the repo root
 The build **fails loudly** if any topic is missing one of its six required files — that is how the "all six signature layers, always" guarantee is enforced mechanically rather than by hope.
 
 ## What's built (see `docs/business/roadmap.md` for full status)
-- **Phases 0–3 complete & verified:** scaffold, content model, full curriculum blueprint (6 subjects, tier system, dependency graph, board-equivalence, timeline, mastery-gating), 3 fully built proof-of-model topics, and a working platform MVP (notes, 3-level quizzes with instant feedback, mastery tracking + prerequisite unlocking, per-topic Mistakes/Tricks/Memory views, dependency map, search, teacher coverage matrix).
-- **Phases 4–6 scaffolded:** competitive section with a sample JEE set + strategy guide; business positioning, roadmap, and research notes.
+- **Full curriculum:** all **192 topics** across 6 subjects × 6 tiers (37 Math, 30 Physics, 30 Chemistry, 30 Biology, 28 English, 37 CS), each with all six signature layers. 3 hand-written flagship deep-dives set the depth bar; the rest are structured modules generated from `scripts/curriculum/*.mjs`. 282-edge dependency graph (24 cross-subject).
+- **Platform:** notes, 3-level self-check quizzes with instant feedback, per-topic Mistakes/Tricks/Memory/Board views, dependency-map view, search, teacher coverage matrix. Framework-free, open access.
+- **Scaffolded:** competitive section with a sample JEE set + strategy guide; business positioning, roadmap, and research notes.
 
 ## Repository map
 ```
