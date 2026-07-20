@@ -1,0 +1,39 @@
+{
+  "id": "cs.F1.computational-thinking",
+  "subject": "cs",
+  "tier": "F1",
+  "title": "Computational Thinking",
+  "slug": "computational-thinking",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Decomposition, pattern recognition, abstraction and algorithms — thinking before coding.",
+  "outcomes": [
+    "Break problems into parts (decomposition)",
+    "Spot patterns and generalise",
+    "Write algorithms as precise steps"
+  ],
+  "prereqs": [],
+  "boardMap": {
+    "CBSE": [
+      "Cl.6-8 Computational Thinking",
+      "Cl.11 CS Problem Solving"
+    ],
+    "ICSE": [
+      "Cl.9 Algorithms"
+    ],
+    "IB": [
+      "MYP Design",
+      "DP CS"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "computational thinking",
+    "decomposition",
+    "abstraction",
+    "algorithm",
+    "pattern"
+  ]
+}

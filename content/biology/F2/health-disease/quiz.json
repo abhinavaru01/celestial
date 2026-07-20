@@ -1,0 +1,36 @@
+{
+  "topicId": "biology.F2.health-disease",
+  "levels": {
+    "1": [
+      {
+        "id": "biology_F2_health_disease_q1",
+        "type": "mcq",
+        "prompt": "Antibiotics are effective against:",
+        "choices": [
+          "bacteria",
+          "viruses",
+          "all pathogens",
+          "nothing"
+        ],
+        "answer": 0,
+        "explanation": "Antibiotics treat bacterial infections, not viral ones."
+      }
+    ],
+    "2": [
+      {
+        "id": "biology_F2_health_disease_q2",
+        "type": "mcq",
+        "prompt": "A vaccine works by:",
+        "choices": [
+          "training the immune system in advance",
+          "killing all bacteria in the body",
+          "replacing blood",
+          "raising body temperature"
+        ],
+        "answer": 0,
+        "explanation": "It primes immunity so the body responds fast to real infection."
+      }
+    ],
+    "3": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "topicId": "chemistry.F1.separation-techniques",
+  "levels": {
+    "1": [
+      {
+        "id": "chemistry_F1_separation_techniques_q1",
+        "type": "mcq",
+        "prompt": "Best method to get pure water from salt water?",
+        "choices": [
+          "distillation",
+          "filtration",
+          "chromatography",
+          "decanting"
+        ],
+        "answer": 0,
+        "explanation": "Distillation boils off water and condenses it, leaving salt behind."
+      }
+    ],
+    "2": [
+      {
+        "id": "chemistry_F1_separation_techniques_q2",
+        "type": "mcq",
+        "prompt": "Filtration can separate:",
+        "choices": [
+          "an insoluble solid from a liquid",
+          "dissolved salt from water",
+          "two gases",
+          "ink colours"
+        ],
+        "answer": 0,
+        "explanation": "Filtration traps insoluble solids; dissolved solids pass through."
+      }
+    ],
+    "3": []
+  }
+}

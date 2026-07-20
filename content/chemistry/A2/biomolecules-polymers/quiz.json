@@ -1,0 +1,36 @@
+{
+  "topicId": "chemistry.A2.biomolecules-polymers",
+  "levels": {
+    "1": [
+      {
+        "id": "chemistry_A2_biomolecules_polymers_q1",
+        "type": "mcq",
+        "prompt": "A polymer is made of many repeating:",
+        "choices": [
+          "monomers",
+          "atoms of one element",
+          "ions",
+          "catalysts"
+        ],
+        "answer": 0,
+        "explanation": "Monomers link to form a polymer chain."
+      }
+    ],
+    "2": [
+      {
+        "id": "chemistry_A2_biomolecules_polymers_q2",
+        "type": "mcq",
+        "prompt": "Proteins are polymers of:",
+        "choices": [
+          "amino acids",
+          "glucose",
+          "fatty acids",
+          "nucleotides"
+        ],
+        "answer": 0,
+        "explanation": "Amino acids are the monomers of proteins."
+      }
+    ],
+    "3": []
+  }
+}

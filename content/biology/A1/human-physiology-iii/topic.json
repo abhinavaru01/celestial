@@ -1,0 +1,42 @@
+{
+  "id": "biology.A1.human-physiology-iii",
+  "subject": "biology",
+  "tier": "A1",
+  "title": "Human Physiology III",
+  "slug": "human-physiology-iii",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Detailed digestive, circulatory, excretory and nervous systems.",
+  "outcomes": [
+    "Detail organ system function",
+    "Explain excretion and the kidney",
+    "Describe the neuron and impulse"
+  ],
+  "prereqs": [
+    "biology.A1.plant-physiology-depth",
+    "biology.I2.human-systems-capstone"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Human Physiology"
+    ],
+    "ICSE": [
+      "Cl.11-12 Physiology"
+    ],
+    "IB": [
+      "DP Physiology HL"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "physiology",
+    "kidney",
+    "neuron",
+    "excretion",
+    "synapse"
+  ]
+}

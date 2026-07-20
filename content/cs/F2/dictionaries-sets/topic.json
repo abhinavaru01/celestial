@@ -1,0 +1,40 @@
+{
+  "id": "cs.F2.dictionaries-sets",
+  "subject": "cs",
+  "tier": "F2",
+  "title": "Dictionaries & Sets",
+  "slug": "dictionaries-sets",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Key-value modelling with dictionaries, and sets for uniqueness.",
+  "outcomes": [
+    "Use dictionaries for key-value data",
+    "Use sets for uniqueness",
+    "Choose the right structure"
+  ],
+  "prereqs": [
+    "cs.F2.strings-depth",
+    "cs.F2.lists-iteration"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 CS: Dictionaries"
+    ],
+    "ICSE": [
+      "Cl.10-11 Data Structures"
+    ],
+    "IB": [
+      "DP CS"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "dictionary",
+    "set",
+    "key-value",
+    "data structure",
+    "hashing"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "chemistry.F1.separation-techniques",
+  "subject": "chemistry",
+  "tier": "F1",
+  "title": "Separation Techniques",
+  "slug": "separation-techniques",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Filtration, evaporation, distillation and chromatography — separating mixtures by physical properties.",
+  "outcomes": [
+    "Choose a separation method for a mixture",
+    "Explain distillation and chromatography",
+    "Relate method to particle properties"
+  ],
+  "prereqs": [
+    "chemistry.F1.matter-particles-states"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.6 Separation of Substances",
+      "Cl.9 Is Matter Pure"
+    ],
+    "ICSE": [
+      "Cl.6-8 Separation"
+    ],
+    "IB": [
+      "MYP Sciences"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "filtration",
+    "distillation",
+    "chromatography",
+    "evaporation",
+    "mixtures"
+  ]
+}

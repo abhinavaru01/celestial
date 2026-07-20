@@ -1,0 +1,40 @@
+{
+  "id": "cs.A2.capstone-project",
+  "subject": "cs",
+  "tier": "A2",
+  "title": "Capstone Project",
+  "slug": "capstone-project",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "An independently designed, built, tested and version-controlled software project — the graduation bar.",
+  "outcomes": [
+    "Design and build a real project",
+    "Test and document it",
+    "Version-control and present it"
+  ],
+  "prereqs": [
+    "cs.A2.databases-intro",
+    "cs.A2.software-design"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS: Practical Project"
+    ],
+    "ICSE": [
+      "Cl.12 Project"
+    ],
+    "IB": [
+      "DP CS: Internal Assessment"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "capstone",
+    "project",
+    "software",
+    "testing",
+    "README"
+  ]
+}

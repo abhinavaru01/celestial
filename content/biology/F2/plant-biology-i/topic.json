@@ -1,0 +1,43 @@
+{
+  "id": "biology.F2.plant-biology-i",
+  "subject": "biology",
+  "tier": "F2",
+  "title": "Plant Biology I",
+  "slug": "plant-biology-i",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Photosynthesis as energy capture, and transport in plants.",
+  "outcomes": [
+    "Describe photosynthesis",
+    "Explain transport in plants",
+    "Relate leaves to their function"
+  ],
+  "prereqs": [
+    "biology.F2.human-physiology-i",
+    "biology.F1.living-environment-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.7 Nutrition in Plants",
+      "Cl.10 Life Processes"
+    ],
+    "ICSE": [
+      "Cl.7-9 Plant Physiology"
+    ],
+    "IB": [
+      "DP Plant Biology"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "photosynthesis",
+    "xylem",
+    "phloem",
+    "transport",
+    "plants"
+  ]
+}

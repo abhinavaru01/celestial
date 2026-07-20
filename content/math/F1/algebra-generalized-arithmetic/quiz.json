@@ -1,0 +1,36 @@
+{
+  "topicId": "math.F1.algebra-generalized-arithmetic",
+  "levels": {
+    "1": [
+      {
+        "id": "math_F1_algebra_generalized_arithmetic_q1",
+        "type": "mcq",
+        "prompt": "Simplify 3x + 2x + 4.",
+        "choices": [
+          "9x",
+          "5x + 4",
+          "5x",
+          "6x + 4"
+        ],
+        "answer": 1,
+        "explanation": "Combine like terms 3x + 2x = 5x; the 4 stays: 5x + 4."
+      }
+    ],
+    "2": [
+      {
+        "id": "math_F1_algebra_generalized_arithmetic_q2",
+        "type": "mcq",
+        "prompt": "Expand 2(x + 3).",
+        "choices": [
+          "2x + 3",
+          "2x + 6",
+          "x + 6",
+          "2x + 5"
+        ],
+        "answer": 1,
+        "explanation": "Distribute the 2 to both terms: 2x + 6."
+      }
+    ],
+    "3": []
+  }
+}

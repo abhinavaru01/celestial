@@ -1,0 +1,42 @@
+{
+  "id": "chemistry.I1.acids-bases-salts",
+  "subject": "chemistry",
+  "tier": "I1",
+  "title": "Acids, Bases & Salts",
+  "slug": "acids-bases-salts",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "The pH scale, neutralisation, and an introduction to titration.",
+  "outcomes": [
+    "Describe acids and bases",
+    "Use the pH scale",
+    "Explain neutralisation and titration"
+  ],
+  "prereqs": [
+    "chemistry.I1.reactions-equations"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.10 Acids, Bases & Salts"
+    ],
+    "ICSE": [
+      "Cl.9-10 Acids, Bases, Salts"
+    ],
+    "IB": [
+      "DP Acids & Bases"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "acid",
+    "base",
+    "pH",
+    "neutralisation",
+    "titration"
+  ]
+}

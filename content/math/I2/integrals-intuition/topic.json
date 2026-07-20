@@ -1,0 +1,41 @@
+{
+  "id": "math.I2.integrals-intuition",
+  "subject": "math",
+  "tier": "I2",
+  "title": "Calculus Intuition: Integrals",
+  "slug": "integrals-intuition",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Accumulation and area under a curve — the reverse of differentiation.",
+  "outcomes": [
+    "Interpret an integral as accumulated area",
+    "Integrate simple powers",
+    "Relate integration and differentiation"
+  ],
+  "prereqs": [
+    "math.I2.derivatives-intuition"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Integrals"
+    ],
+    "ICSE": [
+      "Cl.12 Integration"
+    ],
+    "IB": [
+      "DP Calculus"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "integral",
+    "area",
+    "accumulation",
+    "antiderivative"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "topicId": "cs.F2.strings-depth",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "cs_F2_strings_depth_q1",
+        "type": "mcq",
+        "prompt": "For s = \"python\", what is s[0:3]?",
+        "choices": [
+          "\"pyt\"",
+          "\"pyth\"",
+          "\"yth\"",
+          "\"python\""
+        ],
+        "answer": 0,
+        "explanation": "Indices 0,1,2 (end 3 excluded) give \"pyt\"."
+      },
+      {
+        "id": "cs_F2_strings_depth_q2",
+        "type": "mcq",
+        "prompt": "Calling s.upper() on a string:",
+        "choices": [
+          "returns a new uppercase string",
+          "changes s in place",
+          "deletes s",
+          "errors"
+        ],
+        "answer": 0,
+        "explanation": "Strings are immutable; methods return new strings."
+      }
+    ],
+    "3": []
+  }
+}

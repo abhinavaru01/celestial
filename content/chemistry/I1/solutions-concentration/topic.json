@@ -1,0 +1,43 @@
+{
+  "id": "chemistry.I1.solutions-concentration",
+  "subject": "chemistry",
+  "tier": "I1",
+  "title": "Solutions & Concentration",
+  "slug": "solutions-concentration",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Molarity, dilution, and expressing concentration — the mole concept reused.",
+  "outcomes": [
+    "Calculate molarity",
+    "Perform dilution calculations",
+    "Relate concentration to moles"
+  ],
+  "prereqs": [
+    "chemistry.I1.acids-bases-salts",
+    "chemistry.F2.mole-concept"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 Solutions"
+    ],
+    "ICSE": [
+      "Cl.10-11 Solutions"
+    ],
+    "IB": [
+      "DP Stoichiometry"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "molarity",
+    "concentration",
+    "dilution",
+    "solution"
+  ]
+}

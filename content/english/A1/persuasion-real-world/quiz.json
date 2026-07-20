@@ -1,0 +1,35 @@
+{
+  "topicId": "english.A1.persuasion-real-world",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "english_A1_persuasion_real_world_q1",
+        "type": "mcq",
+        "prompt": "Effective real-world persuasion adapts to the:",
+        "choices": [
+          "audience",
+          "author's mood",
+          "page colour",
+          "weather"
+        ],
+        "answer": 0,
+        "explanation": "Persuasion targets a specific audience's values."
+      },
+      {
+        "id": "english_A1_persuasion_real_world_q2",
+        "type": "mcq",
+        "prompt": "Cherry-picking evidence is:",
+        "choices": [
+          "unethical and ultimately unpersuasive",
+          "always convincing",
+          "good technique",
+          "required"
+        ],
+        "answer": 0,
+        "explanation": "Distorting evidence undermines credibility."
+      }
+    ],
+    "3": []
+  }
+}

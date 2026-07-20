@@ -1,0 +1,42 @@
+{
+  "id": "biology.A2.biotechnology",
+  "subject": "biology",
+  "tier": "A2",
+  "title": "Biotechnology",
+  "slug": "biotechnology",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Recombinant DNA, PCR, applications and ethics — linked to argumentation.",
+  "outcomes": [
+    "Describe genetic engineering tools",
+    "Explain PCR",
+    "Weigh ethical issues"
+  ],
+  "prereqs": [
+    "biology.A2.genetics-ii",
+    "biology.A1.molecular-genetics"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Biotechnology"
+    ],
+    "ICSE": [
+      "Cl.12 Biotechnology"
+    ],
+    "IB": [
+      "DP Biotechnology HL"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "biotechnology",
+    "recombinant DNA",
+    "PCR",
+    "genetic engineering",
+    "ethics"
+  ]
+}

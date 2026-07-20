@@ -1,0 +1,43 @@
+{
+  "id": "physics.F2.heat-temperature",
+  "subject": "physics",
+  "tier": "F2",
+  "title": "Heat & Temperature",
+  "slug": "heat-temperature",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "The particle model of heat, temperature vs thermal energy, transfer methods and specific heat.",
+  "outcomes": [
+    "Distinguish heat from temperature",
+    "Describe conduction, convection, radiation",
+    "Use specific heat capacity"
+  ],
+  "prereqs": [
+    "physics.F2.pressure-density"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.7 Heat",
+      "Cl.11 Thermal Properties"
+    ],
+    "ICSE": [
+      "Cl.7-9 Heat"
+    ],
+    "IB": [
+      "DP Thermal Physics"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "heat",
+    "temperature",
+    "specific heat",
+    "conduction",
+    "convection"
+  ]
+}

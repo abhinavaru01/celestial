@@ -1,0 +1,42 @@
+{
+  "id": "biology.I2.population-biology",
+  "subject": "biology",
+  "tier": "I2",
+  "title": "Population Biology",
+  "slug": "population-biology",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Exponential and logistic growth, and what limits populations.",
+  "outcomes": [
+    "Model population growth",
+    "Explain limiting factors",
+    "Use exponential/logistic ideas"
+  ],
+  "prereqs": [
+    "biology.I2.evolution-natural-selection",
+    "math.I2.exponentials-logarithms"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Ecology (Populations)"
+    ],
+    "ICSE": [
+      "Cl.11-12 Population Ecology"
+    ],
+    "IB": [
+      "DP Ecology"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "population",
+    "exponential growth",
+    "logistic",
+    "carrying capacity",
+    "limiting factors"
+  ]
+}

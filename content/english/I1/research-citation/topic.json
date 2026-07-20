@@ -1,0 +1,39 @@
+{
+  "id": "english.I1.research-citation",
+  "subject": "english",
+  "tier": "I1",
+  "title": "Research & Citation Basics",
+  "slug": "research-citation",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Finding, evaluating and attributing sources honestly.",
+  "outcomes": [
+    "Find and evaluate sources",
+    "Cite sources correctly",
+    "Avoid plagiarism"
+  ],
+  "prereqs": [
+    "english.I1.literature-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.9-10 Project Work"
+    ],
+    "ICSE": [
+      "Cl.9-10 Research"
+    ],
+    "IB": [
+      "DP Extended Essay skills"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "research",
+    "citation",
+    "sources",
+    "plagiarism",
+    "attribution"
+  ]
+}

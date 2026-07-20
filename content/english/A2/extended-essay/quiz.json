@@ -1,0 +1,35 @@
+{
+  "topicId": "english.A2.extended-essay",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "english_A2_extended_essay_q1",
+        "type": "mcq",
+        "prompt": "A strong extended-essay research question is:",
+        "choices": [
+          "focused and answerable",
+          "as broad as possible",
+          "a yes/no trivia question",
+          "unrelated to sources"
+        ],
+        "answer": 0,
+        "explanation": "A narrow, focused question can be argued in depth."
+      },
+      {
+        "id": "english_A2_extended_essay_q2",
+        "type": "mcq",
+        "prompt": "Across a long essay, the key challenge is to:",
+        "choices": [
+          "sustain one clear argument",
+          "change topic often",
+          "avoid citations",
+          "summarise everything"
+        ],
+        "answer": 0,
+        "explanation": "Maintaining a coherent argument is the core skill."
+      }
+    ],
+    "3": []
+  }
+}

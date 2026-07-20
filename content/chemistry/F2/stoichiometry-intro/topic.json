@@ -1,0 +1,42 @@
+{
+  "id": "chemistry.F2.stoichiometry-intro",
+  "subject": "chemistry",
+  "tier": "F2",
+  "title": "Introductory Stoichiometry",
+  "slug": "stoichiometry-intro",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Mass-mole-mass calculations from balanced equations.",
+  "outcomes": [
+    "Use mole ratios from equations",
+    "Perform mass-to-mass calculations",
+    "Identify limiting reactants (intro)"
+  ],
+  "prereqs": [
+    "chemistry.F2.chemical-formulae-equations",
+    "chemistry.F2.mole-concept"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Some Basic Concepts of Chemistry"
+    ],
+    "ICSE": [
+      "Cl.10 Mole & Stoichiometry"
+    ],
+    "IB": [
+      "DP Stoichiometry"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "stoichiometry",
+    "mole ratio",
+    "limiting reactant"
+  ]
+}

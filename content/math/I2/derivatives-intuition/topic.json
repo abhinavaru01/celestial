@@ -1,0 +1,42 @@
+{
+  "id": "math.I2.derivatives-intuition",
+  "subject": "math",
+  "tier": "I2",
+  "title": "Calculus Intuition: Derivatives",
+  "slug": "derivatives-intuition",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Rate of change made exact — the derivative as the slope of a curve, taught alongside kinematics.",
+  "outcomes": [
+    "Interpret the derivative as an instantaneous rate",
+    "Differentiate simple powers",
+    "Connect derivative to slope of a tangent"
+  ],
+  "prereqs": [
+    "math.I2.trigonometry-ii",
+    "math.F2.linear-relationships-coordinate-plane"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Limits & Derivatives"
+    ],
+    "ICSE": [
+      "Cl.11-12 Calculus (Differentiation)"
+    ],
+    "IB": [
+      "DP Calculus"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "derivative",
+    "rate of change",
+    "slope",
+    "power rule"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "topicId": "biology.I1.ecology-ecosystems",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "biology_I1_ecology_ecosystems_q1",
+        "type": "mcq",
+        "prompt": "Roughly what fraction of energy passes to the next trophic level?",
+        "choices": [
+          "10%",
+          "50%",
+          "90%",
+          "100%"
+        ],
+        "answer": 0,
+        "explanation": "About 10%; the rest is lost mainly as heat."
+      },
+      {
+        "id": "biology_I1_ecology_ecosystems_q2",
+        "type": "mcq",
+        "prompt": "In ecosystems, matter (like carbon) is:",
+        "choices": [
+          "cycled",
+          "lost forever",
+          "created",
+          "converted to energy"
+        ],
+        "answer": 0,
+        "explanation": "Matter cycles while energy flows through and is lost."
+      }
+    ],
+    "3": []
+  }
+}

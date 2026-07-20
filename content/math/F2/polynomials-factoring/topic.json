@@ -1,0 +1,41 @@
+{
+  "id": "math.F2.polynomials-factoring",
+  "subject": "math",
+  "tier": "F2",
+  "title": "Polynomials & Factoring Basics",
+  "slug": "polynomials-factoring",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Adding, multiplying and factoring polynomials, including common factors and simple quadratics.",
+  "outcomes": [
+    "Add, subtract and multiply polynomials",
+    "Factor out common factors",
+    "Factor simple quadratics"
+  ],
+  "prereqs": [
+    "math.F2.systems-linear-equations"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.8-9 Polynomials",
+      "Cl.8 Factorisation"
+    ],
+    "ICSE": [
+      "Cl.8-9 Factorisation"
+    ],
+    "IB": [
+      "MYP Algebra"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main"
+  ],
+  "keywords": [
+    "polynomials",
+    "factoring",
+    "FOIL",
+    "common factor"
+  ]
+}

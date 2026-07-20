@@ -1,0 +1,35 @@
+{
+  "topicId": "math.I2.derivatives-intuition",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "math_I2_derivatives_intuition_q1",
+        "type": "mcq",
+        "prompt": "Differentiate f(x) = x³.",
+        "choices": [
+          "3x²",
+          "x²",
+          "3x",
+          "x⁴/4"
+        ],
+        "answer": 0,
+        "explanation": "Power rule: 3·x^(3−1) = 3x²."
+      },
+      {
+        "id": "math_I2_derivatives_intuition_q2",
+        "type": "mcq",
+        "prompt": "The derivative of a constant, e.g. f(x)=7, is:",
+        "choices": [
+          "0",
+          "7",
+          "1",
+          "undefined"
+        ],
+        "answer": 0,
+        "explanation": "A constant does not change, so its rate is 0."
+      }
+    ],
+    "3": []
+  }
+}

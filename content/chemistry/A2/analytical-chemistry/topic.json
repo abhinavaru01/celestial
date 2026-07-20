@@ -1,0 +1,40 @@
+{
+  "id": "chemistry.A2.analytical-chemistry",
+  "subject": "chemistry",
+  "tier": "A2",
+  "title": "Analytical & Practical Chemistry Portfolio",
+  "slug": "analytical-chemistry",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Qualitative and quantitative analysis, and error treatment — the capstone lab strand.",
+  "outcomes": [
+    "Perform qualitative tests",
+    "Carry out quantitative analysis",
+    "Treat experimental error"
+  ],
+  "prereqs": [
+    "chemistry.A2.coordination-chemistry",
+    "math.I1.statistics-ii"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 Practical Chemistry"
+    ],
+    "ICSE": [
+      "Cl.11-12 Practical"
+    ],
+    "IB": [
+      "DP Chemistry IA"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "analysis",
+    "titration",
+    "qualitative",
+    "quantitative",
+    "error"
+  ]
+}

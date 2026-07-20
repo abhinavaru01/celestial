@@ -1,0 +1,36 @@
+{
+  "topicId": "cs.I2.intro-c",
+  "levels": {
+    "1": [
+      {
+        "id": "cs_I2_intro_c_q2",
+        "type": "mcq",
+        "prompt": "In C, each variable must have a declared:",
+        "choices": [
+          "type",
+          "colour",
+          "comment",
+          "file"
+        ],
+        "answer": 0,
+        "explanation": "C is statically typed — types are declared."
+      }
+    ],
+    "2": [
+      {
+        "id": "cs_I2_intro_c_q1",
+        "type": "mcq",
+        "prompt": "Unlike Python, C code must first be:",
+        "choices": [
+          "compiled to machine code",
+          "uploaded online",
+          "printed",
+          "interpreted line by line"
+        ],
+        "answer": 0,
+        "explanation": "C is compiled before it runs."
+      }
+    ],
+    "3": []
+  }
+}

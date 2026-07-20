@@ -1,0 +1,41 @@
+{
+  "id": "biology.I2.dna-inheritance",
+  "subject": "biology",
+  "tier": "I2",
+  "title": "DNA & the Molecular Basis of Inheritance",
+  "slug": "dna-inheritance",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "DNA structure, replication and the central dogma — information flow in cells.",
+  "outcomes": [
+    "Describe DNA structure",
+    "Explain replication",
+    "State the central dogma"
+  ],
+  "prereqs": [
+    "biology.I2.genetics-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Molecular Basis of Inheritance"
+    ],
+    "ICSE": [
+      "Cl.12 DNA"
+    ],
+    "IB": [
+      "DP Molecular Biology"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "DNA",
+    "replication",
+    "central dogma",
+    "transcription",
+    "translation"
+  ]
+}

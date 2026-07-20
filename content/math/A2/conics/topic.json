@@ -1,0 +1,43 @@
+{
+  "id": "math.A2.conics",
+  "subject": "math",
+  "tier": "A2",
+  "title": "Advanced Coordinate Geometry: Conics",
+  "slug": "conics",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Parabolas, ellipses and hyperbolas as slices of a cone, with their equations and properties.",
+  "outcomes": [
+    "Recognise conic equations",
+    "Identify foci, axes and eccentricity",
+    "Apply conics to real situations (orbits, reflectors)"
+  ],
+  "prereqs": [
+    "math.A2.probability-distributions",
+    "math.I1.coordinate-geometry"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Conic Sections"
+    ],
+    "ICSE": [
+      "Cl.11 Conics"
+    ],
+    "IB": [
+      "DP (Applications)"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "conics",
+    "parabola",
+    "ellipse",
+    "hyperbola",
+    "eccentricity"
+  ]
+}

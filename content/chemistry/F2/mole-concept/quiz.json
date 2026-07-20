@@ -1,0 +1,28 @@
+{
+  "topicId": "chemistry.F2.mole-concept",
+  "levels": {
+    "1": [
+      {
+        "id": "chemistry_F2_mole_concept_q1",
+        "type": "numeric",
+        "prompt": "How many moles in 36 g of water (molar mass 18 g/mol)?",
+        "answer": 2,
+        "tolerance": 0,
+        "unit": "mol",
+        "explanation": "Moles = 36 ÷ 18 = 2 mol."
+      }
+    ],
+    "2": [
+      {
+        "id": "chemistry_F2_mole_concept_q2",
+        "type": "numeric",
+        "prompt": "Mass of 0.5 mol of carbon (molar mass 12 g/mol)?",
+        "answer": 6,
+        "tolerance": 0,
+        "unit": "g",
+        "explanation": "Mass = moles × molar mass = 0.5 × 12 = 6 g."
+      }
+    ],
+    "3": []
+  }
+}

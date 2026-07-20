@@ -1,0 +1,36 @@
+{
+  "topicId": "physics.A1.fluids-advanced",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "physics_A1_fluids_advanced_q1",
+        "type": "mcq",
+        "prompt": "In a narrowing pipe, the fluid speed:",
+        "choices": [
+          "increases",
+          "decreases",
+          "stays the same",
+          "drops to zero"
+        ],
+        "answer": 0,
+        "explanation": "Continuity: smaller area means higher speed."
+      }
+    ],
+    "3": [
+      {
+        "id": "physics_A1_fluids_advanced_q2",
+        "type": "mcq",
+        "prompt": "By Bernoulli, faster-moving fluid has:",
+        "choices": [
+          "lower pressure",
+          "higher pressure",
+          "more mass",
+          "more viscosity"
+        ],
+        "answer": 0,
+        "explanation": "Speed up ↔ pressure down."
+      }
+    ]
+  }
+}

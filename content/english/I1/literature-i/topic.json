@@ -1,0 +1,39 @@
+{
+  "id": "english.I1.literature-i",
+  "subject": "english",
+  "tier": "I1",
+  "title": "Literature I",
+  "slug": "literature-i",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Short stories and drama: analysing theme and character.",
+  "outcomes": [
+    "Analyse theme",
+    "Trace character development",
+    "Support analysis with textual evidence"
+  ],
+  "prereqs": [
+    "english.I1.analysing-nonfiction-media"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.9-10 Literature"
+    ],
+    "ICSE": [
+      "Cl.9-10 Literature"
+    ],
+    "IB": [
+      "MYP/DP Literature"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "literature",
+    "theme",
+    "character",
+    "short story",
+    "drama"
+  ]
+}

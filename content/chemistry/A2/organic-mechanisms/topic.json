@@ -1,0 +1,44 @@
+{
+  "id": "chemistry.A2.organic-mechanisms",
+  "subject": "chemistry",
+  "tier": "A2",
+  "title": "Organic Reaction Mechanisms",
+  "slug": "organic-mechanisms",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Nucleophiles, electrophiles and key reaction pathways — reasoned, not memorised.",
+  "outcomes": [
+    "Identify nucleophiles and electrophiles",
+    "Follow reaction mechanisms",
+    "Predict organic products by reasoning"
+  ],
+  "prereqs": [
+    "chemistry.A1.periodic-properties",
+    "chemistry.I2.organic-intro"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 Organic Chemistry"
+    ],
+    "ICSE": [
+      "Cl.12 Organic Mechanisms"
+    ],
+    "IB": [
+      "DP Organic HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "mechanism",
+    "nucleophile",
+    "electrophile",
+    "curly arrows",
+    "organic"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "topicId": "english.F2.structured-exposition",
+  "levels": {
+    "1": [
+      {
+        "id": "english_F2_structured_exposition_q1",
+        "type": "mcq",
+        "prompt": "The main claim an essay develops is its:",
+        "choices": [
+          "thesis",
+          "title",
+          "quotation",
+          "footnote"
+        ],
+        "answer": 0,
+        "explanation": "The thesis states the essay's central point."
+      }
+    ],
+    "2": [
+      {
+        "id": "english_F2_structured_exposition_q2",
+        "type": "mcq",
+        "prompt": "Each body paragraph should:",
+        "choices": [
+          "develop one point supporting the thesis",
+          "introduce a new unrelated topic",
+          "repeat the introduction",
+          "contain only a quotation"
+        ],
+        "answer": 0,
+        "explanation": "One point per paragraph, all serving the thesis."
+      }
+    ],
+    "3": []
+  }
+}

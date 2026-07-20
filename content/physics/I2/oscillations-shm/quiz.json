@@ -1,0 +1,35 @@
+{
+  "topicId": "physics.I2.oscillations-shm",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "physics_I2_oscillations_shm_q1",
+        "type": "mcq",
+        "prompt": "The defining condition of SHM is a restoring force proportional to:",
+        "choices": [
+          "displacement",
+          "velocity",
+          "acceleration squared",
+          "time"
+        ],
+        "answer": 0,
+        "explanation": "F = −kx: proportional to displacement, opposite in direction."
+      },
+      {
+        "id": "physics_I2_oscillations_shm_q2",
+        "type": "mcq",
+        "prompt": "In ideal SHM, increasing the amplitude changes the period:",
+        "choices": [
+          "not at all",
+          "increases it",
+          "decreases it",
+          "doubles it"
+        ],
+        "answer": 0,
+        "explanation": "Period is independent of amplitude in SHM."
+      }
+    ],
+    "3": []
+  }
+}

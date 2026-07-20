@@ -1,0 +1,35 @@
+{
+  "topicId": "biology.I1.respiration-photosynthesis",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "biology_I1_respiration_photosynthesis_q1",
+        "type": "mcq",
+        "prompt": "Aerobic respiration produces energy plus carbon dioxide and:",
+        "choices": [
+          "water",
+          "oxygen",
+          "glucose",
+          "nitrogen"
+        ],
+        "answer": 0,
+        "explanation": "Glucose + oxygen → CO₂ + water + energy."
+      },
+      {
+        "id": "biology_I1_respiration_photosynthesis_q2",
+        "type": "mcq",
+        "prompt": "Compared with aerobic respiration, anaerobic respiration releases:",
+        "choices": [
+          "less energy",
+          "more energy",
+          "the same energy",
+          "no products"
+        ],
+        "answer": 0,
+        "explanation": "Without oxygen, glucose is only partly broken down."
+      }
+    ],
+    "3": []
+  }
+}

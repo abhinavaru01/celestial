@@ -1,0 +1,43 @@
+{
+  "id": "chemistry.A2.functional-groups",
+  "subject": "chemistry",
+  "tier": "A2",
+  "title": "Functional-Group Chemistry",
+  "slug": "functional-groups",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Alcohols, aldehydes, ketones, carboxylic acids and amines — reactions by group.",
+  "outcomes": [
+    "Recognise major functional groups",
+    "Predict characteristic reactions",
+    "Interconvert functional groups"
+  ],
+  "prereqs": [
+    "chemistry.A2.organic-mechanisms"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Alcohols, Aldehydes, Acids, Amines"
+    ],
+    "ICSE": [
+      "Cl.12 Organic Compounds"
+    ],
+    "IB": [
+      "DP Organic HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "functional groups",
+    "alcohol",
+    "aldehyde",
+    "carboxylic acid",
+    "amine"
+  ]
+}

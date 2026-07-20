@@ -1,0 +1,43 @@
+{
+  "id": "physics.I1.kinematics-2d",
+  "subject": "physics",
+  "tier": "I1",
+  "title": "Kinematics in Two Dimensions",
+  "slug": "kinematics-2d",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Vectors applied to motion — resolving into components and analysing projectiles.",
+  "outcomes": [
+    "Resolve velocity into components",
+    "Analyse projectile motion",
+    "Treat horizontal and vertical motion independently"
+  ],
+  "prereqs": [
+    "physics.F2.magnetism-i",
+    "math.I1.trigonometry-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Motion in a Plane"
+    ],
+    "ICSE": [
+      "Cl.11 Kinematics"
+    ],
+    "IB": [
+      "DP Mechanics"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "projectile",
+    "components",
+    "vectors",
+    "kinematics"
+  ]
+}

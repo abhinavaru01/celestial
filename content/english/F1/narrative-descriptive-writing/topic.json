@@ -1,0 +1,39 @@
+{
+  "id": "english.F1.narrative-descriptive-writing",
+  "subject": "english",
+  "tier": "F1",
+  "title": "Narrative & Descriptive Writing",
+  "slug": "narrative-descriptive-writing",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Telling a story and painting a scene with vivid, purposeful detail.",
+  "outcomes": [
+    "Structure a narrative",
+    "Use sensory description",
+    "Show rather than tell"
+  ],
+  "prereqs": [
+    "english.F1.paragraph-architecture"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.6-8 Creative Writing"
+    ],
+    "ICSE": [
+      "Cl.6-8 Composition"
+    ],
+    "IB": [
+      "MYP Creative Writing"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "narrative",
+    "descriptive",
+    "show not tell",
+    "sensory detail",
+    "writing"
+  ]
+}

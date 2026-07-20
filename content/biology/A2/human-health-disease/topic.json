@@ -1,0 +1,42 @@
+{
+  "id": "biology.A2.human-health-disease",
+  "subject": "biology",
+  "tier": "A2",
+  "title": "Human Health & Disease at Depth",
+  "slug": "human-health-disease",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Immunity, reproduction and biotechnology in medicine.",
+  "outcomes": [
+    "Detail the immune response",
+    "Explain reproductive health",
+    "Describe medical biotechnology"
+  ],
+  "prereqs": [
+    "biology.A2.ecology-environment-depth",
+    "biology.F2.health-disease"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Human Health & Disease"
+    ],
+    "ICSE": [
+      "Cl.12 Health"
+    ],
+    "IB": [
+      "DP Human Physiology HL"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "immunity",
+    "vaccine",
+    "disease",
+    "reproductive health",
+    "medicine"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "topicId": "cs.F1.version-control-i",
+  "levels": {
+    "1": [
+      {
+        "id": "cs_F1_version_control_i_q1",
+        "type": "mcq",
+        "prompt": "Which git command saves a snapshot of staged changes?",
+        "choices": [
+          "git commit",
+          "git delete",
+          "git run",
+          "git print"
+        ],
+        "answer": 0,
+        "explanation": "git commit records a snapshot with a message."
+      }
+    ],
+    "2": [
+      {
+        "id": "cs_F1_version_control_i_q2",
+        "type": "mcq",
+        "prompt": "The main benefit of version control is:",
+        "choices": [
+          "tracking history and undoing mistakes",
+          "making code run faster",
+          "writing code for you",
+          "deleting old files"
+        ],
+        "answer": 0,
+        "explanation": "It records history so you can review and revert."
+      }
+    ],
+    "3": []
+  }
+}

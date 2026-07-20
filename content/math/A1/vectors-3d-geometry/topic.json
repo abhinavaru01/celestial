@@ -1,0 +1,43 @@
+{
+  "id": "math.A1.vectors-3d-geometry",
+  "subject": "math",
+  "tier": "A1",
+  "title": "Vectors & 3-D Geometry",
+  "slug": "vectors-3d-geometry",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Vector algebra, dot and cross products, and lines and planes in three dimensions — the shared spine with physics.",
+  "outcomes": [
+    "Add, scale and resolve vectors",
+    "Use the dot and cross products",
+    "Describe lines and planes in 3-D"
+  ],
+  "prereqs": [
+    "math.A1.integration-techniques",
+    "math.I1.trigonometry-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Vector Algebra",
+      "Cl.12 Three-Dimensional Geometry"
+    ],
+    "ICSE": [
+      "Cl.12 Vectors"
+    ],
+    "IB": [
+      "DP Vectors HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "vectors",
+    "dot product",
+    "cross product",
+    "3D geometry"
+  ]
+}

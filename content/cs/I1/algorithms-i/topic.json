@@ -1,0 +1,41 @@
+{
+  "id": "cs.I1.algorithms-i",
+  "subject": "cs",
+  "tier": "I1",
+  "title": "Algorithms I",
+  "slug": "algorithms-i",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Linear and binary search, basic sorting, and correctness reasoning.",
+  "outcomes": [
+    "Implement linear and binary search",
+    "Implement a basic sort",
+    "Reason about correctness"
+  ],
+  "prereqs": [
+    "cs.I1.data-structures-basic"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 CS: Searching & Sorting"
+    ],
+    "ICSE": [
+      "Cl.11-12 Algorithms"
+    ],
+    "IB": [
+      "DP CS"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "search",
+    "binary search",
+    "sorting",
+    "algorithm",
+    "correctness"
+  ]
+}

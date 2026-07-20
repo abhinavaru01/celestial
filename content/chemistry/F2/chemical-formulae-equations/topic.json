@@ -1,0 +1,42 @@
+{
+  "id": "chemistry.F2.chemical-formulae-equations",
+  "subject": "chemistry",
+  "tier": "F2",
+  "title": "Chemical Formulae & Equations",
+  "slug": "chemical-formulae-equations",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Writing formulae and balancing equations as conservation-of-mass accounting.",
+  "outcomes": [
+    "Write formulae from valencies",
+    "Balance chemical equations",
+    "Interpret an equation quantitatively"
+  ],
+  "prereqs": [
+    "chemistry.F2.mole-concept",
+    "chemistry.F1.physical-chemical-change"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.9-10 Chemical Reactions & Equations"
+    ],
+    "ICSE": [
+      "Cl.8-9 Chemical Equations"
+    ],
+    "IB": [
+      "DP Stoichiometry"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "formula",
+    "balancing",
+    "equation",
+    "valency"
+  ]
+}

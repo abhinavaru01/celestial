@@ -1,0 +1,41 @@
+{
+  "id": "cs.A1.algorithmic-problem-solving",
+  "subject": "cs",
+  "tier": "A1",
+  "title": "Algorithmic Problem Solving",
+  "slug": "algorithmic-problem-solving",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Problem-solving patterns and approaching problems under constraints.",
+  "outcomes": [
+    "Recognise common patterns",
+    "Approach constrained problems",
+    "Balance correctness and efficiency"
+  ],
+  "prereqs": [
+    "cs.A1.algorithms-ii"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS: Problem Solving"
+    ],
+    "ICSE": [
+      "Cl.12 Algorithms"
+    ],
+    "IB": [
+      "DP CS"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "problem solving",
+    "patterns",
+    "dynamic programming",
+    "greedy",
+    "constraints"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "topicId": "chemistry.A2.coordination-chemistry",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "chemistry_A2_coordination_chemistry_q1",
+        "type": "mcq",
+        "prompt": "Transition metals commonly show:",
+        "choices": [
+          "variable oxidation states",
+          "only one oxidation state",
+          "no colour ever",
+          "no catalytic activity"
+        ],
+        "answer": 0,
+        "explanation": "Partly filled d-orbitals allow variable states."
+      },
+      {
+        "id": "chemistry_A2_coordination_chemistry_q2",
+        "type": "mcq",
+        "prompt": "In a complex ion, a ligand:",
+        "choices": [
+          "donates an electron pair to the metal",
+          "removes electrons",
+          "is always water",
+          "changes the nucleus"
+        ],
+        "answer": 0,
+        "explanation": "Ligands are electron-pair donors."
+      }
+    ],
+    "3": []
+  }
+}

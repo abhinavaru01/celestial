@@ -1,0 +1,35 @@
+{
+  "topicId": "english.I2.comparative-analysis",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "english_I2_comparative_analysis_q1",
+        "type": "mcq",
+        "prompt": "A strong comparative essay is organised:",
+        "choices": [
+          "point-by-point across texts",
+          "one whole text then the other",
+          "randomly",
+          "by length"
+        ],
+        "answer": 0,
+        "explanation": "Point-by-point forces genuine comparison."
+      },
+      {
+        "id": "english_I2_comparative_analysis_q2",
+        "type": "mcq",
+        "prompt": "Synthesis means:",
+        "choices": [
+          "combining sources into a new understanding",
+          "summarising each separately",
+          "copying one source",
+          "ignoring differences"
+        ],
+        "answer": 0,
+        "explanation": "Synthesis integrates multiple sources."
+      }
+    ],
+    "3": []
+  }
+}

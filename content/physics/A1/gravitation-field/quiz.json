@@ -1,0 +1,36 @@
+{
+  "topicId": "physics.A1.gravitation-field",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "physics_A1_gravitation_field_q1",
+        "type": "mcq",
+        "prompt": "Gravitational field strength is defined as force per unit:",
+        "choices": [
+          "mass",
+          "volume",
+          "area",
+          "charge"
+        ],
+        "answer": 0,
+        "explanation": "g = F/m, the force per unit mass."
+      }
+    ],
+    "3": [
+      {
+        "id": "physics_A1_gravitation_field_q2",
+        "type": "mcq",
+        "prompt": "A bound (closed) orbit has total mechanical energy that is:",
+        "choices": [
+          "negative",
+          "positive",
+          "zero",
+          "infinite"
+        ],
+        "answer": 0,
+        "explanation": "Bound systems have negative total energy."
+      }
+    ]
+  }
+}

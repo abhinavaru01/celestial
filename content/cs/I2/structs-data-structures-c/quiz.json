@@ -1,0 +1,35 @@
+{
+  "topicId": "cs.I2.structs-data-structures-c",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "cs_I2_structs_data_structures_c_q1",
+        "type": "mcq",
+        "prompt": "A struct in C is used to:",
+        "choices": [
+          "group related fields under one type",
+          "loop over data",
+          "free memory",
+          "compile code"
+        ],
+        "answer": 0,
+        "explanation": "A struct bundles related data."
+      },
+      {
+        "id": "cs_I2_structs_data_structures_c_q2",
+        "type": "mcq",
+        "prompt": "A linked-list node typically contains data and:",
+        "choices": [
+          "a pointer to the next node",
+          "the whole list copied",
+          "a file",
+          "a string only"
+        ],
+        "answer": 0,
+        "explanation": "The next-pointer chains nodes together."
+      }
+    ],
+    "3": []
+  }
+}

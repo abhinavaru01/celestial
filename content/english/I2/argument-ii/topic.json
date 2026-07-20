@@ -1,0 +1,39 @@
+{
+  "id": "english.I2.argument-ii",
+  "subject": "english",
+  "tier": "I2",
+  "title": "Argument II",
+  "slug": "argument-ii",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Counterargument, rebuttal and spotting logical fallacies.",
+  "outcomes": [
+    "Address counterarguments",
+    "Write effective rebuttals",
+    "Identify common fallacies"
+  ],
+  "prereqs": [
+    "english.I1.research-citation"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 Argumentative Writing"
+    ],
+    "ICSE": [
+      "Cl.11-12 Argument"
+    ],
+    "IB": [
+      "DP Argument"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "counterargument",
+    "rebuttal",
+    "fallacy",
+    "logic",
+    "argument"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "english.F2.grammar-for-style",
+  "subject": "english",
+  "tier": "F2",
+  "title": "Grammar for Style",
+  "slug": "grammar-for-style",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Clauses, punctuation for effect, and controlling active and passive voice.",
+  "outcomes": [
+    "Use clauses to vary sentences",
+    "Punctuate for effect",
+    "Choose active or passive voice deliberately"
+  ],
+  "prereqs": [
+    "english.F2.summarising-paraphrasing"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.8-10 Grammar"
+    ],
+    "ICSE": [
+      "Cl.8-10 Grammar"
+    ],
+    "IB": [
+      "MYP Language"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "grammar",
+    "punctuation",
+    "active voice",
+    "passive voice",
+    "style"
+  ]
+}

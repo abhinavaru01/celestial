@@ -1,0 +1,40 @@
+{
+  "id": "cs.A2.databases-intro",
+  "subject": "cs",
+  "tier": "A2",
+  "title": "Databases Intro",
+  "slug": "databases-intro",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Relational modelling and basic SQL.",
+  "outcomes": [
+    "Model data in tables",
+    "Write basic SQL queries",
+    "Understand keys and relationships"
+  ],
+  "prereqs": [
+    "cs.A2.working-with-codebase",
+    "cs.I1.file-io-data-formats"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS: Databases & SQL"
+    ],
+    "ICSE": [
+      "Cl.12 Databases"
+    ],
+    "IB": [
+      "DP CS: Databases"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "database",
+    "SQL",
+    "relational",
+    "tables",
+    "keys"
+  ]
+}

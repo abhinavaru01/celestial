@@ -1,0 +1,41 @@
+{
+  "id": "math.I2.trigonometry-ii",
+  "subject": "math",
+  "tier": "I2",
+  "title": "Trigonometry II",
+  "slug": "trigonometry-ii",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Identities, trigonometric equations, and the sine and cosine rules for any triangle.",
+  "outcomes": [
+    "Use key trig identities",
+    "Solve trigonometric equations",
+    "Apply the sine and cosine rules"
+  ],
+  "prereqs": [
+    "math.I2.functions"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Trigonometric Functions"
+    ],
+    "ICSE": [
+      "Cl.11 Trigonometry"
+    ],
+    "IB": [
+      "DP Trigonometry"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "trig identities",
+    "sine rule",
+    "cosine rule",
+    "equations"
+  ]
+}

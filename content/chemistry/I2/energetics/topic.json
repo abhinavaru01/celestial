@@ -1,0 +1,44 @@
+{
+  "id": "chemistry.I2.energetics",
+  "subject": "chemistry",
+  "tier": "I2",
+  "title": "Energetics (Thermochemistry)",
+  "slug": "energetics",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Exothermic and endothermic reactions, enthalpy, and an introduction to Hess's law.",
+  "outcomes": [
+    "Classify reactions as exo/endothermic",
+    "Interpret enthalpy changes",
+    "Apply Hess's law (intro)"
+  ],
+  "prereqs": [
+    "chemistry.I2.gas-laws-kinetic-theory",
+    "chemistry.I1.reactions-equations"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Thermodynamics"
+    ],
+    "ICSE": [
+      "Cl.11-12 Thermochemistry"
+    ],
+    "IB": [
+      "DP Energetics"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "enthalpy",
+    "exothermic",
+    "endothermic",
+    "Hess law",
+    "thermochemistry"
+  ]
+}

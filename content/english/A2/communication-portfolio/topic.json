@@ -1,0 +1,40 @@
+{
+  "id": "english.A2.communication-portfolio",
+  "subject": "english",
+  "tier": "A2",
+  "title": "Communication Portfolio",
+  "slug": "communication-portfolio",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "A body of polished writing across genres — the capstone strand.",
+  "outcomes": [
+    "Produce polished writing in several genres",
+    "Reflect on and revise work",
+    "Demonstrate range and control"
+  ],
+  "prereqs": [
+    "english.A2.critical-reasoning-comprehension",
+    "english.A2.extended-essay"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Portfolio"
+    ],
+    "ICSE": [
+      "Cl.12 Portfolio"
+    ],
+    "IB": [
+      "DP Portfolio"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "portfolio",
+    "writing",
+    "revision",
+    "genres",
+    "capstone"
+  ]
+}

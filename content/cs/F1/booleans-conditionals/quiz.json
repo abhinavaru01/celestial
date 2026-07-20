@@ -1,0 +1,36 @@
+{
+  "topicId": "cs.F1.booleans-conditionals",
+  "levels": {
+    "1": [
+      {
+        "id": "cs_F1_booleans_conditionals_q1",
+        "type": "mcq",
+        "prompt": "Which operator tests equality in a condition?",
+        "choices": [
+          "==",
+          "=",
+          "=>",
+          "!"
+        ],
+        "answer": 0,
+        "explanation": "== compares; = assigns."
+      }
+    ],
+    "2": [
+      {
+        "id": "cs_F1_booleans_conditionals_q2",
+        "type": "mcq",
+        "prompt": "if x > 0 and x < 10 is True when x is:",
+        "choices": [
+          "5",
+          "-5",
+          "10",
+          "20"
+        ],
+        "answer": 0,
+        "explanation": "5 satisfies both conditions."
+      }
+    ],
+    "3": []
+  }
+}

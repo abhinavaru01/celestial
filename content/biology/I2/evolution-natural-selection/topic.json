@@ -1,0 +1,43 @@
+{
+  "id": "biology.I2.evolution-natural-selection",
+  "subject": "biology",
+  "tier": "I2",
+  "title": "Evolution & Natural Selection",
+  "slug": "evolution-natural-selection",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "The unifying theory of biology: evidence and mechanism of natural selection.",
+  "outcomes": [
+    "Explain natural selection",
+    "Cite evidence for evolution",
+    "Relate variation to adaptation"
+  ],
+  "prereqs": [
+    "biology.I2.dna-inheritance",
+    "biology.F2.reproduction"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.10 Heredity & Evolution",
+      "Cl.12 Evolution"
+    ],
+    "ICSE": [
+      "Cl.10-12 Evolution"
+    ],
+    "IB": [
+      "DP Evolution"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "evolution",
+    "natural selection",
+    "adaptation",
+    "variation",
+    "evidence"
+  ]
+}

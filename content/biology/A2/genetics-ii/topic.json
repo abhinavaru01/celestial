@@ -1,0 +1,42 @@
+{
+  "id": "biology.A2.genetics-ii",
+  "subject": "biology",
+  "tier": "A2",
+  "title": "Genetics II",
+  "slug": "genetics-ii",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Linkage, mutation, genetic disorders and population genetics (Hardy-Weinberg).",
+  "outcomes": [
+    "Explain linkage and mutation",
+    "Analyse genetic disorders",
+    "Apply Hardy-Weinberg"
+  ],
+  "prereqs": [
+    "biology.A1.human-physiology-iii",
+    "math.I2.combinatorics-probability-ii"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Genetics & Evolution"
+    ],
+    "ICSE": [
+      "Cl.12 Genetics"
+    ],
+    "IB": [
+      "DP Genetics HL"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "linkage",
+    "mutation",
+    "genetic disorders",
+    "Hardy-Weinberg",
+    "population genetics"
+  ]
+}

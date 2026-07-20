@@ -1,0 +1,35 @@
+{
+  "topicId": "cs.A1.trees-graphs",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "cs_A1_trees_graphs_q1",
+        "type": "mcq",
+        "prompt": "Breadth-first search (BFS) typically uses a:",
+        "choices": [
+          "queue",
+          "stack",
+          "dictionary",
+          "float"
+        ],
+        "answer": 0,
+        "explanation": "BFS explores level by level using a queue."
+      },
+      {
+        "id": "cs_A1_trees_graphs_q2",
+        "type": "mcq",
+        "prompt": "To avoid infinite loops when traversing a graph, you must:",
+        "choices": [
+          "mark visited nodes",
+          "sort the nodes",
+          "delete edges",
+          "use recursion only"
+        ],
+        "answer": 0,
+        "explanation": "Tracking visited nodes prevents revisiting cycles."
+      }
+    ],
+    "3": []
+  }
+}

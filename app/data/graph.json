@@ -1,12 +1,1140 @@
 {
   "nodes": [
     {
+      "id": "biology.A1.biochemistry",
+      "subject": "biology",
+      "tier": "A1",
+      "title": "Biochemistry",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "biology.A1.cell-biology-depth",
+      "subject": "biology",
+      "tier": "A1",
+      "title": "Cell Biology at Depth",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "biology.A1.human-physiology-iii",
+      "subject": "biology",
+      "tier": "A1",
+      "title": "Human Physiology III",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "biology.A1.molecular-genetics",
+      "subject": "biology",
+      "tier": "A1",
+      "title": "Molecular Genetics",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "biology.A1.plant-physiology-depth",
+      "subject": "biology",
+      "tier": "A1",
+      "title": "Plant Physiology at Depth",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "biology.A2.biotechnology",
+      "subject": "biology",
+      "tier": "A2",
+      "title": "Biotechnology",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "biology.A2.ecology-environment-depth",
+      "subject": "biology",
+      "tier": "A2",
+      "title": "Ecology & Environment at Depth",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "biology.A2.evolution-depth",
+      "subject": "biology",
+      "tier": "A2",
+      "title": "Evolution at Depth",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "biology.A2.genetics-ii",
+      "subject": "biology",
+      "tier": "A2",
+      "title": "Genetics II",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "biology.A2.human-health-disease",
+      "subject": "biology",
+      "tier": "A2",
+      "title": "Human Health & Disease at Depth",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "biology.A2.investigative-biology",
+      "subject": "biology",
+      "tier": "A2",
+      "title": "Investigative Biology Portfolio",
+      "inDegree": 2,
+      "outDegree": 0
+    },
+    {
+      "id": "biology.F1.characteristics-classification",
+      "subject": "biology",
+      "tier": "F1",
+      "title": "What is Life? Characteristics & Classification",
+      "inDegree": 0,
+      "outDegree": 1
+    },
+    {
+      "id": "biology.F1.living-environment-i",
+      "subject": "biology",
+      "tier": "F1",
+      "title": "Living Things & Their Environment I",
+      "inDegree": 1,
+      "outDegree": 3
+    },
+    {
+      "id": "biology.F1.nutrition-digestion",
+      "subject": "biology",
+      "tier": "F1",
+      "title": "Nutrition & the Human Digestive System",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "biology.F1.the-cell",
+      "subject": "biology",
+      "tier": "F1",
+      "title": "The Cell",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    {
+      "id": "biology.F2.cells-to-organisms",
+      "subject": "biology",
+      "tier": "F2",
+      "title": "Cells to Organisms",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "biology.F2.health-disease",
+      "subject": "biology",
+      "tier": "F2",
+      "title": "Health & Disease",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    {
+      "id": "biology.F2.human-physiology-i",
+      "subject": "biology",
+      "tier": "F2",
+      "title": "Human Physiology I",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    {
+      "id": "biology.F2.plant-biology-i",
+      "subject": "biology",
+      "tier": "F2",
+      "title": "Plant Biology I",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "biology.F2.reproduction",
+      "subject": "biology",
+      "tier": "F2",
+      "title": "Reproduction",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    {
+      "id": "biology.I1.cell-processes",
+      "subject": "biology",
+      "tier": "I1",
+      "title": "Cell Processes",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "biology.I1.ecology-ecosystems",
+      "subject": "biology",
+      "tier": "I1",
+      "title": "Ecology & Ecosystems",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "biology.I1.enzymes",
+      "subject": "biology",
+      "tier": "I1",
+      "title": "Enzymes",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "biology.I1.human-physiology-ii",
+      "subject": "biology",
+      "tier": "I1",
+      "title": "Human Physiology II",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "biology.I1.respiration-photosynthesis",
+      "subject": "biology",
+      "tier": "I1",
+      "title": "Respiration & Photosynthesis (Biochemical)",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "biology.I2.dna-inheritance",
+      "subject": "biology",
+      "tier": "I2",
+      "title": "DNA & the Molecular Basis of Inheritance",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    {
+      "id": "biology.I2.evolution-natural-selection",
+      "subject": "biology",
+      "tier": "I2",
+      "title": "Evolution & Natural Selection",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "biology.I2.genetics-i",
+      "subject": "biology",
+      "tier": "I2",
+      "title": "Genetics I: Inheritance",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "biology.I2.human-systems-capstone",
+      "subject": "biology",
+      "tier": "I2",
+      "title": "Human Systems Capstone",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "biology.I2.population-biology",
+      "subject": "biology",
+      "tier": "I2",
+      "title": "Population Biology",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "chemistry.A1.chemical-equilibrium",
+      "subject": "chemistry",
+      "tier": "A1",
+      "title": "Chemical Equilibrium (Quantitative)",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "chemistry.A1.chemical-kinetics",
+      "subject": "chemistry",
+      "tier": "A1",
+      "title": "Chemical Kinetics",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "chemistry.A1.chemical-thermodynamics",
+      "subject": "chemistry",
+      "tier": "A1",
+      "title": "Chemical Thermodynamics",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "chemistry.A1.electrochemistry",
+      "subject": "chemistry",
+      "tier": "A1",
+      "title": "Electrochemistry",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "chemistry.A1.ionic-equilibrium",
+      "subject": "chemistry",
+      "tier": "A1",
+      "title": "Ionic Equilibrium",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "chemistry.A1.periodic-properties",
+      "subject": "chemistry",
+      "tier": "A1",
+      "title": "Periodic Properties & s/p-Block",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "chemistry.A2.analytical-chemistry",
+      "subject": "chemistry",
+      "tier": "A2",
+      "title": "Analytical & Practical Chemistry Portfolio",
+      "inDegree": 2,
+      "outDegree": 0
+    },
+    {
+      "id": "chemistry.A2.biomolecules-polymers",
+      "subject": "chemistry",
+      "tier": "A2",
+      "title": "Biomolecules & Polymers",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "chemistry.A2.coordination-chemistry",
+      "subject": "chemistry",
+      "tier": "A2",
+      "title": "d-Block & Coordination Chemistry",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "chemistry.A2.functional-groups",
+      "subject": "chemistry",
+      "tier": "A2",
+      "title": "Functional-Group Chemistry",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "chemistry.A2.organic-mechanisms",
+      "subject": "chemistry",
+      "tier": "A2",
+      "title": "Organic Reaction Mechanisms",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "chemistry.F1.matter-particles-states",
+      "subject": "chemistry",
+      "tier": "F1",
+      "title": "Matter, Particles & States",
+      "inDegree": 0,
+      "outDegree": 1
+    },
+    {
+      "id": "chemistry.F1.physical-chemical-change",
+      "subject": "chemistry",
+      "tier": "F1",
+      "title": "Physical vs Chemical Change",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    {
+      "id": "chemistry.F1.separation-techniques",
+      "subject": "chemistry",
+      "tier": "F1",
+      "title": "Separation Techniques",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "chemistry.F2.atomic-structure-i",
+      "subject": "chemistry",
+      "tier": "F2",
+      "title": "Atomic Structure I",
+      "inDegree": 1,
+      "outDegree": 3
+    },
+    {
+      "id": "chemistry.F2.chemical-formulae-equations",
+      "subject": "chemistry",
+      "tier": "F2",
+      "title": "Chemical Formulae & Equations",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "chemistry.F2.mole-concept",
+      "subject": "chemistry",
+      "tier": "F2",
+      "title": "The Mole Concept",
+      "inDegree": 2,
+      "outDegree": 4
+    },
+    {
+      "id": "chemistry.F2.periodic-table",
+      "subject": "chemistry",
+      "tier": "F2",
+      "title": "The Periodic Table as a Map",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    {
+      "id": "chemistry.F2.stoichiometry-intro",
+      "subject": "chemistry",
+      "tier": "F2",
+      "title": "Introductory Stoichiometry",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "chemistry.I1.acids-bases-salts",
+      "subject": "chemistry",
+      "tier": "I1",
+      "title": "Acids, Bases & Salts",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "chemistry.I1.bonding-i",
+      "subject": "chemistry",
+      "tier": "I1",
+      "title": "Bonding I",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "chemistry.I1.rates-reaction",
+      "subject": "chemistry",
+      "tier": "I1",
+      "title": "Rates of Reaction",
+      "inDegree": 1,
+      "outDegree": 3
+    },
+    {
+      "id": "chemistry.I1.reactions-equations",
+      "subject": "chemistry",
+      "tier": "I1",
+      "title": "Reactions & Equations Deepened",
+      "inDegree": 1,
+      "outDegree": 3
+    },
+    {
+      "id": "chemistry.I1.solutions-concentration",
+      "subject": "chemistry",
+      "tier": "I1",
+      "title": "Solutions & Concentration",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "chemistry.I2.atomic-structure-ii",
+      "subject": "chemistry",
+      "tier": "I2",
+      "title": "Atomic Structure II",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "chemistry.I2.bonding-ii",
+      "subject": "chemistry",
+      "tier": "I2",
+      "title": "Bonding II",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "chemistry.I2.energetics",
+      "subject": "chemistry",
+      "tier": "I2",
+      "title": "Energetics (Thermochemistry)",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "chemistry.I2.equilibrium-intro",
+      "subject": "chemistry",
+      "tier": "I2",
+      "title": "Quantitative Equilibrium (Introduction)",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "chemistry.I2.gas-laws-kinetic-theory",
+      "subject": "chemistry",
+      "tier": "I2",
+      "title": "Gas Laws & Kinetic Theory",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "chemistry.I2.organic-intro",
+      "subject": "chemistry",
+      "tier": "I2",
+      "title": "Introductory Organic Chemistry",
+      "inDegree": 1,
+      "outDegree": 3
+    },
+    {
+      "id": "cs.A1.algorithmic-problem-solving",
+      "subject": "cs",
+      "tier": "A1",
+      "title": "Algorithmic Problem Solving",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "cs.A1.algorithms-ii",
+      "subject": "cs",
+      "tier": "A1",
+      "title": "Algorithms II",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "cs.A1.oop",
+      "subject": "cs",
+      "tier": "A1",
+      "title": "Object-Oriented Programming (Python)",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "cs.A1.recursion",
+      "subject": "cs",
+      "tier": "A1",
+      "title": "Recursion",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "cs.A1.testing",
+      "subject": "cs",
+      "tier": "A1",
+      "title": "Testing",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "cs.A1.trees-graphs",
+      "subject": "cs",
+      "tier": "A1",
+      "title": "Trees & Graphs",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "cs.A2.capstone-project",
+      "subject": "cs",
+      "tier": "A2",
+      "title": "Capstone Project",
+      "inDegree": 2,
+      "outDegree": 0
+    },
+    {
+      "id": "cs.A2.databases-intro",
+      "subject": "cs",
+      "tier": "A2",
+      "title": "Databases Intro",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "cs.A2.software-design",
+      "subject": "cs",
+      "tier": "A2",
+      "title": "Software Design",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "cs.A2.web-data-basics",
+      "subject": "cs",
+      "tier": "A2",
+      "title": "Web & Data Basics",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "cs.A2.working-with-codebase",
+      "subject": "cs",
+      "tier": "A2",
+      "title": "Working with a Codebase",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "cs.F1.booleans-conditionals",
+      "subject": "cs",
+      "tier": "F1",
+      "title": "Booleans & Conditionals",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "cs.F1.computational-thinking",
+      "subject": "cs",
+      "tier": "F1",
+      "title": "Computational Thinking",
+      "inDegree": 0,
+      "outDegree": 1
+    },
+    {
+      "id": "cs.F1.first-programs",
+      "subject": "cs",
+      "tier": "F1",
+      "title": "First Programs",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    {
+      "id": "cs.F1.input-output",
+      "subject": "cs",
+      "tier": "F1",
+      "title": "Input, Output & Simple Interaction",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
       "id": "cs.F1.python-variables-types-expressions",
       "subject": "cs",
       "tier": "F1",
       "title": "Python: Variables, Types & Expressions",
       "inDegree": 0,
+      "outDegree": 3
+    },
+    {
+      "id": "cs.F1.version-control-i",
+      "subject": "cs",
+      "tier": "F1",
+      "title": "Version Control Basics I",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    {
+      "id": "cs.F2.dictionaries-sets",
+      "subject": "cs",
+      "tier": "F2",
+      "title": "Dictionaries & Sets",
+      "inDegree": 2,
+      "outDegree": 3
+    },
+    {
+      "id": "cs.F2.functions",
+      "subject": "cs",
+      "tier": "F2",
+      "title": "Functions",
+      "inDegree": 1,
+      "outDegree": 5
+    },
+    {
+      "id": "cs.F2.lists-iteration",
+      "subject": "cs",
+      "tier": "F2",
+      "title": "Lists & Iteration",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    {
+      "id": "cs.F2.loops",
+      "subject": "cs",
+      "tier": "F2",
+      "title": "Loops",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "cs.F2.project-1",
+      "subject": "cs",
+      "tier": "F2",
+      "title": "Project 1",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "cs.F2.strings-depth",
+      "subject": "cs",
+      "tier": "F2",
+      "title": "Strings at Depth",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "cs.F2.version-control-ii",
+      "subject": "cs",
+      "tier": "F2",
+      "title": "Version Control Basics II",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "cs.I1.algorithms-i",
+      "subject": "cs",
+      "tier": "I1",
+      "title": "Algorithms I",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    {
+      "id": "cs.I1.complexity-intuition",
+      "subject": "cs",
+      "tier": "I1",
+      "title": "Complexity Intuition (Big-O)",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "cs.I1.data-structures-basic",
+      "subject": "cs",
+      "tier": "I1",
+      "title": "Data Structures: Stacks, Queues, Linked Lists",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "cs.I1.error-handling-debugging",
+      "subject": "cs",
+      "tier": "I1",
+      "title": "Error Handling & Debugging Discipline",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "cs.I1.file-io-data-formats",
+      "subject": "cs",
+      "tier": "I1",
+      "title": "File I/O & Data Formats",
+      "inDegree": 2,
+      "outDegree": 3
+    },
+    {
+      "id": "cs.I1.modules-organization",
+      "subject": "cs",
+      "tier": "I1",
+      "title": "Modules & Program Organization",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "cs.I1.project-2",
+      "subject": "cs",
+      "tier": "I1",
+      "title": "Project 2",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "cs.I2.control-arrays-c",
+      "subject": "cs",
+      "tier": "I2",
+      "title": "Control Flow & Arrays in C",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "cs.I2.how-code-runs",
+      "subject": "cs",
+      "tier": "I2",
+      "title": "How Code Becomes Execution",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "cs.I2.intro-c",
+      "subject": "cs",
+      "tier": "I2",
+      "title": "Intro to C",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "cs.I2.pointers-memory",
+      "subject": "cs",
+      "tier": "I2",
+      "title": "Pointers & Memory",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "cs.I2.strings-memory-c",
+      "subject": "cs",
+      "tier": "I2",
+      "title": "Strings & Manual Memory Management in C",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "cs.I2.structs-data-structures-c",
+      "subject": "cs",
+      "tier": "I2",
+      "title": "Structs & Building Data Structures in C",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.A1.literary-criticism",
+      "subject": "english",
+      "tier": "A1",
+      "title": "Literary Criticism",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.A1.persuasion-real-world",
+      "subject": "english",
+      "tier": "A1",
+      "title": "Persuasion in the Real World",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.A1.research-paper",
+      "subject": "english",
+      "tier": "A1",
+      "title": "The Research Paper",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    {
+      "id": "english.A1.rhetoric-style",
+      "subject": "english",
+      "tier": "A1",
+      "title": "Rhetoric & Style at Depth",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.A2.advanced-literary-analysis",
+      "subject": "english",
+      "tier": "A2",
+      "title": "Advanced Literary Analysis",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.A2.communication-portfolio",
+      "subject": "english",
+      "tier": "A2",
+      "title": "Communication Portfolio",
+      "inDegree": 2,
       "outDegree": 0
+    },
+    {
+      "id": "english.A2.critical-reasoning-comprehension",
+      "subject": "english",
+      "tier": "A2",
+      "title": "Critical Reasoning & Comprehension (Exam Level)",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "english.A2.extended-essay",
+      "subject": "english",
+      "tier": "A2",
+      "title": "The Extended Essay / Independent Research Writing",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "english.F1.narrative-descriptive-writing",
+      "subject": "english",
+      "tier": "F1",
+      "title": "Narrative & Descriptive Writing",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.F1.paragraph-architecture",
+      "subject": "english",
+      "tier": "F1",
+      "title": "Paragraph Architecture",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.F1.reading-for-meaning",
+      "subject": "english",
+      "tier": "F1",
+      "title": "Reading for Meaning",
+      "inDegree": 0,
+      "outDegree": 1
+    },
+    {
+      "id": "english.F1.sentence-craft",
+      "subject": "english",
+      "tier": "F1",
+      "title": "Sentence Craft",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.F1.vocabulary-roots",
+      "subject": "english",
+      "tier": "F1",
+      "title": "Vocabulary by Roots",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.F2.close-reading",
+      "subject": "english",
+      "tier": "F2",
+      "title": "Close Reading of Prose & Poetry",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.F2.grammar-for-style",
+      "subject": "english",
+      "tier": "F2",
+      "title": "Grammar for Style",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.F2.structured-exposition",
+      "subject": "english",
+      "tier": "F2",
+      "title": "Structured Exposition",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.F2.summarising-paraphrasing",
+      "subject": "english",
+      "tier": "F2",
+      "title": "Summarising & Paraphrasing",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.F2.vocabulary-ii",
+      "subject": "english",
+      "tier": "F2",
+      "title": "Vocabulary II",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.I1.analysing-nonfiction-media",
+      "subject": "english",
+      "tier": "I1",
+      "title": "Analysing Non-Fiction & Media",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.I1.argument-i",
+      "subject": "english",
+      "tier": "I1",
+      "title": "Argument I",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.I1.literature-i",
+      "subject": "english",
+      "tier": "I1",
+      "title": "Literature I",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.I1.persuasive-essay",
+      "subject": "english",
+      "tier": "I1",
+      "title": "The Persuasive / Argumentative Essay",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.I1.research-citation",
+      "subject": "english",
+      "tier": "I1",
+      "title": "Research & Citation Basics",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.I2.argument-ii",
+      "subject": "english",
+      "tier": "I2",
+      "title": "Argument II",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    {
+      "id": "english.I2.comparative-analysis",
+      "subject": "english",
+      "tier": "I2",
+      "title": "Comparative Analysis",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.I2.formal-technical-writing",
+      "subject": "english",
+      "tier": "I2",
+      "title": "Formal & Technical Writing",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.I2.literature-ii",
+      "subject": "english",
+      "tier": "I2",
+      "title": "Literature II",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "english.I2.public-speaking",
+      "subject": "english",
+      "tier": "I2",
+      "title": "Public Speaking & Structured Discussion",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "math.A1.calculus-limits-differentiation",
+      "subject": "math",
+      "tier": "A1",
+      "title": "Calculus: Limits & Differentiation",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "math.A1.complex-numbers",
+      "subject": "math",
+      "tier": "A1",
+      "title": "Complex Numbers",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "math.A1.integration-techniques",
+      "subject": "math",
+      "tier": "A1",
+      "title": "Integration Techniques & Applications",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "math.A1.matrices-determinants",
+      "subject": "math",
+      "tier": "A1",
+      "title": "Matrices & Determinants",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "math.A1.permutations-combinations-binomial",
+      "subject": "math",
+      "tier": "A1",
+      "title": "Permutations, Combinations & Binomial Theorem",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "math.A1.vectors-3d-geometry",
+      "subject": "math",
+      "tier": "A1",
+      "title": "Vectors & 3-D Geometry",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "math.A2.advanced-problem-solving",
+      "subject": "math",
+      "tier": "A2",
+      "title": "Advanced Problem-Solving Portfolio",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "math.A2.conics",
+      "subject": "math",
+      "tier": "A2",
+      "title": "Advanced Coordinate Geometry: Conics",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "math.A2.differential-equations",
+      "subject": "math",
+      "tier": "A2",
+      "title": "Differential Equations (Introductory)",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "math.A2.modeling-capstone",
+      "subject": "math",
+      "tier": "A2",
+      "title": "Mathematical Modeling Capstone",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    {
+      "id": "math.A2.probability-distributions",
+      "subject": "math",
+      "tier": "A2",
+      "title": "Probability Distributions & Statistics III",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "math.F1.algebra-generalized-arithmetic",
+      "subject": "math",
+      "tier": "F1",
+      "title": "Algebra as Generalized Arithmetic",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "math.F1.data-graphs-i",
+      "subject": "math",
+      "tier": "F1",
+      "title": "Data & Graphs I",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "math.F1.fractions-decimals",
+      "subject": "math",
+      "tier": "F1",
+      "title": "Fractions & Decimals as One System",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    {
+      "id": "math.F1.geometry-angles-triangles",
+      "subject": "math",
+      "tier": "F1",
+      "title": "Geometry I: Angles, Triangles & Congruence",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "math.F1.linear-equations-one-variable",
+      "subject": "math",
+      "tier": "F1",
+      "title": "Linear Equations in One Variable",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    {
+      "id": "math.F1.number-sense-estimation",
+      "subject": "math",
+      "tier": "F1",
+      "title": "Number Sense & Estimation",
+      "inDegree": 0,
+      "outDegree": 1
     },
     {
       "id": "math.F1.ratio-proportion-percentage",
@@ -14,7 +1142,263 @@
       "tier": "F1",
       "title": "Ratio, Proportion & Percentage",
       "inDegree": 0,
+      "outDegree": 7
+    },
+    {
+      "id": "math.F2.exponents-scientific-notation",
+      "subject": "math",
+      "tier": "F2",
+      "title": "Exponents & Scientific Notation",
+      "inDegree": 1,
+      "outDegree": 3
+    },
+    {
+      "id": "math.F2.geometry-similarity-pythagoras",
+      "subject": "math",
+      "tier": "F2",
+      "title": "Geometry II: Similarity, Pythagoras & Mensuration",
+      "inDegree": 2,
+      "outDegree": 3
+    },
+    {
+      "id": "math.F2.linear-relationships-coordinate-plane",
+      "subject": "math",
+      "tier": "F2",
+      "title": "Linear Relationships & the Coordinate Plane",
+      "inDegree": 2,
+      "outDegree": 3
+    },
+    {
+      "id": "math.F2.number-theory-basics",
+      "subject": "math",
+      "tier": "F2",
+      "title": "Integer Number Theory Basics",
+      "inDegree": 1,
       "outDegree": 1
+    },
+    {
+      "id": "math.F2.polynomials-factoring",
+      "subject": "math",
+      "tier": "F2",
+      "title": "Polynomials & Factoring Basics",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    {
+      "id": "math.F2.probability-statistics-i",
+      "subject": "math",
+      "tier": "F2",
+      "title": "Probability & Statistics I",
+      "inDegree": 2,
+      "outDegree": 3
+    },
+    {
+      "id": "math.F2.systems-linear-equations",
+      "subject": "math",
+      "tier": "F2",
+      "title": "Systems of Linear Equations",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    {
+      "id": "math.I1.coordinate-geometry",
+      "subject": "math",
+      "tier": "I1",
+      "title": "Coordinate Geometry",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "math.I1.geometry-circles-proof",
+      "subject": "math",
+      "tier": "I1",
+      "title": "Geometry III: Circles & Formal Proof",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "math.I1.quadratics",
+      "subject": "math",
+      "tier": "I1",
+      "title": "Quadratics",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "math.I1.sequences-series",
+      "subject": "math",
+      "tier": "I1",
+      "title": "Sequences & Series",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "math.I1.statistics-ii",
+      "subject": "math",
+      "tier": "I1",
+      "title": "Statistics II",
+      "inDegree": 1,
+      "outDegree": 5
+    },
+    {
+      "id": "math.I1.trigonometry-i",
+      "subject": "math",
+      "tier": "I1",
+      "title": "Trigonometry I",
+      "inDegree": 1,
+      "outDegree": 3
+    },
+    {
+      "id": "math.I2.combinatorics-probability-ii",
+      "subject": "math",
+      "tier": "I2",
+      "title": "Combinatorics & Probability II",
+      "inDegree": 2,
+      "outDegree": 4
+    },
+    {
+      "id": "math.I2.derivatives-intuition",
+      "subject": "math",
+      "tier": "I2",
+      "title": "Calculus Intuition: Derivatives",
+      "inDegree": 2,
+      "outDegree": 3
+    },
+    {
+      "id": "math.I2.exponentials-logarithms",
+      "subject": "math",
+      "tier": "I2",
+      "title": "Exponentials & Logarithms",
+      "inDegree": 2,
+      "outDegree": 4
+    },
+    {
+      "id": "math.I2.functions",
+      "subject": "math",
+      "tier": "I2",
+      "title": "Functions as Objects",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "math.I2.integrals-intuition",
+      "subject": "math",
+      "tier": "I2",
+      "title": "Calculus Intuition: Integrals",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    {
+      "id": "math.I2.trigonometry-ii",
+      "subject": "math",
+      "tier": "I2",
+      "title": "Trigonometry II",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.A1.electrostatics",
+      "subject": "physics",
+      "tier": "A1",
+      "title": "Electrostatics",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.A1.fluids-advanced",
+      "subject": "physics",
+      "tier": "A1",
+      "title": "Fluids at A-Level",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.A1.gravitation-field",
+      "subject": "physics",
+      "tier": "A1",
+      "title": "Gravitation (Field Treatment)",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.A1.mechanics-rigor",
+      "subject": "physics",
+      "tier": "A1",
+      "title": "Mechanics at Full Rigor",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.A1.thermodynamics",
+      "subject": "physics",
+      "tier": "A1",
+      "title": "Thermodynamics",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.A2.current-electricity-advanced",
+      "subject": "physics",
+      "tier": "A2",
+      "title": "Current Electricity & Circuits (Full Rigor)",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.A2.electromagnetic-induction",
+      "subject": "physics",
+      "tier": "A2",
+      "title": "Magnetic Effects & Electromagnetic Induction",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.A2.experimental-physics",
+      "subject": "physics",
+      "tier": "A2",
+      "title": "Experimental Physics Portfolio",
+      "inDegree": 2,
+      "outDegree": 0
+    },
+    {
+      "id": "physics.A2.modern-physics",
+      "subject": "physics",
+      "tier": "A2",
+      "title": "Modern Physics",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.A2.optics-advanced",
+      "subject": "physics",
+      "tier": "A2",
+      "title": "Optics at Full Rigor",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.F1.energy-i",
+      "subject": "physics",
+      "tier": "F1",
+      "title": "Energy I",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.F1.force-newtons-laws",
+      "subject": "physics",
+      "tier": "F1",
+      "title": "Force & Newton's Laws (Introductory)",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.F1.measurement-units-estimation",
+      "subject": "physics",
+      "tier": "F1",
+      "title": "Measurement, Units & Estimation",
+      "inDegree": 1,
+      "outDegree": 0
     },
     {
       "id": "physics.F1.motion",
@@ -22,14 +1406,1547 @@
       "tier": "F1",
       "title": "Motion: Speed, Velocity & Acceleration",
       "inDegree": 1,
-      "outDegree": 0
+      "outDegree": 1
+    },
+    {
+      "id": "physics.F2.electricity-i",
+      "subject": "physics",
+      "tier": "F2",
+      "title": "Electricity I",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.F2.heat-temperature",
+      "subject": "physics",
+      "tier": "F2",
+      "title": "Heat & Temperature",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.F2.light-i",
+      "subject": "physics",
+      "tier": "F2",
+      "title": "Light I",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.F2.magnetism-i",
+      "subject": "physics",
+      "tier": "F2",
+      "title": "Magnetism I",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.F2.pressure-density",
+      "subject": "physics",
+      "tier": "F2",
+      "title": "Pressure & Density",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "physics.F2.sound-waves-i",
+      "subject": "physics",
+      "tier": "F2",
+      "title": "Sound & Waves I",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.I1.circular-motion-gravitation",
+      "subject": "physics",
+      "tier": "I1",
+      "title": "Circular Motion & Gravitation",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    {
+      "id": "physics.I1.energy-ii",
+      "subject": "physics",
+      "tier": "I1",
+      "title": "Energy II",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.I1.kinematics-2d",
+      "subject": "physics",
+      "tier": "I1",
+      "title": "Kinematics in Two Dimensions",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.I1.momentum-collisions",
+      "subject": "physics",
+      "tier": "I1",
+      "title": "Momentum & Collisions",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.I1.newtons-laws-deepened",
+      "subject": "physics",
+      "tier": "I1",
+      "title": "Newton's Laws Deepened",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.I2.electricity-ii",
+      "subject": "physics",
+      "tier": "I2",
+      "title": "Electricity II",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    {
+      "id": "physics.I2.kinematics-calculus",
+      "subject": "physics",
+      "tier": "I2",
+      "title": "Kinematics with Calculus",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.I2.oscillations-shm",
+      "subject": "physics",
+      "tier": "I2",
+      "title": "Oscillations (Simple Harmonic Motion)",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "physics.I2.thermal-physics",
+      "subject": "physics",
+      "tier": "I2",
+      "title": "Thermal Physics",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    {
+      "id": "physics.I2.waves-ii",
+      "subject": "physics",
+      "tier": "I2",
+      "title": "Waves II",
+      "inDegree": 1,
+      "outDegree": 2
     }
   ],
   "edges": [
     {
+      "from": "biology.A1.molecular-genetics",
+      "to": "biology.A1.biochemistry",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I2.organic-intro",
+      "to": "biology.A1.biochemistry",
+      "crossSubject": true
+    },
+    {
+      "from": "biology.I2.human-systems-capstone",
+      "to": "biology.A1.cell-biology-depth",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.I1.cell-processes",
+      "to": "biology.A1.cell-biology-depth",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.A1.plant-physiology-depth",
+      "to": "biology.A1.human-physiology-iii",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.I2.human-systems-capstone",
+      "to": "biology.A1.human-physiology-iii",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.A1.cell-biology-depth",
+      "to": "biology.A1.molecular-genetics",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.I2.dna-inheritance",
+      "to": "biology.A1.molecular-genetics",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.A1.biochemistry",
+      "to": "biology.A1.plant-physiology-depth",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.I1.respiration-photosynthesis",
+      "to": "biology.A1.plant-physiology-depth",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.A2.genetics-ii",
+      "to": "biology.A2.biotechnology",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.A1.molecular-genetics",
+      "to": "biology.A2.biotechnology",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.A2.evolution-depth",
+      "to": "biology.A2.ecology-environment-depth",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I1.statistics-ii",
+      "to": "biology.A2.ecology-environment-depth",
+      "crossSubject": true
+    },
+    {
+      "from": "biology.A2.biotechnology",
+      "to": "biology.A2.evolution-depth",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.I2.evolution-natural-selection",
+      "to": "biology.A2.evolution-depth",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.A1.human-physiology-iii",
+      "to": "biology.A2.genetics-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I2.combinatorics-probability-ii",
+      "to": "biology.A2.genetics-ii",
+      "crossSubject": true
+    },
+    {
+      "from": "biology.A2.ecology-environment-depth",
+      "to": "biology.A2.human-health-disease",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.F2.health-disease",
+      "to": "biology.A2.human-health-disease",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.A2.human-health-disease",
+      "to": "biology.A2.investigative-biology",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I1.statistics-ii",
+      "to": "biology.A2.investigative-biology",
+      "crossSubject": true
+    },
+    {
+      "from": "biology.F1.nutrition-digestion",
+      "to": "biology.F1.living-environment-i",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.F1.the-cell",
+      "to": "biology.F1.nutrition-digestion",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.F1.characteristics-classification",
+      "to": "biology.F1.the-cell",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.F1.living-environment-i",
+      "to": "biology.F2.cells-to-organisms",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.F1.the-cell",
+      "to": "biology.F2.cells-to-organisms",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.F2.reproduction",
+      "to": "biology.F2.health-disease",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.F2.cells-to-organisms",
+      "to": "biology.F2.human-physiology-i",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.F2.human-physiology-i",
+      "to": "biology.F2.plant-biology-i",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.F1.living-environment-i",
+      "to": "biology.F2.plant-biology-i",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.F2.plant-biology-i",
+      "to": "biology.F2.reproduction",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.F2.health-disease",
+      "to": "biology.I1.cell-processes",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I1.solutions-concentration",
+      "to": "biology.I1.cell-processes",
+      "crossSubject": true
+    },
+    {
+      "from": "biology.I1.human-physiology-ii",
+      "to": "biology.I1.ecology-ecosystems",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.F1.living-environment-i",
+      "to": "biology.I1.ecology-ecosystems",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.I1.cell-processes",
+      "to": "biology.I1.enzymes",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I1.rates-reaction",
+      "to": "biology.I1.enzymes",
+      "crossSubject": true
+    },
+    {
+      "from": "biology.I1.respiration-photosynthesis",
+      "to": "biology.I1.human-physiology-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.F2.human-physiology-i",
+      "to": "biology.I1.human-physiology-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.I1.enzymes",
+      "to": "biology.I1.respiration-photosynthesis",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.F2.plant-biology-i",
+      "to": "biology.I1.respiration-photosynthesis",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.I2.genetics-i",
+      "to": "biology.I2.dna-inheritance",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.I2.dna-inheritance",
+      "to": "biology.I2.evolution-natural-selection",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.F2.reproduction",
+      "to": "biology.I2.evolution-natural-selection",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.I1.ecology-ecosystems",
+      "to": "biology.I2.genetics-i",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F2.probability-statistics-i",
+      "to": "biology.I2.genetics-i",
+      "crossSubject": true
+    },
+    {
+      "from": "biology.I2.population-biology",
+      "to": "biology.I2.human-systems-capstone",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.I1.human-physiology-ii",
+      "to": "biology.I2.human-systems-capstone",
+      "crossSubject": false
+    },
+    {
+      "from": "biology.I2.evolution-natural-selection",
+      "to": "biology.I2.population-biology",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I2.exponentials-logarithms",
+      "to": "biology.I2.population-biology",
+      "crossSubject": true
+    },
+    {
+      "from": "chemistry.A1.chemical-kinetics",
+      "to": "chemistry.A1.chemical-equilibrium",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I2.equilibrium-intro",
+      "to": "chemistry.A1.chemical-equilibrium",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.A1.chemical-thermodynamics",
+      "to": "chemistry.A1.chemical-kinetics",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I2.exponentials-logarithms",
+      "to": "chemistry.A1.chemical-kinetics",
+      "crossSubject": true
+    },
+    {
+      "from": "chemistry.I2.organic-intro",
+      "to": "chemistry.A1.chemical-thermodynamics",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I2.energetics",
+      "to": "chemistry.A1.chemical-thermodynamics",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.A1.ionic-equilibrium",
+      "to": "chemistry.A1.electrochemistry",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I1.reactions-equations",
+      "to": "chemistry.A1.electrochemistry",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.A1.chemical-equilibrium",
+      "to": "chemistry.A1.ionic-equilibrium",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I2.exponentials-logarithms",
+      "to": "chemistry.A1.ionic-equilibrium",
+      "crossSubject": true
+    },
+    {
+      "from": "chemistry.A1.electrochemistry",
+      "to": "chemistry.A1.periodic-properties",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.F2.periodic-table",
+      "to": "chemistry.A1.periodic-properties",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.A2.coordination-chemistry",
+      "to": "chemistry.A2.analytical-chemistry",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I1.statistics-ii",
+      "to": "chemistry.A2.analytical-chemistry",
+      "crossSubject": true
+    },
+    {
+      "from": "chemistry.A2.functional-groups",
+      "to": "chemistry.A2.biomolecules-polymers",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.A2.biomolecules-polymers",
+      "to": "chemistry.A2.coordination-chemistry",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.A1.periodic-properties",
+      "to": "chemistry.A2.coordination-chemistry",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.A2.organic-mechanisms",
+      "to": "chemistry.A2.functional-groups",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.A1.periodic-properties",
+      "to": "chemistry.A2.organic-mechanisms",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I2.organic-intro",
+      "to": "chemistry.A2.organic-mechanisms",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.F1.separation-techniques",
+      "to": "chemistry.F1.physical-chemical-change",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.F1.matter-particles-states",
+      "to": "chemistry.F1.separation-techniques",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.F1.physical-chemical-change",
+      "to": "chemistry.F2.atomic-structure-i",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.F2.mole-concept",
+      "to": "chemistry.F2.chemical-formulae-equations",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.F1.physical-chemical-change",
+      "to": "chemistry.F2.chemical-formulae-equations",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.F2.periodic-table",
+      "to": "chemistry.F2.mole-concept",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F2.exponents-scientific-notation",
+      "to": "chemistry.F2.mole-concept",
+      "crossSubject": true
+    },
+    {
+      "from": "chemistry.F2.atomic-structure-i",
+      "to": "chemistry.F2.periodic-table",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.F2.chemical-formulae-equations",
+      "to": "chemistry.F2.stoichiometry-intro",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.F2.mole-concept",
+      "to": "chemistry.F2.stoichiometry-intro",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I1.reactions-equations",
+      "to": "chemistry.I1.acids-bases-salts",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.F2.stoichiometry-intro",
+      "to": "chemistry.I1.bonding-i",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.F2.atomic-structure-i",
+      "to": "chemistry.I1.bonding-i",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I1.solutions-concentration",
+      "to": "chemistry.I1.rates-reaction",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I1.bonding-i",
+      "to": "chemistry.I1.reactions-equations",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I1.acids-bases-salts",
+      "to": "chemistry.I1.solutions-concentration",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.F2.mole-concept",
+      "to": "chemistry.I1.solutions-concentration",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I1.rates-reaction",
+      "to": "chemistry.I2.atomic-structure-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.F2.atomic-structure-i",
+      "to": "chemistry.I2.atomic-structure-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I2.atomic-structure-ii",
+      "to": "chemistry.I2.bonding-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I1.bonding-i",
+      "to": "chemistry.I2.bonding-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I2.gas-laws-kinetic-theory",
+      "to": "chemistry.I2.energetics",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I1.reactions-equations",
+      "to": "chemistry.I2.energetics",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I2.energetics",
+      "to": "chemistry.I2.equilibrium-intro",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I1.rates-reaction",
+      "to": "chemistry.I2.equilibrium-intro",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I2.bonding-ii",
+      "to": "chemistry.I2.gas-laws-kinetic-theory",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.F2.mole-concept",
+      "to": "chemistry.I2.gas-laws-kinetic-theory",
+      "crossSubject": false
+    },
+    {
+      "from": "chemistry.I2.equilibrium-intro",
+      "to": "chemistry.I2.organic-intro",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.A1.algorithms-ii",
+      "to": "cs.A1.algorithmic-problem-solving",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.A1.trees-graphs",
+      "to": "cs.A1.algorithms-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I1.algorithms-i",
+      "to": "cs.A1.algorithms-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I2.how-code-runs",
+      "to": "cs.A1.oop",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I1.project-2",
+      "to": "cs.A1.oop",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.A1.oop",
+      "to": "cs.A1.recursion",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F2.functions",
+      "to": "cs.A1.recursion",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.A1.algorithmic-problem-solving",
+      "to": "cs.A1.testing",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I1.error-handling-debugging",
+      "to": "cs.A1.testing",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.A1.recursion",
+      "to": "cs.A1.trees-graphs",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I1.data-structures-basic",
+      "to": "cs.A1.trees-graphs",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.A2.databases-intro",
+      "to": "cs.A2.capstone-project",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.A2.software-design",
+      "to": "cs.A2.capstone-project",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.A2.working-with-codebase",
+      "to": "cs.A2.databases-intro",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I1.file-io-data-formats",
+      "to": "cs.A2.databases-intro",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.A1.testing",
+      "to": "cs.A2.software-design",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.A1.oop",
+      "to": "cs.A2.software-design",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.A2.software-design",
+      "to": "cs.A2.web-data-basics",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I1.file-io-data-formats",
+      "to": "cs.A2.web-data-basics",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.A2.web-data-basics",
+      "to": "cs.A2.working-with-codebase",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F2.version-control-ii",
+      "to": "cs.A2.working-with-codebase",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F1.input-output",
+      "to": "cs.F1.booleans-conditionals",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F1.python-variables-types-expressions",
+      "to": "cs.F1.booleans-conditionals",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F1.computational-thinking",
+      "to": "cs.F1.first-programs",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F1.python-variables-types-expressions",
+      "to": "cs.F1.input-output",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F1.booleans-conditionals",
+      "to": "cs.F1.version-control-i",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F2.strings-depth",
+      "to": "cs.F2.dictionaries-sets",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F2.lists-iteration",
+      "to": "cs.F2.dictionaries-sets",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F2.lists-iteration",
+      "to": "cs.F2.functions",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F2.loops",
+      "to": "cs.F2.lists-iteration",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F1.version-control-i",
+      "to": "cs.F2.loops",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F1.booleans-conditionals",
+      "to": "cs.F2.loops",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F2.version-control-ii",
+      "to": "cs.F2.project-1",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F2.functions",
+      "to": "cs.F2.project-1",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F2.functions",
+      "to": "cs.F2.strings-depth",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F1.python-variables-types-expressions",
+      "to": "cs.F2.strings-depth",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F2.dictionaries-sets",
+      "to": "cs.F2.version-control-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F1.version-control-i",
+      "to": "cs.F2.version-control-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I1.data-structures-basic",
+      "to": "cs.I1.algorithms-i",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I1.algorithms-i",
+      "to": "cs.I1.complexity-intuition",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I1.modules-organization",
+      "to": "cs.I1.data-structures-basic",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F2.dictionaries-sets",
+      "to": "cs.I1.data-structures-basic",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I1.file-io-data-formats",
+      "to": "cs.I1.error-handling-debugging",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F2.project-1",
+      "to": "cs.I1.error-handling-debugging",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F2.project-1",
+      "to": "cs.I1.file-io-data-formats",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F2.dictionaries-sets",
+      "to": "cs.I1.file-io-data-formats",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I1.error-handling-debugging",
+      "to": "cs.I1.modules-organization",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F2.functions",
+      "to": "cs.I1.modules-organization",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I1.complexity-intuition",
+      "to": "cs.I1.project-2",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I1.modules-organization",
+      "to": "cs.I1.project-2",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I2.intro-c",
+      "to": "cs.I2.control-arrays-c",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I2.structs-data-structures-c",
+      "to": "cs.I2.how-code-runs",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I1.project-2",
+      "to": "cs.I2.intro-c",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.F2.functions",
+      "to": "cs.I2.intro-c",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I2.control-arrays-c",
+      "to": "cs.I2.pointers-memory",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I2.pointers-memory",
+      "to": "cs.I2.strings-memory-c",
+      "crossSubject": false
+    },
+    {
+      "from": "cs.I2.strings-memory-c",
+      "to": "cs.I2.structs-data-structures-c",
+      "crossSubject": false
+    },
+    {
+      "from": "english.A1.rhetoric-style",
+      "to": "english.A1.literary-criticism",
+      "crossSubject": false
+    },
+    {
+      "from": "english.A1.research-paper",
+      "to": "english.A1.persuasion-real-world",
+      "crossSubject": false
+    },
+    {
+      "from": "english.A1.literary-criticism",
+      "to": "english.A1.research-paper",
+      "crossSubject": false
+    },
+    {
+      "from": "english.I2.public-speaking",
+      "to": "english.A1.rhetoric-style",
+      "crossSubject": false
+    },
+    {
+      "from": "english.A1.persuasion-real-world",
+      "to": "english.A2.advanced-literary-analysis",
+      "crossSubject": false
+    },
+    {
+      "from": "english.A2.critical-reasoning-comprehension",
+      "to": "english.A2.communication-portfolio",
+      "crossSubject": false
+    },
+    {
+      "from": "english.A2.extended-essay",
+      "to": "english.A2.communication-portfolio",
+      "crossSubject": false
+    },
+    {
+      "from": "english.A2.extended-essay",
+      "to": "english.A2.critical-reasoning-comprehension",
+      "crossSubject": false
+    },
+    {
+      "from": "english.I2.argument-ii",
+      "to": "english.A2.critical-reasoning-comprehension",
+      "crossSubject": false
+    },
+    {
+      "from": "english.A2.advanced-literary-analysis",
+      "to": "english.A2.extended-essay",
+      "crossSubject": false
+    },
+    {
+      "from": "english.A1.research-paper",
+      "to": "english.A2.extended-essay",
+      "crossSubject": false
+    },
+    {
+      "from": "english.F1.paragraph-architecture",
+      "to": "english.F1.narrative-descriptive-writing",
+      "crossSubject": false
+    },
+    {
+      "from": "english.F1.sentence-craft",
+      "to": "english.F1.paragraph-architecture",
+      "crossSubject": false
+    },
+    {
+      "from": "english.F1.vocabulary-roots",
+      "to": "english.F1.sentence-craft",
+      "crossSubject": false
+    },
+    {
+      "from": "english.F1.reading-for-meaning",
+      "to": "english.F1.vocabulary-roots",
+      "crossSubject": false
+    },
+    {
+      "from": "english.F1.narrative-descriptive-writing",
+      "to": "english.F2.close-reading",
+      "crossSubject": false
+    },
+    {
+      "from": "english.F2.summarising-paraphrasing",
+      "to": "english.F2.grammar-for-style",
+      "crossSubject": false
+    },
+    {
+      "from": "english.F2.close-reading",
+      "to": "english.F2.structured-exposition",
+      "crossSubject": false
+    },
+    {
+      "from": "english.F2.structured-exposition",
+      "to": "english.F2.summarising-paraphrasing",
+      "crossSubject": false
+    },
+    {
+      "from": "english.F2.grammar-for-style",
+      "to": "english.F2.vocabulary-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "english.I1.persuasive-essay",
+      "to": "english.I1.analysing-nonfiction-media",
+      "crossSubject": false
+    },
+    {
+      "from": "english.F2.vocabulary-ii",
+      "to": "english.I1.argument-i",
+      "crossSubject": false
+    },
+    {
+      "from": "english.I1.analysing-nonfiction-media",
+      "to": "english.I1.literature-i",
+      "crossSubject": false
+    },
+    {
+      "from": "english.I1.argument-i",
+      "to": "english.I1.persuasive-essay",
+      "crossSubject": false
+    },
+    {
+      "from": "english.I1.literature-i",
+      "to": "english.I1.research-citation",
+      "crossSubject": false
+    },
+    {
+      "from": "english.I1.research-citation",
+      "to": "english.I2.argument-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "english.I2.argument-ii",
+      "to": "english.I2.comparative-analysis",
+      "crossSubject": false
+    },
+    {
+      "from": "english.I2.literature-ii",
+      "to": "english.I2.formal-technical-writing",
+      "crossSubject": false
+    },
+    {
+      "from": "english.I2.comparative-analysis",
+      "to": "english.I2.literature-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "english.I2.formal-technical-writing",
+      "to": "english.I2.public-speaking",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I2.combinatorics-probability-ii",
+      "to": "math.A1.calculus-limits-differentiation",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I2.derivatives-intuition",
+      "to": "math.A1.calculus-limits-differentiation",
+      "crossSubject": false
+    },
+    {
+      "from": "math.A1.matrices-determinants",
+      "to": "math.A1.complex-numbers",
+      "crossSubject": false
+    },
+    {
+      "from": "math.A1.calculus-limits-differentiation",
+      "to": "math.A1.integration-techniques",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I2.integrals-intuition",
+      "to": "math.A1.integration-techniques",
+      "crossSubject": false
+    },
+    {
+      "from": "math.A1.vectors-3d-geometry",
+      "to": "math.A1.matrices-determinants",
+      "crossSubject": false
+    },
+    {
+      "from": "math.A1.complex-numbers",
+      "to": "math.A1.permutations-combinations-binomial",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I2.combinatorics-probability-ii",
+      "to": "math.A1.permutations-combinations-binomial",
+      "crossSubject": false
+    },
+    {
+      "from": "math.A1.integration-techniques",
+      "to": "math.A1.vectors-3d-geometry",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I1.trigonometry-i",
+      "to": "math.A1.vectors-3d-geometry",
+      "crossSubject": false
+    },
+    {
+      "from": "math.A2.conics",
+      "to": "math.A2.advanced-problem-solving",
+      "crossSubject": false
+    },
+    {
+      "from": "math.A2.probability-distributions",
+      "to": "math.A2.conics",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I1.coordinate-geometry",
+      "to": "math.A2.conics",
+      "crossSubject": false
+    },
+    {
+      "from": "math.A1.permutations-combinations-binomial",
+      "to": "math.A2.differential-equations",
+      "crossSubject": false
+    },
+    {
+      "from": "math.A1.integration-techniques",
+      "to": "math.A2.differential-equations",
+      "crossSubject": false
+    },
+    {
+      "from": "math.A2.advanced-problem-solving",
+      "to": "math.A2.modeling-capstone",
+      "crossSubject": false
+    },
+    {
+      "from": "math.A2.differential-equations",
+      "to": "math.A2.probability-distributions",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I2.combinatorics-probability-ii",
+      "to": "math.A2.probability-distributions",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F1.ratio-proportion-percentage",
+      "to": "math.F1.algebra-generalized-arithmetic",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F1.geometry-angles-triangles",
+      "to": "math.F1.data-graphs-i",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F1.number-sense-estimation",
+      "to": "math.F1.fractions-decimals",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F1.linear-equations-one-variable",
+      "to": "math.F1.geometry-angles-triangles",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F1.algebra-generalized-arithmetic",
+      "to": "math.F1.linear-equations-one-variable",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F1.data-graphs-i",
+      "to": "math.F2.exponents-scientific-notation",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F2.polynomials-factoring",
+      "to": "math.F2.geometry-similarity-pythagoras",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F1.ratio-proportion-percentage",
+      "to": "math.F2.geometry-similarity-pythagoras",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F2.exponents-scientific-notation",
+      "to": "math.F2.linear-relationships-coordinate-plane",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F1.ratio-proportion-percentage",
+      "to": "math.F2.linear-relationships-coordinate-plane",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F2.probability-statistics-i",
+      "to": "math.F2.number-theory-basics",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F2.systems-linear-equations",
+      "to": "math.F2.polynomials-factoring",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F2.geometry-similarity-pythagoras",
+      "to": "math.F2.probability-statistics-i",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F1.ratio-proportion-percentage",
+      "to": "math.F2.probability-statistics-i",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F2.linear-relationships-coordinate-plane",
+      "to": "math.F2.systems-linear-equations",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I1.quadratics",
+      "to": "math.I1.coordinate-geometry",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F2.geometry-similarity-pythagoras",
+      "to": "math.I1.coordinate-geometry",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I1.sequences-series",
+      "to": "math.I1.geometry-circles-proof",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F2.number-theory-basics",
+      "to": "math.I1.quadratics",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F2.polynomials-factoring",
+      "to": "math.I1.quadratics",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I1.trigonometry-i",
+      "to": "math.I1.sequences-series",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I1.geometry-circles-proof",
+      "to": "math.I1.statistics-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I1.coordinate-geometry",
+      "to": "math.I1.trigonometry-i",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I2.exponentials-logarithms",
+      "to": "math.I2.combinatorics-probability-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F2.probability-statistics-i",
+      "to": "math.I2.combinatorics-probability-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I2.trigonometry-ii",
+      "to": "math.I2.derivatives-intuition",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F2.linear-relationships-coordinate-plane",
+      "to": "math.I2.derivatives-intuition",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I2.integrals-intuition",
+      "to": "math.I2.exponentials-logarithms",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F2.exponents-scientific-notation",
+      "to": "math.I2.exponentials-logarithms",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I1.statistics-ii",
+      "to": "math.I2.functions",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F2.linear-relationships-coordinate-plane",
+      "to": "math.I2.functions",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I2.derivatives-intuition",
+      "to": "math.I2.integrals-intuition",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I2.functions",
+      "to": "math.I2.trigonometry-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.A1.thermodynamics",
+      "to": "physics.A1.electrostatics",
+      "crossSubject": false
+    },
+    {
+      "from": "math.A1.vectors-3d-geometry",
+      "to": "physics.A1.electrostatics",
+      "crossSubject": true
+    },
+    {
+      "from": "physics.A1.gravitation-field",
+      "to": "physics.A1.fluids-advanced",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.F2.pressure-density",
+      "to": "physics.A1.fluids-advanced",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.A1.mechanics-rigor",
+      "to": "physics.A1.gravitation-field",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.I1.circular-motion-gravitation",
+      "to": "physics.A1.gravitation-field",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.I2.thermal-physics",
+      "to": "physics.A1.mechanics-rigor",
+      "crossSubject": false
+    },
+    {
+      "from": "math.A1.calculus-limits-differentiation",
+      "to": "physics.A1.mechanics-rigor",
+      "crossSubject": true
+    },
+    {
+      "from": "physics.A1.fluids-advanced",
+      "to": "physics.A1.thermodynamics",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.I2.thermal-physics",
+      "to": "physics.A1.thermodynamics",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.A1.electrostatics",
+      "to": "physics.A2.current-electricity-advanced",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.I2.electricity-ii",
+      "to": "physics.A2.current-electricity-advanced",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.A2.current-electricity-advanced",
+      "to": "physics.A2.electromagnetic-induction",
+      "crossSubject": false
+    },
+    {
+      "from": "math.A2.differential-equations",
+      "to": "physics.A2.electromagnetic-induction",
+      "crossSubject": true
+    },
+    {
+      "from": "physics.A2.modern-physics",
+      "to": "physics.A2.experimental-physics",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I1.statistics-ii",
+      "to": "physics.A2.experimental-physics",
+      "crossSubject": true
+    },
+    {
+      "from": "physics.A2.optics-advanced",
+      "to": "physics.A2.modern-physics",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.A2.electromagnetic-induction",
+      "to": "physics.A2.optics-advanced",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.I2.waves-ii",
+      "to": "physics.A2.optics-advanced",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.F1.force-newtons-laws",
+      "to": "physics.F1.energy-i",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.F1.motion",
+      "to": "physics.F1.force-newtons-laws",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F1.ratio-proportion-percentage",
+      "to": "physics.F1.measurement-units-estimation",
+      "crossSubject": true
+    },
+    {
       "from": "math.F1.ratio-proportion-percentage",
       "to": "physics.F1.motion",
       "crossSubject": true
+    },
+    {
+      "from": "physics.F2.sound-waves-i",
+      "to": "physics.F2.electricity-i",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F1.linear-equations-one-variable",
+      "to": "physics.F2.electricity-i",
+      "crossSubject": true
+    },
+    {
+      "from": "physics.F2.pressure-density",
+      "to": "physics.F2.heat-temperature",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.F2.heat-temperature",
+      "to": "physics.F2.light-i",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F2.geometry-similarity-pythagoras",
+      "to": "physics.F2.light-i",
+      "crossSubject": true
+    },
+    {
+      "from": "physics.F2.electricity-i",
+      "to": "physics.F2.magnetism-i",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.F1.energy-i",
+      "to": "physics.F2.pressure-density",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F1.ratio-proportion-percentage",
+      "to": "physics.F2.pressure-density",
+      "crossSubject": true
+    },
+    {
+      "from": "physics.F2.light-i",
+      "to": "physics.F2.sound-waves-i",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.I1.momentum-collisions",
+      "to": "physics.I1.circular-motion-gravitation",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.I1.circular-motion-gravitation",
+      "to": "physics.I1.energy-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.F2.magnetism-i",
+      "to": "physics.I1.kinematics-2d",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I1.trigonometry-i",
+      "to": "physics.I1.kinematics-2d",
+      "crossSubject": true
+    },
+    {
+      "from": "physics.I1.newtons-laws-deepened",
+      "to": "physics.I1.momentum-collisions",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.I1.kinematics-2d",
+      "to": "physics.I1.newtons-laws-deepened",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.I2.waves-ii",
+      "to": "physics.I2.electricity-ii",
+      "crossSubject": false
+    },
+    {
+      "from": "math.F2.systems-linear-equations",
+      "to": "physics.I2.electricity-ii",
+      "crossSubject": true
+    },
+    {
+      "from": "physics.I1.energy-ii",
+      "to": "physics.I2.kinematics-calculus",
+      "crossSubject": false
+    },
+    {
+      "from": "math.I2.derivatives-intuition",
+      "to": "physics.I2.kinematics-calculus",
+      "crossSubject": true
+    },
+    {
+      "from": "physics.I2.kinematics-calculus",
+      "to": "physics.I2.oscillations-shm",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.I2.electricity-ii",
+      "to": "physics.I2.thermal-physics",
+      "crossSubject": false
+    },
+    {
+      "from": "physics.I2.oscillations-shm",
+      "to": "physics.I2.waves-ii",
+      "crossSubject": false
     }
   ]
 }

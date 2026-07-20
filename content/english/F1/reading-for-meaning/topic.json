@@ -1,0 +1,38 @@
+{
+  "id": "english.F1.reading-for-meaning",
+  "subject": "english",
+  "tier": "F1",
+  "title": "Reading for Meaning",
+  "slug": "reading-for-meaning",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Finding the main idea, making inferences, and telling fact from opinion.",
+  "outcomes": [
+    "Identify the main idea and supporting details",
+    "Make inferences from a text",
+    "Distinguish fact from opinion"
+  ],
+  "prereqs": [],
+  "boardMap": {
+    "CBSE": [
+      "Cl.6-8 Reading Comprehension"
+    ],
+    "ICSE": [
+      "Cl.6-8 Comprehension"
+    ],
+    "IB": [
+      "MYP Language & Literature"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "reading",
+    "main idea",
+    "inference",
+    "fact",
+    "opinion",
+    "comprehension"
+  ]
+}

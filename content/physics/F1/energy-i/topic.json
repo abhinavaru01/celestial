@@ -1,0 +1,43 @@
+{
+  "id": "physics.F1.energy-i",
+  "subject": "physics",
+  "tier": "F1",
+  "title": "Energy I",
+  "slug": "energy-i",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Work, kinetic and potential energy, and conservation of energy as an accounting principle.",
+  "outcomes": [
+    "Calculate work, KE and PE",
+    "Apply conservation of energy",
+    "Relate work done to energy change"
+  ],
+  "prereqs": [
+    "physics.F1.force-newtons-laws"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.9 Work & Energy",
+      "Cl.11 Work, Energy & Power"
+    ],
+    "ICSE": [
+      "Cl.9-10 Work, Energy"
+    ],
+    "IB": [
+      "DP Energy"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "work",
+    "energy",
+    "kinetic",
+    "potential",
+    "conservation"
+  ]
+}

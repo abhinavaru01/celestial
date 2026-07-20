@@ -1,0 +1,32 @@
+{
+  "topicId": "physics.F2.light-i",
+  "levels": {
+    "1": [
+      {
+        "id": "physics_F2_light_i_q1",
+        "type": "numeric",
+        "prompt": "A ray hits a mirror at 30° to the normal. Angle of reflection?",
+        "answer": 30,
+        "tolerance": 0,
+        "unit": "°",
+        "explanation": "Reflection angle equals incidence angle: 30°."
+      }
+    ],
+    "2": [
+      {
+        "id": "physics_F2_light_i_q2",
+        "type": "mcq",
+        "prompt": "A convex lens is:",
+        "choices": [
+          "converging",
+          "diverging",
+          "flat",
+          "reflective"
+        ],
+        "answer": 0,
+        "explanation": "Convex lenses bring parallel rays to a focus."
+      }
+    ],
+    "3": []
+  }
+}

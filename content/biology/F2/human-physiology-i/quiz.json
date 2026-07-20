@@ -1,0 +1,36 @@
+{
+  "topicId": "biology.F2.human-physiology-i",
+  "levels": {
+    "1": [
+      {
+        "id": "biology_F2_human_physiology_i_q1",
+        "type": "mcq",
+        "prompt": "Arteries carry blood:",
+        "choices": [
+          "away from the heart",
+          "toward the heart",
+          "only to the lungs",
+          "in circles"
+        ],
+        "answer": 0,
+        "explanation": "Arteries carry blood away from the heart."
+      }
+    ],
+    "2": [
+      {
+        "id": "biology_F2_human_physiology_i_q2",
+        "type": "mcq",
+        "prompt": "Cellular respiration releases energy from:",
+        "choices": [
+          "glucose",
+          "water",
+          "carbon dioxide",
+          "nitrogen"
+        ],
+        "answer": 0,
+        "explanation": "Glucose is oxidised to release energy."
+      }
+    ],
+    "3": []
+  }
+}

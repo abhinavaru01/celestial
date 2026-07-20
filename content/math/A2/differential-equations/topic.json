@@ -1,0 +1,42 @@
+{
+  "id": "math.A2.differential-equations",
+  "subject": "math",
+  "tier": "A2",
+  "title": "Differential Equations (Introductory)",
+  "slug": "differential-equations",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Modelling change with equations involving derivatives, and solving separable first-order equations.",
+  "outcomes": [
+    "Recognise and classify simple ODEs",
+    "Solve separable first-order equations",
+    "Model growth/decay with ODEs"
+  ],
+  "prereqs": [
+    "math.A1.permutations-combinations-binomial",
+    "math.A1.integration-techniques"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Differential Equations"
+    ],
+    "ICSE": [
+      "Cl.12 Differential Equations"
+    ],
+    "IB": [
+      "DP Calculus HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "differential equations",
+    "separable",
+    "growth",
+    "decay"
+  ]
+}

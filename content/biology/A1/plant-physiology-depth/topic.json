@@ -1,0 +1,42 @@
+{
+  "id": "biology.A1.plant-physiology-depth",
+  "subject": "biology",
+  "tier": "A1",
+  "title": "Plant Physiology at Depth",
+  "slug": "plant-physiology-depth",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Mechanisms of photosynthesis and respiration, transport and plant hormones.",
+  "outcomes": [
+    "Detail photosynthesis mechanisms",
+    "Explain plant transport in depth",
+    "Describe plant hormones"
+  ],
+  "prereqs": [
+    "biology.A1.biochemistry",
+    "biology.I1.respiration-photosynthesis"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Plant Physiology"
+    ],
+    "ICSE": [
+      "Cl.11-12 Plant Physiology"
+    ],
+    "IB": [
+      "DP Plant Biology HL"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "photosynthesis",
+    "transpiration",
+    "auxin",
+    "plant hormones",
+    "Calvin cycle"
+  ]
+}

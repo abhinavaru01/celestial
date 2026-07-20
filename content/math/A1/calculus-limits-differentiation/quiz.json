@@ -1,0 +1,36 @@
+{
+  "topicId": "math.A1.calculus-limits-differentiation",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "math_A1_calculus_limits_differentiation_q1",
+        "type": "mcq",
+        "prompt": "Differentiate (2x + 1)³ using the chain rule.",
+        "choices": [
+          "3(2x+1)² · 2",
+          "3(2x+1)²",
+          "6x²",
+          "(2x+1)²"
+        ],
+        "answer": 0,
+        "explanation": "Outer 3(2x+1)² times inner derivative 2."
+      }
+    ],
+    "3": [
+      {
+        "id": "math_A1_calculus_limits_differentiation_q2",
+        "type": "mcq",
+        "prompt": "At a local maximum of a smooth function, f'(x) is:",
+        "choices": [
+          "0",
+          "positive",
+          "negative",
+          "undefined"
+        ],
+        "answer": 0,
+        "explanation": "The tangent is horizontal, so the derivative is zero."
+      }
+    ]
+  }
+}

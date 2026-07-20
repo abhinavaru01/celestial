@@ -1,0 +1,36 @@
+{
+  "topicId": "chemistry.I2.equilibrium-intro",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "chemistry_I2_equilibrium_intro_q1",
+        "type": "mcq",
+        "prompt": "At dynamic equilibrium, the forward and backward reaction rates are:",
+        "choices": [
+          "equal",
+          "both zero",
+          "forward faster",
+          "backward faster"
+        ],
+        "answer": 0,
+        "explanation": "Equal opposing rates keep concentrations constant."
+      }
+    ],
+    "3": [
+      {
+        "id": "chemistry_I2_equilibrium_intro_q2",
+        "type": "mcq",
+        "prompt": "Adding more reactant shifts equilibrium toward:",
+        "choices": [
+          "products",
+          "reactants",
+          "neither",
+          "a solid only"
+        ],
+        "answer": 0,
+        "explanation": "Le Chatelier: the system consumes the added reactant."
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "math.A2.probability-distributions",
+  "subject": "math",
+  "tier": "A2",
+  "title": "Probability Distributions & Statistics III",
+  "slug": "probability-distributions",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Random variables, the binomial and normal distributions, and the basics of inference.",
+  "outcomes": [
+    "Work with random variables and expectation",
+    "Use binomial and normal distributions",
+    "Understand inference intuitively"
+  ],
+  "prereqs": [
+    "math.A2.differential-equations",
+    "math.I2.combinatorics-probability-ii"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Probability (Distributions)"
+    ],
+    "ICSE": [
+      "Cl.12 Probability"
+    ],
+    "IB": [
+      "DP Statistics"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "distributions",
+    "binomial",
+    "normal",
+    "random variable",
+    "inference"
+  ]
+}

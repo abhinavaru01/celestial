@@ -1,0 +1,40 @@
+{
+  "id": "math.F1.geometry-angles-triangles",
+  "subject": "math",
+  "tier": "F1",
+  "title": "Geometry I: Angles, Triangles & Congruence",
+  "slug": "geometry-angles-triangles",
+  "core": true,
+  "order": 6,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Angle relationships, triangle properties and the reasoning behind congruence — with construction, deferring formal proof.",
+  "outcomes": [
+    "Use angle relationships (on a line, around a point, in a triangle)",
+    "Classify triangles and use the angle-sum property",
+    "Recognise congruent triangles by SSS, SAS, ASA"
+  ],
+  "prereqs": [
+    "math.F1.linear-equations-one-variable"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.6-7 Lines & Angles",
+      "Cl.7 Triangles",
+      "Cl.9 Congruence"
+    ],
+    "ICSE": [
+      "Cl.6-8 Geometry"
+    ],
+    "IB": [
+      "MYP Geometry"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "angles",
+    "triangles",
+    "congruence",
+    "geometry"
+  ]
+}

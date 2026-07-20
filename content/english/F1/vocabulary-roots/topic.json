@@ -1,0 +1,39 @@
+{
+  "id": "english.F1.vocabulary-roots",
+  "subject": "english",
+  "tier": "F1",
+  "title": "Vocabulary by Roots",
+  "slug": "vocabulary-roots",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Building vocabulary through Greek and Latin roots, prefixes and suffixes.",
+  "outcomes": [
+    "Decode words using roots and affixes",
+    "Infer meaning of unfamiliar words",
+    "Build word families"
+  ],
+  "prereqs": [
+    "english.F1.reading-for-meaning"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.6-8 Vocabulary"
+    ],
+    "ICSE": [
+      "Cl.6-8 Word Power"
+    ],
+    "IB": [
+      "MYP Language"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "vocabulary",
+    "roots",
+    "prefix",
+    "suffix",
+    "etymology"
+  ]
+}

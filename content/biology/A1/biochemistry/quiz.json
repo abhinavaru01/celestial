@@ -1,0 +1,35 @@
+{
+  "topicId": "biology.A1.biochemistry",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "biology_A1_biochemistry_q1",
+        "type": "mcq",
+        "prompt": "Reactions that build large molecules from small ones are:",
+        "choices": [
+          "anabolic",
+          "catabolic",
+          "osmotic",
+          "ionic"
+        ],
+        "answer": 0,
+        "explanation": "Anabolism builds; catabolism breaks down."
+      },
+      {
+        "id": "biology_A1_biochemistry_q2",
+        "type": "mcq",
+        "prompt": "Metabolic pathways are controlled by:",
+        "choices": [
+          "enzymes",
+          "gravity",
+          "sunlight only",
+          "the nervous system alone"
+        ],
+        "answer": 0,
+        "explanation": "Enzymes catalyse and regulate each step."
+      }
+    ],
+    "3": []
+  }
+}

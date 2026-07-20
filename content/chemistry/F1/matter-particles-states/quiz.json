@@ -1,0 +1,36 @@
+{
+  "topicId": "chemistry.F1.matter-particles-states",
+  "levels": {
+    "1": [
+      {
+        "id": "chemistry_F1_matter_particles_states_q1",
+        "type": "mcq",
+        "prompt": "In which state are particles most closely packed?",
+        "choices": [
+          "solid",
+          "liquid",
+          "gas",
+          "plasma"
+        ],
+        "answer": 0,
+        "explanation": "Solids have the tightest, most ordered packing."
+      }
+    ],
+    "2": [
+      {
+        "id": "chemistry_F1_matter_particles_states_q2",
+        "type": "mcq",
+        "prompt": "When ice melts, its mass:",
+        "choices": [
+          "stays the same",
+          "increases",
+          "decreases",
+          "becomes zero"
+        ],
+        "answer": 0,
+        "explanation": "Mass is conserved in a change of state."
+      }
+    ],
+    "3": []
+  }
+}

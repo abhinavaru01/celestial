@@ -1,0 +1,35 @@
+{
+  "topicId": "cs.A1.oop",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "cs_A1_oop_q1",
+        "type": "mcq",
+        "prompt": "A class is best described as:",
+        "choices": [
+          "a blueprint for objects",
+          "a single object",
+          "a loop",
+          "a file"
+        ],
+        "answer": 0,
+        "explanation": "Objects are instances created from a class blueprint."
+      },
+      {
+        "id": "cs_A1_oop_q2",
+        "type": "mcq",
+        "prompt": "Inheritance lets a class:",
+        "choices": [
+          "reuse and extend another class",
+          "run faster",
+          "avoid functions",
+          "delete objects"
+        ],
+        "answer": 0,
+        "explanation": "A subclass inherits and extends a base class."
+      }
+    ],
+    "3": []
+  }
+}

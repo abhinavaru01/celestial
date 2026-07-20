@@ -1,5 +1,9 @@
-# PROJECT MEMORY — Project Compression
-_Last updated: 2026-07-19 by session 1_
+# PROJECT MEMORY — Project Compression ("The Ultimate Learner")
+_Last updated: 2026-07-20 by session 1 (cont.)_
+
+> **Website brand name is "The Ultimate Learner"** (D-010). "Project Compression" is the internal initiative/PRD name.
+> **Everything is open** — locking, mastery gates, and completion tracking were removed from the platform (D-009).
+> **Full curriculum is built:** all 192 topics across 6 subjects × 6 tiers exist with all six layers (3 flagship deep-dives + 189 generated modules, D-008).
 
 ## 1. What this project is (one paragraph)
 A compressed, restructured global curriculum delivering grades 6–12 equivalent knowledge in ≤3 years, plus the web platform that delivers it. Compression comes from **removing redundancy and interleaving concepts across subjects** (teach each idea once, reuse it everywhere via a knowledge dependency graph), NOT from longer study days. Progression is **mastery-based** through six difficulty sub-levels (F1→A2). Subjects: Math, Physics, Chemistry, Biology, English, CS (Python→C). Every topic ships six signature layers (deep notes, quizzes, common mistakes, tricks, memory aids, prerequisite links). See `PRD.md` for the full brief.
@@ -59,5 +63,6 @@ A compressed, restructured global curriculum delivering grades 6–12 equivalent
 - `app/data/*.json` is generated but committed; remember to re-run `build.mjs` after content edits (or add a pre-commit hook later).
 
 ## 9. Changelog (append-only, newest at top)
+- 2026-07-20 (session 1 cont.) — **Full curriculum + rebrand + de-gating.** Authored the entire 6×6 curriculum: all 192 topics now exist with all six signature layers (37 math, 30 physics, 30 chemistry, 30 biology, 28 english, 37 CS) via structured datasets `scripts/curriculum/*.mjs` + `scripts/generate-content.mjs` (3 flagship deep-dives kept; 189 generated modules). Build passes: 192 topics, 282 dependency edges (24 cross-subject), acyclic. Removed locking/mastery/completion from the platform — everything open (D-009); rewrote `app/js/app.js`, retired `app/js/progress.js`. Rebranded site to "The Ultimate Learner" (D-010). Fixed the math renderer that was mangling flagship LaTeX (D-011). Verified end-to-end in Chromium: 192 topics browsable, all tabs render, quizzes work, flagship math clean, 0 JS errors. Decisions D-008…D-011 logged. Deploy workflow already live (GitHub Pages, auto-deploys on push to main).
 - 2026-07-19 (session 1) — Delivered Phases 0–3 end-to-end and scaffolded 4–6: full scaffold + content model + validating build script; tier system; 6 subject syllabi; dependency-graph/board-equivalence/timeline/mastery-gating/competitive-integration blueprints; 3 fully-built proof-of-model topics (Math/Physics/CS); platform MVP (notes/quiz/mastery/signature-layer tabs/dependency map/search/teacher tools) verified in a real browser with 0 JS errors; competitive sample content; business positioning/roadmap/research-notes; README. Build passes (`3 topics, all six layers, graph acyclic`).
 - 2026-07-19 (session 1) — memory.md created from Appendix A template; Phase 0 begun.

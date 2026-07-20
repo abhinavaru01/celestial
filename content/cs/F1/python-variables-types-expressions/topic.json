@@ -18,10 +18,31 @@
   ],
   "prereqs": [],
   "boardMap": {
-    "CBSE": ["Cl.6-8 CS/IT foundations", "Cl.11 CS: Python data types & operators"],
-    "ICSE": ["Cl.9-10 Computer Applications: variables & data types"],
-    "IB": ["MYP Design", "DP Computer Science SL: programming fundamentals"]
+    "CBSE": [
+      "Cl.6-8 CS/IT foundations",
+      "Cl.11 CS: Python data types & operators"
+    ],
+    "ICSE": [
+      "Cl.9-10 Computer Applications: variables & data types"
+    ],
+    "IB": [
+      "MYP Design",
+      "DP Computer Science SL: programming fundamentals"
+    ]
   },
   "competitiveTags": [],
-  "keywords": ["python", "variable", "assignment", "data type", "int", "float", "str", "bool", "expression", "operator precedence", "type conversion"]
+  "keywords": [
+    "python",
+    "variable",
+    "assignment",
+    "data type",
+    "int",
+    "float",
+    "str",
+    "bool",
+    "expression",
+    "operator precedence",
+    "type conversion"
+  ],
+  "depth": "flagship"
 }

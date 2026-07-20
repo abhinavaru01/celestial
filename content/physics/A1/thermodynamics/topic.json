@@ -1,0 +1,43 @@
+{
+  "id": "physics.A1.thermodynamics",
+  "subject": "physics",
+  "tier": "A1",
+  "title": "Thermodynamics",
+  "slug": "thermodynamics",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "The laws of thermodynamics, heat engines and entropy — sharing a spine with chemistry.",
+  "outcomes": [
+    "State the laws of thermodynamics",
+    "Analyse heat engines and efficiency",
+    "Explain entropy intuitively"
+  ],
+  "prereqs": [
+    "physics.A1.fluids-advanced",
+    "physics.I2.thermal-physics"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Thermodynamics"
+    ],
+    "ICSE": [
+      "Cl.12 Thermodynamics"
+    ],
+    "IB": [
+      "DP Thermodynamics HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "thermodynamics",
+    "entropy",
+    "heat engine",
+    "first law"
+  ]
+}

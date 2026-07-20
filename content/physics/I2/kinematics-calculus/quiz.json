@@ -1,0 +1,36 @@
+{
+  "topicId": "physics.I2.kinematics-calculus",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "physics_I2_kinematics_calculus_q1",
+        "type": "mcq",
+        "prompt": "Velocity is the derivative of:",
+        "choices": [
+          "position",
+          "acceleration",
+          "force",
+          "mass"
+        ],
+        "answer": 0,
+        "explanation": "v = dx/dt."
+      }
+    ],
+    "3": [
+      {
+        "id": "physics_I2_kinematics_calculus_q2",
+        "type": "mcq",
+        "prompt": "When acceleration varies with time, you should:",
+        "choices": [
+          "integrate a(t)",
+          "use v = u + at",
+          "assume a = 0",
+          "use averages only"
+        ],
+        "answer": 0,
+        "explanation": "SUVAT needs constant a; otherwise integrate."
+      }
+    ]
+  }
+}

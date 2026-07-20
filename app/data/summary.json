@@ -1,27 +1,43 @@
 {
-  "topics": 3,
+  "topics": 192,
   "bySubject": {
-    "cs": 1,
-    "math": 1,
-    "physics": 1
+    "biology": 30,
+    "chemistry": 30,
+    "cs": 37,
+    "english": 28,
+    "math": 37,
+    "physics": 30
   },
   "byTier": {
-    "F1": 3
+    "A1": 32,
+    "A2": 30,
+    "F1": 29,
+    "F2": 35,
+    "I1": 33,
+    "I2": 33
   },
-  "edges": 1,
-  "crossSubjectEdges": 1,
+  "edges": 282,
+  "crossSubjectEdges": 24,
   "highestLeverage": [
     {
-      "id": "physics.F1.motion",
-      "inDegree": 1
+      "id": "biology.A1.biochemistry",
+      "inDegree": 2
     },
     {
-      "id": "cs.F1.python-variables-types-expressions",
-      "inDegree": 0
+      "id": "biology.A1.cell-biology-depth",
+      "inDegree": 2
     },
     {
-      "id": "math.F1.ratio-proportion-percentage",
-      "inDegree": 0
+      "id": "biology.A1.human-physiology-iii",
+      "inDegree": 2
+    },
+    {
+      "id": "biology.A1.molecular-genetics",
+      "inDegree": 2
+    },
+    {
+      "id": "biology.A1.plant-physiology-depth",
+      "inDegree": 2
     }
   ]
 }

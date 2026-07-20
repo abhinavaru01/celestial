@@ -1,0 +1,32 @@
+{
+  "topicId": "physics.F2.heat-temperature",
+  "levels": {
+    "1": [
+      {
+        "id": "physics_F2_heat_temperature_q2",
+        "type": "mcq",
+        "prompt": "Which transfer method needs no medium?",
+        "choices": [
+          "radiation",
+          "conduction",
+          "convection",
+          "none"
+        ],
+        "answer": 0,
+        "explanation": "Radiation travels through vacuum as electromagnetic waves."
+      }
+    ],
+    "2": [
+      {
+        "id": "physics_F2_heat_temperature_q1",
+        "type": "numeric",
+        "prompt": "Heat to raise 2 kg of water (c=4200) by 5°C?",
+        "answer": 42000,
+        "tolerance": 0,
+        "unit": "J",
+        "explanation": "Q = mcΔT = 2×4200×5 = 42000 J."
+      }
+    ],
+    "3": []
+  }
+}

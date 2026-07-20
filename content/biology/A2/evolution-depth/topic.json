@@ -1,0 +1,41 @@
+{
+  "id": "biology.A2.evolution-depth",
+  "subject": "biology",
+  "tier": "A2",
+  "title": "Evolution at Depth",
+  "slug": "evolution-depth",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Speciation, molecular evidence and phylogenetics.",
+  "outcomes": [
+    "Explain speciation",
+    "Use molecular evidence",
+    "Read phylogenetic trees"
+  ],
+  "prereqs": [
+    "biology.A2.biotechnology",
+    "biology.I2.evolution-natural-selection"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Evolution"
+    ],
+    "ICSE": [
+      "Cl.12 Evolution"
+    ],
+    "IB": [
+      "DP Evolution HL"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "speciation",
+    "phylogenetics",
+    "molecular evidence",
+    "evolution"
+  ]
+}

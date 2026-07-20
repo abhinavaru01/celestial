@@ -1,0 +1,35 @@
+{
+  "topicId": "cs.I1.project-2",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "cs_I1_project_2_q1",
+        "type": "mcq",
+        "prompt": "Clean project structure means:",
+        "choices": [
+          "modules with clear responsibilities",
+          "one huge file",
+          "no functions",
+          "no comments"
+        ],
+        "answer": 0,
+        "explanation": "Separation of concerns aids maintenance."
+      },
+      {
+        "id": "cs_I1_project_2_q2",
+        "type": "mcq",
+        "prompt": "A robust program should handle:",
+        "choices": [
+          "missing files and bad input",
+          "only perfect input",
+          "no input",
+          "nothing"
+        ],
+        "answer": 0,
+        "explanation": "Real programs anticipate errors."
+      }
+    ],
+    "3": []
+  }
+}

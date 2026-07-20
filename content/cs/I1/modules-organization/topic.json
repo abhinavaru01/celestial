@@ -1,0 +1,39 @@
+{
+  "id": "cs.I1.modules-organization",
+  "subject": "cs",
+  "tier": "I1",
+  "title": "Modules & Program Organization",
+  "slug": "modules-organization",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Multi-file programs, imports, and the standard library.",
+  "outcomes": [
+    "Split code across modules",
+    "Import and reuse code",
+    "Use the standard library"
+  ],
+  "prereqs": [
+    "cs.I1.error-handling-debugging",
+    "cs.F2.functions"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS: Modules"
+    ],
+    "ICSE": [
+      "Cl.11-12 Modular Programming"
+    ],
+    "IB": [
+      "DP CS"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "module",
+    "import",
+    "standard library",
+    "organization"
+  ]
+}

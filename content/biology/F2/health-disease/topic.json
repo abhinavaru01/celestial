@@ -1,0 +1,41 @@
+{
+  "id": "biology.F2.health-disease",
+  "subject": "biology",
+  "tier": "F2",
+  "title": "Health & Disease",
+  "slug": "health-disease",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Pathogens, how disease spreads, immunity and prevention.",
+  "outcomes": [
+    "Identify types of pathogen",
+    "Explain how disease spreads",
+    "Describe immunity and prevention"
+  ],
+  "prereqs": [
+    "biology.F2.reproduction"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.9 Why Do We Fall Ill"
+    ],
+    "ICSE": [
+      "Cl.8-10 Health & Disease"
+    ],
+    "IB": [
+      "DP Human Health"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "pathogen",
+    "disease",
+    "immunity",
+    "vaccine",
+    "prevention"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "english.I2.literature-ii",
+  "subject": "english",
+  "tier": "I2",
+  "title": "Literature II",
+  "slug": "literature-ii",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "The novel: sustained analysis in an extended essay.",
+  "outcomes": [
+    "Analyse a whole novel",
+    "Trace development across a text",
+    "Write an extended literary essay"
+  ],
+  "prereqs": [
+    "english.I2.comparative-analysis"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 Literature"
+    ],
+    "ICSE": [
+      "Cl.11-12 Novel Study"
+    ],
+    "IB": [
+      "DP Literature"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "novel",
+    "literary analysis",
+    "extended essay",
+    "theme"
+  ]
+}

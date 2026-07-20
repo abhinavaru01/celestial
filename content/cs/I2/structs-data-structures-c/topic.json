@@ -1,0 +1,39 @@
+{
+  "id": "cs.I2.structs-data-structures-c",
+  "subject": "cs",
+  "tier": "I2",
+  "title": "Structs & Building Data Structures in C",
+  "slug": "structs-data-structures-c",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Grouping data with structs, and re-implementing a linked list with pointers.",
+  "outcomes": [
+    "Define and use structs",
+    "Build a linked list in C",
+    "Connect structs and pointers"
+  ],
+  "prereqs": [
+    "cs.I2.strings-memory-c"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS (Structures)"
+    ],
+    "ICSE": [
+      "Cl.12 Structures"
+    ],
+    "IB": [
+      "DP CS: Data Structures"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "struct",
+    "linked list",
+    "pointers",
+    "C",
+    "data structure"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "topicId": "chemistry.I2.gas-laws-kinetic-theory",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "chemistry_I2_gas_laws_kinetic_theory_q1",
+        "type": "mcq",
+        "prompt": "In PV = nRT, T must be in:",
+        "choices": [
+          "kelvin",
+          "celsius",
+          "fahrenheit",
+          "joules"
+        ],
+        "answer": 0,
+        "explanation": "Absolute temperature (K) is required."
+      },
+      {
+        "id": "chemistry_I2_gas_laws_kinetic_theory_q2",
+        "type": "mcq",
+        "prompt": "At constant temperature, doubling pressure on a gas:",
+        "choices": [
+          "halves its volume",
+          "doubles its volume",
+          "no change",
+          "triples volume"
+        ],
+        "answer": 0,
+        "explanation": "Boyle's law: P and V are inversely proportional."
+      }
+    ],
+    "3": []
+  }
+}

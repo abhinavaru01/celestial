@@ -1,0 +1,35 @@
+{
+  "topicId": "math.I2.integrals-intuition",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "math_I2_integrals_intuition_q1",
+        "type": "mcq",
+        "prompt": "Find ∫ x² dx.",
+        "choices": [
+          "x³/3 + C",
+          "2x + C",
+          "x³ + C",
+          "3x³ + C"
+        ],
+        "answer": 0,
+        "explanation": "Raise power to 3, divide by 3, add C."
+      },
+      {
+        "id": "math_I2_integrals_intuition_q2",
+        "type": "mcq",
+        "prompt": "The area under a velocity–time graph represents:",
+        "choices": [
+          "distance",
+          "acceleration",
+          "speed",
+          "time"
+        ],
+        "answer": 0,
+        "explanation": "Accumulating velocity over time gives distance."
+      }
+    ],
+    "3": []
+  }
+}

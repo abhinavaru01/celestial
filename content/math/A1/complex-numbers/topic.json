@@ -1,0 +1,42 @@
+{
+  "id": "math.A1.complex-numbers",
+  "subject": "math",
+  "tier": "A1",
+  "title": "Complex Numbers",
+  "slug": "complex-numbers",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "The imaginary unit, the complex plane, modulus-argument form and De Moivre's theorem.",
+  "outcomes": [
+    "Do arithmetic with complex numbers",
+    "Plot them on the Argand plane",
+    "Use modulus-argument form"
+  ],
+  "prereqs": [
+    "math.A1.matrices-determinants"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Complex Numbers"
+    ],
+    "ICSE": [
+      "Cl.11 Complex Numbers"
+    ],
+    "IB": [
+      "DP Complex Numbers HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "complex numbers",
+    "imaginary unit",
+    "Argand plane",
+    "modulus",
+    "argument"
+  ]
+}

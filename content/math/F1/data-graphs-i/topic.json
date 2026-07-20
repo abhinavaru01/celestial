@@ -1,0 +1,39 @@
+{
+  "id": "math.F1.data-graphs-i",
+  "subject": "math",
+  "tier": "F1",
+  "title": "Data & Graphs I",
+  "slug": "data-graphs-i",
+  "core": true,
+  "order": 7,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Reading and drawing bar charts, pictographs and line graphs — and spotting misleading ones.",
+  "outcomes": [
+    "Read and construct bar charts, pictographs and line graphs",
+    "Compute simple averages from data",
+    "Recognise misleading graphs"
+  ],
+  "prereqs": [
+    "math.F1.geometry-angles-triangles"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.6-7 Data Handling"
+    ],
+    "ICSE": [
+      "Cl.6-7 Data Handling"
+    ],
+    "IB": [
+      "MYP Statistics"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "data",
+    "graphs",
+    "bar chart",
+    "mean",
+    "statistics"
+  ]
+}

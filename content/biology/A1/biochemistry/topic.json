@@ -1,0 +1,42 @@
+{
+  "id": "biology.A1.biochemistry",
+  "subject": "biology",
+  "tier": "A1",
+  "title": "Biochemistry",
+  "slug": "biochemistry",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Biomolecules and an overview of metabolic pathways — shared with chemistry.",
+  "outcomes": [
+    "Describe major biomolecules",
+    "Outline metabolism",
+    "Relate structure to function"
+  ],
+  "prereqs": [
+    "biology.A1.molecular-genetics",
+    "chemistry.I2.organic-intro"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Biomolecules"
+    ],
+    "ICSE": [
+      "Cl.11-12 Biochemistry"
+    ],
+    "IB": [
+      "DP Biochemistry HL"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "biochemistry",
+    "metabolism",
+    "anabolism",
+    "catabolism",
+    "biomolecules"
+  ]
+}

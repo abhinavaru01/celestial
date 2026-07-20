@@ -1,0 +1,40 @@
+{
+  "id": "math.A2.advanced-problem-solving",
+  "subject": "math",
+  "tier": "A2",
+  "title": "Advanced Problem-Solving Portfolio",
+  "slug": "advanced-problem-solving",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Multi-topic, competition-style structured problems that build transfer and stamina.",
+  "outcomes": [
+    "Combine techniques across topics",
+    "Plan a multi-step solution",
+    "Communicate reasoning clearly"
+  ],
+  "prereqs": [
+    "math.A2.conics"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Integrated (all Cl.11-12 topics)"
+    ],
+    "ICSE": [
+      "Integrated"
+    ],
+    "IB": [
+      "DP problem-solving"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "problem solving",
+    "transfer",
+    "strategy",
+    "competition"
+  ]
+}

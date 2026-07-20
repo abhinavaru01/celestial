@@ -1,0 +1,42 @@
+{
+  "id": "biology.F2.cells-to-organisms",
+  "subject": "biology",
+  "tier": "F2",
+  "title": "Cells to Organisms",
+  "slug": "cells-to-organisms",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "The hierarchy from cells to tissues, organs and systems.",
+  "outcomes": [
+    "Describe the levels of organisation",
+    "Relate structure to function",
+    "Give examples of tissues and organs"
+  ],
+  "prereqs": [
+    "biology.F1.living-environment-i",
+    "biology.F1.the-cell"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.8-9 Tissues"
+    ],
+    "ICSE": [
+      "Cl.8-9 Organisation"
+    ],
+    "IB": [
+      "DP Cell Biology"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "tissue",
+    "organ",
+    "system",
+    "organisation",
+    "specialisation"
+  ]
+}

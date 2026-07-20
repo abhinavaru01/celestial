@@ -1,0 +1,43 @@
+{
+  "id": "biology.I1.respiration-photosynthesis",
+  "subject": "biology",
+  "tier": "I1",
+  "title": "Respiration & Photosynthesis (Biochemical)",
+  "slug": "respiration-photosynthesis",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "The energy budgets of respiration and photosynthesis, quantitatively.",
+  "outcomes": [
+    "Write respiration and photosynthesis equations",
+    "Compare the two processes",
+    "Relate them to energy flow"
+  ],
+  "prereqs": [
+    "biology.I1.enzymes",
+    "biology.F2.plant-biology-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.10 Life Processes",
+      "Cl.11 Respiration & Photosynthesis"
+    ],
+    "ICSE": [
+      "Cl.10-11 Biochemistry"
+    ],
+    "IB": [
+      "DP Bioenergetics"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "respiration",
+    "photosynthesis",
+    "aerobic",
+    "anaerobic",
+    "glucose"
+  ]
+}

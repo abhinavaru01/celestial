@@ -1,0 +1,42 @@
+{
+  "id": "math.I1.quadratics",
+  "subject": "math",
+  "tier": "I1",
+  "title": "Quadratics",
+  "slug": "quadratics",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Quadratic expressions and equations — factoring, the quadratic formula, graphs and modelling.",
+  "outcomes": [
+    "Solve quadratics by factoring and the formula",
+    "Sketch a parabola and find its vertex",
+    "Model with quadratic equations"
+  ],
+  "prereqs": [
+    "math.F2.number-theory-basics",
+    "math.F2.polynomials-factoring"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.10 Quadratic Equations"
+    ],
+    "ICSE": [
+      "Cl.10 Quadratic Equations"
+    ],
+    "IB": [
+      "DP Algebra"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "quadratic",
+    "discriminant",
+    "parabola",
+    "roots"
+  ]
+}

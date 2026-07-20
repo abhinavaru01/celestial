@@ -1,0 +1,36 @@
+{
+  "topicId": "biology.I1.enzymes",
+  "levels": {
+    "1": [
+      {
+        "id": "biology_I1_enzymes_q1",
+        "type": "mcq",
+        "prompt": "Enzymes speed up reactions by:",
+        "choices": [
+          "lowering activation energy",
+          "raising temperature",
+          "adding mass",
+          "being consumed"
+        ],
+        "answer": 0,
+        "explanation": "They provide a lower-energy pathway and are reusable."
+      }
+    ],
+    "2": [
+      {
+        "id": "biology_I1_enzymes_q2",
+        "type": "mcq",
+        "prompt": "High temperature can ___ an enzyme.",
+        "choices": [
+          "denature",
+          "strengthen",
+          "multiply",
+          "freeze"
+        ],
+        "answer": 0,
+        "explanation": "Heat changes the active site shape permanently."
+      }
+    ],
+    "3": []
+  }
+}

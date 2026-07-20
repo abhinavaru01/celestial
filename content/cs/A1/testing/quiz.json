@@ -1,0 +1,35 @@
+{
+  "topicId": "cs.A1.testing",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "cs_A1_testing_q1",
+        "type": "mcq",
+        "prompt": "Bugs most often hide in:",
+        "choices": [
+          "edge cases",
+          "the middle of normal input",
+          "comments",
+          "variable names"
+        ],
+        "answer": 0,
+        "explanation": "Empty, boundary and invalid inputs expose bugs."
+      },
+      {
+        "id": "cs_A1_testing_q2",
+        "type": "mcq",
+        "prompt": "Automated tests help mainly by:",
+        "choices": [
+          "catching regressions when code changes",
+          "making code shorter",
+          "removing the need for functions",
+          "formatting output"
+        ],
+        "answer": 0,
+        "explanation": "They flag when a change breaks existing behaviour."
+      }
+    ],
+    "3": []
+  }
+}

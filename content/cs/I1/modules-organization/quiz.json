@@ -1,0 +1,36 @@
+{
+  "topicId": "cs.I1.modules-organization",
+  "levels": {
+    "1": [
+      {
+        "id": "cs_I1_modules_organization_q1",
+        "type": "mcq",
+        "prompt": "To use a function from another file you:",
+        "choices": [
+          "import it",
+          "copy the whole file",
+          "rename it",
+          "delete it"
+        ],
+        "answer": 0,
+        "explanation": "import brings the module's code in for reuse."
+      }
+    ],
+    "2": [
+      {
+        "id": "cs_I1_modules_organization_q2",
+        "type": "mcq",
+        "prompt": "Splitting a large program into modules mainly improves:",
+        "choices": [
+          "organisation and reuse",
+          "execution speed",
+          "file size",
+          "colour"
+        ],
+        "answer": 0,
+        "explanation": "Modules keep related code together and reusable."
+      }
+    ],
+    "3": []
+  }
+}

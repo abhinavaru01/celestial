@@ -1,0 +1,43 @@
+{
+  "id": "chemistry.A1.chemical-equilibrium",
+  "subject": "chemistry",
+  "tier": "A1",
+  "title": "Chemical Equilibrium (Quantitative)",
+  "slug": "chemical-equilibrium",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Equilibrium constants Kc and Kp, and ICE-table calculations.",
+  "outcomes": [
+    "Write equilibrium expressions",
+    "Use Kc and Kp",
+    "Solve with ICE tables"
+  ],
+  "prereqs": [
+    "chemistry.A1.chemical-kinetics",
+    "chemistry.I2.equilibrium-intro"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Equilibrium"
+    ],
+    "ICSE": [
+      "Cl.12 Equilibrium"
+    ],
+    "IB": [
+      "DP Equilibrium HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "equilibrium constant",
+    "Kc",
+    "Kp",
+    "ICE table"
+  ]
+}

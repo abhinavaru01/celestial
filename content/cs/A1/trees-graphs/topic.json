@@ -1,0 +1,42 @@
+{
+  "id": "cs.A1.trees-graphs",
+  "subject": "cs",
+  "tier": "A1",
+  "title": "Trees & Graphs",
+  "slug": "trees-graphs",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Representing and traversing trees and graphs (BFS/DFS).",
+  "outcomes": [
+    "Represent trees and graphs",
+    "Traverse with BFS and DFS",
+    "Choose a traversal for a task"
+  ],
+  "prereqs": [
+    "cs.A1.recursion",
+    "cs.I1.data-structures-basic"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS: Trees"
+    ],
+    "ICSE": [
+      "Cl.12 Data Structures"
+    ],
+    "IB": [
+      "DP CS: Abstract Data Structures"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "tree",
+    "graph",
+    "BFS",
+    "DFS",
+    "traversal"
+  ]
+}

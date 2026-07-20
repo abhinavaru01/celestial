@@ -1,0 +1,40 @@
+{
+  "id": "math.I1.geometry-circles-proof",
+  "subject": "math",
+  "tier": "I1",
+  "title": "Geometry III: Circles & Formal Proof",
+  "slug": "geometry-circles-proof",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Circle theorems and deductive proof as a skill in itself — reasoning that transfers to CS correctness.",
+  "outcomes": [
+    "Apply circle theorems (angles, tangents, chords)",
+    "Construct a deductive proof",
+    "Justify each step with a reason"
+  ],
+  "prereqs": [
+    "math.I1.sequences-series"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.9-10 Circles"
+    ],
+    "ICSE": [
+      "Cl.10 Circles"
+    ],
+    "IB": [
+      "DP Geometry"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "circle theorems",
+    "proof",
+    "geometry",
+    "deduction"
+  ]
+}

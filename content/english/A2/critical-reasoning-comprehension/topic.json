@@ -1,0 +1,43 @@
+{
+  "id": "english.A2.critical-reasoning-comprehension",
+  "subject": "english",
+  "tier": "A2",
+  "title": "Critical Reasoning & Comprehension (Exam Level)",
+  "slug": "critical-reasoning-comprehension",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Dense unseen passages under time — serving aptitude sections of entrance exams.",
+  "outcomes": [
+    "Read dense passages quickly and accurately",
+    "Answer inference questions under time",
+    "Evaluate arguments rapidly"
+  ],
+  "prereqs": [
+    "english.A2.extended-essay",
+    "english.I2.argument-ii"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Reading"
+    ],
+    "ICSE": [
+      "Cl.12 Comprehension"
+    ],
+    "IB": [
+      "DP Paper 1"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "critical reasoning",
+    "comprehension",
+    "inference",
+    "aptitude",
+    "exam"
+  ]
+}

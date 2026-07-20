@@ -1,0 +1,35 @@
+{
+  "topicId": "cs.A2.web-data-basics",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "cs_A2_web_data_basics_q1",
+        "type": "mcq",
+        "prompt": "Data returned from a web API is commonly formatted as:",
+        "choices": [
+          "JSON",
+          "a C struct",
+          "a spreadsheet image",
+          "machine code"
+        ],
+        "answer": 0,
+        "explanation": "JSON is the common web data format."
+      },
+      {
+        "id": "cs_A2_web_data_basics_q2",
+        "type": "mcq",
+        "prompt": "Before using an API response you should:",
+        "choices": [
+          "check the status/handle errors",
+          "assume it always works",
+          "ignore the data",
+          "delete it"
+        ],
+        "answer": 0,
+        "explanation": "Network requests can fail; handle that."
+      }
+    ],
+    "3": []
+  }
+}

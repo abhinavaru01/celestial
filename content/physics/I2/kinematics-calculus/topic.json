@@ -1,0 +1,42 @@
+{
+  "id": "physics.I2.kinematics-calculus",
+  "subject": "physics",
+  "tier": "I2",
+  "title": "Kinematics with Calculus",
+  "slug": "kinematics-calculus",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Position, velocity and acceleration as derivatives and integrals — co-taught with calculus.",
+  "outcomes": [
+    "Relate position, velocity, acceleration by calculus",
+    "Differentiate/integrate motion functions",
+    "Handle non-uniform acceleration"
+  ],
+  "prereqs": [
+    "physics.I1.energy-ii",
+    "math.I2.derivatives-intuition"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Motion (calculus)"
+    ],
+    "ICSE": [
+      "Cl.11-12 Kinematics"
+    ],
+    "IB": [
+      "DP Mechanics HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "kinematics",
+    "derivative",
+    "integral",
+    "calculus"
+  ]
+}

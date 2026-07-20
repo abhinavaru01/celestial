@@ -1,0 +1,45 @@
+{
+  "id": "physics.A1.electrostatics",
+  "subject": "physics",
+  "tier": "A1",
+  "title": "Electrostatics",
+  "slug": "electrostatics",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Electric charge, fields, potential and capacitance, using calculus and vectors.",
+  "outcomes": [
+    "Use Coulomb's law and electric fields",
+    "Relate field and potential",
+    "Analyse capacitance"
+  ],
+  "prereqs": [
+    "physics.A1.thermodynamics",
+    "math.A1.vectors-3d-geometry"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Electric Charges & Fields",
+      "Cl.12 Electrostatic Potential"
+    ],
+    "ICSE": [
+      "Cl.12 Electrostatics"
+    ],
+    "IB": [
+      "DP Fields HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "electrostatics",
+    "Coulomb",
+    "electric field",
+    "potential",
+    "capacitance"
+  ]
+}

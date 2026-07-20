@@ -1,0 +1,44 @@
+{
+  "id": "physics.A2.current-electricity-advanced",
+  "subject": "physics",
+  "tier": "A2",
+  "title": "Current Electricity & Circuits (Full Rigor)",
+  "slug": "current-electricity-advanced",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "DC circuits at depth: networks, power dissipation, and measurement.",
+  "outcomes": [
+    "Analyse complex resistor networks",
+    "Compute electrical power",
+    "Use measurement circuits"
+  ],
+  "prereqs": [
+    "physics.A1.electrostatics",
+    "physics.I2.electricity-ii"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Current Electricity"
+    ],
+    "ICSE": [
+      "Cl.12 Electricity"
+    ],
+    "IB": [
+      "DP Electricity HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "circuits",
+    "power",
+    "ammeter",
+    "voltmeter",
+    "networks"
+  ]
+}

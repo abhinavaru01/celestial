@@ -1,0 +1,28 @@
+{
+  "topicId": "physics.I1.energy-ii",
+  "levels": {
+    "1": [
+      {
+        "id": "physics_I1_energy_ii_q1",
+        "type": "numeric",
+        "prompt": "100 J of work in 5 s. Power?",
+        "answer": 20,
+        "tolerance": 0,
+        "unit": "W",
+        "explanation": "P = W/t = 100/5 = 20 W."
+      }
+    ],
+    "2": [
+      {
+        "id": "physics_I1_energy_ii_q2",
+        "type": "numeric",
+        "prompt": "Useful output 40 J from 50 J input. Efficiency (%)?",
+        "answer": 80,
+        "tolerance": 0,
+        "unit": "%",
+        "explanation": "40/50 × 100 = 80%."
+      }
+    ],
+    "3": []
+  }
+}

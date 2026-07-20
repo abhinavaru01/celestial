@@ -1,0 +1,35 @@
+{
+  "topicId": "chemistry.I2.atomic-structure-ii",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "chemistry_I2_atomic_structure_ii_q1",
+        "type": "mcq",
+        "prompt": "Elements with full outer shells (noble gases) are:",
+        "choices": [
+          "unreactive",
+          "highly reactive",
+          "always metals",
+          "radioactive"
+        ],
+        "answer": 0,
+        "explanation": "A full outer shell is stable, so they rarely react."
+      },
+      {
+        "id": "chemistry_I2_atomic_structure_ii_q2",
+        "type": "mcq",
+        "prompt": "What mainly determines an element's chemistry?",
+        "choices": [
+          "its outer electrons",
+          "its neutrons",
+          "its mass number",
+          "its colour"
+        ],
+        "answer": 0,
+        "explanation": "Outer (valence) electrons drive bonding and reactivity."
+      }
+    ],
+    "3": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "english.I1.argument-i",
+  "subject": "english",
+  "tier": "I1",
+  "title": "Argument I",
+  "slug": "argument-i",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Claim, evidence and warrant — recognising the structure of arguments.",
+  "outcomes": [
+    "Identify claim, evidence and warrant",
+    "Analyse an argument's structure",
+    "Evaluate whether evidence supports a claim"
+  ],
+  "prereqs": [
+    "english.F2.vocabulary-ii"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.9-10 Reading & Reasoning"
+    ],
+    "ICSE": [
+      "Cl.9-10 Comprehension"
+    ],
+    "IB": [
+      "MYP/DP Language"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "argument",
+    "claim",
+    "evidence",
+    "warrant",
+    "reasoning"
+  ]
+}

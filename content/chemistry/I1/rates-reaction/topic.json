@@ -1,0 +1,41 @@
+{
+  "id": "chemistry.I1.rates-reaction",
+  "subject": "chemistry",
+  "tier": "I1",
+  "title": "Rates of Reaction",
+  "slug": "rates-reaction",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "What speeds reactions up — concentration, temperature, surface area, catalysts — with rate graphs.",
+  "outcomes": [
+    "Identify factors affecting rate",
+    "Interpret rate graphs",
+    "Explain rate using collision theory"
+  ],
+  "prereqs": [
+    "chemistry.I1.solutions-concentration"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Chemical Kinetics (intro)"
+    ],
+    "ICSE": [
+      "Cl.10-11 Rate of Reaction"
+    ],
+    "IB": [
+      "DP Kinetics"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "reaction rate",
+    "collision theory",
+    "catalyst",
+    "activation energy"
+  ]
+}

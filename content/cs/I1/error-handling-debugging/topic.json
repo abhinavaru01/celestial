@@ -1,0 +1,39 @@
+{
+  "id": "cs.I1.error-handling-debugging",
+  "subject": "cs",
+  "tier": "I1",
+  "title": "Error Handling & Debugging Discipline",
+  "slug": "error-handling-debugging",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Exceptions, reading tracebacks, and systematic debugging.",
+  "outcomes": [
+    "Handle exceptions with try/except",
+    "Read tracebacks",
+    "Debug systematically"
+  ],
+  "prereqs": [
+    "cs.I1.file-io-data-formats",
+    "cs.F2.project-1"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS: Exception Handling"
+    ],
+    "ICSE": [
+      "Cl.11-12 Debugging"
+    ],
+    "IB": [
+      "DP CS"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "exception",
+    "try except",
+    "traceback",
+    "debugging"
+  ]
+}

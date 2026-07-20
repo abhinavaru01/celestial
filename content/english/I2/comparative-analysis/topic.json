@@ -1,0 +1,38 @@
+{
+  "id": "english.I2.comparative-analysis",
+  "subject": "english",
+  "tier": "I2",
+  "title": "Comparative Analysis",
+  "slug": "comparative-analysis",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Synthesising and comparing multiple texts.",
+  "outcomes": [
+    "Compare texts on shared aspects",
+    "Synthesise ideas across sources",
+    "Structure a comparative essay"
+  ],
+  "prereqs": [
+    "english.I2.argument-ii"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 Literature"
+    ],
+    "ICSE": [
+      "Cl.11-12 Comparative Study"
+    ],
+    "IB": [
+      "DP Comparative Study"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "comparison",
+    "synthesis",
+    "analysis",
+    "texts"
+  ]
+}

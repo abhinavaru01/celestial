@@ -1,0 +1,43 @@
+{
+  "id": "chemistry.F2.atomic-structure-i",
+  "subject": "chemistry",
+  "tier": "F2",
+  "title": "Atomic Structure I",
+  "slug": "atomic-structure-i",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Protons, neutrons and electrons; atomic number, mass number and isotopes.",
+  "outcomes": [
+    "Describe subatomic particles",
+    "Use atomic number and mass number",
+    "Explain isotopes"
+  ],
+  "prereqs": [
+    "chemistry.F1.physical-chemical-change"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.9 Structure of the Atom"
+    ],
+    "ICSE": [
+      "Cl.8-9 Atomic Structure"
+    ],
+    "IB": [
+      "DP Atomic Structure"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "atom",
+    "proton",
+    "neutron",
+    "electron",
+    "isotope",
+    "atomic number"
+  ]
+}

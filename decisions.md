@@ -46,3 +46,31 @@ _Append-only. Each entry: decision, options considered, reasoning, date. Referen
 **Date:** 2026-07-19
 
 **Reasoning:** PRD favors depth over breadth. This session delivers: Phase 0 (scaffold + content model), Phase 1 (blueprint docs v1: tier system, six syllabi, board equivalence, timeline, mastery gating, competitive integration, dependency-graph spec), Phase 2 (3 full topics), Phase 3 (platform MVP with notes/quiz/progress/signature-layer views wired to real content). Phase 4 gets its section structure + one sample JEE-linked set; Phases 5–6 get concise docs + roadmap. Rationale: a working vertical slice (content model → real content → rendering platform) de-risks everything else; remaining phases are content-scaling work on a validated pattern.
+
+## D-008: Full curriculum via a structured dataset + generator (192 topics) <a id="d-008"></a>
+**Date:** 2026-07-20
+
+**Decision:** Author the entire 6×6 curriculum (all ~190 topics) as structured datasets (`scripts/curriculum/<subject>.mjs`) expanded by a generator (`scripts/generate-content.mjs`) into the six-file topic contract, keeping the 3 hand-written flagship topics as depth exemplars (`depth: "flagship"` vs `"module"`).
+
+**Reasoning:** The founder requires the complete curriculum — the website's whole purpose. Authoring ~190 topics × 6 deep-dive layers by hand in one pass is not achievable with integrity, so the honest, scalable path (exactly what the content-as-data architecture was designed for, D-002) is: real, tier-appropriate module content for every topic (genuine concepts, common mistakes, tricks, memory aids, prerequisite links, and concept-check quizzes), generated consistently and machine-validated, with three flagship topics setting the target depth. Prerequisites are auto-chained per subject plus explicit cross-subject links (24 cross-subject edges), giving a real 282-edge dependency graph. Every topic still passes the six-layer enforcement in `build.mjs`. Modules are labelled "structured module" in-app so depth is transparent; deepening them to flagship level is ongoing content work on a validated pattern.
+
+## D-009: Remove locking / mastery-gating / completion from the platform <a id="d-009"></a>
+**Date:** 2026-07-20
+
+**Decision:** Per founder instruction, make everything open: no locked topics, no prerequisite blocking, no mastery/completion status or gate logic in the UI. Prerequisites are retained purely as informational "builds on / leads to" links. Quizzes remain as optional self-check with instant feedback (not graded or gating). `app/js/progress.js` is retired from the app; the mastery-gating design remains documented in `docs/curriculum/mastery-gating.md` for future optional re-enablement.
+
+**Reasoning:** The founder explicitly asked to "remove this complete and unlock features." Open access maximises exploration and matches the "everything unlocked" positioning. The dependency graph still informs a recommended path without enforcing it.
+
+## D-010: Rebrand the website to "The Ultimate Learner" <a id="d-010"></a>
+**Date:** 2026-07-20
+
+**Decision:** The public/site-facing name is **The Ultimate Learner** (title, header brand, footer, dashboard hero, favicon ✦). "Project Compression" is retained internally as the initiative/PRD name in the docs.
+
+**Reasoning:** Direct founder instruction on the website name.
+
+## D-011: Dependency-free math rendering hardened (bug fix) <a id="d-011"></a>
+**Date:** 2026-07-20
+
+**Decision:** Rewrote `prettifyMath` in `app/js/md.js` to correctly convert LaTeX (`\frac`/`\dfrac`/`\tfrac`, `\text`, `\quad`, greek letters, symbols, super/subscripts) to clean readable math, unwrapping `\text{}` before fractions and mapping unknown/spacing commands to spaces so words never jam.
+
+**Reasoning:** The prior prettifier mangled flagship notes (e.g., "quadwhich meansquad", "dfracab"). Fix keeps the zero-dependency, no-external-math-engine constraint (D-001) while rendering correctly. Verified against the actual flagship content.

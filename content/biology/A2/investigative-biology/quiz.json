@@ -1,0 +1,36 @@
+{
+  "topicId": "biology.A2.investigative-biology",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "biology_A2_investigative_biology_q1",
+        "type": "mcq",
+        "prompt": "A valid experiment must include a:",
+        "choices": [
+          "control group",
+          "guaranteed result",
+          "single trial only",
+          "change of many variables at once"
+        ],
+        "answer": 0,
+        "explanation": "A control isolates the effect of the variable tested."
+      }
+    ],
+    "3": [
+      {
+        "id": "biology_A2_investigative_biology_q2",
+        "type": "mcq",
+        "prompt": "Two variables rise together. You can conclude:",
+        "choices": [
+          "they are correlated, not necessarily causal",
+          "one causes the other",
+          "nothing is related",
+          "the experiment failed"
+        ],
+        "answer": 0,
+        "explanation": "Correlation does not prove causation."
+      }
+    ]
+  }
+}

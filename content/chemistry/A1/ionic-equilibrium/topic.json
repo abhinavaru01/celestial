@@ -1,0 +1,44 @@
+{
+  "id": "chemistry.A1.ionic-equilibrium",
+  "subject": "chemistry",
+  "tier": "A1",
+  "title": "Ionic Equilibrium",
+  "slug": "ionic-equilibrium",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "pH calculations, buffers, and the solubility product.",
+  "outcomes": [
+    "Calculate pH of acids/bases",
+    "Explain buffers",
+    "Use the solubility product Ksp"
+  ],
+  "prereqs": [
+    "chemistry.A1.chemical-equilibrium",
+    "math.I2.exponentials-logarithms"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Equilibrium (Ionic)"
+    ],
+    "ICSE": [
+      "Cl.12 Ionic Equilibrium"
+    ],
+    "IB": [
+      "DP Acids & Bases HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "pH",
+    "buffer",
+    "solubility product",
+    "Ksp",
+    "ionic equilibrium"
+  ]
+}

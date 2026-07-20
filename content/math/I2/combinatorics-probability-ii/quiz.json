@@ -1,0 +1,26 @@
+{
+  "topicId": "math.I2.combinatorics-probability-ii",
+  "levels": {
+    "1": [
+      {
+        "id": "math_I2_combinatorics_probability_ii_q1",
+        "type": "numeric",
+        "prompt": "How many ways to arrange 3 distinct books in a row?",
+        "answer": 6,
+        "tolerance": 0,
+        "explanation": "3! = 3×2×1 = 6."
+      }
+    ],
+    "2": [
+      {
+        "id": "math_I2_combinatorics_probability_ii_q2",
+        "type": "numeric",
+        "prompt": "How many ways to choose 2 items from 4 (order irrelevant)?",
+        "answer": 6,
+        "tolerance": 0,
+        "explanation": "4C2 = 6."
+      }
+    ],
+    "3": []
+  }
+}

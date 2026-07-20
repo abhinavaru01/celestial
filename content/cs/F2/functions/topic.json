@@ -1,0 +1,39 @@
+{
+  "id": "cs.F2.functions",
+  "subject": "cs",
+  "tier": "F2",
+  "title": "Functions",
+  "slug": "functions",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Defining functions with parameters, return values and scope — decomposition in code.",
+  "outcomes": [
+    "Define and call functions",
+    "Use parameters and return values",
+    "Understand local scope"
+  ],
+  "prereqs": [
+    "cs.F2.lists-iteration"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 CS: Functions"
+    ],
+    "ICSE": [
+      "Cl.10 Functions/Methods"
+    ],
+    "IB": [
+      "DP CS"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "function",
+    "parameter",
+    "return",
+    "scope",
+    "decomposition"
+  ]
+}

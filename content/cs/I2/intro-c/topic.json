@@ -1,0 +1,40 @@
+{
+  "id": "cs.I2.intro-c",
+  "subject": "cs",
+  "tier": "I2",
+  "title": "Intro to C",
+  "slug": "intro-c",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "The compilation model, types and functions in C — contrasting with Python.",
+  "outcomes": [
+    "Compile and run a C program",
+    "Use C types and functions",
+    "Contrast C with Python"
+  ],
+  "prereqs": [
+    "cs.I1.project-2",
+    "cs.F2.functions"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 CS (C basics)"
+    ],
+    "ICSE": [
+      "Cl.11 C Programming"
+    ],
+    "IB": [
+      "DP CS"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "C",
+    "compilation",
+    "types",
+    "gcc",
+    "compiled"
+  ]
+}

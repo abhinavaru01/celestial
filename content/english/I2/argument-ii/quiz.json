@@ -1,0 +1,35 @@
+{
+  "topicId": "english.I2.argument-ii",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "english_I2_argument_ii_q1",
+        "type": "mcq",
+        "prompt": "Attacking your opponent personally instead of their argument is the ___ fallacy.",
+        "choices": [
+          "ad hominem",
+          "straw man",
+          "false dilemma",
+          "slippery slope"
+        ],
+        "answer": 0,
+        "explanation": "Ad hominem targets the person, not the reasoning."
+      },
+      {
+        "id": "english_I2_argument_ii_q2",
+        "type": "mcq",
+        "prompt": "Addressing the opposing view in your essay:",
+        "choices": [
+          "strengthens your argument",
+          "weakens it",
+          "is irrelevant",
+          "is dishonest"
+        ],
+        "answer": 0,
+        "explanation": "Answering counterarguments makes your case more convincing."
+      }
+    ],
+    "3": []
+  }
+}

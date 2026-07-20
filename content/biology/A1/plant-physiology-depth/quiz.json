@@ -1,0 +1,35 @@
+{
+  "topicId": "biology.A1.plant-physiology-depth",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "biology_A1_plant_physiology_depth_q1",
+        "type": "mcq",
+        "prompt": "The light-independent reactions of photosynthesis mainly:",
+        "choices": [
+          "fix carbon into sugars",
+          "capture light",
+          "release oxygen",
+          "break down glucose"
+        ],
+        "answer": 0,
+        "explanation": "The Calvin cycle fixes CO₂ into sugar using energy from the light stage."
+      },
+      {
+        "id": "biology_A1_plant_physiology_depth_q2",
+        "type": "mcq",
+        "prompt": "Auxins cause a plant shoot to:",
+        "choices": [
+          "grow toward light",
+          "stop growing",
+          "lose water",
+          "produce oxygen"
+        ],
+        "answer": 0,
+        "explanation": "Auxins drive phototropism."
+      }
+    ],
+    "3": []
+  }
+}

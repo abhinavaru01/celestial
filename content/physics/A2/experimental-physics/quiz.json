@@ -1,0 +1,35 @@
+{
+  "topicId": "physics.A2.experimental-physics",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "physics_A2_experimental_physics_q1",
+        "type": "mcq",
+        "prompt": "A set of measurements is precise but not accurate. This means they are:",
+        "choices": [
+          "close to each other but off the true value",
+          "close to the true value but scattered",
+          "both correct and scattered",
+          "random"
+        ],
+        "answer": 0,
+        "explanation": "Precision = repeatability; accuracy = closeness to truth."
+      },
+      {
+        "id": "physics_A2_experimental_physics_q2",
+        "type": "mcq",
+        "prompt": "To reduce random error you should:",
+        "choices": [
+          "repeat and average",
+          "measure once carefully",
+          "ignore outliers silently",
+          "use a bigger ruler"
+        ],
+        "answer": 0,
+        "explanation": "Averaging repeats reduces random error."
+      }
+    ],
+    "3": []
+  }
+}

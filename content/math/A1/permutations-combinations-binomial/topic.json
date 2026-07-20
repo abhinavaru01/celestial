@@ -1,0 +1,42 @@
+{
+  "id": "math.A1.permutations-combinations-binomial",
+  "subject": "math",
+  "tier": "A1",
+  "title": "Permutations, Combinations & Binomial Theorem",
+  "slug": "permutations-combinations-binomial",
+  "core": true,
+  "order": 6,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Advanced counting and the binomial expansion of (a + b)ⁿ.",
+  "outcomes": [
+    "Apply advanced counting arguments",
+    "Expand binomials with the binomial theorem",
+    "Find specific terms in an expansion"
+  ],
+  "prereqs": [
+    "math.A1.complex-numbers",
+    "math.I2.combinatorics-probability-ii"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Binomial Theorem"
+    ],
+    "ICSE": [
+      "Cl.11 Binomial Theorem"
+    ],
+    "IB": [
+      "DP Binomial"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "binomial theorem",
+    "permutations",
+    "combinations",
+    "Pascal triangle"
+  ]
+}

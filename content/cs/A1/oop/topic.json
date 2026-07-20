@@ -1,0 +1,40 @@
+{
+  "id": "cs.A1.oop",
+  "subject": "cs",
+  "tier": "A1",
+  "title": "Object-Oriented Programming (Python)",
+  "slug": "oop",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Classes, objects, encapsulation and inheritance — modelling with objects.",
+  "outcomes": [
+    "Define classes and create objects",
+    "Use encapsulation",
+    "Apply inheritance"
+  ],
+  "prereqs": [
+    "cs.I2.how-code-runs",
+    "cs.I1.project-2"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS: OOP concepts"
+    ],
+    "ICSE": [
+      "Cl.11-12 OOP"
+    ],
+    "IB": [
+      "DP CS: OOP"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "OOP",
+    "class",
+    "object",
+    "inheritance",
+    "encapsulation"
+  ]
+}

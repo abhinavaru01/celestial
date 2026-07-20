@@ -1,0 +1,35 @@
+{
+  "topicId": "chemistry.A2.functional-groups",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "chemistry_A2_functional_groups_q1",
+        "type": "mcq",
+        "prompt": "The −COOH group makes a molecule a(n):",
+        "choices": [
+          "carboxylic acid",
+          "alcohol",
+          "amine",
+          "ketone"
+        ],
+        "answer": 0,
+        "explanation": "−COOH is the carboxylic acid group."
+      },
+      {
+        "id": "chemistry_A2_functional_groups_q2",
+        "type": "mcq",
+        "prompt": "Oxidising a primary alcohol first gives a(n):",
+        "choices": [
+          "aldehyde",
+          "ketone",
+          "amine",
+          "alkane"
+        ],
+        "answer": 0,
+        "explanation": "Primary alcohol → aldehyde → carboxylic acid."
+      }
+    ],
+    "3": []
+  }
+}

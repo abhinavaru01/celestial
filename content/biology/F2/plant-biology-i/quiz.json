@@ -1,0 +1,36 @@
+{
+  "topicId": "biology.F2.plant-biology-i",
+  "levels": {
+    "1": [
+      {
+        "id": "biology_F2_plant_biology_i_q1",
+        "type": "mcq",
+        "prompt": "Photosynthesis releases which gas?",
+        "choices": [
+          "oxygen",
+          "carbon dioxide",
+          "nitrogen",
+          "hydrogen"
+        ],
+        "answer": 0,
+        "explanation": "Oxygen is released as a by-product."
+      }
+    ],
+    "2": [
+      {
+        "id": "biology_F2_plant_biology_i_q2",
+        "type": "mcq",
+        "prompt": "Water travels up a plant through the:",
+        "choices": [
+          "xylem",
+          "phloem",
+          "stomata",
+          "roots hairs only"
+        ],
+        "answer": 0,
+        "explanation": "Xylem transports water upward."
+      }
+    ],
+    "3": []
+  }
+}

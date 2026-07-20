@@ -1,0 +1,41 @@
+{
+  "id": "biology.I2.human-systems-capstone",
+  "subject": "biology",
+  "tier": "I2",
+  "title": "Human Systems Capstone",
+  "slug": "human-systems-capstone",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Integrated case studies connecting the body's systems.",
+  "outcomes": [
+    "Integrate multiple body systems",
+    "Analyse a physiological case",
+    "Explain system interactions"
+  ],
+  "prereqs": [
+    "biology.I2.population-biology",
+    "biology.I1.human-physiology-ii"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.10-12 Integrated Physiology"
+    ],
+    "ICSE": [
+      "Cl.10-12 Physiology"
+    ],
+    "IB": [
+      "DP Physiology"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "integration",
+    "body systems",
+    "case study",
+    "homeostasis"
+  ]
+}

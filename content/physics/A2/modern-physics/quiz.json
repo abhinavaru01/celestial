@@ -1,0 +1,30 @@
+{
+  "topicId": "physics.A2.modern-physics",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "physics_A2_modern_physics_q1",
+        "type": "mcq",
+        "prompt": "In the photoelectric effect, electrons are ejected only if light's ___ is high enough.",
+        "choices": [
+          "frequency",
+          "brightness",
+          "wavelength",
+          "speed"
+        ],
+        "answer": 0,
+        "explanation": "Photon energy E = hf; frequency must exceed a threshold."
+      },
+      {
+        "id": "physics_A2_modern_physics_q2",
+        "type": "numeric",
+        "prompt": "After 3 half-lives, what fraction of a sample remains? (as a decimal)",
+        "answer": 0.125,
+        "tolerance": 0.001,
+        "explanation": "(1/2)³ = 1/8 = 0.125."
+      }
+    ],
+    "3": []
+  }
+}

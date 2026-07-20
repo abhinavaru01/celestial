@@ -1,0 +1,43 @@
+{
+  "id": "math.F2.linear-relationships-coordinate-plane",
+  "subject": "math",
+  "tier": "F2",
+  "title": "Linear Relationships & the Coordinate Plane",
+  "slug": "linear-relationships-coordinate-plane",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "The coordinate plane, and y = mx + c as the mathematics of a constant rate — the direct bridge from ratio thinking.",
+  "outcomes": [
+    "Plot points and lines on the coordinate plane",
+    "Interpret slope as a rate and intercept as a starting value",
+    "Write the equation of a line from a graph"
+  ],
+  "prereqs": [
+    "math.F2.exponents-scientific-notation",
+    "math.F1.ratio-proportion-percentage"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.8 Introduction to Graphs",
+      "Cl.9 Linear Equations in Two Variables"
+    ],
+    "ICSE": [
+      "Cl.8-9 Coordinate Geometry"
+    ],
+    "IB": [
+      "MYP Algebra"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main"
+  ],
+  "keywords": [
+    "coordinate plane",
+    "slope",
+    "linear",
+    "y = mx + c",
+    "rate"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "math.I1.statistics-ii",
+  "subject": "math",
+  "tier": "I1",
+  "title": "Statistics II",
+  "slug": "statistics-ii",
+  "core": true,
+  "order": 6,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Grouped data, measures of dispersion, and reading real studies critically.",
+  "outcomes": [
+    "Compute mean/median for grouped data",
+    "Measure spread with variance and standard deviation (intro)",
+    "Interpret data from real studies"
+  ],
+  "prereqs": [
+    "math.I1.geometry-circles-proof"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.9-10 Statistics"
+    ],
+    "ICSE": [
+      "Cl.10 Statistics (Measures of Central Tendency)"
+    ],
+    "IB": [
+      "DP Statistics"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "statistics",
+    "grouped data",
+    "variance",
+    "standard deviation",
+    "dispersion"
+  ]
+}

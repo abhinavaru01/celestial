@@ -1,0 +1,38 @@
+{
+  "id": "english.F1.paragraph-architecture",
+  "subject": "english",
+  "tier": "F1",
+  "title": "Paragraph Architecture",
+  "slug": "paragraph-architecture",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Building coherent paragraphs: topic sentence, support and coherence.",
+  "outcomes": [
+    "Write a clear topic sentence",
+    "Support it with details",
+    "Achieve coherence and flow"
+  ],
+  "prereqs": [
+    "english.F1.sentence-craft"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.6-8 Writing"
+    ],
+    "ICSE": [
+      "Cl.6-8 Composition"
+    ],
+    "IB": [
+      "MYP Writing"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "paragraph",
+    "topic sentence",
+    "coherence",
+    "writing"
+  ]
+}

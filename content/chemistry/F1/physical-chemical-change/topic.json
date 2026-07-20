@@ -1,0 +1,40 @@
+{
+  "id": "chemistry.F1.physical-chemical-change",
+  "subject": "chemistry",
+  "tier": "F1",
+  "title": "Physical vs Chemical Change",
+  "slug": "physical-chemical-change",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Telling physical from chemical changes, evidence of reaction, and conservation of mass.",
+  "outcomes": [
+    "Distinguish physical and chemical changes",
+    "Identify signs of a chemical reaction",
+    "Apply conservation of mass"
+  ],
+  "prereqs": [
+    "chemistry.F1.separation-techniques"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.7 Physical & Chemical Changes"
+    ],
+    "ICSE": [
+      "Cl.7 Physical & Chemical Changes"
+    ],
+    "IB": [
+      "MYP Sciences"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "physical change",
+    "chemical change",
+    "conservation of mass",
+    "reaction"
+  ]
+}

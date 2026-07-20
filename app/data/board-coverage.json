@@ -2,12 +2,676 @@
   "coverage": {
     "CBSE": [
       {
+        "objective": "Cl.11 Biomolecules",
+        "topicId": "biology.A1.biochemistry"
+      },
+      {
+        "objective": "Cl.11 Cell Cycle & Division",
+        "topicId": "biology.A1.cell-biology-depth"
+      },
+      {
+        "objective": "Cl.11 Human Physiology",
+        "topicId": "biology.A1.human-physiology-iii"
+      },
+      {
+        "objective": "Cl.12 Molecular Basis of Inheritance",
+        "topicId": "biology.A1.molecular-genetics"
+      },
+      {
+        "objective": "Cl.11 Plant Physiology",
+        "topicId": "biology.A1.plant-physiology-depth"
+      },
+      {
+        "objective": "Cl.12 Biotechnology",
+        "topicId": "biology.A2.biotechnology"
+      },
+      {
+        "objective": "Cl.12 Ecology & Environment",
+        "topicId": "biology.A2.ecology-environment-depth"
+      },
+      {
+        "objective": "Cl.12 Evolution",
+        "topicId": "biology.A2.evolution-depth"
+      },
+      {
+        "objective": "Cl.12 Genetics & Evolution",
+        "topicId": "biology.A2.genetics-ii"
+      },
+      {
+        "objective": "Cl.12 Human Health & Disease",
+        "topicId": "biology.A2.human-health-disease"
+      },
+      {
+        "objective": "Cl.11-12 Practical Biology",
+        "topicId": "biology.A2.investigative-biology"
+      },
+      {
+        "objective": "Cl.6-7 Living World",
+        "topicId": "biology.F1.characteristics-classification"
+      },
+      {
+        "objective": "Cl.9 Diversity in Living Organisms",
+        "topicId": "biology.F1.characteristics-classification"
+      },
+      {
+        "objective": "Cl.10 Our Environment",
+        "topicId": "biology.F1.living-environment-i"
+      },
+      {
+        "objective": "Cl.7 Nutrition",
+        "topicId": "biology.F1.nutrition-digestion"
+      },
+      {
+        "objective": "Cl.10 Life Processes",
+        "topicId": "biology.F1.nutrition-digestion"
+      },
+      {
+        "objective": "Cl.8 Cell",
+        "topicId": "biology.F1.the-cell"
+      },
+      {
+        "objective": "Cl.9 Fundamental Unit of Life",
+        "topicId": "biology.F1.the-cell"
+      },
+      {
+        "objective": "Cl.8-9 Tissues",
+        "topicId": "biology.F2.cells-to-organisms"
+      },
+      {
+        "objective": "Cl.9 Why Do We Fall Ill",
+        "topicId": "biology.F2.health-disease"
+      },
+      {
+        "objective": "Cl.10 Life Processes",
+        "topicId": "biology.F2.human-physiology-i"
+      },
+      {
+        "objective": "Cl.7 Nutrition in Plants",
+        "topicId": "biology.F2.plant-biology-i"
+      },
+      {
+        "objective": "Cl.10 Life Processes",
+        "topicId": "biology.F2.plant-biology-i"
+      },
+      {
+        "objective": "Cl.8 Reproduction",
+        "topicId": "biology.F2.reproduction"
+      },
+      {
+        "objective": "Cl.10 How Organisms Reproduce",
+        "topicId": "biology.F2.reproduction"
+      },
+      {
+        "objective": "Cl.9-11 Transport across Membranes",
+        "topicId": "biology.I1.cell-processes"
+      },
+      {
+        "objective": "Cl.10 Our Environment",
+        "topicId": "biology.I1.ecology-ecosystems"
+      },
+      {
+        "objective": "Cl.11 Biomolecules (Enzymes)",
+        "topicId": "biology.I1.enzymes"
+      },
+      {
+        "objective": "Cl.10 Control & Coordination",
+        "topicId": "biology.I1.human-physiology-ii"
+      },
+      {
+        "objective": "Cl.10 Life Processes",
+        "topicId": "biology.I1.respiration-photosynthesis"
+      },
+      {
+        "objective": "Cl.11 Respiration & Photosynthesis",
+        "topicId": "biology.I1.respiration-photosynthesis"
+      },
+      {
+        "objective": "Cl.12 Molecular Basis of Inheritance",
+        "topicId": "biology.I2.dna-inheritance"
+      },
+      {
+        "objective": "Cl.10 Heredity & Evolution",
+        "topicId": "biology.I2.evolution-natural-selection"
+      },
+      {
+        "objective": "Cl.12 Evolution",
+        "topicId": "biology.I2.evolution-natural-selection"
+      },
+      {
+        "objective": "Cl.10 Heredity & Evolution",
+        "topicId": "biology.I2.genetics-i"
+      },
+      {
+        "objective": "Cl.12 Genetics",
+        "topicId": "biology.I2.genetics-i"
+      },
+      {
+        "objective": "Cl.10-12 Integrated Physiology",
+        "topicId": "biology.I2.human-systems-capstone"
+      },
+      {
+        "objective": "Cl.12 Ecology (Populations)",
+        "topicId": "biology.I2.population-biology"
+      },
+      {
+        "objective": "Cl.11 Equilibrium",
+        "topicId": "chemistry.A1.chemical-equilibrium"
+      },
+      {
+        "objective": "Cl.12 Chemical Kinetics",
+        "topicId": "chemistry.A1.chemical-kinetics"
+      },
+      {
+        "objective": "Cl.11 Thermodynamics",
+        "topicId": "chemistry.A1.chemical-thermodynamics"
+      },
+      {
+        "objective": "Cl.12 Electrochemistry",
+        "topicId": "chemistry.A1.electrochemistry"
+      },
+      {
+        "objective": "Cl.11 Equilibrium (Ionic)",
+        "topicId": "chemistry.A1.ionic-equilibrium"
+      },
+      {
+        "objective": "Cl.11 Classification & Periodicity",
+        "topicId": "chemistry.A1.periodic-properties"
+      },
+      {
+        "objective": "Cl.11-12 Practical Chemistry",
+        "topicId": "chemistry.A2.analytical-chemistry"
+      },
+      {
+        "objective": "Cl.12 Biomolecules",
+        "topicId": "chemistry.A2.biomolecules-polymers"
+      },
+      {
+        "objective": "Cl.12 Polymers",
+        "topicId": "chemistry.A2.biomolecules-polymers"
+      },
+      {
+        "objective": "Cl.12 d- and f-Block",
+        "topicId": "chemistry.A2.coordination-chemistry"
+      },
+      {
+        "objective": "Cl.12 Coordination Compounds",
+        "topicId": "chemistry.A2.coordination-chemistry"
+      },
+      {
+        "objective": "Cl.12 Alcohols, Aldehydes, Acids, Amines",
+        "topicId": "chemistry.A2.functional-groups"
+      },
+      {
+        "objective": "Cl.11-12 Organic Chemistry",
+        "topicId": "chemistry.A2.organic-mechanisms"
+      },
+      {
+        "objective": "Cl.6-7 Matter",
+        "topicId": "chemistry.F1.matter-particles-states"
+      },
+      {
+        "objective": "Cl.9 Matter in Our Surroundings",
+        "topicId": "chemistry.F1.matter-particles-states"
+      },
+      {
+        "objective": "Cl.7 Physical & Chemical Changes",
+        "topicId": "chemistry.F1.physical-chemical-change"
+      },
+      {
+        "objective": "Cl.6 Separation of Substances",
+        "topicId": "chemistry.F1.separation-techniques"
+      },
+      {
+        "objective": "Cl.9 Is Matter Pure",
+        "topicId": "chemistry.F1.separation-techniques"
+      },
+      {
+        "objective": "Cl.9 Structure of the Atom",
+        "topicId": "chemistry.F2.atomic-structure-i"
+      },
+      {
+        "objective": "Cl.9-10 Chemical Reactions & Equations",
+        "topicId": "chemistry.F2.chemical-formulae-equations"
+      },
+      {
+        "objective": "Cl.9-11 Mole Concept",
+        "topicId": "chemistry.F2.mole-concept"
+      },
+      {
+        "objective": "Cl.11 Some Basic Concepts of Chemistry",
+        "topicId": "chemistry.F2.mole-concept"
+      },
+      {
+        "objective": "Cl.10 Periodic Classification",
+        "topicId": "chemistry.F2.periodic-table"
+      },
+      {
+        "objective": "Cl.11 Some Basic Concepts of Chemistry",
+        "topicId": "chemistry.F2.stoichiometry-intro"
+      },
+      {
+        "objective": "Cl.10 Acids, Bases & Salts",
+        "topicId": "chemistry.I1.acids-bases-salts"
+      },
+      {
+        "objective": "Cl.10-11 Chemical Bonding",
+        "topicId": "chemistry.I1.bonding-i"
+      },
+      {
+        "objective": "Cl.12 Chemical Kinetics (intro)",
+        "topicId": "chemistry.I1.rates-reaction"
+      },
+      {
+        "objective": "Cl.10 Chemical Reactions",
+        "topicId": "chemistry.I1.reactions-equations"
+      },
+      {
+        "objective": "Cl.11-12 Solutions",
+        "topicId": "chemistry.I1.solutions-concentration"
+      },
+      {
+        "objective": "Cl.11 Structure of Atom",
+        "topicId": "chemistry.I2.atomic-structure-ii"
+      },
+      {
+        "objective": "Cl.11 Chemical Bonding & Molecular Structure",
+        "topicId": "chemistry.I2.bonding-ii"
+      },
+      {
+        "objective": "Cl.11 Thermodynamics",
+        "topicId": "chemistry.I2.energetics"
+      },
+      {
+        "objective": "Cl.11 Equilibrium",
+        "topicId": "chemistry.I2.equilibrium-intro"
+      },
+      {
+        "objective": "Cl.11 States of Matter",
+        "topicId": "chemistry.I2.gas-laws-kinetic-theory"
+      },
+      {
+        "objective": "Cl.10-11 Carbon Compounds",
+        "topicId": "chemistry.I2.organic-intro"
+      },
+      {
+        "objective": "Cl.11 Organic Chemistry Basics",
+        "topicId": "chemistry.I2.organic-intro"
+      },
+      {
+        "objective": "Cl.12 CS: Problem Solving",
+        "topicId": "cs.A1.algorithmic-problem-solving"
+      },
+      {
+        "objective": "Cl.12 CS: Sorting",
+        "topicId": "cs.A1.algorithms-ii"
+      },
+      {
+        "objective": "Cl.12 CS: OOP concepts",
+        "topicId": "cs.A1.oop"
+      },
+      {
+        "objective": "Cl.12 CS: Recursion",
+        "topicId": "cs.A1.recursion"
+      },
+      {
+        "objective": "Cl.12 CS: Testing",
+        "topicId": "cs.A1.testing"
+      },
+      {
+        "objective": "Cl.12 CS: Trees",
+        "topicId": "cs.A1.trees-graphs"
+      },
+      {
+        "objective": "Cl.12 CS: Practical Project",
+        "topicId": "cs.A2.capstone-project"
+      },
+      {
+        "objective": "Cl.12 CS: Databases & SQL",
+        "topicId": "cs.A2.databases-intro"
+      },
+      {
+        "objective": "Cl.12 CS: Software Development",
+        "topicId": "cs.A2.software-design"
+      },
+      {
+        "objective": "Cl.12 CS: Networking basics",
+        "topicId": "cs.A2.web-data-basics"
+      },
+      {
+        "objective": "Cl.12 CS: Collaboration",
+        "topicId": "cs.A2.working-with-codebase"
+      },
+      {
+        "objective": "Cl.11 CS: Conditional Statements",
+        "topicId": "cs.F1.booleans-conditionals"
+      },
+      {
+        "objective": "Cl.6-8 Computational Thinking",
+        "topicId": "cs.F1.computational-thinking"
+      },
+      {
+        "objective": "Cl.11 CS Problem Solving",
+        "topicId": "cs.F1.computational-thinking"
+      },
+      {
+        "objective": "Cl.11 CS: Getting Started with Python",
+        "topicId": "cs.F1.first-programs"
+      },
+      {
+        "objective": "Cl.11 CS: Input/Output",
+        "topicId": "cs.F1.input-output"
+      },
+      {
         "objective": "Cl.6-8 CS/IT foundations",
         "topicId": "cs.F1.python-variables-types-expressions"
       },
       {
         "objective": "Cl.11 CS: Python data types & operators",
         "topicId": "cs.F1.python-variables-types-expressions"
+      },
+      {
+        "objective": "Cl.11-12 CS: Tools",
+        "topicId": "cs.F1.version-control-i"
+      },
+      {
+        "objective": "Cl.11 CS: Dictionaries",
+        "topicId": "cs.F2.dictionaries-sets"
+      },
+      {
+        "objective": "Cl.11-12 CS: Functions",
+        "topicId": "cs.F2.functions"
+      },
+      {
+        "objective": "Cl.11 CS: Lists",
+        "topicId": "cs.F2.lists-iteration"
+      },
+      {
+        "objective": "Cl.11 CS: Iteration",
+        "topicId": "cs.F2.loops"
+      },
+      {
+        "objective": "Cl.11 CS: Project",
+        "topicId": "cs.F2.project-1"
+      },
+      {
+        "objective": "Cl.11 CS: Strings",
+        "topicId": "cs.F2.strings-depth"
+      },
+      {
+        "objective": "Cl.11-12 CS: Collaboration",
+        "topicId": "cs.F2.version-control-ii"
+      },
+      {
+        "objective": "Cl.11-12 CS: Searching & Sorting",
+        "topicId": "cs.I1.algorithms-i"
+      },
+      {
+        "objective": "Cl.12 CS: Efficiency",
+        "topicId": "cs.I1.complexity-intuition"
+      },
+      {
+        "objective": "Cl.12 CS: Stacks & Queues",
+        "topicId": "cs.I1.data-structures-basic"
+      },
+      {
+        "objective": "Cl.12 CS: Exception Handling",
+        "topicId": "cs.I1.error-handling-debugging"
+      },
+      {
+        "objective": "Cl.12 CS: File Handling",
+        "topicId": "cs.I1.file-io-data-formats"
+      },
+      {
+        "objective": "Cl.12 CS: Modules",
+        "topicId": "cs.I1.modules-organization"
+      },
+      {
+        "objective": "Cl.12 CS: Project",
+        "topicId": "cs.I1.project-2"
+      },
+      {
+        "objective": "Cl.11-12 CS",
+        "topicId": "cs.I2.control-arrays-c"
+      },
+      {
+        "objective": "Cl.12 CS: Computer Organisation",
+        "topicId": "cs.I2.how-code-runs"
+      },
+      {
+        "objective": "Cl.11-12 CS (C basics)",
+        "topicId": "cs.I2.intro-c"
+      },
+      {
+        "objective": "Cl.11-12 CS (Pointers)",
+        "topicId": "cs.I2.pointers-memory"
+      },
+      {
+        "objective": "Cl.12 CS (Memory)",
+        "topicId": "cs.I2.strings-memory-c"
+      },
+      {
+        "objective": "Cl.12 CS (Structures)",
+        "topicId": "cs.I2.structs-data-structures-c"
+      },
+      {
+        "objective": "Cl.11-12 Literature",
+        "topicId": "english.A1.literary-criticism"
+      },
+      {
+        "objective": "Cl.11-12 Writing",
+        "topicId": "english.A1.persuasion-real-world"
+      },
+      {
+        "objective": "Cl.11-12 Research Writing",
+        "topicId": "english.A1.research-paper"
+      },
+      {
+        "objective": "Cl.11-12 Advanced Writing",
+        "topicId": "english.A1.rhetoric-style"
+      },
+      {
+        "objective": "Cl.12 Literature",
+        "topicId": "english.A2.advanced-literary-analysis"
+      },
+      {
+        "objective": "Cl.12 Portfolio",
+        "topicId": "english.A2.communication-portfolio"
+      },
+      {
+        "objective": "Cl.12 Reading",
+        "topicId": "english.A2.critical-reasoning-comprehension"
+      },
+      {
+        "objective": "Cl.12 Research Project",
+        "topicId": "english.A2.extended-essay"
+      },
+      {
+        "objective": "Cl.6-8 Creative Writing",
+        "topicId": "english.F1.narrative-descriptive-writing"
+      },
+      {
+        "objective": "Cl.6-8 Writing",
+        "topicId": "english.F1.paragraph-architecture"
+      },
+      {
+        "objective": "Cl.6-8 Reading Comprehension",
+        "topicId": "english.F1.reading-for-meaning"
+      },
+      {
+        "objective": "Cl.6-8 Grammar",
+        "topicId": "english.F1.sentence-craft"
+      },
+      {
+        "objective": "Cl.6-8 Vocabulary",
+        "topicId": "english.F1.vocabulary-roots"
+      },
+      {
+        "objective": "Cl.8-9 Literature",
+        "topicId": "english.F2.close-reading"
+      },
+      {
+        "objective": "Cl.8-10 Grammar",
+        "topicId": "english.F2.grammar-for-style"
+      },
+      {
+        "objective": "Cl.8-9 Writing",
+        "topicId": "english.F2.structured-exposition"
+      },
+      {
+        "objective": "Cl.8-9 Comprehension & Note-making",
+        "topicId": "english.F2.summarising-paraphrasing"
+      },
+      {
+        "objective": "Cl.9-10 Vocabulary",
+        "topicId": "english.F2.vocabulary-ii"
+      },
+      {
+        "objective": "Cl.9-10 Media Literacy",
+        "topicId": "english.I1.analysing-nonfiction-media"
+      },
+      {
+        "objective": "Cl.9-10 Reading & Reasoning",
+        "topicId": "english.I1.argument-i"
+      },
+      {
+        "objective": "Cl.9-10 Literature",
+        "topicId": "english.I1.literature-i"
+      },
+      {
+        "objective": "Cl.9-10 Writing",
+        "topicId": "english.I1.persuasive-essay"
+      },
+      {
+        "objective": "Cl.9-10 Project Work",
+        "topicId": "english.I1.research-citation"
+      },
+      {
+        "objective": "Cl.11-12 Argumentative Writing",
+        "topicId": "english.I2.argument-ii"
+      },
+      {
+        "objective": "Cl.11-12 Literature",
+        "topicId": "english.I2.comparative-analysis"
+      },
+      {
+        "objective": "Cl.11-12 Report Writing",
+        "topicId": "english.I2.formal-technical-writing"
+      },
+      {
+        "objective": "Cl.11-12 Literature",
+        "topicId": "english.I2.literature-ii"
+      },
+      {
+        "objective": "Cl.11-12 Speaking & Listening",
+        "topicId": "english.I2.public-speaking"
+      },
+      {
+        "objective": "Cl.12 Continuity & Differentiability",
+        "topicId": "math.A1.calculus-limits-differentiation"
+      },
+      {
+        "objective": "Cl.12 Application of Derivatives",
+        "topicId": "math.A1.calculus-limits-differentiation"
+      },
+      {
+        "objective": "Cl.11 Complex Numbers",
+        "topicId": "math.A1.complex-numbers"
+      },
+      {
+        "objective": "Cl.12 Integrals",
+        "topicId": "math.A1.integration-techniques"
+      },
+      {
+        "objective": "Cl.12 Application of Integrals",
+        "topicId": "math.A1.integration-techniques"
+      },
+      {
+        "objective": "Cl.12 Matrices",
+        "topicId": "math.A1.matrices-determinants"
+      },
+      {
+        "objective": "Cl.12 Determinants",
+        "topicId": "math.A1.matrices-determinants"
+      },
+      {
+        "objective": "Cl.11 Binomial Theorem",
+        "topicId": "math.A1.permutations-combinations-binomial"
+      },
+      {
+        "objective": "Cl.12 Vector Algebra",
+        "topicId": "math.A1.vectors-3d-geometry"
+      },
+      {
+        "objective": "Cl.12 Three-Dimensional Geometry",
+        "topicId": "math.A1.vectors-3d-geometry"
+      },
+      {
+        "objective": "Integrated (all Cl.11-12 topics)",
+        "topicId": "math.A2.advanced-problem-solving"
+      },
+      {
+        "objective": "Cl.11 Conic Sections",
+        "topicId": "math.A2.conics"
+      },
+      {
+        "objective": "Cl.12 Differential Equations",
+        "topicId": "math.A2.differential-equations"
+      },
+      {
+        "objective": "Integrated application",
+        "topicId": "math.A2.modeling-capstone"
+      },
+      {
+        "objective": "Cl.12 Probability (Distributions)",
+        "topicId": "math.A2.probability-distributions"
+      },
+      {
+        "objective": "Cl.6 Algebra",
+        "topicId": "math.F1.algebra-generalized-arithmetic"
+      },
+      {
+        "objective": "Cl.7 Algebraic Expressions",
+        "topicId": "math.F1.algebra-generalized-arithmetic"
+      },
+      {
+        "objective": "Cl.6-7 Data Handling",
+        "topicId": "math.F1.data-graphs-i"
+      },
+      {
+        "objective": "Cl.6 Fractions",
+        "topicId": "math.F1.fractions-decimals"
+      },
+      {
+        "objective": "Cl.7 Fractions & Decimals",
+        "topicId": "math.F1.fractions-decimals"
+      },
+      {
+        "objective": "Cl.6-7 Lines & Angles",
+        "topicId": "math.F1.geometry-angles-triangles"
+      },
+      {
+        "objective": "Cl.7 Triangles",
+        "topicId": "math.F1.geometry-angles-triangles"
+      },
+      {
+        "objective": "Cl.9 Congruence",
+        "topicId": "math.F1.geometry-angles-triangles"
+      },
+      {
+        "objective": "Cl.7 Simple Equations",
+        "topicId": "math.F1.linear-equations-one-variable"
+      },
+      {
+        "objective": "Cl.8 Linear Equations in One Variable",
+        "topicId": "math.F1.linear-equations-one-variable"
+      },
+      {
+        "objective": "Cl.6 Knowing Our Numbers",
+        "topicId": "math.F1.number-sense-estimation"
+      },
+      {
+        "objective": "Cl.6 Integers",
+        "topicId": "math.F1.number-sense-estimation"
       },
       {
         "objective": "Cl.6 Ratio & Proportion",
@@ -22,29 +686,1357 @@
         "topicId": "math.F1.ratio-proportion-percentage"
       },
       {
+        "objective": "Cl.7 Exponents & Powers",
+        "topicId": "math.F2.exponents-scientific-notation"
+      },
+      {
+        "objective": "Cl.8 Exponents & Powers",
+        "topicId": "math.F2.exponents-scientific-notation"
+      },
+      {
+        "objective": "Cl.9-10 Triangles (Similarity)",
+        "topicId": "math.F2.geometry-similarity-pythagoras"
+      },
+      {
+        "objective": "Cl.9 Pythagoras",
+        "topicId": "math.F2.geometry-similarity-pythagoras"
+      },
+      {
+        "objective": "Cl.8-9 Mensuration",
+        "topicId": "math.F2.geometry-similarity-pythagoras"
+      },
+      {
+        "objective": "Cl.8 Introduction to Graphs",
+        "topicId": "math.F2.linear-relationships-coordinate-plane"
+      },
+      {
+        "objective": "Cl.9 Linear Equations in Two Variables",
+        "topicId": "math.F2.linear-relationships-coordinate-plane"
+      },
+      {
+        "objective": "Cl.6 Playing with Numbers",
+        "topicId": "math.F2.number-theory-basics"
+      },
+      {
+        "objective": "Cl.10 Real Numbers",
+        "topicId": "math.F2.number-theory-basics"
+      },
+      {
+        "objective": "Cl.8-9 Polynomials",
+        "topicId": "math.F2.polynomials-factoring"
+      },
+      {
+        "objective": "Cl.8 Factorisation",
+        "topicId": "math.F2.polynomials-factoring"
+      },
+      {
+        "objective": "Cl.8-9 Data Handling & Probability",
+        "topicId": "math.F2.probability-statistics-i"
+      },
+      {
+        "objective": "Cl.9-10 Pair of Linear Equations",
+        "topicId": "math.F2.systems-linear-equations"
+      },
+      {
+        "objective": "Cl.10 Coordinate Geometry",
+        "topicId": "math.I1.coordinate-geometry"
+      },
+      {
+        "objective": "Cl.9-10 Circles",
+        "topicId": "math.I1.geometry-circles-proof"
+      },
+      {
+        "objective": "Cl.10 Quadratic Equations",
+        "topicId": "math.I1.quadratics"
+      },
+      {
+        "objective": "Cl.10 Arithmetic Progressions",
+        "topicId": "math.I1.sequences-series"
+      },
+      {
+        "objective": "Cl.9-10 Statistics",
+        "topicId": "math.I1.statistics-ii"
+      },
+      {
+        "objective": "Cl.10 Introduction to Trigonometry",
+        "topicId": "math.I1.trigonometry-i"
+      },
+      {
+        "objective": "Cl.11 Permutations & Combinations",
+        "topicId": "math.I2.combinatorics-probability-ii"
+      },
+      {
+        "objective": "Cl.12 Probability",
+        "topicId": "math.I2.combinatorics-probability-ii"
+      },
+      {
+        "objective": "Cl.11 Limits & Derivatives",
+        "topicId": "math.I2.derivatives-intuition"
+      },
+      {
+        "objective": "Cl.11 Logarithms (foundations)",
+        "topicId": "math.I2.exponentials-logarithms"
+      },
+      {
+        "objective": "Cl.11 Relations & Functions",
+        "topicId": "math.I2.functions"
+      },
+      {
+        "objective": "Cl.12 Integrals",
+        "topicId": "math.I2.integrals-intuition"
+      },
+      {
+        "objective": "Cl.11 Trigonometric Functions",
+        "topicId": "math.I2.trigonometry-ii"
+      },
+      {
+        "objective": "Cl.12 Electric Charges & Fields",
+        "topicId": "physics.A1.electrostatics"
+      },
+      {
+        "objective": "Cl.12 Electrostatic Potential",
+        "topicId": "physics.A1.electrostatics"
+      },
+      {
+        "objective": "Cl.11 Mechanical Properties of Fluids",
+        "topicId": "physics.A1.fluids-advanced"
+      },
+      {
+        "objective": "Cl.11 Gravitation",
+        "topicId": "physics.A1.gravitation-field"
+      },
+      {
+        "objective": "Cl.11 Systems of Particles & Rotational Motion",
+        "topicId": "physics.A1.mechanics-rigor"
+      },
+      {
+        "objective": "Cl.11 Thermodynamics",
+        "topicId": "physics.A1.thermodynamics"
+      },
+      {
+        "objective": "Cl.12 Current Electricity",
+        "topicId": "physics.A2.current-electricity-advanced"
+      },
+      {
+        "objective": "Cl.12 Electromagnetic Induction",
+        "topicId": "physics.A2.electromagnetic-induction"
+      },
+      {
+        "objective": "Cl.12 Alternating Current",
+        "topicId": "physics.A2.electromagnetic-induction"
+      },
+      {
+        "objective": "Cl.11-12 Practical Physics",
+        "topicId": "physics.A2.experimental-physics"
+      },
+      {
+        "objective": "Cl.12 Dual Nature",
+        "topicId": "physics.A2.modern-physics"
+      },
+      {
+        "objective": "Cl.12 Atoms & Nuclei",
+        "topicId": "physics.A2.modern-physics"
+      },
+      {
+        "objective": "Cl.12 Semiconductors",
+        "topicId": "physics.A2.modern-physics"
+      },
+      {
+        "objective": "Cl.12 Wave Optics",
+        "topicId": "physics.A2.optics-advanced"
+      },
+      {
+        "objective": "Cl.9 Work & Energy",
+        "topicId": "physics.F1.energy-i"
+      },
+      {
+        "objective": "Cl.11 Work, Energy & Power",
+        "topicId": "physics.F1.energy-i"
+      },
+      {
+        "objective": "Cl.9 Force & Laws of Motion",
+        "topicId": "physics.F1.force-newtons-laws"
+      },
+      {
+        "objective": "Cl.11 Laws of Motion",
+        "topicId": "physics.F1.force-newtons-laws"
+      },
+      {
+        "objective": "Cl.11 Units & Measurement",
+        "topicId": "physics.F1.measurement-units-estimation"
+      },
+      {
         "objective": "Cl.7 Motion & Time",
         "topicId": "physics.F1.motion"
       },
       {
         "objective": "Cl.9 Motion (kinematics)",
         "topicId": "physics.F1.motion"
+      },
+      {
+        "objective": "Cl.10 Electricity",
+        "topicId": "physics.F2.electricity-i"
+      },
+      {
+        "objective": "Cl.7 Heat",
+        "topicId": "physics.F2.heat-temperature"
+      },
+      {
+        "objective": "Cl.11 Thermal Properties",
+        "topicId": "physics.F2.heat-temperature"
+      },
+      {
+        "objective": "Cl.7-8 Light",
+        "topicId": "physics.F2.light-i"
+      },
+      {
+        "objective": "Cl.10 Light: Reflection & Refraction",
+        "topicId": "physics.F2.light-i"
+      },
+      {
+        "objective": "Cl.10 Magnetic Effects of Current",
+        "topicId": "physics.F2.magnetism-i"
+      },
+      {
+        "objective": "Cl.8-9 Force & Pressure",
+        "topicId": "physics.F2.pressure-density"
+      },
+      {
+        "objective": "Cl.9 Gravitation (Buoyancy)",
+        "topicId": "physics.F2.pressure-density"
+      },
+      {
+        "objective": "Cl.8-9 Sound",
+        "topicId": "physics.F2.sound-waves-i"
+      },
+      {
+        "objective": "Cl.11 Gravitation",
+        "topicId": "physics.I1.circular-motion-gravitation"
+      },
+      {
+        "objective": "Cl.11 Motion in a Plane",
+        "topicId": "physics.I1.circular-motion-gravitation"
+      },
+      {
+        "objective": "Cl.11 Work, Energy & Power",
+        "topicId": "physics.I1.energy-ii"
+      },
+      {
+        "objective": "Cl.11 Motion in a Plane",
+        "topicId": "physics.I1.kinematics-2d"
+      },
+      {
+        "objective": "Cl.11 Laws of Motion (Momentum)",
+        "topicId": "physics.I1.momentum-collisions"
+      },
+      {
+        "objective": "Cl.11 Laws of Motion (Friction)",
+        "topicId": "physics.I1.newtons-laws-deepened"
+      },
+      {
+        "objective": "Cl.12 Current Electricity",
+        "topicId": "physics.I2.electricity-ii"
+      },
+      {
+        "objective": "Cl.11 Motion (calculus)",
+        "topicId": "physics.I2.kinematics-calculus"
+      },
+      {
+        "objective": "Cl.11 Oscillations",
+        "topicId": "physics.I2.oscillations-shm"
+      },
+      {
+        "objective": "Cl.11 Kinetic Theory",
+        "topicId": "physics.I2.thermal-physics"
+      },
+      {
+        "objective": "Cl.11 Thermodynamics",
+        "topicId": "physics.I2.thermal-physics"
+      },
+      {
+        "objective": "Cl.11 Waves",
+        "topicId": "physics.I2.waves-ii"
       }
     ],
     "ICSE": [
       {
+        "objective": "Cl.11-12 Biochemistry",
+        "topicId": "biology.A1.biochemistry"
+      },
+      {
+        "objective": "Cl.11 Cell Division",
+        "topicId": "biology.A1.cell-biology-depth"
+      },
+      {
+        "objective": "Cl.11-12 Physiology",
+        "topicId": "biology.A1.human-physiology-iii"
+      },
+      {
+        "objective": "Cl.12 Molecular Genetics",
+        "topicId": "biology.A1.molecular-genetics"
+      },
+      {
+        "objective": "Cl.11-12 Plant Physiology",
+        "topicId": "biology.A1.plant-physiology-depth"
+      },
+      {
+        "objective": "Cl.12 Biotechnology",
+        "topicId": "biology.A2.biotechnology"
+      },
+      {
+        "objective": "Cl.12 Environmental Biology",
+        "topicId": "biology.A2.ecology-environment-depth"
+      },
+      {
+        "objective": "Cl.12 Evolution",
+        "topicId": "biology.A2.evolution-depth"
+      },
+      {
+        "objective": "Cl.12 Genetics",
+        "topicId": "biology.A2.genetics-ii"
+      },
+      {
+        "objective": "Cl.12 Health",
+        "topicId": "biology.A2.human-health-disease"
+      },
+      {
+        "objective": "Cl.11-12 Practical",
+        "topicId": "biology.A2.investigative-biology"
+      },
+      {
+        "objective": "Cl.6-8 Classification",
+        "topicId": "biology.F1.characteristics-classification"
+      },
+      {
+        "objective": "Cl.7-8 Ecosystems",
+        "topicId": "biology.F1.living-environment-i"
+      },
+      {
+        "objective": "Cl.7-9 Nutrition & Digestion",
+        "topicId": "biology.F1.nutrition-digestion"
+      },
+      {
+        "objective": "Cl.8-9 Cell",
+        "topicId": "biology.F1.the-cell"
+      },
+      {
+        "objective": "Cl.8-9 Organisation",
+        "topicId": "biology.F2.cells-to-organisms"
+      },
+      {
+        "objective": "Cl.8-10 Health & Disease",
+        "topicId": "biology.F2.health-disease"
+      },
+      {
+        "objective": "Cl.9-10 Physiology",
+        "topicId": "biology.F2.human-physiology-i"
+      },
+      {
+        "objective": "Cl.7-9 Plant Physiology",
+        "topicId": "biology.F2.plant-biology-i"
+      },
+      {
+        "objective": "Cl.8-10 Reproduction",
+        "topicId": "biology.F2.reproduction"
+      },
+      {
+        "objective": "Cl.9-10 Cell Transport",
+        "topicId": "biology.I1.cell-processes"
+      },
+      {
+        "objective": "Cl.9-10 Ecology",
+        "topicId": "biology.I1.ecology-ecosystems"
+      },
+      {
+        "objective": "Cl.10-11 Enzymes",
+        "topicId": "biology.I1.enzymes"
+      },
+      {
+        "objective": "Cl.10-11 Coordination",
+        "topicId": "biology.I1.human-physiology-ii"
+      },
+      {
+        "objective": "Cl.10-11 Biochemistry",
+        "topicId": "biology.I1.respiration-photosynthesis"
+      },
+      {
+        "objective": "Cl.12 DNA",
+        "topicId": "biology.I2.dna-inheritance"
+      },
+      {
+        "objective": "Cl.10-12 Evolution",
+        "topicId": "biology.I2.evolution-natural-selection"
+      },
+      {
+        "objective": "Cl.10-12 Genetics",
+        "topicId": "biology.I2.genetics-i"
+      },
+      {
+        "objective": "Cl.10-12 Physiology",
+        "topicId": "biology.I2.human-systems-capstone"
+      },
+      {
+        "objective": "Cl.11-12 Population Ecology",
+        "topicId": "biology.I2.population-biology"
+      },
+      {
+        "objective": "Cl.12 Equilibrium",
+        "topicId": "chemistry.A1.chemical-equilibrium"
+      },
+      {
+        "objective": "Cl.12 Kinetics",
+        "topicId": "chemistry.A1.chemical-kinetics"
+      },
+      {
+        "objective": "Cl.12 Thermodynamics",
+        "topicId": "chemistry.A1.chemical-thermodynamics"
+      },
+      {
+        "objective": "Cl.12 Electrochemistry",
+        "topicId": "chemistry.A1.electrochemistry"
+      },
+      {
+        "objective": "Cl.12 Ionic Equilibrium",
+        "topicId": "chemistry.A1.ionic-equilibrium"
+      },
+      {
+        "objective": "Cl.11 Periodic Properties",
+        "topicId": "chemistry.A1.periodic-properties"
+      },
+      {
+        "objective": "Cl.11-12 Practical",
+        "topicId": "chemistry.A2.analytical-chemistry"
+      },
+      {
+        "objective": "Cl.12 Biomolecules",
+        "topicId": "chemistry.A2.biomolecules-polymers"
+      },
+      {
+        "objective": "Cl.12 Transition Elements",
+        "topicId": "chemistry.A2.coordination-chemistry"
+      },
+      {
+        "objective": "Cl.12 Organic Compounds",
+        "topicId": "chemistry.A2.functional-groups"
+      },
+      {
+        "objective": "Cl.12 Organic Mechanisms",
+        "topicId": "chemistry.A2.organic-mechanisms"
+      },
+      {
+        "objective": "Cl.6-7 Matter",
+        "topicId": "chemistry.F1.matter-particles-states"
+      },
+      {
+        "objective": "Cl.7 Physical & Chemical Changes",
+        "topicId": "chemistry.F1.physical-chemical-change"
+      },
+      {
+        "objective": "Cl.6-8 Separation",
+        "topicId": "chemistry.F1.separation-techniques"
+      },
+      {
+        "objective": "Cl.8-9 Atomic Structure",
+        "topicId": "chemistry.F2.atomic-structure-i"
+      },
+      {
+        "objective": "Cl.8-9 Chemical Equations",
+        "topicId": "chemistry.F2.chemical-formulae-equations"
+      },
+      {
+        "objective": "Cl.10 Mole Concept",
+        "topicId": "chemistry.F2.mole-concept"
+      },
+      {
+        "objective": "Cl.8-10 Periodic Table",
+        "topicId": "chemistry.F2.periodic-table"
+      },
+      {
+        "objective": "Cl.10 Mole & Stoichiometry",
+        "topicId": "chemistry.F2.stoichiometry-intro"
+      },
+      {
+        "objective": "Cl.9-10 Acids, Bases, Salts",
+        "topicId": "chemistry.I1.acids-bases-salts"
+      },
+      {
+        "objective": "Cl.9-10 Chemical Bonding",
+        "topicId": "chemistry.I1.bonding-i"
+      },
+      {
+        "objective": "Cl.10-11 Rate of Reaction",
+        "topicId": "chemistry.I1.rates-reaction"
+      },
+      {
+        "objective": "Cl.10 Reactions",
+        "topicId": "chemistry.I1.reactions-equations"
+      },
+      {
+        "objective": "Cl.10-11 Solutions",
+        "topicId": "chemistry.I1.solutions-concentration"
+      },
+      {
+        "objective": "Cl.11 Atomic Structure",
+        "topicId": "chemistry.I2.atomic-structure-ii"
+      },
+      {
+        "objective": "Cl.11 Bonding",
+        "topicId": "chemistry.I2.bonding-ii"
+      },
+      {
+        "objective": "Cl.11-12 Thermochemistry",
+        "topicId": "chemistry.I2.energetics"
+      },
+      {
+        "objective": "Cl.11-12 Equilibrium",
+        "topicId": "chemistry.I2.equilibrium-intro"
+      },
+      {
+        "objective": "Cl.11 Gas Laws",
+        "topicId": "chemistry.I2.gas-laws-kinetic-theory"
+      },
+      {
+        "objective": "Cl.10 Organic Chemistry",
+        "topicId": "chemistry.I2.organic-intro"
+      },
+      {
+        "objective": "Cl.12 Algorithms",
+        "topicId": "cs.A1.algorithmic-problem-solving"
+      },
+      {
+        "objective": "Cl.12 Algorithms",
+        "topicId": "cs.A1.algorithms-ii"
+      },
+      {
+        "objective": "Cl.11-12 OOP",
+        "topicId": "cs.A1.oop"
+      },
+      {
+        "objective": "Cl.12 Recursion",
+        "topicId": "cs.A1.recursion"
+      },
+      {
+        "objective": "Cl.12 Testing",
+        "topicId": "cs.A1.testing"
+      },
+      {
+        "objective": "Cl.12 Data Structures",
+        "topicId": "cs.A1.trees-graphs"
+      },
+      {
+        "objective": "Cl.12 Project",
+        "topicId": "cs.A2.capstone-project"
+      },
+      {
+        "objective": "Cl.12 Databases",
+        "topicId": "cs.A2.databases-intro"
+      },
+      {
+        "objective": "Cl.12 SDLC",
+        "topicId": "cs.A2.software-design"
+      },
+      {
+        "objective": "Cl.12 Web",
+        "topicId": "cs.A2.web-data-basics"
+      },
+      {
+        "objective": "Cl.12 Teamwork",
+        "topicId": "cs.A2.working-with-codebase"
+      },
+      {
+        "objective": "Cl.9-10 Selection",
+        "topicId": "cs.F1.booleans-conditionals"
+      },
+      {
+        "objective": "Cl.9 Algorithms",
+        "topicId": "cs.F1.computational-thinking"
+      },
+      {
+        "objective": "Cl.9 Programming Basics",
+        "topicId": "cs.F1.first-programs"
+      },
+      {
+        "objective": "Cl.9-10 Input/Output",
+        "topicId": "cs.F1.input-output"
+      },
+      {
         "objective": "Cl.9-10 Computer Applications: variables & data types",
         "topicId": "cs.F1.python-variables-types-expressions"
+      },
+      {
+        "objective": "Cl.10 IT Tools",
+        "topicId": "cs.F1.version-control-i"
+      },
+      {
+        "objective": "Cl.10-11 Data Structures",
+        "topicId": "cs.F2.dictionaries-sets"
+      },
+      {
+        "objective": "Cl.10 Functions/Methods",
+        "topicId": "cs.F2.functions"
+      },
+      {
+        "objective": "Cl.10 Arrays/Lists",
+        "topicId": "cs.F2.lists-iteration"
+      },
+      {
+        "objective": "Cl.9-10 Iteration",
+        "topicId": "cs.F2.loops"
+      },
+      {
+        "objective": "Cl.10 Project",
+        "topicId": "cs.F2.project-1"
+      },
+      {
+        "objective": "Cl.10 String Handling",
+        "topicId": "cs.F2.strings-depth"
+      },
+      {
+        "objective": "Cl.10 IT Tools",
+        "topicId": "cs.F2.version-control-ii"
+      },
+      {
+        "objective": "Cl.11-12 Algorithms",
+        "topicId": "cs.I1.algorithms-i"
+      },
+      {
+        "objective": "Cl.12 Complexity",
+        "topicId": "cs.I1.complexity-intuition"
+      },
+      {
+        "objective": "Cl.11-12 Data Structures",
+        "topicId": "cs.I1.data-structures-basic"
+      },
+      {
+        "objective": "Cl.11-12 Debugging",
+        "topicId": "cs.I1.error-handling-debugging"
+      },
+      {
+        "objective": "Cl.11-12 Files",
+        "topicId": "cs.I1.file-io-data-formats"
+      },
+      {
+        "objective": "Cl.11-12 Modular Programming",
+        "topicId": "cs.I1.modules-organization"
+      },
+      {
+        "objective": "Cl.12 Project",
+        "topicId": "cs.I1.project-2"
+      },
+      {
+        "objective": "Cl.11-12 C Programming",
+        "topicId": "cs.I2.control-arrays-c"
+      },
+      {
+        "objective": "Cl.12 Systems",
+        "topicId": "cs.I2.how-code-runs"
+      },
+      {
+        "objective": "Cl.11 C Programming",
+        "topicId": "cs.I2.intro-c"
+      },
+      {
+        "objective": "Cl.12 Pointers",
+        "topicId": "cs.I2.pointers-memory"
+      },
+      {
+        "objective": "Cl.12 Dynamic Memory",
+        "topicId": "cs.I2.strings-memory-c"
+      },
+      {
+        "objective": "Cl.12 Structures",
+        "topicId": "cs.I2.structs-data-structures-c"
+      },
+      {
+        "objective": "Cl.11-12 Criticism",
+        "topicId": "english.A1.literary-criticism"
+      },
+      {
+        "objective": "Cl.11-12 Composition",
+        "topicId": "english.A1.persuasion-real-world"
+      },
+      {
+        "objective": "Cl.11-12 Project",
+        "topicId": "english.A1.research-paper"
+      },
+      {
+        "objective": "Cl.11-12 Style",
+        "topicId": "english.A1.rhetoric-style"
+      },
+      {
+        "objective": "Cl.12 Literature",
+        "topicId": "english.A2.advanced-literary-analysis"
+      },
+      {
+        "objective": "Cl.12 Portfolio",
+        "topicId": "english.A2.communication-portfolio"
+      },
+      {
+        "objective": "Cl.12 Comprehension",
+        "topicId": "english.A2.critical-reasoning-comprehension"
+      },
+      {
+        "objective": "Cl.12 Project",
+        "topicId": "english.A2.extended-essay"
+      },
+      {
+        "objective": "Cl.6-8 Composition",
+        "topicId": "english.F1.narrative-descriptive-writing"
+      },
+      {
+        "objective": "Cl.6-8 Composition",
+        "topicId": "english.F1.paragraph-architecture"
+      },
+      {
+        "objective": "Cl.6-8 Comprehension",
+        "topicId": "english.F1.reading-for-meaning"
+      },
+      {
+        "objective": "Cl.6-8 Grammar",
+        "topicId": "english.F1.sentence-craft"
+      },
+      {
+        "objective": "Cl.6-8 Word Power",
+        "topicId": "english.F1.vocabulary-roots"
+      },
+      {
+        "objective": "Cl.8-9 Literature",
+        "topicId": "english.F2.close-reading"
+      },
+      {
+        "objective": "Cl.8-10 Grammar",
+        "topicId": "english.F2.grammar-for-style"
+      },
+      {
+        "objective": "Cl.8-9 Composition",
+        "topicId": "english.F2.structured-exposition"
+      },
+      {
+        "objective": "Cl.8-9 Précis",
+        "topicId": "english.F2.summarising-paraphrasing"
+      },
+      {
+        "objective": "Cl.9-10 Word Power",
+        "topicId": "english.F2.vocabulary-ii"
+      },
+      {
+        "objective": "Cl.9-10 Comprehension",
+        "topicId": "english.I1.analysing-nonfiction-media"
+      },
+      {
+        "objective": "Cl.9-10 Comprehension",
+        "topicId": "english.I1.argument-i"
+      },
+      {
+        "objective": "Cl.9-10 Literature",
+        "topicId": "english.I1.literature-i"
+      },
+      {
+        "objective": "Cl.9-10 Composition",
+        "topicId": "english.I1.persuasive-essay"
+      },
+      {
+        "objective": "Cl.9-10 Research",
+        "topicId": "english.I1.research-citation"
+      },
+      {
+        "objective": "Cl.11-12 Argument",
+        "topicId": "english.I2.argument-ii"
+      },
+      {
+        "objective": "Cl.11-12 Comparative Study",
+        "topicId": "english.I2.comparative-analysis"
+      },
+      {
+        "objective": "Cl.11-12 Formal Writing",
+        "topicId": "english.I2.formal-technical-writing"
+      },
+      {
+        "objective": "Cl.11-12 Novel Study",
+        "topicId": "english.I2.literature-ii"
+      },
+      {
+        "objective": "Cl.11-12 Oral",
+        "topicId": "english.I2.public-speaking"
+      },
+      {
+        "objective": "Cl.12 Differentiation",
+        "topicId": "math.A1.calculus-limits-differentiation"
+      },
+      {
+        "objective": "Cl.11 Complex Numbers",
+        "topicId": "math.A1.complex-numbers"
+      },
+      {
+        "objective": "Cl.12 Integration",
+        "topicId": "math.A1.integration-techniques"
+      },
+      {
+        "objective": "Cl.12 Matrices",
+        "topicId": "math.A1.matrices-determinants"
+      },
+      {
+        "objective": "Cl.11 Binomial Theorem",
+        "topicId": "math.A1.permutations-combinations-binomial"
+      },
+      {
+        "objective": "Cl.12 Vectors",
+        "topicId": "math.A1.vectors-3d-geometry"
+      },
+      {
+        "objective": "Integrated",
+        "topicId": "math.A2.advanced-problem-solving"
+      },
+      {
+        "objective": "Cl.11 Conics",
+        "topicId": "math.A2.conics"
+      },
+      {
+        "objective": "Cl.12 Differential Equations",
+        "topicId": "math.A2.differential-equations"
+      },
+      {
+        "objective": "Project work",
+        "topicId": "math.A2.modeling-capstone"
+      },
+      {
+        "objective": "Cl.12 Probability",
+        "topicId": "math.A2.probability-distributions"
+      },
+      {
+        "objective": "Cl.6-7 Fundamental Concepts (Algebra)",
+        "topicId": "math.F1.algebra-generalized-arithmetic"
+      },
+      {
+        "objective": "Cl.6-7 Data Handling",
+        "topicId": "math.F1.data-graphs-i"
+      },
+      {
+        "objective": "Cl.6-7 Fractions and Decimals",
+        "topicId": "math.F1.fractions-decimals"
+      },
+      {
+        "objective": "Cl.6-8 Geometry",
+        "topicId": "math.F1.geometry-angles-triangles"
+      },
+      {
+        "objective": "Cl.7-8 Linear Equations",
+        "topicId": "math.F1.linear-equations-one-variable"
+      },
+      {
+        "objective": "Cl.6 Number System",
+        "topicId": "math.F1.number-sense-estimation"
       },
       {
         "objective": "Cl.6-8 Ratio, Proportion, Percentage",
         "topicId": "math.F1.ratio-proportion-percentage"
       },
       {
+        "objective": "Cl.7-8 Exponents",
+        "topicId": "math.F2.exponents-scientific-notation"
+      },
+      {
+        "objective": "Cl.9 Similarity & Pythagoras",
+        "topicId": "math.F2.geometry-similarity-pythagoras"
+      },
+      {
+        "objective": "Cl.8-9 Coordinate Geometry",
+        "topicId": "math.F2.linear-relationships-coordinate-plane"
+      },
+      {
+        "objective": "Cl.6-8 Number Theory",
+        "topicId": "math.F2.number-theory-basics"
+      },
+      {
+        "objective": "Cl.8-9 Factorisation",
+        "topicId": "math.F2.polynomials-factoring"
+      },
+      {
+        "objective": "Cl.8-9 Statistics & Probability",
+        "topicId": "math.F2.probability-statistics-i"
+      },
+      {
+        "objective": "Cl.9 Simultaneous Equations",
+        "topicId": "math.F2.systems-linear-equations"
+      },
+      {
+        "objective": "Cl.10 Coordinate Geometry",
+        "topicId": "math.I1.coordinate-geometry"
+      },
+      {
+        "objective": "Cl.10 Circles",
+        "topicId": "math.I1.geometry-circles-proof"
+      },
+      {
+        "objective": "Cl.10 Quadratic Equations",
+        "topicId": "math.I1.quadratics"
+      },
+      {
+        "objective": "Cl.10 Arithmetic Progression",
+        "topicId": "math.I1.sequences-series"
+      },
+      {
+        "objective": "Cl.10 Geometric Progression",
+        "topicId": "math.I1.sequences-series"
+      },
+      {
+        "objective": "Cl.10 Statistics (Measures of Central Tendency)",
+        "topicId": "math.I1.statistics-ii"
+      },
+      {
+        "objective": "Cl.9-10 Trigonometry",
+        "topicId": "math.I1.trigonometry-i"
+      },
+      {
+        "objective": "Cl.11 Permutations & Combinations",
+        "topicId": "math.I2.combinatorics-probability-ii"
+      },
+      {
+        "objective": "Cl.11-12 Calculus (Differentiation)",
+        "topicId": "math.I2.derivatives-intuition"
+      },
+      {
+        "objective": "Cl.9-11 Logarithms",
+        "topicId": "math.I2.exponentials-logarithms"
+      },
+      {
+        "objective": "Cl.11 Functions",
+        "topicId": "math.I2.functions"
+      },
+      {
+        "objective": "Cl.12 Integration",
+        "topicId": "math.I2.integrals-intuition"
+      },
+      {
+        "objective": "Cl.11 Trigonometry",
+        "topicId": "math.I2.trigonometry-ii"
+      },
+      {
+        "objective": "Cl.12 Electrostatics",
+        "topicId": "physics.A1.electrostatics"
+      },
+      {
+        "objective": "Cl.11 Fluids",
+        "topicId": "physics.A1.fluids-advanced"
+      },
+      {
+        "objective": "Cl.11 Gravitation",
+        "topicId": "physics.A1.gravitation-field"
+      },
+      {
+        "objective": "Cl.11-12 Rotational Dynamics",
+        "topicId": "physics.A1.mechanics-rigor"
+      },
+      {
+        "objective": "Cl.12 Thermodynamics",
+        "topicId": "physics.A1.thermodynamics"
+      },
+      {
+        "objective": "Cl.12 Electricity",
+        "topicId": "physics.A2.current-electricity-advanced"
+      },
+      {
+        "objective": "Cl.12 Electromagnetism",
+        "topicId": "physics.A2.electromagnetic-induction"
+      },
+      {
+        "objective": "Cl.11-12 Practical",
+        "topicId": "physics.A2.experimental-physics"
+      },
+      {
+        "objective": "Cl.12 Modern Physics",
+        "topicId": "physics.A2.modern-physics"
+      },
+      {
+        "objective": "Cl.12 Wave Optics",
+        "topicId": "physics.A2.optics-advanced"
+      },
+      {
+        "objective": "Cl.9-10 Work, Energy",
+        "topicId": "physics.F1.energy-i"
+      },
+      {
+        "objective": "Cl.9-10 Force & Motion",
+        "topicId": "physics.F1.force-newtons-laws"
+      },
+      {
+        "objective": "Cl.9 Measurements",
+        "topicId": "physics.F1.measurement-units-estimation"
+      },
+      {
         "objective": "Cl.7-9 Physics: Motion",
         "topicId": "physics.F1.motion"
+      },
+      {
+        "objective": "Cl.9-10 Current Electricity",
+        "topicId": "physics.F2.electricity-i"
+      },
+      {
+        "objective": "Cl.7-9 Heat",
+        "topicId": "physics.F2.heat-temperature"
+      },
+      {
+        "objective": "Cl.8-10 Light",
+        "topicId": "physics.F2.light-i"
+      },
+      {
+        "objective": "Cl.10 Magnetism",
+        "topicId": "physics.F2.magnetism-i"
+      },
+      {
+        "objective": "Cl.8-9 Pressure & Upthrust",
+        "topicId": "physics.F2.pressure-density"
+      },
+      {
+        "objective": "Cl.8-9 Sound",
+        "topicId": "physics.F2.sound-waves-i"
+      },
+      {
+        "objective": "Cl.11 Circular Motion & Gravitation",
+        "topicId": "physics.I1.circular-motion-gravitation"
+      },
+      {
+        "objective": "Cl.10-11 Work, Power, Energy",
+        "topicId": "physics.I1.energy-ii"
+      },
+      {
+        "objective": "Cl.11 Kinematics",
+        "topicId": "physics.I1.kinematics-2d"
+      },
+      {
+        "objective": "Cl.11 Momentum",
+        "topicId": "physics.I1.momentum-collisions"
+      },
+      {
+        "objective": "Cl.11 Dynamics",
+        "topicId": "physics.I1.newtons-laws-deepened"
+      },
+      {
+        "objective": "Cl.12 Electricity",
+        "topicId": "physics.I2.electricity-ii"
+      },
+      {
+        "objective": "Cl.11-12 Kinematics",
+        "topicId": "physics.I2.kinematics-calculus"
+      },
+      {
+        "objective": "Cl.11 SHM",
+        "topicId": "physics.I2.oscillations-shm"
+      },
+      {
+        "objective": "Cl.11 Gas Laws",
+        "topicId": "physics.I2.thermal-physics"
+      },
+      {
+        "objective": "Cl.11-12 Waves",
+        "topicId": "physics.I2.waves-ii"
       }
     ],
     "IB": [
+      {
+        "objective": "DP Biochemistry HL",
+        "topicId": "biology.A1.biochemistry"
+      },
+      {
+        "objective": "DP Cell Biology HL",
+        "topicId": "biology.A1.cell-biology-depth"
+      },
+      {
+        "objective": "DP Physiology HL",
+        "topicId": "biology.A1.human-physiology-iii"
+      },
+      {
+        "objective": "DP Molecular Biology HL",
+        "topicId": "biology.A1.molecular-genetics"
+      },
+      {
+        "objective": "DP Plant Biology HL",
+        "topicId": "biology.A1.plant-physiology-depth"
+      },
+      {
+        "objective": "DP Biotechnology HL",
+        "topicId": "biology.A2.biotechnology"
+      },
+      {
+        "objective": "DP Ecology HL",
+        "topicId": "biology.A2.ecology-environment-depth"
+      },
+      {
+        "objective": "DP Evolution HL",
+        "topicId": "biology.A2.evolution-depth"
+      },
+      {
+        "objective": "DP Genetics HL",
+        "topicId": "biology.A2.genetics-ii"
+      },
+      {
+        "objective": "DP Human Physiology HL",
+        "topicId": "biology.A2.human-health-disease"
+      },
+      {
+        "objective": "DP Biology IA",
+        "topicId": "biology.A2.investigative-biology"
+      },
+      {
+        "objective": "MYP Sciences",
+        "topicId": "biology.F1.characteristics-classification"
+      },
+      {
+        "objective": "DP Ecology",
+        "topicId": "biology.F1.living-environment-i"
+      },
+      {
+        "objective": "DP Physiology",
+        "topicId": "biology.F1.nutrition-digestion"
+      },
+      {
+        "objective": "DP Cell Biology",
+        "topicId": "biology.F1.the-cell"
+      },
+      {
+        "objective": "DP Cell Biology",
+        "topicId": "biology.F2.cells-to-organisms"
+      },
+      {
+        "objective": "DP Human Health",
+        "topicId": "biology.F2.health-disease"
+      },
+      {
+        "objective": "DP Physiology",
+        "topicId": "biology.F2.human-physiology-i"
+      },
+      {
+        "objective": "DP Plant Biology",
+        "topicId": "biology.F2.plant-biology-i"
+      },
+      {
+        "objective": "DP Reproduction",
+        "topicId": "biology.F2.reproduction"
+      },
+      {
+        "objective": "DP Membrane Transport",
+        "topicId": "biology.I1.cell-processes"
+      },
+      {
+        "objective": "DP Ecology",
+        "topicId": "biology.I1.ecology-ecosystems"
+      },
+      {
+        "objective": "DP Enzymes",
+        "topicId": "biology.I1.enzymes"
+      },
+      {
+        "objective": "DP Homeostasis",
+        "topicId": "biology.I1.human-physiology-ii"
+      },
+      {
+        "objective": "DP Bioenergetics",
+        "topicId": "biology.I1.respiration-photosynthesis"
+      },
+      {
+        "objective": "DP Molecular Biology",
+        "topicId": "biology.I2.dna-inheritance"
+      },
+      {
+        "objective": "DP Evolution",
+        "topicId": "biology.I2.evolution-natural-selection"
+      },
+      {
+        "objective": "DP Genetics",
+        "topicId": "biology.I2.genetics-i"
+      },
+      {
+        "objective": "DP Physiology",
+        "topicId": "biology.I2.human-systems-capstone"
+      },
+      {
+        "objective": "DP Ecology",
+        "topicId": "biology.I2.population-biology"
+      },
+      {
+        "objective": "DP Equilibrium HL",
+        "topicId": "chemistry.A1.chemical-equilibrium"
+      },
+      {
+        "objective": "DP Kinetics HL",
+        "topicId": "chemistry.A1.chemical-kinetics"
+      },
+      {
+        "objective": "DP Energetics HL",
+        "topicId": "chemistry.A1.chemical-thermodynamics"
+      },
+      {
+        "objective": "DP Redox HL",
+        "topicId": "chemistry.A1.electrochemistry"
+      },
+      {
+        "objective": "DP Acids & Bases HL",
+        "topicId": "chemistry.A1.ionic-equilibrium"
+      },
+      {
+        "objective": "DP Periodicity",
+        "topicId": "chemistry.A1.periodic-properties"
+      },
+      {
+        "objective": "DP Chemistry IA",
+        "topicId": "chemistry.A2.analytical-chemistry"
+      },
+      {
+        "objective": "DP Organic/Biochemistry",
+        "topicId": "chemistry.A2.biomolecules-polymers"
+      },
+      {
+        "objective": "DP Transition Metals HL",
+        "topicId": "chemistry.A2.coordination-chemistry"
+      },
+      {
+        "objective": "DP Organic HL",
+        "topicId": "chemistry.A2.functional-groups"
+      },
+      {
+        "objective": "DP Organic HL",
+        "topicId": "chemistry.A2.organic-mechanisms"
+      },
+      {
+        "objective": "MYP Sciences",
+        "topicId": "chemistry.F1.matter-particles-states"
+      },
+      {
+        "objective": "MYP Sciences",
+        "topicId": "chemistry.F1.physical-chemical-change"
+      },
+      {
+        "objective": "MYP Sciences",
+        "topicId": "chemistry.F1.separation-techniques"
+      },
+      {
+        "objective": "DP Atomic Structure",
+        "topicId": "chemistry.F2.atomic-structure-i"
+      },
+      {
+        "objective": "DP Stoichiometry",
+        "topicId": "chemistry.F2.chemical-formulae-equations"
+      },
+      {
+        "objective": "DP Stoichiometry",
+        "topicId": "chemistry.F2.mole-concept"
+      },
+      {
+        "objective": "DP Periodicity",
+        "topicId": "chemistry.F2.periodic-table"
+      },
+      {
+        "objective": "DP Stoichiometry",
+        "topicId": "chemistry.F2.stoichiometry-intro"
+      },
+      {
+        "objective": "DP Acids & Bases",
+        "topicId": "chemistry.I1.acids-bases-salts"
+      },
+      {
+        "objective": "DP Bonding",
+        "topicId": "chemistry.I1.bonding-i"
+      },
+      {
+        "objective": "DP Kinetics",
+        "topicId": "chemistry.I1.rates-reaction"
+      },
+      {
+        "objective": "DP Redox",
+        "topicId": "chemistry.I1.reactions-equations"
+      },
+      {
+        "objective": "DP Stoichiometry",
+        "topicId": "chemistry.I1.solutions-concentration"
+      },
+      {
+        "objective": "DP Atomic Structure",
+        "topicId": "chemistry.I2.atomic-structure-ii"
+      },
+      {
+        "objective": "DP Bonding HL",
+        "topicId": "chemistry.I2.bonding-ii"
+      },
+      {
+        "objective": "DP Energetics",
+        "topicId": "chemistry.I2.energetics"
+      },
+      {
+        "objective": "DP Equilibrium",
+        "topicId": "chemistry.I2.equilibrium-intro"
+      },
+      {
+        "objective": "DP States of Matter",
+        "topicId": "chemistry.I2.gas-laws-kinetic-theory"
+      },
+      {
+        "objective": "DP Organic",
+        "topicId": "chemistry.I2.organic-intro"
+      },
+      {
+        "objective": "DP CS",
+        "topicId": "cs.A1.algorithmic-problem-solving"
+      },
+      {
+        "objective": "DP CS",
+        "topicId": "cs.A1.algorithms-ii"
+      },
+      {
+        "objective": "DP CS: OOP",
+        "topicId": "cs.A1.oop"
+      },
+      {
+        "objective": "DP CS",
+        "topicId": "cs.A1.recursion"
+      },
+      {
+        "objective": "DP CS: Development",
+        "topicId": "cs.A1.testing"
+      },
+      {
+        "objective": "DP CS: Abstract Data Structures",
+        "topicId": "cs.A1.trees-graphs"
+      },
+      {
+        "objective": "DP CS: Internal Assessment",
+        "topicId": "cs.A2.capstone-project"
+      },
+      {
+        "objective": "DP CS: Databases",
+        "topicId": "cs.A2.databases-intro"
+      },
+      {
+        "objective": "DP CS: Design",
+        "topicId": "cs.A2.software-design"
+      },
+      {
+        "objective": "DP CS: Web",
+        "topicId": "cs.A2.web-data-basics"
+      },
+      {
+        "objective": "DP CS: Development",
+        "topicId": "cs.A2.working-with-codebase"
+      },
+      {
+        "objective": "DP CS",
+        "topicId": "cs.F1.booleans-conditionals"
+      },
+      {
+        "objective": "MYP Design",
+        "topicId": "cs.F1.computational-thinking"
+      },
+      {
+        "objective": "DP CS",
+        "topicId": "cs.F1.computational-thinking"
+      },
+      {
+        "objective": "DP CS",
+        "topicId": "cs.F1.first-programs"
+      },
+      {
+        "objective": "DP CS",
+        "topicId": "cs.F1.input-output"
+      },
       {
         "objective": "MYP Design",
         "topicId": "cs.F1.python-variables-types-expressions"
@@ -54,19 +2046,475 @@
         "topicId": "cs.F1.python-variables-types-expressions"
       },
       {
+        "objective": "DP CS: Development",
+        "topicId": "cs.F1.version-control-i"
+      },
+      {
+        "objective": "DP CS",
+        "topicId": "cs.F2.dictionaries-sets"
+      },
+      {
+        "objective": "DP CS",
+        "topicId": "cs.F2.functions"
+      },
+      {
+        "objective": "DP CS: Data Structures",
+        "topicId": "cs.F2.lists-iteration"
+      },
+      {
+        "objective": "DP CS",
+        "topicId": "cs.F2.loops"
+      },
+      {
+        "objective": "DP CS: Development",
+        "topicId": "cs.F2.project-1"
+      },
+      {
+        "objective": "DP CS",
+        "topicId": "cs.F2.strings-depth"
+      },
+      {
+        "objective": "DP CS: Development",
+        "topicId": "cs.F2.version-control-ii"
+      },
+      {
+        "objective": "DP CS",
+        "topicId": "cs.I1.algorithms-i"
+      },
+      {
+        "objective": "DP CS",
+        "topicId": "cs.I1.complexity-intuition"
+      },
+      {
+        "objective": "DP CS: Abstract Data Structures",
+        "topicId": "cs.I1.data-structures-basic"
+      },
+      {
+        "objective": "DP CS",
+        "topicId": "cs.I1.error-handling-debugging"
+      },
+      {
+        "objective": "DP CS: Files",
+        "topicId": "cs.I1.file-io-data-formats"
+      },
+      {
+        "objective": "DP CS",
+        "topicId": "cs.I1.modules-organization"
+      },
+      {
+        "objective": "DP CS: Development",
+        "topicId": "cs.I1.project-2"
+      },
+      {
+        "objective": "DP CS",
+        "topicId": "cs.I2.control-arrays-c"
+      },
+      {
+        "objective": "DP CS: Computer Organisation",
+        "topicId": "cs.I2.how-code-runs"
+      },
+      {
+        "objective": "DP CS",
+        "topicId": "cs.I2.intro-c"
+      },
+      {
+        "objective": "DP CS",
+        "topicId": "cs.I2.pointers-memory"
+      },
+      {
+        "objective": "DP CS",
+        "topicId": "cs.I2.strings-memory-c"
+      },
+      {
+        "objective": "DP CS: Data Structures",
+        "topicId": "cs.I2.structs-data-structures-c"
+      },
+      {
+        "objective": "DP Literary Analysis",
+        "topicId": "english.A1.literary-criticism"
+      },
+      {
+        "objective": "DP Written Tasks",
+        "topicId": "english.A1.persuasion-real-world"
+      },
+      {
+        "objective": "DP Extended Essay",
+        "topicId": "english.A1.research-paper"
+      },
+      {
+        "objective": "DP Language",
+        "topicId": "english.A1.rhetoric-style"
+      },
+      {
+        "objective": "DP Literature HL",
+        "topicId": "english.A2.advanced-literary-analysis"
+      },
+      {
+        "objective": "DP Portfolio",
+        "topicId": "english.A2.communication-portfolio"
+      },
+      {
+        "objective": "DP Paper 1",
+        "topicId": "english.A2.critical-reasoning-comprehension"
+      },
+      {
+        "objective": "DP Extended Essay",
+        "topicId": "english.A2.extended-essay"
+      },
+      {
+        "objective": "MYP Creative Writing",
+        "topicId": "english.F1.narrative-descriptive-writing"
+      },
+      {
+        "objective": "MYP Writing",
+        "topicId": "english.F1.paragraph-architecture"
+      },
+      {
+        "objective": "MYP Language & Literature",
+        "topicId": "english.F1.reading-for-meaning"
+      },
+      {
+        "objective": "MYP Language",
+        "topicId": "english.F1.sentence-craft"
+      },
+      {
+        "objective": "MYP Language",
+        "topicId": "english.F1.vocabulary-roots"
+      },
+      {
+        "objective": "MYP Language & Literature",
+        "topicId": "english.F2.close-reading"
+      },
+      {
+        "objective": "MYP Language",
+        "topicId": "english.F2.grammar-for-style"
+      },
+      {
+        "objective": "MYP Writing",
+        "topicId": "english.F2.structured-exposition"
+      },
+      {
+        "objective": "MYP Language",
+        "topicId": "english.F2.summarising-paraphrasing"
+      },
+      {
+        "objective": "MYP Language",
+        "topicId": "english.F2.vocabulary-ii"
+      },
+      {
+        "objective": "DP Language & Media",
+        "topicId": "english.I1.analysing-nonfiction-media"
+      },
+      {
+        "objective": "MYP/DP Language",
+        "topicId": "english.I1.argument-i"
+      },
+      {
+        "objective": "MYP/DP Literature",
+        "topicId": "english.I1.literature-i"
+      },
+      {
+        "objective": "DP Written Tasks",
+        "topicId": "english.I1.persuasive-essay"
+      },
+      {
+        "objective": "DP Extended Essay skills",
+        "topicId": "english.I1.research-citation"
+      },
+      {
+        "objective": "DP Argument",
+        "topicId": "english.I2.argument-ii"
+      },
+      {
+        "objective": "DP Comparative Study",
+        "topicId": "english.I2.comparative-analysis"
+      },
+      {
+        "objective": "DP Technical Writing",
+        "topicId": "english.I2.formal-technical-writing"
+      },
+      {
+        "objective": "DP Literature",
+        "topicId": "english.I2.literature-ii"
+      },
+      {
+        "objective": "DP Oral",
+        "topicId": "english.I2.public-speaking"
+      },
+      {
+        "objective": "DP Calculus HL",
+        "topicId": "math.A1.calculus-limits-differentiation"
+      },
+      {
+        "objective": "DP Complex Numbers HL",
+        "topicId": "math.A1.complex-numbers"
+      },
+      {
+        "objective": "DP Calculus HL",
+        "topicId": "math.A1.integration-techniques"
+      },
+      {
+        "objective": "DP (Applications)",
+        "topicId": "math.A1.matrices-determinants"
+      },
+      {
+        "objective": "DP Binomial",
+        "topicId": "math.A1.permutations-combinations-binomial"
+      },
+      {
+        "objective": "DP Vectors HL",
+        "topicId": "math.A1.vectors-3d-geometry"
+      },
+      {
+        "objective": "DP problem-solving",
+        "topicId": "math.A2.advanced-problem-solving"
+      },
+      {
+        "objective": "DP (Applications)",
+        "topicId": "math.A2.conics"
+      },
+      {
+        "objective": "DP Calculus HL",
+        "topicId": "math.A2.differential-equations"
+      },
+      {
+        "objective": "DP Mathematics: exploration/IA",
+        "topicId": "math.A2.modeling-capstone"
+      },
+      {
+        "objective": "DP Statistics",
+        "topicId": "math.A2.probability-distributions"
+      },
+      {
+        "objective": "MYP Algebra",
+        "topicId": "math.F1.algebra-generalized-arithmetic"
+      },
+      {
+        "objective": "MYP Statistics",
+        "topicId": "math.F1.data-graphs-i"
+      },
+      {
+        "objective": "MYP Number",
+        "topicId": "math.F1.fractions-decimals"
+      },
+      {
+        "objective": "MYP Geometry",
+        "topicId": "math.F1.geometry-angles-triangles"
+      },
+      {
+        "objective": "MYP Algebra",
+        "topicId": "math.F1.linear-equations-one-variable"
+      },
+      {
+        "objective": "MYP Number",
+        "topicId": "math.F1.number-sense-estimation"
+      },
+      {
         "objective": "MYP Number: Proportional relationships",
         "topicId": "math.F1.ratio-proportion-percentage"
       },
       {
+        "objective": "MYP Number",
+        "topicId": "math.F2.exponents-scientific-notation"
+      },
+      {
+        "objective": "MYP Geometry",
+        "topicId": "math.F2.geometry-similarity-pythagoras"
+      },
+      {
+        "objective": "MYP Algebra",
+        "topicId": "math.F2.linear-relationships-coordinate-plane"
+      },
+      {
+        "objective": "MYP Number",
+        "topicId": "math.F2.number-theory-basics"
+      },
+      {
+        "objective": "MYP Algebra",
+        "topicId": "math.F2.polynomials-factoring"
+      },
+      {
+        "objective": "MYP Statistics",
+        "topicId": "math.F2.probability-statistics-i"
+      },
+      {
+        "objective": "MYP/DP Algebra",
+        "topicId": "math.F2.systems-linear-equations"
+      },
+      {
+        "objective": "DP Geometry",
+        "topicId": "math.I1.coordinate-geometry"
+      },
+      {
+        "objective": "DP Geometry",
+        "topicId": "math.I1.geometry-circles-proof"
+      },
+      {
+        "objective": "DP Algebra",
+        "topicId": "math.I1.quadratics"
+      },
+      {
+        "objective": "DP Sequences & Series",
+        "topicId": "math.I1.sequences-series"
+      },
+      {
+        "objective": "DP Statistics",
+        "topicId": "math.I1.statistics-ii"
+      },
+      {
+        "objective": "DP Trigonometry",
+        "topicId": "math.I1.trigonometry-i"
+      },
+      {
+        "objective": "DP Probability",
+        "topicId": "math.I2.combinatorics-probability-ii"
+      },
+      {
+        "objective": "DP Calculus",
+        "topicId": "math.I2.derivatives-intuition"
+      },
+      {
+        "objective": "DP Exponentials & Logs",
+        "topicId": "math.I2.exponentials-logarithms"
+      },
+      {
+        "objective": "DP Functions",
+        "topicId": "math.I2.functions"
+      },
+      {
+        "objective": "DP Calculus",
+        "topicId": "math.I2.integrals-intuition"
+      },
+      {
+        "objective": "DP Trigonometry",
+        "topicId": "math.I2.trigonometry-ii"
+      },
+      {
+        "objective": "DP Fields HL",
+        "topicId": "physics.A1.electrostatics"
+      },
+      {
+        "objective": "DP Fluids HL",
+        "topicId": "physics.A1.fluids-advanced"
+      },
+      {
+        "objective": "DP Fields HL",
+        "topicId": "physics.A1.gravitation-field"
+      },
+      {
+        "objective": "DP Mechanics HL",
+        "topicId": "physics.A1.mechanics-rigor"
+      },
+      {
+        "objective": "DP Thermodynamics HL",
+        "topicId": "physics.A1.thermodynamics"
+      },
+      {
+        "objective": "DP Electricity HL",
+        "topicId": "physics.A2.current-electricity-advanced"
+      },
+      {
+        "objective": "DP Fields HL",
+        "topicId": "physics.A2.electromagnetic-induction"
+      },
+      {
+        "objective": "DP Physics IA",
+        "topicId": "physics.A2.experimental-physics"
+      },
+      {
+        "objective": "DP Atomic/Nuclear HL",
+        "topicId": "physics.A2.modern-physics"
+      },
+      {
+        "objective": "DP Wave Phenomena HL",
+        "topicId": "physics.A2.optics-advanced"
+      },
+      {
+        "objective": "DP Energy",
+        "topicId": "physics.F1.energy-i"
+      },
+      {
+        "objective": "DP Mechanics",
+        "topicId": "physics.F1.force-newtons-laws"
+      },
+      {
+        "objective": "DP Measurement & Uncertainty",
+        "topicId": "physics.F1.measurement-units-estimation"
+      },
+      {
         "objective": "MYP Sciences: Change / Movement",
         "topicId": "physics.F1.motion"
+      },
+      {
+        "objective": "DP Electricity",
+        "topicId": "physics.F2.electricity-i"
+      },
+      {
+        "objective": "DP Thermal Physics",
+        "topicId": "physics.F2.heat-temperature"
+      },
+      {
+        "objective": "DP Waves/Optics",
+        "topicId": "physics.F2.light-i"
+      },
+      {
+        "objective": "DP Fields",
+        "topicId": "physics.F2.magnetism-i"
+      },
+      {
+        "objective": "DP Fluids",
+        "topicId": "physics.F2.pressure-density"
+      },
+      {
+        "objective": "DP Waves",
+        "topicId": "physics.F2.sound-waves-i"
+      },
+      {
+        "objective": "DP Circular Motion & Gravitation",
+        "topicId": "physics.I1.circular-motion-gravitation"
+      },
+      {
+        "objective": "DP Energy",
+        "topicId": "physics.I1.energy-ii"
+      },
+      {
+        "objective": "DP Mechanics",
+        "topicId": "physics.I1.kinematics-2d"
+      },
+      {
+        "objective": "DP Momentum",
+        "topicId": "physics.I1.momentum-collisions"
+      },
+      {
+        "objective": "DP Mechanics",
+        "topicId": "physics.I1.newtons-laws-deepened"
+      },
+      {
+        "objective": "DP Electricity HL",
+        "topicId": "physics.I2.electricity-ii"
+      },
+      {
+        "objective": "DP Mechanics HL",
+        "topicId": "physics.I2.kinematics-calculus"
+      },
+      {
+        "objective": "DP Oscillations HL",
+        "topicId": "physics.I2.oscillations-shm"
+      },
+      {
+        "objective": "DP Thermal Physics",
+        "topicId": "physics.I2.thermal-physics"
+      },
+      {
+        "objective": "DP Wave Phenomena HL",
+        "topicId": "physics.I2.waves-ii"
       }
     ]
   },
-  "topicCount": 3,
+  "topicCount": 192,
   "byBoard": {
-    "CBSE": 7,
-    "ICSE": 3,
-    "IB": 4
+    "CBSE": 239,
+    "ICSE": 193,
+    "IB": 194
   }
 }

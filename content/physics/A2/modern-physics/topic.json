@@ -1,0 +1,45 @@
+{
+  "id": "physics.A2.modern-physics",
+  "subject": "physics",
+  "tier": "A2",
+  "title": "Modern Physics",
+  "slug": "modern-physics",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "The photoelectric effect, atomic models, nuclei and radioactivity, and semiconductor basics.",
+  "outcomes": [
+    "Explain the photoelectric effect",
+    "Describe atomic and nuclear models",
+    "Understand radioactivity and half-life"
+  ],
+  "prereqs": [
+    "physics.A2.optics-advanced"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Dual Nature",
+      "Cl.12 Atoms & Nuclei",
+      "Cl.12 Semiconductors"
+    ],
+    "ICSE": [
+      "Cl.12 Modern Physics"
+    ],
+    "IB": [
+      "DP Atomic/Nuclear HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "photoelectric",
+    "atom",
+    "nucleus",
+    "radioactivity",
+    "half-life"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "biology.F1.the-cell",
+  "subject": "biology",
+  "tier": "F1",
+  "title": "The Cell",
+  "slug": "the-cell",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Cell theory, cell structure, and the differences between plant and animal cells.",
+  "outcomes": [
+    "State cell theory",
+    "Identify cell structures",
+    "Compare plant and animal cells"
+  ],
+  "prereqs": [
+    "biology.F1.characteristics-classification"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.8 Cell",
+      "Cl.9 Fundamental Unit of Life"
+    ],
+    "ICSE": [
+      "Cl.8-9 Cell"
+    ],
+    "IB": [
+      "DP Cell Biology"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "cell",
+    "cell theory",
+    "organelles",
+    "nucleus",
+    "mitochondria"
+  ]
+}

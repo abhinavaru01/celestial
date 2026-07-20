@@ -1,0 +1,36 @@
+{
+  "topicId": "physics.F2.magnetism-i",
+  "levels": {
+    "1": [
+      {
+        "id": "physics_F2_magnetism_i_q1",
+        "type": "mcq",
+        "prompt": "Two north poles brought together will:",
+        "choices": [
+          "repel",
+          "attract",
+          "do nothing",
+          "cancel"
+        ],
+        "answer": 0,
+        "explanation": "Like poles repel."
+      }
+    ],
+    "2": [
+      {
+        "id": "physics_F2_magnetism_i_q2",
+        "type": "mcq",
+        "prompt": "An electromagnet gets stronger if you:",
+        "choices": [
+          "add more coil turns",
+          "remove the battery",
+          "shorten the wire only",
+          "cool it to zero current"
+        ],
+        "answer": 0,
+        "explanation": "More turns (and more current) increase field strength."
+      }
+    ],
+    "3": []
+  }
+}

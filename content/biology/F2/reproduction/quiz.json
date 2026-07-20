@@ -1,0 +1,36 @@
+{
+  "topicId": "biology.F2.reproduction",
+  "levels": {
+    "1": [
+      {
+        "id": "biology_F2_reproduction_q1",
+        "type": "mcq",
+        "prompt": "Asexual reproduction produces offspring that are:",
+        "choices": [
+          "genetically identical to the parent",
+          "always different",
+          "from two parents",
+          "sterile"
+        ],
+        "answer": 0,
+        "explanation": "One parent → identical clones."
+      }
+    ],
+    "2": [
+      {
+        "id": "biology_F2_reproduction_q2",
+        "type": "mcq",
+        "prompt": "Sexual reproduction is important for evolution because it produces:",
+        "choices": [
+          "variation",
+          "identical clones",
+          "fewer offspring",
+          "no offspring"
+        ],
+        "answer": 0,
+        "explanation": "Genetic variation is the raw material for natural selection."
+      }
+    ],
+    "3": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "topicId": "english.I1.persuasive-essay",
+  "levels": {
+    "1": [
+      {
+        "id": "english_I1_persuasive_essay_q2",
+        "type": "mcq",
+        "prompt": "Each paragraph of an argument essay should:",
+        "choices": [
+          "advance one supported reason",
+          "list many unrelated facts",
+          "restate the intro",
+          "ask questions only"
+        ],
+        "answer": 0,
+        "explanation": "One reason per paragraph, backed by evidence."
+      }
+    ],
+    "2": [
+      {
+        "id": "english_I1_persuasive_essay_q1",
+        "type": "mcq",
+        "prompt": "A good persuasive thesis is:",
+        "choices": [
+          "arguable — someone could disagree",
+          "an obvious fact",
+          "a question",
+          "a definition"
+        ],
+        "answer": 0,
+        "explanation": "Persuasion requires a debatable position."
+      }
+    ],
+    "3": []
+  }
+}

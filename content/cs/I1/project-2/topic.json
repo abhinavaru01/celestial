@@ -1,0 +1,39 @@
+{
+  "id": "cs.I1.project-2",
+  "subject": "cs",
+  "tier": "I1",
+  "title": "Project 2",
+  "slug": "project-2",
+  "core": true,
+  "order": 7,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "A program with persistent data and a clean module structure.",
+  "outcomes": [
+    "Design a multi-module program",
+    "Persist data to files",
+    "Structure code cleanly"
+  ],
+  "prereqs": [
+    "cs.I1.complexity-intuition",
+    "cs.I1.modules-organization"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS: Project"
+    ],
+    "ICSE": [
+      "Cl.12 Project"
+    ],
+    "IB": [
+      "DP CS: Development"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "project",
+    "modules",
+    "persistence",
+    "structure"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "biology.I2.genetics-i",
+  "subject": "biology",
+  "tier": "I2",
+  "title": "Genetics I: Inheritance",
+  "slug": "genetics-i",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Mendel's laws and monohybrid/dihybrid crosses — genetics as probability.",
+  "outcomes": [
+    "Use Mendelian ratios",
+    "Complete Punnett squares",
+    "Explain dominant and recessive alleles"
+  ],
+  "prereqs": [
+    "biology.I1.ecology-ecosystems",
+    "math.F2.probability-statistics-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.10 Heredity & Evolution",
+      "Cl.12 Genetics"
+    ],
+    "ICSE": [
+      "Cl.10-12 Genetics"
+    ],
+    "IB": [
+      "DP Genetics"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "genetics",
+    "Mendel",
+    "Punnett square",
+    "dominant",
+    "recessive"
+  ]
+}

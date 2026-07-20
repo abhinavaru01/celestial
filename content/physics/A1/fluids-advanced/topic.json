@@ -1,0 +1,44 @@
+{
+  "id": "physics.A1.fluids-advanced",
+  "subject": "physics",
+  "tier": "A1",
+  "title": "Fluids at A-Level",
+  "slug": "fluids-advanced",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Fluid pressure, viscosity and an introduction to Bernoulli's principle.",
+  "outcomes": [
+    "Analyse pressure in static and moving fluids",
+    "Explain viscosity and flow",
+    "Apply Bernoulli qualitatively"
+  ],
+  "prereqs": [
+    "physics.A1.gravitation-field",
+    "physics.F2.pressure-density"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Mechanical Properties of Fluids"
+    ],
+    "ICSE": [
+      "Cl.11 Fluids"
+    ],
+    "IB": [
+      "DP Fluids HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "fluids",
+    "pressure",
+    "viscosity",
+    "Bernoulli",
+    "continuity"
+  ]
+}

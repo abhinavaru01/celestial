@@ -1,0 +1,31 @@
+{
+  "topicId": "physics.I2.electricity-ii",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "physics_I2_electricity_ii_q1",
+        "type": "mcq",
+        "prompt": "Kirchhoff's current law expresses conservation of:",
+        "choices": [
+          "charge",
+          "energy",
+          "momentum",
+          "mass"
+        ],
+        "answer": 0,
+        "explanation": "Current in equals current out — charge is conserved."
+      },
+      {
+        "id": "physics_I2_electricity_ii_q2",
+        "type": "numeric",
+        "prompt": "Charge on a 2 F capacitor at 3 V?",
+        "answer": 6,
+        "tolerance": 0,
+        "unit": "C",
+        "explanation": "Q = CV = 2 × 3 = 6 C."
+      }
+    ],
+    "3": []
+  }
+}

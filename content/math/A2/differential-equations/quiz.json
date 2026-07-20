@@ -1,0 +1,36 @@
+{
+  "topicId": "math.A2.differential-equations",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "math_A2_differential_equations_q1",
+        "type": "mcq",
+        "prompt": "The solution of dy/dx = ky is:",
+        "choices": [
+          "y = A e^{kx}",
+          "y = kx + c",
+          "y = x^k",
+          "y = k/x"
+        ],
+        "answer": 0,
+        "explanation": "Proportional growth gives exponential solutions."
+      }
+    ],
+    "3": [
+      {
+        "id": "math_A2_differential_equations_q2",
+        "type": "mcq",
+        "prompt": "To solve dy/dx = xy you first:",
+        "choices": [
+          "separate variables",
+          "use the quadratic formula",
+          "differentiate again",
+          "take logs of x only"
+        ],
+        "answer": 0,
+        "explanation": "Separate: dy/y = x dx, then integrate."
+      }
+    ]
+  }
+}

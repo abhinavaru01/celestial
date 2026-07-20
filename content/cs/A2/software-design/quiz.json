@@ -1,0 +1,35 @@
+{
+  "topicId": "cs.A2.software-design",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "cs_A2_software_design_q1",
+        "type": "mcq",
+        "prompt": "Software design should begin with:",
+        "choices": [
+          "understanding requirements",
+          "writing all the code",
+          "choosing colours",
+          "deploying"
+        ],
+        "answer": 0,
+        "explanation": "Requirements guide the whole design."
+      },
+      {
+        "id": "cs_A2_software_design_q2",
+        "type": "mcq",
+        "prompt": "A well-designed component has:",
+        "choices": [
+          "one clear responsibility",
+          "many unrelated jobs",
+          "no interface",
+          "no data"
+        ],
+        "answer": 0,
+        "explanation": "Single responsibility keeps systems maintainable."
+      }
+    ],
+    "3": []
+  }
+}

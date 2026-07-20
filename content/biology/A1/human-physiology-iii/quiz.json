@@ -1,0 +1,35 @@
+{
+  "topicId": "biology.A1.human-physiology-iii",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "biology_A1_human_physiology_iii_q1",
+        "type": "mcq",
+        "prompt": "The kidney's main job is to:",
+        "choices": [
+          "filter blood and balance water",
+          "pump blood",
+          "digest food",
+          "produce insulin"
+        ],
+        "answer": 0,
+        "explanation": "Kidneys filter waste and regulate water/salts."
+      },
+      {
+        "id": "biology_A1_human_physiology_iii_q2",
+        "type": "mcq",
+        "prompt": "A nerve impulse crosses the gap between neurons at the:",
+        "choices": [
+          "synapse",
+          "nucleus",
+          "axon hillock only",
+          "dendrite tip only"
+        ],
+        "answer": 0,
+        "explanation": "Signals pass across synapses via neurotransmitters."
+      }
+    ],
+    "3": []
+  }
+}

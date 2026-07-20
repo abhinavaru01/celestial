@@ -1,0 +1,41 @@
+{
+  "id": "physics.F2.magnetism-i",
+  "subject": "physics",
+  "tier": "F2",
+  "title": "Magnetism I",
+  "slug": "magnetism-i",
+  "core": true,
+  "order": 6,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Magnetic fields, electromagnets and the link between electricity and magnetism.",
+  "outcomes": [
+    "Describe magnetic fields and poles",
+    "Explain electromagnets",
+    "Relate current to magnetism"
+  ],
+  "prereqs": [
+    "physics.F2.electricity-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.10 Magnetic Effects of Current"
+    ],
+    "ICSE": [
+      "Cl.10 Magnetism"
+    ],
+    "IB": [
+      "DP Fields"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "magnetism",
+    "magnetic field",
+    "electromagnet",
+    "poles"
+  ]
+}

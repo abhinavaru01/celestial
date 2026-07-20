@@ -1,0 +1,35 @@
+{
+  "topicId": "cs.A1.algorithms-ii",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "cs_A1_algorithms_ii_q1",
+        "type": "mcq",
+        "prompt": "Merge sort has a time complexity of:",
+        "choices": [
+          "O(n log n)",
+          "O(n²)",
+          "O(n)",
+          "O(1)"
+        ],
+        "answer": 0,
+        "explanation": "Divide and conquer gives O(n log n)."
+      },
+      {
+        "id": "cs_A1_algorithms_ii_q2",
+        "type": "mcq",
+        "prompt": "Hashing enables:",
+        "choices": [
+          "fast average-case lookup",
+          "sorted output",
+          "slower search",
+          "no storage"
+        ],
+        "answer": 0,
+        "explanation": "Hash tables give near O(1) average lookup."
+      }
+    ],
+    "3": []
+  }
+}

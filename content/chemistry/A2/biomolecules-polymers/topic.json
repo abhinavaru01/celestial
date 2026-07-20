@@ -1,0 +1,43 @@
+{
+  "id": "chemistry.A2.biomolecules-polymers",
+  "subject": "chemistry",
+  "tier": "A2",
+  "title": "Biomolecules & Polymers",
+  "slug": "biomolecules-polymers",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Carbohydrates, proteins, lipids and polymers — chemistry that links to biology.",
+  "outcomes": [
+    "Describe major biomolecules",
+    "Explain polymerisation",
+    "Connect structure to function"
+  ],
+  "prereqs": [
+    "chemistry.A2.functional-groups"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Biomolecules",
+      "Cl.12 Polymers"
+    ],
+    "ICSE": [
+      "Cl.12 Biomolecules"
+    ],
+    "IB": [
+      "DP Organic/Biochemistry"
+    ]
+  },
+  "competitiveTags": [
+    "NEET",
+    "JEE-Main"
+  ],
+  "keywords": [
+    "biomolecules",
+    "polymer",
+    "protein",
+    "carbohydrate",
+    "monomer"
+  ]
+}

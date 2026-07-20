@@ -1,0 +1,42 @@
+{
+  "id": "biology.I1.ecology-ecosystems",
+  "subject": "biology",
+  "tier": "I1",
+  "title": "Ecology & Ecosystems",
+  "slug": "ecology-ecosystems",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Energy pyramids, nutrient cycles and population basics.",
+  "outcomes": [
+    "Interpret energy pyramids",
+    "Describe nutrient cycles",
+    "Explain population change"
+  ],
+  "prereqs": [
+    "biology.I1.human-physiology-ii",
+    "biology.F1.living-environment-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.10 Our Environment"
+    ],
+    "ICSE": [
+      "Cl.9-10 Ecology"
+    ],
+    "IB": [
+      "DP Ecology"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "ecology",
+    "energy pyramid",
+    "nutrient cycle",
+    "trophic level",
+    "decomposers"
+  ]
+}

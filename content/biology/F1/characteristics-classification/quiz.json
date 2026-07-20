@@ -1,0 +1,36 @@
+{
+  "topicId": "biology.F1.characteristics-classification",
+  "levels": {
+    "1": [
+      {
+        "id": "biology_F1_characteristics_classification_q1",
+        "type": "mcq",
+        "prompt": "Which is NOT one of the seven life processes?",
+        "choices": [
+          "magnetism",
+          "respiration",
+          "reproduction",
+          "growth"
+        ],
+        "answer": 0,
+        "explanation": "MRS GREN lists movement, respiration, sensitivity, growth, reproduction, excretion, nutrition."
+      }
+    ],
+    "2": [
+      {
+        "id": "biology_F1_characteristics_classification_q2",
+        "type": "mcq",
+        "prompt": "We classify organisms mainly to:",
+        "choices": [
+          "reveal relationships and organise diversity",
+          "make them extinct",
+          "change their DNA",
+          "count atoms"
+        ],
+        "answer": 0,
+        "explanation": "Classification organises and shows evolutionary relationships."
+      }
+    ],
+    "3": []
+  }
+}

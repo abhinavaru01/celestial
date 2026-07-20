@@ -1,0 +1,36 @@
+{
+  "topicId": "physics.A1.thermodynamics",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "physics_A1_thermodynamics_q1",
+        "type": "mcq",
+        "prompt": "The first law of thermodynamics is a statement of:",
+        "choices": [
+          "energy conservation",
+          "entropy increase",
+          "momentum conservation",
+          "charge conservation"
+        ],
+        "answer": 0,
+        "explanation": "ΔU = Q − W conserves energy."
+      }
+    ],
+    "3": [
+      {
+        "id": "physics_A1_thermodynamics_q2",
+        "type": "mcq",
+        "prompt": "The entropy of an isolated system in a real process:",
+        "choices": [
+          "increases",
+          "decreases",
+          "stays exactly constant",
+          "becomes negative"
+        ],
+        "answer": 0,
+        "explanation": "The second law: entropy never decreases."
+      }
+    ]
+  }
+}

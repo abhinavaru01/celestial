@@ -1,0 +1,31 @@
+{
+  "topicId": "chemistry.F2.atomic-structure-i",
+  "levels": {
+    "1": [
+      {
+        "id": "chemistry_F2_atomic_structure_i_q1",
+        "type": "numeric",
+        "prompt": "An atom has 11 protons and 12 neutrons. Mass number?",
+        "answer": 23,
+        "tolerance": 0,
+        "explanation": "Mass number = protons + neutrons = 11 + 12 = 23."
+      }
+    ],
+    "2": [
+      {
+        "id": "chemistry_F2_atomic_structure_i_q2",
+        "type": "mcq",
+        "prompt": "Two isotopes of an element differ in their number of:",
+        "choices": [
+          "neutrons",
+          "protons",
+          "electrons",
+          "nuclei"
+        ],
+        "answer": 0,
+        "explanation": "Isotopes have the same protons but different neutrons."
+      }
+    ],
+    "3": []
+  }
+}

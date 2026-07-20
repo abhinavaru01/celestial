@@ -1,0 +1,36 @@
+{
+  "topicId": "english.I1.literature-i",
+  "levels": {
+    "1": [
+      {
+        "id": "english_I1_literature_i_q1",
+        "type": "mcq",
+        "prompt": "A story's underlying message or idea is its:",
+        "choices": [
+          "theme",
+          "plot",
+          "setting",
+          "title"
+        ],
+        "answer": 0,
+        "explanation": "Theme is the deeper meaning; plot is the events."
+      }
+    ],
+    "2": [
+      {
+        "id": "english_I1_literature_i_q2",
+        "type": "mcq",
+        "prompt": "A claim about a character should be supported with:",
+        "choices": [
+          "textual evidence",
+          "personal opinion only",
+          "the page count",
+          "the author's age"
+        ],
+        "answer": 0,
+        "explanation": "Analysis must be grounded in the text."
+      }
+    ],
+    "3": []
+  }
+}

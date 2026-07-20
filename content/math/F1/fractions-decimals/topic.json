@@ -1,0 +1,39 @@
+{
+  "id": "math.F1.fractions-decimals",
+  "subject": "math",
+  "tier": "F1",
+  "title": "Fractions & Decimals as One System",
+  "slug": "fractions-decimals",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Fractions, decimals and division are three views of the same idea — parts of a whole on the number line.",
+  "outcomes": [
+    "Convert freely between fractions and decimals",
+    "Add, subtract, multiply and divide fractions",
+    "Place fractions and decimals correctly on the number line"
+  ],
+  "prereqs": [
+    "math.F1.number-sense-estimation"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.6 Fractions",
+      "Cl.7 Fractions & Decimals"
+    ],
+    "ICSE": [
+      "Cl.6-7 Fractions and Decimals"
+    ],
+    "IB": [
+      "MYP Number"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "fractions",
+    "decimals",
+    "common denominator",
+    "reciprocal"
+  ]
+}

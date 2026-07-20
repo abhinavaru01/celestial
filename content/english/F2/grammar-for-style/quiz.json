@@ -1,0 +1,35 @@
+{
+  "topicId": "english.F2.grammar-for-style",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "english_F2_grammar_for_style_q1",
+        "type": "mcq",
+        "prompt": "Which sentence is in the active voice?",
+        "choices": [
+          "The chef cooked the meal.",
+          "The meal was cooked by the chef.",
+          "The meal had been cooked.",
+          "Cooking was done."
+        ],
+        "answer": 0,
+        "explanation": "The subject (chef) performs the action."
+      },
+      {
+        "id": "english_F2_grammar_for_style_q2",
+        "type": "mcq",
+        "prompt": "A semicolon is best used to:",
+        "choices": [
+          "link two closely related complete sentences",
+          "end every sentence",
+          "replace all commas",
+          "start a paragraph"
+        ],
+        "answer": 0,
+        "explanation": "It joins related independent clauses."
+      }
+    ],
+    "3": []
+  }
+}

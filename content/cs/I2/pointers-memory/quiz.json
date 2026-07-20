@@ -1,0 +1,35 @@
+{
+  "topicId": "cs.I2.pointers-memory",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "cs_I2_pointers_memory_q1",
+        "type": "mcq",
+        "prompt": "In C, the & operator gives a variable's:",
+        "choices": [
+          "memory address",
+          "value",
+          "type",
+          "size in bits"
+        ],
+        "answer": 0,
+        "explanation": "& is the address-of operator."
+      },
+      {
+        "id": "cs_I2_pointers_memory_q2",
+        "type": "mcq",
+        "prompt": "Dereferencing a pointer (*p) gives:",
+        "choices": [
+          "the value at the address",
+          "the address itself",
+          "a new pointer",
+          "an error always"
+        ],
+        "answer": 0,
+        "explanation": "* reads the value stored at the pointer's address."
+      }
+    ],
+    "3": []
+  }
+}

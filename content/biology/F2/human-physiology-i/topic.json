@@ -1,0 +1,41 @@
+{
+  "id": "biology.F2.human-physiology-i",
+  "subject": "biology",
+  "tier": "F2",
+  "title": "Human Physiology I",
+  "slug": "human-physiology-i",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Respiration, circulation and transport as flow systems in the body.",
+  "outcomes": [
+    "Describe gas exchange and breathing",
+    "Explain the circulatory system",
+    "Relate transport to cell needs"
+  ],
+  "prereqs": [
+    "biology.F2.cells-to-organisms"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.10 Life Processes"
+    ],
+    "ICSE": [
+      "Cl.9-10 Physiology"
+    ],
+    "IB": [
+      "DP Physiology"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "respiration",
+    "circulation",
+    "heart",
+    "blood",
+    "transport"
+  ]
+}

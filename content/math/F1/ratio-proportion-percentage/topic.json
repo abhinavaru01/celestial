@@ -18,10 +18,30 @@
   ],
   "prereqs": [],
   "boardMap": {
-    "CBSE": ["Cl.6 Ratio & Proportion", "Cl.7 Comparing Quantities", "Cl.8 Percentages & Comparing Quantities"],
-    "ICSE": ["Cl.6-8 Ratio, Proportion, Percentage"],
-    "IB": ["MYP Number: Proportional relationships"]
+    "CBSE": [
+      "Cl.6 Ratio & Proportion",
+      "Cl.7 Comparing Quantities",
+      "Cl.8 Percentages & Comparing Quantities"
+    ],
+    "ICSE": [
+      "Cl.6-8 Ratio, Proportion, Percentage"
+    ],
+    "IB": [
+      "MYP Number: Proportional relationships"
+    ]
   },
-  "competitiveTags": ["JEE-Main", "NEET"],
-  "keywords": ["ratio", "proportion", "percentage", "rate", "unitary method", "scaling", "percentage change"]
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "ratio",
+    "proportion",
+    "percentage",
+    "rate",
+    "unitary method",
+    "scaling",
+    "percentage change"
+  ],
+  "depth": "flagship"
 }

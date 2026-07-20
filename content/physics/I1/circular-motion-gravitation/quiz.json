@@ -1,0 +1,36 @@
+{
+  "topicId": "physics.I1.circular-motion-gravitation",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "physics_I1_circular_motion_gravitation_q1",
+        "type": "mcq",
+        "prompt": "The centripetal force on an orbiting satellite points:",
+        "choices": [
+          "toward the planet",
+          "along its velocity",
+          "away from the planet",
+          "backward"
+        ],
+        "answer": 0,
+        "explanation": "It is directed toward the centre — gravity provides it."
+      }
+    ],
+    "3": [
+      {
+        "id": "physics_I1_circular_motion_gravitation_q2",
+        "type": "mcq",
+        "prompt": "If distance doubles, gravitational force becomes:",
+        "choices": [
+          "one quarter",
+          "half",
+          "double",
+          "four times"
+        ],
+        "answer": 0,
+        "explanation": "Inverse-square: F ∝ 1/r², so ×1/4."
+      }
+    ]
+  }
+}

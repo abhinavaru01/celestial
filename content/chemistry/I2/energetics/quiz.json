@@ -1,0 +1,35 @@
+{
+  "topicId": "chemistry.I2.energetics",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "chemistry_I2_energetics_q1",
+        "type": "mcq",
+        "prompt": "An exothermic reaction has an enthalpy change ΔH that is:",
+        "choices": [
+          "negative",
+          "positive",
+          "zero",
+          "infinite"
+        ],
+        "answer": 0,
+        "explanation": "Heat is released, so ΔH is negative."
+      },
+      {
+        "id": "chemistry_I2_energetics_q2",
+        "type": "mcq",
+        "prompt": "Breaking chemical bonds:",
+        "choices": [
+          "absorbs energy",
+          "releases energy",
+          "has no energy change",
+          "creates atoms"
+        ],
+        "answer": 0,
+        "explanation": "Bond breaking is endothermic; bond making is exothermic."
+      }
+    ],
+    "3": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "physics.I1.circular-motion-gravitation",
+  "subject": "physics",
+  "tier": "I1",
+  "title": "Circular Motion & Gravitation",
+  "slug": "circular-motion-gravitation",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Centripetal acceleration, orbits and Newton's law of gravitation.",
+  "outcomes": [
+    "Explain centripetal force",
+    "Use the gravitation law",
+    "Describe orbital motion"
+  ],
+  "prereqs": [
+    "physics.I1.momentum-collisions"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Gravitation",
+      "Cl.11 Motion in a Plane"
+    ],
+    "ICSE": [
+      "Cl.11 Circular Motion & Gravitation"
+    ],
+    "IB": [
+      "DP Circular Motion & Gravitation"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "circular motion",
+    "centripetal",
+    "gravitation",
+    "orbits"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "topicId": "cs.F2.version-control-ii",
+  "levels": {
+    "1": [
+      {
+        "id": "cs_F2_version_control_ii_q2",
+        "type": "mcq",
+        "prompt": "To upload local commits to GitHub you:",
+        "choices": [
+          "push",
+          "print",
+          "commit only",
+          "compile"
+        ],
+        "answer": 0,
+        "explanation": "git push sends commits to the remote."
+      }
+    ],
+    "2": [
+      {
+        "id": "cs_F2_version_control_ii_q1",
+        "type": "mcq",
+        "prompt": "A git branch lets you:",
+        "choices": [
+          "work in parallel without breaking main",
+          "delete history",
+          "speed up code",
+          "format output"
+        ],
+        "answer": 0,
+        "explanation": "Branches isolate work from the main line."
+      }
+    ],
+    "3": []
+  }
+}

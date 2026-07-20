@@ -1,0 +1,36 @@
+{
+  "topicId": "physics.A2.electromagnetic-induction",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "physics_A2_electromagnetic_induction_q1",
+        "type": "mcq",
+        "prompt": "An EMF is induced in a coil only when the magnetic flux:",
+        "choices": [
+          "changes",
+          "is large",
+          "is zero",
+          "is constant"
+        ],
+        "answer": 0,
+        "explanation": "Faraday's law: induction requires changing flux."
+      }
+    ],
+    "3": [
+      {
+        "id": "physics_A2_electromagnetic_induction_q2",
+        "type": "mcq",
+        "prompt": "Lenz's law says the induced current:",
+        "choices": [
+          "opposes the change causing it",
+          "adds to the change",
+          "is always clockwise",
+          "is zero"
+        ],
+        "answer": 0,
+        "explanation": "It opposes the flux change — energy conservation."
+      }
+    ]
+  }
+}

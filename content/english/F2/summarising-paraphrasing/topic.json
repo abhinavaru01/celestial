@@ -1,0 +1,38 @@
+{
+  "id": "english.F2.summarising-paraphrasing",
+  "subject": "english",
+  "tier": "F2",
+  "title": "Summarising & Paraphrasing",
+  "slug": "summarising-paraphrasing",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Compressing and restating ideas precisely — a skill that serves every subject.",
+  "outcomes": [
+    "Write accurate summaries",
+    "Paraphrase without changing meaning",
+    "Distinguish summary from paraphrase"
+  ],
+  "prereqs": [
+    "english.F2.structured-exposition"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.8-9 Comprehension & Note-making"
+    ],
+    "ICSE": [
+      "Cl.8-9 Précis"
+    ],
+    "IB": [
+      "MYP Language"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "summary",
+    "paraphrase",
+    "précis",
+    "note-making"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "topicId": "chemistry.A1.electrochemistry",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "chemistry_A1_electrochemistry_q1",
+        "type": "mcq",
+        "prompt": "In any electrochemical cell, oxidation occurs at the:",
+        "choices": [
+          "anode",
+          "cathode",
+          "salt bridge",
+          "wire"
+        ],
+        "answer": 0,
+        "explanation": "Anode = oxidation; cathode = reduction."
+      },
+      {
+        "id": "chemistry_A1_electrochemistry_q2",
+        "type": "mcq",
+        "prompt": "Electrolysis is used to:",
+        "choices": [
+          "drive a non-spontaneous reaction",
+          "produce spontaneous electricity",
+          "stop reactions",
+          "measure pH"
+        ],
+        "answer": 0,
+        "explanation": "It uses electrical energy to force a reaction."
+      }
+    ],
+    "3": []
+  }
+}

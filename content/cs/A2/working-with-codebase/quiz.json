@@ -1,0 +1,35 @@
+{
+  "topicId": "cs.A2.working-with-codebase",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "cs_A2_working_with_codebase_q1",
+        "type": "mcq",
+        "prompt": "Most professional programming time is spent:",
+        "choices": [
+          "reading and modifying existing code",
+          "writing brand-new code",
+          "deleting files",
+          "formatting"
+        ],
+        "answer": 0,
+        "explanation": "Understanding existing code dominates real work."
+      },
+      {
+        "id": "cs_A2_working_with_codebase_q2",
+        "type": "mcq",
+        "prompt": "Team changes are safely proposed via:",
+        "choices": [
+          "a pull request and review",
+          "direct commits to main",
+          "emailing files",
+          "no process"
+        ],
+        "answer": 0,
+        "explanation": "Pull requests enable review before merging."
+      }
+    ],
+    "3": []
+  }
+}

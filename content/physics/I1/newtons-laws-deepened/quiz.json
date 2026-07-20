@@ -1,0 +1,31 @@
+{
+  "topicId": "physics.I1.newtons-laws-deepened",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "physics_I1_newtons_laws_deepened_q1",
+        "type": "numeric",
+        "prompt": "Friction with μ=0.2 and normal force 50 N?",
+        "answer": 10,
+        "tolerance": 0,
+        "unit": "N",
+        "explanation": "F = μN = 0.2 × 50 = 10 N."
+      },
+      {
+        "id": "physics_I1_newtons_laws_deepened_q2",
+        "type": "mcq",
+        "prompt": "On a frictionless incline, the force pulling a block down the slope is:",
+        "choices": [
+          "mg sinθ",
+          "mg cosθ",
+          "mg",
+          "zero"
+        ],
+        "answer": 0,
+        "explanation": "The along-slope component of weight is mg sinθ."
+      }
+    ],
+    "3": []
+  }
+}

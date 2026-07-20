@@ -1,0 +1,44 @@
+{
+  "id": "math.I2.exponentials-logarithms",
+  "subject": "math",
+  "tier": "I2",
+  "title": "Exponentials & Logarithms",
+  "slug": "exponentials-logarithms",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Exponential growth and decay, logarithms as the inverse, and their laws — used across chemistry, biology and CS.",
+  "outcomes": [
+    "Work with exponential functions",
+    "Use logarithms and their laws",
+    "Model growth and decay"
+  ],
+  "prereqs": [
+    "math.I2.integrals-intuition",
+    "math.F2.exponents-scientific-notation"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Logarithms (foundations)"
+    ],
+    "ICSE": [
+      "Cl.9-11 Logarithms"
+    ],
+    "IB": [
+      "DP Exponentials & Logs"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "exponential",
+    "logarithm",
+    "growth",
+    "decay",
+    "log laws"
+  ]
+}

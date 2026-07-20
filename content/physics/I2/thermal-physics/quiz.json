@@ -1,0 +1,35 @@
+{
+  "topicId": "physics.I2.thermal-physics",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "physics_I2_thermal_physics_q1",
+        "type": "mcq",
+        "prompt": "Gas-law temperatures must be in:",
+        "choices": [
+          "kelvin",
+          "celsius",
+          "fahrenheit",
+          "any unit"
+        ],
+        "answer": 0,
+        "explanation": "Absolute temperature (K) is required."
+      },
+      {
+        "id": "physics_I2_thermal_physics_q2",
+        "type": "mcq",
+        "prompt": "At fixed temperature, halving a gas's volume:",
+        "choices": [
+          "doubles its pressure",
+          "halves its pressure",
+          "no change",
+          "doubles its temperature"
+        ],
+        "answer": 0,
+        "explanation": "Boyle's law: P and V are inversely proportional."
+      }
+    ],
+    "3": []
+  }
+}

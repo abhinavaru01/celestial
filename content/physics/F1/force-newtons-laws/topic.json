@@ -1,0 +1,42 @@
+{
+  "id": "physics.F1.force-newtons-laws",
+  "subject": "physics",
+  "tier": "F1",
+  "title": "Force & Newton's Laws (Introductory)",
+  "slug": "force-newtons-laws",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Forces as pushes and pulls, and Newton's three laws applied quantitatively in one dimension.",
+  "outcomes": [
+    "State and apply Newton's three laws",
+    "Use F = ma in 1-D",
+    "Identify action-reaction pairs"
+  ],
+  "prereqs": [
+    "physics.F1.motion"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.9 Force & Laws of Motion",
+      "Cl.11 Laws of Motion"
+    ],
+    "ICSE": [
+      "Cl.9-10 Force & Motion"
+    ],
+    "IB": [
+      "DP Mechanics"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "force",
+    "Newton laws",
+    "F=ma",
+    "free-body diagram"
+  ]
+}

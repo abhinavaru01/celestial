@@ -1,0 +1,36 @@
+{
+  "topicId": "math.A2.conics",
+  "levels": {
+    "1": [
+      {
+        "id": "math_A2_conics_q2",
+        "type": "mcq",
+        "prompt": "A circle has eccentricity:",
+        "choices": [
+          "0",
+          "1",
+          ">1",
+          "between 0 and 1"
+        ],
+        "answer": 0,
+        "explanation": "A circle is the special conic with eccentricity 0."
+      }
+    ],
+    "2": [
+      {
+        "id": "math_A2_conics_q1",
+        "type": "mcq",
+        "prompt": "x²/9 − y²/4 = 1 is a:",
+        "choices": [
+          "hyperbola",
+          "ellipse",
+          "parabola",
+          "circle"
+        ],
+        "answer": 0,
+        "explanation": "The minus sign between the squared terms marks a hyperbola."
+      }
+    ],
+    "3": []
+  }
+}

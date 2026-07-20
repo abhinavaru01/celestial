@@ -1,0 +1,42 @@
+{
+  "id": "physics.I1.newtons-laws-deepened",
+  "subject": "physics",
+  "tier": "I1",
+  "title": "Newton's Laws Deepened",
+  "slug": "newtons-laws-deepened",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Friction, inclined planes and connected systems of bodies.",
+  "outcomes": [
+    "Include friction in force analysis",
+    "Solve inclined-plane problems",
+    "Analyse connected bodies"
+  ],
+  "prereqs": [
+    "physics.I1.kinematics-2d"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Laws of Motion (Friction)"
+    ],
+    "ICSE": [
+      "Cl.11 Dynamics"
+    ],
+    "IB": [
+      "DP Mechanics"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "friction",
+    "inclined plane",
+    "connected bodies",
+    "normal force"
+  ]
+}

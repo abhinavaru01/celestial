@@ -1,0 +1,39 @@
+{
+  "id": "english.A2.extended-essay",
+  "subject": "english",
+  "tier": "A2",
+  "title": "The Extended Essay / Independent Research Writing",
+  "slug": "extended-essay",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "A sustained, sourced, argued piece — the writing capstone.",
+  "outcomes": [
+    "Plan an independent research essay",
+    "Sustain a long argument",
+    "Cite and synthesise rigorously"
+  ],
+  "prereqs": [
+    "english.A2.advanced-literary-analysis",
+    "english.A1.research-paper"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Research Project"
+    ],
+    "ICSE": [
+      "Cl.12 Project"
+    ],
+    "IB": [
+      "DP Extended Essay"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "extended essay",
+    "research",
+    "sustained argument",
+    "capstone"
+  ]
+}

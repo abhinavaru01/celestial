@@ -1,0 +1,38 @@
+{
+  "id": "english.I2.formal-technical-writing",
+  "subject": "english",
+  "tier": "I2",
+  "title": "Formal & Technical Writing",
+  "slug": "formal-technical-writing",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Reports and lab-style write-ups — a skill shared with the science portfolios.",
+  "outcomes": [
+    "Write clear formal reports",
+    "Structure technical documents",
+    "Write with precision and objectivity"
+  ],
+  "prereqs": [
+    "english.I2.literature-ii"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 Report Writing"
+    ],
+    "ICSE": [
+      "Cl.11-12 Formal Writing"
+    ],
+    "IB": [
+      "DP Technical Writing"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "report",
+    "technical writing",
+    "formal",
+    "objectivity"
+  ]
+}

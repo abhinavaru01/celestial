@@ -1,0 +1,43 @@
+{
+  "id": "physics.F2.electricity-i",
+  "subject": "physics",
+  "tier": "F2",
+  "title": "Electricity I",
+  "slug": "electricity-i",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Current, voltage, resistance and Ohm's law, with series and parallel circuits.",
+  "outcomes": [
+    "Define current, voltage, resistance",
+    "Apply Ohm's law V = IR",
+    "Analyse series and parallel circuits"
+  ],
+  "prereqs": [
+    "physics.F2.sound-waves-i",
+    "math.F1.linear-equations-one-variable"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.10 Electricity"
+    ],
+    "ICSE": [
+      "Cl.9-10 Current Electricity"
+    ],
+    "IB": [
+      "DP Electricity"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "current",
+    "voltage",
+    "resistance",
+    "Ohm law",
+    "circuits"
+  ]
+}

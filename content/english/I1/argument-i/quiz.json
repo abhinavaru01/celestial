@@ -1,0 +1,35 @@
+{
+  "topicId": "english.I1.argument-i",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "english_I1_argument_i_q1",
+        "type": "mcq",
+        "prompt": "The reasoning linking evidence to a claim is the:",
+        "choices": [
+          "warrant",
+          "conclusion",
+          "title",
+          "quotation"
+        ],
+        "answer": 0,
+        "explanation": "The warrant connects evidence to the claim."
+      },
+      {
+        "id": "english_I1_argument_i_q2",
+        "type": "mcq",
+        "prompt": "Strong evidence must be:",
+        "choices": [
+          "relevant and sufficient",
+          "long",
+          "emotional",
+          "famous"
+        ],
+        "answer": 0,
+        "explanation": "It must actually and adequately support the claim."
+      }
+    ],
+    "3": []
+  }
+}

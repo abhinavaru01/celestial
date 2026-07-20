@@ -1,0 +1,43 @@
+{
+  "id": "chemistry.A1.periodic-properties",
+  "subject": "chemistry",
+  "tier": "A1",
+  "title": "Periodic Properties & s/p-Block",
+  "slug": "periodic-properties",
+  "core": true,
+  "order": 6,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Trends in atomic radius, ionisation energy and electronegativity, and s- and p-block chemistry.",
+  "outcomes": [
+    "Explain periodic trends",
+    "Relate trends to electron structure",
+    "Survey s- and p-block behaviour"
+  ],
+  "prereqs": [
+    "chemistry.A1.electrochemistry",
+    "chemistry.F2.periodic-table"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Classification & Periodicity"
+    ],
+    "ICSE": [
+      "Cl.11 Periodic Properties"
+    ],
+    "IB": [
+      "DP Periodicity"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "periodic trends",
+    "atomic radius",
+    "ionisation energy",
+    "electronegativity"
+  ]
+}

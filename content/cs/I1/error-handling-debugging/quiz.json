@@ -1,0 +1,35 @@
+{
+  "topicId": "cs.I1.error-handling-debugging",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "cs_I1_error_handling_debugging_q1",
+        "type": "mcq",
+        "prompt": "The most informative line of a traceback is usually:",
+        "choices": [
+          "the last line",
+          "the first line",
+          "the middle",
+          "none"
+        ],
+        "answer": 0,
+        "explanation": "The last line names the error type and message."
+      },
+      {
+        "id": "cs_I1_error_handling_debugging_q2",
+        "type": "mcq",
+        "prompt": "try/except is used to:",
+        "choices": [
+          "handle errors without crashing",
+          "speed up code",
+          "create variables",
+          "format strings"
+        ],
+        "answer": 0,
+        "explanation": "It catches exceptions and responds gracefully."
+      }
+    ],
+    "3": []
+  }
+}

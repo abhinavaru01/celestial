@@ -1,0 +1,36 @@
+{
+  "topicId": "chemistry.I1.reactions-equations",
+  "levels": {
+    "1": [
+      {
+        "id": "chemistry_I1_reactions_equations_q1",
+        "type": "mcq",
+        "prompt": "Oxidation is the ___ of electrons.",
+        "choices": [
+          "loss",
+          "gain",
+          "sharing",
+          "counting"
+        ],
+        "answer": 0,
+        "explanation": "OIL: Oxidation Is Loss of electrons."
+      }
+    ],
+    "2": [
+      {
+        "id": "chemistry_I1_reactions_equations_q2",
+        "type": "mcq",
+        "prompt": "Ions that appear unchanged on both sides of an ionic equation are:",
+        "choices": [
+          "spectator ions",
+          "reactants",
+          "catalysts",
+          "products"
+        ],
+        "answer": 0,
+        "explanation": "Spectator ions are cancelled out."
+      }
+    ],
+    "3": []
+  }
+}

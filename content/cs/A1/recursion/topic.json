@@ -1,0 +1,41 @@
+{
+  "id": "cs.A1.recursion",
+  "subject": "cs",
+  "tier": "A1",
+  "title": "Recursion",
+  "slug": "recursion",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Thinking recursively, base cases, and recursion vs iteration.",
+  "outcomes": [
+    "Write recursive functions",
+    "Identify base and recursive cases",
+    "Compare recursion and iteration"
+  ],
+  "prereqs": [
+    "cs.A1.oop",
+    "cs.F2.functions"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS: Recursion"
+    ],
+    "ICSE": [
+      "Cl.12 Recursion"
+    ],
+    "IB": [
+      "DP CS"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "recursion",
+    "base case",
+    "iteration",
+    "stack"
+  ]
+}

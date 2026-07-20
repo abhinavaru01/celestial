@@ -1,0 +1,35 @@
+{
+  "topicId": "cs.I1.algorithms-i",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "cs_I1_algorithms_i_q1",
+        "type": "mcq",
+        "prompt": "Binary search requires the data to be:",
+        "choices": [
+          "sorted",
+          "unsorted",
+          "unique",
+          "numeric only"
+        ],
+        "answer": 0,
+        "explanation": "It relies on order to halve the search space."
+      },
+      {
+        "id": "cs_I1_algorithms_i_q2",
+        "type": "mcq",
+        "prompt": "Compared with linear search on large sorted data, binary search is:",
+        "choices": [
+          "much faster",
+          "slower",
+          "the same",
+          "unusable"
+        ],
+        "answer": 0,
+        "explanation": "It halves the remaining items each step."
+      }
+    ],
+    "3": []
+  }
+}

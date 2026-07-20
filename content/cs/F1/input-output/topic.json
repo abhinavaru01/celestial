@@ -1,0 +1,38 @@
+{
+  "id": "cs.F1.input-output",
+  "subject": "cs",
+  "tier": "F1",
+  "title": "Input, Output & Simple Interaction",
+  "slug": "input-output",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Reading user input, producing output, and building interactive programs.",
+  "outcomes": [
+    "Read input with input()",
+    "Format output clearly",
+    "Build a simple interactive program"
+  ],
+  "prereqs": [
+    "cs.F1.python-variables-types-expressions"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 CS: Input/Output"
+    ],
+    "ICSE": [
+      "Cl.9-10 Input/Output"
+    ],
+    "IB": [
+      "DP CS"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "input",
+    "output",
+    "f-string",
+    "interaction"
+  ]
+}

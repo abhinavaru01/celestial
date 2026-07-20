@@ -1,0 +1,36 @@
+{
+  "topicId": "chemistry.I1.bonding-i",
+  "levels": {
+    "1": [
+      {
+        "id": "chemistry_I1_bonding_i_q1",
+        "type": "mcq",
+        "prompt": "A bond formed by sharing electrons is:",
+        "choices": [
+          "covalent",
+          "ionic",
+          "metallic",
+          "nuclear"
+        ],
+        "answer": 0,
+        "explanation": "Covalent bonds share electron pairs."
+      }
+    ],
+    "2": [
+      {
+        "id": "chemistry_I1_bonding_i_q2",
+        "type": "mcq",
+        "prompt": "Sodium chloride (metal + non-metal) is held by ___ bonding.",
+        "choices": [
+          "ionic",
+          "covalent",
+          "metallic",
+          "hydrogen"
+        ],
+        "answer": 0,
+        "explanation": "Electron transfer between metal and non-metal is ionic."
+      }
+    ],
+    "3": []
+  }
+}
