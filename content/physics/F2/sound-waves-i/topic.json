@@ -1,0 +1,42 @@
+{
+  "id": "physics.F2.sound-waves-i",
+  "subject": "physics",
+  "tier": "F2",
+  "title": "Sound & Waves I",
+  "slug": "sound-waves-i",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Wave parameters, the wave equation v = fλ, and properties of sound.",
+  "outcomes": [
+    "Define frequency, wavelength, amplitude",
+    "Use v = fλ",
+    "Explain how sound travels"
+  ],
+  "prereqs": [
+    "physics.F2.light-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.8-9 Sound"
+    ],
+    "ICSE": [
+      "Cl.8-9 Sound"
+    ],
+    "IB": [
+      "DP Waves"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "sound",
+    "waves",
+    "frequency",
+    "wavelength",
+    "v=fλ"
+  ]
+}

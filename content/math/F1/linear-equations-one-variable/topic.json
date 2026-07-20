@@ -1,0 +1,41 @@
+{
+  "id": "math.F1.linear-equations-one-variable",
+  "subject": "math",
+  "tier": "F1",
+  "title": "Linear Equations in One Variable",
+  "slug": "linear-equations-one-variable",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Solving equations by keeping both sides balanced, and using them to model word problems directly.",
+  "outcomes": [
+    "Solve linear equations by inverse operations",
+    "Keep an equation balanced at every step",
+    "Model word problems with a single equation"
+  ],
+  "prereqs": [
+    "math.F1.algebra-generalized-arithmetic"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.7 Simple Equations",
+      "Cl.8 Linear Equations in One Variable"
+    ],
+    "ICSE": [
+      "Cl.7-8 Linear Equations"
+    ],
+    "IB": [
+      "MYP Algebra"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main"
+  ],
+  "keywords": [
+    "linear equation",
+    "balance",
+    "solve",
+    "inverse operations"
+  ]
+}

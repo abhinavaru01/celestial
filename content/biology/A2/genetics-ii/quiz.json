@@ -1,0 +1,35 @@
+{
+  "topicId": "biology.A2.genetics-ii",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "biology_A2_genetics_ii_q1",
+        "type": "mcq",
+        "prompt": "The Hardy-Weinberg equation is:",
+        "choices": [
+          "p² + 2pq + q² = 1",
+          "p + q = 2",
+          "p² − q² = 0",
+          "pq = 1"
+        ],
+        "answer": 0,
+        "explanation": "It gives genotype frequencies in a stable population."
+      },
+      {
+        "id": "biology_A2_genetics_ii_q2",
+        "type": "mcq",
+        "prompt": "Genes located close together on the same chromosome tend to be:",
+        "choices": [
+          "inherited together (linked)",
+          "always separated",
+          "identical",
+          "non-functional"
+        ],
+        "answer": 0,
+        "explanation": "Linkage keeps them together during inheritance."
+      }
+    ],
+    "3": []
+  }
+}

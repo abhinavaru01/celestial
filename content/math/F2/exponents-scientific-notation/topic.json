@@ -1,0 +1,42 @@
+{
+  "id": "math.F2.exponents-scientific-notation",
+  "subject": "math",
+  "tier": "F2",
+  "title": "Exponents & Scientific Notation",
+  "slug": "exponents-scientific-notation",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Powers as repeated multiplication, the laws of exponents, and scientific notation for very large and small numbers.",
+  "outcomes": [
+    "Apply the laws of exponents",
+    "Write numbers in scientific notation",
+    "Handle negative and zero exponents"
+  ],
+  "prereqs": [
+    "math.F1.data-graphs-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.7 Exponents & Powers",
+      "Cl.8 Exponents & Powers"
+    ],
+    "ICSE": [
+      "Cl.7-8 Exponents"
+    ],
+    "IB": [
+      "MYP Number"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "exponents",
+    "powers",
+    "scientific notation",
+    "index laws"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "topicId": "math.A2.modeling-capstone",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "math_A2_modeling_capstone_q2",
+        "type": "mcq",
+        "prompt": "Between two models that fit equally well, prefer:",
+        "choices": [
+          "the simpler one you understand",
+          "the most complex",
+          "the one with more variables",
+          "either at random"
+        ],
+        "answer": 0,
+        "explanation": "Parsimony: the simplest adequate model is best."
+      }
+    ],
+    "3": [
+      {
+        "id": "math_A2_modeling_capstone_q1",
+        "type": "mcq",
+        "prompt": "The most important thing to state in a model write-up is:",
+        "choices": [
+          "the assumptions made",
+          "the author's name",
+          "the software used",
+          "the page count"
+        ],
+        "answer": 0,
+        "explanation": "Assumptions define what the model means and its limits."
+      }
+    ]
+  }
+}

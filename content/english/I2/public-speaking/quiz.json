@@ -1,0 +1,36 @@
+{
+  "topicId": "english.I2.public-speaking",
+  "levels": {
+    "1": [
+      {
+        "id": "english_I2_public_speaking_q1",
+        "type": "mcq",
+        "prompt": "Signposting in a speech helps the audience to:",
+        "choices": [
+          "follow the structure",
+          "fall asleep",
+          "ignore the point",
+          "read faster"
+        ],
+        "answer": 0,
+        "explanation": "Signposts show where you are in the argument."
+      }
+    ],
+    "2": [
+      {
+        "id": "english_I2_public_speaking_q2",
+        "type": "mcq",
+        "prompt": "Good discussion requires first:",
+        "choices": [
+          "listening to the actual point",
+          "talking loudest",
+          "repeating yourself",
+          "changing the subject"
+        ],
+        "answer": 0,
+        "explanation": "Respond to what was actually said."
+      }
+    ],
+    "3": []
+  }
+}

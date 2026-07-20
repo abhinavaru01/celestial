@@ -1,0 +1,35 @@
+{
+  "topicId": "biology.A2.biotechnology",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "biology_A2_biotechnology_q1",
+        "type": "mcq",
+        "prompt": "PCR is used to:",
+        "choices": [
+          "amplify (copy) DNA",
+          "destroy DNA",
+          "read protein",
+          "cut cells"
+        ],
+        "answer": 0,
+        "explanation": "PCR makes many copies of a DNA segment."
+      },
+      {
+        "id": "biology_A2_biotechnology_q2",
+        "type": "mcq",
+        "prompt": "Restriction enzymes are used to:",
+        "choices": [
+          "cut DNA at specific sequences",
+          "copy RNA",
+          "build proteins",
+          "stain cells"
+        ],
+        "answer": 0,
+        "explanation": "They cut DNA at recognition sites for engineering."
+      }
+    ],
+    "3": []
+  }
+}

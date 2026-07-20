@@ -1,0 +1,42 @@
+{
+  "id": "math.A1.matrices-determinants",
+  "subject": "math",
+  "tier": "A1",
+  "title": "Matrices & Determinants",
+  "slug": "matrices-determinants",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Matrix operations, determinants, and solving linear systems — with links to CS graphics and data.",
+  "outcomes": [
+    "Add and multiply matrices",
+    "Compute determinants and inverses (2×2, 3×3)",
+    "Solve systems with matrices"
+  ],
+  "prereqs": [
+    "math.A1.vectors-3d-geometry"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Matrices",
+      "Cl.12 Determinants"
+    ],
+    "ICSE": [
+      "Cl.12 Matrices"
+    ],
+    "IB": [
+      "DP (Applications)"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "matrices",
+    "determinant",
+    "inverse",
+    "linear systems"
+  ]
+}

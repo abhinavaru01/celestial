@@ -1,0 +1,43 @@
+{
+  "id": "chemistry.I2.equilibrium-intro",
+  "subject": "chemistry",
+  "tier": "I2",
+  "title": "Quantitative Equilibrium (Introduction)",
+  "slug": "equilibrium-intro",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Reversible reactions, dynamic equilibrium, and Le Chatelier's principle.",
+  "outcomes": [
+    "Explain dynamic equilibrium",
+    "Apply Le Chatelier's principle",
+    "Predict shifts from changes"
+  ],
+  "prereqs": [
+    "chemistry.I2.energetics",
+    "chemistry.I1.rates-reaction"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Equilibrium"
+    ],
+    "ICSE": [
+      "Cl.11-12 Equilibrium"
+    ],
+    "IB": [
+      "DP Equilibrium"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "equilibrium",
+    "reversible",
+    "Le Chatelier",
+    "dynamic"
+  ]
+}

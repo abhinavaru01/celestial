@@ -1,0 +1,36 @@
+{
+  "topicId": "cs.I1.file-io-data-formats",
+  "levels": {
+    "1": [
+      {
+        "id": "cs_I1_file_io_data_formats_q2",
+        "type": "mcq",
+        "prompt": "JSON is well suited to storing:",
+        "choices": [
+          "nested key-value data",
+          "only numbers",
+          "images",
+          "nothing"
+        ],
+        "answer": 0,
+        "explanation": "JSON represents nested objects and arrays."
+      }
+    ],
+    "2": [
+      {
+        "id": "cs_I1_file_io_data_formats_q1",
+        "type": "mcq",
+        "prompt": "Using with open(...) as f: ensures the file is:",
+        "choices": [
+          "closed automatically",
+          "never read",
+          "deleted",
+          "printed"
+        ],
+        "answer": 0,
+        "explanation": "The with block auto-closes the file."
+      }
+    ],
+    "3": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "topicId": "chemistry.A1.periodic-properties",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "chemistry_A1_periodic_properties_q1",
+        "type": "mcq",
+        "prompt": "Across a period (left to right), atomic radius generally:",
+        "choices": [
+          "decreases",
+          "increases",
+          "stays constant",
+          "doubles"
+        ],
+        "answer": 0,
+        "explanation": "Increasing nuclear charge pulls electrons in tighter."
+      },
+      {
+        "id": "chemistry_A1_periodic_properties_q2",
+        "type": "mcq",
+        "prompt": "Ionisation energy generally ___ down a group.",
+        "choices": [
+          "decreases",
+          "increases",
+          "stays the same",
+          "is zero"
+        ],
+        "answer": 0,
+        "explanation": "Outer electrons are farther out and easier to remove."
+      }
+    ],
+    "3": []
+  }
+}

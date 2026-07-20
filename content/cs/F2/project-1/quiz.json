@@ -1,0 +1,36 @@
+{
+  "topicId": "cs.F2.project-1",
+  "levels": {
+    "1": [
+      {
+        "id": "cs_F2_project_1_q2",
+        "type": "mcq",
+        "prompt": "Throughout a project you should:",
+        "choices": [
+          "commit progress regularly",
+          "never commit",
+          "delete old code",
+          "avoid functions"
+        ],
+        "answer": 0,
+        "explanation": "Regular commits document and protect progress."
+      }
+    ],
+    "2": [
+      {
+        "id": "cs_F2_project_1_q1",
+        "type": "mcq",
+        "prompt": "The best way to build a first project is to:",
+        "choices": [
+          "add and test one small feature at a time",
+          "write everything then run once",
+          "avoid functions",
+          "skip testing"
+        ],
+        "answer": 0,
+        "explanation": "Incremental building with testing is reliable."
+      }
+    ],
+    "3": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "topicId": "biology.I2.dna-inheritance",
+  "levels": {
+    "1": [
+      {
+        "id": "biology_I2_dna_inheritance_q1",
+        "type": "mcq",
+        "prompt": "In DNA, adenine (A) pairs with:",
+        "choices": [
+          "thymine (T)",
+          "cytosine (C)",
+          "guanine (G)",
+          "uracil (U)"
+        ],
+        "answer": 0,
+        "explanation": "A-T and C-G are the complementary pairs."
+      }
+    ],
+    "2": [
+      {
+        "id": "biology_I2_dna_inheritance_q2",
+        "type": "mcq",
+        "prompt": "The central dogma describes information flow from:",
+        "choices": [
+          "DNA to RNA to protein",
+          "protein to DNA",
+          "RNA to DNA only",
+          "protein to RNA"
+        ],
+        "answer": 0,
+        "explanation": "DNA → RNA → protein."
+      }
+    ],
+    "3": []
+  }
+}

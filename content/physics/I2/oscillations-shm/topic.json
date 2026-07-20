@@ -1,0 +1,42 @@
+{
+  "id": "physics.I2.oscillations-shm",
+  "subject": "physics",
+  "tier": "I2",
+  "title": "Oscillations (Simple Harmonic Motion)",
+  "slug": "oscillations-shm",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Simple harmonic motion: restoring force, period, and energy exchange in oscillators.",
+  "outcomes": [
+    "Define SHM conditions",
+    "Relate period to system parameters",
+    "Describe energy in oscillation"
+  ],
+  "prereqs": [
+    "physics.I2.kinematics-calculus"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Oscillations"
+    ],
+    "ICSE": [
+      "Cl.11 SHM"
+    ],
+    "IB": [
+      "DP Oscillations HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "oscillation",
+    "SHM",
+    "period",
+    "restoring force"
+  ]
+}

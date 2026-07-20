@@ -1,0 +1,42 @@
+{
+  "id": "physics.I2.waves-ii",
+  "subject": "physics",
+  "tier": "I2",
+  "title": "Waves II",
+  "slug": "waves-ii",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Superposition, standing waves, resonance and the Doppler effect.",
+  "outcomes": [
+    "Apply the principle of superposition",
+    "Explain standing waves and resonance",
+    "Describe the Doppler effect"
+  ],
+  "prereqs": [
+    "physics.I2.oscillations-shm"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Waves"
+    ],
+    "ICSE": [
+      "Cl.11-12 Waves"
+    ],
+    "IB": [
+      "DP Wave Phenomena HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "superposition",
+    "standing waves",
+    "resonance",
+    "Doppler"
+  ]
+}

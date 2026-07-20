@@ -1,0 +1,36 @@
+{
+  "topicId": "math.I1.statistics-ii",
+  "levels": {
+    "1": [
+      {
+        "id": "math_I1_statistics_ii_q2",
+        "type": "mcq",
+        "prompt": "Standard deviation is:",
+        "choices": [
+          "the square root of variance",
+          "the square of variance",
+          "the mean",
+          "the range"
+        ],
+        "answer": 0,
+        "explanation": "SD = √variance, restoring the original units."
+      }
+    ],
+    "2": [
+      {
+        "id": "math_I1_statistics_ii_q1",
+        "type": "mcq",
+        "prompt": "Two classes have the same mean score but class A has a larger standard deviation. This means class A's scores are:",
+        "choices": [
+          "more spread out",
+          "higher on average",
+          "lower on average",
+          "identical"
+        ],
+        "answer": 0,
+        "explanation": "Larger SD = more spread, even with the same mean."
+      }
+    ],
+    "3": []
+  }
+}

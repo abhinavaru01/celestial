@@ -1,0 +1,35 @@
+{
+  "topicId": "physics.A1.electrostatics",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "physics_A1_electrostatics_q1",
+        "type": "mcq",
+        "prompt": "Coulomb's law force between charges varies with distance as:",
+        "choices": [
+          "1/r²",
+          "1/r",
+          "r",
+          "r²"
+        ],
+        "answer": 0,
+        "explanation": "Inverse-square, like gravity."
+      },
+      {
+        "id": "physics_A1_electrostatics_q2",
+        "type": "mcq",
+        "prompt": "Electric field is force per unit:",
+        "choices": [
+          "charge",
+          "mass",
+          "area",
+          "volume"
+        ],
+        "answer": 0,
+        "explanation": "E = F/q."
+      }
+    ],
+    "3": []
+  }
+}

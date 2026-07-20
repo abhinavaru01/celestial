@@ -1,0 +1,44 @@
+{
+  "id": "math.A1.integration-techniques",
+  "subject": "math",
+  "tier": "A1",
+  "title": "Integration Techniques & Applications",
+  "slug": "integration-techniques",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Substitution and by-parts integration, definite integrals, and areas and volumes.",
+  "outcomes": [
+    "Integrate by substitution and by parts",
+    "Evaluate definite integrals",
+    "Find areas and volumes of revolution"
+  ],
+  "prereqs": [
+    "math.A1.calculus-limits-differentiation",
+    "math.I2.integrals-intuition"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Integrals",
+      "Cl.12 Application of Integrals"
+    ],
+    "ICSE": [
+      "Cl.12 Integration"
+    ],
+    "IB": [
+      "DP Calculus HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "integration",
+    "substitution",
+    "by parts",
+    "definite integral",
+    "area"
+  ]
+}

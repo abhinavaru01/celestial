@@ -1,0 +1,36 @@
+{
+  "topicId": "chemistry.F1.physical-chemical-change",
+  "levels": {
+    "1": [
+      {
+        "id": "chemistry_F1_physical_chemical_change_q1",
+        "type": "mcq",
+        "prompt": "Which is a chemical change?",
+        "choices": [
+          "iron rusting",
+          "ice melting",
+          "sugar dissolving",
+          "water boiling"
+        ],
+        "answer": 0,
+        "explanation": "Rusting forms a new substance (iron oxide)."
+      }
+    ],
+    "2": [
+      {
+        "id": "chemistry_F1_physical_chemical_change_q2",
+        "type": "mcq",
+        "prompt": "In a sealed flask, a reaction occurs. The total mass:",
+        "choices": [
+          "stays the same",
+          "increases",
+          "decreases",
+          "doubles"
+        ],
+        "answer": 0,
+        "explanation": "Mass is conserved; nothing escapes a sealed flask."
+      }
+    ],
+    "3": []
+  }
+}

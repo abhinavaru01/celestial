@@ -1,0 +1,41 @@
+{
+  "id": "cs.I1.complexity-intuition",
+  "subject": "cs",
+  "tier": "I1",
+  "title": "Complexity Intuition (Big-O)",
+  "slug": "complexity-intuition",
+  "core": true,
+  "order": 6,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Big-O as \"how does work grow with input size\" — using logarithms from maths.",
+  "outcomes": [
+    "Explain Big-O notation",
+    "Compare algorithm growth rates",
+    "Estimate scalability"
+  ],
+  "prereqs": [
+    "cs.I1.algorithms-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS: Efficiency"
+    ],
+    "ICSE": [
+      "Cl.12 Complexity"
+    ],
+    "IB": [
+      "DP CS"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "Big-O",
+    "complexity",
+    "scalability",
+    "growth",
+    "efficiency"
+  ]
+}

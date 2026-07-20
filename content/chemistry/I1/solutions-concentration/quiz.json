@@ -1,0 +1,28 @@
+{
+  "topicId": "chemistry.I1.solutions-concentration",
+  "levels": {
+    "1": [
+      {
+        "id": "chemistry_I1_solutions_concentration_q1",
+        "type": "numeric",
+        "prompt": "Molarity of 2 mol in 4 L?",
+        "answer": 0.5,
+        "tolerance": 0,
+        "unit": "M",
+        "explanation": "M = moles/litres = 2/4 = 0.5 M."
+      }
+    ],
+    "2": [
+      {
+        "id": "chemistry_I1_solutions_concentration_q2",
+        "type": "numeric",
+        "prompt": "Dilute 100 mL of 2 M to 200 mL. New molarity?",
+        "answer": 1,
+        "tolerance": 0,
+        "unit": "M",
+        "explanation": "C₁V₁ = C₂V₂ → 2×100 = C₂×200 → C₂ = 1 M."
+      }
+    ],
+    "3": []
+  }
+}

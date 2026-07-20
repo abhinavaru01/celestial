@@ -1,0 +1,35 @@
+{
+  "topicId": "math.A2.advanced-problem-solving",
+  "levels": {
+    "1": [],
+    "2": [],
+    "3": [
+      {
+        "id": "math_A2_advanced_problem_solving_q1",
+        "type": "mcq",
+        "prompt": "A good first step on an unfamiliar problem is often to:",
+        "choices": [
+          "solve a simpler version to find a pattern",
+          "give up if no formula is obvious",
+          "guess a numeric answer",
+          "skip reading the constraints"
+        ],
+        "answer": 0,
+        "explanation": "Reducing to a simpler case exposes the structure."
+      },
+      {
+        "id": "math_A2_advanced_problem_solving_q2",
+        "type": "mcq",
+        "prompt": "Pólya's four steps are understand, plan, do, and:",
+        "choices": [
+          "check",
+          "memorise",
+          "repeat",
+          "submit"
+        ],
+        "answer": 0,
+        "explanation": "The final step is to look back and check."
+      }
+    ]
+  }
+}

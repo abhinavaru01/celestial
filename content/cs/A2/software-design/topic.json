@@ -1,0 +1,40 @@
+{
+  "id": "cs.A2.software-design",
+  "subject": "cs",
+  "tier": "A2",
+  "title": "Software Design",
+  "slug": "software-design",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Requirements, decomposition, data modelling and interfaces.",
+  "outcomes": [
+    "Gather requirements",
+    "Decompose a system",
+    "Design data models and interfaces"
+  ],
+  "prereqs": [
+    "cs.A1.testing",
+    "cs.A1.oop"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS: Software Development"
+    ],
+    "ICSE": [
+      "Cl.12 SDLC"
+    ],
+    "IB": [
+      "DP CS: Design"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "software design",
+    "requirements",
+    "decomposition",
+    "data model",
+    "interface"
+  ]
+}

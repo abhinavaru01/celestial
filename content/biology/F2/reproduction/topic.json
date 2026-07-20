@@ -1,0 +1,42 @@
+{
+  "id": "biology.F2.reproduction",
+  "subject": "biology",
+  "tier": "F2",
+  "title": "Reproduction",
+  "slug": "reproduction",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Asexual and sexual reproduction, and the human reproductive system.",
+  "outcomes": [
+    "Compare asexual and sexual reproduction",
+    "Describe human reproduction",
+    "Explain variation from sexual reproduction"
+  ],
+  "prereqs": [
+    "biology.F2.plant-biology-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.8 Reproduction",
+      "Cl.10 How Organisms Reproduce"
+    ],
+    "ICSE": [
+      "Cl.8-10 Reproduction"
+    ],
+    "IB": [
+      "DP Reproduction"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "reproduction",
+    "asexual",
+    "sexual",
+    "gametes",
+    "variation"
+  ]
+}

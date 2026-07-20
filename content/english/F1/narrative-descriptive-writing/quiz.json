@@ -1,0 +1,36 @@
+{
+  "topicId": "english.F1.narrative-descriptive-writing",
+  "levels": {
+    "1": [
+      {
+        "id": "english_F1_narrative_descriptive_writing_q2",
+        "type": "mcq",
+        "prompt": "A narrative's turning point of highest tension is the:",
+        "choices": [
+          "climax",
+          "introduction",
+          "setting",
+          "title"
+        ],
+        "answer": 0,
+        "explanation": "The climax is the peak of the story's tension."
+      }
+    ],
+    "2": [
+      {
+        "id": "english_F1_narrative_descriptive_writing_q1",
+        "type": "mcq",
+        "prompt": "Which \"shows\" rather than \"tells\"?",
+        "choices": [
+          "Her hands trembled as she opened the letter.",
+          "She was very nervous.",
+          "It was a nervous moment.",
+          "She felt nervous inside."
+        ],
+        "answer": 0,
+        "explanation": "Sensory action lets the reader infer the emotion."
+      }
+    ],
+    "3": []
+  }
+}

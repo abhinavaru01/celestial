@@ -1,0 +1,40 @@
+{
+  "id": "math.F2.number-theory-basics",
+  "subject": "math",
+  "tier": "F2",
+  "title": "Integer Number Theory Basics",
+  "slug": "number-theory-basics",
+  "core": true,
+  "order": 7,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Divisibility, primes, factors, HCF and LCM — foundations that also serve computer science.",
+  "outcomes": [
+    "Test divisibility and identify primes",
+    "Find HCF and LCM",
+    "Use prime factorisation"
+  ],
+  "prereqs": [
+    "math.F2.probability-statistics-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.6 Playing with Numbers",
+      "Cl.10 Real Numbers"
+    ],
+    "ICSE": [
+      "Cl.6-8 Number Theory"
+    ],
+    "IB": [
+      "MYP Number"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "primes",
+    "factors",
+    "HCF",
+    "LCM",
+    "divisibility"
+  ]
+}

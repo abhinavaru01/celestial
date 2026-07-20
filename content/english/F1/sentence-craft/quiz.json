@@ -1,0 +1,36 @@
+{
+  "topicId": "english.F1.sentence-craft",
+  "levels": {
+    "1": [
+      {
+        "id": "english_F1_sentence_craft_q1",
+        "type": "mcq",
+        "prompt": "Which joins two ideas to show contrast?",
+        "choices": [
+          "but",
+          "and",
+          "so",
+          "because"
+        ],
+        "answer": 0,
+        "explanation": "\"But\" signals contrast between ideas."
+      }
+    ],
+    "2": [
+      {
+        "id": "english_F1_sentence_craft_q2",
+        "type": "mcq",
+        "prompt": "A complete sentence must contain a subject and a:",
+        "choices": [
+          "verb",
+          "noun only",
+          "adjective",
+          "comma"
+        ],
+        "answer": 0,
+        "explanation": "Subject + verb express a complete thought."
+      }
+    ],
+    "3": []
+  }
+}

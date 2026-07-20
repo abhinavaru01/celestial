@@ -1,0 +1,36 @@
+{
+  "topicId": "physics.A1.mechanics-rigor",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "physics_A1_mechanics_rigor_q2",
+        "type": "mcq",
+        "prompt": "Torque increases if you apply the force:",
+        "choices": [
+          "farther from the axis",
+          "closer to the axis",
+          "along the axis",
+          "at the axis"
+        ],
+        "answer": 0,
+        "explanation": "Torque = force × distance from the pivot."
+      }
+    ],
+    "3": [
+      {
+        "id": "physics_A1_mechanics_rigor_q1",
+        "type": "mcq",
+        "prompt": "The net work done on an object equals its change in:",
+        "choices": [
+          "kinetic energy",
+          "momentum",
+          "mass",
+          "temperature"
+        ],
+        "answer": 0,
+        "explanation": "The work-energy theorem: W_net = ΔKE."
+      }
+    ]
+  }
+}

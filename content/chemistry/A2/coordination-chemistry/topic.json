@@ -1,0 +1,45 @@
+{
+  "id": "chemistry.A2.coordination-chemistry",
+  "subject": "chemistry",
+  "tier": "A2",
+  "title": "d-Block & Coordination Chemistry",
+  "slug": "coordination-chemistry",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Transition metals, complex ions, ligands and colour.",
+  "outcomes": [
+    "Describe transition-metal properties",
+    "Explain coordination complexes",
+    "Relate d-electrons to colour"
+  ],
+  "prereqs": [
+    "chemistry.A2.biomolecules-polymers",
+    "chemistry.A1.periodic-properties"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 d- and f-Block",
+      "Cl.12 Coordination Compounds"
+    ],
+    "ICSE": [
+      "Cl.12 Transition Elements"
+    ],
+    "IB": [
+      "DP Transition Metals HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "transition metals",
+    "coordination",
+    "ligand",
+    "complex",
+    "d-block"
+  ]
+}

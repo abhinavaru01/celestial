@@ -1,0 +1,38 @@
+{
+  "id": "math.A2.modeling-capstone",
+  "subject": "math",
+  "tier": "A2",
+  "title": "Mathematical Modeling Capstone",
+  "slug": "modeling-capstone",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "A real modelling project: turn a messy real-world situation into mathematics, solve, and write it up.",
+  "outcomes": [
+    "Translate a real situation into a model",
+    "Solve and interpret the model",
+    "Communicate assumptions and limitations"
+  ],
+  "prereqs": [
+    "math.A2.advanced-problem-solving"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Integrated application"
+    ],
+    "ICSE": [
+      "Project work"
+    ],
+    "IB": [
+      "DP Mathematics: exploration/IA"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "modelling",
+    "capstone",
+    "assumptions",
+    "application"
+  ]
+}

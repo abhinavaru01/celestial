@@ -1,0 +1,43 @@
+{
+  "id": "chemistry.I1.bonding-i",
+  "subject": "chemistry",
+  "tier": "I1",
+  "title": "Bonding I",
+  "slug": "bonding-i",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Ionic, covalent and metallic bonding, and electron-dot structures.",
+  "outcomes": [
+    "Distinguish ionic, covalent, metallic bonds",
+    "Draw electron-dot structures",
+    "Relate bonding to properties"
+  ],
+  "prereqs": [
+    "chemistry.F2.stoichiometry-intro",
+    "chemistry.F2.atomic-structure-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.10-11 Chemical Bonding"
+    ],
+    "ICSE": [
+      "Cl.9-10 Chemical Bonding"
+    ],
+    "IB": [
+      "DP Bonding"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "ionic",
+    "covalent",
+    "metallic",
+    "bonding",
+    "electron-dot"
+  ]
+}

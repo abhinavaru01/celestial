@@ -1,0 +1,35 @@
+{
+  "topicId": "physics.A2.optics-advanced",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "physics_A2_optics_advanced_q1",
+        "type": "mcq",
+        "prompt": "Double-slit bright fringes occur where the path difference is:",
+        "choices": [
+          "a whole number of wavelengths",
+          "half a wavelength",
+          "zero only",
+          "any value"
+        ],
+        "answer": 0,
+        "explanation": "Constructive interference needs nλ path difference."
+      },
+      {
+        "id": "physics_A2_optics_advanced_q2",
+        "type": "mcq",
+        "prompt": "Diffraction is most pronounced when the gap is:",
+        "choices": [
+          "comparable to the wavelength",
+          "much larger than the wavelength",
+          "infinite",
+          "zero"
+        ],
+        "answer": 0,
+        "explanation": "Spreading is strongest when slit width ≈ wavelength."
+      }
+    ],
+    "3": []
+  }
+}

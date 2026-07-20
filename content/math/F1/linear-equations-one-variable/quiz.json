@@ -1,0 +1,26 @@
+{
+  "topicId": "math.F1.linear-equations-one-variable",
+  "levels": {
+    "1": [
+      {
+        "id": "math_F1_linear_equations_one_variable_q1",
+        "type": "numeric",
+        "prompt": "Solve 2x + 5 = 13. What is x?",
+        "answer": 4,
+        "tolerance": 0,
+        "explanation": "Subtract 5: 2x = 8; divide by 2: x = 4."
+      }
+    ],
+    "2": [
+      {
+        "id": "math_F1_linear_equations_one_variable_q2",
+        "type": "numeric",
+        "prompt": "Solve 3(x − 2) = 9. What is x?",
+        "answer": 5,
+        "tolerance": 0,
+        "explanation": "Divide by 3: x − 2 = 3; add 2: x = 5."
+      }
+    ],
+    "3": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "topicId": "english.F2.close-reading",
+  "levels": {
+    "1": [
+      {
+        "id": "english_F2_close_reading_q1",
+        "type": "mcq",
+        "prompt": "\"The wind whispered\" is an example of:",
+        "choices": [
+          "personification",
+          "simile",
+          "hyperbole",
+          "alliteration"
+        ],
+        "answer": 0,
+        "explanation": "Giving human traits (whispering) to wind is personification."
+      }
+    ],
+    "2": [
+      {
+        "id": "english_F2_close_reading_q2",
+        "type": "mcq",
+        "prompt": "A good analysis of a device also explains its:",
+        "choices": [
+          "effect on the reader",
+          "spelling",
+          "word count",
+          "font"
+        ],
+        "answer": 0,
+        "explanation": "Naming is not enough — explain the effect."
+      }
+    ],
+    "3": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "topicId": "english.A1.literary-criticism",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "english_A1_literary_criticism_q1",
+        "type": "mcq",
+        "prompt": "A \"critical lens\" is:",
+        "choices": [
+          "a perspective for interpreting a text",
+          "a summary tool",
+          "a grammar rule",
+          "a type of poem"
+        ],
+        "answer": 0,
+        "explanation": "It is a deliberate interpretive perspective."
+      },
+      {
+        "id": "english_A1_literary_criticism_q2",
+        "type": "mcq",
+        "prompt": "Literary criticism should be:",
+        "choices": [
+          "argued with textual evidence",
+          "pure plot summary",
+          "unsupported opinion",
+          "a word list"
+        ],
+        "answer": 0,
+        "explanation": "Interpretation must be grounded in the text."
+      }
+    ],
+    "3": []
+  }
+}

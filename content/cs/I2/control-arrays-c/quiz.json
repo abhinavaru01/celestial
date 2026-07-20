@@ -1,0 +1,36 @@
+{
+  "topicId": "cs.I2.control-arrays-c",
+  "levels": {
+    "1": [
+      {
+        "id": "cs_I2_control_arrays_c_q2",
+        "type": "mcq",
+        "prompt": "Compared with Python lists, C arrays are:",
+        "choices": [
+          "fixed size",
+          "always growable",
+          "key-value",
+          "untyped"
+        ],
+        "answer": 0,
+        "explanation": "C arrays have a fixed length."
+      }
+    ],
+    "2": [
+      {
+        "id": "cs_I2_control_arrays_c_q1",
+        "type": "mcq",
+        "prompt": "Accessing a C array beyond its size is:",
+        "choices": [
+          "undefined behaviour",
+          "a caught exception",
+          "automatically resized",
+          "always zero"
+        ],
+        "answer": 0,
+        "explanation": "C does no bounds checking — it is undefined behaviour."
+      }
+    ],
+    "3": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "biology.F1.living-environment-i",
+  "subject": "biology",
+  "tier": "F1",
+  "title": "Living Things & Their Environment I",
+  "slug": "living-environment-i",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Food chains and webs as energy flow, and how organisms depend on each other.",
+  "outcomes": [
+    "Construct food chains and webs",
+    "Explain energy flow",
+    "Describe interdependence"
+  ],
+  "prereqs": [
+    "biology.F1.nutrition-digestion"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.10 Our Environment"
+    ],
+    "ICSE": [
+      "Cl.7-8 Ecosystems"
+    ],
+    "IB": [
+      "DP Ecology"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "food chain",
+    "food web",
+    "energy flow",
+    "producers",
+    "ecosystem"
+  ]
+}

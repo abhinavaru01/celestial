@@ -1,0 +1,43 @@
+{
+  "id": "math.A1.calculus-limits-differentiation",
+  "subject": "math",
+  "tier": "A1",
+  "title": "Calculus: Limits & Differentiation",
+  "slug": "calculus-limits-differentiation",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Limits made precise, the rules of differentiation, and applications like optimisation and related rates.",
+  "outcomes": [
+    "Evaluate limits",
+    "Differentiate using product, quotient and chain rules",
+    "Solve optimisation and related-rate problems"
+  ],
+  "prereqs": [
+    "math.I2.combinatorics-probability-ii",
+    "math.I2.derivatives-intuition"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Continuity & Differentiability",
+      "Cl.12 Application of Derivatives"
+    ],
+    "ICSE": [
+      "Cl.12 Differentiation"
+    ],
+    "IB": [
+      "DP Calculus HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "limits",
+    "differentiation",
+    "chain rule",
+    "optimisation"
+  ]
+}

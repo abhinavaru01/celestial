@@ -1,0 +1,39 @@
+{
+  "id": "english.I2.public-speaking",
+  "subject": "english",
+  "tier": "I2",
+  "title": "Public Speaking & Structured Discussion",
+  "slug": "public-speaking",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Speaking clearly, listening well, and structuring a discussion or debate.",
+  "outcomes": [
+    "Structure a spoken argument",
+    "Listen and respond constructively",
+    "Use delivery techniques"
+  ],
+  "prereqs": [
+    "english.I2.formal-technical-writing"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 Speaking & Listening"
+    ],
+    "ICSE": [
+      "Cl.11-12 Oral"
+    ],
+    "IB": [
+      "DP Oral"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "public speaking",
+    "discussion",
+    "debate",
+    "delivery",
+    "listening"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "topicId": "english.I1.research-citation",
+  "levels": {
+    "1": [
+      {
+        "id": "english_I1_research_citation_q1",
+        "type": "mcq",
+        "prompt": "Using someone's ideas without citing them is:",
+        "choices": [
+          "plagiarism",
+          "paraphrasing",
+          "summarising",
+          "quoting"
+        ],
+        "answer": 0,
+        "explanation": "Uncredited use of others' ideas is plagiarism."
+      }
+    ],
+    "2": [
+      {
+        "id": "english_I1_research_citation_q2",
+        "type": "mcq",
+        "prompt": "A reliable source is best judged by its:",
+        "choices": [
+          "credibility and evidence",
+          "popularity",
+          "length",
+          "colour scheme"
+        ],
+        "answer": 0,
+        "explanation": "Credibility and supporting evidence matter most."
+      }
+    ],
+    "3": []
+  }
+}

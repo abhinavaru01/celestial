@@ -1,0 +1,39 @@
+{
+  "id": "english.I1.analysing-nonfiction-media",
+  "subject": "english",
+  "tier": "I1",
+  "title": "Analysing Non-Fiction & Media",
+  "slug": "analysing-nonfiction-media",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Rhetoric, bias and source evaluation — critical reading of real-world texts.",
+  "outcomes": [
+    "Identify rhetorical techniques",
+    "Detect bias",
+    "Evaluate source reliability"
+  ],
+  "prereqs": [
+    "english.I1.persuasive-essay"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.9-10 Media Literacy"
+    ],
+    "ICSE": [
+      "Cl.9-10 Comprehension"
+    ],
+    "IB": [
+      "DP Language & Media"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "rhetoric",
+    "bias",
+    "media",
+    "source evaluation",
+    "ethos pathos logos"
+  ]
+}

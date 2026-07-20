@@ -1,0 +1,26 @@
+{
+  "topicId": "math.F2.systems-linear-equations",
+  "levels": {
+    "1": [
+      {
+        "id": "math_F2_systems_linear_equations_q1",
+        "type": "numeric",
+        "prompt": "If x + y = 10 and x − y = 4, what is x?",
+        "answer": 7,
+        "tolerance": 0,
+        "explanation": "Add the equations: 2x = 14, so x = 7."
+      }
+    ],
+    "2": [
+      {
+        "id": "math_F2_systems_linear_equations_q2",
+        "type": "numeric",
+        "prompt": "From x + y = 10 and x − y = 4, what is y?",
+        "answer": 3,
+        "tolerance": 0,
+        "explanation": "x = 7, so y = 10 − 7 = 3."
+      }
+    ],
+    "3": []
+  }
+}

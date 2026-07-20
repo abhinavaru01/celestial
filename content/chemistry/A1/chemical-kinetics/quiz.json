@@ -1,0 +1,36 @@
+{
+  "topicId": "chemistry.A1.chemical-kinetics",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "chemistry_A1_chemical_kinetics_q2",
+        "type": "mcq",
+        "prompt": "A higher activation energy makes a reaction:",
+        "choices": [
+          "slower",
+          "faster",
+          "unchanged",
+          "spontaneous"
+        ],
+        "answer": 0,
+        "explanation": "Fewer collisions have enough energy, so it is slower."
+      }
+    ],
+    "3": [
+      {
+        "id": "chemistry_A1_chemical_kinetics_q1",
+        "type": "mcq",
+        "prompt": "The order of a reaction is determined by:",
+        "choices": [
+          "experiment",
+          "the balanced equation",
+          "the molar mass",
+          "the temperature only"
+        ],
+        "answer": 0,
+        "explanation": "Order is found experimentally, not from coefficients."
+      }
+    ]
+  }
+}

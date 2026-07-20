@@ -1,0 +1,36 @@
+{
+  "topicId": "math.A1.integration-techniques",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "math_A1_integration_techniques_q1",
+        "type": "mcq",
+        "prompt": "Best method for ∫ 2x·cos(x²) dx?",
+        "choices": [
+          "substitution (u = x²)",
+          "by parts",
+          "partial fractions",
+          "none"
+        ],
+        "answer": 0,
+        "explanation": "The inner function x² has derivative 2x present — substitute u = x²."
+      }
+    ],
+    "3": [
+      {
+        "id": "math_A1_integration_techniques_q2",
+        "type": "mcq",
+        "prompt": "A definite integral ∫ from a to b of f(x) dx gives:",
+        "choices": [
+          "the net area between a and b",
+          "the slope at b",
+          "the average of a and b",
+          "the derivative"
+        ],
+        "answer": 0,
+        "explanation": "It accumulates signed area over [a,b]."
+      }
+    ]
+  }
+}

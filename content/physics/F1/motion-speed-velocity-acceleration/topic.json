@@ -16,12 +16,33 @@
     "Apply the equations of uniformly accelerated motion to one-dimensional problems",
     "Convert between m/s and km/h fluently using ratio scaling"
   ],
-  "prereqs": ["math.F1.ratio-proportion-percentage"],
+  "prereqs": [
+    "math.F1.ratio-proportion-percentage"
+  ],
   "boardMap": {
-    "CBSE": ["Cl.7 Motion & Time", "Cl.9 Motion (kinematics)"],
-    "ICSE": ["Cl.7-9 Physics: Motion"],
-    "IB": ["MYP Sciences: Change / Movement"]
+    "CBSE": [
+      "Cl.7 Motion & Time",
+      "Cl.9 Motion (kinematics)"
+    ],
+    "ICSE": [
+      "Cl.7-9 Physics: Motion"
+    ],
+    "IB": [
+      "MYP Sciences: Change / Movement"
+    ]
   },
-  "competitiveTags": ["JEE-Main", "NEET"],
-  "keywords": ["speed", "velocity", "acceleration", "displacement", "kinematics", "motion graphs", "average speed"]
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "speed",
+    "velocity",
+    "acceleration",
+    "displacement",
+    "kinematics",
+    "motion graphs",
+    "average speed"
+  ],
+  "depth": "flagship"
 }

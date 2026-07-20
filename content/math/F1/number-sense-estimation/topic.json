@@ -1,0 +1,38 @@
+{
+  "id": "math.F1.number-sense-estimation",
+  "subject": "math",
+  "tier": "F1",
+  "title": "Number Sense & Estimation",
+  "slug": "number-sense-estimation",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Place value, negative numbers, orders of magnitude, mental math and the discipline of estimating before computing.",
+  "outcomes": [
+    "Work fluently with negative numbers and place value",
+    "Estimate answers using rounding and orders of magnitude",
+    "Use mental-math strategies to compute quickly"
+  ],
+  "prereqs": [],
+  "boardMap": {
+    "CBSE": [
+      "Cl.6 Knowing Our Numbers",
+      "Cl.6 Integers"
+    ],
+    "ICSE": [
+      "Cl.6 Number System"
+    ],
+    "IB": [
+      "MYP Number"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "place value",
+    "integers",
+    "estimation",
+    "mental math",
+    "orders of magnitude"
+  ]
+}

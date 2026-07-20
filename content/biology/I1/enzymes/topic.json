@@ -1,0 +1,42 @@
+{
+  "id": "biology.I1.enzymes",
+  "subject": "biology",
+  "tier": "I1",
+  "title": "Enzymes",
+  "slug": "enzymes",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Enzymes as biological catalysts, and the factors that affect their activity.",
+  "outcomes": [
+    "Explain enzyme action",
+    "Describe factors affecting enzymes",
+    "Relate enzymes to reaction rate"
+  ],
+  "prereqs": [
+    "biology.I1.cell-processes",
+    "chemistry.I1.rates-reaction"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Biomolecules (Enzymes)"
+    ],
+    "ICSE": [
+      "Cl.10-11 Enzymes"
+    ],
+    "IB": [
+      "DP Enzymes"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "enzymes",
+    "catalyst",
+    "active site",
+    "denaturation",
+    "activation energy"
+  ]
+}

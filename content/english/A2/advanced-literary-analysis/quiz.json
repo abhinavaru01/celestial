@@ -1,0 +1,36 @@
+{
+  "topicId": "english.A2.advanced-literary-analysis",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "english_A2_advanced_literary_analysis_q1",
+        "type": "mcq",
+        "prompt": "Analysing poetry (vs prose) pays special attention to:",
+        "choices": [
+          "form and metre",
+          "chapter length",
+          "page numbers",
+          "the blurb"
+        ],
+        "answer": 0,
+        "explanation": "Poetry's form and sound are central to meaning."
+      }
+    ],
+    "3": [
+      {
+        "id": "english_A2_advanced_literary_analysis_q2",
+        "type": "mcq",
+        "prompt": "A sophisticated literary essay argues:",
+        "choices": [
+          "a nuanced reading with evidence",
+          "one obvious meaning",
+          "the plot summary",
+          "personal preference"
+        ],
+        "answer": 0,
+        "explanation": "It defends a nuanced interpretation."
+      }
+    ]
+  }
+}

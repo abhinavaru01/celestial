@@ -1,0 +1,44 @@
+{
+  "id": "chemistry.F2.mole-concept",
+  "subject": "chemistry",
+  "tier": "F2",
+  "title": "The Mole Concept",
+  "slug": "mole-concept",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "The mole and molar mass — proportional reasoning applied to counting particles (the keystone topic).",
+  "outcomes": [
+    "Define the mole and Avogadro's number",
+    "Convert between mass, moles and particles",
+    "Use molar mass"
+  ],
+  "prereqs": [
+    "chemistry.F2.periodic-table",
+    "math.F2.exponents-scientific-notation"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.9-11 Mole Concept",
+      "Cl.11 Some Basic Concepts of Chemistry"
+    ],
+    "ICSE": [
+      "Cl.10 Mole Concept"
+    ],
+    "IB": [
+      "DP Stoichiometry"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "mole",
+    "Avogadro",
+    "molar mass",
+    "stoichiometry"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "chemistry.I2.atomic-structure-ii",
+  "subject": "chemistry",
+  "tier": "I2",
+  "title": "Atomic Structure II",
+  "slug": "atomic-structure-ii",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Electron configuration and quantum shells, treated intuitively.",
+  "outcomes": [
+    "Write electron configurations",
+    "Relate configuration to the periodic table",
+    "Explain energy levels intuitively"
+  ],
+  "prereqs": [
+    "chemistry.I1.rates-reaction",
+    "chemistry.F2.atomic-structure-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Structure of Atom"
+    ],
+    "ICSE": [
+      "Cl.11 Atomic Structure"
+    ],
+    "IB": [
+      "DP Atomic Structure"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "electron configuration",
+    "shells",
+    "subshells",
+    "energy levels"
+  ]
+}

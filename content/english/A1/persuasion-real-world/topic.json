@@ -1,0 +1,39 @@
+{
+  "id": "english.A1.persuasion-real-world",
+  "subject": "english",
+  "tier": "A1",
+  "title": "Persuasion in the Real World",
+  "slug": "persuasion-real-world",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Proposals, op-eds and the ethics of evidence.",
+  "outcomes": [
+    "Write proposals and op-eds",
+    "Adapt argument to audience",
+    "Use evidence ethically"
+  ],
+  "prereqs": [
+    "english.A1.research-paper"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 Writing"
+    ],
+    "ICSE": [
+      "Cl.11-12 Composition"
+    ],
+    "IB": [
+      "DP Written Tasks"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "persuasion",
+    "op-ed",
+    "proposal",
+    "audience",
+    "ethics"
+  ]
+}

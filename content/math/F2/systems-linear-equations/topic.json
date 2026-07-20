@@ -1,0 +1,40 @@
+{
+  "id": "math.F2.systems-linear-equations",
+  "subject": "math",
+  "tier": "F2",
+  "title": "Systems of Linear Equations",
+  "slug": "systems-linear-equations",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Solving two equations in two unknowns by substitution and elimination, and modelling with them.",
+  "outcomes": [
+    "Solve systems by substitution and elimination",
+    "Interpret a solution as the intersection of two lines",
+    "Model two-condition problems with a system"
+  ],
+  "prereqs": [
+    "math.F2.linear-relationships-coordinate-plane"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.9-10 Pair of Linear Equations"
+    ],
+    "ICSE": [
+      "Cl.9 Simultaneous Equations"
+    ],
+    "IB": [
+      "MYP/DP Algebra"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main"
+  ],
+  "keywords": [
+    "simultaneous equations",
+    "substitution",
+    "elimination",
+    "system"
+  ]
+}

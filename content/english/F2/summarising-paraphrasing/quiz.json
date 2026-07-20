@@ -1,0 +1,35 @@
+{
+  "topicId": "english.F2.summarising-paraphrasing",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "english_F2_summarising_paraphrasing_q1",
+        "type": "mcq",
+        "prompt": "A summary differs from a paraphrase mainly in that it is:",
+        "choices": [
+          "much shorter",
+          "longer",
+          "word-for-word",
+          "an opinion"
+        ],
+        "answer": 0,
+        "explanation": "Summaries compress; paraphrases restate at similar length."
+      },
+      {
+        "id": "english_F2_summarising_paraphrasing_q2",
+        "type": "mcq",
+        "prompt": "When paraphrasing you must:",
+        "choices": [
+          "keep the original meaning",
+          "add your opinion",
+          "copy key phrases",
+          "change the facts"
+        ],
+        "answer": 0,
+        "explanation": "Paraphrasing preserves meaning in new words."
+      }
+    ],
+    "3": []
+  }
+}

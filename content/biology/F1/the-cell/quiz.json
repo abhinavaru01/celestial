@@ -1,0 +1,36 @@
+{
+  "topicId": "biology.F1.the-cell",
+  "levels": {
+    "1": [
+      {
+        "id": "biology_F1_the_cell_q1",
+        "type": "mcq",
+        "prompt": "Which structure is found in plant cells but NOT animal cells?",
+        "choices": [
+          "cell wall",
+          "nucleus",
+          "mitochondria",
+          "cell membrane"
+        ],
+        "answer": 0,
+        "explanation": "Plant cells have a cellulose cell wall; animal cells do not."
+      }
+    ],
+    "2": [
+      {
+        "id": "biology_F1_the_cell_q2",
+        "type": "mcq",
+        "prompt": "The \"powerhouse\" organelle that releases energy is the:",
+        "choices": [
+          "mitochondrion",
+          "nucleus",
+          "vacuole",
+          "ribosome"
+        ],
+        "answer": 0,
+        "explanation": "Mitochondria carry out respiration to release energy."
+      }
+    ],
+    "3": []
+  }
+}

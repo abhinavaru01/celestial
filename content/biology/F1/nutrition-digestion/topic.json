@@ -1,0 +1,42 @@
+{
+  "id": "biology.F1.nutrition-digestion",
+  "subject": "biology",
+  "tier": "F1",
+  "title": "Nutrition & the Human Digestive System",
+  "slug": "nutrition-digestion",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Nutrients, a balanced diet, and how the digestive system breaks down food for energy.",
+  "outcomes": [
+    "Identify major nutrient groups",
+    "Trace food through digestion",
+    "Link nutrition to energy"
+  ],
+  "prereqs": [
+    "biology.F1.the-cell"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.7 Nutrition",
+      "Cl.10 Life Processes"
+    ],
+    "ICSE": [
+      "Cl.7-9 Nutrition & Digestion"
+    ],
+    "IB": [
+      "DP Physiology"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "nutrition",
+    "digestion",
+    "enzymes",
+    "nutrients",
+    "small intestine"
+  ]
+}

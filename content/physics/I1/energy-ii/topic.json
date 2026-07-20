@@ -1,0 +1,40 @@
+{
+  "id": "physics.I1.energy-ii",
+  "subject": "physics",
+  "tier": "I1",
+  "title": "Energy II",
+  "slug": "energy-ii",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Power, efficiency and energy resources, treated quantitatively.",
+  "outcomes": [
+    "Calculate power and efficiency",
+    "Track energy through transformations",
+    "Compare energy resources"
+  ],
+  "prereqs": [
+    "physics.I1.circular-motion-gravitation"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Work, Energy & Power"
+    ],
+    "ICSE": [
+      "Cl.10-11 Work, Power, Energy"
+    ],
+    "IB": [
+      "DP Energy"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "power",
+    "efficiency",
+    "energy resources"
+  ]
+}

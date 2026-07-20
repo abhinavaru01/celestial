@@ -1,0 +1,40 @@
+{
+  "id": "cs.I1.file-io-data-formats",
+  "subject": "cs",
+  "tier": "I1",
+  "title": "File I/O & Data Formats",
+  "slug": "file-io-data-formats",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Reading and writing files, and working with CSV and JSON.",
+  "outcomes": [
+    "Read and write files",
+    "Parse CSV and JSON",
+    "Handle data persistently"
+  ],
+  "prereqs": [
+    "cs.F2.project-1",
+    "cs.F2.dictionaries-sets"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS: File Handling"
+    ],
+    "ICSE": [
+      "Cl.11-12 Files"
+    ],
+    "IB": [
+      "DP CS: Files"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "file",
+    "CSV",
+    "JSON",
+    "persistence",
+    "I/O"
+  ]
+}

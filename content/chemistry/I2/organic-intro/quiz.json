@@ -1,0 +1,36 @@
+{
+  "topicId": "chemistry.I2.organic-intro",
+  "levels": {
+    "1": [
+      {
+        "id": "chemistry_I2_organic_intro_q1",
+        "type": "mcq",
+        "prompt": "A hydrocarbon with only single C–C bonds is an:",
+        "choices": [
+          "alkane",
+          "alkene",
+          "alcohol",
+          "acid"
+        ],
+        "answer": 0,
+        "explanation": "Alkanes are saturated (single bonds only)."
+      }
+    ],
+    "2": [
+      {
+        "id": "chemistry_I2_organic_intro_q2",
+        "type": "mcq",
+        "prompt": "The reactive part of an organic molecule is the:",
+        "choices": [
+          "functional group",
+          "carbon backbone",
+          "hydrogen only",
+          "nucleus"
+        ],
+        "answer": 0,
+        "explanation": "Functional groups define reactivity."
+      }
+    ],
+    "3": []
+  }
+}

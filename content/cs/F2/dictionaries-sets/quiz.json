@@ -1,0 +1,36 @@
+{
+  "topicId": "cs.F2.dictionaries-sets",
+  "levels": {
+    "1": [
+      {
+        "id": "cs_F2_dictionaries_sets_q1",
+        "type": "mcq",
+        "prompt": "Which structure maps keys to values?",
+        "choices": [
+          "dictionary",
+          "list",
+          "set",
+          "tuple"
+        ],
+        "answer": 0,
+        "explanation": "A dictionary stores key-value pairs."
+      }
+    ],
+    "2": [
+      {
+        "id": "cs_F2_dictionaries_sets_q2",
+        "type": "mcq",
+        "prompt": "To remove duplicates from a list quickly, convert it to a:",
+        "choices": [
+          "set",
+          "string",
+          "dictionary key list",
+          "float"
+        ],
+        "answer": 0,
+        "explanation": "Sets store only unique items."
+      }
+    ],
+    "3": []
+  }
+}

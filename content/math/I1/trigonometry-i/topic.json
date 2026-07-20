@@ -1,0 +1,43 @@
+{
+  "id": "math.I1.trigonometry-i",
+  "subject": "math",
+  "tier": "I1",
+  "title": "Trigonometry I",
+  "slug": "trigonometry-i",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Right-triangle ratios (sin, cos, tan) and early unit-circle intuition — the tools physics vectors need.",
+  "outcomes": [
+    "Use sin, cos and tan in right triangles",
+    "Solve for unknown sides and angles",
+    "Understand the unit-circle picture"
+  ],
+  "prereqs": [
+    "math.I1.coordinate-geometry"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.10 Introduction to Trigonometry"
+    ],
+    "ICSE": [
+      "Cl.9-10 Trigonometry"
+    ],
+    "IB": [
+      "DP Trigonometry"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "trigonometry",
+    "sine",
+    "cosine",
+    "tangent",
+    "unit circle"
+  ]
+}

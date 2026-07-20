@@ -1,0 +1,44 @@
+{
+  "id": "chemistry.I2.bonding-ii",
+  "subject": "chemistry",
+  "tier": "I2",
+  "title": "Bonding II",
+  "slug": "bonding-ii",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Molecular shapes (VSEPR), polarity, and intermolecular forces.",
+  "outcomes": [
+    "Predict shapes with VSEPR",
+    "Determine molecular polarity",
+    "Explain intermolecular forces"
+  ],
+  "prereqs": [
+    "chemistry.I2.atomic-structure-ii",
+    "chemistry.I1.bonding-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Chemical Bonding & Molecular Structure"
+    ],
+    "ICSE": [
+      "Cl.11 Bonding"
+    ],
+    "IB": [
+      "DP Bonding HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "VSEPR",
+    "shape",
+    "polarity",
+    "intermolecular forces",
+    "hydrogen bonding"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "physics.A2.optics-advanced",
+  "subject": "physics",
+  "tier": "A2",
+  "title": "Optics at Full Rigor",
+  "slug": "optics-advanced",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Wave optics: interference, diffraction and the wave nature of light.",
+  "outcomes": [
+    "Explain interference and diffraction",
+    "Analyse the double-slit experiment",
+    "Relate path difference to fringes"
+  ],
+  "prereqs": [
+    "physics.A2.electromagnetic-induction",
+    "physics.I2.waves-ii"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Wave Optics"
+    ],
+    "ICSE": [
+      "Cl.12 Wave Optics"
+    ],
+    "IB": [
+      "DP Wave Phenomena HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "wave optics",
+    "interference",
+    "diffraction",
+    "double slit"
+  ]
+}

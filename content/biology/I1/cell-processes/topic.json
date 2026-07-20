@@ -1,0 +1,42 @@
+{
+  "id": "biology.I1.cell-processes",
+  "subject": "biology",
+  "tier": "I1",
+  "title": "Cell Processes",
+  "slug": "cell-processes",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Diffusion, osmosis and active transport — how substances cross membranes.",
+  "outcomes": [
+    "Explain diffusion and osmosis",
+    "Describe active transport",
+    "Relate transport to concentration"
+  ],
+  "prereqs": [
+    "biology.F2.health-disease",
+    "chemistry.I1.solutions-concentration"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.9-11 Transport across Membranes"
+    ],
+    "ICSE": [
+      "Cl.9-10 Cell Transport"
+    ],
+    "IB": [
+      "DP Membrane Transport"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "diffusion",
+    "osmosis",
+    "active transport",
+    "membrane",
+    "concentration gradient"
+  ]
+}

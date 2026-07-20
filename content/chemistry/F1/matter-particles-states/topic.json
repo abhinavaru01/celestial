@@ -1,0 +1,40 @@
+{
+  "id": "chemistry.F1.matter-particles-states",
+  "subject": "chemistry",
+  "tier": "F1",
+  "title": "Matter, Particles & States",
+  "slug": "matter-particles-states",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "The particle model of matter, the three states, and changes of state.",
+  "outcomes": [
+    "Describe matter using the particle model",
+    "Explain the three states and changes between them",
+    "Distinguish pure substances from mixtures"
+  ],
+  "prereqs": [],
+  "boardMap": {
+    "CBSE": [
+      "Cl.6-7 Matter",
+      "Cl.9 Matter in Our Surroundings"
+    ],
+    "ICSE": [
+      "Cl.6-7 Matter"
+    ],
+    "IB": [
+      "MYP Sciences"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "matter",
+    "particle model",
+    "states",
+    "melting",
+    "boiling"
+  ]
+}

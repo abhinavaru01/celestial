@@ -1,0 +1,30 @@
+{
+  "topicId": "chemistry.F2.chemical-formulae-equations",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "chemistry_F2_chemical_formulae_equations_q1",
+        "type": "mcq",
+        "prompt": "To balance an equation you adjust the:",
+        "choices": [
+          "coefficients",
+          "subscripts",
+          "atomic numbers",
+          "symbols"
+        ],
+        "answer": 0,
+        "explanation": "Coefficients change amounts; subscripts would change the substance."
+      },
+      {
+        "id": "chemistry_F2_chemical_formulae_equations_q2",
+        "type": "numeric",
+        "prompt": "Balance H₂ + O₂ → H₂O. What coefficient goes in front of H₂O?",
+        "answer": 2,
+        "tolerance": 0,
+        "explanation": "2H₂ + O₂ → 2H₂O balances all atoms."
+      }
+    ],
+    "3": []
+  }
+}

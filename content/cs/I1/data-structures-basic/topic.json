@@ -1,0 +1,43 @@
+{
+  "id": "cs.I1.data-structures-basic",
+  "subject": "cs",
+  "tier": "I1",
+  "title": "Data Structures: Stacks, Queues, Linked Lists",
+  "slug": "data-structures-basic",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Building and using basic data structures, and understanding their trade-offs.",
+  "outcomes": [
+    "Explain stacks, queues, linked lists",
+    "Implement them in Python",
+    "Choose a structure for a task"
+  ],
+  "prereqs": [
+    "cs.I1.modules-organization",
+    "cs.F2.dictionaries-sets"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS: Stacks & Queues"
+    ],
+    "ICSE": [
+      "Cl.11-12 Data Structures"
+    ],
+    "IB": [
+      "DP CS: Abstract Data Structures"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "stack",
+    "queue",
+    "linked list",
+    "data structure",
+    "LIFO",
+    "FIFO"
+  ]
+}

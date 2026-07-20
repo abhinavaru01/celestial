@@ -1,0 +1,30 @@
+{
+  "topicId": "math.A1.matrices-determinants",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "math_A1_matrices_determinants_q1",
+        "type": "numeric",
+        "prompt": "Determinant of [[2,3],[1,4]]?",
+        "answer": 5,
+        "tolerance": 0,
+        "explanation": "ad − bc = 2×4 − 3×1 = 5."
+      },
+      {
+        "id": "math_A1_matrices_determinants_q2",
+        "type": "mcq",
+        "prompt": "A matrix has determinant 0. It is:",
+        "choices": [
+          "not invertible",
+          "always invertible",
+          "the identity",
+          "symmetric"
+        ],
+        "answer": 0,
+        "explanation": "Zero determinant means no inverse exists."
+      }
+    ],
+    "3": []
+  }
+}

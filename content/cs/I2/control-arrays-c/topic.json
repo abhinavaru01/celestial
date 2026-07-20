@@ -1,0 +1,39 @@
+{
+  "id": "cs.I2.control-arrays-c",
+  "subject": "cs",
+  "tier": "I2",
+  "title": "Control Flow & Arrays in C",
+  "slug": "control-arrays-c",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Conditionals, loops and arrays in C, and how they differ from Python.",
+  "outcomes": [
+    "Write C conditionals and loops",
+    "Use C arrays",
+    "Note differences from Python"
+  ],
+  "prereqs": [
+    "cs.I2.intro-c"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 CS"
+    ],
+    "ICSE": [
+      "Cl.11-12 C Programming"
+    ],
+    "IB": [
+      "DP CS"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "C",
+    "arrays",
+    "control flow",
+    "loops",
+    "bounds"
+  ]
+}

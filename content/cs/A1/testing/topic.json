@@ -1,0 +1,39 @@
+{
+  "id": "cs.A1.testing",
+  "subject": "cs",
+  "tier": "A1",
+  "title": "Testing",
+  "slug": "testing",
+  "core": true,
+  "order": 6,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Writing tests and thinking about edge cases.",
+  "outcomes": [
+    "Write basic tests",
+    "Identify edge cases",
+    "Use tests to catch regressions"
+  ],
+  "prereqs": [
+    "cs.A1.algorithmic-problem-solving",
+    "cs.I1.error-handling-debugging"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS: Testing"
+    ],
+    "ICSE": [
+      "Cl.12 Testing"
+    ],
+    "IB": [
+      "DP CS: Development"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "testing",
+    "edge cases",
+    "regression",
+    "unit test"
+  ]
+}

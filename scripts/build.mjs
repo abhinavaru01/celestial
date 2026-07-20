@@ -99,8 +99,9 @@ for (const dir of topicDirs) {
 function validateQuiz(quiz, rel) {
   if (!quiz.levels) { err(`${rel}/quiz.json: missing "levels"`); return; }
   for (const lvl of ['1', '2', '3']) {
-    const qs = quiz.levels[lvl];
-    if (!Array.isArray(qs) || qs.length === 0) { err(`${rel}/quiz.json: level ${lvl} must be a non-empty array`); continue; }
+    const qs = quiz.levels[lvl] ?? [];
+    if (!Array.isArray(qs)) { err(`${rel}/quiz.json: level ${lvl} must be an array`); continue; }
+    if (qs.length === 0) { warn(`${rel}/quiz.json: level ${lvl} has no questions yet`); continue; }
     for (const q of qs) {
       if (!q.id) err(`${rel}/quiz.json L${lvl}: a question is missing "id"`);
       if (!q.prompt) err(`${rel}/quiz.json L${lvl} (${q.id}): missing "prompt"`);
@@ -184,6 +185,7 @@ const manifest = {
     id: t.id, subject: t.subject, tier: t.tier, title: t.title, slug: t.slug,
     core: t.core !== false, order: t.order ?? 0, estMinutes: t.estMinutes ?? null,
     summary: t.summary ?? '', prereqs: t.prereqs || [], competitiveTags: t.competitiveTags || [],
+    depth: t.depth || 'module',
     inDegree: inDeg[t.id], outDegree: outDeg[t.id],
   })),
 };
@@ -192,7 +194,7 @@ const content = {};
 for (const t of topics) {
   content[t.id] = {
     id: t.id, subject: t.subject, tier: t.tier, title: t.title, slug: t.slug,
-    core: t.core !== false, summary: t.summary ?? '', outcomes: t.outcomes || [],
+    core: t.core !== false, depth: t.depth || 'module', summary: t.summary ?? '', outcomes: t.outcomes || [],
     estMinutes: t.estMinutes ?? null, prereqs: t.prereqs || [],
     boardMap: t.boardMap || {}, competitiveTags: t.competitiveTags || [], keywords: t.keywords || [],
     notes: t.notes, mistakes: t.mistakes, tricks: t.tricks, memoryAids: t.memoryAids, quiz: t.quiz,

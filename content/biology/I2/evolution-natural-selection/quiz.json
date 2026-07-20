@@ -1,0 +1,35 @@
+{
+  "topicId": "biology.I2.evolution-natural-selection",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "biology_I2_evolution_natural_selection_q1",
+        "type": "mcq",
+        "prompt": "Natural selection acts most directly on:",
+        "choices": [
+          "populations over generations",
+          "a single individual's lifetime",
+          "non-living matter",
+          "random atoms"
+        ],
+        "answer": 0,
+        "explanation": "Allele frequencies shift in populations across generations."
+      },
+      {
+        "id": "biology_I2_evolution_natural_selection_q2",
+        "type": "mcq",
+        "prompt": "Which is evidence for evolution?",
+        "choices": [
+          "DNA similarities between species",
+          "the colour of the sky",
+          "gravity",
+          "the water cycle"
+        ],
+        "answer": 0,
+        "explanation": "Molecular, fossil and anatomical evidence all support evolution."
+      }
+    ],
+    "3": []
+  }
+}

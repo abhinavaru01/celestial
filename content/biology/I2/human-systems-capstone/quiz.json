@@ -1,0 +1,36 @@
+{
+  "topicId": "biology.I2.human-systems-capstone",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "biology_I2_human_systems_capstone_q1",
+        "type": "mcq",
+        "prompt": "During exercise, which systems must work together?",
+        "choices": [
+          "muscular, circulatory, respiratory and nervous",
+          "only the muscular",
+          "only the digestive",
+          "none"
+        ],
+        "answer": 0,
+        "explanation": "Multiple systems coordinate to meet demand."
+      }
+    ],
+    "3": [
+      {
+        "id": "biology_I2_human_systems_capstone_q2",
+        "type": "mcq",
+        "prompt": "The common principle linking the body's systems is:",
+        "choices": [
+          "homeostasis",
+          "photosynthesis",
+          "osmosis only",
+          "digestion"
+        ],
+        "answer": 0,
+        "explanation": "Systems cooperate to maintain internal stability."
+      }
+    ]
+  }
+}

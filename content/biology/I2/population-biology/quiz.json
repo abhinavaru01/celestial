@@ -1,0 +1,35 @@
+{
+  "topicId": "biology.I2.population-biology",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "biology_I2_population_biology_q1",
+        "type": "mcq",
+        "prompt": "A population levels off at its:",
+        "choices": [
+          "carrying capacity",
+          "exponential phase",
+          "starting size",
+          "minimum"
+        ],
+        "answer": 0,
+        "explanation": "Carrying capacity is the sustainable maximum."
+      },
+      {
+        "id": "biology_I2_population_biology_q2",
+        "type": "mcq",
+        "prompt": "Early, unlimited population growth is:",
+        "choices": [
+          "exponential",
+          "linear",
+          "zero",
+          "decreasing"
+        ],
+        "answer": 0,
+        "explanation": "Growth compounds — exponential — until limits apply."
+      }
+    ],
+    "3": []
+  }
+}

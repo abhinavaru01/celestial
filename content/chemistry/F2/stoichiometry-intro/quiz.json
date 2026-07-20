@@ -1,0 +1,36 @@
+{
+  "topicId": "chemistry.F2.stoichiometry-intro",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "chemistry_F2_stoichiometry_intro_q1",
+        "type": "mcq",
+        "prompt": "In 2H₂ + O₂ → 2H₂O, the mole ratio of H₂ to H₂O is:",
+        "choices": [
+          "1 : 1",
+          "2 : 1",
+          "1 : 2",
+          "2 : 3"
+        ],
+        "answer": 0,
+        "explanation": "Coefficients 2 and 2 give a 1:1 ratio."
+      }
+    ],
+    "3": [
+      {
+        "id": "chemistry_F2_stoichiometry_intro_q2",
+        "type": "mcq",
+        "prompt": "The reactant that runs out first is called the:",
+        "choices": [
+          "limiting reactant",
+          "excess reactant",
+          "catalyst",
+          "product"
+        ],
+        "answer": 0,
+        "explanation": "It limits how much product can form."
+      }
+    ]
+  }
+}

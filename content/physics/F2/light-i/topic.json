@@ -1,0 +1,44 @@
+{
+  "id": "physics.F2.light-i",
+  "subject": "physics",
+  "tier": "F2",
+  "title": "Light I",
+  "slug": "light-i",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Light as rays: reflection, refraction and simple lenses, using the geometry of similar triangles.",
+  "outcomes": [
+    "Apply the laws of reflection and refraction",
+    "Trace rays through mirrors and lenses",
+    "Explain image formation"
+  ],
+  "prereqs": [
+    "physics.F2.heat-temperature",
+    "math.F2.geometry-similarity-pythagoras"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.7-8 Light",
+      "Cl.10 Light: Reflection & Refraction"
+    ],
+    "ICSE": [
+      "Cl.8-10 Light"
+    ],
+    "IB": [
+      "DP Waves/Optics"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "light",
+    "reflection",
+    "refraction",
+    "lens",
+    "ray diagram"
+  ]
+}

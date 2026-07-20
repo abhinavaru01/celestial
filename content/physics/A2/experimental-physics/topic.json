@@ -1,0 +1,39 @@
+{
+  "id": "physics.A2.experimental-physics",
+  "subject": "physics",
+  "tier": "A2",
+  "title": "Experimental Physics Portfolio",
+  "slug": "experimental-physics",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Error analysis, real measurement and scientific write-ups — the capstone lab strand.",
+  "outcomes": [
+    "Estimate and propagate uncertainty",
+    "Design and record experiments",
+    "Write clear lab reports"
+  ],
+  "prereqs": [
+    "physics.A2.modern-physics",
+    "math.I1.statistics-ii"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 Practical Physics"
+    ],
+    "ICSE": [
+      "Cl.11-12 Practical"
+    ],
+    "IB": [
+      "DP Physics IA"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "error analysis",
+    "uncertainty",
+    "measurement",
+    "lab report"
+  ]
+}

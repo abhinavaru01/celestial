@@ -1,0 +1,39 @@
+{
+  "id": "cs.I2.strings-memory-c",
+  "subject": "cs",
+  "tier": "I2",
+  "title": "Strings & Manual Memory Management in C",
+  "slug": "strings-memory-c",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "C strings as character arrays, malloc/free, and why Python never needed them.",
+  "outcomes": [
+    "Handle C strings",
+    "Allocate and free memory",
+    "Avoid memory leaks"
+  ],
+  "prereqs": [
+    "cs.I2.pointers-memory"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS (Memory)"
+    ],
+    "ICSE": [
+      "Cl.12 Dynamic Memory"
+    ],
+    "IB": [
+      "DP CS"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "C strings",
+    "malloc",
+    "free",
+    "memory leak",
+    "null terminator"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "topicId": "cs.I1.data-structures-basic",
+  "levels": {
+    "1": [
+      {
+        "id": "cs_I1_data_structures_basic_q1",
+        "type": "mcq",
+        "prompt": "A stack removes items in ___ order.",
+        "choices": [
+          "last-in-first-out",
+          "first-in-first-out",
+          "random",
+          "sorted"
+        ],
+        "answer": 0,
+        "explanation": "Stacks are LIFO."
+      }
+    ],
+    "2": [
+      {
+        "id": "cs_I1_data_structures_basic_q2",
+        "type": "mcq",
+        "prompt": "A queue is best described as:",
+        "choices": [
+          "first-in-first-out",
+          "last-in-first-out",
+          "key-value",
+          "unordered"
+        ],
+        "answer": 0,
+        "explanation": "Queues are FIFO, like a line of people."
+      }
+    ],
+    "3": []
+  }
+}

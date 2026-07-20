@@ -1,0 +1,36 @@
+{
+  "topicId": "biology.F2.cells-to-organisms",
+  "levels": {
+    "1": [
+      {
+        "id": "biology_F2_cells_to_organisms_q1",
+        "type": "mcq",
+        "prompt": "The correct order of organisation is:",
+        "choices": [
+          "cells → tissues → organs → systems",
+          "organs → cells → tissues",
+          "systems → cells → organs",
+          "tissues → cells → organs"
+        ],
+        "answer": 0,
+        "explanation": "Cells build tissues, then organs, then systems."
+      }
+    ],
+    "2": [
+      {
+        "id": "biology_F2_cells_to_organisms_q2",
+        "type": "mcq",
+        "prompt": "A red blood cell is packed with haemoglobin because its function is to:",
+        "choices": [
+          "carry oxygen",
+          "fight infection",
+          "send signals",
+          "store fat"
+        ],
+        "answer": 0,
+        "explanation": "Structure (haemoglobin) fits function (oxygen transport)."
+      }
+    ],
+    "3": []
+  }
+}

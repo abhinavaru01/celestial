@@ -1,0 +1,39 @@
+{
+  "id": "english.A2.advanced-literary-analysis",
+  "subject": "english",
+  "tier": "A2",
+  "title": "Advanced Literary Analysis",
+  "slug": "advanced-literary-analysis",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Poetry, drama and the novel analysed at examination depth.",
+  "outcomes": [
+    "Analyse across genres",
+    "Handle complex, layered texts",
+    "Write exam-level literary essays"
+  ],
+  "prereqs": [
+    "english.A1.persuasion-real-world"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Literature"
+    ],
+    "ICSE": [
+      "Cl.12 Literature"
+    ],
+    "IB": [
+      "DP Literature HL"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "literary analysis",
+    "poetry",
+    "drama",
+    "novel",
+    "exam"
+  ]
+}

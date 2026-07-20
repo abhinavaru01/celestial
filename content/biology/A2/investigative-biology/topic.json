@@ -1,0 +1,40 @@
+{
+  "id": "biology.A2.investigative-biology",
+  "subject": "biology",
+  "tier": "A2",
+  "title": "Investigative Biology Portfolio",
+  "slug": "investigative-biology",
+  "core": true,
+  "order": 6,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Experimental design and data analysis — the capstone research strand.",
+  "outcomes": [
+    "Design controlled experiments",
+    "Analyse biological data",
+    "Draw evidence-based conclusions"
+  ],
+  "prereqs": [
+    "biology.A2.human-health-disease",
+    "math.I1.statistics-ii"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 Practical Biology"
+    ],
+    "ICSE": [
+      "Cl.11-12 Practical"
+    ],
+    "IB": [
+      "DP Biology IA"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "experimental design",
+    "data analysis",
+    "control",
+    "statistics",
+    "investigation"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "topicId": "biology.I1.cell-processes",
+  "levels": {
+    "1": [
+      {
+        "id": "biology_I1_cell_processes_q1",
+        "type": "mcq",
+        "prompt": "Osmosis is the movement of ___ across a membrane.",
+        "choices": [
+          "water",
+          "glucose",
+          "oxygen",
+          "protein"
+        ],
+        "answer": 0,
+        "explanation": "Osmosis specifically refers to water movement."
+      }
+    ],
+    "2": [
+      {
+        "id": "biology_I1_cell_processes_q2",
+        "type": "mcq",
+        "prompt": "Active transport differs from diffusion because it:",
+        "choices": [
+          "requires energy and can go against the gradient",
+          "is always faster",
+          "needs no membrane",
+          "only moves water"
+        ],
+        "answer": 0,
+        "explanation": "Active transport uses energy to move against the gradient."
+      }
+    ],
+    "3": []
+  }
+}

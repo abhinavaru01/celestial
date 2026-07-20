@@ -1,0 +1,36 @@
+{
+  "topicId": "cs.F1.computational-thinking",
+  "levels": {
+    "1": [
+      {
+        "id": "cs_F1_computational_thinking_q1",
+        "type": "mcq",
+        "prompt": "Breaking a big problem into smaller parts is called:",
+        "choices": [
+          "decomposition",
+          "abstraction",
+          "iteration",
+          "compilation"
+        ],
+        "answer": 0,
+        "explanation": "Decomposition splits a problem into manageable pieces."
+      }
+    ],
+    "2": [
+      {
+        "id": "cs_F1_computational_thinking_q2",
+        "type": "mcq",
+        "prompt": "An algorithm must be:",
+        "choices": [
+          "a precise, unambiguous sequence of steps",
+          "written in one language",
+          "always short",
+          "a kind of computer"
+        ],
+        "answer": 0,
+        "explanation": "Algorithms are unambiguous step-by-step recipes."
+      }
+    ],
+    "3": []
+  }
+}

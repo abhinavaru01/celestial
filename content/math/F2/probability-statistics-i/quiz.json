@@ -1,0 +1,31 @@
+{
+  "topicId": "math.F2.probability-statistics-i",
+  "levels": {
+    "1": [
+      {
+        "id": "math_F2_probability_statistics_i_q1",
+        "type": "mcq",
+        "prompt": "A fair die is rolled. P(rolling a 4)?",
+        "choices": [
+          "1/6",
+          "1/4",
+          "4/6",
+          "1/2"
+        ],
+        "answer": 0,
+        "explanation": "One favourable outcome out of six: 1/6."
+      }
+    ],
+    "2": [
+      {
+        "id": "math_F2_probability_statistics_i_q2",
+        "type": "numeric",
+        "prompt": "Find the median of 3, 1, 4, 1, 5.",
+        "answer": 3,
+        "tolerance": 0,
+        "explanation": "Ordered: 1,1,3,4,5 → middle value is 3."
+      }
+    ],
+    "3": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "topicId": "cs.I1.complexity-intuition",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "cs_I1_complexity_intuition_q1",
+        "type": "mcq",
+        "prompt": "Which grows slowest as input size n increases?",
+        "choices": [
+          "O(log n)",
+          "O(n)",
+          "O(n²)",
+          "O(n³)"
+        ],
+        "answer": 0,
+        "explanation": "Logarithmic growth is the slowest here."
+      },
+      {
+        "id": "cs_I1_complexity_intuition_q2",
+        "type": "mcq",
+        "prompt": "Two nested loops over n items are usually:",
+        "choices": [
+          "O(n²)",
+          "O(n)",
+          "O(log n)",
+          "O(1)"
+        ],
+        "answer": 0,
+        "explanation": "Each of n iterations does n work → n²."
+      }
+    ],
+    "3": []
+  }
+}

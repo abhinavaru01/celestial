@@ -1,0 +1,35 @@
+{
+  "topicId": "english.I1.analysing-nonfiction-media",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "english_I1_analysing_nonfiction_media_q1",
+        "type": "mcq",
+        "prompt": "An appeal to the reader's emotions is called:",
+        "choices": [
+          "pathos",
+          "logos",
+          "ethos",
+          "syntax"
+        ],
+        "answer": 0,
+        "explanation": "Pathos is the emotional appeal."
+      },
+      {
+        "id": "english_I1_analysing_nonfiction_media_q2",
+        "type": "mcq",
+        "prompt": "To judge a source's reliability, first ask:",
+        "choices": [
+          "who wrote it and why",
+          "how long it is",
+          "what font it uses",
+          "if it is popular"
+        ],
+        "answer": 0,
+        "explanation": "Author and purpose reveal potential bias."
+      }
+    ],
+    "3": []
+  }
+}

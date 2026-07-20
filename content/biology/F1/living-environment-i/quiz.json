@@ -1,0 +1,36 @@
+{
+  "topicId": "biology.F1.living-environment-i",
+  "levels": {
+    "1": [
+      {
+        "id": "biology_F1_living_environment_i_q1",
+        "type": "mcq",
+        "prompt": "In a food chain, arrows point:",
+        "choices": [
+          "in the direction energy flows",
+          "from predator to prey",
+          "randomly",
+          "toward the sun"
+        ],
+        "answer": 0,
+        "explanation": "Arrows go from the eaten to the eater — the energy direction."
+      }
+    ],
+    "2": [
+      {
+        "id": "biology_F1_living_environment_i_q2",
+        "type": "mcq",
+        "prompt": "Every food chain begins with a:",
+        "choices": [
+          "producer",
+          "carnivore",
+          "decomposer",
+          "herbivore"
+        ],
+        "answer": 0,
+        "explanation": "Producers capture energy to start the chain."
+      }
+    ],
+    "3": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "topicId": "cs.A1.recursion",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "cs_A1_recursion_q1",
+        "type": "mcq",
+        "prompt": "Every recursive function needs a:",
+        "choices": [
+          "base case",
+          "global variable",
+          "loop",
+          "class"
+        ],
+        "answer": 0,
+        "explanation": "The base case stops the recursion."
+      },
+      {
+        "id": "cs_A1_recursion_q2",
+        "type": "mcq",
+        "prompt": "Missing a base case in recursion typically causes:",
+        "choices": [
+          "a stack overflow",
+          "faster code",
+          "a syntax error only",
+          "nothing"
+        ],
+        "answer": 0,
+        "explanation": "It recurses endlessly until the stack overflows."
+      }
+    ],
+    "3": []
+  }
+}

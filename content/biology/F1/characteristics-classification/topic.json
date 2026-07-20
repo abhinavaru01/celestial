@@ -1,0 +1,40 @@
+{
+  "id": "biology.F1.characteristics-classification",
+  "subject": "biology",
+  "tier": "F1",
+  "title": "What is Life? Characteristics & Classification",
+  "slug": "characteristics-classification",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "The characteristics shared by living things, and classification as an organising principle.",
+  "outcomes": [
+    "List the characteristics of life",
+    "Explain why we classify organisms",
+    "Use basic classification groups"
+  ],
+  "prereqs": [],
+  "boardMap": {
+    "CBSE": [
+      "Cl.6-7 Living World",
+      "Cl.9 Diversity in Living Organisms"
+    ],
+    "ICSE": [
+      "Cl.6-8 Classification"
+    ],
+    "IB": [
+      "MYP Sciences"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "life",
+    "classification",
+    "MRS GREN",
+    "characteristics",
+    "organisms"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "cs.I2.pointers-memory",
+  "subject": "cs",
+  "tier": "I2",
+  "title": "Pointers & Memory",
+  "slug": "pointers-memory",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "The core C idea: addresses, dereferencing, and the stack.",
+  "outcomes": [
+    "Explain what a pointer is",
+    "Use addresses and dereferencing",
+    "Describe the stack"
+  ],
+  "prereqs": [
+    "cs.I2.control-arrays-c"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 CS (Pointers)"
+    ],
+    "ICSE": [
+      "Cl.12 Pointers"
+    ],
+    "IB": [
+      "DP CS"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "pointer",
+    "memory",
+    "address",
+    "dereference",
+    "stack"
+  ]
+}

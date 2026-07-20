@@ -1,0 +1,36 @@
+{
+  "topicId": "cs.F1.input-output",
+  "levels": {
+    "1": [
+      {
+        "id": "cs_F1_input_output_q1",
+        "type": "mcq",
+        "prompt": "input() in Python returns a value of type:",
+        "choices": [
+          "str",
+          "int",
+          "float",
+          "bool"
+        ],
+        "answer": 0,
+        "explanation": "Everything typed by the user comes in as a string."
+      }
+    ],
+    "2": [
+      {
+        "id": "cs_F1_input_output_q2",
+        "type": "mcq",
+        "prompt": "To greet a user by a variable name, best use:",
+        "choices": [
+          "f\"Hello {name}\"",
+          "\"Hello\" + name + 5",
+          "\"Hello name\"",
+          "print(name())"
+        ],
+        "answer": 0,
+        "explanation": "An f-string inserts the value cleanly."
+      }
+    ],
+    "3": []
+  }
+}

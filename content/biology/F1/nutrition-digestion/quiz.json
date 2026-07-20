@@ -1,0 +1,36 @@
+{
+  "topicId": "biology.F1.nutrition-digestion",
+  "levels": {
+    "1": [
+      {
+        "id": "biology_F1_nutrition_digestion_q1",
+        "type": "mcq",
+        "prompt": "Most nutrient absorption occurs in the:",
+        "choices": [
+          "small intestine",
+          "stomach",
+          "mouth",
+          "large intestine"
+        ],
+        "answer": 0,
+        "explanation": "The small intestine is adapted for absorption."
+      }
+    ],
+    "2": [
+      {
+        "id": "biology_F1_nutrition_digestion_q2",
+        "type": "mcq",
+        "prompt": "Chemical digestion is carried out mainly by:",
+        "choices": [
+          "enzymes",
+          "teeth",
+          "bones",
+          "blood cells"
+        ],
+        "answer": 0,
+        "explanation": "Enzymes break bonds in food molecules."
+      }
+    ],
+    "3": []
+  }
+}

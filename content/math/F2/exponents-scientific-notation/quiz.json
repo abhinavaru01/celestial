@@ -1,0 +1,36 @@
+{
+  "topicId": "math.F2.exponents-scientific-notation",
+  "levels": {
+    "1": [
+      {
+        "id": "math_F2_exponents_scientific_notation_q1",
+        "type": "mcq",
+        "prompt": "Simplify 2^3 × 2^4.",
+        "choices": [
+          "2^7",
+          "2^12",
+          "4^7",
+          "2^1"
+        ],
+        "answer": 0,
+        "explanation": "Same base, add exponents: 2^(3+4) = 2^7."
+      }
+    ],
+    "2": [
+      {
+        "id": "math_F2_exponents_scientific_notation_q2",
+        "type": "mcq",
+        "prompt": "Write 45000 in scientific notation.",
+        "choices": [
+          "4.5 × 10^3",
+          "45 × 10^3",
+          "4.5 × 10^4",
+          "0.45 × 10^5"
+        ],
+        "answer": 2,
+        "explanation": "Decimal moves 4 places: 4.5 × 10^4."
+      }
+    ],
+    "3": []
+  }
+}

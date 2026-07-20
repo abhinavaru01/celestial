@@ -1,0 +1,42 @@
+{
+  "id": "biology.A2.ecology-environment-depth",
+  "subject": "biology",
+  "tier": "A2",
+  "title": "Ecology & Environment at Depth",
+  "slug": "ecology-environment-depth",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Biodiversity, conservation and human impact — data-driven, reusing statistics.",
+  "outcomes": [
+    "Assess biodiversity",
+    "Evaluate human impact",
+    "Propose conservation strategies"
+  ],
+  "prereqs": [
+    "biology.A2.evolution-depth",
+    "math.I1.statistics-ii"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Ecology & Environment"
+    ],
+    "ICSE": [
+      "Cl.12 Environmental Biology"
+    ],
+    "IB": [
+      "DP Ecology HL"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "biodiversity",
+    "conservation",
+    "human impact",
+    "ecology",
+    "environment"
+  ]
+}

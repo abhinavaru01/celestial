@@ -1,0 +1,39 @@
+{
+  "id": "cs.F1.first-programs",
+  "subject": "cs",
+  "tier": "F1",
+  "title": "First Programs",
+  "slug": "first-programs",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Running Python, printing output, comments, and the edit-run loop.",
+  "outcomes": [
+    "Run a Python program",
+    "Use print and comments",
+    "Understand the edit-run cycle"
+  ],
+  "prereqs": [
+    "cs.F1.computational-thinking"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 CS: Getting Started with Python"
+    ],
+    "ICSE": [
+      "Cl.9 Programming Basics"
+    ],
+    "IB": [
+      "DP CS"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "print",
+    "comments",
+    "edit-run",
+    "python",
+    "output"
+  ]
+}

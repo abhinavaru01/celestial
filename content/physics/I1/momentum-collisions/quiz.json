@@ -1,0 +1,32 @@
+{
+  "topicId": "physics.I1.momentum-collisions",
+  "levels": {
+    "1": [
+      {
+        "id": "physics_I1_momentum_collisions_q1",
+        "type": "numeric",
+        "prompt": "Momentum of 3 kg at 4 m/s?",
+        "answer": 12,
+        "tolerance": 0,
+        "unit": "kg·m/s",
+        "explanation": "p = mv = 12 kg·m/s."
+      }
+    ],
+    "2": [
+      {
+        "id": "physics_I1_momentum_collisions_q2",
+        "type": "mcq",
+        "prompt": "In a perfectly inelastic collision, the colliding objects:",
+        "choices": [
+          "stick together",
+          "bounce with no energy loss",
+          "reverse at equal speed",
+          "gain kinetic energy"
+        ],
+        "answer": 0,
+        "explanation": "They move as one afterwards; KE is not conserved."
+      }
+    ],
+    "3": []
+  }
+}

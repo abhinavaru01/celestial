@@ -1,0 +1,36 @@
+{
+  "topicId": "chemistry.A2.organic-mechanisms",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "chemistry_A2_organic_mechanisms_q1",
+        "type": "mcq",
+        "prompt": "A nucleophile is:",
+        "choices": [
+          "electron-rich",
+          "electron-poor",
+          "always positive",
+          "a catalyst"
+        ],
+        "answer": 0,
+        "explanation": "It donates an electron pair to an electrophile."
+      }
+    ],
+    "3": [
+      {
+        "id": "chemistry_A2_organic_mechanisms_q2",
+        "type": "mcq",
+        "prompt": "In mechanisms, a curly arrow represents the movement of:",
+        "choices": [
+          "an electron pair",
+          "a proton",
+          "an atom",
+          "energy"
+        ],
+        "answer": 0,
+        "explanation": "Curly arrows show electron-pair movement."
+      }
+    ]
+  }
+}

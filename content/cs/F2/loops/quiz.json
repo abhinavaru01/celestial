@@ -1,0 +1,36 @@
+{
+  "topicId": "cs.F2.loops",
+  "levels": {
+    "1": [
+      {
+        "id": "cs_F2_loops_q1",
+        "type": "mcq",
+        "prompt": "How many times does for i in range(3) loop?",
+        "choices": [
+          "3",
+          "2",
+          "4",
+          "forever"
+        ],
+        "answer": 0,
+        "explanation": "range(3) yields 0,1,2 — three iterations."
+      }
+    ],
+    "2": [
+      {
+        "id": "cs_F2_loops_q2",
+        "type": "mcq",
+        "prompt": "A while loop runs forever when its condition:",
+        "choices": [
+          "never becomes False",
+          "is False at the start",
+          "uses range",
+          "has a comment"
+        ],
+        "answer": 0,
+        "explanation": "It must eventually become False to stop."
+      }
+    ],
+    "3": []
+  }
+}

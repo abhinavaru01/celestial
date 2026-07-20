@@ -1,0 +1,43 @@
+{
+  "id": "chemistry.I2.gas-laws-kinetic-theory",
+  "subject": "chemistry",
+  "tier": "I2",
+  "title": "Gas Laws & Kinetic Theory",
+  "slug": "gas-laws-kinetic-theory",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Boyle, Charles and the ideal gas equation — the topic shared with physics.",
+  "outcomes": [
+    "Apply the gas laws",
+    "Use PV = nRT",
+    "Relate gas behaviour to particle motion"
+  ],
+  "prereqs": [
+    "chemistry.I2.bonding-ii",
+    "chemistry.F2.mole-concept"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 States of Matter"
+    ],
+    "ICSE": [
+      "Cl.11 Gas Laws"
+    ],
+    "IB": [
+      "DP States of Matter"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "gas laws",
+    "ideal gas",
+    "PV=nRT",
+    "kinetic theory"
+  ]
+}

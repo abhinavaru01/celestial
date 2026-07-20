@@ -1,0 +1,40 @@
+{
+  "id": "cs.F2.loops",
+  "subject": "cs",
+  "tier": "F2",
+  "title": "Loops",
+  "slug": "loops",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "while and for loops, range, and reasoning about repetition.",
+  "outcomes": [
+    "Write while and for loops",
+    "Use range()",
+    "Avoid infinite loops"
+  ],
+  "prereqs": [
+    "cs.F1.version-control-i",
+    "cs.F1.booleans-conditionals"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 CS: Iteration"
+    ],
+    "ICSE": [
+      "Cl.9-10 Iteration"
+    ],
+    "IB": [
+      "DP CS"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "loop",
+    "while",
+    "for",
+    "range",
+    "iteration"
+  ]
+}

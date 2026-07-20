@@ -1,0 +1,38 @@
+{
+  "id": "english.F2.vocabulary-ii",
+  "subject": "english",
+  "tier": "F2",
+  "title": "Vocabulary II",
+  "slug": "vocabulary-ii",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Connotation, register and academic word choice.",
+  "outcomes": [
+    "Distinguish denotation and connotation",
+    "Match register to context",
+    "Use academic vocabulary"
+  ],
+  "prereqs": [
+    "english.F2.grammar-for-style"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.9-10 Vocabulary"
+    ],
+    "ICSE": [
+      "Cl.9-10 Word Power"
+    ],
+    "IB": [
+      "MYP Language"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "connotation",
+    "denotation",
+    "register",
+    "academic vocabulary"
+  ]
+}

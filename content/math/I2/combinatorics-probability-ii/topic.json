@@ -1,0 +1,43 @@
+{
+  "id": "math.I2.combinatorics-probability-ii",
+  "subject": "math",
+  "tier": "I2",
+  "title": "Combinatorics & Probability II",
+  "slug": "combinatorics-probability-ii",
+  "core": true,
+  "order": 6,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Counting principles, permutations and combinations, and conditional probability.",
+  "outcomes": [
+    "Count with permutations and combinations",
+    "Use the multiplication principle",
+    "Compute conditional probability"
+  ],
+  "prereqs": [
+    "math.I2.exponentials-logarithms",
+    "math.F2.probability-statistics-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Permutations & Combinations",
+      "Cl.12 Probability"
+    ],
+    "ICSE": [
+      "Cl.11 Permutations & Combinations"
+    ],
+    "IB": [
+      "DP Probability"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "combinatorics",
+    "permutation",
+    "combination",
+    "conditional probability"
+  ]
+}

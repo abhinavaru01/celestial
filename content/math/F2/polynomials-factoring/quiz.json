@@ -1,0 +1,36 @@
+{
+  "topicId": "math.F2.polynomials-factoring",
+  "levels": {
+    "1": [
+      {
+        "id": "math_F2_polynomials_factoring_q1",
+        "type": "mcq",
+        "prompt": "Expand (x + 2)(x + 3).",
+        "choices": [
+          "x² + 5x + 6",
+          "x² + 6x + 5",
+          "x² + 6",
+          "x² + 5x + 5"
+        ],
+        "answer": 0,
+        "explanation": "FOIL: x² + 3x + 2x + 6 = x² + 5x + 6."
+      }
+    ],
+    "2": [
+      {
+        "id": "math_F2_polynomials_factoring_q2",
+        "type": "mcq",
+        "prompt": "Factor x² − 5x + 6.",
+        "choices": [
+          "(x−2)(x−3)",
+          "(x+2)(x+3)",
+          "(x−1)(x−6)",
+          "(x−6)(x+1)"
+        ],
+        "answer": 0,
+        "explanation": "Two numbers multiplying to 6 and adding to −5 are −2 and −3."
+      }
+    ],
+    "3": []
+  }
+}

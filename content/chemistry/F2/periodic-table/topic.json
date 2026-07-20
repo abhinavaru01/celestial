@@ -1,0 +1,42 @@
+{
+  "id": "chemistry.F2.periodic-table",
+  "subject": "chemistry",
+  "tier": "F2",
+  "title": "The Periodic Table as a Map",
+  "slug": "periodic-table",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Periods and groups as patterns, not a list — organising elements by structure and properties.",
+  "outcomes": [
+    "Read the periodic table's layout",
+    "Relate group to properties",
+    "Predict trends across periods and groups"
+  ],
+  "prereqs": [
+    "chemistry.F2.atomic-structure-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.10 Periodic Classification"
+    ],
+    "ICSE": [
+      "Cl.8-10 Periodic Table"
+    ],
+    "IB": [
+      "DP Periodicity"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "periodic table",
+    "groups",
+    "periods",
+    "trends",
+    "elements"
+  ]
+}

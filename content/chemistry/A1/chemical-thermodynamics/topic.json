@@ -1,0 +1,44 @@
+{
+  "id": "chemistry.A1.chemical-thermodynamics",
+  "subject": "chemistry",
+  "tier": "A1",
+  "title": "Chemical Thermodynamics",
+  "slug": "chemical-thermodynamics",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Enthalpy, entropy and Gibbs free energy — predicting whether reactions happen.",
+  "outcomes": [
+    "Use enthalpy and entropy",
+    "Apply Gibbs free energy",
+    "Predict spontaneity"
+  ],
+  "prereqs": [
+    "chemistry.I2.organic-intro",
+    "chemistry.I2.energetics"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Thermodynamics"
+    ],
+    "ICSE": [
+      "Cl.12 Thermodynamics"
+    ],
+    "IB": [
+      "DP Energetics HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "thermodynamics",
+    "enthalpy",
+    "entropy",
+    "Gibbs free energy",
+    "spontaneity"
+  ]
+}

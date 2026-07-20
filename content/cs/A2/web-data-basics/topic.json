@@ -1,0 +1,40 @@
+{
+  "id": "cs.A2.web-data-basics",
+  "subject": "cs",
+  "tier": "A2",
+  "title": "Web & Data Basics",
+  "slug": "web-data-basics",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "A program that talks to the outside world (HTTP/API or a simple UI) and stores data.",
+  "outcomes": [
+    "Make a basic web request or UI",
+    "Send and receive data",
+    "Store results"
+  ],
+  "prereqs": [
+    "cs.A2.software-design",
+    "cs.I1.file-io-data-formats"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS: Networking basics"
+    ],
+    "ICSE": [
+      "Cl.12 Web"
+    ],
+    "IB": [
+      "DP CS: Web"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "web",
+    "HTTP",
+    "API",
+    "JSON",
+    "UI"
+  ]
+}

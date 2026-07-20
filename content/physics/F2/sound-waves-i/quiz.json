@@ -1,0 +1,32 @@
+{
+  "topicId": "physics.F2.sound-waves-i",
+  "levels": {
+    "1": [
+      {
+        "id": "physics_F2_sound_waves_i_q1",
+        "type": "numeric",
+        "prompt": "A wave has f = 50 Hz and λ = 2 m. Speed?",
+        "answer": 100,
+        "tolerance": 0,
+        "unit": "m/s",
+        "explanation": "v = fλ = 50 × 2 = 100 m/s."
+      }
+    ],
+    "2": [
+      {
+        "id": "physics_F2_sound_waves_i_q2",
+        "type": "mcq",
+        "prompt": "Sound cannot travel through:",
+        "choices": [
+          "a vacuum",
+          "air",
+          "water",
+          "steel"
+        ],
+        "answer": 0,
+        "explanation": "It is a mechanical wave needing a medium."
+      }
+    ],
+    "3": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "cs.F2.project-1",
+  "subject": "cs",
+  "tier": "F2",
+  "title": "Project 1",
+  "slug": "project-1",
+  "core": true,
+  "order": 7,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Build a complete small program (e.g., a quiz game), committed to git.",
+  "outcomes": [
+    "Combine variables, loops, functions",
+    "Build a working program",
+    "Version-control the project"
+  ],
+  "prereqs": [
+    "cs.F2.version-control-ii",
+    "cs.F2.functions"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 CS: Project"
+    ],
+    "ICSE": [
+      "Cl.10 Project"
+    ],
+    "IB": [
+      "DP CS: Development"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "project",
+    "program",
+    "integration",
+    "git"
+  ]
+}

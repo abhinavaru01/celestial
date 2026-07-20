@@ -1,0 +1,36 @@
+{
+  "topicId": "english.A2.communication-portfolio",
+  "levels": {
+    "1": [
+      {
+        "id": "english_A2_communication_portfolio_q1",
+        "type": "mcq",
+        "prompt": "A strong writing portfolio demonstrates:",
+        "choices": [
+          "range across genres",
+          "one genre only",
+          "unrevised drafts",
+          "no structure"
+        ],
+        "answer": 0,
+        "explanation": "It shows versatility and command."
+      }
+    ],
+    "2": [
+      {
+        "id": "english_A2_communication_portfolio_q2",
+        "type": "mcq",
+        "prompt": "Excellent writing usually comes from:",
+        "choices": [
+          "drafting and revising",
+          "a single quick draft",
+          "ignoring feedback",
+          "copying"
+        ],
+        "answer": 0,
+        "explanation": "Deliberate revision produces polish."
+      }
+    ],
+    "3": []
+  }
+}

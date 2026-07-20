@@ -1,0 +1,35 @@
+{
+  "topicId": "biology.A1.cell-biology-depth",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "biology_A1_cell_biology_depth_q1",
+        "type": "mcq",
+        "prompt": "Meiosis produces:",
+        "choices": [
+          "four genetically varied gametes",
+          "two identical cells",
+          "one giant cell",
+          "no cells"
+        ],
+        "answer": 0,
+        "explanation": "Meiosis makes four haploid, varied gametes."
+      },
+      {
+        "id": "biology_A1_cell_biology_depth_q2",
+        "type": "mcq",
+        "prompt": "Mitosis is used for:",
+        "choices": [
+          "growth and repair",
+          "making gametes",
+          "reducing chromosome number",
+          "digestion"
+        ],
+        "answer": 0,
+        "explanation": "Mitosis makes identical cells for growth and repair."
+      }
+    ],
+    "3": []
+  }
+}

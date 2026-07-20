@@ -1,0 +1,44 @@
+{
+  "id": "chemistry.A1.electrochemistry",
+  "subject": "chemistry",
+  "tier": "A1",
+  "title": "Electrochemistry",
+  "slug": "electrochemistry",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Galvanic and electrolytic cells, the Nernst equation, and electrolysis.",
+  "outcomes": [
+    "Describe galvanic and electrolytic cells",
+    "Use standard electrode potentials",
+    "Explain electrolysis"
+  ],
+  "prereqs": [
+    "chemistry.A1.ionic-equilibrium",
+    "chemistry.I1.reactions-equations"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Electrochemistry"
+    ],
+    "ICSE": [
+      "Cl.12 Electrochemistry"
+    ],
+    "IB": [
+      "DP Redox HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "electrochemistry",
+    "galvanic",
+    "electrolysis",
+    "Nernst",
+    "electrode potential"
+  ]
+}

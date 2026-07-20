@@ -1,0 +1,43 @@
+{
+  "id": "physics.I2.electricity-ii",
+  "subject": "physics",
+  "tier": "I2",
+  "title": "Electricity II",
+  "slug": "electricity-ii",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "EMF and internal resistance, Kirchhoff's laws, and capacitors (introductory).",
+  "outcomes": [
+    "Use EMF and internal resistance",
+    "Apply Kirchhoff's laws",
+    "Explain capacitor basics"
+  ],
+  "prereqs": [
+    "physics.I2.waves-ii",
+    "math.F2.systems-linear-equations"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Current Electricity"
+    ],
+    "ICSE": [
+      "Cl.12 Electricity"
+    ],
+    "IB": [
+      "DP Electricity HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "EMF",
+    "internal resistance",
+    "Kirchhoff",
+    "capacitor"
+  ]
+}

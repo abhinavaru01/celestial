@@ -1,0 +1,31 @@
+{
+  "topicId": "math.F1.number-sense-estimation",
+  "levels": {
+    "1": [
+      {
+        "id": "math_F1_number_sense_estimation_q1",
+        "type": "numeric",
+        "prompt": "Compute −7 + 3.",
+        "answer": -4,
+        "tolerance": 0,
+        "explanation": "Start at −7, move 3 right → −4."
+      }
+    ],
+    "2": [
+      {
+        "id": "math_F1_number_sense_estimation_q2",
+        "type": "mcq",
+        "prompt": "Estimate 612 × 39 to one significant figure.",
+        "choices": [
+          "~24000",
+          "~2400",
+          "~180000",
+          "~6000"
+        ],
+        "answer": 0,
+        "explanation": "600 × 40 = 24000 — the right order of magnitude."
+      }
+    ],
+    "3": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "physics.A2.electromagnetic-induction",
+  "subject": "physics",
+  "tier": "A2",
+  "title": "Magnetic Effects & Electromagnetic Induction",
+  "slug": "electromagnetic-induction",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Magnetic forces, Faraday's and Lenz's laws, and AC circuits — using differential equations.",
+  "outcomes": [
+    "Compute magnetic force on currents/charges",
+    "Apply Faraday's and Lenz's laws",
+    "Analyse simple AC circuits"
+  ],
+  "prereqs": [
+    "physics.A2.current-electricity-advanced",
+    "math.A2.differential-equations"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Electromagnetic Induction",
+      "Cl.12 Alternating Current"
+    ],
+    "ICSE": [
+      "Cl.12 Electromagnetism"
+    ],
+    "IB": [
+      "DP Fields HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "induction",
+    "Faraday",
+    "Lenz",
+    "AC",
+    "flux"
+  ]
+}

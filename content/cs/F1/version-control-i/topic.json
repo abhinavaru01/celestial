@@ -1,0 +1,38 @@
+{
+  "id": "cs.F1.version-control-i",
+  "subject": "cs",
+  "tier": "F1",
+  "title": "Version Control Basics I",
+  "slug": "version-control-i",
+  "core": true,
+  "order": 6,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "git init, add and commit — why keeping history matters, from the very start.",
+  "outcomes": [
+    "Initialise a git repository",
+    "Stage and commit changes",
+    "Explain why version control matters"
+  ],
+  "prereqs": [
+    "cs.F1.booleans-conditionals"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 CS: Tools"
+    ],
+    "ICSE": [
+      "Cl.10 IT Tools"
+    ],
+    "IB": [
+      "DP CS: Development"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "git",
+    "version control",
+    "commit",
+    "repository"
+  ]
+}

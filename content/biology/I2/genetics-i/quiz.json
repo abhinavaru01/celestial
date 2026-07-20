@@ -1,0 +1,36 @@
+{
+  "topicId": "biology.I2.genetics-i",
+  "levels": {
+    "1": [
+      {
+        "id": "biology_I2_genetics_i_q2",
+        "type": "mcq",
+        "prompt": "An organism's observable traits are its:",
+        "choices": [
+          "phenotype",
+          "genotype",
+          "alleles",
+          "chromosomes"
+        ],
+        "answer": 0,
+        "explanation": "Phenotype = appearance; genotype = allele makeup."
+      }
+    ],
+    "2": [
+      {
+        "id": "biology_I2_genetics_i_q1",
+        "type": "mcq",
+        "prompt": "A cross Aa × Aa gives a phenotype ratio of:",
+        "choices": [
+          "3:1",
+          "1:1",
+          "9:3:3:1",
+          "2:1"
+        ],
+        "answer": 0,
+        "explanation": "Monohybrid heterozygous cross → 3 dominant : 1 recessive."
+      }
+    ],
+    "3": []
+  }
+}

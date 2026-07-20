@@ -1,0 +1,35 @@
+{
+  "topicId": "english.A1.rhetoric-style",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "english_A1_rhetoric_style_q1",
+        "type": "mcq",
+        "prompt": "Varying sentence length in prose mainly affects:",
+        "choices": [
+          "rhythm and emphasis",
+          "spelling",
+          "the topic",
+          "word count only"
+        ],
+        "answer": 0,
+        "explanation": "Syntax variety controls pace and emphasis."
+      },
+      {
+        "id": "english_A1_rhetoric_style_q2",
+        "type": "mcq",
+        "prompt": "Precise word choice serves to:",
+        "choices": [
+          "remove ambiguity",
+          "lengthen the essay",
+          "impress with jargon",
+          "confuse readers"
+        ],
+        "answer": 0,
+        "explanation": "Precision sharpens meaning."
+      }
+    ],
+    "3": []
+  }
+}

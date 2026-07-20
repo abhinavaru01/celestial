@@ -1,0 +1,36 @@
+{
+  "topicId": "cs.F2.functions",
+  "levels": {
+    "1": [
+      {
+        "id": "cs_F2_functions_q1",
+        "type": "mcq",
+        "prompt": "A function sends a result back with:",
+        "choices": [
+          "return",
+          "print",
+          "input",
+          "import"
+        ],
+        "answer": 0,
+        "explanation": "return passes a value back to the caller."
+      }
+    ],
+    "2": [
+      {
+        "id": "cs_F2_functions_q2",
+        "type": "mcq",
+        "prompt": "A variable defined inside a function is:",
+        "choices": [
+          "local to that function",
+          "global",
+          "a constant",
+          "printed automatically"
+        ],
+        "answer": 0,
+        "explanation": "Local scope keeps it inside the function."
+      }
+    ],
+    "3": []
+  }
+}

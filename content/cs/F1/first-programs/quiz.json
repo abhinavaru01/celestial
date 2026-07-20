@@ -1,0 +1,35 @@
+{
+  "topicId": "cs.F1.first-programs",
+  "levels": {
+    "1": [
+      {
+        "id": "cs_F1_first_programs_q1",
+        "type": "mcq",
+        "prompt": "What does print(\"Hi\") do?",
+        "choices": [
+          "displays Hi on screen",
+          "saves a file",
+          "deletes text",
+          "adds numbers"
+        ],
+        "answer": 0,
+        "explanation": "print() outputs the text to the screen."
+      },
+      {
+        "id": "cs_F1_first_programs_q2",
+        "type": "mcq",
+        "prompt": "A line starting with # in Python is:",
+        "choices": [
+          "a comment, ignored by the computer",
+          "an error",
+          "printed output",
+          "a variable"
+        ],
+        "answer": 0,
+        "explanation": "Comments are for humans and ignored when running."
+      }
+    ],
+    "2": [],
+    "3": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "biology.I1.human-physiology-ii",
+  "subject": "biology",
+  "tier": "I1",
+  "title": "Human Physiology II",
+  "slug": "human-physiology-ii",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Nervous and endocrine coordination, and homeostasis as feedback control.",
+  "outcomes": [
+    "Compare nervous and hormonal control",
+    "Explain homeostasis",
+    "Describe negative feedback"
+  ],
+  "prereqs": [
+    "biology.I1.respiration-photosynthesis",
+    "biology.F2.human-physiology-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.10 Control & Coordination"
+    ],
+    "ICSE": [
+      "Cl.10-11 Coordination"
+    ],
+    "IB": [
+      "DP Homeostasis"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "nervous system",
+    "hormones",
+    "homeostasis",
+    "feedback",
+    "coordination"
+  ]
+}

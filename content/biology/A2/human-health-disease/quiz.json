@@ -1,0 +1,35 @@
+{
+  "topicId": "biology.A2.human-health-disease",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "biology_A2_human_health_disease_q1",
+        "type": "mcq",
+        "prompt": "Adaptive immunity differs from innate immunity because it is:",
+        "choices": [
+          "specific and has memory",
+          "always faster",
+          "non-cellular",
+          "unable to respond twice"
+        ],
+        "answer": 0,
+        "explanation": "Adaptive immunity is specific and remembers pathogens."
+      },
+      {
+        "id": "biology_A2_human_health_disease_q2",
+        "type": "mcq",
+        "prompt": "Vaccines provide long-term protection by creating immune:",
+        "choices": [
+          "memory",
+          "antibiotics",
+          "enzymes",
+          "hormones"
+        ],
+        "answer": 0,
+        "explanation": "Memory cells enable a fast response on re-exposure."
+      }
+    ],
+    "3": []
+  }
+}

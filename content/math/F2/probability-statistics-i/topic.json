@@ -1,0 +1,43 @@
+{
+  "id": "math.F2.probability-statistics-i",
+  "subject": "math",
+  "tier": "F2",
+  "title": "Probability & Statistics I",
+  "slug": "probability-statistics-i",
+  "core": true,
+  "order": 6,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Probability as a proportion of outcomes, and measures of centre and spread.",
+  "outcomes": [
+    "Compute simple probabilities",
+    "Find mean, median and mode",
+    "Describe spread with range"
+  ],
+  "prereqs": [
+    "math.F2.geometry-similarity-pythagoras",
+    "math.F1.ratio-proportion-percentage"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.8-9 Data Handling & Probability"
+    ],
+    "ICSE": [
+      "Cl.8-9 Statistics & Probability"
+    ],
+    "IB": [
+      "MYP Statistics"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "probability",
+    "mean",
+    "median",
+    "mode",
+    "range"
+  ]
+}

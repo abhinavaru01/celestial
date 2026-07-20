@@ -1,0 +1,36 @@
+{
+  "topicId": "english.F1.paragraph-architecture",
+  "levels": {
+    "1": [
+      {
+        "id": "english_F1_paragraph_architecture_q1",
+        "type": "mcq",
+        "prompt": "The sentence that states a paragraph's main point is the:",
+        "choices": [
+          "topic sentence",
+          "last sentence always",
+          "longest sentence",
+          "question"
+        ],
+        "answer": 0,
+        "explanation": "The topic sentence announces the paragraph's idea."
+      }
+    ],
+    "2": [
+      {
+        "id": "english_F1_paragraph_architecture_q2",
+        "type": "mcq",
+        "prompt": "A well-built paragraph focuses on:",
+        "choices": [
+          "one main idea",
+          "as many ideas as possible",
+          "no clear idea",
+          "only questions"
+        ],
+        "answer": 0,
+        "explanation": "One idea per paragraph keeps writing clear."
+      }
+    ],
+    "3": []
+  }
+}

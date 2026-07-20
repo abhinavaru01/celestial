@@ -1,0 +1,31 @@
+{
+  "topicId": "math.F1.data-graphs-i",
+  "levels": {
+    "1": [
+      {
+        "id": "math_F1_data_graphs_i_q1",
+        "type": "numeric",
+        "prompt": "Find the mean of 4, 8, 6, 2.",
+        "answer": 5,
+        "tolerance": 0,
+        "explanation": "Total 20 ÷ 4 values = 5."
+      }
+    ],
+    "2": [
+      {
+        "id": "math_F1_data_graphs_i_q2",
+        "type": "mcq",
+        "prompt": "A bar chart's value axis starts at 90 instead of 0. This can:",
+        "choices": [
+          "make small differences look large",
+          "change the actual data",
+          "make the mean smaller",
+          "have no effect"
+        ],
+        "answer": 0,
+        "explanation": "A truncated axis exaggerates differences — a classic misleading technique."
+      }
+    ],
+    "3": []
+  }
+}

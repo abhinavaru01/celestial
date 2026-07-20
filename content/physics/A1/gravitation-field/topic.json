@@ -1,0 +1,42 @@
+{
+  "id": "physics.A1.gravitation-field",
+  "subject": "physics",
+  "tier": "A1",
+  "title": "Gravitation (Field Treatment)",
+  "slug": "gravitation-field",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Gravitational fields, potential and energy, and orbital mechanics at depth.",
+  "outcomes": [
+    "Use gravitational field strength and potential",
+    "Compute gravitational PE",
+    "Analyse orbits energetically"
+  ],
+  "prereqs": [
+    "physics.A1.mechanics-rigor",
+    "physics.I1.circular-motion-gravitation"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Gravitation"
+    ],
+    "ICSE": [
+      "Cl.11 Gravitation"
+    ],
+    "IB": [
+      "DP Fields HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "gravitational field",
+    "potential",
+    "orbits",
+    "escape velocity"
+  ]
+}

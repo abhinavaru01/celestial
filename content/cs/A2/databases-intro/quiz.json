@@ -1,0 +1,36 @@
+{
+  "topicId": "cs.A2.databases-intro",
+  "levels": {
+    "1": [
+      {
+        "id": "cs_A2_databases_intro_q1",
+        "type": "mcq",
+        "prompt": "Which SQL keyword reads data from a table?",
+        "choices": [
+          "SELECT",
+          "DELETE",
+          "DROP",
+          "PRINT"
+        ],
+        "answer": 0,
+        "explanation": "SELECT retrieves rows."
+      }
+    ],
+    "2": [
+      {
+        "id": "cs_A2_databases_intro_q2",
+        "type": "mcq",
+        "prompt": "Related tables in a relational database are linked by:",
+        "choices": [
+          "keys",
+          "colours",
+          "comments",
+          "file names"
+        ],
+        "answer": 0,
+        "explanation": "Primary and foreign keys connect tables."
+      }
+    ],
+    "3": []
+  }
+}

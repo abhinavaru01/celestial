@@ -1,0 +1,36 @@
+{
+  "topicId": "cs.F2.lists-iteration",
+  "levels": {
+    "1": [
+      {
+        "id": "cs_F2_lists_iteration_q1",
+        "type": "mcq",
+        "prompt": "In Python, the first element of a list is at index:",
+        "choices": [
+          "0",
+          "1",
+          "-1",
+          "len"
+        ],
+        "answer": 0,
+        "explanation": "Indexing starts at 0."
+      }
+    ],
+    "2": [
+      {
+        "id": "cs_F2_lists_iteration_q2",
+        "type": "mcq",
+        "prompt": "Which adds an item to the end of a list?",
+        "choices": [
+          "append()",
+          "remove()",
+          "pop()",
+          "len()"
+        ],
+        "answer": 0,
+        "explanation": "append() adds to the end."
+      }
+    ],
+    "3": []
+  }
+}

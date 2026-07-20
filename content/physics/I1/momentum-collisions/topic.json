@@ -1,0 +1,42 @@
+{
+  "id": "physics.I1.momentum-collisions",
+  "subject": "physics",
+  "tier": "I1",
+  "title": "Momentum & Collisions",
+  "slug": "momentum-collisions",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Momentum, impulse and the conservation of momentum in collisions.",
+  "outcomes": [
+    "Compute momentum and impulse",
+    "Apply conservation of momentum",
+    "Distinguish elastic and inelastic collisions"
+  ],
+  "prereqs": [
+    "physics.I1.newtons-laws-deepened"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Laws of Motion (Momentum)"
+    ],
+    "ICSE": [
+      "Cl.11 Momentum"
+    ],
+    "IB": [
+      "DP Momentum"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "momentum",
+    "impulse",
+    "collisions",
+    "conservation"
+  ]
+}

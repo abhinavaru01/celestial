@@ -1,0 +1,35 @@
+{
+  "topicId": "cs.I2.strings-memory-c",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "cs_I2_strings_memory_c_q1",
+        "type": "mcq",
+        "prompt": "In C, memory obtained with malloc should later be:",
+        "choices": [
+          "freed",
+          "printed",
+          "compiled",
+          "renamed"
+        ],
+        "answer": 0,
+        "explanation": "free returns the memory to avoid leaks."
+      },
+      {
+        "id": "cs_I2_strings_memory_c_q2",
+        "type": "mcq",
+        "prompt": "A C string is terminated by a:",
+        "choices": [
+          "null character \\0",
+          "newline",
+          "space",
+          "semicolon"
+        ],
+        "answer": 0,
+        "explanation": "The null terminator marks the string's end."
+      }
+    ],
+    "3": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "topicId": "physics.F1.force-newtons-laws",
+  "levels": {
+    "1": [
+      {
+        "id": "physics_F1_force_newtons_laws_q1",
+        "type": "numeric",
+        "prompt": "A 2 kg object accelerates at 3 m/s². Net force?",
+        "answer": 6,
+        "tolerance": 0,
+        "unit": "N",
+        "explanation": "F = ma = 2 × 3 = 6 N."
+      }
+    ],
+    "2": [
+      {
+        "id": "physics_F1_force_newtons_laws_q2",
+        "type": "mcq",
+        "prompt": "A ball rolls at constant velocity on a frictionless floor. The net force is:",
+        "choices": [
+          "zero",
+          "forward",
+          "backward",
+          "downward only"
+        ],
+        "answer": 0,
+        "explanation": "Constant velocity means zero net force (1st law)."
+      }
+    ],
+    "3": []
+  }
+}

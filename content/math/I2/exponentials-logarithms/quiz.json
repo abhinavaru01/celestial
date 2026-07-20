@@ -1,0 +1,31 @@
+{
+  "topicId": "math.I2.exponentials-logarithms",
+  "levels": {
+    "1": [
+      {
+        "id": "math_I2_exponentials_logarithms_q1",
+        "type": "numeric",
+        "prompt": "Evaluate log base 2 of 8.",
+        "answer": 3,
+        "tolerance": 0,
+        "explanation": "2³ = 8, so log₂8 = 3."
+      }
+    ],
+    "2": [
+      {
+        "id": "math_I2_exponentials_logarithms_q2",
+        "type": "mcq",
+        "prompt": "log(ab) equals:",
+        "choices": [
+          "log a + log b",
+          "log a × log b",
+          "log a − log b",
+          "log(a+b)"
+        ],
+        "answer": 0,
+        "explanation": "The product law turns multiplication into addition."
+      }
+    ],
+    "3": []
+  }
+}

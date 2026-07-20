@@ -1,0 +1,43 @@
+{
+  "id": "physics.I2.thermal-physics",
+  "subject": "physics",
+  "tier": "I2",
+  "title": "Thermal Physics",
+  "slug": "thermal-physics",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "The gas laws and kinetic theory — a topic shared with chemistry, taught once.",
+  "outcomes": [
+    "Apply the gas laws",
+    "Relate temperature to particle motion",
+    "Use the ideal gas equation"
+  ],
+  "prereqs": [
+    "physics.I2.electricity-ii"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Kinetic Theory",
+      "Cl.11 Thermodynamics"
+    ],
+    "ICSE": [
+      "Cl.11 Gas Laws"
+    ],
+    "IB": [
+      "DP Thermal Physics"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "gas laws",
+    "kinetic theory",
+    "ideal gas",
+    "PV=nRT"
+  ]
+}

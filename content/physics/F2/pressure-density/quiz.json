@@ -1,0 +1,32 @@
+{
+  "topicId": "physics.F2.pressure-density",
+  "levels": {
+    "1": [
+      {
+        "id": "physics_F2_pressure_density_q1",
+        "type": "numeric",
+        "prompt": "Density of 200 g in 100 cm³ (in g/cm³)?",
+        "answer": 2,
+        "tolerance": 0,
+        "unit": "g/cm^3",
+        "explanation": "200/100 = 2 g/cm³."
+      }
+    ],
+    "2": [
+      {
+        "id": "physics_F2_pressure_density_q2",
+        "type": "mcq",
+        "prompt": "An object floats when its density is:",
+        "choices": [
+          "less than the fluid",
+          "greater than the fluid",
+          "equal to zero",
+          "equal to its mass"
+        ],
+        "answer": 0,
+        "explanation": "Lower density than the fluid means it floats."
+      }
+    ],
+    "3": []
+  }
+}

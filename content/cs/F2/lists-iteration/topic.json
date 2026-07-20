@@ -1,0 +1,39 @@
+{
+  "id": "cs.F2.lists-iteration",
+  "subject": "cs",
+  "tier": "F2",
+  "title": "Lists & Iteration",
+  "slug": "lists-iteration",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "The list — the first data structure — with indexing, mutation and traversal.",
+  "outcomes": [
+    "Create and index lists",
+    "Add, remove and change elements",
+    "Iterate over a list"
+  ],
+  "prereqs": [
+    "cs.F2.loops"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 CS: Lists"
+    ],
+    "ICSE": [
+      "Cl.10 Arrays/Lists"
+    ],
+    "IB": [
+      "DP CS: Data Structures"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "list",
+    "index",
+    "iteration",
+    "mutable",
+    "traversal"
+  ]
+}

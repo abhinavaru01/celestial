@@ -1,0 +1,39 @@
+{
+  "id": "english.F2.structured-exposition",
+  "subject": "english",
+  "tier": "F2",
+  "title": "Structured Exposition",
+  "slug": "structured-exposition",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Writing the multi-paragraph explanatory essay.",
+  "outcomes": [
+    "Plan a multi-paragraph essay",
+    "Write clear body paragraphs",
+    "Introduce and conclude effectively"
+  ],
+  "prereqs": [
+    "english.F2.close-reading"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.8-9 Writing"
+    ],
+    "ICSE": [
+      "Cl.8-9 Composition"
+    ],
+    "IB": [
+      "MYP Writing"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "essay",
+    "exposition",
+    "thesis",
+    "structure",
+    "writing"
+  ]
+}

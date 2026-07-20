@@ -1,0 +1,40 @@
+{
+  "id": "cs.A2.working-with-codebase",
+  "subject": "cs",
+  "tier": "A2",
+  "title": "Working with a Codebase",
+  "slug": "working-with-codebase",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Reading unfamiliar code, git collaboration workflows, and code review.",
+  "outcomes": [
+    "Read and navigate unfamiliar code",
+    "Use branch-based collaboration",
+    "Give and receive code review"
+  ],
+  "prereqs": [
+    "cs.A2.web-data-basics",
+    "cs.F2.version-control-ii"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS: Collaboration"
+    ],
+    "ICSE": [
+      "Cl.12 Teamwork"
+    ],
+    "IB": [
+      "DP CS: Development"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "codebase",
+    "code review",
+    "collaboration",
+    "pull request",
+    "git"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "physics.F2.pressure-density",
+  "subject": "physics",
+  "tier": "F2",
+  "title": "Pressure & Density",
+  "slug": "pressure-density",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Density as mass per volume, pressure in fluids, and buoyancy — more ratio reasoning applied.",
+  "outcomes": [
+    "Compute density and pressure",
+    "Explain pressure in fluids",
+    "Apply buoyancy and floating"
+  ],
+  "prereqs": [
+    "physics.F1.energy-i",
+    "math.F1.ratio-proportion-percentage"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.8-9 Force & Pressure",
+      "Cl.9 Gravitation (Buoyancy)"
+    ],
+    "ICSE": [
+      "Cl.8-9 Pressure & Upthrust"
+    ],
+    "IB": [
+      "DP Fluids"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "pressure",
+    "density",
+    "buoyancy",
+    "Archimedes"
+  ]
+}

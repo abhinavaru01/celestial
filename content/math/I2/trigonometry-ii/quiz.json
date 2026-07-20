@@ -1,0 +1,36 @@
+{
+  "topicId": "math.I2.trigonometry-ii",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "math_I2_trigonometry_ii_q1",
+        "type": "mcq",
+        "prompt": "Simplify sin²θ + cos²θ.",
+        "choices": [
+          "1",
+          "0",
+          "2",
+          "tan θ"
+        ],
+        "answer": 0,
+        "explanation": "The fundamental Pythagorean identity equals 1."
+      }
+    ],
+    "3": [
+      {
+        "id": "math_I2_trigonometry_ii_q2",
+        "type": "mcq",
+        "prompt": "To find a side opposite a known angle given two sides and the included angle, use:",
+        "choices": [
+          "the cosine rule",
+          "the sine rule",
+          "Pythagoras only",
+          "SOH-CAH-TOA"
+        ],
+        "answer": 0,
+        "explanation": "Two sides + included angle → cosine rule."
+      }
+    ]
+  }
+}

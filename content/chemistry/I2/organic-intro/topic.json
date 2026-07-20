@@ -1,0 +1,44 @@
+{
+  "id": "chemistry.I2.organic-intro",
+  "subject": "chemistry",
+  "tier": "I2",
+  "title": "Introductory Organic Chemistry",
+  "slug": "organic-intro",
+  "core": true,
+  "order": 6,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Hydrocarbons, functional groups and naming — the chemistry of carbon.",
+  "outcomes": [
+    "Recognise hydrocarbons and functional groups",
+    "Name simple organic molecules",
+    "Explain why carbon forms so many compounds"
+  ],
+  "prereqs": [
+    "chemistry.I2.equilibrium-intro"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.10-11 Carbon Compounds",
+      "Cl.11 Organic Chemistry Basics"
+    ],
+    "ICSE": [
+      "Cl.10 Organic Chemistry"
+    ],
+    "IB": [
+      "DP Organic"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "organic",
+    "hydrocarbon",
+    "functional group",
+    "alkane",
+    "alkene"
+  ]
+}

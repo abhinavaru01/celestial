@@ -1,0 +1,44 @@
+{
+  "id": "chemistry.A1.chemical-kinetics",
+  "subject": "chemistry",
+  "tier": "A1",
+  "title": "Chemical Kinetics",
+  "slug": "chemical-kinetics",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Rate laws, reaction order and the Arrhenius equation — how fast and why.",
+  "outcomes": [
+    "Write and use rate laws",
+    "Determine reaction order",
+    "Apply the Arrhenius relationship"
+  ],
+  "prereqs": [
+    "chemistry.A1.chemical-thermodynamics",
+    "math.I2.exponentials-logarithms"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Chemical Kinetics"
+    ],
+    "ICSE": [
+      "Cl.12 Kinetics"
+    ],
+    "IB": [
+      "DP Kinetics HL"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced",
+    "NEET"
+  ],
+  "keywords": [
+    "kinetics",
+    "rate law",
+    "order",
+    "Arrhenius",
+    "activation energy"
+  ]
+}

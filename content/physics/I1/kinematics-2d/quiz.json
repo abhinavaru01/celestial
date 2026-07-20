@@ -1,0 +1,31 @@
+{
+  "topicId": "physics.I1.kinematics-2d",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "physics_I1_kinematics_2d_q1",
+        "type": "mcq",
+        "prompt": "For a projectile, the horizontal velocity (no air resistance):",
+        "choices": [
+          "stays constant",
+          "decreases with g",
+          "increases with g",
+          "is zero"
+        ],
+        "answer": 0,
+        "explanation": "Gravity acts only vertically, so horizontal velocity is constant."
+      },
+      {
+        "id": "physics_I1_kinematics_2d_q2",
+        "type": "numeric",
+        "prompt": "A velocity of 10 m/s at 30°: horizontal component (cos30≈0.87)?",
+        "answer": 8.7,
+        "tolerance": 0.2,
+        "unit": "m/s",
+        "explanation": "vₓ = 10 cos30° ≈ 8.7 m/s."
+      }
+    ],
+    "3": []
+  }
+}

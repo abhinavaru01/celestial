@@ -1,0 +1,42 @@
+{
+  "id": "chemistry.I1.reactions-equations",
+  "subject": "chemistry",
+  "tier": "I1",
+  "title": "Reactions & Equations Deepened",
+  "slug": "reactions-equations",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Reaction types, ionic equations and an introduction to redox.",
+  "outcomes": [
+    "Classify reaction types",
+    "Write ionic equations",
+    "Identify oxidation and reduction"
+  ],
+  "prereqs": [
+    "chemistry.I1.bonding-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.10 Chemical Reactions"
+    ],
+    "ICSE": [
+      "Cl.10 Reactions"
+    ],
+    "IB": [
+      "DP Redox"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "reaction types",
+    "ionic equations",
+    "redox",
+    "oxidation",
+    "reduction"
+  ]
+}

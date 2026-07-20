@@ -1,0 +1,32 @@
+{
+  "topicId": "physics.F2.electricity-i",
+  "levels": {
+    "1": [
+      {
+        "id": "physics_F2_electricity_i_q1",
+        "type": "numeric",
+        "prompt": "3 V across a 6 Ω resistor. Current?",
+        "answer": 0.5,
+        "tolerance": 0,
+        "unit": "A",
+        "explanation": "I = V/R = 3/6 = 0.5 A."
+      }
+    ],
+    "2": [
+      {
+        "id": "physics_F2_electricity_i_q2",
+        "type": "mcq",
+        "prompt": "In a series circuit, the current is:",
+        "choices": [
+          "the same everywhere",
+          "different in each part",
+          "zero",
+          "largest at the battery"
+        ],
+        "answer": 0,
+        "explanation": "Charge is conserved, so series current is uniform."
+      }
+    ],
+    "3": []
+  }
+}

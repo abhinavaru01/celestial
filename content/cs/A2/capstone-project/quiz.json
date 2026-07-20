@@ -1,0 +1,35 @@
+{
+  "topicId": "cs.A2.capstone-project",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "cs_A2_capstone_project_q1",
+        "type": "mcq",
+        "prompt": "The capstone project mainly demonstrates that you can:",
+        "choices": [
+          "independently build real software",
+          "memorise syntax",
+          "pass a written test",
+          "avoid coding"
+        ],
+        "answer": 0,
+        "explanation": "It is the proof of independent building ability."
+      },
+      {
+        "id": "cs_A2_capstone_project_q2",
+        "type": "mcq",
+        "prompt": "A finished capstone should include tests and:",
+        "choices": [
+          "clear documentation (README)",
+          "no version history",
+          "one giant file",
+          "no structure"
+        ],
+        "answer": 0,
+        "explanation": "Documentation and version control are part of real software."
+      }
+    ],
+    "3": []
+  }
+}

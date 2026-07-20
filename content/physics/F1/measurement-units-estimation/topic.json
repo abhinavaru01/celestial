@@ -1,0 +1,42 @@
+{
+  "id": "physics.F1.measurement-units-estimation",
+  "subject": "physics",
+  "tier": "F1",
+  "title": "Measurement, Units & Estimation",
+  "slug": "measurement-units-estimation",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "SI units, unit conversion as ratio reasoning, significant figures and Fermi estimation.",
+  "outcomes": [
+    "Use SI units and convert between them",
+    "Apply significant figures",
+    "Make order-of-magnitude estimates"
+  ],
+  "prereqs": [
+    "math.F1.ratio-proportion-percentage"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 Units & Measurement"
+    ],
+    "ICSE": [
+      "Cl.9 Measurements"
+    ],
+    "IB": [
+      "DP Measurement & Uncertainty"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "NEET"
+  ],
+  "keywords": [
+    "units",
+    "SI",
+    "measurement",
+    "significant figures",
+    "estimation"
+  ]
+}

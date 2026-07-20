@@ -1,0 +1,44 @@
+{
+  "id": "math.F2.geometry-similarity-pythagoras",
+  "subject": "math",
+  "tier": "F2",
+  "title": "Geometry II: Similarity, Pythagoras & Mensuration",
+  "slug": "geometry-similarity-pythagoras",
+  "core": true,
+  "order": 5,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Similar figures as \"ratio applied to shapes\", the Pythagorean theorem, and areas and volumes.",
+  "outcomes": [
+    "Use similarity ratios to find missing lengths",
+    "Apply the Pythagorean theorem",
+    "Compute areas and volumes of standard shapes"
+  ],
+  "prereqs": [
+    "math.F2.polynomials-factoring",
+    "math.F1.ratio-proportion-percentage"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.9-10 Triangles (Similarity)",
+      "Cl.9 Pythagoras",
+      "Cl.8-9 Mensuration"
+    ],
+    "ICSE": [
+      "Cl.9 Similarity & Pythagoras"
+    ],
+    "IB": [
+      "MYP Geometry"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main"
+  ],
+  "keywords": [
+    "similarity",
+    "pythagoras",
+    "area",
+    "volume",
+    "scale factor"
+  ]
+}

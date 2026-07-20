@@ -1,0 +1,39 @@
+{
+  "id": "cs.I2.how-code-runs",
+  "subject": "cs",
+  "tier": "I2",
+  "title": "How Code Becomes Execution",
+  "slug": "how-code-runs",
+  "core": true,
+  "order": 6,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Memory layout and compilation stages, intuitively.",
+  "outcomes": [
+    "Describe compilation stages",
+    "Explain memory layout",
+    "Connect source to execution"
+  ],
+  "prereqs": [
+    "cs.I2.structs-data-structures-c"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS: Computer Organisation"
+    ],
+    "ICSE": [
+      "Cl.12 Systems"
+    ],
+    "IB": [
+      "DP CS: Computer Organisation"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "compilation",
+    "memory layout",
+    "stack",
+    "heap",
+    "linking"
+  ]
+}

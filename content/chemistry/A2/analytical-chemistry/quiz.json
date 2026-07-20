@@ -1,0 +1,35 @@
+{
+  "topicId": "chemistry.A2.analytical-chemistry",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "chemistry_A2_analytical_chemistry_q1",
+        "type": "mcq",
+        "prompt": "Titration is used to determine a solution's:",
+        "choices": [
+          "concentration",
+          "colour",
+          "temperature only",
+          "mass number"
+        ],
+        "answer": 0,
+        "explanation": "It finds an unknown concentration by neutralisation."
+      },
+      {
+        "id": "chemistry_A2_analytical_chemistry_q2",
+        "type": "mcq",
+        "prompt": "Qualitative analysis tells you:",
+        "choices": [
+          "what is present",
+          "exactly how much",
+          "the temperature",
+          "the pressure"
+        ],
+        "answer": 0,
+        "explanation": "Qualitative = identity; quantitative = amount."
+      }
+    ],
+    "3": []
+  }
+}

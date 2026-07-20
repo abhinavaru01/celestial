@@ -1,0 +1,43 @@
+{
+  "id": "math.I1.coordinate-geometry",
+  "subject": "math",
+  "tier": "I1",
+  "title": "Coordinate Geometry",
+  "slug": "coordinate-geometry",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Distance, midpoint and section formulas, and the equations of lines and circles.",
+  "outcomes": [
+    "Use distance, midpoint and section formulas",
+    "Find equations of lines in various forms",
+    "Recognise the equation of a circle"
+  ],
+  "prereqs": [
+    "math.I1.quadratics",
+    "math.F2.geometry-similarity-pythagoras"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.10 Coordinate Geometry"
+    ],
+    "ICSE": [
+      "Cl.10 Coordinate Geometry"
+    ],
+    "IB": [
+      "DP Geometry"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Main",
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "coordinate geometry",
+    "distance",
+    "midpoint",
+    "line",
+    "circle"
+  ]
+}

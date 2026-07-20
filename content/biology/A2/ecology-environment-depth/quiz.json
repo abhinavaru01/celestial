@@ -1,0 +1,35 @@
+{
+  "topicId": "biology.A2.ecology-environment-depth",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "biology_A2_ecology_environment_depth_q1",
+        "type": "mcq",
+        "prompt": "Biodiversity includes diversity of:",
+        "choices": [
+          "genes, species and ecosystems",
+          "only species",
+          "only genes",
+          "only habitats"
+        ],
+        "answer": 0,
+        "explanation": "It spans all three levels."
+      },
+      {
+        "id": "biology_A2_ecology_environment_depth_q2",
+        "type": "mcq",
+        "prompt": "A major human threat to biodiversity is:",
+        "choices": [
+          "habitat loss",
+          "photosynthesis",
+          "natural selection",
+          "osmosis"
+        ],
+        "answer": 0,
+        "explanation": "Habitat destruction is a leading cause of biodiversity loss."
+      }
+    ],
+    "3": []
+  }
+}

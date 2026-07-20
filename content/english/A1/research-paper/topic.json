@@ -1,0 +1,39 @@
+{
+  "id": "english.A1.research-paper",
+  "subject": "english",
+  "tier": "A1",
+  "title": "The Research Paper",
+  "slug": "research-paper",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Thesis, literature synthesis and sustained argument across a long paper.",
+  "outcomes": [
+    "Develop a research thesis",
+    "Synthesise a literature base",
+    "Sustain an argument at length"
+  ],
+  "prereqs": [
+    "english.A1.literary-criticism"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 Research Writing"
+    ],
+    "ICSE": [
+      "Cl.11-12 Project"
+    ],
+    "IB": [
+      "DP Extended Essay"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "research paper",
+    "thesis",
+    "synthesis",
+    "citation",
+    "argument"
+  ]
+}

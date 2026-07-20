@@ -1,0 +1,10 @@
+# Common Mistakes — Rates of Reaction
+
+> Every learner hits these — spot them before they cost you.
+
+- Thinking a catalyst is used up (it is not).
+
+- Confusing rate (speed) with yield (amount).
+
+- Ignoring that rate falls as reactants deplete.
+

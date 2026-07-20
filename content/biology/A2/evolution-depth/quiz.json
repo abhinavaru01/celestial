@@ -1,0 +1,35 @@
+{
+  "topicId": "biology.A2.evolution-depth",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "biology_A2_evolution_depth_q1",
+        "type": "mcq",
+        "prompt": "Speciation often begins with:",
+        "choices": [
+          "reproductive isolation",
+          "a single mutation instantly",
+          "extinction",
+          "hybrid vigour"
+        ],
+        "answer": 0,
+        "explanation": "Isolated populations diverge into new species."
+      },
+      {
+        "id": "biology_A2_evolution_depth_q2",
+        "type": "mcq",
+        "prompt": "On a phylogenetic tree, species sharing a recent branch point are:",
+        "choices": [
+          "closely related",
+          "unrelated",
+          "identical",
+          "extinct"
+        ],
+        "answer": 0,
+        "explanation": "A recent common ancestor means close relationship."
+      }
+    ],
+    "3": []
+  }
+}

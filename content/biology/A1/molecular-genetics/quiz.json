@@ -1,0 +1,36 @@
+{
+  "topicId": "biology.A1.molecular-genetics",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "biology_A1_molecular_genetics_q1",
+        "type": "mcq",
+        "prompt": "A codon consists of how many bases?",
+        "choices": [
+          "three",
+          "one",
+          "two",
+          "four"
+        ],
+        "answer": 0,
+        "explanation": "Three bases code for one amino acid."
+      }
+    ],
+    "3": [
+      {
+        "id": "biology_A1_molecular_genetics_q2",
+        "type": "mcq",
+        "prompt": "Why do a nerve cell and skin cell differ despite identical DNA?",
+        "choices": [
+          "different genes are switched on",
+          "they have different DNA",
+          "they lack nuclei",
+          "they use different codes"
+        ],
+        "answer": 0,
+        "explanation": "Gene regulation activates different genes in each."
+      }
+    ]
+  }
+}

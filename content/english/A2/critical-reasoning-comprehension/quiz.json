@@ -1,0 +1,36 @@
+{
+  "topicId": "english.A2.critical-reasoning-comprehension",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "english_A2_critical_reasoning_comprehension_q2",
+        "type": "mcq",
+        "prompt": "A comprehension answer must be:",
+        "choices": [
+          "supported by the passage",
+          "your personal opinion",
+          "from general knowledge",
+          "the longest option"
+        ],
+        "answer": 0,
+        "explanation": "Answers must be grounded in the text."
+      }
+    ],
+    "3": [
+      {
+        "id": "english_A2_critical_reasoning_comprehension_q1",
+        "type": "mcq",
+        "prompt": "Under time pressure, the best first step on a dense passage is to:",
+        "choices": [
+          "skim for structure and main idea",
+          "read every word slowly",
+          "answer before reading",
+          "memorise the passage"
+        ],
+        "answer": 0,
+        "explanation": "Skimming for structure orients you fast."
+      }
+    ]
+  }
+}

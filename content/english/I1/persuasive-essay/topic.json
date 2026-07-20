@@ -1,0 +1,38 @@
+{
+  "id": "english.I1.persuasive-essay",
+  "subject": "english",
+  "tier": "I1",
+  "title": "The Persuasive / Argumentative Essay",
+  "slug": "persuasive-essay",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Writing an essay that argues a position with evidence and reasoning.",
+  "outcomes": [
+    "Build a persuasive thesis",
+    "Support with evidence and reasoning",
+    "Structure a convincing argument"
+  ],
+  "prereqs": [
+    "english.I1.argument-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.9-10 Writing"
+    ],
+    "ICSE": [
+      "Cl.9-10 Composition"
+    ],
+    "IB": [
+      "DP Written Tasks"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "persuasive essay",
+    "argument",
+    "thesis",
+    "evidence"
+  ]
+}

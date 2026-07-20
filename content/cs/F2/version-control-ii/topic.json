@@ -1,0 +1,40 @@
+{
+  "id": "cs.F2.version-control-ii",
+  "subject": "cs",
+  "tier": "F2",
+  "title": "Version Control Basics II",
+  "slug": "version-control-ii",
+  "core": true,
+  "order": 6,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Branches, remotes and pushing to GitHub — your first published repository.",
+  "outcomes": [
+    "Create and merge branches",
+    "Push to a remote (GitHub)",
+    "Collaborate basics"
+  ],
+  "prereqs": [
+    "cs.F2.dictionaries-sets",
+    "cs.F1.version-control-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 CS: Collaboration"
+    ],
+    "ICSE": [
+      "Cl.10 IT Tools"
+    ],
+    "IB": [
+      "DP CS: Development"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "git",
+    "branch",
+    "remote",
+    "GitHub",
+    "push"
+  ]
+}

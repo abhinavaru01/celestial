@@ -1,0 +1,31 @@
+{
+  "topicId": "physics.A2.current-electricity-advanced",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "physics_A2_current_electricity_advanced_q1",
+        "type": "numeric",
+        "prompt": "Power dissipated by 2 A through 3 Ω?",
+        "answer": 12,
+        "tolerance": 0,
+        "unit": "W",
+        "explanation": "P = I²R = 4 × 3 = 12 W."
+      },
+      {
+        "id": "physics_A2_current_electricity_advanced_q2",
+        "type": "mcq",
+        "prompt": "A voltmeter should be connected:",
+        "choices": [
+          "in parallel",
+          "in series",
+          "in place of the battery",
+          "across the ammeter"
+        ],
+        "answer": 0,
+        "explanation": "It measures potential difference across a component, in parallel."
+      }
+    ],
+    "3": []
+  }
+}

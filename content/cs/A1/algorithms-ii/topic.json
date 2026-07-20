@@ -1,0 +1,42 @@
+{
+  "id": "cs.A1.algorithms-ii",
+  "subject": "cs",
+  "tier": "A1",
+  "title": "Algorithms II",
+  "slug": "algorithms-ii",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Divide and conquer, efficient sorting (merge/quick), and hashing.",
+  "outcomes": [
+    "Apply divide and conquer",
+    "Explain merge and quick sort",
+    "Use hashing for fast lookup"
+  ],
+  "prereqs": [
+    "cs.A1.trees-graphs",
+    "cs.I1.algorithms-i"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 CS: Sorting"
+    ],
+    "ICSE": [
+      "Cl.12 Algorithms"
+    ],
+    "IB": [
+      "DP CS"
+    ]
+  },
+  "competitiveTags": [
+    "JEE-Advanced"
+  ],
+  "keywords": [
+    "divide and conquer",
+    "merge sort",
+    "quick sort",
+    "hashing",
+    "algorithms"
+  ]
+}

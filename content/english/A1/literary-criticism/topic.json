@@ -1,0 +1,38 @@
+{
+  "id": "english.A1.literary-criticism",
+  "subject": "english",
+  "tier": "A1",
+  "title": "Literary Criticism",
+  "slug": "literary-criticism",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Critical lenses and close analysis of complex texts.",
+  "outcomes": [
+    "Apply critical lenses",
+    "Analyse complex texts closely",
+    "Support interpretation with theory"
+  ],
+  "prereqs": [
+    "english.A1.rhetoric-style"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 Literature"
+    ],
+    "ICSE": [
+      "Cl.11-12 Criticism"
+    ],
+    "IB": [
+      "DP Literary Analysis"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "literary criticism",
+    "critical lens",
+    "interpretation",
+    "analysis"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "english.F1.sentence-craft",
+  "subject": "english",
+  "tier": "F1",
+  "title": "Sentence Craft",
+  "slug": "sentence-craft",
+  "core": true,
+  "order": 3,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Grammar as a tool for clarity: sentence types and combining sentences well.",
+  "outcomes": [
+    "Identify sentence types",
+    "Combine sentences for flow",
+    "Use grammar for clarity"
+  ],
+  "prereqs": [
+    "english.F1.vocabulary-roots"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.6-8 Grammar"
+    ],
+    "ICSE": [
+      "Cl.6-8 Grammar"
+    ],
+    "IB": [
+      "MYP Language"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "grammar",
+    "sentences",
+    "clauses",
+    "conjunctions",
+    "clarity"
+  ]
+}

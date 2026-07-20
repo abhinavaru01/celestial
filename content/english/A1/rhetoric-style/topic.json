@@ -1,0 +1,39 @@
+{
+  "id": "english.A1.rhetoric-style",
+  "subject": "english",
+  "tier": "A1",
+  "title": "Rhetoric & Style at Depth",
+  "slug": "rhetoric-style",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Voice, syntax variety and precision in advanced writing.",
+  "outcomes": [
+    "Develop a distinctive voice",
+    "Vary syntax for effect",
+    "Write with precision"
+  ],
+  "prereqs": [
+    "english.I2.public-speaking"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11-12 Advanced Writing"
+    ],
+    "ICSE": [
+      "Cl.11-12 Style"
+    ],
+    "IB": [
+      "DP Language"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "rhetoric",
+    "style",
+    "voice",
+    "syntax",
+    "precision"
+  ]
+}

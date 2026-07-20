@@ -1,0 +1,35 @@
+{
+  "topicId": "english.A1.research-paper",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "english_A1_research_paper_q1",
+        "type": "mcq",
+        "prompt": "A research paper's thesis should:",
+        "choices": [
+          "argue an original position",
+          "list facts only",
+          "summarise one source",
+          "ask a question"
+        ],
+        "answer": 0,
+        "explanation": "It advances an arguable, evidence-backed claim."
+      },
+      {
+        "id": "english_A1_research_paper_q2",
+        "type": "mcq",
+        "prompt": "Handling multiple sources well means:",
+        "choices": [
+          "synthesising them into your argument",
+          "summarising each in turn",
+          "quoting only one",
+          "ignoring disagreement"
+        ],
+        "answer": 0,
+        "explanation": "Synthesis integrates sources into a coherent argument."
+      }
+    ],
+    "3": []
+  }
+}

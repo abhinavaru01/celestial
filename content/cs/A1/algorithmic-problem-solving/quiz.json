@@ -1,0 +1,36 @@
+{
+  "topicId": "cs.A1.algorithmic-problem-solving",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "cs_A1_algorithmic_problem_solving_q2",
+        "type": "mcq",
+        "prompt": "Input-size limits mainly help you choose:",
+        "choices": [
+          "an acceptable time complexity",
+          "variable names",
+          "the language",
+          "the colour"
+        ],
+        "answer": 0,
+        "explanation": "They tell you which complexities will run in time."
+      }
+    ],
+    "3": [
+      {
+        "id": "cs_A1_algorithmic_problem_solving_q1",
+        "type": "mcq",
+        "prompt": "The first priority when solving an algorithm problem is usually:",
+        "choices": [
+          "a correct solution",
+          "the fastest possible code",
+          "the shortest code",
+          "avoiding functions"
+        ],
+        "answer": 0,
+        "explanation": "Correctness first, then optimise."
+      }
+    ]
+  }
+}

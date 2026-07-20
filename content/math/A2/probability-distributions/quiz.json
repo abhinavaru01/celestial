@@ -1,0 +1,30 @@
+{
+  "topicId": "math.A2.probability-distributions",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "math_A2_probability_distributions_q1",
+        "type": "numeric",
+        "prompt": "A fair coin is flipped 10 times. Expected number of heads?",
+        "answer": 5,
+        "tolerance": 0,
+        "explanation": "Binomial mean np = 10 × 0.5 = 5."
+      },
+      {
+        "id": "math_A2_probability_distributions_q2",
+        "type": "mcq",
+        "prompt": "In a normal distribution, roughly what fraction lies within 1 SD of the mean?",
+        "choices": [
+          "68%",
+          "50%",
+          "95%",
+          "99%"
+        ],
+        "answer": 0,
+        "explanation": "The empirical rule: about 68%."
+      }
+    ],
+    "3": []
+  }
+}

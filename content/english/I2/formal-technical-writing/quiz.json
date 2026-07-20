@@ -1,0 +1,36 @@
+{
+  "topicId": "english.I2.formal-technical-writing",
+  "levels": {
+    "1": [
+      {
+        "id": "english_I2_formal_technical_writing_q2",
+        "type": "mcq",
+        "prompt": "Formal reports typically use ___ to organise information.",
+        "choices": [
+          "headings and logical order",
+          "random paragraphs",
+          "poetry",
+          "only questions"
+        ],
+        "answer": 0,
+        "explanation": "Structure helps readers find information fast."
+      }
+    ],
+    "2": [
+      {
+        "id": "english_I2_formal_technical_writing_q1",
+        "type": "mcq",
+        "prompt": "Technical writing values:",
+        "choices": [
+          "precision and clarity",
+          "emotional language",
+          "ambiguity",
+          "rhyme"
+        ],
+        "answer": 0,
+        "explanation": "Reports must be precise and objective."
+      }
+    ],
+    "3": []
+  }
+}

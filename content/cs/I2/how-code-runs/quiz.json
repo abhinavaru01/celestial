@@ -1,0 +1,35 @@
+{
+  "topicId": "cs.I2.how-code-runs",
+  "levels": {
+    "1": [],
+    "2": [
+      {
+        "id": "cs_I2_how_code_runs_q1",
+        "type": "mcq",
+        "prompt": "Dynamically allocated memory (malloc) comes from the:",
+        "choices": [
+          "heap",
+          "stack",
+          "code segment",
+          "registers"
+        ],
+        "answer": 0,
+        "explanation": "The heap serves dynamic allocation."
+      },
+      {
+        "id": "cs_I2_how_code_runs_q2",
+        "type": "mcq",
+        "prompt": "The final stage that combines compiled parts into an executable is:",
+        "choices": [
+          "linking",
+          "preprocessing",
+          "printing",
+          "parsing"
+        ],
+        "answer": 0,
+        "explanation": "The linker produces the final executable."
+      }
+    ],
+    "3": []
+  }
+}

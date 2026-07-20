@@ -1,0 +1,40 @@
+{
+  "id": "cs.F2.strings-depth",
+  "subject": "cs",
+  "tier": "F2",
+  "title": "Strings at Depth",
+  "slug": "strings-depth",
+  "core": true,
+  "order": 4,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "String methods, slicing and formatting.",
+  "outcomes": [
+    "Use common string methods",
+    "Slice strings",
+    "Format strings"
+  ],
+  "prereqs": [
+    "cs.F2.functions",
+    "cs.F1.python-variables-types-expressions"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.11 CS: Strings"
+    ],
+    "ICSE": [
+      "Cl.10 String Handling"
+    ],
+    "IB": [
+      "DP CS"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "string",
+    "slicing",
+    "methods",
+    "immutable",
+    "formatting"
+  ]
+}

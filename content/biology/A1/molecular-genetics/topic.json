@@ -1,0 +1,42 @@
+{
+  "id": "biology.A1.molecular-genetics",
+  "subject": "biology",
+  "tier": "A1",
+  "title": "Molecular Genetics",
+  "slug": "molecular-genetics",
+  "core": true,
+  "order": 2,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Transcription, translation and gene regulation in detail.",
+  "outcomes": [
+    "Detail transcription and translation",
+    "Explain the genetic code",
+    "Describe gene regulation"
+  ],
+  "prereqs": [
+    "biology.A1.cell-biology-depth",
+    "biology.I2.dna-inheritance"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.12 Molecular Basis of Inheritance"
+    ],
+    "ICSE": [
+      "Cl.12 Molecular Genetics"
+    ],
+    "IB": [
+      "DP Molecular Biology HL"
+    ]
+  },
+  "competitiveTags": [
+    "NEET"
+  ],
+  "keywords": [
+    "transcription",
+    "translation",
+    "codon",
+    "gene regulation",
+    "genetic code"
+  ]
+}

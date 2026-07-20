@@ -1,0 +1,36 @@
+{
+  "topicId": "biology.I1.human-physiology-ii",
+  "levels": {
+    "1": [
+      {
+        "id": "biology_I1_human_physiology_ii_q1",
+        "type": "mcq",
+        "prompt": "Which control system uses hormones?",
+        "choices": [
+          "endocrine",
+          "nervous",
+          "skeletal",
+          "digestive"
+        ],
+        "answer": 0,
+        "explanation": "The endocrine system uses chemical hormones."
+      }
+    ],
+    "2": [
+      {
+        "id": "biology_I1_human_physiology_ii_q2",
+        "type": "mcq",
+        "prompt": "Negative feedback acts to:",
+        "choices": [
+          "oppose a change and restore balance",
+          "amplify a change",
+          "stop all reactions",
+          "raise temperature only"
+        ],
+        "answer": 0,
+        "explanation": "It corrects deviations to keep conditions stable."
+      }
+    ],
+    "3": []
+  }
+}

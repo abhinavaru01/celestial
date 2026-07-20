@@ -1,0 +1,36 @@
+{
+  "topicId": "english.F1.vocabulary-roots",
+  "levels": {
+    "1": [
+      {
+        "id": "english_F1_vocabulary_roots_q1",
+        "type": "mcq",
+        "prompt": "The root \"aqua\" means:",
+        "choices": [
+          "water",
+          "fire",
+          "earth",
+          "air"
+        ],
+        "answer": 0,
+        "explanation": "\"Aqua\" gives aquarium, aquatic, aqueduct."
+      }
+    ],
+    "2": [
+      {
+        "id": "english_F1_vocabulary_roots_q2",
+        "type": "mcq",
+        "prompt": "The prefix \"un-\" in \"unhappy\" does what to the meaning?",
+        "choices": [
+          "reverses it",
+          "strengthens it",
+          "has no effect",
+          "makes it plural"
+        ],
+        "answer": 0,
+        "explanation": "It negates: not happy."
+      }
+    ],
+    "3": []
+  }
+}

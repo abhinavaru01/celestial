@@ -1,0 +1,36 @@
+{
+  "topicId": "chemistry.F2.periodic-table",
+  "levels": {
+    "1": [
+      {
+        "id": "chemistry_F2_periodic_table_q1",
+        "type": "mcq",
+        "prompt": "Elements in the same group tend to have similar:",
+        "choices": [
+          "chemical properties",
+          "atomic mass",
+          "number of neutrons",
+          "colour"
+        ],
+        "answer": 0,
+        "explanation": "They share the same number of outer electrons."
+      }
+    ],
+    "2": [
+      {
+        "id": "chemistry_F2_periodic_table_q2",
+        "type": "mcq",
+        "prompt": "A column in the periodic table is called a:",
+        "choices": [
+          "group",
+          "period",
+          "block",
+          "shell"
+        ],
+        "answer": 0,
+        "explanation": "Columns are groups; rows are periods."
+      }
+    ],
+    "3": []
+  }
+}

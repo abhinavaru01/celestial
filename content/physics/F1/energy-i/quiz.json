@@ -1,0 +1,28 @@
+{
+  "topicId": "physics.F1.energy-i",
+  "levels": {
+    "1": [
+      {
+        "id": "physics_F1_energy_i_q1",
+        "type": "numeric",
+        "prompt": "KE of a 2 kg object moving at 3 m/s?",
+        "answer": 9,
+        "tolerance": 0,
+        "unit": "J",
+        "explanation": "½mv² = ½·2·9 = 9 J."
+      }
+    ],
+    "2": [
+      {
+        "id": "physics_F1_energy_i_q2",
+        "type": "numeric",
+        "prompt": "Work done lifting 5 N through 2 m (against gravity)?",
+        "answer": 10,
+        "tolerance": 0,
+        "unit": "J",
+        "explanation": "W = F·d = 5 × 2 = 10 J."
+      }
+    ],
+    "3": []
+  }
+}

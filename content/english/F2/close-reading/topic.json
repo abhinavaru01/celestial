@@ -1,0 +1,39 @@
+{
+  "id": "english.F2.close-reading",
+  "subject": "english",
+  "tier": "F2",
+  "title": "Close Reading of Prose & Poetry",
+  "slug": "close-reading",
+  "core": true,
+  "order": 1,
+  "depth": "module",
+  "estMinutes": 180,
+  "summary": "Analysing figurative language, tone and structure in texts.",
+  "outcomes": [
+    "Identify figurative language",
+    "Analyse tone and mood",
+    "Explain how structure shapes meaning"
+  ],
+  "prereqs": [
+    "english.F1.narrative-descriptive-writing"
+  ],
+  "boardMap": {
+    "CBSE": [
+      "Cl.8-9 Literature"
+    ],
+    "ICSE": [
+      "Cl.8-9 Literature"
+    ],
+    "IB": [
+      "MYP Language & Literature"
+    ]
+  },
+  "competitiveTags": [],
+  "keywords": [
+    "close reading",
+    "figurative language",
+    "tone",
+    "imagery",
+    "poetry"
+  ]
+}
