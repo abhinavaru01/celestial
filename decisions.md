@@ -74,3 +74,10 @@ _Append-only. Each entry: decision, options considered, reasoning, date. Referen
 **Decision:** Rewrote `prettifyMath` in `app/js/md.js` to correctly convert LaTeX (`\frac`/`\dfrac`/`\tfrac`, `\text`, `\quad`, greek letters, symbols, super/subscripts) to clean readable math, unwrapping `\text{}` before fractions and mapping unknown/spacing commands to spaces so words never jam.
 
 **Reasoning:** The prior prettifier mangled flagship notes (e.g., "quadwhich meansquad", "dfracab"). Fix keeps the zero-dependency, no-external-math-engine constraint (D-001) while rendering correctly. Verified against the actual flagship content.
+
+## D-012: Textbook math rendering, per-subject depth, diagrams, responsiveness <a id="d-012"></a>
+**Date:** 2026-07-20
+
+**Decision:** Upgrade the platform's quality without adding runtime dependencies: (1) render exponents/subscripts as real `<sup>`/`<sub>` across all prose so `a^n`, `2^2`, `a^(m+n)` look like a textbook (scoped to avoid breaking code identifiers); (2) support embedded SVG diagrams and styled "Key formulas/facts/syntax" + worked-example callouts in the Markdown renderer; (3) deepen **every** subject to JEE/NEET level via `scripts/curriculum/augment.mjs` (key formulas/facts + a worked example per module topic, merged by the generator) plus inline chemistry depth and flagship/chemistry diagrams; (4) a full responsive CSS overhaul verified at 360px mobile through desktop with zero horizontal overflow.
+
+**Reasoning:** The founder asked for textbook-quality math, deeper notes across all subjects (chemistry first, then all), visual/animated information, and device responsiveness. The augmentation-file approach adds depth to ~155 topics by authoring only the new content once (not rewriting the 900-line datasets), keeping the zero-dependency design (D-001). Verified end-to-end in Chromium (desktop + mobile): superscripts, formula blocks, worked examples, diagrams render; 0 JS errors.

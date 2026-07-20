@@ -9,8 +9,8 @@ _Last updated: 2026-07-20 by session 1 (cont.)_
 A compressed, restructured global curriculum delivering grades 6–12 equivalent knowledge in ≤3 years, plus the web platform that delivers it. Compression comes from **removing redundancy and interleaving concepts across subjects** (teach each idea once, reuse it everywhere via a knowledge dependency graph), NOT from longer study days. Progression is **mastery-based** through six difficulty sub-levels (F1→A2). Subjects: Math, Physics, Chemistry, Biology, English, CS (Python→C). Every topic ships six signature layers (deep notes, quizzes, common mistakes, tricks, memory aids, prerequisite links). See `PRD.md` for the full brief.
 
 ## 2. Current status
-- **Phase:** Phases 0–3 COMPLETE & verified; Phases 4–6 scaffolded. (Roadmap: `docs/business/roadmap.md`.)
-- **Overall % complete (rough):** foundation/blueprint/platform ≈ 100% for the MVP slice; total curriculum *content* build-out is early (3 of ~200+ topics authored — by design, depth over breadth).
+- **Phase:** Full platform live at https://abhinavaru01.github.io/celestial/ (auto-deploys on push to `main`). Phases 0–4 done; 5–6 partial.
+- **Overall % complete (rough):** all 192 topics authored across 6 subjects × 6 tiers, each with all six layers + Key formulas/facts + a worked example; 3 flagships are the deepest hand-written exemplars. Rendering upgraded (textbook sup/sub, SVG diagrams, responsive). Remaining: promote more topics to flagship depth; first-class competitive data; teacher rosters (needs backend).
 - **DONE and verified:**
   - Scaffold: `memory.md`, `decisions.md`, `PRD.md`, `README.md`, repo structure.
   - Content model: six-file topic contract, enforced by `scripts/build.mjs` (build FAILS if a layer is missing). Schema: `docs/platform/architecture.md`.
@@ -40,7 +40,7 @@ A compressed, restructured global curriculum delivering grades 6–12 equivalent
 
 ## 5. Curriculum state
 - **Tier system:** 3 tiers × 2 sub-levels — F1, F2 (Foundation), I1, I2 (Intermediate), A1, A2 (Advanced). ~20 weeks each; per-subject strands advance independently. Defined: `docs/curriculum/tier-system.md`, `content/tiers.json`.
-- **Subjects drafted (syllabi):** all 6 have full tier-by-tier syllabi. **Topics fully built (all 6 layers):** 3 (Math/Physics/CS, all F1). Remaining topics: unbuilt (author on the same repeatable pattern).
+- **Subjects drafted (syllabi):** all 6 have full tier-by-tier syllabi. **Topics built (all 6 layers):** all 192. Content = base datasets `scripts/curriculum/<subject>.mjs` + depth `scripts/curriculum/augment.mjs` (key formulas/facts + worked example per topic), expanded by `scripts/generate-content.mjs`; 3 flagship dirs are hand-written and skipped by the generator.
 - **Dependency graph:** format + live slice in `docs/curriculum/dependency-graph.md`; machine graph in `app/data/graph.json`.
 - **Board-equivalence mapping:** `docs/curriculum/board-equivalence.md`; computed coverage in `app/data/board-coverage.json`.
 
@@ -57,12 +57,15 @@ A compressed, restructured global curriculum delivering grades 6–12 equivalent
 - None blocking. Future decision (not yet needed): when to add a backend — trigger is multi-student rosters / cross-device accounts (documented in architecture + roadmap).
 
 ## 8. Known issues / tech debt
-- Math rendering is a lightweight Unicode prettifier (no external math engine, by the zero-dependency design decision). Adequate and readable for current notes; if heavy LaTeX is needed later, bundle a vendored KaTeX locally (still no network) rather than a CDN.
-- Progress is single-device (localStorage) — intended for MVP; backend swap-in point is isolated in `app/js/progress.js`.
-- Competitive content is Markdown docs, not yet first-class in-app quiz data (Phase 4).
+- Math rendering is a dependency-free renderer (`app/js/md.js`): real `<sup>`/`<sub>` for exponents/subscripts + light LaTeX cleanup for `$…$`. Good for the current notation; if heavy LaTeX is needed later, vendor KaTeX locally (no CDN).
+- Locking/mastery/completion removed from the app (D-009); `progress.js` deleted. Everything open. Re-enabling mastery would restore that module + gating UI.
+- Module topics carry Key formulas/facts + one worked example; only the 3 F1 flagships are flagship-length. Promoting more topics to flagship depth is the main remaining content work.
+- Competitive content is Markdown docs, not yet first-class in-app quiz data.
+- `app/data/*.json` is generated but committed; re-run `node scripts/generate-content.mjs && node scripts/build.mjs` after content edits.
 - `app/data/*.json` is generated but committed; remember to re-run `build.mjs` after content edits (or add a pre-commit hook later).
 
 ## 9. Changelog (append-only, newest at top)
+- 2026-07-20 (session 1 cont.) — **Quality level-up (D-012).** Textbook `<sup>`/`<sub>` math rendering (a^n, 2^2, a^(m+n)); SVG diagrams + Key-formulas/facts/syntax blocks + worked-example callouts; deepened EVERY subject to JEE/NEET level via scripts/curriculum/augment.mjs (key formulas/facts + worked example per topic) with chemistry deepened inline; full responsive CSS overhaul (0 overflow at 360px). Removed dead progress.js; refreshed README/dependency-graph docs. Verified desktop+mobile in Chromium, 0 JS errors. Deployed via PR #4.
 - 2026-07-20 (session 1 cont.) — **Full curriculum + rebrand + de-gating.** Authored the entire 6×6 curriculum: all 192 topics now exist with all six signature layers (37 math, 30 physics, 30 chemistry, 30 biology, 28 english, 37 CS) via structured datasets `scripts/curriculum/*.mjs` + `scripts/generate-content.mjs` (3 flagship deep-dives kept; 189 generated modules). Build passes: 192 topics, 282 dependency edges (24 cross-subject), acyclic. Removed locking/mastery/completion from the platform — everything open (D-009); rewrote `app/js/app.js`, retired `app/js/progress.js`. Rebranded site to "The Ultimate Learner" (D-010). Fixed the math renderer that was mangling flagship LaTeX (D-011). Verified end-to-end in Chromium: 192 topics browsable, all tabs render, quizzes work, flagship math clean, 0 JS errors. Decisions D-008…D-011 logged. Deploy workflow already live (GitHub Pages, auto-deploys on push to main).
 - 2026-07-19 (session 1) — Delivered Phases 0–3 end-to-end and scaffolded 4–6: full scaffold + content model + validating build script; tier system; 6 subject syllabi; dependency-graph/board-equivalence/timeline/mastery-gating/competitive-integration blueprints; 3 fully-built proof-of-model topics (Math/Physics/CS); platform MVP (notes/quiz/mastery/signature-layer tabs/dependency map/search/teacher tools) verified in a real browser with 0 JS errors; competitive sample content; business positioning/roadmap/research-notes; README. Build passes (`3 topics, all six layers, graph acyclic`).
 - 2026-07-19 (session 1) — memory.md created from Appendix A template; Phase 0 begun.
