@@ -6,7 +6,7 @@
       {
         "id": "chemistry_I2_equilibrium_intro_q1",
         "type": "mcq",
-        "prompt": "At dynamic equilibrium, the forward and backward reaction rates are:",
+        "prompt": "At dynamic equilibrium, forward and backward rates are:",
         "choices": [
           "equal",
           "both zero",
@@ -21,15 +21,15 @@
       {
         "id": "chemistry_I2_equilibrium_intro_q2",
         "type": "mcq",
-        "prompt": "Adding more reactant shifts equilibrium toward:",
+        "prompt": "For N₂+3H₂⇌2NH₃, increasing pressure shifts equilibrium toward:",
         "choices": [
-          "products",
+          "NH₃ (fewer gas moles)",
           "reactants",
           "neither",
-          "a solid only"
+          "a solid"
         ],
         "answer": 0,
-        "explanation": "Le Chatelier: the system consumes the added reactant."
+        "explanation": "Higher pressure favours the side with fewer gas molecules."
       }
     ]
   }

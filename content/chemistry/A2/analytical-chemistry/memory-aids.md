@@ -4,7 +4,7 @@
 
 - "Qualitative = what; quantitative = how much."
 
-- "Repeat for concordant titres."
+- "n = CV, then mole ratio."
 
 - Every result carries an uncertainty.
 

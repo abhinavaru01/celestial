@@ -1,6 +1,6 @@
 # What is Life? Characteristics & Classification
 
-> The characteristics shared by living things, and classification as an organising principle.
+> [!intro] The characteristics shared by living things, and classification as an organising principle.
 
 ## Signs of life
 
@@ -10,6 +10,16 @@ Living things share features — movement, respiration, sensitivity, growth, rep
 
 Grouping organisms by shared features (not memorising a list) reveals relationships and makes the diversity of life manageable and predictable.
 
+```formula Key facts
+MRS GREN: Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, Nutrition
+Classify from broad → specific by shared features
+```
+
+> [!example] **Worked example**
+> **Problem.** Is a growing crystal alive? Use MRS GREN.
+> >
+> > **Solution.** A crystal grows but does not respire, reproduce, respond, excrete or feed. Since it fails MRS GREN, it is not living.
+
 ## What you should be able to do
 
 - List the characteristics of life
@@ -18,4 +28,4 @@ Grouping organisms by shared features (not memorising a list) reveals relationsh
 
 ---
 
-_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._
+_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._

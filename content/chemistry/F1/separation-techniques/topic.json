@@ -8,11 +8,11 @@
   "order": 2,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Filtration, evaporation, distillation and chromatography — separating mixtures by physical properties.",
+  "summary": "Filtration, evaporation, distillation and chromatography — separating mixtures by exploiting differences in physical properties.",
   "outcomes": [
-    "Choose a separation method for a mixture",
+    "Choose a separation method from the property that differs",
     "Explain distillation and chromatography",
-    "Relate method to particle properties"
+    "Interpret a chromatogram (Rf)"
   ],
   "prereqs": [
     "chemistry.F1.matter-particles-states"
@@ -36,7 +36,7 @@
     "filtration",
     "distillation",
     "chromatography",
-    "evaporation",
+    "Rf",
     "mixtures"
   ]
 }

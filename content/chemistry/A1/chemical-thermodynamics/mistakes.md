@@ -2,9 +2,9 @@
 
 > Every learner hits these — spot them before they cost you.
 
-- Ignoring the temperature term in ΔG = ΔH − TΔS.
+- Ignoring the T term in ΔG = ΔH − TΔS.
 
 - Assuming exothermic always means spontaneous.
 
-- Confusing ΔG sign conventions.
+- Mismatching kJ and J for ΔH vs ΔS.
 

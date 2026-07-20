@@ -4,7 +4,7 @@
 
 - "Protons define the element."
 
-- "Neutrons = mass number − atomic number."
+- "Neutrons = A − Z."
 
-- Isotopes share chemistry, differ in mass.
+- Ar is a weighted average → not whole.
 

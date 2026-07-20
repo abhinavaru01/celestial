@@ -4,7 +4,7 @@
 
 - Variable oxidation states are a d-block signature.
 
-- Ligands donate electron pairs to the central metal.
+- Ligands donate electron pairs to the metal.
 
 - d-orbital splitting explains complex colours.
 

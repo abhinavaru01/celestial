@@ -4,7 +4,7 @@
 
 - Confusing monomers with polymers.
 
-- Ignoring how structure dictates biological function.
+- Mixing up addition and condensation.
 
-- Mixing up condensation and addition polymerisation.
+- Ignoring how structure dictates function.
 

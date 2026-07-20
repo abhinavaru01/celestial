@@ -6,5 +6,5 @@
 
 - "-ane single, -ene double."
 
-- Functional group = the reactive handle.
+- Functional group = reactive handle.
 

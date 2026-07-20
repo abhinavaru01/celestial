@@ -8,11 +8,11 @@
   "order": 3,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "The mole and molar mass — proportional reasoning applied to counting particles (the keystone topic).",
+  "summary": "The mole, Avogadro's number and molar mass — proportional reasoning applied to counting particles. The keystone of all quantitative chemistry.",
   "outcomes": [
     "Define the mole and Avogadro's number",
-    "Convert between mass, moles and particles",
-    "Use molar mass"
+    "Convert between mass, moles and number of particles",
+    "Compute molar mass of compounds"
   ],
   "prereqs": [
     "chemistry.F2.periodic-table",
@@ -21,7 +21,7 @@
   "boardMap": {
     "CBSE": [
       "Cl.9-11 Mole Concept",
-      "Cl.11 Some Basic Concepts of Chemistry"
+      "Cl.11 Some Basic Concepts"
     ],
     "ICSE": [
       "Cl.10 Mole Concept"

@@ -8,11 +8,11 @@
   "order": 5,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Reversible reactions, dynamic equilibrium, and Le Chatelier's principle.",
+  "summary": "Dynamic equilibrium, the equilibrium constant, and Le Chatelier's principle.",
   "outcomes": [
     "Explain dynamic equilibrium",
-    "Apply Le Chatelier's principle",
-    "Predict shifts from changes"
+    "Write an equilibrium expression",
+    "Predict shifts with Le Chatelier"
   ],
   "prereqs": [
     "chemistry.I2.energetics",
@@ -38,6 +38,6 @@
     "equilibrium",
     "reversible",
     "Le Chatelier",
-    "dynamic"
+    "equilibrium constant"
   ]
 }

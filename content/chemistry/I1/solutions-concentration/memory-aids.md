@@ -2,7 +2,7 @@
 
 > How to remember this — and keep it.
 
-- "Molarity = moles per litre."
+- "M = n/V (litres)."
 
 - "C₁V₁ = C₂V₂."
 

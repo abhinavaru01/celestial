@@ -1,6 +1,6 @@
 # Software Design
 
-> Requirements, decomposition, data modelling and interfaces.
+> [!intro] Requirements, decomposition, data modelling and interfaces.
 
 ## Design before code
 
@@ -10,6 +10,17 @@ Real software starts with understanding requirements, then decomposing the syste
 
 Deciding how data is structured and how components talk (interfaces) shapes everything. Good design makes code easier to build, test and change.
 
+```formula Key syntax & rules
+Understand requirements before coding
+One clear responsibility per component
+Define interfaces between components early
+```
+
+> [!example] **Worked example**
+> **Problem.** Why decide data models and interfaces before writing code?
+> >
+> > **Solution.** They shape everything; getting them right first avoids costly rewrites and keeps components loosely coupled.
+
 ## What you should be able to do
 
 - Gather requirements
@@ -18,4 +29,4 @@ Deciding how data is structured and how components talk (interfaces) shapes ever
 
 ---
 
-_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._
+_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._

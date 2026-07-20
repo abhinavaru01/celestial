@@ -4,7 +4,7 @@
 
 - Polymer = many monomers linked.
 
-- Proteins are polymers of amino acids; starch of glucose.
+- Addition (from alkenes) loses nothing; condensation loses water.
 
-- Structure determines function — a theme shared with biology.
+- Proteins ← amino acids; starch ← glucose.
 

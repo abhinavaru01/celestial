@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T00:30:32.084Z",
+  "generatedAt": "2026-07-20T08:14:44.646Z",
   "subjects": [
     {
       "id": "math",
@@ -710,7 +710,7 @@
       "core": true,
       "order": 3,
       "estMinutes": 180,
-      "summary": "Equilibrium constants Kc and Kp, and ICE-table calculations.",
+      "summary": "Equilibrium constants Kc and Kp, the reaction quotient Q, and ICE-table calculations.",
       "prereqs": [
         "chemistry.A1.chemical-kinetics",
         "chemistry.I2.equilibrium-intro"
@@ -733,7 +733,7 @@
       "core": true,
       "order": 2,
       "estMinutes": 180,
-      "summary": "Rate laws, reaction order and the Arrhenius equation — how fast and why.",
+      "summary": "Rate laws, order of reaction, half-life and the Arrhenius temperature dependence.",
       "prereqs": [
         "chemistry.A1.chemical-thermodynamics",
         "math.I2.exponentials-logarithms"
@@ -756,7 +756,7 @@
       "core": true,
       "order": 1,
       "estMinutes": 180,
-      "summary": "Enthalpy, entropy and Gibbs free energy — predicting whether reactions happen.",
+      "summary": "Enthalpy, entropy and Gibbs free energy — the thermodynamic criterion for whether a reaction is spontaneous.",
       "prereqs": [
         "chemistry.I2.organic-intro",
         "chemistry.I2.energetics"
@@ -779,7 +779,7 @@
       "core": true,
       "order": 5,
       "estMinutes": 180,
-      "summary": "Galvanic and electrolytic cells, the Nernst equation, and electrolysis.",
+      "summary": "Galvanic and electrolytic cells, cell potentials, the Nernst equation and Faraday's laws of electrolysis.",
       "prereqs": [
         "chemistry.A1.ionic-equilibrium",
         "chemistry.I1.reactions-equations"
@@ -802,7 +802,7 @@
       "core": true,
       "order": 4,
       "estMinutes": 180,
-      "summary": "pH calculations, buffers, and the solubility product.",
+      "summary": "pH of strong and weak acids, buffers (Henderson–Hasselbalch), and the solubility product Ksp.",
       "prereqs": [
         "chemistry.A1.chemical-equilibrium",
         "math.I2.exponentials-logarithms"
@@ -825,7 +825,7 @@
       "core": true,
       "order": 6,
       "estMinutes": 180,
-      "summary": "Trends in atomic radius, ionisation energy and electronegativity, and s- and p-block chemistry.",
+      "summary": "Trends in atomic radius, ionisation energy, electron affinity and electronegativity, explained by nuclear charge and shielding.",
       "prereqs": [
         "chemistry.A1.electrochemistry",
         "chemistry.F2.periodic-table"
@@ -848,12 +848,15 @@
       "core": true,
       "order": 5,
       "estMinutes": 180,
-      "summary": "Qualitative and quantitative analysis, and error treatment — the capstone lab strand.",
+      "summary": "Qualitative and quantitative analysis (including titration calculations) and treatment of experimental error — the capstone lab strand.",
       "prereqs": [
         "chemistry.A2.coordination-chemistry",
         "math.I1.statistics-ii"
       ],
-      "competitiveTags": [],
+      "competitiveTags": [
+        "NEET",
+        "JEE-Main"
+      ],
       "depth": "module",
       "inDegree": 2,
       "outDegree": 0
@@ -867,7 +870,7 @@
       "core": true,
       "order": 3,
       "estMinutes": 180,
-      "summary": "Carbohydrates, proteins, lipids and polymers — chemistry that links to biology.",
+      "summary": "Carbohydrates, proteins, lipids, nucleic acids and polymers — the chemistry underlying biology.",
       "prereqs": [
         "chemistry.A2.functional-groups"
       ],
@@ -888,7 +891,7 @@
       "core": true,
       "order": 4,
       "estMinutes": 180,
-      "summary": "Transition metals, complex ions, ligands and colour.",
+      "summary": "Transition-metal properties, complex ions, ligands, coordination number and the origin of colour.",
       "prereqs": [
         "chemistry.A2.biomolecules-polymers",
         "chemistry.A1.periodic-properties"
@@ -911,7 +914,7 @@
       "core": true,
       "order": 2,
       "estMinutes": 180,
-      "summary": "Alcohols, aldehydes, ketones, carboxylic acids and amines — reactions by group.",
+      "summary": "Alcohols, aldehydes, ketones, carboxylic acids and amines — characteristic reactions and interconversions.",
       "prereqs": [
         "chemistry.A2.organic-mechanisms"
       ],
@@ -933,7 +936,7 @@
       "core": true,
       "order": 1,
       "estMinutes": 180,
-      "summary": "Nucleophiles, electrophiles and key reaction pathways — reasoned, not memorised.",
+      "summary": "Nucleophiles, electrophiles, curly-arrow mechanisms and the major pathways — reasoned, not memorised.",
       "prereqs": [
         "chemistry.A1.periodic-properties",
         "chemistry.I2.organic-intro"
@@ -956,10 +959,11 @@
       "core": true,
       "order": 1,
       "estMinutes": 180,
-      "summary": "The particle model of matter, the three states, and changes of state.",
+      "summary": "The particle (kinetic-molecular) model of matter, the three states, and changes of state — the microscopic picture behind all of chemistry.",
       "prereqs": [],
       "competitiveTags": [
-        "NEET"
+        "NEET",
+        "JEE-Main"
       ],
       "depth": "module",
       "inDegree": 0,
@@ -974,7 +978,7 @@
       "core": true,
       "order": 3,
       "estMinutes": 180,
-      "summary": "Telling physical from chemical changes, evidence of reaction, and conservation of mass.",
+      "summary": "Telling physical from chemical changes, the evidence of reaction, and conservation of mass as the accounting law behind balancing.",
       "prereqs": [
         "chemistry.F1.separation-techniques"
       ],
@@ -994,7 +998,7 @@
       "core": true,
       "order": 2,
       "estMinutes": 180,
-      "summary": "Filtration, evaporation, distillation and chromatography — separating mixtures by physical properties.",
+      "summary": "Filtration, evaporation, distillation and chromatography — separating mixtures by exploiting differences in physical properties.",
       "prereqs": [
         "chemistry.F1.matter-particles-states"
       ],
@@ -1014,7 +1018,7 @@
       "core": true,
       "order": 1,
       "estMinutes": 180,
-      "summary": "Protons, neutrons and electrons; atomic number, mass number and isotopes.",
+      "summary": "Protons, neutrons and electrons; atomic number, mass number, isotopes and relative atomic mass.",
       "prereqs": [
         "chemistry.F1.physical-chemical-change"
       ],
@@ -1035,7 +1039,7 @@
       "core": true,
       "order": 4,
       "estMinutes": 180,
-      "summary": "Writing formulae and balancing equations as conservation-of-mass accounting.",
+      "summary": "Writing formulae from valency and balancing equations as the visible bookkeeping of conservation of mass.",
       "prereqs": [
         "chemistry.F2.mole-concept",
         "chemistry.F1.physical-chemical-change"
@@ -1057,7 +1061,7 @@
       "core": true,
       "order": 3,
       "estMinutes": 180,
-      "summary": "The mole and molar mass — proportional reasoning applied to counting particles (the keystone topic).",
+      "summary": "The mole, Avogadro's number and molar mass — proportional reasoning applied to counting particles. The keystone of all quantitative chemistry.",
       "prereqs": [
         "chemistry.F2.periodic-table",
         "math.F2.exponents-scientific-notation"
@@ -1080,7 +1084,7 @@
       "core": true,
       "order": 2,
       "estMinutes": 180,
-      "summary": "Periods and groups as patterns, not a list — organising elements by structure and properties.",
+      "summary": "Periods and groups as patterns arising from electron configuration — a predictive map, not a list to memorise.",
       "prereqs": [
         "chemistry.F2.atomic-structure-i"
       ],
@@ -1101,7 +1105,7 @@
       "core": true,
       "order": 5,
       "estMinutes": 180,
-      "summary": "Mass-mole-mass calculations from balanced equations.",
+      "summary": "Using mole ratios from balanced equations for mass-to-mass calculations, and finding the limiting reactant.",
       "prereqs": [
         "chemistry.F2.chemical-formulae-equations",
         "chemistry.F2.mole-concept"
@@ -1124,7 +1128,7 @@
       "core": true,
       "order": 3,
       "estMinutes": 180,
-      "summary": "The pH scale, neutralisation, and an introduction to titration.",
+      "summary": "The pH scale as a logarithm of H⁺ concentration, neutralisation, and titration.",
       "prereqs": [
         "chemistry.I1.reactions-equations"
       ],
@@ -1145,7 +1149,7 @@
       "core": true,
       "order": 1,
       "estMinutes": 180,
-      "summary": "Ionic, covalent and metallic bonding, and electron-dot structures.",
+      "summary": "Ionic, covalent and metallic bonding from the drive for full outer shells, and how bonding type dictates properties.",
       "prereqs": [
         "chemistry.F2.stoichiometry-intro",
         "chemistry.F2.atomic-structure-i"
@@ -1167,7 +1171,7 @@
       "core": true,
       "order": 5,
       "estMinutes": 180,
-      "summary": "What speeds reactions up — concentration, temperature, surface area, catalysts — with rate graphs.",
+      "summary": "Collision theory and the factors that change reaction rate, read from rate graphs.",
       "prereqs": [
         "chemistry.I1.solutions-concentration"
       ],
@@ -1188,7 +1192,7 @@
       "core": true,
       "order": 2,
       "estMinutes": 180,
-      "summary": "Reaction types, ionic equations and an introduction to redox.",
+      "summary": "Reaction types, net ionic equations, oxidation numbers and the essentials of redox.",
       "prereqs": [
         "chemistry.I1.bonding-i"
       ],
@@ -1209,7 +1213,7 @@
       "core": true,
       "order": 4,
       "estMinutes": 180,
-      "summary": "Molarity, dilution, and expressing concentration — the mole concept reused.",
+      "summary": "Molarity, dilution and the mole concept applied to real solutions.",
       "prereqs": [
         "chemistry.I1.acids-bases-salts",
         "chemistry.F2.mole-concept"
@@ -1232,7 +1236,7 @@
       "core": true,
       "order": 1,
       "estMinutes": 180,
-      "summary": "Electron configuration and quantum shells, treated intuitively.",
+      "summary": "Electron configuration, subshells and quantum shells — the origin of the periodic table's shape.",
       "prereqs": [
         "chemistry.I1.rates-reaction",
         "chemistry.F2.atomic-structure-i"
@@ -1255,7 +1259,7 @@
       "core": true,
       "order": 2,
       "estMinutes": 180,
-      "summary": "Molecular shapes (VSEPR), polarity, and intermolecular forces.",
+      "summary": "Molecular shapes from VSEPR, bond and molecular polarity, and intermolecular forces.",
       "prereqs": [
         "chemistry.I2.atomic-structure-ii",
         "chemistry.I1.bonding-i"
@@ -1278,7 +1282,7 @@
       "core": true,
       "order": 4,
       "estMinutes": 180,
-      "summary": "Exothermic and endothermic reactions, enthalpy, and an introduction to Hess's law.",
+      "summary": "Exothermic and endothermic reactions, enthalpy change, bond energies and Hess's law.",
       "prereqs": [
         "chemistry.I2.gas-laws-kinetic-theory",
         "chemistry.I1.reactions-equations"
@@ -1301,7 +1305,7 @@
       "core": true,
       "order": 5,
       "estMinutes": 180,
-      "summary": "Reversible reactions, dynamic equilibrium, and Le Chatelier's principle.",
+      "summary": "Dynamic equilibrium, the equilibrium constant, and Le Chatelier's principle.",
       "prereqs": [
         "chemistry.I2.energetics",
         "chemistry.I1.rates-reaction"
@@ -1324,7 +1328,7 @@
       "core": true,
       "order": 3,
       "estMinutes": 180,
-      "summary": "Boyle, Charles and the ideal gas equation — the topic shared with physics.",
+      "summary": "Boyle's, Charles's and the combined/ideal gas laws, grounded in kinetic theory. Shared with physics.",
       "prereqs": [
         "chemistry.I2.bonding-ii",
         "chemistry.F2.mole-concept"
@@ -1347,7 +1351,7 @@
       "core": true,
       "order": 6,
       "estMinutes": 180,
-      "summary": "Hydrocarbons, functional groups and naming — the chemistry of carbon.",
+      "summary": "The chemistry of carbon: hydrocarbons, functional groups, homologous series and IUPAC naming.",
       "prereqs": [
         "chemistry.I2.equilibrium-intro"
       ],

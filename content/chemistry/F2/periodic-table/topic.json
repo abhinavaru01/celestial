@@ -8,11 +8,11 @@
   "order": 2,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Periods and groups as patterns, not a list — organising elements by structure and properties.",
+  "summary": "Periods and groups as patterns arising from electron configuration — a predictive map, not a list to memorise.",
   "outcomes": [
     "Read the periodic table's layout",
-    "Relate group to properties",
-    "Predict trends across periods and groups"
+    "Relate group number to valence electrons",
+    "Predict reactivity trends"
   ],
   "prereqs": [
     "chemistry.F2.atomic-structure-i"
@@ -36,7 +36,7 @@
     "periodic table",
     "groups",
     "periods",
-    "trends",
-    "elements"
+    "valence electrons",
+    "trends"
   ]
 }

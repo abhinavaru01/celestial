@@ -5,30 +5,25 @@
       {
         "id": "chemistry_I1_rates_reaction_q1",
         "type": "mcq",
-        "prompt": "A catalyst speeds up a reaction by:",
+        "prompt": "A catalyst speeds a reaction by:",
         "choices": [
-          "lowering activation energy",
+          "lowering the activation energy",
           "being consumed",
           "raising temperature",
           "adding mass"
         ],
         "answer": 0,
-        "explanation": "It provides a lower-energy pathway and is not used up."
+        "explanation": "It offers a lower-Eₐ pathway and is not used up."
       }
     ],
     "2": [
       {
         "id": "chemistry_I1_rates_reaction_q2",
-        "type": "mcq",
-        "prompt": "Increasing temperature increases rate because particles collide:",
-        "choices": [
-          "more often and harder",
-          "less often",
-          "with less energy",
-          "never"
-        ],
-        "answer": 0,
-        "explanation": "Higher energy and frequency of successful collisions."
+        "type": "numeric",
+        "prompt": "30 cm³ of gas forms in 15 s. Average rate (cm³/s)?",
+        "answer": 2,
+        "tolerance": 0,
+        "explanation": "30/15 = 2 cm³/s."
       }
     ],
     "3": []

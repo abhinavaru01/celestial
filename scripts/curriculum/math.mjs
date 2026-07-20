@@ -114,6 +114,8 @@ export default {
         ['Exponents count repeated multiplication', 'a^n means a multiplied by itself n times. The laws — a^m·a^n = a^(m+n), (a^m)^n = a^(mn), a^0 = 1 — all follow from just counting the factors.'],
         ['Scientific notation', 'Writing a number as (a value between 1 and 10) × 10^n makes huge and tiny quantities manageable — essential for chemistry (the mole) and physics (measurement).'],
       ],
+      formulas: ['a^m · a^n = a^(m+n)   (same base: add the exponents)', '(a^m)^n = a^(mn)   (power of a power: multiply)', 'a^m / a^n = a^(m−n),   a^0 = 1,   a^(−n) = 1/a^n', 'Scientific notation: N = a × 10^n,   1 ≤ a < 10'],
+      example: { q: 'Simplify (2^3 · 2^4) / 2^5, then write 45000 in scientific notation.', solution: '2^3 · 2^4 = 2^(3+4) = 2^7; divide by 2^5 → 2^(7−5) = 2^2 = 4. For 45000, move the decimal 4 places: 4.5 × 10^4.' },
       mistakes: ['Adding exponents when multiplying bases that differ (only same-base powers combine).', 'Thinking a^0 = 0 (it equals 1).', 'Misplacing the power of ten when converting to scientific notation.'],
       tricks: ['Same base, multiplying → add the exponents; dividing → subtract.', 'Count how many places the decimal moves to find the power of ten.', 'A negative exponent means "reciprocal": a^−n = 1/a^n.'],
       memory: ['"Multiply powers, add exponents."', '"Anything to the zero is one."', '"Negative exponent → flip it."'],

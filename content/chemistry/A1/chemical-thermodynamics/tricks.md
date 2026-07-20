@@ -2,9 +2,9 @@
 
 > Faster, cleaner ways to handle this topic.
 
-- ΔG = ΔH − TΔS; negative ΔG → spontaneous.
+- ΔG = ΔH − TΔS; negative → spontaneous.
 
-- High temperature magnifies the entropy term.
+- High T magnifies the entropy term.
 
-- Both ΔH negative and ΔS positive → always spontaneous.
+- ΔH<0 and ΔS>0 → always spontaneous.
 

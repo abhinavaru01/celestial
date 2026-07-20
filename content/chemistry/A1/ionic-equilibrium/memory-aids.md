@@ -2,9 +2,9 @@
 
 > How to remember this — and keep it.
 
-- "pH = −log[H⁺]."
+- "[H⁺] ≈ √(Ka·C) for weak acids."
 
-- "Buffer resists pH change."
+- "pH = pKa + log(A⁻/HA)."
 
 - Ksp caps solubility.
 

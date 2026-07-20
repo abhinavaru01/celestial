@@ -8,11 +8,11 @@
   "order": 4,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Exothermic and endothermic reactions, enthalpy, and an introduction to Hess's law.",
+  "summary": "Exothermic and endothermic reactions, enthalpy change, bond energies and Hess's law.",
   "outcomes": [
-    "Classify reactions as exo/endothermic",
-    "Interpret enthalpy changes",
-    "Apply Hess's law (intro)"
+    "Classify reactions by ΔH sign",
+    "Estimate ΔH from bond energies",
+    "Apply Hess's law"
   ],
   "prereqs": [
     "chemistry.I2.gas-laws-kinetic-theory",
@@ -38,7 +38,7 @@
     "enthalpy",
     "exothermic",
     "endothermic",
-    "Hess law",
-    "thermochemistry"
+    "bond energy",
+    "Hess law"
   ]
 }

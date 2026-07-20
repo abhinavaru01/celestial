@@ -8,11 +8,11 @@
   "order": 5,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Galvanic and electrolytic cells, the Nernst equation, and electrolysis.",
+  "summary": "Galvanic and electrolytic cells, cell potentials, the Nernst equation and Faraday's laws of electrolysis.",
   "outcomes": [
     "Describe galvanic and electrolytic cells",
     "Use standard electrode potentials",
-    "Explain electrolysis"
+    "Apply Faraday's laws"
   ],
   "prereqs": [
     "chemistry.A1.ionic-equilibrium",
@@ -39,6 +39,6 @@
     "galvanic",
     "electrolysis",
     "Nernst",
-    "electrode potential"
+    "Faraday"
   ]
 }

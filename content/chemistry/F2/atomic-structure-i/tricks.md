@@ -6,5 +6,5 @@
 
 - Neutrons = mass number − atomic number.
 
-- Isotopes: same protons, different neutrons.
+- Relative atomic mass is an abundance-weighted average.
 

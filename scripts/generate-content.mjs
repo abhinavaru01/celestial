@@ -20,6 +20,7 @@ import chemistryData from './curriculum/chemistry.mjs';
 import biologyData from './curriculum/biology.mjs';
 import englishData from './curriculum/english.mjs';
 import csData from './curriculum/cs.mjs';
+import augment from './curriculum/augment.mjs'; // key formulas/facts + worked examples, by topic id
 
 const datasets = [mathData, physicsData, chemistryData, biologyData, englishData, csData];
 const tierOrder = { F1: 1, F2: 2, I1: 3, I2: 4, A1: 5, A2: 6 };
@@ -39,9 +40,16 @@ for (const ds of datasets) {
 
     if (existsSync(dir)) { skipped++; return; } // flagship or already generated
 
+    // merge augmentation (formulas/facts + worked example + diagram) by topic id
+    const aug = augment[id] || {};
+    if (!t.formulas && aug.formulas) t.formulas = aug.formulas;
+    if (!t.example && aug.example) t.example = aug.example;
+    if (!t.diagram && aug.diagram) t.diagram = aug.diagram;
+    if (!t.keyLabel && aug.keyLabel) t.keyLabel = aug.keyLabel;
+
     mkdirSync(dir, { recursive: true });
     writeFileSync(join(dir, 'topic.json'), JSON.stringify(topicJson(subject, t, id, prereqs), null, 2) + '\n');
-    writeFileSync(join(dir, 'notes.md'), notesMd(t));
+    writeFileSync(join(dir, 'notes.md'), notesMd(t, subject));
     writeFileSync(join(dir, 'mistakes.md'), listMd('Common Mistakes', t.title, t.mistakes, 'Every learner hits these — spot them before they cost you.'));
     writeFileSync(join(dir, 'tricks.md'), listMd('Tricks & Problem-Solving Techniques', t.title, t.tricks, 'Faster, cleaner ways to handle this topic.'));
     writeFileSync(join(dir, 'memory-aids.md'), listMd('Memory & Retention Aids', t.title, t.memory, 'How to remember this — and keep it.'));
@@ -67,17 +75,31 @@ function topicJson(subject, t, id, prereqs) {
   };
 }
 
-function notesMd(t) {
-  const parts = [`# ${t.title}`, '', `> ${t.summary}`, ''];
+function defaultKeyLabel(subject) {
+  if (subject === 'math' || subject === 'physics' || subject === 'chemistry') return 'Key formulas';
+  if (subject === 'cs') return 'Key syntax & rules';
+  return 'Key facts';
+}
+
+function notesMd(t, subject) {
+  const parts = [`# ${t.title}`, '', `> [!intro] ${t.summary}`, ''];
   for (const [h, body] of (t.concepts || [])) {
     parts.push(`## ${h}`, '', body.trim(), '');
+  }
+  if (t.diagram) { parts.push('```svg', t.diagram.trim(), '```', ''); }
+  if ((t.formulas || []).length) {
+    parts.push('```formula ' + (t.keyLabel || defaultKeyLabel(subject)), ...t.formulas, '```', '');
+  }
+  if (t.example) {
+    const ex = typeof t.example === 'string' ? t.example : `**Problem.** ${t.example.q}\n>\n> **Solution.** ${t.example.solution}`;
+    parts.push('> [!example] **Worked example**', ...ex.split('\n').map((l) => `> ${l}`), '');
   }
   if ((t.outcomes || []).length) {
     parts.push('## What you should be able to do', '');
     for (const o of t.outcomes) parts.push(`- ${o}`);
     parts.push('');
   }
-  parts.push('---', '', '_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._');
+  parts.push('---', '', '_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._');
   return parts.join('\n') + '\n';
 }
 

@@ -2,9 +2,9 @@
 
 > Faster, cleaner ways to handle this topic.
 
-- Balance by adjusting coefficients, never subscripts.
+- Balance coefficients, never subscripts.
 
-- Balance one element at a time, saving oxygen/hydrogen for last.
+- Save O and H for last.
 
-- Check every element's atom count on both sides.
+- Check every element on both sides.
 

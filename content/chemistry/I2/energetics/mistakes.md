@@ -2,9 +2,9 @@
 
 > Every learner hits these — spot them before they cost you.
 
-- Getting the sign of ΔH backwards (exothermic is negative).
+- Getting the ΔH sign backwards.
 
-- Thinking breaking bonds releases energy (it absorbs it).
+- Thinking breaking bonds releases energy (it absorbs).
 
-- Ignoring that Hess's law needs a consistent route.
+- Ignoring a consistent route in Hess cycles.
 

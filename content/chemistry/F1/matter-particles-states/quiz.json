@@ -5,7 +5,7 @@
       {
         "id": "chemistry_F1_matter_particles_states_q1",
         "type": "mcq",
-        "prompt": "In which state are particles most closely packed?",
+        "prompt": "In which state are particles most closely packed and ordered?",
         "choices": [
           "solid",
           "liquid",
@@ -20,15 +20,15 @@
       {
         "id": "chemistry_F1_matter_particles_states_q2",
         "type": "mcq",
-        "prompt": "When ice melts, its mass:",
+        "prompt": "While a pure solid melts, its temperature:",
         "choices": [
-          "stays the same",
-          "increases",
-          "decreases",
-          "becomes zero"
+          "stays constant",
+          "rises steadily",
+          "falls",
+          "doubles"
         ],
         "answer": 0,
-        "explanation": "Mass is conserved in a change of state."
+        "explanation": "Latent heat breaks interparticle forces; temperature is constant during the change of state."
       }
     ],
     "3": []

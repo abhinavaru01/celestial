@@ -8,10 +8,10 @@
   "order": 3,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Carbohydrates, proteins, lipids and polymers — chemistry that links to biology.",
+  "summary": "Carbohydrates, proteins, lipids, nucleic acids and polymers — the chemistry underlying biology.",
   "outcomes": [
     "Describe major biomolecules",
-    "Explain polymerisation",
+    "Explain condensation and addition polymerisation",
     "Connect structure to function"
   ],
   "prereqs": [
@@ -37,7 +37,7 @@
     "biomolecules",
     "polymer",
     "protein",
-    "carbohydrate",
-    "monomer"
+    "monomer",
+    "polymerisation"
   ]
 }

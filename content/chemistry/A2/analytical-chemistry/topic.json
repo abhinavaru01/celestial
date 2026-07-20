@@ -8,11 +8,11 @@
   "order": 5,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Qualitative and quantitative analysis, and error treatment — the capstone lab strand.",
+  "summary": "Qualitative and quantitative analysis (including titration calculations) and treatment of experimental error — the capstone lab strand.",
   "outcomes": [
     "Perform qualitative tests",
-    "Carry out quantitative analysis",
-    "Treat experimental error"
+    "Carry out titration calculations",
+    "Treat experimental uncertainty"
   ],
   "prereqs": [
     "chemistry.A2.coordination-chemistry",
@@ -29,12 +29,15 @@
       "DP Chemistry IA"
     ]
   },
-  "competitiveTags": [],
+  "competitiveTags": [
+    "NEET",
+    "JEE-Main"
+  ],
   "keywords": [
     "analysis",
     "titration",
     "qualitative",
     "quantitative",
-    "error"
+    "uncertainty"
   ]
 }

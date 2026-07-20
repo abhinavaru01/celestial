@@ -8,10 +8,10 @@
   "order": 2,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Rate laws, reaction order and the Arrhenius equation — how fast and why.",
+  "summary": "Rate laws, order of reaction, half-life and the Arrhenius temperature dependence.",
   "outcomes": [
     "Write and use rate laws",
-    "Determine reaction order",
+    "Determine order experimentally",
     "Apply the Arrhenius relationship"
   ],
   "prereqs": [
@@ -38,7 +38,7 @@
     "kinetics",
     "rate law",
     "order",
-    "Arrhenius",
-    "activation energy"
+    "half-life",
+    "Arrhenius"
   ]
 }

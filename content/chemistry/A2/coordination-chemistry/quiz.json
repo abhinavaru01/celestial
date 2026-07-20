@@ -11,23 +11,18 @@
           "variable oxidation states",
           "only one oxidation state",
           "no colour ever",
-          "no catalytic activity"
+          "no catalysis"
         ],
         "answer": 0,
         "explanation": "Partly filled d-orbitals allow variable states."
       },
       {
         "id": "chemistry_A2_coordination_chemistry_q2",
-        "type": "mcq",
-        "prompt": "In a complex ion, a ligand:",
-        "choices": [
-          "donates an electron pair to the metal",
-          "removes electrons",
-          "is always water",
-          "changes the nucleus"
-        ],
-        "answer": 0,
-        "explanation": "Ligands are electron-pair donors."
+        "type": "numeric",
+        "prompt": "Coordination number of [Cu(H₂O)₆]²⁺?",
+        "answer": 6,
+        "tolerance": 0,
+        "explanation": "Six water ligand donor atoms → 6."
       }
     ],
     "3": []

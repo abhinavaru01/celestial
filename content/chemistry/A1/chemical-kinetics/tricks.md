@@ -4,7 +4,7 @@
 
 - Order comes from experiment, not stoichiometry.
 
-- Higher activation energy → slower reaction.
+- First-order t½ is constant (0.693/k).
 
 - ln k vs 1/T is linear (Arrhenius plot).
 

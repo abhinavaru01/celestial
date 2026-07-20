@@ -19,16 +19,11 @@
     "2": [
       {
         "id": "chemistry_F1_physical_chemical_change_q2",
-        "type": "mcq",
-        "prompt": "In a sealed flask, a reaction occurs. The total mass:",
-        "choices": [
-          "stays the same",
-          "increases",
-          "decreases",
-          "doubles"
-        ],
-        "answer": 0,
-        "explanation": "Mass is conserved; nothing escapes a sealed flask."
+        "type": "numeric",
+        "prompt": "2 g of carbon burns with 5.33 g of oxygen to form carbon dioxide only. Mass of CO₂ (g)?",
+        "answer": 7.33,
+        "tolerance": 0.05,
+        "explanation": "Conservation of mass: 2 + 5.33 = 7.33 g."
       }
     ],
     "3": []

@@ -13,22 +13,22 @@
           "counting"
         ],
         "answer": 0,
-        "explanation": "OIL: Oxidation Is Loss of electrons."
+        "explanation": "OIL: Oxidation Is Loss."
       }
     ],
     "2": [
       {
         "id": "chemistry_I1_reactions_equations_q2",
         "type": "mcq",
-        "prompt": "Ions that appear unchanged on both sides of an ionic equation are:",
+        "prompt": "In Zn + Cu²⁺ → Zn²⁺ + Cu, Cu²⁺ is:",
         "choices": [
-          "spectator ions",
-          "reactants",
-          "catalysts",
-          "products"
+          "reduced",
+          "oxidised",
+          "a spectator",
+          "unchanged"
         ],
         "answer": 0,
-        "explanation": "Spectator ions are cancelled out."
+        "explanation": "Cu²⁺ gains electrons (→ Cu): reduced."
       }
     ],
     "3": []

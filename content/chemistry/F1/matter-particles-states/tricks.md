@@ -4,7 +4,7 @@
 
 - Solid → liquid → gas as particle energy and spacing increase.
 
-- Melting and freezing happen at the same temperature (opposite directions).
+- Melting and freezing occur at the same temperature (opposite directions).
 
-- Mass is conserved in every state change.
+- Temperature is flat during a change of state.
 

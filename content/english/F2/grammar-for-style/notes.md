@@ -1,6 +1,6 @@
 # Grammar for Style
 
-> Clauses, punctuation for effect, and controlling active and passive voice.
+> [!intro] Clauses, punctuation for effect, and controlling active and passive voice.
 
 ## Punctuation as control
 
@@ -10,6 +10,17 @@ Commas, semicolons and dashes control pace and clarity. Used well, punctuation s
 
 Active voice ("the dog chased the ball") is usually clearer and more direct; passive ("the ball was chased") suits when the doer is unknown or unimportant.
 
+```formula Key techniques
+Active voice: subject does the action (direct)
+Semicolon links two related full sentences
+A dash adds emphasis or an aside
+```
+
+> [!example] **Worked example**
+> **Problem.** Convert to active voice: "The window was broken by the ball."
+> >
+> > **Solution.** "The ball broke the window." — the subject (ball) now performs the action, making it more direct.
+
 ## What you should be able to do
 
 - Use clauses to vary sentences
@@ -18,4 +29,4 @@ Active voice ("the dog chased the ball") is usually clearer and more direct; pas
 
 ---
 
-_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._
+_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._

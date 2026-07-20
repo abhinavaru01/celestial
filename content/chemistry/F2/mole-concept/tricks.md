@@ -2,9 +2,9 @@
 
 > Faster, cleaner ways to handle this topic.
 
-- Moles = mass ÷ molar mass.
+- moles = mass ÷ molar mass.
 
-- Number of particles = moles × Avogadro's number.
+- particles = moles × Nₐ.
 
 - Molar mass of a compound = sum of its atoms' masses.
 

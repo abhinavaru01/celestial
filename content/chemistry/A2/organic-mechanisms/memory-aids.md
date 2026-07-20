@@ -4,7 +4,7 @@
 
 - "Arrows flow from electrons."
 
-- "Nucleophile loves nuclei (positive sites)."
+- "Nucleophile loves positive sites."
 
 - Mechanism predicts; memory fails.
 

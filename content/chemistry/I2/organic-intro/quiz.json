@@ -20,15 +20,15 @@
       {
         "id": "chemistry_I2_organic_intro_q2",
         "type": "mcq",
-        "prompt": "The reactive part of an organic molecule is the:",
+        "prompt": "The alkane with formula C₃H₈ is:",
         "choices": [
-          "functional group",
-          "carbon backbone",
-          "hydrogen only",
-          "nucleus"
+          "propane",
+          "methane",
+          "ethane",
+          "butane"
         ],
         "answer": 0,
-        "explanation": "Functional groups define reactivity."
+        "explanation": "n = 3 (prop-) saturated → propane."
       }
     ],
     "3": []

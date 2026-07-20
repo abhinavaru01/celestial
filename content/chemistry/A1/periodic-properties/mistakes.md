@@ -6,5 +6,5 @@
 
 - Confusing ionisation energy with electronegativity.
 
-- Treating trends as arbitrary rather than structure-based.
+- Treating trends as arbitrary.
 

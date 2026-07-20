@@ -8,11 +8,11 @@
   "order": 1,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Enthalpy, entropy and Gibbs free energy — predicting whether reactions happen.",
+  "summary": "Enthalpy, entropy and Gibbs free energy — the thermodynamic criterion for whether a reaction is spontaneous.",
   "outcomes": [
-    "Use enthalpy and entropy",
-    "Apply Gibbs free energy",
-    "Predict spontaneity"
+    "Use enthalpy and entropy changes",
+    "Apply ΔG = ΔH − TΔS",
+    "Predict spontaneity and its temperature dependence"
   ],
   "prereqs": [
     "chemistry.I2.organic-intro",

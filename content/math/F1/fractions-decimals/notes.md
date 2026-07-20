@@ -1,6 +1,6 @@
 # Fractions & Decimals as One System
 
-> Fractions, decimals and division are three views of the same idea — parts of a whole on the number line.
+> [!intro] Fractions, decimals and division are three views of the same idea — parts of a whole on the number line.
 
 ## A fraction is a division
 
@@ -14,6 +14,17 @@ You can only add or compare fractions once the pieces are the same size — a co
 
 Multiplying fractions multiplies the parts (½ of ⅓ = ⅙). Dividing by a fraction multiplies by its reciprocal — "flip and multiply" — because dividing by ½ asks "how many halves fit?".
 
+```formula Key formulas
+a/b = a ÷ b
+a/b + c/d = (ad + bc)/(bd)
+(a/b) ÷ (c/d) = (a/b) × (d/c)
+```
+
+> [!example] **Worked example**
+> **Problem.** Compute 2/3 + 1/4 and 5/6 ÷ 2/3.
+> >
+> > **Solution.** 2/3 + 1/4 = 8/12 + 3/12 = 11/12. 5/6 ÷ 2/3 = 5/6 × 3/2 = 15/12 = 5/4.
+
 ## What you should be able to do
 
 - Convert freely between fractions and decimals
@@ -22,4 +33,4 @@ Multiplying fractions multiplies the parts (½ of ⅓ = ⅙). Dividing by a frac
 
 ---
 
-_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._
+_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._

@@ -2,9 +2,9 @@
 
 > Faster, cleaner ways to handle this topic.
 
-- −OH alcohol, −CHO aldehyde, C=O ketone, −COOH acid, −NH₂ amine.
+- Learn the five handles: –OH/–CHO/C=O/–COOH/–NH₂.
 
-- Primary alcohol → aldehyde → carboxylic acid on oxidation.
+- Primary alcohol → aldehyde → acid; secondary → ketone.
 
 - Acids react with bases and carbonates.
 

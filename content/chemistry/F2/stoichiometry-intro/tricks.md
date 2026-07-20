@@ -2,9 +2,9 @@
 
 > Faster, cleaner ways to handle this topic.
 
-- Always balance first, then read mole ratios from coefficients.
+- Balance first, then read mole ratios.
 
-- Mass → moles → (ratio) → moles → mass.
+- mass → mole → mole → mass.
 
-- The limiting reactant runs out first and caps the product.
+- Limiting reactant = smallest (moles ÷ coefficient).
 

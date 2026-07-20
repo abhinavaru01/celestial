@@ -1,6 +1,6 @@
 # Current Electricity & Circuits (Full Rigor)
 
-> DC circuits at depth: networks, power dissipation, and measurement.
+> [!intro] DC circuits at depth: networks, power dissipation, and measurement.
 
 ## Networks and power
 
@@ -10,6 +10,17 @@ Combining series and parallel rules solves any resistor network; Kirchhoff's law
 
 Ammeters (low resistance, in series) and voltmeters (high resistance, in parallel) measure without disturbing the circuit much — a design consequence of the circuit laws.
 
+```formula Key formulas
+Power P = VI = I²R = V²/R
+Ammeter in series (low R), voltmeter in parallel (high R)
+Reduce networks in series/parallel stages
+```
+
+> [!example] **Worked example**
+> **Problem.** A 3 Ω resistor carries 2 A. Find the power dissipated.
+> >
+> > **Solution.** P = I²R = 2² × 3 = 4 × 3 = 12 W.
+
 ## What you should be able to do
 
 - Analyse complex resistor networks
@@ -18,4 +29,4 @@ Ammeters (low resistance, in series) and voltmeters (high resistance, in paralle
 
 ---
 
-_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._
+_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._

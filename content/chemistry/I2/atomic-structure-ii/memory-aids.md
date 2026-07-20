@@ -4,7 +4,7 @@
 
 - "Fill low energy first."
 
-- "Outer electrons = chemistry."
+- "Capacity = 2n²."
 
-- Full shell = stable/unreactive.
+- Outer electrons = chemistry.
 

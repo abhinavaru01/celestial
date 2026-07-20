@@ -1,6 +1,6 @@
 # Biochemistry
 
-> Biomolecules and an overview of metabolic pathways — shared with chemistry.
+> [!intro] Biomolecules and an overview of metabolic pathways — shared with chemistry.
 
 ## Molecules of life
 
@@ -10,6 +10,17 @@ Carbohydrates, lipids, proteins and nucleic acids each have structures suiting t
 
 Metabolic pathways are linked reactions building (anabolism) or breaking down (catabolism) molecules, controlled by enzymes, releasing or storing energy.
 
+```formula Key facts
+Anabolism builds; catabolism breaks down
+Enzymes control every metabolic step
+Biomolecules: carbohydrates, lipids, proteins, nucleic acids
+```
+
+> [!example] **Worked example**
+> **Problem.** Is building a protein from amino acids anabolic or catabolic?
+> >
+> > **Solution.** Anabolic — small monomers (amino acids) are joined into a larger molecule, which requires energy.
+
 ## What you should be able to do
 
 - Describe major biomolecules
@@ -18,4 +29,4 @@ Metabolic pathways are linked reactions building (anabolism) or breaking down (c
 
 ---
 
-_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._
+_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._

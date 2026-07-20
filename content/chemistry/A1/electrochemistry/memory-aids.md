@@ -2,9 +2,9 @@
 
 > How to remember this — and keep it.
 
-- "An Ox, Red Cat" (anode oxidation, cathode reduction).
+- "An Ox, Red Cat."
 
-- "Galvanic gives, electrolytic takes energy."
+- "E°cell = cathode − anode."
 
-- Electrolysis follows mole-charge ratios.
+- Faraday: charge → moles of electrons.
 

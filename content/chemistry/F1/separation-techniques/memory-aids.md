@@ -4,7 +4,7 @@
 
 - "Filter the insoluble; distil by boiling point."
 
-- "Chromatography: farther travelled, more soluble/lighter."
+- "Rf = spot ÷ solvent, always < 1."
 
 - Separation is physical, not chemical.
 

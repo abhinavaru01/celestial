@@ -1,6 +1,6 @@
 # Advanced Problem-Solving Portfolio
 
-> Multi-topic, competition-style structured problems that build transfer and stamina.
+> [!intro] Multi-topic, competition-style structured problems that build transfer and stamina.
 
 ## Problem-solving as a skill
 
@@ -10,6 +10,17 @@ Hard problems rarely name their method. The skill is recognising which tools app
 
 Restate the problem, note what is given and wanted, try a simpler case, and look for an invariant or symmetry. A deliberate process beats staring.
 
+```formula Key formulas
+Pólya: understand → plan → do → check
+Reduce to a simpler case to find a pattern
+Look for symmetry or an invariant
+```
+
+> [!example] **Worked example**
+> **Problem.** What is the sum 1 + 2 + … + 100?
+> >
+> > **Solution.** Pair ends: (1+100), (2+99), … = 50 pairs each summing 101 → 50 × 101 = 5050. (Or use n(n+1)/2.)
+
 ## What you should be able to do
 
 - Combine techniques across topics
@@ -18,4 +29,4 @@ Restate the problem, note what is given and wanted, try a simpler case, and look
 
 ---
 
-_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._
+_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._

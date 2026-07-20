@@ -5,30 +5,30 @@
       {
         "id": "chemistry_F2_periodic_table_q1",
         "type": "mcq",
-        "prompt": "Elements in the same group tend to have similar:",
+        "prompt": "Elements in the same group tend to have the same number of:",
         "choices": [
-          "chemical properties",
-          "atomic mass",
-          "number of neutrons",
-          "colour"
+          "valence electrons",
+          "neutrons",
+          "shells",
+          "protons"
         ],
         "answer": 0,
-        "explanation": "They share the same number of outer electrons."
+        "explanation": "Group number = valence electrons → similar chemistry."
       }
     ],
     "2": [
       {
         "id": "chemistry_F2_periodic_table_q2",
         "type": "mcq",
-        "prompt": "A column in the periodic table is called a:",
+        "prompt": "An element in Group 17, Period 2 is:",
         "choices": [
-          "group",
-          "period",
-          "block",
-          "shell"
+          "fluorine",
+          "oxygen",
+          "neon",
+          "chlorine"
         ],
         "answer": 0,
-        "explanation": "Columns are groups; rows are periods."
+        "explanation": "Group 17 (7 valence e⁻), Period 2 (2 shells) → fluorine."
       }
     ],
     "3": []

@@ -4,7 +4,7 @@
 
 - Confusing molar mass with atomic number.
 
-- Forgetting to use the correct molar mass for a compound.
+- Using the wrong molar mass for a compound.
 
 - Mixing up moles and grams.
 

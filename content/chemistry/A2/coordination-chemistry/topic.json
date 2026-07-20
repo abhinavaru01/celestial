@@ -8,11 +8,11 @@
   "order": 4,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Transition metals, complex ions, ligands and colour.",
+  "summary": "Transition-metal properties, complex ions, ligands, coordination number and the origin of colour.",
   "outcomes": [
     "Describe transition-metal properties",
-    "Explain coordination complexes",
-    "Relate d-electrons to colour"
+    "Interpret coordination complexes",
+    "Relate d-electrons to colour and catalysis"
   ],
   "prereqs": [
     "chemistry.A2.biomolecules-polymers",
@@ -20,7 +20,7 @@
   ],
   "boardMap": {
     "CBSE": [
-      "Cl.12 d- and f-Block",
+      "Cl.12 d/f-Block",
       "Cl.12 Coordination Compounds"
     ],
     "ICSE": [
@@ -39,7 +39,7 @@
     "transition metals",
     "coordination",
     "ligand",
-    "complex",
-    "d-block"
+    "coordination number",
+    "colour"
   ]
 }

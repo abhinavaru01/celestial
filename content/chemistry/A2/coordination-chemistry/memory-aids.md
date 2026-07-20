@@ -6,5 +6,5 @@
 
 - "Ligands donate to the metal centre."
 
-- Colour comes from d-orbital splitting.
+- Colour ← d–d transitions.
 

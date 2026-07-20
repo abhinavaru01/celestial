@@ -2,9 +2,9 @@
 
 > How to remember this — and keep it.
 
-- "Moles = mass ÷ molar mass."
+- "n = m/M."
 
-- "1 mole = 6.02×10²³ particles."
+- "1 mole = 6.022×10²³ particles."
 
 - The mole is ratio thinking for particles.
 

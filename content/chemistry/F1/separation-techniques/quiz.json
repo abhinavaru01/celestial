@@ -13,22 +13,17 @@
           "decanting"
         ],
         "answer": 0,
-        "explanation": "Distillation boils off water and condenses it, leaving salt behind."
+        "explanation": "Distillation boils off and condenses the water, leaving salt behind."
       }
     ],
     "2": [
       {
         "id": "chemistry_F1_separation_techniques_q2",
-        "type": "mcq",
-        "prompt": "Filtration can separate:",
-        "choices": [
-          "an insoluble solid from a liquid",
-          "dissolved salt from water",
-          "two gases",
-          "ink colours"
-        ],
-        "answer": 0,
-        "explanation": "Filtration traps insoluble solids; dissolved solids pass through."
+        "type": "numeric",
+        "prompt": "A spot moves 4 cm; the solvent front moves 16 cm. Rf = ? (2 dp)",
+        "answer": 0.25,
+        "tolerance": 0.01,
+        "explanation": "Rf = 4/16 = 0.25."
       }
     ],
     "3": []

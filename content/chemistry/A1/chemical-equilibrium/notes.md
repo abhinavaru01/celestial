@@ -1,21 +1,32 @@
 # Chemical Equilibrium (Quantitative)
 
-> Equilibrium constants Kc and Kp, and ICE-table calculations.
+> [!intro] Equilibrium constants Kc and Kp, the reaction quotient Q, and ICE-table calculations.
 
 ## Equilibrium constant
 
-Kc expresses the ratio of product to reactant concentrations at equilibrium (each raised to its coefficient). A large K favours products.
+Kc = [products]/[reactants], each raised to its coefficient (pure solids/liquids omitted). Large K favours products. Kp uses partial pressures.
 
-## ICE tables
+## Q vs K and ICE tables
 
-Initial–Change–Equilibrium tables organise the algebra of finding equilibrium concentrations — systematic problem-solving reusing algebra skills.
+The reaction quotient Q has K's form but at any moment. Q < K → forward; Q > K → backward. ICE (Initial–Change–Equilibrium) tables organise the algebra.
+
+```formula Key formulas
+For aA + bB ⇌ cC + dD :  Kc = [C]^c[D]^d / [A]^a[B]^b
+Q < K → forward; Q > K → backward; Q = K → equilibrium
+Kp = Kc (RT)^(Δn_gas)
+```
+
+> [!example] **Worked example**
+> **Problem.** For H₂ + I₂ ⇌ 2HI, at equilibrium [H₂]=[I₂]=0.10 M and [HI]=0.80 M. Find Kc.
+> >
+> > **Solution.** Kc = [HI]²/([H₂][I₂]) = (0.80)² / (0.10×0.10) = 0.64/0.01 = 64. K ≫ 1 → products favoured.
 
 ## What you should be able to do
 
-- Write equilibrium expressions
-- Use Kc and Kp
-- Solve with ICE tables
+- Write Kc/Kp expressions
+- Use Q to predict direction
+- Solve equilibria with ICE tables
 
 ---
 
-_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._
+_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._

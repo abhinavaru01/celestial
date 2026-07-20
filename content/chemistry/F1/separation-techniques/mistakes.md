@@ -2,9 +2,9 @@
 
 > Every learner hits these — spot them before they cost you.
 
-- Using filtration to separate dissolved solids (they pass through).
+- Using filtration to separate a dissolved solid (it passes through).
 
 - Confusing evaporation with distillation (distillation recovers the liquid).
 
-- Thinking separation changes the substances chemically.
+- Reporting Rf greater than 1.
 

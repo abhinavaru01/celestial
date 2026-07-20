@@ -8,11 +8,11 @@
   "order": 2,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Molecular shapes (VSEPR), polarity, and intermolecular forces.",
+  "summary": "Molecular shapes from VSEPR, bond and molecular polarity, and intermolecular forces.",
   "outcomes": [
     "Predict shapes with VSEPR",
     "Determine molecular polarity",
-    "Explain intermolecular forces"
+    "Rank intermolecular forces"
   ],
   "prereqs": [
     "chemistry.I2.atomic-structure-ii",

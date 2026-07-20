@@ -2,9 +2,9 @@
 
 > Every learner hits these — spot them before they cost you.
 
-- Thinking particles expand when heated (they move faster and apart, they do not grow).
+- Thinking particles expand when heated (they move faster/farther apart, they do not grow).
 
 - Confusing a mixture with a compound.
 
-- Believing gas has no mass.
+- Believing gases have no mass.
 

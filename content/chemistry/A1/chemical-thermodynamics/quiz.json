@@ -14,22 +14,17 @@
           "very large"
         ],
         "answer": 0,
-        "explanation": "Negative Gibbs free energy means spontaneous."
+        "explanation": "Negative Gibbs free energy = spontaneous."
       }
     ],
     "3": [
       {
         "id": "chemistry_A1_chemical_thermodynamics_q2",
-        "type": "mcq",
-        "prompt": "In ΔG = ΔH − TΔS, raising temperature increases the influence of:",
-        "choices": [
-          "entropy (ΔS)",
-          "enthalpy (ΔH)",
-          "neither",
-          "pressure"
-        ],
-        "answer": 0,
-        "explanation": "The TΔS term grows with temperature."
+        "type": "numeric",
+        "prompt": "ΔH = +50 kJ/mol, ΔS = +0.125 kJ/(mol·K). Minimum T for spontaneity (K)?",
+        "answer": 400,
+        "tolerance": 1,
+        "explanation": "T > ΔH/ΔS = 50/0.125 = 400 K."
       }
     ]
   }

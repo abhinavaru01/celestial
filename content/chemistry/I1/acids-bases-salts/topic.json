@@ -8,10 +8,10 @@
   "order": 3,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "The pH scale, neutralisation, and an introduction to titration.",
+  "summary": "The pH scale as a logarithm of H⁺ concentration, neutralisation, and titration.",
   "outcomes": [
-    "Describe acids and bases",
-    "Use the pH scale",
+    "Describe acids and bases (Arrhenius/Brønsted)",
+    "Use the pH scale quantitatively",
     "Explain neutralisation and titration"
   ],
   "prereqs": [

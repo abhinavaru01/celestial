@@ -8,11 +8,11 @@
   "order": 4,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Writing formulae and balancing equations as conservation-of-mass accounting.",
+  "summary": "Writing formulae from valency and balancing equations as the visible bookkeeping of conservation of mass.",
   "outcomes": [
     "Write formulae from valencies",
     "Balance chemical equations",
-    "Interpret an equation quantitatively"
+    "Interpret an equation in moles"
   ],
   "prereqs": [
     "chemistry.F2.mole-concept",

@@ -4,32 +4,27 @@
     "1": [],
     "2": [
       {
-        "id": "chemistry_A1_chemical_equilibrium_q1",
+        "id": "chemistry_A1_chemical_equilibrium_q2",
         "type": "mcq",
-        "prompt": "A very large equilibrium constant K means at equilibrium there are mostly:",
+        "prompt": "If Q < K, the reaction proceeds:",
         "choices": [
-          "products",
-          "reactants",
-          "solids",
-          "catalysts"
+          "forward (toward products)",
+          "backward",
+          "not at all",
+          "to a solid"
         ],
         "answer": 0,
-        "explanation": "Large K = product-favoured."
+        "explanation": "Q < K → more product must form."
       }
     ],
     "3": [
       {
-        "id": "chemistry_A1_chemical_equilibrium_q2",
-        "type": "mcq",
-        "prompt": "Which is omitted from the Kc expression?",
-        "choices": [
-          "pure solids and liquids",
-          "gases",
-          "aqueous ions",
-          "all reactants"
-        ],
-        "answer": 0,
-        "explanation": "Pure solids and liquids have constant activity and are omitted."
+        "id": "chemistry_A1_chemical_equilibrium_q1",
+        "type": "numeric",
+        "prompt": "H₂+I₂⇌2HI: [HI]=0.8, [H₂]=[I₂]=0.1 M. Kc = [HI]²/([H₂][I₂])?",
+        "answer": 64,
+        "tolerance": 0.5,
+        "explanation": "0.64/0.01 = 64."
       }
     ]
   }

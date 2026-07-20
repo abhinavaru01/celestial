@@ -8,11 +8,11 @@
   "order": 2,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Reaction types, ionic equations and an introduction to redox.",
+  "summary": "Reaction types, net ionic equations, oxidation numbers and the essentials of redox.",
   "outcomes": [
     "Classify reaction types",
-    "Write ionic equations",
-    "Identify oxidation and reduction"
+    "Write net ionic equations",
+    "Assign oxidation numbers and identify redox"
   ],
   "prereqs": [
     "chemistry.I1.bonding-i"
@@ -36,7 +36,6 @@
     "reaction types",
     "ionic equations",
     "redox",
-    "oxidation",
-    "reduction"
+    "oxidation number"
   ]
 }

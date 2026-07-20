@@ -2,9 +2,9 @@
 
 > Faster, cleaner ways to handle this topic.
 
-- Anode = oxidation, cathode = reduction (both cells).
+- "An Ox, Red Cat": Anode Oxidation, Cathode Reduction.
 
-- Positive cell potential → spontaneous galvanic cell.
+- Positive E°cell → spontaneous galvanic cell.
 
-- Charge = moles of electrons × Faraday constant.
+- moles e⁻ = It/F.
 

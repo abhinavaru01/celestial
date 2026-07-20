@@ -4,7 +4,7 @@
 
 - "Group = predictable reactions."
 
-- "Oxidise up the chain: alcohol→aldehyde→acid."
+- "Oxidise: 1° alcohol → aldehyde → acid."
 
-- Amines are basic; acids are acidic.
+- Amines basic; acids acidic.
 

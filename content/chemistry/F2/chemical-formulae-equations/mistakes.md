@@ -4,7 +4,7 @@
 
 - Changing subscripts instead of coefficients to balance.
 
-- Forgetting a balanced equation must conserve every element.
+- Forgetting a balanced equation conserves every element.
 
 - Miswriting formulae by ignoring valency.
 

@@ -16,6 +16,16 @@ Read this right-to-left: "take the value `10`, and bind the name `score` to it."
 
 **The box model (intuition):** picture `score` as a labelled box holding `10`. When you later write `score`, Python looks in the box and uses what's there.
 
+```svg
+<svg viewBox="0 0 300 96" role="img" aria-label="A variable as a labelled box holding a value" xmlns="http://www.w3.org/2000/svg">
+  <text x="70" y="30" font-size="13" fill="#8fa0ff" text-anchor="middle">score</text>
+  <line x1="70" y1="36" x2="70" y2="52" stroke="#6b7a99"/>
+  <rect x="30" y="52" width="80" height="34" rx="6" fill="#12182a" stroke="#39466a"/>
+  <text x="70" y="74" font-size="15" fill="#e6ecff" text-anchor="middle">10</text>
+  <text x="150" y="74" font-size="12" fill="#9aa8c4">← the name labels a box; the box holds the value</text>
+</svg>
+```
+
 ```python
 score = 10
 score = score + 5     # take what's in the box (10), add 5, put 15 back

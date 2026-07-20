@@ -2,9 +2,9 @@
 
 > Faster, cleaner ways to handle this topic.
 
-- pH = −log[H⁺]; each unit is ×10 in concentration.
+- Weak acid [H⁺] ≈ √(Ka·C).
 
-- Buffer = weak acid + its conjugate base.
+- Buffer: pH = pKa + log(salt/acid).
 
-- Ksp sets the maximum dissolved ion product.
+- Ksp caps the dissolved ion product.
 

@@ -2,9 +2,9 @@
 
 > Faster, cleaner ways to handle this topic.
 
-- Fill lowest-energy levels first (aufbau idea).
+- Fill lowest-energy levels first (aufbau).
 
-- Outer-electron count = group behaviour.
+- Shell holds 2n² electrons.
 
-- Noble gases have full outer shells — hence unreactive.
+- Full shell = stable/unreactive.
 

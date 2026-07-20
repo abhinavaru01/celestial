@@ -4,7 +4,7 @@
 
 - "K = products/reactants (to powers)."
 
-- "Large K favours products."
+- "Q<K forward, Q>K backward."
 
 - ICE: Initial, Change, Equilibrium.
 

@@ -4,7 +4,7 @@
 
 - Thinking covalent bonds transfer electrons (they share).
 
-- Confusing ionic and covalent based on name alone.
+- Judging bonding by name alone.
 
 - Forgetting metals conduct due to delocalised electrons.
 

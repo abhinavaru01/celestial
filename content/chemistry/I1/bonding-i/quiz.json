@@ -20,7 +20,7 @@
       {
         "id": "chemistry_I1_bonding_i_q2",
         "type": "mcq",
-        "prompt": "Sodium chloride (metal + non-metal) is held by ___ bonding.",
+        "prompt": "MgCl₂ (metal + non-metal) is held by ___ bonding.",
         "choices": [
           "ionic",
           "covalent",

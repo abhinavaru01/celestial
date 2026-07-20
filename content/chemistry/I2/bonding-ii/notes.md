@@ -1,21 +1,32 @@
 # Bonding II
 
-> Molecular shapes (VSEPR), polarity, and intermolecular forces.
+> [!intro] Molecular shapes from VSEPR, bond and molecular polarity, and intermolecular forces.
 
-## Shape from repulsion
+## Shape from electron-pair repulsion
 
-Electron pairs around an atom repel and spread out as far as possible (VSEPR), setting the molecule's shape — linear, bent, tetrahedral, etc.
+Electron pairs (bonding and lone) around a central atom repel and spread as far apart as possible (VSEPR): 2 pairs → linear (180°), 3 → trigonal (120°), 4 → tetrahedral (109.5°); lone pairs bend the shape.
 
-## Polarity and forces
+## Polarity and intermolecular forces
 
-Unequal sharing makes bonds polar; molecular shape decides if the whole molecule is polar. Intermolecular forces (including hydrogen bonding) explain boiling points and solubility.
+Unequal sharing makes polar bonds; symmetry decides overall polarity. Intermolecular forces (London < dipole–dipole < hydrogen bonding) set boiling points and solubility.
+
+```formula Key formulas
+VSEPR: 2 pairs → 180°, 3 → 120°, 4 → 109.5°
+Strength: London dispersion < dipole–dipole < hydrogen bond
+Symmetric shape can be non-polar despite polar bonds (CO₂)
+```
+
+> [!example] **Worked example**
+> **Problem.** Predict the shape and polarity of CO₂ and of H₂O.
+> >
+> > **Solution.** CO₂: 2 bonding regions, no lone pairs on C → linear (180°); dipoles cancel → non-polar. H₂O: 2 bonding + 2 lone pairs → bent (~104.5°); dipoles do not cancel → polar (and hydrogen-bonds).
 
 ## What you should be able to do
 
 - Predict shapes with VSEPR
 - Determine molecular polarity
-- Explain intermolecular forces
+- Rank intermolecular forces
 
 ---
 
-_A structured module in The Ultimate Learner — the essentials with all six learning layers. Deeper worked-example expansions are layered on over time; the three F1 "deep dive" topics show the target depth._
+_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 "deep dive" topics show the target depth; modules are deepened over time._

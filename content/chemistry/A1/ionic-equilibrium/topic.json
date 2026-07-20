@@ -8,11 +8,11 @@
   "order": 4,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "pH calculations, buffers, and the solubility product.",
+  "summary": "pH of strong and weak acids, buffers (Henderson–Hasselbalch), and the solubility product Ksp.",
   "outcomes": [
-    "Calculate pH of acids/bases",
-    "Explain buffers",
-    "Use the solubility product Ksp"
+    "Calculate pH of strong/weak acids",
+    "Use the Henderson–Hasselbalch equation",
+    "Apply Ksp to solubility"
   ],
   "prereqs": [
     "chemistry.A1.chemical-equilibrium",
@@ -36,9 +36,10 @@
   ],
   "keywords": [
     "pH",
+    "weak acid",
+    "Ka",
     "buffer",
-    "solubility product",
-    "Ksp",
-    "ionic equilibrium"
+    "Henderson-Hasselbalch",
+    "Ksp"
   ]
 }

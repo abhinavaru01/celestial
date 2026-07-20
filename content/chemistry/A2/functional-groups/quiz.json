@@ -6,7 +6,7 @@
       {
         "id": "chemistry_A2_functional_groups_q1",
         "type": "mcq",
-        "prompt": "The −COOH group makes a molecule a(n):",
+        "prompt": "The –COOH group makes a molecule a(n):",
         "choices": [
           "carboxylic acid",
           "alcohol",
@@ -14,7 +14,7 @@
           "ketone"
         ],
         "answer": 0,
-        "explanation": "−COOH is the carboxylic acid group."
+        "explanation": "–COOH is the carboxylic acid group."
       },
       {
         "id": "chemistry_A2_functional_groups_q2",
@@ -27,7 +27,7 @@
           "alkane"
         ],
         "answer": 0,
-        "explanation": "Primary alcohol → aldehyde → carboxylic acid."
+        "explanation": "1° alcohol → aldehyde → carboxylic acid."
       }
     ],
     "3": []

@@ -8,11 +8,11 @@
   "order": 3,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Telling physical from chemical changes, evidence of reaction, and conservation of mass.",
+  "summary": "Telling physical from chemical changes, the evidence of reaction, and conservation of mass as the accounting law behind balancing.",
   "outcomes": [
     "Distinguish physical and chemical changes",
     "Identify signs of a chemical reaction",
-    "Apply conservation of mass"
+    "Apply conservation of mass quantitatively"
   ],
   "prereqs": [
     "chemistry.F1.separation-techniques"

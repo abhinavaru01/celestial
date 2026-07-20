@@ -6,5 +6,5 @@
 
 - "Disturb it, it pushes back."
 
-- Catalysts speed both directions — no shift.
+- Catalysts speed both ways — no shift.
 

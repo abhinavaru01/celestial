@@ -6,5 +6,5 @@
 
 - Confusing groups (columns) with periods (rows).
 
-- Ignoring that group number links to outer electrons.
+- Forgetting group number links to valence electrons.
 

@@ -12,7 +12,21 @@ $$ 2 : 1 \quad\text{which means}\quad \frac{2}{1} = 2 \text{ — twice as much f
 A ratio $a : b$ is really the fraction $\dfrac{a}{b}$ wearing different clothes. Everything about ratios follows from that.
 
 ### Intuition first
-Picture the flour and sugar as bars. Ratio doesn't care about the actual amounts — it cares about the **relationship** between them. Double both (4 cups flour, 2 sugar) and the ratio $4:2$ is *the same relationship* as $2:1$. This is the key move: **a ratio is preserved under scaling**, which is exactly why it's so useful — it describes the *shape* of a comparison independent of size.
+Picture the flour and sugar as bars — the ratio is the *relationship* of their lengths:
+
+```svg
+<svg viewBox="0 0 360 120" role="img" aria-label="Bar model of the ratio 2 to 1" xmlns="http://www.w3.org/2000/svg">
+  <text x="8" y="34" font-size="12" fill="#9aa8c4">flour</text>
+  <rect x="60" y="20" width="80" height="24" rx="4" fill="#6366f1"/>
+  <rect x="142" y="20" width="80" height="24" rx="4" fill="#6366f1"/>
+  <text x="8" y="80" font-size="12" fill="#9aa8c4">sugar</text>
+  <rect x="60" y="66" width="80" height="24" rx="4" fill="#6ee7a8"/>
+  <text x="240" y="38" font-size="13" fill="#e6ecff">2 parts</text>
+  <text x="240" y="84" font-size="13" fill="#e6ecff">1 part  →  ratio 2 : 1</text>
+</svg>
+```
+
+Ratio doesn't care about the actual amounts — it cares about the **relationship** between them. Double both (4 cups flour, 2 sugar) and the ratio $4:2$ is *the same relationship* as $2:1$. This is the key move: **a ratio is preserved under scaling**, which is exactly why it's so useful — it describes the *shape* of a comparison independent of size.
 
 ### Rigour
 - $a : b = ka : kb$ for any non-zero $k$ (multiply/divide both parts by the same number → same ratio). This is why we **simplify** ratios: $6:4 = 3:2$.

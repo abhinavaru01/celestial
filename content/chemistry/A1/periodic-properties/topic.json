@@ -8,10 +8,10 @@
   "order": 6,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Trends in atomic radius, ionisation energy and electronegativity, and s- and p-block chemistry.",
+  "summary": "Trends in atomic radius, ionisation energy, electron affinity and electronegativity, explained by nuclear charge and shielding.",
   "outcomes": [
-    "Explain periodic trends",
-    "Relate trends to electron structure",
+    "Explain periodic trends from structure",
+    "Compare elements across periods and groups",
     "Survey s- and p-block behaviour"
   ],
   "prereqs": [
@@ -38,6 +38,7 @@
     "periodic trends",
     "atomic radius",
     "ionisation energy",
-    "electronegativity"
+    "electronegativity",
+    "effective nuclear charge"
   ]
 }

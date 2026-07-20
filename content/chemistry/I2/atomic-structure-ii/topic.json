@@ -8,11 +8,11 @@
   "order": 1,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "Electron configuration and quantum shells, treated intuitively.",
+  "summary": "Electron configuration, subshells and quantum shells — the origin of the periodic table's shape.",
   "outcomes": [
-    "Write electron configurations",
-    "Relate configuration to the periodic table",
-    "Explain energy levels intuitively"
+    "Write electron configurations (up to ~Z=20)",
+    "Relate configuration to periodic position",
+    "Explain shell energies intuitively"
   ],
   "prereqs": [
     "chemistry.I1.rates-reaction",
@@ -36,8 +36,8 @@
   ],
   "keywords": [
     "electron configuration",
-    "shells",
     "subshells",
-    "energy levels"
+    "aufbau",
+    "valence"
   ]
 }

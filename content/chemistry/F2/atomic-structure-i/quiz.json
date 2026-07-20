@@ -8,22 +8,17 @@
         "prompt": "An atom has 11 protons and 12 neutrons. Mass number?",
         "answer": 23,
         "tolerance": 0,
-        "explanation": "Mass number = protons + neutrons = 11 + 12 = 23."
+        "explanation": "A = protons + neutrons = 11 + 12 = 23."
       }
     ],
     "2": [
       {
         "id": "chemistry_F2_atomic_structure_i_q2",
-        "type": "mcq",
-        "prompt": "Two isotopes of an element differ in their number of:",
-        "choices": [
-          "neutrons",
-          "protons",
-          "electrons",
-          "nuclei"
-        ],
-        "answer": 0,
-        "explanation": "Isotopes have the same protons but different neutrons."
+        "type": "numeric",
+        "prompt": "Element X is 60% mass-10 and 40% mass-11. Relative atomic mass? (1 dp)",
+        "answer": 10.4,
+        "tolerance": 0.05,
+        "explanation": "10(0.6) + 11(0.4) = 10.4."
       }
     ],
     "3": []

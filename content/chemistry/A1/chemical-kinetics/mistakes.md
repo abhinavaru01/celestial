@@ -2,9 +2,9 @@
 
 > Every learner hits these — spot them before they cost you.
 
-- Reading orders from the balanced equation (they are experimental).
+- Reading orders from the balanced equation.
 
 - Confusing rate with rate constant.
 
-- Forgetting temperature's strong effect on rate.
+- Forgetting temperature's strong effect on k.
 

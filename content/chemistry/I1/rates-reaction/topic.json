@@ -8,11 +8,11 @@
   "order": 5,
   "depth": "module",
   "estMinutes": 180,
-  "summary": "What speeds reactions up — concentration, temperature, surface area, catalysts — with rate graphs.",
+  "summary": "Collision theory and the factors that change reaction rate, read from rate graphs.",
   "outcomes": [
     "Identify factors affecting rate",
     "Interpret rate graphs",
-    "Explain rate using collision theory"
+    "Explain rate with collision theory and activation energy"
   ],
   "prereqs": [
     "chemistry.I1.solutions-concentration"

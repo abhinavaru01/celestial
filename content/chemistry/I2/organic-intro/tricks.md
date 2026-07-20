@@ -2,9 +2,9 @@
 
 > Faster, cleaner ways to handle this topic.
 
-- Alkanes: single bonds (-ane); alkenes: a double bond (-ene).
+- Alkane CₙH₂ₙ₊₂ (-ane); alkene CₙH₂ₙ (-ene).
 
-- Name by counting the longest carbon chain.
+- Name by the longest carbon chain.
 
-- The functional group drives the reactivity.
+- The functional group drives reactivity.
 
