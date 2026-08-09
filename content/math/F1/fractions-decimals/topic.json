@@ -6,8 +6,8 @@
   "slug": "fractions-decimals",
   "core": true,
   "order": 2,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 240,
   "summary": "Fractions, decimals and division are three views of the same idea — parts of a whole on the number line.",
   "outcomes": [
     "Convert freely between fractions and decimals",

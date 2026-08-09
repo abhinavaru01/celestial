@@ -91,8 +91,10 @@ function notesMd(t, subject) {
     parts.push('```formula ' + (t.keyLabel || defaultKeyLabel(subject)), ...t.formulas, '```', '');
   }
   if (t.example) {
-    const ex = typeof t.example === 'string' ? t.example : `**Problem.** ${t.example.q}\n>\n> **Solution.** ${t.example.solution}`;
-    parts.push('> [!example] **Worked example**', ...ex.split('\n').map((l) => `> ${l}`), '');
+    // Build the quoted lines from unquoted text — prefixing already-quoted text is what
+    // used to produce a nested "> >" blockquote inside the example callout.
+    const ex = typeof t.example === 'string' ? t.example : `**Problem.** ${t.example.q}\n\n**Solution.** ${t.example.solution}`;
+    parts.push('> [!example] **Worked example**', '>', ...ex.split('\n').map((l) => (l.trim() === '' ? '>' : `> ${l}`)), '');
   }
   if ((t.outcomes || []).length) {
     parts.push('## What you should be able to do', '');

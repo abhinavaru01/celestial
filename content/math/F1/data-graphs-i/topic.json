@@ -6,8 +6,8 @@
   "slug": "data-graphs-i",
   "core": true,
   "order": 7,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 210,
   "summary": "Reading and drawing bar charts, pictographs and line graphs — and spotting misleading ones.",
   "outcomes": [
     "Read and construct bar charts, pictographs and line graphs",

@@ -6,8 +6,8 @@
   "slug": "number-sense-estimation",
   "core": true,
   "order": 1,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 240,
   "summary": "Place value, negative numbers, orders of magnitude, mental math and the discipline of estimating before computing.",
   "outcomes": [
     "Work fluently with negative numbers and place value",

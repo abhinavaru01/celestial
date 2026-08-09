@@ -3,29 +3,140 @@
   "levels": {
     "1": [
       {
-        "id": "math_F1_data_graphs_i_q1",
+        "id": "math_F1_data_graphs_i_l1_q1",
+        "type": "mcq",
+        "prompt": "Which chart best shows temperature measured every hour through a day?",
+        "choices": [
+          "line graph",
+          "pie chart",
+          "bar chart of categories",
+          "pictograph"
+        ],
+        "answer": 0,
+        "explanation": "Time is continuous, so a line graph is right — and the line legitimately claims values between readings."
+      },
+      {
+        "id": "math_F1_data_graphs_i_l1_q2",
         "type": "numeric",
-        "prompt": "Find the mean of 4, 8, 6, 2.",
-        "answer": 5,
+        "prompt": "A pictograph uses ★ = 20 books. A row shows 3 full stars and a half star. How many books?",
+        "answer": 70,
         "tolerance": 0,
-        "explanation": "Total 20 ÷ 4 values = 5."
+        "explanation": "3 × 20 + 10 = 70."
+      },
+      {
+        "id": "math_F1_data_graphs_i_l1_q3",
+        "type": "numeric",
+        "prompt": "Find the mean of 3, 4, 4, 5, 24.",
+        "answer": 8,
+        "tolerance": 0,
+        "explanation": "Total 40 ÷ 5 values = 8."
+      },
+      {
+        "id": "math_F1_data_graphs_i_l1_q4",
+        "type": "numeric",
+        "prompt": "Find the range of 3, 4, 4, 5, 24.",
+        "answer": 21,
+        "tolerance": 0,
+        "explanation": "Largest − smallest = 24 − 3 = 21."
       }
     ],
     "2": [
       {
-        "id": "math_F1_data_graphs_i_q2",
+        "id": "math_F1_data_graphs_i_l2_q1",
+        "type": "numeric",
+        "prompt": "Find the median of 3, 4, 4, 5, 24.",
+        "answer": 4,
+        "tolerance": 0,
+        "explanation": "Ordered, the middle of five values is the third: 4."
+      },
+      {
+        "id": "math_F1_data_graphs_i_l2_q2",
         "type": "mcq",
-        "prompt": "A bar chart's value axis starts at 90 instead of 0. This can:",
+        "prompt": "Why is the median a better summary than the mean for that data set?",
         "choices": [
-          "make small differences look large",
-          "change the actual data",
-          "make the mean smaller",
-          "have no effect"
+          "the outlier 24 drags the mean above every value but one",
+          "the median is always larger",
+          "the mean cannot be computed here",
+          "they are equally good"
         ],
         "answer": 0,
-        "explanation": "A truncated axis exaggerates differences — a classic misleading technique."
+        "explanation": "The mean of 8 exceeds four of the five values. The median, 4, describes a typical value and resists the outlier."
+      },
+      {
+        "id": "math_F1_data_graphs_i_l2_q3",
+        "type": "numeric",
+        "prompt": "In a pie chart, what angle in degrees represents 25% of the total?",
+        "answer": 90,
+        "tolerance": 0,
+        "explanation": "25% of 360° = 90°. (Multiply any percentage by 3.6.)"
+      },
+      {
+        "id": "math_F1_data_graphs_i_l2_q4",
+        "type": "mcq",
+        "prompt": "A bar chart's vertical axis starts at 90 rather than 0. What is the effect?",
+        "choices": [
+          "small differences look far larger than they are",
+          "the chart becomes more accurate",
+          "the bars become harder to draw",
+          "no effect if the values are labelled"
+        ],
+        "answer": 0,
+        "explanation": "Bars are read by length. Truncating the axis inflates the visual ratio between similar values."
       }
     ],
-    "3": []
+    "3": [
+      {
+        "id": "math_F1_data_graphs_i_l3_q1",
+        "type": "mcq",
+        "prompt": "A chart shows Brand A at 96% and Brand B at 92%, axis from 90% to 100%, and A's bar looks three times taller. What is the honest description?",
+        "choices": [
+          "the numbers are accurate but the picture exaggerates a 4-point gap",
+          "the data must be fabricated",
+          "the chart is fine because the values are printed",
+          "B is actually higher than A"
+        ],
+        "answer": 0,
+        "explanation": "Drawn lengths of 6 and 2 units create a 3:1 visual ratio from a 4-percentage-point difference. From a zero origin the bars would look nearly equal."
+      },
+      {
+        "id": "math_F1_data_graphs_i_l3_q2",
+        "type": "mcq",
+        "prompt": "A survey about school food is conducted only among students queuing at the canteen. What is the flaw?",
+        "choices": [
+          "sampling bias — it excludes students who avoid the canteen",
+          "the sample is too small to compute a mean",
+          "the data is continuous, not categorical",
+          "there is no flaw"
+        ],
+        "answer": 0,
+        "explanation": "Those who dislike the food are least likely to be in the queue, so the sample systematically over-represents satisfied students. Careful drawing cannot repair a biased sample."
+      },
+      {
+        "id": "math_F1_data_graphs_i_l3_q3",
+        "type": "mcq",
+        "prompt": "A symbol is drawn twice as tall AND twice as wide to represent double the quantity. Why does this mislead?",
+        "choices": [
+          "the eye reads area, which has quadrupled",
+          "the symbol becomes blurry",
+          "height alone should have been halved",
+          "it does not mislead"
+        ],
+        "answer": 0,
+        "explanation": "Doubling both dimensions multiplies area by 4, so the reader perceives four times the quantity rather than two."
+      },
+      {
+        "id": "math_F1_data_graphs_i_l3_q4",
+        "type": "mcq",
+        "prompt": "Five students scored 8 marks each. To find the mean score of the class, which column do you average?",
+        "choices": [
+          "the values, each weighted by its frequency",
+          "the frequencies",
+          "the frequencies divided by the values",
+          "either column gives the same result"
+        ],
+        "answer": 0,
+        "explanation": "Mean = Σ(value × frequency) ÷ Σfrequency. Averaging the frequency column answers a different question entirely."
+      }
+    ]
   }
 }

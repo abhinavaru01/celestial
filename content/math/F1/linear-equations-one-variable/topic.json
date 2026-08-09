@@ -6,8 +6,8 @@
   "slug": "linear-equations-one-variable",
   "core": true,
   "order": 5,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 240,
   "summary": "Solving equations by keeping both sides balanced, and using them to model word problems directly.",
   "outcomes": [
     "Solve linear equations by inverse operations",

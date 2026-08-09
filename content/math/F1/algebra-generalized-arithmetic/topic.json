@@ -6,8 +6,8 @@
   "slug": "algebra-generalized-arithmetic",
   "core": true,
   "order": 4,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 240,
   "summary": "Variables are just numbers whose value we have not fixed yet; algebra is arithmetic with letters standing in for numbers.",
   "outcomes": [
     "Write and evaluate algebraic expressions",

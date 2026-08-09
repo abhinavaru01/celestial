@@ -1,10 +1,16 @@
 # Memory & Retention Aids — Data & Graphs I
 
-> How to remember this — and keep it.
+> How to remember this — and still have it months later.
 
-- "Read the axes first."
+- "The chart follows the data type" — categories get bars, continuous time gets lines.
 
-- "Mean = total ÷ count."
+- "Bars measure length, so start at zero." Truncation is the number-one distortion.
 
-- A cut-off axis is a warning sign of a misleading graph.
+- "No key, no meaning" for pictographs.
+
+- "Steep means fast" — the same idea as slope, speed, and rate everywhere else.
+
+- "Mode for names, median for outliers, mean for everything else."
+
+- "Mean pulled, median stands" — one extreme value drags the mean and leaves the median almost untouched.
 
