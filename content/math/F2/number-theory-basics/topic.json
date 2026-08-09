@@ -6,8 +6,8 @@
   "slug": "number-theory-basics",
   "core": true,
   "order": 7,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 210,
   "summary": "Divisibility, primes, factors, HCF and LCM — foundations that also serve computer science.",
   "outcomes": [
     "Test divisibility and identify primes",

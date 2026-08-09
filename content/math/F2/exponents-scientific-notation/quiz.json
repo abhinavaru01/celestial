@@ -3,34 +3,155 @@
   "levels": {
     "1": [
       {
-        "id": "math_F2_exponents_scientific_notation_q1",
+        "id": "math_F2_exponents_scientific_notation_l1_q1",
+        "type": "numeric",
+        "prompt": "Evaluate 2⁵.",
+        "answer": 32,
+        "tolerance": 0,
+        "explanation": "2×2×2×2×2 = 32. (Not 2 × 5 = 10.)"
+      },
+      {
+        "id": "math_F2_exponents_scientific_notation_l1_q2",
+        "type": "numeric",
+        "prompt": "Evaluate 7⁰.",
+        "answer": 1,
+        "tolerance": 0,
+        "explanation": "Any non-zero base to the power 0 is 1, forced by a³/a³ = a⁰ = 1."
+      },
+      {
+        "id": "math_F2_exponents_scientific_notation_l1_q3",
         "type": "mcq",
-        "prompt": "Simplify 2^3 × 2^4.",
+        "prompt": "Write 4 500 000 in scientific notation.",
         "choices": [
-          "2^7",
-          "2^12",
-          "4^7",
-          "2^1"
+          "4.5 × 10⁶",
+          "45 × 10⁵",
+          "4.5 × 10⁵",
+          "0.45 × 10⁷"
         ],
         "answer": 0,
-        "explanation": "Same base, add exponents: 2^(3+4) = 2^7."
+        "explanation": "The mantissa must satisfy 1 ≤ a < 10, and the decimal moves 6 places."
+      },
+      {
+        "id": "math_F2_exponents_scientific_notation_l1_q4",
+        "type": "mcq",
+        "prompt": "Simplify a³ × a⁴.",
+        "choices": [
+          "a⁷",
+          "a¹²",
+          "a¹",
+          "2a⁷"
+        ],
+        "answer": 0,
+        "explanation": "Common base: add the exponents, 3 + 4 = 7."
       }
     ],
     "2": [
       {
-        "id": "math_F2_exponents_scientific_notation_q2",
+        "id": "math_F2_exponents_scientific_notation_l2_q1",
         "type": "mcq",
-        "prompt": "Write 45000 in scientific notation.",
+        "prompt": "What is 2⁻³?",
         "choices": [
-          "4.5 × 10^3",
-          "45 × 10^3",
-          "4.5 × 10^4",
-          "0.45 × 10^5"
+          "1/8",
+          "−8",
+          "−1/8",
+          "8"
         ],
-        "answer": 2,
-        "explanation": "Decimal moves 4 places: 4.5 × 10^4."
+        "answer": 0,
+        "explanation": "A negative exponent means reciprocal: 2⁻³ = 1/2³ = 1/8, a positive number."
+      },
+      {
+        "id": "math_F2_exponents_scientific_notation_l2_q2",
+        "type": "mcq",
+        "prompt": "Which is correct: −3² or (−3)²?",
+        "choices": [
+          "−3² = −9 and (−3)² = 9",
+          "both equal 9",
+          "both equal −9",
+          "−3² = 9 and (−3)² = −9"
+        ],
+        "answer": 0,
+        "explanation": "The exponent binds tighter than the minus, so −3² = −(3²) = −9. The bracket makes −3 the base, giving +9."
+      },
+      {
+        "id": "math_F2_exponents_scientific_notation_l2_q3",
+        "type": "mcq",
+        "prompt": "Simplify (2x³)².",
+        "choices": [
+          "4x⁶",
+          "2x⁶",
+          "4x⁵",
+          "2x⁹"
+        ],
+        "answer": 0,
+        "explanation": "The outer power applies to every factor: 2² = 4 and (x³)² = x⁶."
+      },
+      {
+        "id": "math_F2_exponents_scientific_notation_l2_q4",
+        "type": "mcq",
+        "prompt": "Write 0.00032 in scientific notation.",
+        "choices": [
+          "3.2 × 10⁻⁴",
+          "3.2 × 10⁴",
+          "32 × 10⁻⁵",
+          "3.2 × 10⁻³"
+        ],
+        "answer": 0,
+        "explanation": "The number is below 1, so the power is negative; the decimal moves 4 places right."
       }
     ],
-    "3": []
+    "3": [
+      {
+        "id": "math_F2_exponents_scientific_notation_l3_q1",
+        "type": "mcq",
+        "prompt": "Simplify (2x⁻²)³ × x⁴.",
+        "choices": [
+          "8/x²",
+          "8x²",
+          "6x⁻²",
+          "2x⁻²"
+        ],
+        "answer": 0,
+        "explanation": "(2x⁻²)³ = 8x⁻⁶; times x⁴ gives 8x⁻² = 8/x²."
+      },
+      {
+        "id": "math_F2_exponents_scientific_notation_l3_q2",
+        "type": "mcq",
+        "prompt": "Compute (3 × 10⁵) + (4 × 10⁴).",
+        "choices": [
+          "3.4 × 10⁵",
+          "7 × 10⁹",
+          "7 × 10⁵",
+          "3.4 × 10⁴"
+        ],
+        "answer": 0,
+        "explanation": "Match exponents first: 3×10⁵ + 0.4×10⁵ = 3.4×10⁵. Exponents are only added when multiplying."
+      },
+      {
+        "id": "math_F2_exponents_scientific_notation_l3_q3",
+        "type": "mcq",
+        "prompt": "A red blood cell is 8 × 10⁻⁶ m across; a person is 1.7 m tall. Roughly how many times taller is the person?",
+        "choices": [
+          "about 2 × 10⁵",
+          "about 2 × 10⁻⁵",
+          "about 8 × 10⁶",
+          "about 1.4 × 10⁻⁵"
+        ],
+        "answer": 0,
+        "explanation": "1.7 ÷ (8×10⁻⁶) = 0.21 × 10⁶ ≈ 2.1 × 10⁵ — about two hundred thousand."
+      },
+      {
+        "id": "math_F2_exponents_scientific_notation_l3_q4",
+        "type": "mcq",
+        "prompt": "Why must a⁰ equal 1 rather than 0?",
+        "choices": [
+          "because a³ ÷ a³ = 1 and the division law gives a⁰",
+          "because 0 exponents are meaningless",
+          "it is an arbitrary convention",
+          "because a × 0 = 0"
+        ],
+        "answer": 0,
+        "explanation": "Consistency with aᵐ ÷ aⁿ = aᵐ⁻ⁿ forces a⁰ = 1. The value is required, not chosen."
+      }
+    ]
   }
 }

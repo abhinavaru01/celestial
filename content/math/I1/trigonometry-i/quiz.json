@@ -3,34 +3,145 @@
   "levels": {
     "1": [
       {
-        "id": "math_I1_trigonometry_i_q1",
+        "id": "math_I1_trigonometry_i_l1_q1",
         "type": "mcq",
         "prompt": "In a right triangle, sin θ equals:",
         "choices": [
-          "opposite/hypotenuse",
-          "adjacent/hypotenuse",
-          "opposite/adjacent",
-          "hypotenuse/opposite"
+          "opposite ÷ hypotenuse",
+          "adjacent ÷ hypotenuse",
+          "opposite ÷ adjacent",
+          "hypotenuse ÷ opposite"
         ],
         "answer": 0,
-        "explanation": "SOH: sine = opposite / hypotenuse."
+        "explanation": "SOH: sine is opposite over hypotenuse."
+      },
+      {
+        "id": "math_I1_trigonometry_i_l1_q2",
+        "type": "numeric",
+        "prompt": "What is sin 30°? Give your answer as a decimal.",
+        "answer": 0.5,
+        "tolerance": 0.001,
+        "explanation": "From the half-equilateral triangle: the side opposite 30° is 1 and the hypotenuse is 2."
+      },
+      {
+        "id": "math_I1_trigonometry_i_l1_q3",
+        "type": "numeric",
+        "prompt": "What is tan 45°?",
+        "answer": 1,
+        "tolerance": 0.001,
+        "explanation": "In the half-square triangle the opposite and adjacent are equal, so the ratio is 1."
+      },
+      {
+        "id": "math_I1_trigonometry_i_l1_q4",
+        "type": "mcq",
+        "prompt": "Which side is never relabelled when you switch reference angle?",
+        "choices": [
+          "the hypotenuse",
+          "the opposite",
+          "the adjacent",
+          "all three change"
+        ],
+        "answer": 0,
+        "explanation": "The hypotenuse is fixed by the right angle. Opposite and adjacent swap with the chosen acute angle."
       }
     ],
     "2": [
       {
-        "id": "math_I1_trigonometry_i_q2",
+        "id": "math_I1_trigonometry_i_l2_q1",
+        "type": "numeric",
+        "prompt": "From 50 m away, the angle of elevation to a tower top is 32°. How tall is the tower, in metres (1 dp)?",
+        "answer": 31.2,
+        "tolerance": 0.3,
+        "explanation": "tan 32° = h/50, so h = 50 tan 32° ≈ 31.2 m."
+      },
+      {
+        "id": "math_I1_trigonometry_i_l2_q2",
+        "type": "numeric",
+        "prompt": "A right triangle has opposite 3 and adjacent 4. Find θ in degrees (1 dp).",
+        "answer": 36.9,
+        "tolerance": 0.2,
+        "explanation": "tan θ = 3/4, so θ = tan⁻¹(0.75) ≈ 36.9°."
+      },
+      {
+        "id": "math_I1_trigonometry_i_l2_q3",
         "type": "mcq",
-        "prompt": "What is sin 30°?",
+        "prompt": "A ladder makes 60° with the ground and reaches 4 m up a wall. How long is it?",
         "choices": [
-          "1/2",
-          "√3/2",
-          "1",
-          "0"
+          "about 4.6 m",
+          "about 3.5 m",
+          "about 8.0 m",
+          "about 2.0 m"
         ],
         "answer": 0,
-        "explanation": "A standard exact value: sin 30° = 1/2."
+        "explanation": "sin 60° = 4/L so L = 4 ÷ 0.866 ≈ 4.6 m — longer than 4 m, as a hypotenuse must be."
+      },
+      {
+        "id": "math_I1_trigonometry_i_l2_q4",
+        "type": "mcq",
+        "prompt": "Why can sin θ never exceed 1 for an acute angle?",
+        "choices": [
+          "the opposite side cannot be longer than the hypotenuse",
+          "because angles are less than 90°",
+          "because sine is a decimal",
+          "it can exceed 1 for large triangles"
+        ],
+        "answer": 0,
+        "explanation": "The hypotenuse is the longest side, so O/H < 1 always. A value above 1 signals a labelling error."
       }
     ],
-    "3": []
+    "3": [
+      {
+        "id": "math_I1_trigonometry_i_l3_q1",
+        "type": "mcq",
+        "prompt": "For an acute angle with sin θ = 3/5, what is tan θ?",
+        "choices": [
+          "3/4",
+          "4/5",
+          "5/3",
+          "4/3"
+        ],
+        "answer": 0,
+        "explanation": "cos²θ = 1 − 9/25 = 16/25 so cos θ = 4/5, and tan θ = (3/5)/(4/5) = 3/4. This is the 3-4-5 triangle."
+      },
+      {
+        "id": "math_I1_trigonometry_i_l3_q2",
+        "type": "mcq",
+        "prompt": "Why is tan 90° undefined?",
+        "choices": [
+          "the adjacent side shrinks to zero, and division by zero is undefined",
+          "because sine is 1 there",
+          "because 90° is not an acute angle",
+          "it equals infinity, which is a valid answer"
+        ],
+        "answer": 0,
+        "explanation": "tan = O/A and A → 0 as the angle approaches 90°. The same reason a vertical line has no gradient."
+      },
+      {
+        "id": "math_I1_trigonometry_i_l3_q3",
+        "type": "mcq",
+        "prompt": "What guarantees that sin θ is the same for every right triangle containing angle θ?",
+        "choices": [
+          "all such triangles are similar by AA, so corresponding sides are proportional",
+          "they all have the same area",
+          "the hypotenuse is always 1",
+          "it is true only for the special angles"
+        ],
+        "answer": 0,
+        "explanation": "Equal angles force similarity, and similar triangles have equal side ratios — which is precisely why the ratios can be named as functions of the angle alone."
+      },
+      {
+        "id": "math_I1_trigonometry_i_l3_q4",
+        "type": "mcq",
+        "prompt": "A student computes sin 60° and gets −0.305. What has gone wrong?",
+        "choices": [
+          "the calculator is in radian mode",
+          "the triangle was mislabelled",
+          "sine can be negative for acute angles",
+          "the answer is correct"
+        ],
+        "answer": 0,
+        "explanation": "sin 60° ≈ 0.866 in degrees. The value −0.305 is sin(60 radians) — always confirm with sin 30° = 0.5."
+      }
+    ]
   }
 }

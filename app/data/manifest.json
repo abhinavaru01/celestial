@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T14:14:05.004Z",
+  "generatedAt": "2026-08-09T20:30:08.317Z",
   "subjects": [
     {
       "id": "math",
@@ -2939,7 +2939,7 @@
       "slug": "exponents-scientific-notation",
       "core": true,
       "order": 1,
-      "estMinutes": 180,
+      "estMinutes": 240,
       "summary": "Powers as repeated multiplication, the laws of exponents, and scientific notation for very large and small numbers.",
       "prereqs": [
         "math.F1.data-graphs-i"
@@ -2948,7 +2948,7 @@
         "JEE-Main",
         "NEET"
       ],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 1,
       "outDegree": 3
     },
@@ -2960,7 +2960,7 @@
       "slug": "geometry-similarity-pythagoras",
       "core": true,
       "order": 5,
-      "estMinutes": 180,
+      "estMinutes": 240,
       "summary": "Similar figures as \"ratio applied to shapes\", the Pythagorean theorem, and areas and volumes.",
       "prereqs": [
         "math.F2.polynomials-factoring",
@@ -2969,7 +2969,7 @@
       "competitiveTags": [
         "JEE-Main"
       ],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 2,
       "outDegree": 3
     },
@@ -2981,7 +2981,7 @@
       "slug": "linear-relationships-coordinate-plane",
       "core": true,
       "order": 2,
-      "estMinutes": 180,
+      "estMinutes": 240,
       "summary": "The coordinate plane, and y = mx + c as the mathematics of a constant rate — the direct bridge from ratio thinking.",
       "prereqs": [
         "math.F2.exponents-scientific-notation",
@@ -2990,7 +2990,7 @@
       "competitiveTags": [
         "JEE-Main"
       ],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 2,
       "outDegree": 3
     },
@@ -3002,13 +3002,13 @@
       "slug": "number-theory-basics",
       "core": true,
       "order": 7,
-      "estMinutes": 180,
+      "estMinutes": 210,
       "summary": "Divisibility, primes, factors, HCF and LCM — foundations that also serve computer science.",
       "prereqs": [
         "math.F2.probability-statistics-i"
       ],
       "competitiveTags": [],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 1,
       "outDegree": 1
     },
@@ -3020,7 +3020,7 @@
       "slug": "polynomials-factoring",
       "core": true,
       "order": 4,
-      "estMinutes": 180,
+      "estMinutes": 240,
       "summary": "Adding, multiplying and factoring polynomials, including common factors and simple quadratics.",
       "prereqs": [
         "math.F2.systems-linear-equations"
@@ -3028,7 +3028,7 @@
       "competitiveTags": [
         "JEE-Main"
       ],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 1,
       "outDegree": 2
     },
@@ -3040,7 +3040,7 @@
       "slug": "probability-statistics-i",
       "core": true,
       "order": 6,
-      "estMinutes": 180,
+      "estMinutes": 210,
       "summary": "Probability as a proportion of outcomes, and measures of centre and spread.",
       "prereqs": [
         "math.F2.geometry-similarity-pythagoras",
@@ -3050,7 +3050,7 @@
         "JEE-Main",
         "NEET"
       ],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 2,
       "outDegree": 3
     },
@@ -3062,7 +3062,7 @@
       "slug": "systems-linear-equations",
       "core": true,
       "order": 3,
-      "estMinutes": 180,
+      "estMinutes": 210,
       "summary": "Solving two equations in two unknowns by substitution and elimination, and modelling with them.",
       "prereqs": [
         "math.F2.linear-relationships-coordinate-plane"
@@ -3070,7 +3070,7 @@
       "competitiveTags": [
         "JEE-Main"
       ],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 1,
       "outDegree": 2
     },
@@ -3082,7 +3082,7 @@
       "slug": "coordinate-geometry",
       "core": true,
       "order": 2,
-      "estMinutes": 180,
+      "estMinutes": 240,
       "summary": "Distance, midpoint and section formulas, and the equations of lines and circles.",
       "prereqs": [
         "math.I1.quadratics",
@@ -3092,7 +3092,7 @@
         "JEE-Main",
         "JEE-Advanced"
       ],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 2,
       "outDegree": 2
     },
@@ -3104,7 +3104,7 @@
       "slug": "geometry-circles-proof",
       "core": true,
       "order": 5,
-      "estMinutes": 180,
+      "estMinutes": 240,
       "summary": "Circle theorems and deductive proof as a skill in itself — reasoning that transfers to CS correctness.",
       "prereqs": [
         "math.I1.sequences-series"
@@ -3112,7 +3112,7 @@
       "competitiveTags": [
         "JEE-Advanced"
       ],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 1,
       "outDegree": 1
     },
@@ -3124,7 +3124,7 @@
       "slug": "quadratics",
       "core": true,
       "order": 1,
-      "estMinutes": 180,
+      "estMinutes": 270,
       "summary": "Quadratic expressions and equations — factoring, the quadratic formula, graphs and modelling.",
       "prereqs": [
         "math.F2.number-theory-basics",
@@ -3134,7 +3134,7 @@
         "JEE-Main",
         "JEE-Advanced"
       ],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 2,
       "outDegree": 1
     },
@@ -3146,7 +3146,7 @@
       "slug": "sequences-series",
       "core": true,
       "order": 4,
-      "estMinutes": 180,
+      "estMinutes": 240,
       "summary": "Arithmetic and geometric progressions, their sums, and links to growth and finance.",
       "prereqs": [
         "math.I1.trigonometry-i"
@@ -3155,7 +3155,7 @@
         "JEE-Main",
         "JEE-Advanced"
       ],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 1,
       "outDegree": 1
     },
@@ -3167,7 +3167,7 @@
       "slug": "statistics-ii",
       "core": true,
       "order": 6,
-      "estMinutes": 180,
+      "estMinutes": 210,
       "summary": "Grouped data, measures of dispersion, and reading real studies critically.",
       "prereqs": [
         "math.I1.geometry-circles-proof"
@@ -3175,7 +3175,7 @@
       "competitiveTags": [
         "NEET"
       ],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 1,
       "outDegree": 5
     },
@@ -3187,7 +3187,7 @@
       "slug": "trigonometry-i",
       "core": true,
       "order": 3,
-      "estMinutes": 180,
+      "estMinutes": 270,
       "summary": "Right-triangle ratios (sin, cos, tan) and early unit-circle intuition — the tools physics vectors need.",
       "prereqs": [
         "math.I1.coordinate-geometry"
@@ -3197,7 +3197,7 @@
         "JEE-Advanced",
         "NEET"
       ],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 1,
       "outDegree": 3
     },

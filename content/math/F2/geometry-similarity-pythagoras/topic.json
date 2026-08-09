@@ -6,8 +6,8 @@
   "slug": "geometry-similarity-pythagoras",
   "core": true,
   "order": 5,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 240,
   "summary": "Similar figures as \"ratio applied to shapes\", the Pythagorean theorem, and areas and volumes.",
   "outcomes": [
     "Use similarity ratios to find missing lengths",

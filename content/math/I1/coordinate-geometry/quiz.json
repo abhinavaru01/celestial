@@ -3,29 +3,150 @@
   "levels": {
     "1": [
       {
-        "id": "math_I1_coordinate_geometry_q1",
+        "id": "math_I1_coordinate_geometry_l1_q1",
         "type": "numeric",
-        "prompt": "Distance between (0,0) and (3,4)?",
+        "prompt": "Find the distance between (1, 2) and (4, 6).",
         "answer": 5,
         "tolerance": 0,
-        "explanation": "√(3² + 4²) = 5."
+        "explanation": "√(3² + 4²) = √25 = 5."
+      },
+      {
+        "id": "math_I1_coordinate_geometry_l1_q2",
+        "type": "mcq",
+        "prompt": "Find the midpoint of (2, 4) and (6, 10).",
+        "choices": [
+          "(4, 7)",
+          "(8, 14)",
+          "(2, 3)",
+          "(4, 6)"
+        ],
+        "answer": 0,
+        "explanation": "Average each coordinate: ((2+6)/2, (4+10)/2) = (4, 7)."
+      },
+      {
+        "id": "math_I1_coordinate_geometry_l1_q3",
+        "type": "mcq",
+        "prompt": "What is the centre of the circle (x − 3)² + (y + 2)² = 25?",
+        "choices": [
+          "(3, −2)",
+          "(−3, 2)",
+          "(3, 2)",
+          "(−3, −2)"
+        ],
+        "answer": 0,
+        "explanation": "The form subtracts the centre, so the signs in the brackets are reversed relative to the centre."
+      },
+      {
+        "id": "math_I1_coordinate_geometry_l1_q4",
+        "type": "numeric",
+        "prompt": "What is the radius of the circle (x − 3)² + (y + 2)² = 25?",
+        "answer": 5,
+        "tolerance": 0,
+        "explanation": "The constant is r², so r = √25 = 5."
       }
     ],
     "2": [
       {
-        "id": "math_I1_coordinate_geometry_q2",
+        "id": "math_I1_coordinate_geometry_l2_q1",
         "type": "mcq",
-        "prompt": "Midpoint of (2,4) and (6,8)?",
+        "prompt": "What gradient is perpendicular to 2/3?",
         "choices": [
-          "(4,6)",
-          "(8,12)",
-          "(2,2)",
-          "(3,6)"
+          "−3/2",
+          "3/2",
+          "−2/3",
+          "2/3"
         ],
         "answer": 0,
-        "explanation": "Average coordinates: ((2+6)/2,(4+8)/2) = (4,6)."
+        "explanation": "Take the negative reciprocal. Check: (2/3)(−3/2) = −1."
+      },
+      {
+        "id": "math_I1_coordinate_geometry_l2_q2",
+        "type": "mcq",
+        "prompt": "Find the line through (2, 7) with gradient −3/2.",
+        "choices": [
+          "y = −1.5x + 10",
+          "y = −1.5x + 7",
+          "y = 1.5x + 4",
+          "y = −1.5x − 10"
+        ],
+        "answer": 0,
+        "explanation": "y − 7 = −1.5(x − 2) gives y = −1.5x + 3 + 7 = −1.5x + 10."
+      },
+      {
+        "id": "math_I1_coordinate_geometry_l2_q3",
+        "type": "mcq",
+        "prompt": "Find the centre and radius of x² + y² − 6x + 4y − 12 = 0.",
+        "choices": [
+          "centre (3, −2), radius 5",
+          "centre (−3, 2), radius 5",
+          "centre (3, −2), radius 25",
+          "centre (6, −4), radius 12"
+        ],
+        "answer": 0,
+        "explanation": "Completing the square gives (x−3)² + (y+2)² = 25."
+      },
+      {
+        "id": "math_I1_coordinate_geometry_l2_q4",
+        "type": "numeric",
+        "prompt": "A line has gradient 4. What is the gradient of a line perpendicular to it? Give your answer as a decimal.",
+        "answer": -0.25,
+        "tolerance": 0.001,
+        "explanation": "Negative reciprocal of 4 is −1/4 = −0.25."
       }
     ],
-    "3": []
+    "3": [
+      {
+        "id": "math_I1_coordinate_geometry_l3_q1",
+        "type": "mcq",
+        "prompt": "A(1,2), B(4,6), C(8,3). Where is the right angle?",
+        "choices": [
+          "at B, since m_AB × m_BC = (4/3)(−3/4) = −1",
+          "at A",
+          "at C",
+          "the triangle is not right-angled"
+        ],
+        "answer": 0,
+        "explanation": "The gradients of AB and BC multiply to −1, so those sides are perpendicular at B. Distances confirm it: 25 + 25 = 50."
+      },
+      {
+        "id": "math_I1_coordinate_geometry_l3_q2",
+        "type": "mcq",
+        "prompt": "What is the quickest way to prove a quadrilateral is a parallelogram using coordinates?",
+        "choices": [
+          "show the diagonals share a midpoint",
+          "compute all four side lengths",
+          "show all angles are 90°",
+          "show the area is positive"
+        ],
+        "answer": 0,
+        "explanation": "Diagonals of a parallelogram bisect each other, so two midpoint calculations suffice — fewer steps than four gradients."
+      },
+      {
+        "id": "math_I1_coordinate_geometry_l3_q3",
+        "type": "mcq",
+        "prompt": "Why can you compare d² instead of d when testing whether a triangle is isosceles?",
+        "choices": [
+          "distances are positive, so squaring preserves the comparison and avoids surds",
+          "because d² is always an integer",
+          "it is not valid — you must take square roots",
+          "because Pythagoras requires squares"
+        ],
+        "answer": 0,
+        "explanation": "Squaring is increasing on positive numbers, so equal squares mean equal lengths — with exact arithmetic and no rounding."
+      },
+      {
+        "id": "math_I1_coordinate_geometry_l3_q4",
+        "type": "mcq",
+        "prompt": "To find the tangent to a circle at a point on it, what is the key fact?",
+        "choices": [
+          "the tangent is perpendicular to the radius at that point",
+          "the tangent passes through the centre",
+          "the tangent has the same gradient as the radius",
+          "the tangent is horizontal"
+        ],
+        "answer": 0,
+        "explanation": "Find the radius gradient, take its negative reciprocal, then use point–gradient form — no calculus needed."
+      }
+    ]
   }
 }

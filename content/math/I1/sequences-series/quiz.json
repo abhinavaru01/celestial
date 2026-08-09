@@ -3,24 +3,125 @@
   "levels": {
     "1": [
       {
-        "id": "math_I1_sequences_series_q1",
+        "id": "math_I1_sequences_series_l1_q1",
         "type": "numeric",
-        "prompt": "AP with first term 2 and difference 3. What is the 4th term?",
-        "answer": 11,
+        "prompt": "For the sequence 3, 7, 11, 15, …, what is the common difference?",
+        "answer": 4,
         "tolerance": 0,
-        "explanation": "a + 3d = 2 + 3(3) = 11."
+        "explanation": "Each term exceeds the previous by 4."
+      },
+      {
+        "id": "math_I1_sequences_series_l1_q2",
+        "type": "numeric",
+        "prompt": "For 2, 6, 18, 54, …, what is the common ratio?",
+        "answer": 3,
+        "tolerance": 0,
+        "explanation": "Each term is 3 times the previous one."
+      },
+      {
+        "id": "math_I1_sequences_series_l1_q3",
+        "type": "numeric",
+        "prompt": "For an arithmetic sequence with a = 3 and d = 4, what is the 10th term?",
+        "answer": 39,
+        "tolerance": 0,
+        "explanation": "a₁₀ = 3 + 9(4) = 39. Note 9 steps, not 10."
+      },
+      {
+        "id": "math_I1_sequences_series_l1_q4",
+        "type": "mcq",
+        "prompt": "A sequence increases by a constant multiplier each step. It is:",
+        "choices": [
+          "geometric",
+          "arithmetic",
+          "linear",
+          "neither"
+        ],
+        "answer": 0,
+        "explanation": "A constant ratio defines a geometric sequence; a constant difference would be arithmetic."
       }
     ],
     "2": [
       {
-        "id": "math_I1_sequences_series_q2",
+        "id": "math_I1_sequences_series_l2_q1",
         "type": "numeric",
-        "prompt": "Sum of the AP 1, 2, 3, …, 10.",
-        "answer": 55,
+        "prompt": "For 3, 7, 11, 15, …, which term equals 99?",
+        "answer": 25,
         "tolerance": 0,
-        "explanation": "10/2 × (1 + 10) = 55."
+        "explanation": "aₙ = 4n − 1 = 99 gives n = 25."
+      },
+      {
+        "id": "math_I1_sequences_series_l2_q2",
+        "type": "numeric",
+        "prompt": "Find the sum 1 + 2 + 3 + … + 100.",
+        "answer": 5050,
+        "tolerance": 0,
+        "explanation": "S = (100/2)(1 + 100) = 50 × 101 = 5050 — Gauss pairing."
+      },
+      {
+        "id": "math_I1_sequences_series_l2_q3",
+        "type": "numeric",
+        "prompt": "Find the infinite sum 1 + 1/2 + 1/4 + 1/8 + …",
+        "answer": 2,
+        "tolerance": 0.001,
+        "explanation": "S∞ = a/(1−r) = 1/(1 − 0.5) = 2, valid because |r| < 1."
+      },
+      {
+        "id": "math_I1_sequences_series_l2_q4",
+        "type": "mcq",
+        "prompt": "For 8% annual growth, what is the common ratio?",
+        "choices": [
+          "1.08",
+          "0.08",
+          "8",
+          "0.92"
+        ],
+        "answer": 0,
+        "explanation": "r is the multiplier: the amount retains 100% and gains 8%, so r = 1.08."
       }
     ],
-    "3": []
+    "3": [
+      {
+        "id": "math_I1_sequences_series_l3_q1",
+        "type": "numeric",
+        "prompt": "₹10 000 is invested at 8% compound interest for 10 years. What is the value, to the nearest rupee?",
+        "answer": 21589,
+        "tolerance": 5,
+        "explanation": "A = 10000 × 1.08¹⁰ ≈ ₹21 589 — well above the ₹18 000 that simple interest would give."
+      },
+      {
+        "id": "math_I1_sequences_series_l3_q2",
+        "type": "numeric",
+        "prompt": "A ball is dropped from 10 m; each bounce reaches 60% of the previous height. What total vertical distance does it travel, in metres?",
+        "answer": 40,
+        "tolerance": 0.1,
+        "explanation": "Initial drop 10 m, plus bounces summing to 6/(1−0.6) = 15 m counted twice (up and down) = 30 m. Total 40 m."
+      },
+      {
+        "id": "math_I1_sequences_series_l3_q3",
+        "type": "mcq",
+        "prompt": "Why does the formula S∞ = a/(1 − r) fail when r = 2?",
+        "choices": [
+          "the terms grow without bound, so the series diverges and has no finite sum",
+          "because a might be negative",
+          "because 1 − r is negative",
+          "it does not fail; the answer is just negative"
+        ],
+        "answer": 0,
+        "explanation": "The formula is only valid for |r| < 1. With r = 2 the terms increase, the partial sums grow without limit, and the algebraic result is meaningless."
+      },
+      {
+        "id": "math_I1_sequences_series_l3_q4",
+        "type": "mcq",
+        "prompt": "A loan quotes 12% per year compounded monthly. What values should you use?",
+        "choices": [
+          "i = 0.01 per month with n = 12 per year",
+          "i = 0.12 with n = 12",
+          "i = 0.12 with n = 1",
+          "i = 0.01 with n = 1"
+        ],
+        "answer": 0,
+        "explanation": "The rate must match the compounding period: 12% ÷ 12 = 1% per month, over 12 months per year."
+      }
+    ]
   }
 }

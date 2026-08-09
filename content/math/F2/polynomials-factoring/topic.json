@@ -6,8 +6,8 @@
   "slug": "polynomials-factoring",
   "core": true,
   "order": 4,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 240,
   "summary": "Adding, multiplying and factoring polynomials, including common factors and simple quadratics.",
   "outcomes": [
     "Add, subtract and multiply polynomials",

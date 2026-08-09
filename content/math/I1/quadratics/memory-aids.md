@@ -1,10 +1,18 @@
 # Memory & Retention Aids — Quadratics
 
-> How to remember this — and keep it.
+> How to remember this — and still have it months later.
 
-- "x = (−b ± √(b²−4ac)) / 2a" — the quadratic formula.
+- "a ≠ 0, or it is not quadratic at all."
 
-- "Discriminant sign = number of real roots."
+- "a positive smiles, a negative frowns."
 
-- Vertex at x = −b/2a.
+- "Never divide by x — you may throw away a root."
+
+- "Half it, square it" for completing the square.
+
+- "b² − 4ac: positive two, zero one, negative none."
+
+- "Roots are where the curve crosses; the vertex is where it turns."
+
+- "Two roots, one answer" — always check the context.
 

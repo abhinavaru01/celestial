@@ -6,8 +6,8 @@
   "slug": "systems-linear-equations",
   "core": true,
   "order": 3,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 210,
   "summary": "Solving two equations in two unknowns by substitution and elimination, and modelling with them.",
   "outcomes": [
     "Solve systems by substitution and elimination",

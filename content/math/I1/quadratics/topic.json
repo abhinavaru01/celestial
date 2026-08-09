@@ -6,8 +6,8 @@
   "slug": "quadratics",
   "core": true,
   "order": 1,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 270,
   "summary": "Quadratic expressions and equations — factoring, the quadratic formula, graphs and modelling.",
   "outcomes": [
     "Solve quadratics by factoring and the formula",

@@ -20,6 +20,14 @@ python3 -m http.server 8000       # from the repo root
 
 The build **fails loudly** if any topic is missing one of its six required files — that is how the "all six signature layers, always" guarantee is enforced mechanically rather than by hope.
 
+It also enforces a **depth bar** (`decisions.md#d-012`): a topic clears it with ≥3500 characters of notes, ≥4 teaching sections, a worked example, a key-formula/facts block, **≥3 quiz questions at each of the three levels**, and ≥4 items in each of mistakes/tricks/memory-aids. Topics marked `deep` or `flagship` fail the build if they slip below it; the rest are reported as a per-subject dashboard so the remaining backlog is always visible.
+
+```bash
+# Deepen topics from the authored deep-content datasets, then rebuild
+node scripts/deepen.mjs            # add --only=math (or a topic id) to scope it
+node scripts/build.mjs             # prints the depth dashboard
+```
+
 ## What's built (see `docs/business/roadmap.md` for full status)
 - **Full curriculum:** all **192 topics** across 6 subjects × 6 tiers (37 Math, 30 Physics, 30 Chemistry, 30 Biology, 28 English, 37 CS), each with all six signature layers. 3 hand-written flagship deep-dives set the depth bar; the rest are structured modules generated from `scripts/curriculum/*.mjs`. 282-edge dependency graph (24 cross-subject).
 - **Platform:** notes, 3-level self-check quizzes with instant feedback, per-topic Mistakes/Tricks/Memory/Board views, dependency-map view, search, teacher coverage matrix. Framework-free, open access.

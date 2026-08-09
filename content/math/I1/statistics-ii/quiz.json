@@ -3,34 +3,155 @@
   "levels": {
     "1": [
       {
-        "id": "math_I1_statistics_ii_q2",
+        "id": "math_I1_statistics_ii_l1_q1",
+        "type": "numeric",
+        "prompt": "What is the midpoint of the class interval 10–20?",
+        "answer": 15,
+        "tolerance": 0,
+        "explanation": "(10 + 20)/2 = 15, the value assumed for every observation in that class."
+      },
+      {
+        "id": "math_I1_statistics_ii_l1_q2",
+        "type": "numeric",
+        "prompt": "A data set has Q₁ = 20 and Q₃ = 32. What is the IQR?",
+        "answer": 12,
+        "tolerance": 0,
+        "explanation": "IQR = Q₃ − Q₁ = 32 − 20 = 12."
+      },
+      {
+        "id": "math_I1_statistics_ii_l1_q3",
         "type": "mcq",
-        "prompt": "Standard deviation is:",
+        "prompt": "Which measure of spread is most resistant to outliers?",
         "choices": [
-          "the square root of variance",
-          "the square of variance",
-          "the mean",
-          "the range"
+          "interquartile range",
+          "range",
+          "standard deviation",
+          "variance"
         ],
         "answer": 0,
-        "explanation": "SD = √variance, restoring the original units."
+        "explanation": "The IQR describes the middle 50% and ignores the tails entirely."
+      },
+      {
+        "id": "math_I1_statistics_ii_l1_q4",
+        "type": "mcq",
+        "prompt": "In a histogram with unequal class widths, the vertical axis should show:",
+        "choices": [
+          "frequency density",
+          "raw frequency",
+          "cumulative frequency",
+          "percentage"
+        ],
+        "answer": 0,
+        "explanation": "Area represents frequency, so the height must be frequency ÷ class width."
       }
     ],
     "2": [
       {
-        "id": "math_I1_statistics_ii_q1",
+        "id": "math_I1_statistics_ii_l2_q1",
         "type": "mcq",
-        "prompt": "Two classes have the same mean score but class A has a larger standard deviation. This means class A's scores are:",
+        "prompt": "Two machines fill bottles to a mean of 500 ml; A has σ = 2 ml, B has σ = 20 ml. Which is better for quality control?",
         "choices": [
-          "more spread out",
-          "higher on average",
-          "lower on average",
-          "identical"
+          "A, because its output is far more consistent",
+          "B, because larger σ means more capacity",
+          "they are equivalent — the means are equal",
+          "cannot be judged without the medians"
         ],
         "answer": 0,
-        "explanation": "Larger SD = more spread, even with the same mean."
+        "explanation": "Equal means, but A varies by a couple of ml and B by tens. Consistency is what quality control measures."
+      },
+      {
+        "id": "math_I1_statistics_ii_l2_q2",
+        "type": "mcq",
+        "prompt": "A data set has min 12, Q₁ 20, median 24, Q₃ 32, max 70. Is 70 an outlier?",
+        "choices": [
+          "yes — it exceeds Q₃ + 1.5×IQR = 50",
+          "no",
+          "only if the mean exceeds 32",
+          "there is not enough information"
+        ],
+        "answer": 0,
+        "explanation": "IQR = 12, so the upper fence is 32 + 18 = 50. Since 70 > 50, it is an outlier."
+      },
+      {
+        "id": "math_I1_statistics_ii_l2_q3",
+        "type": "mcq",
+        "prompt": "A distribution has mean 30 and median 24. What does this suggest?",
+        "choices": [
+          "positive skew — a tail of high values pulling the mean up",
+          "negative skew",
+          "a symmetric distribution",
+          "an arithmetic error"
+        ],
+        "answer": 0,
+        "explanation": "The mean is dragged toward the long tail, so mean > median indicates positive skew."
+      },
+      {
+        "id": "math_I1_statistics_ii_l2_q4",
+        "type": "mcq",
+        "prompt": "Why are deviations squared when computing standard deviation?",
+        "choices": [
+          "so positive and negative deviations do not cancel — their plain sum is always zero",
+          "to make the numbers larger",
+          "because variance must be negative",
+          "to convert to the original units"
+        ],
+        "answer": 0,
+        "explanation": "Σ(x − x̄) = 0 by definition of the mean, so squaring is what makes the measure meaningful. The final square root restores the units."
       }
     ],
-    "3": []
+    "3": [
+      {
+        "id": "math_I1_statistics_ii_l3_q1",
+        "type": "mcq",
+        "prompt": "Ice-cream sales correlate strongly with drowning deaths. What is the best explanation?",
+        "choices": [
+          "a confounding variable — hot weather increases both",
+          "ice cream causes drowning",
+          "drowning causes ice-cream sales",
+          "the correlation must be a calculation error"
+        ],
+        "answer": 0,
+        "explanation": "A third variable drives both. Correlation alone never establishes causation; only a controlled randomised experiment can."
+      },
+      {
+        "id": "math_I1_statistics_ii_l3_q2",
+        "type": "mcq",
+        "prompt": "A survey about school food questions only students queuing at the canteen, with 2000 responses. Is the large sample sufficient?",
+        "choices": [
+          "no — the sample is biased, and size does not fix bias",
+          "yes, 2000 is more than enough",
+          "yes, provided the mean is reported with the IQR",
+          "only if the students were chosen alphabetically"
+        ],
+        "answer": 0,
+        "explanation": "Students who avoid the canteen are systematically excluded. Increasing a biased sample only makes the wrong answer more precise."
+      },
+      {
+        "id": "math_I1_statistics_ii_l3_q3",
+        "type": "mcq",
+        "prompt": "Class A: median 61, IQR 9. Class B: median 68, IQR 24. What is the complete comparison?",
+        "choices": [
+          "B scored higher on average but was much less consistent",
+          "B is better in every respect",
+          "A is better in every respect",
+          "they performed identically"
+        ],
+        "answer": 0,
+        "explanation": "A full comparison addresses centre and spread: B has the higher median, A the much smaller IQR and therefore greater consistency."
+      },
+      {
+        "id": "math_I1_statistics_ii_l3_q4",
+        "type": "mcq",
+        "prompt": "A report says \"cases doubled this year\". What is most important to ask?",
+        "choices": [
+          "the base rate — 2 to 4 is very different from 2000 to 4000",
+          "whether the mean or median was used",
+          "the standard deviation of the cases",
+          "whether a histogram was drawn"
+        ],
+        "answer": 0,
+        "explanation": "A relative change without the absolute numbers cannot be interpreted. Missing base rates are one of the commonest ways statistics mislead."
+      }
+    ]
   }
 }

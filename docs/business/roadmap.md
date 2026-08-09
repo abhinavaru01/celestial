@@ -50,6 +50,13 @@ The final chosen phase order (recorded per PRD §7). Rationale for delivering a 
 - ✅ Research notes — `docs/business/research-notes.md`
 - ⬜ Pricing model, go-to-market plan, outcome-measurement design, pilot with real students
 
+## Phase 3.5 — Depth pass (current) 🟡
+The six-layer contract guaranteed each layer *existed*; it did not guarantee depth. See `decisions.md#d-012`.
+- ✅ Deep-content pipeline — `scripts/curriculum/deep/<subject>/<tier>.mjs` + `scripts/deepen.mjs`
+- ✅ Depth bar enforced by `scripts/build.mjs` (notes length, sections, worked examples, formula block, **≥3 quiz questions at every level**, ≥4 items per layer), with a per-subject dashboard on every build
+- 🟡 Re-author all 192 topics to the bar — **Math F1/F2/I1 done; 170 remaining**
+- ⬜ Switch `build.mjs --strict` on permanently once the backlog is empty
+
 ## The scaling loop (how "everything" gets built)
 Each new topic is the *same repeatable unit of work*: create the six-file directory, declare prerequisites, run `build.mjs` (which enforces all six layers, checks the graph, updates coverage). The platform renders it with zero new code. Curriculum breadth therefore scales as content authoring, not engineering — which is the whole point of the content-as-data model.
 

@@ -1,30 +1,147 @@
 {
   "topicId": "math.I1.geometry-circles-proof",
   "levels": {
-    "1": [],
-    "2": [
+    "1": [
       {
-        "id": "math_I1_geometry_circles_proof_q1",
+        "id": "math_I1_geometry_circles_proof_l1_q1",
         "type": "numeric",
-        "prompt": "The angle at the centre on an arc is 80°. The angle at the circumference on the same arc is?",
+        "prompt": "The angle at the centre subtended by an arc is 80°. What is the angle at the circumference on the same arc, in degrees?",
         "answer": 40,
         "tolerance": 0,
-        "explanation": "Circumference angle is half the centre angle: 40°."
+        "explanation": "The angle at the circumference is half the angle at the centre."
       },
       {
-        "id": "math_I1_geometry_circles_proof_q2",
+        "id": "math_I1_geometry_circles_proof_l1_q2",
+        "type": "numeric",
+        "prompt": "What is the angle in a semicircle, in degrees?",
+        "answer": 90,
+        "tolerance": 0,
+        "explanation": "The diameter subtends 180° at the centre, so the circumference angle is half: 90°."
+      },
+      {
+        "id": "math_I1_geometry_circles_proof_l1_q3",
         "type": "mcq",
-        "prompt": "The angle in a semicircle is always:",
+        "prompt": "A tangent meets the radius at the point of contact at what angle?",
         "choices": [
           "90°",
-          "60°",
+          "45°",
           "180°",
-          "variable"
+          "it varies"
         ],
         "answer": 0,
-        "explanation": "A well-known circle theorem: it is a right angle."
+        "explanation": "The tangent is always perpendicular to the radius at the point of contact."
+      },
+      {
+        "id": "math_I1_geometry_circles_proof_l1_q4",
+        "type": "mcq",
+        "prompt": "Which region is bounded by two radii and an arc?",
+        "choices": [
+          "a sector",
+          "a segment",
+          "a chord",
+          "a tangent"
+        ],
+        "answer": 0,
+        "explanation": "A sector is the \"pizza slice\"; a segment is cut off by a chord."
       }
     ],
-    "3": []
+    "2": [
+      {
+        "id": "math_I1_geometry_circles_proof_l2_q1",
+        "type": "numeric",
+        "prompt": "ABCD is a cyclic quadrilateral with angle ABC = 85°. Find angle ADC, in degrees.",
+        "answer": 95,
+        "tolerance": 0,
+        "explanation": "Opposite angles of a cyclic quadrilateral sum to 180°, so 180 − 85 = 95°."
+      },
+      {
+        "id": "math_I1_geometry_circles_proof_l2_q2",
+        "type": "mcq",
+        "prompt": "Two angles at the circumference are subtended by the same arc. They are:",
+        "choices": [
+          "equal",
+          "supplementary",
+          "complementary",
+          "unrelated"
+        ],
+        "answer": 0,
+        "explanation": "Angles in the same segment are equal — each is half the same central angle."
+      },
+      {
+        "id": "math_I1_geometry_circles_proof_l2_q3",
+        "type": "mcq",
+        "prompt": "Why does \"I measured five triangles and each gave 180°\" fail as a proof?",
+        "choices": [
+          "it is evidence about those five only; a proof must cover every case",
+          "measurement is always inaccurate to 1°",
+          "five is too small a sample",
+          "it is a valid proof"
+        ],
+        "answer": 0,
+        "explanation": "A general claim needs deduction. Measurement cannot rule out an unmeasured counterexample, and diagrams are not to scale."
+      },
+      {
+        "id": "math_I1_geometry_circles_proof_l2_q4",
+        "type": "numeric",
+        "prompt": "Two tangents are drawn from an external point to a circle. If one has length 7 cm, how long is the other, in cm?",
+        "answer": 7,
+        "tolerance": 0,
+        "explanation": "Tangents from an external point are equal in length."
+      }
+    ],
+    "3": [
+      {
+        "id": "math_I1_geometry_circles_proof_l3_q1",
+        "type": "mcq",
+        "prompt": "Which statement disproves \"all prime numbers are odd\"?",
+        "choices": [
+          "2 is prime and even",
+          "9 is odd but not prime",
+          "4 is even and not prime",
+          "no single statement can disprove it"
+        ],
+        "answer": 0,
+        "explanation": "A single counterexample destroys a universal claim. 9 being non-prime is irrelevant — it does not contradict the statement."
+      },
+      {
+        "id": "math_I1_geometry_circles_proof_l3_q2",
+        "type": "mcq",
+        "prompt": "The statement \"if a shape is a square then it is a rectangle\" is true. What about its converse?",
+        "choices": [
+          "false — a rectangle need not be a square",
+          "also true, since converses always hold",
+          "true only for shapes with equal diagonals",
+          "meaningless"
+        ],
+        "answer": 0,
+        "explanation": "A converse is a separate claim requiring its own proof. Here it fails: a 2×5 rectangle is not a square."
+      },
+      {
+        "id": "math_I1_geometry_circles_proof_l3_q3",
+        "type": "mcq",
+        "prompt": "How is \"the angle in a semicircle is 90°\" derived from the central-angle theorem?",
+        "choices": [
+          "a diameter subtends 180° at the centre, and the circumference angle is half of that",
+          "by measuring many semicircles",
+          "from the cyclic-quadrilateral theorem",
+          "it is an independent axiom"
+        ],
+        "answer": 0,
+        "explanation": "It is a one-line corollary: half of 180° is 90°. Deriving results rather than memorising them is the point of the topic."
+      },
+      {
+        "id": "math_I1_geometry_circles_proof_l3_q4",
+        "type": "mcq",
+        "prompt": "In a proof, a figure shows a line that appears to pass through the centre but is not marked as doing so. May you use the central-angle theorem?",
+        "choices": [
+          "no — it must be given, marked, or previously proved",
+          "yes, if it clearly looks like it does",
+          "yes, provided you say \"by inspection\"",
+          "only if the circle is drawn to scale"
+        ],
+        "answer": 0,
+        "explanation": "Diagrams are not to scale and appearances are not reasons. Using an unjustified assumption invalidates the whole chain."
+      }
+    ]
   }
 }

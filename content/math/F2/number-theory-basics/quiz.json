@@ -3,24 +3,140 @@
   "levels": {
     "1": [
       {
-        "id": "math_F2_number_theory_basics_q1",
+        "id": "math_F2_number_theory_basics_l1_q1",
+        "type": "mcq",
+        "prompt": "Which of these is a prime number?",
+        "choices": [
+          "29",
+          "1",
+          "21",
+          "27"
+        ],
+        "answer": 0,
+        "explanation": "29 has only the factors 1 and 29. 1 is not prime, 21 = 3×7 and 27 = 3³."
+      },
+      {
+        "id": "math_F2_number_theory_basics_l1_q2",
         "type": "numeric",
-        "prompt": "Find the HCF of 12 and 18.",
+        "prompt": "What is the HCF of 12 and 18?",
         "answer": 6,
         "tolerance": 0,
-        "explanation": "Common factors: 1,2,3,6 — the highest is 6."
+        "explanation": "12 = 2²×3 and 18 = 2×3²; shared primes at lowest powers give 2×3 = 6."
+      },
+      {
+        "id": "math_F2_number_theory_basics_l1_q3",
+        "type": "numeric",
+        "prompt": "What is the LCM of 12 and 18?",
+        "answer": 36,
+        "tolerance": 0,
+        "explanation": "All primes at highest powers: 2²×3² = 36."
+      },
+      {
+        "id": "math_F2_number_theory_basics_l1_q4",
+        "type": "mcq",
+        "prompt": "Is 8532 divisible by 9?",
+        "choices": [
+          "yes — its digit sum is 18, which is divisible by 9",
+          "no",
+          "only if it is also even",
+          "cannot be determined without dividing"
+        ],
+        "answer": 0,
+        "explanation": "8+5+3+2 = 18, and 1+8 = 9, so it is divisible by 9."
       }
     ],
     "2": [
       {
-        "id": "math_F2_number_theory_basics_q2",
+        "id": "math_F2_number_theory_basics_l2_q1",
+        "type": "mcq",
+        "prompt": "What is the prime factorisation of 360?",
+        "choices": [
+          "2³ × 3² × 5",
+          "2² × 3² × 5",
+          "2³ × 3 × 5²",
+          "2⁴ × 3 × 5"
+        ],
+        "answer": 0,
+        "explanation": "360 ÷ 2 = 180 ÷ 2 = 90 ÷ 2 = 45; 45 ÷ 3 = 15 ÷ 3 = 5. So 2³ × 3² × 5."
+      },
+      {
+        "id": "math_F2_number_theory_basics_l2_q2",
         "type": "numeric",
-        "prompt": "Find the LCM of 4 and 6.",
-        "answer": 12,
+        "prompt": "Two buses leave together, returning every 12 and 18 minutes. After how many minutes do they next leave together?",
+        "answer": 36,
         "tolerance": 0,
-        "explanation": "Smallest number both divide into is 12."
+        "explanation": "Events coinciding means LCM(12, 18) = 36 minutes."
+      },
+      {
+        "id": "math_F2_number_theory_basics_l2_q3",
+        "type": "numeric",
+        "prompt": "A gardener has 12 roses and 18 tulips and makes identical bunches using all flowers. What is the largest number of bunches?",
+        "answer": 6,
+        "tolerance": 0,
+        "explanation": "Identical groups from both totals means HCF(12, 18) = 6."
+      },
+      {
+        "id": "math_F2_number_theory_basics_l2_q4",
+        "type": "mcq",
+        "prompt": "To test whether 97 is prime, which primes must you trial-divide by?",
+        "choices": [
+          "2, 3, 5, 7",
+          "all primes below 97",
+          "2 and 3 only",
+          "2, 3, 5, 7, 11, 13"
+        ],
+        "answer": 0,
+        "explanation": "√97 ≈ 9.8, so testing primes up to 9 suffices. None divide 97, so it is prime."
       }
     ],
-    "3": []
+    "3": [
+      {
+        "id": "math_F2_number_theory_basics_l3_q1",
+        "type": "numeric",
+        "prompt": "Two numbers have product 216 and HCF 6. What is their LCM?",
+        "answer": 36,
+        "tolerance": 0,
+        "explanation": "HCF × LCM = product, so LCM = 216 ÷ 6 = 36."
+      },
+      {
+        "id": "math_F2_number_theory_basics_l3_q2",
+        "type": "mcq",
+        "prompt": "Why is 1 excluded from the primes?",
+        "choices": [
+          "including it would destroy the uniqueness of prime factorisation",
+          "because it is too small",
+          "because it is odd",
+          "it is actually prime"
+        ],
+        "answer": 0,
+        "explanation": "With 1 admitted, 6 could be written 2×3, 1×2×3, 1×1×2×3 and so on — factorisation would no longer be unique."
+      },
+      {
+        "id": "math_F2_number_theory_basics_l3_q3",
+        "type": "mcq",
+        "prompt": "A number passes the divisibility tests for 2 and for 4. Must it be divisible by 8?",
+        "choices": [
+          "no — 12 passes both and is not divisible by 8",
+          "yes, always",
+          "only if it is also divisible by 3",
+          "only for numbers above 100"
+        ],
+        "answer": 0,
+        "explanation": "The combined test needs coprime factors. 2 and 4 share a factor, so the argument fails; 12 is the counterexample."
+      },
+      {
+        "id": "math_F2_number_theory_basics_l3_q4",
+        "type": "mcq",
+        "prompt": "Which operation on fractions is really an HCF calculation?",
+        "choices": [
+          "simplifying to lowest terms",
+          "adding two fractions",
+          "comparing two fractions",
+          "multiplying two fractions"
+        ],
+        "answer": 0,
+        "explanation": "Simplifying divides numerator and denominator by their HCF. Adding uses the LCM as the common denominator."
+      }
+    ]
   }
 }

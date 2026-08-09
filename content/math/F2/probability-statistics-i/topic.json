@@ -6,8 +6,8 @@
   "slug": "probability-statistics-i",
   "core": true,
   "order": 6,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 210,
   "summary": "Probability as a proportion of outcomes, and measures of centre and spread.",
   "outcomes": [
     "Compute simple probabilities",
