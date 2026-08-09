@@ -1,35 +1,156 @@
 {
   "topicId": "math.I2.trigonometry-ii",
   "levels": {
-    "1": [],
-    "2": [
+    "1": [
       {
-        "id": "math_I2_trigonometry_ii_q1",
+        "id": "math_I2_trigonometry_ii_l1_q1",
+        "type": "numeric",
+        "prompt": "What is sin 150°? Give your answer as a decimal.",
+        "answer": 0.5,
+        "tolerance": 0.001,
+        "explanation": "The related acute angle is 30°, and sine is positive in the second quadrant, so sin 150° = sin 30° = 0.5."
+      },
+      {
+        "id": "math_I2_trigonometry_ii_l1_q2",
         "type": "mcq",
-        "prompt": "Simplify sin²θ + cos²θ.",
+        "prompt": "In which quadrant are all three trigonometric functions positive?",
         "choices": [
-          "1",
-          "0",
-          "2",
-          "tan θ"
+          "the first",
+          "the second",
+          "the third",
+          "the fourth"
         ],
         "answer": 0,
-        "explanation": "The fundamental Pythagorean identity equals 1."
+        "explanation": "CAST: \"A\" for All in the first quadrant, where both coordinates are positive."
+      },
+      {
+        "id": "math_I2_trigonometry_ii_l1_q3",
+        "type": "mcq",
+        "prompt": "What is the period of sin θ?",
+        "choices": [
+          "360°",
+          "180°",
+          "90°",
+          "720°"
+        ],
+        "answer": 0,
+        "explanation": "The point returns to its starting position after one full turn."
+      },
+      {
+        "id": "math_I2_trigonometry_ii_l1_q4",
+        "type": "mcq",
+        "prompt": "Which identity is Pythagoras on the unit circle?",
+        "choices": [
+          "sin²θ + cos²θ = 1",
+          "tan θ = sin θ/cos θ",
+          "sin 2θ = 2 sin θ cos θ",
+          "a² = b² + c² − 2bc cos A"
+        ],
+        "answer": 0,
+        "explanation": "The point (cos θ, sin θ) lies at distance 1 from the origin."
+      }
+    ],
+    "2": [
+      {
+        "id": "math_I2_trigonometry_ii_l2_q1",
+        "type": "mcq",
+        "prompt": "Solve sin θ = 0.5 for 0° ≤ θ ≤ 360°.",
+        "choices": [
+          "30° and 150°",
+          "30° only",
+          "30° and 330°",
+          "150° only"
+        ],
+        "answer": 0,
+        "explanation": "Principal value 30°; sine is also positive in quadrant II, giving 180° − 30° = 150°."
+      },
+      {
+        "id": "math_I2_trigonometry_ii_l2_q2",
+        "type": "mcq",
+        "prompt": "A triangle has b = 7, c = 9 and included angle A = 60°. Which rule finds a?",
+        "choices": [
+          "the cosine rule",
+          "the sine rule",
+          "Pythagoras",
+          "the area formula"
+        ],
+        "answer": 0,
+        "explanation": "There is no matching side–angle pair, so the sine rule cannot start. SAS calls for the cosine rule."
+      },
+      {
+        "id": "math_I2_trigonometry_ii_l2_q3",
+        "type": "numeric",
+        "prompt": "For that triangle, find a to 2 decimal places.",
+        "answer": 8.19,
+        "tolerance": 0.05,
+        "explanation": "a² = 49 + 81 − 2(7)(9)(0.5) = 67, so a = √67 ≈ 8.19."
+      },
+      {
+        "id": "math_I2_trigonometry_ii_l2_q4",
+        "type": "mcq",
+        "prompt": "Why is tan θ undefined at 90°?",
+        "choices": [
+          "tan = sin/cos and cos 90° = 0",
+          "because sin 90° = 1",
+          "because 90° is not in the first quadrant",
+          "it is defined and equals 1"
+        ],
+        "answer": 0,
+        "explanation": "Division by zero is undefined, which produces tangent's vertical asymptotes."
       }
     ],
     "3": [
       {
-        "id": "math_I2_trigonometry_ii_q2",
+        "id": "math_I2_trigonometry_ii_l3_q1",
         "type": "mcq",
-        "prompt": "To find a side opposite a known angle given two sides and the included angle, use:",
+        "prompt": "Why does the cosine rule reduce to Pythagoras when A = 90°?",
         "choices": [
-          "the cosine rule",
-          "the sine rule",
-          "Pythagoras only",
-          "SOH-CAH-TOA"
+          "cos 90° = 0, so the correction term −2bc cos A vanishes",
+          "because b = c at 90°",
+          "because the sine rule applies instead",
+          "it does not reduce to Pythagoras"
         ],
         "answer": 0,
-        "explanation": "Two sides + included angle → cosine rule."
+        "explanation": "The term −2bc cos A measures the departure from right-angled; at 90° it is zero and a² = b² + c²."
+      },
+      {
+        "id": "math_I2_trigonometry_ii_l3_q2",
+        "type": "mcq",
+        "prompt": "Solving sin 2θ = 0.5 for 0° ≤ θ ≤ 360°, what range should you use for 2θ?",
+        "choices": [
+          "0° to 720°",
+          "0° to 360°",
+          "0° to 180°",
+          "0° to 90°"
+        ],
+        "answer": 0,
+        "explanation": "Doubling the variable doubles the range. Solving over 0°–360° and halving would discard half the solutions."
+      },
+      {
+        "id": "math_I2_trigonometry_ii_l3_q3",
+        "type": "mcq",
+        "prompt": "Why can SSA data produce two different triangles?",
+        "choices": [
+          "sin θ = sin(180° − θ), so both an acute and an obtuse angle fit the data",
+          "because the sine rule is only approximate",
+          "because two sides are always equal",
+          "it cannot — SSA is always unique"
+        ],
+        "answer": 0,
+        "explanation": "The sine rule cannot distinguish the two, so both must be checked. This is the same ambiguity that makes SSA invalid for congruence."
+      },
+      {
+        "id": "math_I2_trigonometry_ii_l3_q4",
+        "type": "mcq",
+        "prompt": "What is wrong with proving an identity by doing the same operation to both sides?",
+        "choices": [
+          "it assumes the identity is true, which is what you are trying to establish",
+          "nothing — it is the standard method",
+          "it only works for acute angles",
+          "it changes the period of the functions"
+        ],
+        "answer": 0,
+        "explanation": "A proof must transform one side into the other. Operating on both sides presupposes the equality being proved."
       }
     ]
   }

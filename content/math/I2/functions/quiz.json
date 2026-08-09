@@ -3,24 +3,150 @@
   "levels": {
     "1": [
       {
-        "id": "math_I2_functions_q1",
+        "id": "math_I2_functions_l1_q1",
         "type": "numeric",
-        "prompt": "If f(x) = 2x + 1, find f(3).",
+        "prompt": "If f(x) = 2x + 1, what is f(3)?",
         "answer": 7,
         "tolerance": 0,
-        "explanation": "f(3) = 2(3) + 1 = 7."
+        "explanation": "2(3) + 1 = 7."
+      },
+      {
+        "id": "math_I2_functions_l1_q2",
+        "type": "mcq",
+        "prompt": "Which graph fails the vertical line test?",
+        "choices": [
+          "a circle",
+          "a parabola",
+          "a straight line",
+          "y = x³"
+        ],
+        "answer": 0,
+        "explanation": "A vertical line cuts a circle twice, so one input would have two outputs."
+      },
+      {
+        "id": "math_I2_functions_l1_q3",
+        "type": "mcq",
+        "prompt": "What is the domain of f(x) = 1/(x − 2)?",
+        "choices": [
+          "all real x except 2",
+          "all real x",
+          "x > 2 only",
+          "x ≥ 0"
+        ],
+        "answer": 0,
+        "explanation": "The denominator is zero at x = 2, so that input must be excluded."
+      },
+      {
+        "id": "math_I2_functions_l1_q4",
+        "type": "mcq",
+        "prompt": "The graph of f⁻¹ is the graph of f reflected in:",
+        "choices": [
+          "y = x",
+          "the x-axis",
+          "the y-axis",
+          "the origin"
+        ],
+        "answer": 0,
+        "explanation": "Inverting swaps input and output, which reflects the graph in the line y = x."
       }
     ],
     "2": [
       {
-        "id": "math_I2_functions_q2",
+        "id": "math_I2_functions_l2_q1",
         "type": "numeric",
-        "prompt": "If f(x)=x+2 and g(x)=3x, find f(g(2)).",
-        "answer": 8,
+        "prompt": "For f(x) = 2x + 1 and g(x) = x², what is f(g(3))?",
+        "answer": 19,
         "tolerance": 0,
-        "explanation": "g(2)=6, then f(6)=8."
+        "explanation": "Inner first: g(3) = 9, then f(9) = 19."
+      },
+      {
+        "id": "math_I2_functions_l2_q2",
+        "type": "numeric",
+        "prompt": "For the same functions, what is g(f(3))?",
+        "answer": 49,
+        "tolerance": 0,
+        "explanation": "f(3) = 7, then g(7) = 49 — different from f(g(3)), since composition is not commutative."
+      },
+      {
+        "id": "math_I2_functions_l2_q3",
+        "type": "mcq",
+        "prompt": "What is the inverse of f(x) = 2x + 1?",
+        "choices": [
+          "(x − 1)/2",
+          "1/(2x + 1)",
+          "2x − 1",
+          "(x + 1)/2"
+        ],
+        "answer": 0,
+        "explanation": "Swap and solve: x = 2y + 1 gives y = (x−1)/2. Check: f⁻¹(7) = 3 ✓."
+      },
+      {
+        "id": "math_I2_functions_l2_q4",
+        "type": "mcq",
+        "prompt": "How does the graph of y = f(x + 3) relate to y = f(x)?",
+        "choices": [
+          "shifted 3 units left",
+          "shifted 3 units right",
+          "shifted 3 units up",
+          "stretched by 3"
+        ],
+        "answer": 0,
+        "explanation": "Inside the bracket the effect is horizontal and reversed — the graph reaches each output 3 units sooner."
       }
     ],
-    "3": []
+    "3": [
+      {
+        "id": "math_I2_functions_l3_q1",
+        "type": "mcq",
+        "prompt": "Why does f(x) = x² have no inverse over all real numbers?",
+        "choices": [
+          "it is not one-to-one — f(3) = f(−3) = 9, so the inverse could not choose",
+          "because it is a curve",
+          "because its range is all reals",
+          "it does have an inverse, namely √x"
+        ],
+        "answer": 0,
+        "explanation": "An inverse needs each output to come from exactly one input. Restricting to x ≥ 0 fixes this, which is why √ returns only the positive root."
+      },
+      {
+        "id": "math_I2_functions_l3_q2",
+        "type": "mcq",
+        "prompt": "Describe y = −2(x + 1)² + 5 as transformations of y = x².",
+        "choices": [
+          "left 1, stretch ×2, reflect in the x-axis, up 5",
+          "right 1, stretch ×2, reflect in the y-axis, up 5",
+          "left 1, squash ×2, up 5",
+          "right 1, reflect in the x-axis, down 5"
+        ],
+        "answer": 0,
+        "explanation": "Inside the bracket: +1 shifts left. Outside: ×2 stretches, the minus reflects vertically, +5 shifts up. Vertex (−1, 5)."
+      },
+      {
+        "id": "math_I2_functions_l3_q3",
+        "type": "mcq",
+        "prompt": "What is the domain of f(g(x)) where f(x) = √x and g(x) = x − 5?",
+        "choices": [
+          "x ≥ 5",
+          "all real x",
+          "x ≥ 0",
+          "x > 5"
+        ],
+        "answer": 0,
+        "explanation": "The composition is √(x−5), which needs x − 5 ≥ 0. The inner function alone would accept any x."
+      },
+      {
+        "id": "math_I2_functions_l3_q4",
+        "type": "mcq",
+        "prompt": "A function sends both 2 and 5 to the output 10. Is it still a function?",
+        "choices": [
+          "yes — only one output per input is required, not one input per output",
+          "no, outputs must be unique",
+          "only if the domain is restricted",
+          "only if it is linear"
+        ],
+        "answer": 0,
+        "explanation": "The rule is one-directional. Such a function is simply not one-to-one, which means it has no inverse unless the domain is restricted."
+      }
+    ]
   }
 }

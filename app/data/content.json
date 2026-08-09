@@ -14699,14 +14699,14 @@
     "title": "Combinatorics & Probability II",
     "slug": "combinatorics-probability-ii",
     "core": true,
-    "depth": "module",
+    "depth": "deep",
     "summary": "Counting principles, permutations and combinations, and conditional probability.",
     "outcomes": [
       "Count with permutations and combinations",
       "Use the multiplication principle",
       "Compute conditional probability"
     ],
-    "estMinutes": 180,
+    "estMinutes": 240,
     "prereqs": [
       "math.I2.exponentials-logarithms",
       "math.F2.probability-statistics-i"
@@ -14733,34 +14733,140 @@
       "combination",
       "conditional probability"
     ],
-    "notes": "# Combinatorics & Probability II\r\n\r\n> [!intro] Counting principles, permutations and combinations, and conditional probability.\r\n\r\n## Counting systematically\r\n\r\nThe multiplication principle counts multi-step choices; permutations count ordered arrangements, combinations count unordered selections. Choosing the right one is the whole skill.\r\n\r\n## Conditional probability\r\n\r\nP(A|B) is the probability of A given B has happened. It corrects naive counting when events depend on one another — the heart of genetics and risk.\r\n\r\n```formula Key formulas\r\nnPr = n!/(n−r)!  (order matters)\r\nnCr = n!/(r!(n−r)!)  (order does not)\r\nP(A|B) = P(A and B)/P(B)\r\n```\r\n\r\n> [!example] **Worked example**\r\n> **Problem.** How many ways to choose a committee of 3 from 6 people?\r\n> >\r\n> > **Solution.** 6C3 = 6!/(3!·3!) = 720/(6·6) = 20 ways.\r\n\r\n## What you should be able to do\r\n\r\n- Count with permutations and combinations\r\n- Use the multiplication principle\r\n- Compute conditional probability\r\n\r\n---\r\n\r\n_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 \"deep dive\" topics show the target depth; modules are deepened over time._\r\n",
-    "mistakes": "# Common Mistakes — Combinatorics & Probability II\r\n\r\n> Every learner hits these — spot them before they cost you.\r\n\r\n- Using permutations when order does not matter (should be combinations).\r\n\r\n- Double-counting arrangements.\r\n\r\n- Assuming events are independent when they are not.\r\n\r\n",
-    "tricks": "# Tricks & Problem-Solving Techniques — Combinatorics & Probability II\r\n\r\n> Faster, cleaner ways to handle this topic.\r\n\r\n- Order matters → permutation (nPr); order does not → combination (nCr).\r\n\r\n- Break a count into independent steps and multiply.\r\n\r\n- For conditional probability, restrict to the \"given\" outcomes first.\r\n\r\n",
-    "memoryAids": "# Memory & Retention Aids — Combinatorics & Probability II\r\n\r\n> How to remember this — and keep it.\r\n\r\n- \"Order matters → permute; order not → combine.\"\r\n\r\n- \"Multiply independent choices.\"\r\n\r\n- P(A|B) restricts the sample space to B.\r\n\r\n",
+    "notes": "# Combinatorics & Probability II\n\n> [!intro] **Counting sounds trivial until the things being counted are arrangements.** How many ways can 5 people sit in a row? How many 4-digit PINs have no repeated digit? Combinatorics answers these systematically, and it matters because probability is counting: once you can count the favourable outcomes and the total, every probability question becomes arithmetic.\n\n## 1. The multiplication principle\n\nEverything in this topic grows from one rule: **if a task has independent stages, multiply the number of choices at each stage.**\n\nA meal with 3 starters, 4 mains and 2 desserts allows $3 \\times 4 \\times 2 = 24$ combinations. A 4-digit PIN with digits allowed to repeat allows $10^4 = 10\\,000$.\n\nThe word **independent** is doing the work. If the choices interact, the counts change at each stage:\n\n- 4-digit PIN, digits **may repeat**: $10\\times10\\times10\\times10 = 10\\,000$.\n- 4-digit PIN, digits **may not repeat**: $10\\times9\\times8\\times7 = 5040$ — each choice removes one option.\n\nThe complementary rule is just as useful: **if the stages are alternatives rather than sequential steps, add.** \"Choose a starter *or* a dessert\" gives $3 + 2 = 5$. The test is whether the word joining the stages is *and* (multiply) or *or* (add).\n\nFactorial notation compresses the descending product: $n! = n(n-1)(n-2)\\cdots1$, so $5! = 120$. By convention $0! = 1$ — there is exactly one way to arrange nothing, and the definition keeps the formulas below consistent.\n\n```formula Key formulas\nMultiplication principle: independent stages multiply\nAlternatives add (\"or\"); sequential steps multiply (\"and\")\nn! = n(n−1)…1;  0! = 1\nWith repetition allowed: nʳ arrangements\n```\n\n## 2. Permutations and combinations: does order matter?\n\nThis is the single decision the whole topic turns on.\n\n**Permutation — order matters.** Arrangements of $r$ objects chosen from $n$:\n\n$$^nP_r = \\frac{n!}{(n-r)!}$$\n\nChoosing a president and a vice-president from 10 people: $^{10}P_2 = 90$, because (Asha, Ben) differs from (Ben, Asha).\n\n**Combination — order does not matter.** Selections of $r$ from $n$:\n\n$$^nC_r = \\frac{n!}{r!\\,(n-r)!}$$\n\nChoosing a 2-person committee from 10: $^{10}C_2 = 45$ — exactly half of 90, because each pair was counted twice. In general $^nC_r = \\dfrac{^nP_r}{r!}$: divide out the $r!$ orderings you do not want to distinguish.\n\n**Deciding which to use.** Ask: *would swapping two of the chosen items give a genuinely different outcome?*\n\n| Situation | Type | Why |\n|---|---|---|\n| Race positions | permutation | 1st and 2nd are different |\n| Committee members | combination | no roles, so order is irrelevant |\n| PIN or password | permutation | 1234 ≠ 4321 |\n| Lottery numbers | combination | drawn order is irrelevant |\n| Seating in a row | permutation | positions differ |\n\nA useful symmetry: $^nC_r = {}^nC_{n-r}$. Choosing 8 from 10 to include is the same as choosing 2 to leave out — and computing $^{10}C_2$ is much less work.\n\n> [!example] **The same numbers, two answers**\n>\n> **Problem.** From 10 people, how many ways to pick (a) a president and vice-president, (b) a committee of 2?\n>\n> **Solution.** (a) Order matters, so $^{10}P_2 = 10\\times9 = 90$. (b) Order does not, so $^{10}C_2 = \\dfrac{90}{2!} = 45$.\n>\n> *Same selection, halved by the 2! orderings that the committee does not distinguish.*\n\n## 3. Conditional probability\n\n$P(A \\mid B)$ is the probability of $A$ **given that $B$ has happened**. Knowing $B$ occurred shrinks the sample space to $B$ alone:\n\n$$P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)}$$\n\nRearranged, this gives the general multiplication rule:\n\n$$P(A \\cap B) = P(B)\\,P(A\\mid B)$$\n\nwhich reduces to the familiar $P(A)P(B)$ **only when the events are independent**, i.e. when $P(A\\mid B) = P(A)$ — knowing $B$ tells you nothing about $A$.\n\n*Example.* Two cards without replacement. $P(\\text{both kings}) = \\tfrac{4}{52}\\times\\tfrac{3}{51}$, because after one king is removed the conditional probability of a second changes.\n\n**Tree diagrams** are the reliable tool: branches from each node carry conditional probabilities, each set summing to 1; multiply *along* a path, add *across* paths that satisfy the condition.\n\nThe classic trap is **confusing $P(A\\mid B)$ with $P(B\\mid A)$.** They are usually very different. $P(\\text{four legs} \\mid \\text{dog})$ is about 1; $P(\\text{dog} \\mid \\text{four legs})$ is small. In medical testing this is the base-rate fallacy: a test that is 99% accurate for a disease affecting 1 in 10 000 still produces mostly false positives, because the healthy group is so much larger. Reversing a conditional probability without recomputing is one of the most consequential errors in applied statistics.\n\n```formula Key formulas\nP(A|B) = P(A ∩ B)/P(B)\nP(A ∩ B) = P(B)·P(A|B)  — general multiplication rule\nIndependent ⇔ P(A|B) = P(A) ⇔ P(A ∩ B) = P(A)P(B)\nTree diagrams: multiply along branches, add across paths\nP(A|B) ≠ P(B|A)\n```\n\n> [!example] **Conditional, from a tree**\n>\n> **Problem.** A bag has 3 red and 2 blue balls. Two are drawn without replacement. Find P(both red).\n>\n> **Solution.** First draw: $P(\\text{red}) = \\tfrac35$. Given a red was taken, 2 reds remain of 4 balls, so $P(\\text{red}\\mid\\text{red}) = \\tfrac24$. Multiplying along the branch: $\\tfrac35 \\times \\tfrac24 = \\tfrac{6}{20} = \\tfrac{3}{10}$.\n>\n> *Without replacement, the second probability is conditional — both the numerator and the denominator change.*\n\n## 4. Putting counting and probability together\n\nWith equally likely outcomes, probability is a ratio of two counts:\n\n$$P = \\frac{\\text{favourable arrangements}}{\\text{total arrangements}}$$\n\nso combinatorics supplies both numbers.\n\n*Lottery.* Choosing 6 numbers from 49, order irrelevant: $^{49}C_6 = 13\\,983\\,816$. One ticket therefore wins with probability $\\tfrac{1}{13\\,983\\,816}$ — about 1 in 14 million, which is the honest way to read \"you could be next\".\n\n*Committee with a constraint.* From 5 men and 4 women, how many 3-person committees contain exactly 2 women? Choose the women, then the man: $^4C_2 \\times {}^5C_1 = 6 \\times 5 = 30$. **Choose from each group separately, then multiply** — the multiplication principle again.\n\n*Birthday-style problems* show the power of the complement. The probability that 3 people all have different birthdays is $\\tfrac{365}{365}\\times\\tfrac{364}{365}\\times\\tfrac{363}{365}$, so the probability that at least two share is 1 minus that. This is why the answer for 23 people exceeds a half — a result that feels wrong until you notice you are counting *pairs*, of which there are 253.\n\nThe habit to build: **decide order-matters-or-not first, count the total, count the favourable, then divide** — and sanity-check that the result lies between 0 and 1.\n\n```formula Key formulas\nMultiplication principle for independent stages; add for alternatives\nⁿPᵣ = n!/(n−r)!  (order matters)\nⁿCᵣ = n!/(r!(n−r)!)  (order does not) = ⁿPᵣ/r!\nⁿCᵣ = ⁿC₍ₙ₋ᵣ₎\nP(A|B) = P(A ∩ B)/P(B);  P(A ∩ B) = P(B)P(A|B)\nP = favourable count ÷ total count\n```\n\n## What you should be able to do\n\n- Count with permutations and combinations\n- Use the multiplication principle\n- Compute conditional probability\n\n## Summary — the mental toolkit\n\n1. Everything follows from the multiplication principle: independent stages multiply, alternatives add.\n2. Repetition allowed gives nʳ; repetition forbidden gives a descending product.\n3. Permutations count arrangements (order matters); combinations count selections (it does not).\n4. ⁿCᵣ = ⁿPᵣ/r!, because each selection was counted r! times.\n5. Decide \"would swapping two chosen items change the outcome?\" before choosing a formula.\n6. Conditional probability shrinks the sample space; without replacement makes events dependent.\n7. P(A|B) and P(B|A) are different — reversing them is the base-rate fallacy.\n\n---\n\n_A deep-dive topic in The Ultimate Learner — every one of the six learning layers, at exam depth._\n",
+    "mistakes": "# Common Mistakes — Combinatorics & Probability II\n\n> Every learner hits these. Read the *why* — that is what stops the mistake coming back.\n\n- **Using a permutation where order is irrelevant** (or vice versa). **Fix:** ask whether swapping two chosen items gives a different outcome. Committee no, race positions yes.\n\n- **Adding when you should multiply.** **Fix:** \"and\" between sequential stages means multiply; \"or\" between alternatives means add.\n\n- **Forgetting that choices shrink when repetition is forbidden.** Using 10⁴ for a PIN with distinct digits. **Fix:** 10 × 9 × 8 × 7.\n\n- **Treating without-replacement draws as independent.** **Fix:** the second probability is conditional — both numerator and denominator change.\n\n- **Confusing P(A|B) with P(B|A).** **Fix:** they answer different questions. P(four legs | dog) ≈ 1 but P(dog | four legs) is small.\n\n- **Ignoring the base rate** in test-accuracy problems. **Fix:** with a rare condition, most positives are false positives however accurate the test.\n\n- **Computing ⁿCᵣ for large r the hard way.** **Fix:** use ⁿCᵣ = ⁿC₍ₙ₋ᵣ₎ — ¹⁰C₈ is just ¹⁰C₂ = 45.\n\n- **Forgetting 0! = 1** and getting a division error. **Fix:** it is defined as 1 precisely so the formulas work at the extremes.\n\n",
+    "tricks": "# Tricks & Problem-Solving Techniques — Combinatorics & Probability II\n\n> Faster, cleaner ways to handle this topic — and when each one applies.\n\n- **Decide order-matters-or-not before writing anything.** That single decision picks the formula, and most errors are made before any arithmetic.\n\n- **Use the complement for \"at least one\".** 1 − P(none) is almost always easier than summing cases.\n\n- **Use the symmetry ⁿCᵣ = ⁿC₍ₙ₋ᵣ₎** to keep the arithmetic small.\n\n- **Draw a tree for any two-stage probability problem.** Multiply along branches, add across paths — and each branch set must sum to 1, which is a free check.\n\n- **Handle constraints by choosing from each group separately, then multiplying** — \"exactly 2 women from 4, and 1 man from 5\" is ⁴C₂ × ⁵C₁.\n\n- **Sanity-check every probability against 0 ≤ P ≤ 1**, and check counts against a small case you can enumerate by hand.\n\n- **Test a formula on a tiny example.** With 3 people and 2 seats you can list all 6 permutations and confirm ³P₂ = 6.\n\n",
+    "memoryAids": "# Memory & Retention Aids — Combinatorics & Probability II\n\n> How to remember this — and still have it months later.\n\n- \"And multiplies, or adds.\"\n\n- \"Permutation: position matters. Combination: committee.\"\n\n- \"Divide by r! to forget the order.\"\n\n- \"ⁿCᵣ = ⁿC₍ₙ₋ᵣ₎ — choosing whom to leave out is the same problem.\"\n\n- \"Without replacement means conditional.\"\n\n- \"P(A|B) is not P(B|A).\"\n\n- \"At least one = 1 minus none.\"\n\n",
     "quiz": {
       "topicId": "math.I2.combinatorics-probability-ii",
       "levels": {
         "1": [
           {
-            "id": "math_I2_combinatorics_probability_ii_q1",
+            "id": "math_I2_combinatorics_probability_ii_l1_q1",
             "type": "numeric",
-            "prompt": "How many ways to arrange 3 distinct books in a row?",
-            "answer": 6,
+            "prompt": "A meal offers 3 starters, 4 mains and 2 desserts. How many different meals?",
+            "answer": 24,
             "tolerance": 0,
-            "explanation": "3! = 3×2×1 = 6."
+            "explanation": "Independent stages multiply: 3 × 4 × 2 = 24."
+          },
+          {
+            "id": "math_I2_combinatorics_probability_ii_l1_q2",
+            "type": "numeric",
+            "prompt": "What is 5! ?",
+            "answer": 120,
+            "tolerance": 0,
+            "explanation": "5 × 4 × 3 × 2 × 1 = 120."
+          },
+          {
+            "id": "math_I2_combinatorics_probability_ii_l1_q3",
+            "type": "numeric",
+            "prompt": "How many 4-digit PINs are there if digits may repeat?",
+            "answer": 10000,
+            "tolerance": 0,
+            "explanation": "10⁴ = 10 000."
+          },
+          {
+            "id": "math_I2_combinatorics_probability_ii_l1_q4",
+            "type": "mcq",
+            "prompt": "Choosing a committee of 3 from 10 people is a:",
+            "choices": [
+              "combination",
+              "permutation",
+              "factorial",
+              "conditional probability"
+            ],
+            "answer": 0,
+            "explanation": "The committee has no roles, so order does not matter."
           }
         ],
         "2": [
           {
-            "id": "math_I2_combinatorics_probability_ii_q2",
+            "id": "math_I2_combinatorics_probability_ii_l2_q1",
             "type": "numeric",
-            "prompt": "How many ways to choose 2 items from 4 (order irrelevant)?",
-            "answer": 6,
+            "prompt": "How many 4-digit PINs have no repeated digit?",
+            "answer": 5040,
             "tolerance": 0,
-            "explanation": "4C2 = 6."
+            "explanation": "10 × 9 × 8 × 7 = 5040 — each choice removes one option."
+          },
+          {
+            "id": "math_I2_combinatorics_probability_ii_l2_q2",
+            "type": "numeric",
+            "prompt": "From 10 people, how many ways to choose a president and a vice-president?",
+            "answer": 90,
+            "tolerance": 0,
+            "explanation": "Order matters: ¹⁰P₂ = 10 × 9 = 90."
+          },
+          {
+            "id": "math_I2_combinatorics_probability_ii_l2_q3",
+            "type": "numeric",
+            "prompt": "From 10 people, how many 2-person committees?",
+            "answer": 45,
+            "tolerance": 0,
+            "explanation": "¹⁰C₂ = 90/2! = 45 — each pair was counted twice above."
+          },
+          {
+            "id": "math_I2_combinatorics_probability_ii_l2_q4",
+            "type": "mcq",
+            "prompt": "A bag has 3 red and 2 blue balls; two are drawn without replacement. P(both red) is:",
+            "choices": [
+              "(3/5) × (2/4) = 3/10",
+              "(3/5)²",
+              "(3/5) × (3/5)",
+              "(3/5) + (2/4)"
+            ],
+            "answer": 0,
+            "explanation": "After a red is removed, 2 reds remain among 4 balls — the second probability is conditional."
           }
         ],
-        "3": []
+        "3": [
+          {
+            "id": "math_I2_combinatorics_probability_ii_l3_q1",
+            "type": "numeric",
+            "prompt": "From 5 men and 4 women, how many 3-person committees contain exactly 2 women?",
+            "answer": 30,
+            "tolerance": 0,
+            "explanation": "⁴C₂ × ⁵C₁ = 6 × 5 = 30 — choose from each group, then multiply."
+          },
+          {
+            "id": "math_I2_combinatorics_probability_ii_l3_q2",
+            "type": "mcq",
+            "prompt": "A lottery draws 6 numbers from 49, order irrelevant. Roughly what is the chance of winning with one ticket?",
+            "choices": [
+              "about 1 in 14 million",
+              "about 1 in 300",
+              "about 1 in 100 000",
+              "about 1 in 49"
+            ],
+            "answer": 0,
+            "explanation": "⁴⁹C₆ = 13 983 816, so the probability is about 1 in 14 million."
+          },
+          {
+            "id": "math_I2_combinatorics_probability_ii_l3_q3",
+            "type": "mcq",
+            "prompt": "A test is 99% accurate for a disease affecting 1 in 10 000. Someone tests positive. What is the most likely explanation?",
+            "choices": [
+              "a false positive — the healthy group is so large that it generates most positives",
+              "they almost certainly have the disease",
+              "the test must be faulty",
+              "the probability is exactly 99%"
+            ],
+            "answer": 0,
+            "explanation": "This is the base-rate fallacy: P(disease | positive) is far smaller than P(positive | disease). Among 10 000 people, roughly 100 false positives accompany the 1 true case."
+          },
+          {
+            "id": "math_I2_combinatorics_probability_ii_l3_q4",
+            "type": "mcq",
+            "prompt": "Why is ¹⁰C₈ easier to compute as ¹⁰C₂?",
+            "choices": [
+              "ⁿCᵣ = ⁿC₍ₙ₋ᵣ₎ — choosing 8 to include is choosing 2 to leave out",
+              "because 2 is smaller than 8",
+              "they are not equal; it is an approximation",
+              "because 8! is undefined"
+            ],
+            "answer": 0,
+            "explanation": "Each selection of 8 corresponds to exactly one selection of the 2 excluded, so the counts are identical — and ¹⁰C₂ = 45 takes one line."
+          }
+        ]
       }
     }
   },
@@ -14771,14 +14877,14 @@
     "title": "Calculus Intuition: Derivatives",
     "slug": "derivatives-intuition",
     "core": true,
-    "depth": "module",
+    "depth": "deep",
     "summary": "Rate of change made exact — the derivative as the slope of a curve, taught alongside kinematics.",
     "outcomes": [
       "Interpret the derivative as an instantaneous rate",
       "Differentiate simple powers",
       "Connect derivative to slope of a tangent"
     ],
-    "estMinutes": 180,
+    "estMinutes": 270,
     "prereqs": [
       "math.I2.trigonometry-ii",
       "math.F2.linear-relationships-coordinate-plane"
@@ -14804,43 +14910,150 @@
       "slope",
       "power rule"
     ],
-    "notes": "# Calculus Intuition: Derivatives\r\n\r\n> [!intro] Rate of change made exact — the derivative as the slope of a curve, taught alongside kinematics.\r\n\r\n## Instantaneous rate\r\n\r\nThe derivative measures how fast a quantity changes at an instant — the slope of the tangent to its graph. It makes the \"slope = rate\" idea from lines exact for curves.\r\n\r\n## Power rule\r\n\r\nFor f(x) = xⁿ, the derivative is n·x^(n−1). This single rule differentiates polynomials and connects directly to velocity being the derivative of position.\r\n\r\n```formula Key formulas\r\nd/dx (xⁿ) = n·x^(n−1)\r\nd/dx (constant) = 0\r\nf'(x) = slope of the tangent = instantaneous rate\r\n```\r\n\r\n> [!example] **Worked example**\r\n> **Problem.** Differentiate f(x) = x³ − 4x and find the slope at x = 2.\r\n> >\r\n> > **Solution.** f'(x) = 3x² − 4. At x = 2: 3(4) − 4 = 8. The tangent slope at x = 2 is 8.\r\n\r\n## What you should be able to do\r\n\r\n- Interpret the derivative as an instantaneous rate\r\n- Differentiate simple powers\r\n- Connect derivative to slope of a tangent\r\n\r\n---\r\n\r\n_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 \"deep dive\" topics show the target depth; modules are deepened over time._\r\n",
-    "mistakes": "# Common Mistakes — Calculus Intuition: Derivatives\r\n\r\n> Every learner hits these — spot them before they cost you.\r\n\r\n- Confusing average rate (over an interval) with instantaneous rate (at a point).\r\n\r\n- Forgetting to reduce the power by one in the power rule.\r\n\r\n- Treating the derivative of a constant as anything but zero.\r\n\r\n",
-    "tricks": "# Tricks & Problem-Solving Techniques — Calculus Intuition: Derivatives\r\n\r\n> Faster, cleaner ways to handle this topic.\r\n\r\n- Power rule: bring the exponent down, subtract one from it.\r\n\r\n- The derivative of a constant is 0; of x is 1.\r\n\r\n- A positive derivative means increasing; negative means decreasing.\r\n\r\n",
-    "memoryAids": "# Memory & Retention Aids — Calculus Intuition: Derivatives\r\n\r\n> How to remember this — and keep it.\r\n\r\n- \"Derivative = slope of the tangent = instantaneous rate.\"\r\n\r\n- \"Bring down the power, drop it by one.\"\r\n\r\n- Velocity is the derivative of position.\r\n\r\n",
+    "notes": "# Calculus Intuition: Derivatives\n\n> [!intro] **A derivative is a rate of change made exact.** You already compute average rates — a gradient between two points, average speed over a journey. The derivative answers the harder question: *how fast is it changing right now, at this instant?* The trick that makes it possible is the limit: shrink the interval toward zero and watch what the gradient approaches. This is the same \"slope = rate\" idea from F2, sharpened until it works on curves.\n\n## 1. From average rate to instantaneous rate\n\nBetween two points on a curve, the **average** rate of change is the gradient of the **chord** joining them:\n\n$$\\frac{f(x+h) - f(x)}{h}$$\n\nThat is exactly rise over run, with run $= h$.\n\nThe problem: this measures the average over the interval, not the rate *at* $x$. Making $h$ smaller gives a better local approximation — but setting $h = 0$ gives $\\tfrac00$, which is meaningless.\n\nThe resolution is to ask what the expression **approaches** as $h$ shrinks, without ever setting it to zero. That limit is the **derivative**:\n\n$$f'(x) = \\lim_{h\\to 0}\\frac{f(x+h)-f(x)}{h}$$\n\nGeometrically, as $h \\to 0$ the chord pivots until it becomes the **tangent** at the point. So the derivative is the gradient of the tangent — the slope of the curve at a single point.\n\nWatch the machinery work on $f(x) = x^2$:\n\n$$\\frac{(x+h)^2 - x^2}{h} = \\frac{2xh + h^2}{h} = 2x + h$$\n\nCancelling $h$ is legitimate because $h \\ne 0$ — it is merely heading toward 0. As $h \\to 0$ the expression approaches $2x$, so $f'(x) = 2x$. At $x = 3$ the slope is 6.\n\n```svg\n<svg viewBox=\"0 0 400 180\" role=\"img\" aria-label=\"Chord approaching a tangent on a curve\" xmlns=\"http://www.w3.org/2000/svg\">\n  <line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"150\" stroke=\"#6b7a99\" stroke-width=\"2\"/>\n  <line x1=\"40\" y1=\"150\" x2=\"370\" y2=\"150\" stroke=\"#6b7a99\" stroke-width=\"2\"/>\n  <path d=\"M60 145 Q 200 145 340 35\" fill=\"none\" stroke=\"#6b7a99\" stroke-width=\"2.5\"/>\n  <line x1=\"150\" y1=\"140\" x2=\"300\" y2=\"66\" stroke=\"#9aa8c4\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/>\n  <line x1=\"120\" y1=\"160\" x2=\"290\" y2=\"106\" stroke=\"#6ee7a8\" stroke-width=\"2.5\"/>\n  <circle cx=\"196\" cy=\"133\" r=\"4.5\" fill=\"#6366f1\"/>\n  <text x=\"206\" y=\"126\" font-size=\"11\" fill=\"#e6ecff\">tangent: the limit of the chords</text>\n  <text x=\"250\" y=\"60\" font-size=\"11\" fill=\"#9aa8c4\">chord</text>\n</svg>\n```\n\n## 2. The power rule, and the rules that follow\n\nDoing that limit every time would be exhausting. Fortunately the pattern generalises:\n\n$$\\frac{d}{dx}x^n = nx^{n-1}$$\n\n**Bring the power down in front, then reduce the power by one.** Check it against what you know: $x^2 \\to 2x$ ✓, and $x^1 \\to 1$ — the gradient of $y = x$ is 1, as it must be.\n\nThree companions complete the basic toolkit:\n\n- **Constant:** $\\dfrac{d}{dx}(c) = 0$. A constant function is horizontal, and a horizontal line has gradient 0.\n- **Constant multiple:** $\\dfrac{d}{dx}(cf) = c f'$. Doubling a function doubles its steepness.\n- **Sum:** $\\dfrac{d}{dx}(f+g) = f' + g'$. Differentiate term by term.\n\nSo for $f(x) = 3x^2 - 5x + 7$: the terms give $6x$, $-5$ and $0$, hence $f'(x) = 6x - 5$.\n\nTwo notations mean the same thing: $f'(x)$ (Lagrange) and $\\dfrac{dy}{dx}$ (Leibniz). The second is not a fraction, though it usefully behaves like one; read it as \"the rate of change of $y$ with respect to $x$\" — and the phrase \"with respect to\" matters, because it names which variable is doing the changing.\n\n```formula Key formulas\nf′(x) = lim(h→0) [f(x+h) − f(x)]/h\nPower rule: d/dx(xⁿ) = nxⁿ⁻¹\nd/dx(c) = 0;  d/dx(cf) = cf′;  d/dx(f + g) = f′ + g′\nThe derivative is the gradient of the tangent\n```\n\n> [!example] **Differentiating term by term**\n>\n> **Problem.** Differentiate $f(x) = 3x^2 - 5x + 7$ and find the gradient at $x = 2$.\n>\n> **Solution.** Term by term: $3x^2 \\to 6x$, $-5x \\to -5$, $7 \\to 0$. So $f'(x) = 6x - 5$, and $f'(2) = 12 - 5 = 7$.\n>\n> *The constant vanishes because shifting a graph up or down never changes its steepness.*\n\n## 3. What the derivative tells you about a graph\n\nThe **sign** of $f'$ describes the behaviour of $f$, and this is where derivatives become genuinely useful:\n\n- $f' > 0$ — the function is **increasing** (tangent slopes up).\n- $f' < 0$ — **decreasing**.\n- $f' = 0$ — a **stationary point**: maximum, minimum, or point of inflection.\n\nStationary points are where optimisation happens. To find the maximum or minimum of $f$, solve $f'(x) = 0$, then classify each solution:\n\n- **Second derivative test:** $f'' > 0$ means the slope is increasing, so the curve is cupped upward — a **minimum**. $f'' < 0$ gives a **maximum**.\n- Or check the sign of $f'$ just either side: $+ \\to -$ is a maximum, $- \\to +$ a minimum.\n\n*Example.* For $f(x) = x^2 - 6x + 5$: $f'(x) = 2x - 6 = 0$ at $x = 3$, and $f'' = 2 > 0$, so it is a minimum, with value $f(3) = -4$. That matches the vertex found by completing the square in I1 Quadratics — **two methods, one answer**, which is exactly the kind of cross-check that builds confidence.\n\nNot every stationary point is a turning point: $f(x) = x^3$ has $f'(0) = 0$ yet keeps increasing through the origin. That is a point of inflection, and it is why classification is a required step rather than an optional one.\n\n## 4. Kinematics: where this came from\n\nDifferentiation was invented largely to describe motion, and kinematics remains the clearest illustration.\n\nIf $s(t)$ is displacement, then\n\n$$v = \\frac{ds}{dt}, \\qquad a = \\frac{dv}{dt} = \\frac{d^2s}{dt^2}$$\n\nVelocity is the derivative of displacement; acceleration is the derivative of velocity. This makes the F1 physics statements exact rather than approximate: \"slope of a distance–time graph is speed\" was always true for *straight* graphs; the derivative extends it to curved ones.\n\n*Worked example.* A ball's height is $s = 20t - 5t^2$ metres.\n\n- $v = \\dfrac{ds}{dt} = 20 - 10t$. At launch ($t=0$) the velocity is 20 m/s upward.\n- At the highest point the ball is momentarily stationary, so $v = 0$ gives $t = 2$ s.\n- Maximum height: $s(2) = 40 - 20 = 20$ m.\n- $a = \\dfrac{dv}{dt} = -10$ m/s² — constant, negative, and downward: gravity.\n\nNote what \"momentarily at rest\" means: velocity is zero at the peak, but acceleration is not. An object can be stationary and still accelerating — a distinction that causes endless confusion in physics and which the derivative makes precise.\n\n> [!example] **Optimisation with calculus**\n>\n> **Problem.** A farmer fences three sides of a rectangular pen with 40 m of fencing. Find the maximum area using calculus.\n>\n> **Solution.** With sides $x$, $x$ and $40-2x$: $A = x(40-2x) = 40x - 2x^2$. Then $\\dfrac{dA}{dx} = 40 - 4x = 0$ gives $x = 10$, and $\\dfrac{d^2A}{dx^2} = -4 < 0$ confirms a maximum. Area $= 10 \\times 20 = 200$ m².\n>\n> *The same answer as completing the square in I1 — calculus generalises the method to problems where no square can be completed.*\n\n```formula Key formulas\nf′(x) = lim(h→0)[f(x+h) − f(x)]/h — the gradient of the tangent\nPower rule: d/dx(xⁿ) = nxⁿ⁻¹;  constants differentiate to 0\nf′ > 0 increasing;  f′ < 0 decreasing;  f′ = 0 stationary\nf″ > 0 ⇒ minimum;  f″ < 0 ⇒ maximum\nKinematics: v = ds/dt,  a = dv/dt = d²s/dt²\n```\n\n## What you should be able to do\n\n- Interpret the derivative as an instantaneous rate\n- Differentiate simple powers\n- Connect derivative to slope of a tangent\n\n## Summary — the mental toolkit\n\n1. An average rate is a chord gradient; the derivative is what it approaches as the interval shrinks to zero.\n2. The limit avoids 0/0 by asking what the expression approaches, never setting h = 0.\n3. Geometrically the derivative is the gradient of the tangent at a point.\n4. Power rule: bring the power down, reduce it by one; constants differentiate to zero.\n5. The sign of f′ says increasing or decreasing; f′ = 0 locates stationary points.\n6. Classify stationary points with f″ or a sign check — not every one is a turning point.\n7. Velocity is the derivative of displacement and acceleration of velocity; zero velocity does not mean zero acceleration.\n\n---\n\n_A deep-dive topic in The Ultimate Learner — every one of the six learning layers, at exam depth._\n",
+    "mistakes": "# Common Mistakes — Calculus Intuition: Derivatives\n\n> Every learner hits these. Read the *why* — that is what stops the mistake coming back.\n\n- **Setting h = 0 instead of taking a limit.** This gives 0/0. **Fix:** simplify the quotient *first* (cancelling h is legal because h ≠ 0), then let h approach 0.\n\n- **Forgetting that a constant differentiates to 0.** Carrying the +7 through. **Fix:** shifting a graph vertically does not change its steepness anywhere.\n\n- **Applying the power rule to the exponent instead of the base**, or reducing the power before bringing it down. **Fix:** coefficient × old power, then power minus one. Check against x² → 2x.\n\n- **Assuming f′ = 0 always means a maximum or minimum.** x³ has f′(0) = 0 but no turning point. **Fix:** always classify with f″ or a sign check.\n\n- **Confusing f′ with f.** Reporting the value of the derivative as the maximum value. **Fix:** solve f′ = 0 for the *location*, then substitute into f for the value.\n\n- **Believing zero velocity means zero acceleration.** At the top of its flight a ball has v = 0 and a = −10 m/s². **Fix:** they are different derivatives of different things.\n\n- **Mixing up d²s/dt² with (ds/dt)².** **Fix:** the first is the second derivative; the second is a squared rate. Entirely different quantities.\n\n- **Treating dy/dx as a fraction to be split.** **Fix:** it is a single symbol meaning a rate of change — though it usefully behaves like a fraction in some later rules.\n\n",
+    "tricks": "# Tricks & Problem-Solving Techniques — Calculus Intuition: Derivatives\n\n> Faster, cleaner ways to handle this topic — and when each one applies.\n\n- **Check any derivative against a case you know.** x² → 2x, and the gradient of y = x must be 1.\n\n- **Differentiate term by term** — sums split, so a long polynomial is just several small problems.\n\n- **Use the second derivative to classify** rather than testing points either side; it is one substitution instead of two.\n\n- **Cross-check an optimisation with completing the square** where the function is quadratic. Two independent methods agreeing is strong verification.\n\n- **In kinematics, translate the words first:** \"momentarily at rest\" means v = 0, \"maximum height\" means the same, \"constant acceleration\" means a is a number.\n\n- **Sketch the function when the algebra is ambiguous.** Seeing where the curve rises and falls confirms whether a stationary point is a peak or a trough.\n\n- **Sanity-check a gradient's sign against the graph** — a rising curve must give a positive derivative.\n\n",
+    "memoryAids": "# Memory & Retention Aids — Calculus Intuition: Derivatives\n\n> How to remember this — and still have it months later.\n\n- \"The derivative is the slope of the tangent.\"\n\n- \"Bring the power down, drop it by one.\"\n\n- \"Constants have no slope.\"\n\n- \"f′ = 0 is where the curve stops climbing\" — but classify before naming it.\n\n- \"Positive rising, negative falling.\"\n\n- \"v is ds/dt, a is dv/dt.\"\n\n- \"Stationary is not the same as unaccelerated.\"\n\n",
     "quiz": {
       "topicId": "math.I2.derivatives-intuition",
       "levels": {
-        "1": [],
-        "2": [
+        "1": [
           {
-            "id": "math_I2_derivatives_intuition_q1",
+            "id": "math_I2_derivatives_intuition_l1_q1",
             "type": "mcq",
-            "prompt": "Differentiate f(x) = x³.",
+            "prompt": "Differentiate f(x) = x².",
             "choices": [
-              "3x²",
-              "x²",
-              "3x",
-              "x⁴/4"
+              "2x",
+              "x",
+              "2",
+              "x³/3"
             ],
             "answer": 0,
-            "explanation": "Power rule: 3·x^(3−1) = 3x²."
+            "explanation": "Power rule: bring the 2 down and reduce the power by one."
           },
           {
-            "id": "math_I2_derivatives_intuition_q2",
+            "id": "math_I2_derivatives_intuition_l1_q2",
+            "type": "numeric",
+            "prompt": "What is the derivative of the constant function f(x) = 7?",
+            "answer": 0,
+            "tolerance": 0,
+            "explanation": "A constant graph is horizontal, so its gradient is 0 everywhere."
+          },
+          {
+            "id": "math_I2_derivatives_intuition_l1_q3",
             "type": "mcq",
-            "prompt": "The derivative of a constant, e.g. f(x)=7, is:",
+            "prompt": "The derivative at a point equals:",
             "choices": [
-              "0",
-              "7",
-              "1",
-              "undefined"
+              "the gradient of the tangent there",
+              "the value of the function there",
+              "the area under the curve",
+              "the average gradient of the whole curve"
             ],
             "answer": 0,
-            "explanation": "A constant does not change, so its rate is 0."
+            "explanation": "As the chord interval shrinks to zero, the chord becomes the tangent."
+          },
+          {
+            "id": "math_I2_derivatives_intuition_l1_q4",
+            "type": "mcq",
+            "prompt": "If f′(x) > 0 on an interval, the function is:",
+            "choices": [
+              "increasing",
+              "decreasing",
+              "constant",
+              "at a maximum"
+            ],
+            "answer": 0,
+            "explanation": "A positive gradient means the tangent slopes upward."
           }
         ],
-        "3": []
+        "2": [
+          {
+            "id": "math_I2_derivatives_intuition_l2_q1",
+            "type": "mcq",
+            "prompt": "Differentiate f(x) = 3x² − 5x + 7.",
+            "choices": [
+              "6x − 5",
+              "6x − 5 + 7",
+              "3x − 5",
+              "6x² − 5"
+            ],
+            "answer": 0,
+            "explanation": "Term by term: 6x, −5, and the constant gives 0."
+          },
+          {
+            "id": "math_I2_derivatives_intuition_l2_q2",
+            "type": "numeric",
+            "prompt": "For f(x) = 3x² − 5x + 7, what is the gradient at x = 2?",
+            "answer": 7,
+            "tolerance": 0,
+            "explanation": "f′(x) = 6x − 5, so f′(2) = 12 − 5 = 7."
+          },
+          {
+            "id": "math_I2_derivatives_intuition_l2_q3",
+            "type": "numeric",
+            "prompt": "For f(x) = x² − 6x + 5, at what x is the stationary point?",
+            "answer": 3,
+            "tolerance": 0,
+            "explanation": "f′(x) = 2x − 6 = 0 gives x = 3."
+          },
+          {
+            "id": "math_I2_derivatives_intuition_l2_q4",
+            "type": "mcq",
+            "prompt": "At that stationary point, f″ = 2. What kind of point is it?",
+            "choices": [
+              "a minimum",
+              "a maximum",
+              "a point of inflection",
+              "cannot be determined"
+            ],
+            "answer": 0,
+            "explanation": "f″ > 0 means the slope is increasing, so the curve is cupped upward — a minimum."
+          }
+        ],
+        "3": [
+          {
+            "id": "math_I2_derivatives_intuition_l3_q1",
+            "type": "numeric",
+            "prompt": "A ball's height is s = 20t − 5t². At what time in seconds does it reach maximum height?",
+            "answer": 2,
+            "tolerance": 0,
+            "explanation": "v = ds/dt = 20 − 10t; setting v = 0 gives t = 2 s."
+          },
+          {
+            "id": "math_I2_derivatives_intuition_l3_q2",
+            "type": "numeric",
+            "prompt": "For that ball, what is the maximum height in metres?",
+            "answer": 20,
+            "tolerance": 0,
+            "explanation": "s(2) = 40 − 20 = 20 m."
+          },
+          {
+            "id": "math_I2_derivatives_intuition_l3_q3",
+            "type": "mcq",
+            "prompt": "At the top of its flight the ball has v = 0. What is its acceleration?",
+            "choices": [
+              "−10 m/s² — still accelerating downward under gravity",
+              "0, since it is momentarily at rest",
+              "+10 m/s²",
+              "undefined at that instant"
+            ],
+            "answer": 0,
+            "explanation": "a = dv/dt = −10 throughout. Zero velocity and zero acceleration are entirely different conditions."
+          },
+          {
+            "id": "math_I2_derivatives_intuition_l3_q4",
+            "type": "mcq",
+            "prompt": "Why is cancelling h in [2xh + h²]/h legitimate when finding a derivative?",
+            "choices": [
+              "h is approaching 0 but is never equal to 0, so the division is valid",
+              "because h² is negligible",
+              "because the limit is taken afterwards, so any step is allowed",
+              "it is not legitimate — the result is a coincidence"
+            ],
+            "answer": 0,
+            "explanation": "The limit asks what happens as h approaches zero. Since h ≠ 0 throughout, dividing by it is valid — which is precisely how the 0/0 problem is avoided."
+          }
+        ]
       }
     }
   },
@@ -14851,14 +15064,14 @@
     "title": "Exponentials & Logarithms",
     "slug": "exponentials-logarithms",
     "core": true,
-    "depth": "module",
+    "depth": "deep",
     "summary": "Exponential growth and decay, logarithms as the inverse, and their laws — used across chemistry, biology and CS.",
     "outcomes": [
       "Work with exponential functions",
       "Use logarithms and their laws",
       "Model growth and decay"
     ],
-    "estMinutes": 180,
+    "estMinutes": 240,
     "prereqs": [
       "math.I2.integrals-intuition",
       "math.F2.exponents-scientific-notation"
@@ -14886,39 +15099,160 @@
       "decay",
       "log laws"
     ],
-    "notes": "# Exponentials & Logarithms\r\n\r\n> [!intro] Exponential growth and decay, logarithms as the inverse, and their laws — used across chemistry, biology and CS.\r\n\r\n## Exponential change\r\n\r\nExponential functions grow or decay by a constant factor per step — populations, radioactive decay, compound interest. The rate of change is proportional to the current amount.\r\n\r\n## Logarithms invert exponentials\r\n\r\nlog_b(x) answers \"what power of b gives x?\". Log laws (log(ab)=log a+log b) turn multiplication into addition — the reason logs simplify pH, decibels and algorithmic complexity.\r\n\r\n```formula Key formulas\r\nlog_b(xy) = log_b x + log_b y\r\nlog_b(xⁿ) = n log_b x\r\nb^x = y ⇔ log_b y = x\r\nGrowth: N = N₀ · e^(kt)\r\n```\r\n\r\n> [!example] **Worked example**\r\n> **Problem.** Solve 2^x = 32.\r\n> >\r\n> > **Solution.** Take logs: x = log₂ 32 = 5, since 2⁵ = 32.\r\n\r\n## What you should be able to do\r\n\r\n- Work with exponential functions\r\n- Use logarithms and their laws\r\n- Model growth and decay\r\n\r\n---\r\n\r\n_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 \"deep dive\" topics show the target depth; modules are deepened over time._\r\n",
-    "mistakes": "# Common Mistakes — Exponentials & Logarithms\r\n\r\n> Every learner hits these — spot them before they cost you.\r\n\r\n- Thinking log(a+b) = log a + log b (it is log(ab) that splits).\r\n\r\n- Forgetting logs are only defined for positive arguments.\r\n\r\n- Confusing the base of a logarithm.\r\n\r\n",
-    "tricks": "# Tricks & Problem-Solving Techniques — Exponentials & Logarithms\r\n\r\n> Faster, cleaner ways to handle this topic.\r\n\r\n- log(ab) = log a + log b; log(aⁿ) = n log a.\r\n\r\n- A log turns exponential equations into linear ones — take logs of both sides.\r\n\r\n- ln and e are inverse; log base 10 for orders of magnitude.\r\n\r\n",
-    "memoryAids": "# Memory & Retention Aids — Exponentials & Logarithms\r\n\r\n> How to remember this — and keep it.\r\n\r\n- \"A log asks: what power gives this number?\"\r\n\r\n- \"log(ab) = log a + log b.\"\r\n\r\n- Exponential growth ↔ logarithmic inverse.\r\n\r\n",
+    "notes": "# Exponentials & Logarithms\n\n> [!intro] **An exponential describes anything whose growth is proportional to its current size** — money at compound interest, bacteria, a virus in its early phase, a radioactive sample decaying. A logarithm is the question that exponential growth forces you to ask: *how long until it reaches this?* Logs are simply exponents in disguise, and every \"log law\" is an index law you already know, wearing different clothes.\n\n## 1. Exponential growth is proportional growth\n\nIn $y = ab^x$: $a$ is the starting value, $b$ the **growth factor** per unit of $x$.\n\n- $b > 1$ — growth. $b = 1.08$ is 8% growth per period.\n- $0 < b < 1$ — decay. $b = 0.85$ is 15% loss per period.\n\nThe defining property is that **the multiplier is constant, not the increase**. A linear model adds the same amount each step; an exponential multiplies by the same factor. That difference is why exponentials always overtake linear growth eventually, no matter how steep the line.\n\nThe practical signature is **constant doubling time** (or half-life): whatever the starting point, it takes the same time to double. A population doubling every 20 years goes 100 → 200 → 400 → 800 in successive 20-year blocks, and the *increases* grow (100, 200, 400) while the *factor* stays 2.\n\nThe special base $e \\approx 2.718$ arises from continuous compounding and is the natural choice in calculus, where $\\tfrac{d}{dx}e^x = e^x$ — the function equal to its own rate of change. That property is exactly the statement \"growth proportional to current size\", written in calculus.\n\n```formula Key formulas\ny = ab^x: a is the initial value, b the growth factor\nb > 1 growth;  0 < b < 1 decay\nPercentage r% growth ⇒ b = 1 + r/100;  r% decay ⇒ b = 1 − r/100\nConstant doubling time / half-life is the signature of exponential change\n```\n\n## 2. A logarithm is an exponent\n\n$\\log_b x$ answers: **to what power must I raise $b$ to get $x$?**\n\n$$\\log_b x = y \\iff b^y = x$$\n\nSo $\\log_2 8 = 3$ because $2^3 = 8$. Reading it aloud as the question — \"two to the what gives eight?\" — removes almost all confusion.\n\nTwo consequences follow directly from the definition and are worth stating:\n\n- $\\log_b 1 = 0$ for every base, since $b^0 = 1$.\n- **You cannot take the log of a negative number or zero** (for a positive base), because no power of a positive number is ever negative or zero. A \"log of a negative\" in your working means an earlier error, or a genuinely impossible situation in the model.\n\nTwo bases dominate: $\\log_{10}$ (written $\\log$, used for pH, decibels, the Richter scale) and $\\log_e$ (written $\\ln$, the natural log, used throughout calculus).\n\nLogs exist because they turn an unknown *exponent* into something solvable. To answer \"how many years until my investment doubles at 8%?\", you must solve $1.08^t = 2$ — and $t$ is stuck in the exponent until a logarithm brings it down.\n\n## 3. The log laws are the index laws\n\nEach law below is an index law re-read. Since a log *is* an exponent, and multiplying powers adds exponents, multiplying numbers must add logs.\n\n$$\\log(xy) = \\log x + \\log y$$\n$$\\log\\!\\left(\\frac{x}{y}\\right) = \\log x - \\log y$$\n$$\\log(x^n) = n\\log x$$\n\nThe third is the workhorse — **it is what unsticks an unknown exponent**:\n\n$$1.08^t = 2 \\;\\Rightarrow\\; t\\log 1.08 = \\log 2 \\;\\Rightarrow\\; t = \\frac{\\log 2}{\\log 1.08} \\approx 9.0 \\text{ years}$$\n\nNote that $\\dfrac{\\log 2}{\\log 1.08}$ is a **division of two logs**, which is *not* $\\log\\!\\left(\\tfrac{2}{1.08}\\right)$. Confusing those two is the commonest error in this topic.\n\nEqually, **there is no law for $\\log(x + y)$.** Logs convert multiplication into addition, and nothing converts addition into anything simpler. $\\log(x+y) \\ne \\log x + \\log y$ — test it with $x = y = 1$: the left is $\\log 2 \\approx 0.30$, the right is 0.\n\nThe **change of base** formula lets you compute any log with a calculator that only has $\\log$ and $\\ln$:\n\n$$\\log_b x = \\frac{\\log x}{\\log b}$$\n\n```formula Key formulas\nlog(xy) = log x + log y\nlog(x/y) = log x − log y\nlog(xⁿ) = n log x   ← brings an unknown exponent down\nlog_b x = log x / log b  (change of base)\nlog_b 1 = 0;  log_b b = 1;  log of a negative or zero is undefined\nNO law exists for log(x + y)\n```\n\n> [!example] **Solving for an exponent**\n>\n> **Problem.** How long does it take for money to double at 8% compound interest?\n>\n> **Solution.** Solve $1.08^t = 2$. Take logs of both sides: $t\\log 1.08 = \\log 2$, so $t = \\dfrac{\\log 2}{\\log 1.08} = \\dfrac{0.3010}{0.0334} \\approx 9.0$ years.\n>\n> *Whenever the unknown is an exponent, take logs — that is what logs are for.*\n\n## 4. Why logarithmic scales are everywhere\n\nWhen quantities span many orders of magnitude, a linear axis is useless — plot earthquake energies linearly and every event but the largest is invisible. A **log scale** plots the *exponent*, so equal distances represent equal *ratios* rather than equal differences.\n\n| Scale | Measures | Meaning of +1 |\n|---|---|---|\n| **Richter** | earthquake amplitude | ×10 amplitude (≈32× energy) |\n| **pH** | $-\\log_{10}[\\mathrm{H}^+]$ | 10× more acidic |\n| **Decibel** | sound intensity | 10 dB is ×10 intensity |\n\nSo pH 3 is not \"a bit more acidic\" than pH 5 — it is **100 times** more acidic. The minus sign in the pH definition means *lower pH is more acidic*, which is a standing source of confusion in chemistry until you see the log.\n\nDecay problems use the same machinery with $0 < b < 1$. Carbon-14 has a half-life of 5730 years, so the remaining fraction after $t$ years is $\\left(\\tfrac12\\right)^{t/5730}$. Solving for $t$ given a measured fraction requires a log — which is precisely how radiocarbon dating works.\n\n> [!example] **Reading a log scale**\n>\n> **Problem.** Solution A has pH 3, solution B has pH 5. How many times more acidic is A?\n>\n> **Solution.** pH is $-\\log_{10}$ of the hydrogen-ion concentration, so a difference of 2 pH units is a factor of $10^2 = 100$. Solution A is **100 times** more acidic.\n>\n> *On a log scale, a small difference in the number is a large ratio in the quantity.*\n\n```formula Key formulas\ny = ab^x;  log_b x = y ⇔ b^y = x\nlog(xy) = log x + log y;  log(x/y) = log x − log y;  log(xⁿ) = n log x\nChange of base: log_b x = log x / log b\nDoubling time t = log 2 / log b\npH = −log₁₀[H⁺];  +1 on a log scale means ×10\n```\n\n## What you should be able to do\n\n- Work with exponential functions\n- Use logarithms and their laws\n- Model growth and decay\n\n## Summary — the mental toolkit\n\n1. Exponential change multiplies by a constant factor; linear change adds a constant amount.\n2. Constant doubling time or half-life is the signature of an exponential.\n3. A logarithm is an exponent: log_b x asks \"b to what power gives x?\"\n4. Logs of negatives and zero are undefined, because no power of a positive base produces them.\n5. The log laws are the index laws re-read; log(xⁿ) = n log x is what frees an unknown exponent.\n6. There is no law for log(x + y), and log a ÷ log b is not log(a/b).\n7. Log scales (Richter, pH, decibels) turn ratios into equal steps — +1 means ×10.\n\n---\n\n_A deep-dive topic in The Ultimate Learner — every one of the six learning layers, at exam depth._\n",
+    "mistakes": "# Common Mistakes — Exponentials & Logarithms\n\n> Every learner hits these. Read the *why* — that is what stops the mistake coming back.\n\n- **Writing log(x + y) = log x + log y.** **Fix:** the law applies to products only. Test x = y = 1: log 2 ≈ 0.30 versus 0. Logs turn × into +, not + into +.\n\n- **Confusing (log a)/(log b) with log(a/b).** **Fix:** division of logs is the change-of-base pattern; log(a/b) equals log a − log b. They are different quantities.\n\n- **Taking the log of a negative number** and reporting a value. **Fix:** undefined for a positive base — treat it as a signal that the model or the algebra is wrong.\n\n- **Confusing growth factor with growth rate.** For 8% growth, b = 1.08, not 0.08. **Fix:** b is the multiplier; add 1 for growth, subtract from 1 for decay.\n\n- **Modelling proportional growth with a linear function.** **Fix:** check whether the *increase* or the *factor* is constant — constant doubling time means exponential.\n\n- **Forgetting that a log scale is multiplicative.** Reading pH 3 to pH 5 as a small change. **Fix:** each unit is a factor of 10, so two units is ×100.\n\n- **Dividing by the wrong log when solving b^t = k.** **Fix:** t = log k ÷ log b — the base's log goes on the bottom. Sanity-check the answer by substituting back.\n\n- **Rounding log values early.** **Fix:** logs are small numbers whose ratios matter; keep full precision until the final step.\n\n",
+    "tricks": "# Tricks & Problem-Solving Techniques — Exponentials & Logarithms\n\n> Faster, cleaner ways to handle this topic — and when each one applies.\n\n- **Read every log aloud as a question:** \"log base 2 of 8\" becomes \"two to the what gives eight?\" The answer usually appears immediately.\n\n- **When the unknown is an exponent, take logs of both sides.** That is the entire strategy, and log(xⁿ) = n log x does the rest.\n\n- **Estimate doubling time with the Rule of 72:** 72 ÷ (percentage rate) ≈ years to double. At 8%, that is 9 years — matching the exact calculation.\n\n- **Check any log answer by substituting back** into the exponential form.\n\n- **Convert percentages to multipliers immediately**: +8% → 1.08, −15% → 0.85, halving → 0.5.\n\n- **Use change of base** to compute any logarithm on a basic calculator.\n\n- **Recognise a log scale by the words \"per unit is ten times\"** — Richter, pH, decibels all work this way.\n\n",
+    "memoryAids": "# Memory & Retention Aids — Exponentials & Logarithms\n\n> How to remember this — and still have it months later.\n\n- \"A log is an exponent\" — say it before every question.\n\n- \"Log base b of x asks: b to the what gives x?\"\n\n- \"Logs turn times into plus\" — and there is no rule for plus.\n\n- \"Unknown in the exponent? Take logs.\"\n\n- \"Rule of 72\" for a quick doubling time.\n\n- \"One step on a log scale is ten times.\"\n\n- \"You cannot log a negative.\"\n\n",
     "quiz": {
       "topicId": "math.I2.exponentials-logarithms",
       "levels": {
         "1": [
           {
-            "id": "math_I2_exponentials_logarithms_q1",
+            "id": "math_I2_exponentials_logarithms_l1_q1",
             "type": "numeric",
-            "prompt": "Evaluate log base 2 of 8.",
+            "prompt": "What is log₂ 8?",
             "answer": 3,
             "tolerance": 0,
-            "explanation": "2³ = 8, so log₂8 = 3."
+            "explanation": "2³ = 8, so the answer is 3."
+          },
+          {
+            "id": "math_I2_exponentials_logarithms_l1_q2",
+            "type": "numeric",
+            "prompt": "What is log₁₀ 1?",
+            "answer": 0,
+            "tolerance": 0,
+            "explanation": "Any base to the power 0 gives 1, so the log of 1 is always 0."
+          },
+          {
+            "id": "math_I2_exponentials_logarithms_l1_q3",
+            "type": "mcq",
+            "prompt": "For 8% annual growth, what is the growth factor b in y = ab^x?",
+            "choices": [
+              "1.08",
+              "0.08",
+              "8",
+              "0.92"
+            ],
+            "answer": 0,
+            "explanation": "The quantity keeps 100% and gains 8%, so it is multiplied by 1.08 each year."
+          },
+          {
+            "id": "math_I2_exponentials_logarithms_l1_q4",
+            "type": "mcq",
+            "prompt": "Which expression is undefined?",
+            "choices": [
+              "log(−5)",
+              "log(0.5)",
+              "log(1)",
+              "log(100)"
+            ],
+            "answer": 0,
+            "explanation": "No power of a positive base gives a negative number, so the log of a negative is undefined."
           }
         ],
         "2": [
           {
-            "id": "math_I2_exponentials_logarithms_q2",
+            "id": "math_I2_exponentials_logarithms_l2_q1",
             "type": "mcq",
-            "prompt": "log(ab) equals:",
+            "prompt": "Simplify log(xy).",
             "choices": [
-              "log a + log b",
-              "log a × log b",
-              "log a − log b",
-              "log(a+b)"
+              "log x + log y",
+              "log x × log y",
+              "log x − log y",
+              "(log x)(log y)"
             ],
             "answer": 0,
-            "explanation": "The product law turns multiplication into addition."
+            "explanation": "Multiplying numbers adds exponents, so it adds logs."
+          },
+          {
+            "id": "math_I2_exponentials_logarithms_l2_q2",
+            "type": "numeric",
+            "prompt": "Roughly how many years does money take to double at 8% compound interest? Give your answer to the nearest whole year.",
+            "answer": 9,
+            "tolerance": 0.5,
+            "explanation": "t = log 2 / log 1.08 ≈ 0.3010/0.0334 ≈ 9.0 years — matching the Rule of 72."
+          },
+          {
+            "id": "math_I2_exponentials_logarithms_l2_q3",
+            "type": "mcq",
+            "prompt": "Which law lets you solve 1.08^t = 2 for t?",
+            "choices": [
+              "log(xⁿ) = n log x",
+              "log(xy) = log x + log y",
+              "log(x/y) = log x − log y",
+              "log(x + y) = log x + log y"
+            ],
+            "answer": 0,
+            "explanation": "Bringing the exponent down in front is what turns the unknown exponent into a solvable linear equation."
+          },
+          {
+            "id": "math_I2_exponentials_logarithms_l2_q4",
+            "type": "mcq",
+            "prompt": "A quantity has a constant half-life. Its model is:",
+            "choices": [
+              "exponential decay",
+              "linear decrease",
+              "quadratic",
+              "arithmetic"
+            ],
+            "answer": 0,
+            "explanation": "A constant halving time means a constant multiplier, which is exponential."
           }
         ],
-        "3": []
+        "3": [
+          {
+            "id": "math_I2_exponentials_logarithms_l3_q1",
+            "type": "mcq",
+            "prompt": "Solution A has pH 3 and solution B pH 5. How many times more acidic is A?",
+            "choices": [
+              "100",
+              "2",
+              "20",
+              "10"
+            ],
+            "answer": 0,
+            "explanation": "pH is −log₁₀[H⁺], so 2 units correspond to a factor of 10² = 100."
+          },
+          {
+            "id": "math_I2_exponentials_logarithms_l3_q2",
+            "type": "mcq",
+            "prompt": "Why is log(x + y) = log x + log y wrong?",
+            "choices": [
+              "logs convert multiplication to addition, not addition to addition — test x = y = 1",
+              "because x + y might be negative",
+              "it is correct for positive numbers",
+              "because logs need a base"
+            ],
+            "answer": 0,
+            "explanation": "At x = y = 1 the left is log 2 ≈ 0.30 and the right is 0. No law exists for the log of a sum."
+          },
+          {
+            "id": "math_I2_exponentials_logarithms_l3_q3",
+            "type": "mcq",
+            "prompt": "Is (log 2)/(log 1.08) the same as log(2/1.08)?",
+            "choices": [
+              "no — dividing logs is change of base; log(2/1.08) equals log 2 − log 1.08",
+              "yes, both equal log 2 − log 1.08",
+              "yes, division of logs is the quotient law",
+              "only when the base is 10"
+            ],
+            "answer": 0,
+            "explanation": "The quotient law gives a *difference* of logs. A *ratio* of logs is a different operation entirely — this is the commonest slip in the topic."
+          },
+          {
+            "id": "math_I2_exponentials_logarithms_l3_q4",
+            "type": "mcq",
+            "prompt": "Why must an exponential eventually overtake any linear function?",
+            "choices": [
+              "it multiplies by a fixed factor each step while the line only adds a fixed amount",
+              "because its starting value is larger",
+              "because exponentials are always steep",
+              "it need not — a steep enough line stays ahead"
+            ],
+            "answer": 0,
+            "explanation": "Repeated multiplication outgrows repeated addition regardless of the constants; the line may lead at first, but never permanently."
+          }
+        ]
       }
     }
   },
@@ -14929,14 +15263,14 @@
     "title": "Functions as Objects",
     "slug": "functions",
     "core": true,
-    "depth": "module",
+    "depth": "deep",
     "summary": "Function notation, domain and range, composition, inverses and transformations of graphs.",
     "outcomes": [
       "Use function notation and find domain/range",
       "Compose and invert functions",
       "Transform graphs (shift, stretch, reflect)"
     ],
-    "estMinutes": 180,
+    "estMinutes": 240,
     "prereqs": [
       "math.I1.statistics-ii",
       "math.F2.linear-relationships-coordinate-plane"
@@ -14963,34 +15297,160 @@
       "composition",
       "inverse"
     ],
-    "notes": "# Functions as Objects\r\n\r\n> [!intro] Function notation, domain and range, composition, inverses and transformations of graphs.\r\n\r\n## A function is a machine\r\n\r\nA function f takes an input and returns exactly one output, written f(x). Domain is the allowed inputs, range the possible outputs. Thinking of functions as objects you can combine is a big conceptual step.\r\n\r\n## Composition and inverses\r\n\r\nComposition f(g(x)) feeds one function's output into another. The inverse f⁻¹ undoes f. Graph transformations (shifts, stretches, reflections) change a function predictably.\r\n\r\n```formula Key formulas\r\nf: one input → exactly one output\r\nComposition: (f∘g)(x) = f(g(x))\r\nInverse: swap x and y, solve for y\r\nVertical-line test checks if a graph is a function\r\n```\r\n\r\n> [!example] **Worked example**\r\n> **Problem.** If f(x) = 2x + 1 and g(x) = x², find f(g(3)).\r\n> >\r\n> > **Solution.** g(3) = 9, then f(9) = 2(9) + 1 = 19.\r\n\r\n## What you should be able to do\r\n\r\n- Use function notation and find domain/range\r\n- Compose and invert functions\r\n- Transform graphs (shift, stretch, reflect)\r\n\r\n---\r\n\r\n_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 \"deep dive\" topics show the target depth; modules are deepened over time._\r\n",
-    "mistakes": "# Common Mistakes — Functions as Objects\r\n\r\n> Every learner hits these — spot them before they cost you.\r\n\r\n- Assuming every relation is a function (each input must give one output).\r\n\r\n- Reversing the order in composition: f(g(x)) ≠ g(f(x)) in general.\r\n\r\n- Confusing f⁻¹(x) with 1/f(x).\r\n\r\n",
-    "tricks": "# Tricks & Problem-Solving Techniques — Functions as Objects\r\n\r\n> Faster, cleaner ways to handle this topic.\r\n\r\n- Use the vertical-line test to check something is a function.\r\n\r\n- To find an inverse, swap x and y and solve for y.\r\n\r\n- Inside the bracket shifts horizontally (opposite sign); outside shifts vertically.\r\n\r\n",
-    "memoryAids": "# Memory & Retention Aids — Functions as Objects\r\n\r\n> How to remember this — and keep it.\r\n\r\n- \"One input, one output\" defines a function.\r\n\r\n- \"Inverse swaps x and y.\"\r\n\r\n- \"Inside the bracket = horizontal, opposite sign.\"\r\n\r\n",
+    "notes": "# Functions as Objects\n\n> [!intro] **A function is a machine with one rule: one input, one output.** That single restriction is what makes functions predictable enough to build mathematics on — and it is why $y = \\pm\\sqrt{x}$ is not a function while $y = x^2$ is. Once you think of a function as an object in its own right (something you can compose, invert and transform), graphs stop being curves to memorise and become a small number of shapes moved around.\n\n## 1. The defining rule: one input, one output\n\nA **function** $f$ assigns to each input exactly one output. Write $f(x)$ for the output at $x$ — read \"f of x\", never \"f times x\".\n\nThe **domain** is the set of allowed inputs; the **range** is the set of outputs actually produced. Domain restrictions come from three places, and they are worth checking before anything else:\n\n- **Division by zero:** $f(x) = \\dfrac{1}{x-2}$ excludes $x = 2$.\n- **Even roots of negatives:** $f(x) = \\sqrt{x-3}$ needs $x \\ge 3$.\n- **Context:** a function giving the area of a square of side $s$ needs $s > 0$, whatever the algebra allows.\n\nThe **vertical line test** turns the defining rule into something you can see: if any vertical line meets a graph more than once, that input has two outputs and the graph is not a function. A circle fails it; a parabola passes.\n\nNote carefully that the restriction is **one-directional**. A function may send two different inputs to the same output — $f(x) = x^2$ sends both $3$ and $-3$ to $9$, and that is perfectly legal. What is forbidden is one input giving two outputs. A function that never repeats an output is called **one-to-one**, and that property is exactly what decides whether it can be inverted.\n\n```formula Key formulas\nf(x): exactly one output per input\nDomain = allowed inputs;  range = outputs produced\nExclude: division by zero, even roots of negatives, context-impossible values\nVertical line test: more than one intersection ⇒ not a function\n```\n\n## 2. Composition: functions applied in sequence\n\nComposing means feeding one function's output into another. $(f \\circ g)(x) = f(g(x))$ means **do $g$ first**, then $f$ — read it inside-out, like brackets.\n\nWith $f(x) = 2x + 1$ and $g(x) = x^2$:\n\n$$f(g(x)) = f(x^2) = 2x^2 + 1, \\qquad g(f(x)) = g(2x+1) = (2x+1)^2$$\n\nThese are different functions — at $x = 3$ they give 19 and 49. **Composition is not commutative**, and expecting it to be is the standard error. The everyday analogy is reliable: putting on socks then shoes is not the same as shoes then socks.\n\nThe domain of a composition needs care: $x$ must be valid for $g$, *and* $g(x)$ must be valid for $f$. If $f(x) = \\sqrt{x}$ and $g(x) = x - 5$, then $f(g(x)) = \\sqrt{x-5}$ requires $x \\ge 5$ even though $g$ alone accepts everything.\n\n> [!example] **Order matters**\n>\n> **Problem.** For $f(x)=2x+1$ and $g(x)=x^2$, evaluate $f(g(3))$ and $g(f(3))$.\n>\n> **Solution.** $f(g(3)) = f(9) = 19$. $g(f(3)) = g(7) = 49$. Do the inner function first in each case.\n>\n> *Composition reads inside-out, and swapping the order changes the answer.*\n\n## 3. Inverses: undoing a function\n\nThe **inverse** $f^{-1}$ undoes $f$: $f^{-1}(f(x)) = x$. Its graph is the reflection of $f$ in the line $y = x$, because reflecting swaps the roles of input and output.\n\nTo find it, swap $x$ and $y$ and solve for $y$. For $f(x) = 2x + 1$:\n\n$$y = 2x+1 \\;\\to\\; x = 2y+1 \\;\\to\\; y = \\frac{x-1}{2}$$\n\nCheck by composing: $f^{-1}(f(3)) = f^{-1}(7) = 3$ ✓.\n\n**An inverse exists only if the function is one-to-one.** $f(x) = x^2$ has no inverse over all reals, because $f(3) = f(-3) = 9$ and the inverse could not decide which to return. Restricting the domain to $x \\ge 0$ makes it one-to-one, and then $f^{-1}(x) = \\sqrt{x}$ — which is precisely why the square-root symbol is defined to return only the positive root. The **horizontal line test** detects this: if a horizontal line meets the graph twice, there is no inverse.\n\nNotation trap: $f^{-1}(x)$ means the inverse function, **not** $\\dfrac{1}{f(x)}$. The superscript $-1$ is behaving like the \"undo\" it does for operations, not like an exponent.\n\n```formula Key formulas\nf⁻¹(f(x)) = x;  graph of f⁻¹ is f reflected in y = x\nFind it by swapping x and y, then solving for y\nExists only if f is one-to-one (horizontal line test)\nf⁻¹(x) is the inverse function, NOT 1/f(x)\n```\n\n## 4. Transformations: one shape, moved around\n\nRather than learning every graph separately, learn a few parent shapes and how four transformations move them.\n\n| Change | Effect | Direction |\n|---|---|---|\n| $f(x) + a$ | shift **up** by $a$ | as expected |\n| $f(x + a)$ | shift **left** by $a$ | **opposite** to expectation |\n| $a\\,f(x)$ | stretch vertically by $a$ | as expected |\n| $f(ax)$ | squash horizontally by $a$ | **opposite** (factor $\\tfrac1a$) |\n| $-f(x)$ | reflect in the $x$-axis | — |\n| $f(-x)$ | reflect in the $y$-axis | — |\n\n**Inside the bracket, everything behaves backwards**, and this is the point students find genuinely counter-intuitive. Why does $f(x+3)$ shift *left*? Because the graph reaches a given output *sooner*: whatever $f$ did at $x = 0$, the new function does at $x = -3$.\n\nSo $y = (x-2)^2 + 3$ is the parabola $y = x^2$ moved 2 right and 3 up, with vertex $(2, 3)$ — which is exactly the vertex form from Quadratics, now recognisable as a transformation rather than a separate formula.\n\nParent shapes worth knowing on sight: $y = x$ (line), $y = x^2$ (parabola), $y = x^3$, $y = \\tfrac1x$ (hyperbola), $y = \\sqrt{x}$, $y = |x|$.\n\n> [!example] **Reading a transformed graph**\n>\n> **Problem.** Describe $y = -2(x+1)^2 + 5$ as transformations of $y = x^2$.\n>\n> **Solution.** Inside the bracket, $+1$ shifts **left** 1. The factor 2 stretches vertically by 2, the minus reflects in the $x$-axis, and $+5$ shifts up 5. The vertex moves from $(0,0)$ to $(-1, 5)$, and the parabola opens downward.\n>\n> *Inside the bracket acts horizontally and backwards; outside acts vertically and as written.*\n\n```formula Key formulas\nOne input → exactly one output (vertical line test)\n(f∘g)(x) = f(g(x)) — inner function first; not commutative\nInverse: swap x and y, solve; needs one-to-one (horizontal line test)\nf(x) + a up;  f(x + a) LEFT;  a·f(x) vertical stretch;  f(ax) horizontal squash\n−f(x) reflects in x-axis;  f(−x) reflects in y-axis\n```\n\n## What you should be able to do\n\n- Use function notation and find domain/range\n- Compose and invert functions\n- Transform graphs (shift, stretch, reflect)\n\n## Summary — the mental toolkit\n\n1. A function gives exactly one output per input; two inputs may share an output.\n2. Domain excludes division by zero, even roots of negatives, and context-impossible values.\n3. The vertical line test checks functionhood; the horizontal line test checks invertibility.\n4. Composition applies the inner function first and is not commutative.\n5. An inverse reflects the graph in y = x and exists only for one-to-one functions.\n6. f⁻¹ means inverse, never reciprocal.\n7. Transformations inside the bracket act horizontally and in reverse; outside, vertically and as written.\n\n---\n\n_A deep-dive topic in The Ultimate Learner — every one of the six learning layers, at exam depth._\n",
+    "mistakes": "# Common Mistakes — Functions as Objects\n\n> Every learner hits these. Read the *why* — that is what stops the mistake coming back.\n\n- **Reading f(x) as f times x.** **Fix:** it is the output of the machine f at input x; the brackets are notation, not multiplication.\n\n- **Assuming f(g(x)) = g(f(x)).** **Fix:** test with a number — for f(x)=2x+1, g(x)=x², at x=3 you get 19 versus 49. Socks then shoes.\n\n- **Treating f⁻¹(x) as 1/f(x).** **Fix:** the inverse undoes the function; check by composing, since f⁻¹(f(3)) must return 3.\n\n- **Inverting a function that is not one-to-one.** Claiming the inverse of x² is √x over all reals. **Fix:** restrict the domain to x ≥ 0 first; otherwise the inverse cannot choose between 3 and −3.\n\n- **Shifting the wrong way for f(x + a).** **Fix:** inside the bracket everything is reversed — f(x+3) moves the graph 3 to the LEFT. Test one point to confirm.\n\n- **Forgetting to restrict the domain of a composition.** √(x−5) requires x ≥ 5 even though x − 5 accepts anything. **Fix:** check validity for both the inner and the outer function.\n\n- **Confusing domain with range.** **Fix:** domain is what goes in (read left to right), range is what comes out (read bottom to top).\n\n",
+    "tricks": "# Tricks & Problem-Solving Techniques — Functions as Objects\n\n> Faster, cleaner ways to handle this topic — and when each one applies.\n\n- **Test any function claim with a specific number.** It settles composition order, inverse checks and transformation directions in seconds.\n\n- **Find the domain by asking what breaks:** a zero denominator, a negative under an even root, or an impossible context.\n\n- **Verify an inverse by composing both ways** — f⁻¹(f(x)) and f(f⁻¹(x)) must both return x.\n\n- **Track a single point through a transformation.** Follow the vertex or the origin and the whole graph follows.\n\n- **Read transformations outside-in for vertical effects and inside-out for horizontal ones**, remembering that horizontal effects are reversed.\n\n- **Recognise vertex form as a transformation:** y = a(x−h)² + k is the parabola moved h right and k up — one idea serving two topics.\n\n",
+    "memoryAids": "# Memory & Retention Aids — Functions as Objects\n\n> How to remember this — and still have it months later.\n\n- \"One input, one output\" — the whole definition.\n\n- \"Vertical line test for functions; horizontal line test for inverses.\"\n\n- \"Inside the bracket, backwards\" for horizontal transformations.\n\n- \"Inner function first\" when composing.\n\n- \"f⁻¹ undoes, it does not divide.\"\n\n- \"Socks and shoes\" — composition order matters.\n\n",
     "quiz": {
       "topicId": "math.I2.functions",
       "levels": {
         "1": [
           {
-            "id": "math_I2_functions_q1",
+            "id": "math_I2_functions_l1_q1",
             "type": "numeric",
-            "prompt": "If f(x) = 2x + 1, find f(3).",
+            "prompt": "If f(x) = 2x + 1, what is f(3)?",
             "answer": 7,
             "tolerance": 0,
-            "explanation": "f(3) = 2(3) + 1 = 7."
+            "explanation": "2(3) + 1 = 7."
+          },
+          {
+            "id": "math_I2_functions_l1_q2",
+            "type": "mcq",
+            "prompt": "Which graph fails the vertical line test?",
+            "choices": [
+              "a circle",
+              "a parabola",
+              "a straight line",
+              "y = x³"
+            ],
+            "answer": 0,
+            "explanation": "A vertical line cuts a circle twice, so one input would have two outputs."
+          },
+          {
+            "id": "math_I2_functions_l1_q3",
+            "type": "mcq",
+            "prompt": "What is the domain of f(x) = 1/(x − 2)?",
+            "choices": [
+              "all real x except 2",
+              "all real x",
+              "x > 2 only",
+              "x ≥ 0"
+            ],
+            "answer": 0,
+            "explanation": "The denominator is zero at x = 2, so that input must be excluded."
+          },
+          {
+            "id": "math_I2_functions_l1_q4",
+            "type": "mcq",
+            "prompt": "The graph of f⁻¹ is the graph of f reflected in:",
+            "choices": [
+              "y = x",
+              "the x-axis",
+              "the y-axis",
+              "the origin"
+            ],
+            "answer": 0,
+            "explanation": "Inverting swaps input and output, which reflects the graph in the line y = x."
           }
         ],
         "2": [
           {
-            "id": "math_I2_functions_q2",
+            "id": "math_I2_functions_l2_q1",
             "type": "numeric",
-            "prompt": "If f(x)=x+2 and g(x)=3x, find f(g(2)).",
-            "answer": 8,
+            "prompt": "For f(x) = 2x + 1 and g(x) = x², what is f(g(3))?",
+            "answer": 19,
             "tolerance": 0,
-            "explanation": "g(2)=6, then f(6)=8."
+            "explanation": "Inner first: g(3) = 9, then f(9) = 19."
+          },
+          {
+            "id": "math_I2_functions_l2_q2",
+            "type": "numeric",
+            "prompt": "For the same functions, what is g(f(3))?",
+            "answer": 49,
+            "tolerance": 0,
+            "explanation": "f(3) = 7, then g(7) = 49 — different from f(g(3)), since composition is not commutative."
+          },
+          {
+            "id": "math_I2_functions_l2_q3",
+            "type": "mcq",
+            "prompt": "What is the inverse of f(x) = 2x + 1?",
+            "choices": [
+              "(x − 1)/2",
+              "1/(2x + 1)",
+              "2x − 1",
+              "(x + 1)/2"
+            ],
+            "answer": 0,
+            "explanation": "Swap and solve: x = 2y + 1 gives y = (x−1)/2. Check: f⁻¹(7) = 3 ✓."
+          },
+          {
+            "id": "math_I2_functions_l2_q4",
+            "type": "mcq",
+            "prompt": "How does the graph of y = f(x + 3) relate to y = f(x)?",
+            "choices": [
+              "shifted 3 units left",
+              "shifted 3 units right",
+              "shifted 3 units up",
+              "stretched by 3"
+            ],
+            "answer": 0,
+            "explanation": "Inside the bracket the effect is horizontal and reversed — the graph reaches each output 3 units sooner."
           }
         ],
-        "3": []
+        "3": [
+          {
+            "id": "math_I2_functions_l3_q1",
+            "type": "mcq",
+            "prompt": "Why does f(x) = x² have no inverse over all real numbers?",
+            "choices": [
+              "it is not one-to-one — f(3) = f(−3) = 9, so the inverse could not choose",
+              "because it is a curve",
+              "because its range is all reals",
+              "it does have an inverse, namely √x"
+            ],
+            "answer": 0,
+            "explanation": "An inverse needs each output to come from exactly one input. Restricting to x ≥ 0 fixes this, which is why √ returns only the positive root."
+          },
+          {
+            "id": "math_I2_functions_l3_q2",
+            "type": "mcq",
+            "prompt": "Describe y = −2(x + 1)² + 5 as transformations of y = x².",
+            "choices": [
+              "left 1, stretch ×2, reflect in the x-axis, up 5",
+              "right 1, stretch ×2, reflect in the y-axis, up 5",
+              "left 1, squash ×2, up 5",
+              "right 1, reflect in the x-axis, down 5"
+            ],
+            "answer": 0,
+            "explanation": "Inside the bracket: +1 shifts left. Outside: ×2 stretches, the minus reflects vertically, +5 shifts up. Vertex (−1, 5)."
+          },
+          {
+            "id": "math_I2_functions_l3_q3",
+            "type": "mcq",
+            "prompt": "What is the domain of f(g(x)) where f(x) = √x and g(x) = x − 5?",
+            "choices": [
+              "x ≥ 5",
+              "all real x",
+              "x ≥ 0",
+              "x > 5"
+            ],
+            "answer": 0,
+            "explanation": "The composition is √(x−5), which needs x − 5 ≥ 0. The inner function alone would accept any x."
+          },
+          {
+            "id": "math_I2_functions_l3_q4",
+            "type": "mcq",
+            "prompt": "A function sends both 2 and 5 to the output 10. Is it still a function?",
+            "choices": [
+              "yes — only one output per input is required, not one input per output",
+              "no, outputs must be unique",
+              "only if the domain is restricted",
+              "only if it is linear"
+            ],
+            "answer": 0,
+            "explanation": "The rule is one-directional. Such a function is simply not one-to-one, which means it has no inverse unless the domain is restricted."
+          }
+        ]
       }
     }
   },
@@ -15001,14 +15461,14 @@
     "title": "Calculus Intuition: Integrals",
     "slug": "integrals-intuition",
     "core": true,
-    "depth": "module",
+    "depth": "deep",
     "summary": "Accumulation and area under a curve — the reverse of differentiation.",
     "outcomes": [
       "Interpret an integral as accumulated area",
       "Integrate simple powers",
       "Relate integration and differentiation"
     ],
-    "estMinutes": 180,
+    "estMinutes": 240,
     "prereqs": [
       "math.I2.derivatives-intuition"
     ],
@@ -15033,19 +15493,31 @@
       "accumulation",
       "antiderivative"
     ],
-    "notes": "# Calculus Intuition: Integrals\r\n\r\n> [!intro] Accumulation and area under a curve — the reverse of differentiation.\r\n\r\n## Area as accumulation\r\n\r\nThe integral adds up infinitely many thin slices to give the area under a curve — which represents total accumulated quantity (e.g., distance from a velocity graph).\r\n\r\n## The reverse of the derivative\r\n\r\nIntegration undoes differentiation: ∫xⁿ dx = x^(n+1)/(n+1) + C. This Fundamental Theorem links the two halves of calculus.\r\n\r\n```formula Key formulas\r\n∫ xⁿ dx = x^(n+1)/(n+1) + C  (n ≠ −1)\r\nDefinite integral = signed area under the curve\r\nIntegration undoes differentiation\r\n```\r\n\r\n> [!example] **Worked example**\r\n> **Problem.** Evaluate ∫ from 0 to 3 of 2x dx.\r\n> >\r\n> > **Solution.** ∫ 2x dx = x². Evaluate 0→3: 3² − 0² = 9. (This is the area of the triangle under y = 2x.)\r\n\r\n## What you should be able to do\r\n\r\n- Interpret an integral as accumulated area\r\n- Integrate simple powers\r\n- Relate integration and differentiation\r\n\r\n---\r\n\r\n_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 \"deep dive\" topics show the target depth; modules are deepened over time._\r\n",
-    "mistakes": "# Common Mistakes — Calculus Intuition: Integrals\r\n\r\n> Every learner hits these — spot them before they cost you.\r\n\r\n- Forgetting the constant of integration +C in indefinite integrals.\r\n\r\n- Dividing by the old power instead of the new (n+1).\r\n\r\n- Confusing the area interpretation (definite) with the antiderivative (indefinite).\r\n\r\n",
-    "tricks": "# Tricks & Problem-Solving Techniques — Calculus Intuition: Integrals\r\n\r\n> Faster, cleaner ways to handle this topic.\r\n\r\n- Integrate a power: raise the exponent by one, divide by the new exponent.\r\n\r\n- Area under a velocity–time graph = distance travelled.\r\n\r\n- Differentiate your answer to check the integral.\r\n\r\n",
-    "memoryAids": "# Memory & Retention Aids — Calculus Intuition: Integrals\r\n\r\n> How to remember this — and keep it.\r\n\r\n- \"Integral = area = accumulation.\"\r\n\r\n- \"Raise the power, divide by the new power, add C.\"\r\n\r\n- Integration and differentiation are inverses.\r\n\r\n",
+    "notes": "# Calculus Intuition: Integrals\n\n> [!intro] **If differentiation asks \"how fast?\", integration asks \"how much in total?\"** Accumulate a rate over time and you get the amount: accumulate speed and you get distance; accumulate flow and you get volume. Geometrically that accumulation is the **area under a curve**, and the astonishing discovery — the Fundamental Theorem of Calculus — is that this area problem and the tangent problem are inverses of each other.\n\n## 1. Area as accumulated rate\n\nTravel at a constant 60 km/h for 2 hours and you cover 120 km. On a speed–time graph that is a rectangle of height 60 and width 2 — the **area** under the graph.\n\nThat is not a coincidence of the rectangular case. Whenever a rate is plotted against time, **the area under the graph is the accumulated total**, because area = height × width = rate × interval. The units confirm it: (km/h) × h = km.\n\nWhen the rate varies, the region is no longer a rectangle, so approximate it with many thin ones. Divide $[a,b]$ into $n$ strips of width $\\Delta x$ and sum:\n\n$$\\text{Area} \\approx \\sum f(x_i)\\,\\Delta x$$\n\nEach strip is a small rectangle: its height is the function value, its width the interval. As the strips get thinner the approximation improves, and the **definite integral** is the limit:\n\n$$\\int_a^b f(x)\\,dx = \\lim_{\\Delta x \\to 0}\\sum f(x_i)\\,\\Delta x$$\n\nThe notation records exactly this: $\\int$ is an elongated S for \"sum\", $f(x)$ is the height, and $dx$ is the infinitesimal width. Reading the symbols as \"sum of height × width\" makes them meaningful rather than decorative.\n\n```svg\n<svg viewBox=\"0 0 400 170\" role=\"img\" aria-label=\"Rectangles approximating the area under a curve\" xmlns=\"http://www.w3.org/2000/svg\">\n  <line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"140\" stroke=\"#6b7a99\" stroke-width=\"2\"/>\n  <line x1=\"40\" y1=\"140\" x2=\"370\" y2=\"140\" stroke=\"#6b7a99\" stroke-width=\"2\"/>\n  <g fill=\"#6366f1\" fill-opacity=\"0.45\" stroke=\"#6366f1\">\n    <rect x=\"70\" y=\"118\" width=\"38\" height=\"22\"/>\n    <rect x=\"108\" y=\"102\" width=\"38\" height=\"38\"/>\n    <rect x=\"146\" y=\"86\" width=\"38\" height=\"54\"/>\n    <rect x=\"184\" y=\"72\" width=\"38\" height=\"68\"/>\n    <rect x=\"222\" y=\"60\" width=\"38\" height=\"80\"/>\n    <rect x=\"260\" y=\"50\" width=\"38\" height=\"90\"/>\n  </g>\n  <path d=\"M70 126 Q 200 92 300 44\" fill=\"none\" stroke=\"#6ee7a8\" stroke-width=\"2.5\"/>\n  <text x=\"200\" y=\"163\" font-size=\"11\" fill=\"#9aa8c4\" text-anchor=\"middle\">thinner strips → the integral</text>\n</svg>\n```\n\n## 2. Integration undoes differentiation\n\nThe **Fundamental Theorem of Calculus** links the two halves of the subject: differentiation and integration are inverse operations. So to integrate, reverse the power rule.\n\nDifferentiating multiplies by the power and lowers it; integrating therefore **raises the power and divides by the new one**:\n\n$$\\int x^n\\,dx = \\frac{x^{n+1}}{n+1} + C \\qquad (n \\ne -1)$$\n\nCheck it by differentiating back: $\\dfrac{d}{dx}\\left(\\dfrac{x^3}{3}\\right) = x^2$ ✓. **Every integral is self-checking this way**, which means you never need to be uncertain.\n\nThe **$+C$** is not a decoration. Since every constant differentiates to zero, infinitely many functions share a derivative: $x^2$, $x^2+7$ and $x^2-3$ all differentiate to $2x$. The indefinite integral therefore describes a *family* of curves, all vertical shifts of one another. Omitting $C$ claims you know which member, and you do not — unless the problem gives an extra condition (an initial value) that pins it down.\n\nThe exclusion $n \\ne -1$ exists because $n+1$ would be zero, and division by zero is undefined. That case, $\\int \\tfrac1x dx = \\ln|x| + C$, is exactly where the natural logarithm enters calculus.\n\n```formula Key formulas\n∫xⁿ dx = xⁿ⁺¹/(n+1) + C,  n ≠ −1\n∫k dx = kx + C\nIntegration is the inverse of differentiation — check by differentiating back\n+C because every constant differentiates to 0\n∫(1/x) dx = ln|x| + C\n```\n\n## 3. Definite integrals: evaluating an area\n\nA **definite** integral has limits and produces a number, not a family. Find any antiderivative $F$ and subtract:\n\n$$\\int_a^b f(x)\\,dx = F(b) - F(a)$$\n\nThe constant $C$ cancels in the subtraction, which is why definite integrals need no $+C$.\n\n$$\\int_0^3 x^2\\,dx = \\left[\\frac{x^3}{3}\\right]_0^3 = 9 - 0 = 9$$\n\nTwo subtleties matter for interpretation:\n\n- **Area below the axis counts as negative.** $\\int_0^{2\\pi}\\sin x\\,dx = 0$, because the positive and negative halves cancel exactly. If a problem asks for *total area* rather than the net integral, split at the crossing points and add the absolute values.\n- **Order of limits matters:** $\\int_b^a = -\\int_a^b$. Swapping the limits reverses the sign.\n\nIn applied contexts the sign is meaningful rather than a nuisance: for a velocity that changes direction, the definite integral gives **displacement** (net change in position) while the total area gives **distance travelled**. That is precisely the displacement-versus-distance distinction from Physics F1, now computable for any velocity function.\n\n> [!example] **Displacement versus distance**\n>\n> **Problem.** A particle has velocity $v = t - 3$ m/s for $0 \\le t \\le 5$. Find its displacement and the distance it travels.\n>\n> **Solution.** Displacement: $\\int_0^5 (t-3)dt = \\left[\\tfrac{t^2}{2}-3t\\right]_0^5 = 12.5 - 15 = -2.5$ m. The velocity changes sign at $t=3$, so for distance split there: $\\left|\\int_0^3\\right| = |4.5-9| = 4.5$ and $\\int_3^5 = (12.5-15)-(4.5-9) = 2$. Total distance $= 6.5$ m.\n>\n> *The integral gives net displacement; total distance needs the sign changes handled separately.*\n\n## 4. What integration is actually used for\n\nAny time you know a **rate** and want a **total**, integration is the tool.\n\n| Rate known | Integral gives |\n|---|---|\n| velocity $v(t)$ | displacement |\n| acceleration $a(t)$ | change in velocity |\n| flow rate (L/s) | volume delivered |\n| power (W) | energy used (J) |\n| population growth rate | change in population |\n| force over distance | work done |\n\nThe reverse chain in kinematics is worth seeing whole: integrate acceleration to get velocity, integrate again for displacement — the exact inverse of differentiating displacement twice to get acceleration.\n\n*Example.* A tank fills at $r(t) = 4t$ litres per minute. How much enters during the first 3 minutes?\n\n$$\\int_0^3 4t\\,dt = \\left[2t^2\\right]_0^3 = 18 \\text{ litres}$$\n\nSanity-check it: the rate rises linearly from 0 to 12 L/min, averaging 6 L/min over 3 minutes, which gives 18 L ✓. For a linear rate the region is a triangle, so $\\tfrac12 \\times 3 \\times 12 = 18$ confirms it geometrically as well.\n\nIntegration also recovers **areas and volumes** that no elementary formula covers — the area between two curves, or a volume of revolution — which is the subject of A1 Integration Techniques.\n\n```formula Key formulas\n∫ₐᵇ f(x)dx = F(b) − F(a), where F′ = f\n∫xⁿ dx = xⁿ⁺¹/(n+1) + C (n ≠ −1)\nArea below the axis is negative; ∫ᵦᵃ = −∫ₐᵇ\nDefinite integrals need no +C — it cancels in the subtraction\nIntegrate a rate to get the total accumulated\n```\n\n## What you should be able to do\n\n- Interpret an integral as accumulated area\n- Integrate simple powers\n- Relate integration and differentiation\n\n## Summary — the mental toolkit\n\n1. The area under a rate–time graph is the accumulated total, because height × width = rate × interval.\n2. The definite integral is the limit of a sum of thin rectangles — the notation says \"sum of height × width\".\n3. Integration reverses differentiation: raise the power, divide by the new one.\n4. The +C exists because every constant differentiates to zero; an initial condition pins it down.\n5. A definite integral is F(b) − F(a), and C cancels.\n6. Area below the axis is negative — net displacement versus total distance.\n7. Any \"rate known, total wanted\" problem is an integration problem.\n\n---\n\n_A deep-dive topic in The Ultimate Learner — every one of the six learning layers, at exam depth._\n",
+    "mistakes": "# Common Mistakes — Calculus Intuition: Integrals\n\n> Every learner hits these. Read the *why* — that is what stops the mistake coming back.\n\n- **Omitting the +C** in an indefinite integral. **Fix:** the answer is a family of curves; without an initial condition you cannot name one member.\n\n- **Adding +C to a definite integral.** **Fix:** it cancels in F(b) − F(a), so it is simply not needed there.\n\n- **Applying the power rule with n = −1.** **Fix:** it would divide by zero; ∫(1/x)dx = ln|x| + C instead.\n\n- **Lowering the power instead of raising it.** **Fix:** integration is the reverse of differentiation — check by differentiating your answer back.\n\n- **Subtracting the limits in the wrong order.** **Fix:** it is F(top) − F(bottom); swapping flips the sign.\n\n- **Treating a negative integral as an error.** **Fix:** area below the axis genuinely counts negative; in kinematics that is motion in the reverse direction.\n\n- **Reporting the net integral when total distance was asked.** **Fix:** find where the function crosses the axis, integrate each piece, and add the absolute values.\n\n- **Forgetting that the +C from an initial condition changes the answer.** **Fix:** substitute the given condition and solve for C before using the function.\n\n",
+    "tricks": "# Tricks & Problem-Solving Techniques — Calculus Intuition: Integrals\n\n> Faster, cleaner ways to handle this topic — and when each one applies.\n\n- **Check every integral by differentiating it back.** This makes integration the one topic where you can always verify your own answer.\n\n- **Read the notation as its meaning:** ∫ is a sum, f(x) is a height, dx is a width.\n\n- **Sanity-check areas geometrically** where the shape is simple — a linear rate gives a triangle or trapezium you can compute without calculus.\n\n- **For total distance, find the roots of v(t) first**, then integrate between them and take absolute values.\n\n- **Check the units to confirm what an integral means:** (L/s) × s = L, (m/s) × s = m. The units tell you what you have computed.\n\n- **Use an initial condition immediately** to fix C, rather than carrying an unknown constant through later work.\n\n- **Remember the pairing:** differentiate to go from amount to rate, integrate to go from rate to amount.\n\n",
+    "memoryAids": "# Memory & Retention Aids — Calculus Intuition: Integrals\n\n> How to remember this — and still have it months later.\n\n- \"Differentiation asks how fast; integration asks how much.\"\n\n- \"Area under a rate is the total.\"\n\n- \"Raise the power, divide by the new one\" — the reverse of the derivative rule.\n\n- \"Plus C, because constants vanish when you differentiate.\"\n\n- \"Top minus bottom\" for definite integrals.\n\n- \"Below the axis is negative.\"\n\n- \"Check by differentiating back.\"\n\n",
     "quiz": {
       "topicId": "math.I2.integrals-intuition",
       "levels": {
-        "1": [],
-        "2": [
+        "1": [
           {
-            "id": "math_I2_integrals_intuition_q1",
+            "id": "math_I2_integrals_intuition_l1_q1",
             "type": "mcq",
-            "prompt": "Find ∫ x² dx.",
+            "prompt": "What does the area under a speed–time graph represent?",
+            "choices": [
+              "distance travelled",
+              "acceleration",
+              "average speed",
+              "time elapsed"
+            ],
+            "answer": 0,
+            "explanation": "Height × width = speed × time = distance. The units confirm it."
+          },
+          {
+            "id": "math_I2_integrals_intuition_l1_q2",
+            "type": "mcq",
+            "prompt": "Find ∫x² dx.",
             "choices": [
               "x³/3 + C",
               "2x + C",
@@ -15053,23 +15525,123 @@
               "3x³ + C"
             ],
             "answer": 0,
-            "explanation": "Raise power to 3, divide by 3, add C."
+            "explanation": "Raise the power to 3 and divide by 3. Differentiating back gives x². ✓"
           },
           {
-            "id": "math_I2_integrals_intuition_q2",
+            "id": "math_I2_integrals_intuition_l1_q3",
+            "type": "numeric",
+            "prompt": "Evaluate ∫₀³ x² dx.",
+            "answer": 9,
+            "tolerance": 0,
+            "explanation": "[x³/3] from 0 to 3 = 9 − 0 = 9."
+          },
+          {
+            "id": "math_I2_integrals_intuition_l1_q4",
             "type": "mcq",
-            "prompt": "The area under a velocity–time graph represents:",
+            "prompt": "Why does an indefinite integral include + C?",
             "choices": [
-              "distance",
-              "acceleration",
-              "speed",
-              "time"
+              "every constant differentiates to 0, so infinitely many functions share the derivative",
+              "to make the answer look complete",
+              "because integration is approximate",
+              "to account for negative areas"
             ],
             "answer": 0,
-            "explanation": "Accumulating velocity over time gives distance."
+            "explanation": "x², x²+7 and x²−3 all differentiate to 2x, so the antiderivative is a family of curves."
           }
         ],
-        "3": []
+        "2": [
+          {
+            "id": "math_I2_integrals_intuition_l2_q1",
+            "type": "numeric",
+            "prompt": "A tank fills at r(t) = 4t litres per minute. How many litres enter in the first 3 minutes?",
+            "answer": 18,
+            "tolerance": 0,
+            "explanation": "∫₀³ 4t dt = [2t²]₀³ = 18 L. Check: average rate 6 L/min over 3 min = 18 L."
+          },
+          {
+            "id": "math_I2_integrals_intuition_l2_q2",
+            "type": "mcq",
+            "prompt": "Why is ∫xⁿ dx = xⁿ⁺¹/(n+1) invalid when n = −1?",
+            "choices": [
+              "it would divide by zero; the answer is ln|x| + C",
+              "because x⁻¹ is not a power",
+              "because the integral diverges everywhere",
+              "it is valid for n = −1"
+            ],
+            "answer": 0,
+            "explanation": "n + 1 = 0, so the formula breaks. That case is exactly where the natural logarithm enters calculus."
+          },
+          {
+            "id": "math_I2_integrals_intuition_l2_q3",
+            "type": "mcq",
+            "prompt": "A definite integral evaluates to a negative number. What does this mean?",
+            "choices": [
+              "more of the region lies below the axis than above",
+              "a calculation error has occurred",
+              "the limits were equal",
+              "the function is undefined"
+            ],
+            "answer": 0,
+            "explanation": "Area below the axis counts negative, so the integral gives the net signed area."
+          },
+          {
+            "id": "math_I2_integrals_intuition_l2_q4",
+            "type": "mcq",
+            "prompt": "What is ∫ₐᵇ f(x)dx in terms of an antiderivative F?",
+            "choices": [
+              "F(b) − F(a)",
+              "F(a) − F(b)",
+              "F(b) + F(a)",
+              "F(b − a)"
+            ],
+            "answer": 0,
+            "explanation": "Top limit minus bottom limit; the constant C cancels in the subtraction."
+          }
+        ],
+        "3": [
+          {
+            "id": "math_I2_integrals_intuition_l3_q1",
+            "type": "numeric",
+            "prompt": "A particle has v = t − 3 m/s for 0 ≤ t ≤ 5. What is its displacement in metres?",
+            "answer": -2.5,
+            "tolerance": 0.01,
+            "explanation": "[t²/2 − 3t]₀⁵ = 12.5 − 15 = −2.5 m — a net movement backwards."
+          },
+          {
+            "id": "math_I2_integrals_intuition_l3_q2",
+            "type": "numeric",
+            "prompt": "For that same particle, what total distance does it travel, in metres?",
+            "answer": 6.5,
+            "tolerance": 0.01,
+            "explanation": "v changes sign at t = 3. |∫₀³| = 4.5 and ∫₃⁵ = 2, so the total distance is 6.5 m."
+          },
+          {
+            "id": "math_I2_integrals_intuition_l3_q3",
+            "type": "mcq",
+            "prompt": "What does the Fundamental Theorem of Calculus assert?",
+            "choices": [
+              "differentiation and integration are inverse operations, linking tangents to areas",
+              "every function has an area under it",
+              "all integrals can be evaluated exactly",
+              "derivatives are always positive"
+            ],
+            "answer": 0,
+            "explanation": "It connects the two apparently unrelated problems — instantaneous slope and accumulated area — as inverses, which is what makes the definite integral computable via antiderivatives."
+          },
+          {
+            "id": "math_I2_integrals_intuition_l3_q4",
+            "type": "mcq",
+            "prompt": "You know a tank's flow rate in L/s and integrate over seconds. What are the units of the result?",
+            "choices": [
+              "litres",
+              "litres per second",
+              "seconds",
+              "litres per second squared"
+            ],
+            "answer": 0,
+            "explanation": "(L/s) × s = L. Checking units is a reliable way to confirm what an integral has actually computed."
+          }
+        ]
       }
     }
   },
@@ -15080,14 +15652,14 @@
     "title": "Trigonometry II",
     "slug": "trigonometry-ii",
     "core": true,
-    "depth": "module",
+    "depth": "deep",
     "summary": "Identities, trigonometric equations, and the sine and cosine rules for any triangle.",
     "outcomes": [
       "Use key trig identities",
       "Solve trigonometric equations",
       "Apply the sine and cosine rules"
     ],
-    "estMinutes": 180,
+    "estMinutes": 240,
     "prereqs": [
       "math.I2.functions"
     ],
@@ -15112,42 +15684,163 @@
       "cosine rule",
       "equations"
     ],
-    "notes": "# Trigonometry II\r\n\r\n> [!intro] Identities, trigonometric equations, and the sine and cosine rules for any triangle.\r\n\r\n## Identities\r\n\r\nsin²θ + cos²θ = 1 and the addition formulas let you rewrite and simplify trig expressions. Identities are the algebra of trigonometry.\r\n\r\n## Rules for any triangle\r\n\r\nThe sine rule (a/sin A = b/sin B) and cosine rule (c² = a² + b² − 2ab cos C) extend trig to non-right triangles — vital in physics and surveying.\r\n\r\n```formula Key formulas\r\nsin²θ + cos²θ = 1\r\nSine rule: a/sin A = b/sin B = c/sin C\r\nCosine rule: c² = a² + b² − 2ab cos C\r\n```\r\n\r\n> [!example] **Worked example**\r\n> **Problem.** A triangle has sides a=5, b=7 with included angle C=60°. Find c.\r\n> >\r\n> > **Solution.** c² = 5² + 7² − 2·5·7·cos60° = 25 + 49 − 70(0.5) = 74 − 35 = 39 → c = √39 ≈ 6.24.\r\n\r\n## What you should be able to do\r\n\r\n- Use key trig identities\r\n- Solve trigonometric equations\r\n- Apply the sine and cosine rules\r\n\r\n---\r\n\r\n_A structured module in The Ultimate Learner — the essentials with all six learning layers. The three F1 \"deep dive\" topics show the target depth; modules are deepened over time._\r\n",
-    "mistakes": "# Common Mistakes — Trigonometry II\r\n\r\n> Every learner hits these — spot them before they cost you.\r\n\r\n- Forgetting sin²θ means (sin θ)², not sin(θ²).\r\n\r\n- Losing solutions of a trig equation by ignoring periodicity.\r\n\r\n- Using the sine rule when the cosine rule is needed (and vice versa).\r\n\r\n",
-    "tricks": "# Tricks & Problem-Solving Techniques — Trigonometry II\r\n\r\n> Faster, cleaner ways to handle this topic.\r\n\r\n- sin²θ + cos²θ = 1 is the identity you will use most.\r\n\r\n- Use the cosine rule when you know two sides and the included angle.\r\n\r\n- Remember trig equations have infinitely many solutions — add 360°k.\r\n\r\n",
-    "memoryAids": "# Memory & Retention Aids — Trigonometry II\r\n\r\n> How to remember this — and keep it.\r\n\r\n- \"sin² + cos² = 1.\"\r\n\r\n- \"Sine rule for angle-side pairs; cosine rule for the odd one out.\"\r\n\r\n- Trig equations repeat every period.\r\n\r\n",
+    "notes": "# Trigonometry II\n\n> [!intro] **Trigonometry II frees the ratios from the right triangle.** The unit circle extends sine and cosine to every angle, turning them into the wave functions that describe oscillation, sound, alternating current and light. The sine and cosine rules then handle *any* triangle, so you can finally solve the non-right-angled cases that F2 and I1 could not touch.\n\n## 1. The unit circle: trigonometry beyond 90°\n\nOn a circle of radius 1, the point at angle $\\theta$ from the positive $x$-axis is exactly $(\\cos\\theta, \\sin\\theta)$. This *defines* sine and cosine for every angle, including obtuse, reflex and negative ones, where \"opposite over hypotenuse\" has no meaning.\n\nThe signs follow from the coordinates' signs in each quadrant:\n\n| Quadrant | Angles | Positive |\n|---|---|---|\n| I | $0°$–$90°$ | **A**ll |\n| II | $90°$–$180°$ | **S**ine only |\n| III | $180°$–$270°$ | **T**angent only |\n| IV | $270°$–$360°$ | **C**osine only |\n\nremembered as **CAST**, read anticlockwise from the fourth quadrant.\n\nBecause the point returns to where it started every full turn, the functions are **periodic**: $\\sin(\\theta + 360°) = \\sin\\theta$. Sine and cosine oscillate between $-1$ and $1$ forever, giving the wave shape; cosine is simply sine shifted by $90°$. Tangent behaves differently — it is undefined wherever $\\cos\\theta = 0$ (at $90°$, $270°$, …), which produces its vertical asymptotes.\n\n**Related angles** let you reduce any angle to an acute one: $\\sin 150° = \\sin 30° = \\tfrac12$, and $\\cos 210° = -\\cos 30°$. Find the acute angle to the horizontal axis, then attach the sign from CAST.\n\n```formula Key formulas\nUnit circle: point at angle θ is (cos θ, sin θ)\nCAST: All / Sine / Tangent / Cosine positive by quadrant\nPeriod 360° for sin and cos;  180° for tan\n−1 ≤ sin θ ≤ 1 and −1 ≤ cos θ ≤ 1 for every angle\ntan θ undefined where cos θ = 0\n```\n\n## 2. Identities: relationships true for every angle\n\nAn **identity** holds for all values, unlike an equation which holds for particular ones. The two foundational identities are:\n\n$$\\sin^2\\theta + \\cos^2\\theta = 1, \\qquad \\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}$$\n\nThe first is Pythagoras on the unit circle: the point $(\\cos\\theta, \\sin\\theta)$ is at distance 1 from the origin.\n\nRearrangements are what make it useful: $\\sin^2\\theta = 1 - \\cos^2\\theta$ lets you convert an equation containing both functions into one containing only one, which is usually the key step in solving.\n\nTwo more, worth knowing for A1:\n\n$$\\sin(A \\pm B) = \\sin A\\cos B \\pm \\cos A \\sin B$$\n$$\\cos(A \\pm B) = \\cos A\\cos B \\mp \\sin A\\sin B$$\n\nNote the **swapped sign** in the cosine expansion — a plus inside gives a minus outside. Setting $A = B$ produces the double-angle formulas: $\\sin 2A = 2\\sin A\\cos A$ and $\\cos 2A = \\cos^2 A - \\sin^2 A$.\n\n**Proving an identity** means transforming one side into the other. Work on the more complicated side, convert everything to sines and cosines, and simplify. You may **not** treat it as an equation and do the same thing to both sides — that assumes what you are trying to prove.\n\n## 3. Solving trigonometric equations\n\nBecause the functions are periodic, a trigonometric equation has **infinitely many solutions**, and questions therefore specify a range such as $0° \\le \\theta \\le 360°$.\n\nSolve $\\sin\\theta = 0.5$ in that range:\n\n1. **Principal value:** $\\sin^{-1}(0.5) = 30°$.\n2. **Find the other solutions in range using symmetry.** Sine is positive in quadrants I and II, so the second solution is $180° - 30° = 150°$.\n3. **State all solutions:** $\\theta = 30°$ or $150°$.\n\nThe calculator gives only the principal value — **it will never tell you about the second solution**, which is why the symmetry step must be done by hand. The rules by function:\n\n- $\\sin$: second solution is $180° - \\theta$.\n- $\\cos$: second solution is $360° - \\theta$.\n- $\\tan$: solutions repeat every $180°$.\n\nA caution for equations like $\\sin 2\\theta = 0.5$: solve for $2\\theta$ over a **doubled range** ($0°$ to $720°$), then halve every answer. Solving for $\\theta$ first loses solutions.\n\n> [!example] **All solutions in range**\n>\n> **Problem.** Solve $\\sin\\theta = 0.5$ for $0° \\le \\theta \\le 360°$.\n>\n> **Solution.** The principal value is $30°$. Sine is also positive in the second quadrant, giving $180° - 30° = 150°$. So $\\theta = 30°$ or $150°$. Both check: $\\sin 150° = 0.5$ ✓.\n>\n> *The calculator returns one answer; the symmetry of the unit circle supplies the rest.*\n\n## 4. The sine and cosine rules: any triangle at last\n\nFor triangles **without** a right angle, two rules cover every case. Label each side with the lower-case letter of the angle opposite it.\n\n**Sine rule** — use when you have a matching side–angle pair:\n\n$$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$$\n\nSuitable for: two angles and a side (AAS/ASA), or two sides and a non-included angle (SSA).\n\n**Cosine rule** — use when the sine rule cannot start, i.e. no matching pair:\n\n$$a^2 = b^2 + c^2 - 2bc\\cos A$$\n\nSuitable for: two sides and the included angle (SAS), or all three sides (SSS, rearranged to find an angle).\n\nNotice that the cosine rule **is Pythagoras with a correction term**: when $A = 90°$, $\\cos A = 0$ and it reduces to $a^2 = b^2+c^2$. The term $-2bc\\cos A$ measures exactly how far the triangle departs from right-angled.\n\n**The ambiguous case.** With SSA the sine rule can give two valid triangles, because $\\sin\\theta = \\sin(180°-\\theta)$ — the acute and obtuse options are both consistent with the data. This is the same SSA ambiguity met in F1 congruence, now quantified. Always check whether the obtuse alternative also fits (the angles must still total less than $180°$).\n\nFor area, when you know two sides and the included angle:\n\n$$\\text{Area} = \\tfrac12 ab\\sin C$$\n\n```formula Key formulas\nSine rule: a/sin A = b/sin B = c/sin C  (needs a matching pair)\nCosine rule: a² = b² + c² − 2bc·cos A  (SAS or SSS)\nCosine rule reduces to Pythagoras when A = 90°\nArea = ½ab·sin C\nSSA is ambiguous: check the obtuse alternative\n```\n\n> [!example] **Choosing the right rule**\n>\n> **Problem.** A triangle has $b = 7$, $c = 9$ and the included angle $A = 60°$. Find $a$.\n>\n> **Solution.** Two sides and the angle between them, so there is no matching side–angle pair — use the cosine rule. $a^2 = 49 + 81 - 2(7)(9)\\cos 60° = 130 - 126(0.5) = 67$, so $a = \\sqrt{67} \\approx 8.19$.\n>\n> *Sine rule needs a matching pair; if you do not have one, reach for the cosine rule.*\n\n```formula Key formulas\nUnit circle defines sin and cos for all angles; CAST gives the signs\nsin²θ + cos²θ = 1;  tan θ = sin θ / cos θ\nsin(A±B) = sinA cosB ± cosA sinB;  cos(A±B) = cosA cosB ∓ sinA sinB\nsin: second solution 180° − θ;  cos: 360° − θ;  tan: repeats every 180°\nSine rule a/sinA = b/sinB = c/sinC;  cosine rule a² = b² + c² − 2bc cosA\nArea = ½ab sin C\n```\n\n## What you should be able to do\n\n- Use key trig identities\n- Solve trigonometric equations\n- Apply the sine and cosine rules\n\n## Summary — the mental toolkit\n\n1. The unit circle defines sine and cosine for every angle, producing periodic wave functions.\n2. CAST gives the sign of each function by quadrant; related angles reduce any angle to an acute one.\n3. sin²θ + cos²θ = 1 is Pythagoras on the unit circle, and rearranging it is the key solving step.\n4. Trig equations have infinitely many solutions; the calculator gives one, symmetry gives the rest.\n5. For sin θ = k the partner is 180° − θ; for cos θ = k it is 360° − θ; tan repeats every 180°.\n6. Sine rule needs a matching side–angle pair; the cosine rule handles SAS and SSS.\n7. The cosine rule is Pythagoras plus a correction, and SSA remains genuinely ambiguous.\n\n---\n\n_A deep-dive topic in The Ultimate Learner — every one of the six learning layers, at exam depth._\n",
+    "mistakes": "# Common Mistakes — Trigonometry II\n\n> Every learner hits these. Read the *why* — that is what stops the mistake coming back.\n\n- **Giving only the calculator's answer** when solving a trig equation. **Fix:** the calculator returns the principal value; use CAST or the symmetry rules to find every solution in the stated range.\n\n- **Forgetting the range restriction**, or listing solutions outside it. **Fix:** underline the range before starting, and discard anything outside it at the end.\n\n- **Solving sin 2θ = k by halving at the end without extending the range.** **Fix:** solve for 2θ over a doubled range, then halve each solution — otherwise you lose half of them.\n\n- **Using the sine rule without a matching side–angle pair.** **Fix:** you need a side and its opposite angle to start; if you do not have one, use the cosine rule.\n\n- **Sign error in the cosine rule.** Writing + 2bc cos A. **Fix:** the term is subtracted; check that it reduces to Pythagoras when A = 90°.\n\n- **Ignoring the ambiguous case in SSA.** **Fix:** since sin θ = sin(180° − θ), test whether the obtuse angle also gives a valid triangle.\n\n- **Treating an identity like an equation** and operating on both sides to \"prove\" it. **Fix:** transform one side into the other; operating on both assumes the result.\n\n- **Reading sin²θ as sin(θ²).** **Fix:** it means (sin θ)².\n\n- **Forgetting the sign swap in cos(A + B).** **Fix:** cos(A+B) = cosA cosB − sinA sinB — a plus inside gives a minus outside.\n\n",
+    "tricks": "# Tricks & Problem-Solving Techniques — Trigonometry II\n\n> Faster, cleaner ways to handle this topic — and when each one applies.\n\n- **Sketch the unit circle for every equation.** Seeing where the horizontal or vertical coordinate takes the required value makes the second solution obvious.\n\n- **Use CAST to fix signs** rather than memorising values for obtuse and reflex angles.\n\n- **Reduce any angle to its acute related angle**, then attach the sign: cos 210° = −cos 30°.\n\n- **Choose the rule by what you have:** matching pair → sine rule; SAS or SSS → cosine rule.\n\n- **Check the cosine rule reduces to Pythagoras at 90°** as an instant verification that you wrote it correctly.\n\n- **Convert everything to sines and cosines** when proving an identity; it turns most of them into algebra.\n\n- **Sanity-check triangle answers**: the largest side must face the largest angle, and the angles must total 180°.\n\n",
+    "memoryAids": "# Memory & Retention Aids — Trigonometry II\n\n> How to remember this — and still have it months later.\n\n- \"CAST — All, Sine, Tangent, Cosine\" anticlockwise from quadrant IV.\n\n- \"The unit circle defines it; the triangle only illustrated it.\"\n\n- \"sin partners with 180 − θ; cos partners with 360 − θ; tan repeats at 180.\"\n\n- \"The calculator gives one answer, never all of them.\"\n\n- \"Cosine rule is Pythagoras with a correction.\"\n\n- \"Matching pair? Sine rule. No pair? Cosine rule.\"\n\n- \"Prove an identity by transforming one side only.\"\n\n",
     "quiz": {
       "topicId": "math.I2.trigonometry-ii",
       "levels": {
-        "1": [],
-        "2": [
+        "1": [
           {
-            "id": "math_I2_trigonometry_ii_q1",
+            "id": "math_I2_trigonometry_ii_l1_q1",
+            "type": "numeric",
+            "prompt": "What is sin 150°? Give your answer as a decimal.",
+            "answer": 0.5,
+            "tolerance": 0.001,
+            "explanation": "The related acute angle is 30°, and sine is positive in the second quadrant, so sin 150° = sin 30° = 0.5."
+          },
+          {
+            "id": "math_I2_trigonometry_ii_l1_q2",
             "type": "mcq",
-            "prompt": "Simplify sin²θ + cos²θ.",
+            "prompt": "In which quadrant are all three trigonometric functions positive?",
             "choices": [
-              "1",
-              "0",
-              "2",
-              "tan θ"
+              "the first",
+              "the second",
+              "the third",
+              "the fourth"
             ],
             "answer": 0,
-            "explanation": "The fundamental Pythagorean identity equals 1."
+            "explanation": "CAST: \"A\" for All in the first quadrant, where both coordinates are positive."
+          },
+          {
+            "id": "math_I2_trigonometry_ii_l1_q3",
+            "type": "mcq",
+            "prompt": "What is the period of sin θ?",
+            "choices": [
+              "360°",
+              "180°",
+              "90°",
+              "720°"
+            ],
+            "answer": 0,
+            "explanation": "The point returns to its starting position after one full turn."
+          },
+          {
+            "id": "math_I2_trigonometry_ii_l1_q4",
+            "type": "mcq",
+            "prompt": "Which identity is Pythagoras on the unit circle?",
+            "choices": [
+              "sin²θ + cos²θ = 1",
+              "tan θ = sin θ/cos θ",
+              "sin 2θ = 2 sin θ cos θ",
+              "a² = b² + c² − 2bc cos A"
+            ],
+            "answer": 0,
+            "explanation": "The point (cos θ, sin θ) lies at distance 1 from the origin."
+          }
+        ],
+        "2": [
+          {
+            "id": "math_I2_trigonometry_ii_l2_q1",
+            "type": "mcq",
+            "prompt": "Solve sin θ = 0.5 for 0° ≤ θ ≤ 360°.",
+            "choices": [
+              "30° and 150°",
+              "30° only",
+              "30° and 330°",
+              "150° only"
+            ],
+            "answer": 0,
+            "explanation": "Principal value 30°; sine is also positive in quadrant II, giving 180° − 30° = 150°."
+          },
+          {
+            "id": "math_I2_trigonometry_ii_l2_q2",
+            "type": "mcq",
+            "prompt": "A triangle has b = 7, c = 9 and included angle A = 60°. Which rule finds a?",
+            "choices": [
+              "the cosine rule",
+              "the sine rule",
+              "Pythagoras",
+              "the area formula"
+            ],
+            "answer": 0,
+            "explanation": "There is no matching side–angle pair, so the sine rule cannot start. SAS calls for the cosine rule."
+          },
+          {
+            "id": "math_I2_trigonometry_ii_l2_q3",
+            "type": "numeric",
+            "prompt": "For that triangle, find a to 2 decimal places.",
+            "answer": 8.19,
+            "tolerance": 0.05,
+            "explanation": "a² = 49 + 81 − 2(7)(9)(0.5) = 67, so a = √67 ≈ 8.19."
+          },
+          {
+            "id": "math_I2_trigonometry_ii_l2_q4",
+            "type": "mcq",
+            "prompt": "Why is tan θ undefined at 90°?",
+            "choices": [
+              "tan = sin/cos and cos 90° = 0",
+              "because sin 90° = 1",
+              "because 90° is not in the first quadrant",
+              "it is defined and equals 1"
+            ],
+            "answer": 0,
+            "explanation": "Division by zero is undefined, which produces tangent's vertical asymptotes."
           }
         ],
         "3": [
           {
-            "id": "math_I2_trigonometry_ii_q2",
+            "id": "math_I2_trigonometry_ii_l3_q1",
             "type": "mcq",
-            "prompt": "To find a side opposite a known angle given two sides and the included angle, use:",
+            "prompt": "Why does the cosine rule reduce to Pythagoras when A = 90°?",
             "choices": [
-              "the cosine rule",
-              "the sine rule",
-              "Pythagoras only",
-              "SOH-CAH-TOA"
+              "cos 90° = 0, so the correction term −2bc cos A vanishes",
+              "because b = c at 90°",
+              "because the sine rule applies instead",
+              "it does not reduce to Pythagoras"
             ],
             "answer": 0,
-            "explanation": "Two sides + included angle → cosine rule."
+            "explanation": "The term −2bc cos A measures the departure from right-angled; at 90° it is zero and a² = b² + c²."
+          },
+          {
+            "id": "math_I2_trigonometry_ii_l3_q2",
+            "type": "mcq",
+            "prompt": "Solving sin 2θ = 0.5 for 0° ≤ θ ≤ 360°, what range should you use for 2θ?",
+            "choices": [
+              "0° to 720°",
+              "0° to 360°",
+              "0° to 180°",
+              "0° to 90°"
+            ],
+            "answer": 0,
+            "explanation": "Doubling the variable doubles the range. Solving over 0°–360° and halving would discard half the solutions."
+          },
+          {
+            "id": "math_I2_trigonometry_ii_l3_q3",
+            "type": "mcq",
+            "prompt": "Why can SSA data produce two different triangles?",
+            "choices": [
+              "sin θ = sin(180° − θ), so both an acute and an obtuse angle fit the data",
+              "because the sine rule is only approximate",
+              "because two sides are always equal",
+              "it cannot — SSA is always unique"
+            ],
+            "answer": 0,
+            "explanation": "The sine rule cannot distinguish the two, so both must be checked. This is the same ambiguity that makes SSA invalid for congruence."
+          },
+          {
+            "id": "math_I2_trigonometry_ii_l3_q4",
+            "type": "mcq",
+            "prompt": "What is wrong with proving an identity by doing the same operation to both sides?",
+            "choices": [
+              "it assumes the identity is true, which is what you are trying to establish",
+              "nothing — it is the standard method",
+              "it only works for acute angles",
+              "it changes the period of the functions"
+            ],
+            "answer": 0,
+            "explanation": "A proof must transform one side into the other. Operating on both sides presupposes the equality being proved."
           }
         ]
       }

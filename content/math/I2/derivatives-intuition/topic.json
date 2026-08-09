@@ -6,8 +6,8 @@
   "slug": "derivatives-intuition",
   "core": true,
   "order": 3,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 270,
   "summary": "Rate of change made exact — the derivative as the slope of a curve, taught alongside kinematics.",
   "outcomes": [
     "Interpret the derivative as an instantaneous rate",

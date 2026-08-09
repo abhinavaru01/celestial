@@ -6,8 +6,8 @@
   "slug": "trigonometry-ii",
   "core": true,
   "order": 2,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 240,
   "summary": "Identities, trigonometric equations, and the sine and cosine rules for any triangle.",
   "outcomes": [
     "Use key trig identities",

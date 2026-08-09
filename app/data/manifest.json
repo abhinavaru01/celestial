@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T20:30:08.317Z",
+  "generatedAt": "2026-08-09T20:38:56.501Z",
   "subjects": [
     {
       "id": "math",
@@ -3209,7 +3209,7 @@
       "slug": "combinatorics-probability-ii",
       "core": true,
       "order": 6,
-      "estMinutes": 180,
+      "estMinutes": 240,
       "summary": "Counting principles, permutations and combinations, and conditional probability.",
       "prereqs": [
         "math.I2.exponentials-logarithms",
@@ -3219,7 +3219,7 @@
         "JEE-Main",
         "JEE-Advanced"
       ],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 2,
       "outDegree": 4
     },
@@ -3231,7 +3231,7 @@
       "slug": "derivatives-intuition",
       "core": true,
       "order": 3,
-      "estMinutes": 180,
+      "estMinutes": 270,
       "summary": "Rate of change made exact — the derivative as the slope of a curve, taught alongside kinematics.",
       "prereqs": [
         "math.I2.trigonometry-ii",
@@ -3241,7 +3241,7 @@
         "JEE-Main",
         "JEE-Advanced"
       ],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 2,
       "outDegree": 3
     },
@@ -3253,7 +3253,7 @@
       "slug": "exponentials-logarithms",
       "core": true,
       "order": 5,
-      "estMinutes": 180,
+      "estMinutes": 240,
       "summary": "Exponential growth and decay, logarithms as the inverse, and their laws — used across chemistry, biology and CS.",
       "prereqs": [
         "math.I2.integrals-intuition",
@@ -3264,7 +3264,7 @@
         "JEE-Advanced",
         "NEET"
       ],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 2,
       "outDegree": 4
     },
@@ -3276,7 +3276,7 @@
       "slug": "functions",
       "core": true,
       "order": 1,
-      "estMinutes": 180,
+      "estMinutes": 240,
       "summary": "Function notation, domain and range, composition, inverses and transformations of graphs.",
       "prereqs": [
         "math.I1.statistics-ii",
@@ -3286,7 +3286,7 @@
         "JEE-Main",
         "JEE-Advanced"
       ],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 2,
       "outDegree": 1
     },
@@ -3298,7 +3298,7 @@
       "slug": "integrals-intuition",
       "core": true,
       "order": 4,
-      "estMinutes": 180,
+      "estMinutes": 240,
       "summary": "Accumulation and area under a curve — the reverse of differentiation.",
       "prereqs": [
         "math.I2.derivatives-intuition"
@@ -3307,7 +3307,7 @@
         "JEE-Main",
         "JEE-Advanced"
       ],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 1,
       "outDegree": 2
     },
@@ -3319,7 +3319,7 @@
       "slug": "trigonometry-ii",
       "core": true,
       "order": 2,
-      "estMinutes": 180,
+      "estMinutes": 240,
       "summary": "Identities, trigonometric equations, and the sine and cosine rules for any triangle.",
       "prereqs": [
         "math.I2.functions"
@@ -3328,7 +3328,7 @@
         "JEE-Main",
         "JEE-Advanced"
       ],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 1,
       "outDegree": 1
     },

@@ -1,10 +1,18 @@
 # Memory & Retention Aids — Combinatorics & Probability II
 
-> How to remember this — and keep it.
+> How to remember this — and still have it months later.
 
-- "Order matters → permute; order not → combine."
+- "And multiplies, or adds."
 
-- "Multiply independent choices."
+- "Permutation: position matters. Combination: committee."
 
-- P(A|B) restricts the sample space to B.
+- "Divide by r! to forget the order."
+
+- "ⁿCᵣ = ⁿC₍ₙ₋ᵣ₎ — choosing whom to leave out is the same problem."
+
+- "Without replacement means conditional."
+
+- "P(A|B) is not P(B|A)."
+
+- "At least one = 1 minus none."
 

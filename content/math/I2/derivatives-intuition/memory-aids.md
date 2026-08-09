@@ -1,10 +1,18 @@
 # Memory & Retention Aids — Calculus Intuition: Derivatives
 
-> How to remember this — and keep it.
+> How to remember this — and still have it months later.
 
-- "Derivative = slope of the tangent = instantaneous rate."
+- "The derivative is the slope of the tangent."
 
-- "Bring down the power, drop it by one."
+- "Bring the power down, drop it by one."
 
-- Velocity is the derivative of position.
+- "Constants have no slope."
+
+- "f′ = 0 is where the curve stops climbing" — but classify before naming it.
+
+- "Positive rising, negative falling."
+
+- "v is ds/dt, a is dv/dt."
+
+- "Stationary is not the same as unaccelerated."
 

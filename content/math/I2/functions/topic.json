@@ -6,8 +6,8 @@
   "slug": "functions",
   "core": true,
   "order": 1,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 240,
   "summary": "Function notation, domain and range, composition, inverses and transformations of graphs.",
   "outcomes": [
     "Use function notation and find domain/range",

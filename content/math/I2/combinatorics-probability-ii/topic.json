@@ -6,8 +6,8 @@
   "slug": "combinatorics-probability-ii",
   "core": true,
   "order": 6,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 240,
   "summary": "Counting principles, permutations and combinations, and conditional probability.",
   "outcomes": [
     "Count with permutations and combinations",

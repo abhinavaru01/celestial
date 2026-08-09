@@ -54,7 +54,7 @@ The final chosen phase order (recorded per PRD §7). Rationale for delivering a 
 The six-layer contract guaranteed each layer *existed*; it did not guarantee depth. See `decisions.md#d-012`.
 - ✅ Deep-content pipeline — `scripts/curriculum/deep/<subject>/<tier>.mjs` + `scripts/deepen.mjs`
 - ✅ Depth bar enforced by `scripts/build.mjs` (notes length, sections, worked examples, formula block, **≥3 quiz questions at every level**, ≥4 items per layer), with a per-subject dashboard on every build
-- 🟡 Re-author all 192 topics to the bar — **Math F1/F2/I1 done; 170 remaining**
+- 🟡 Re-author all 192 topics to the bar — **Math F1/F2/I1/I2 done; 164 remaining**
 - ⬜ Switch `build.mjs --strict` on permanently once the backlog is empty
 
 ## The scaling loop (how "everything" gets built)
