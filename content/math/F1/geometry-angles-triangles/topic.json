@@ -6,8 +6,8 @@
   "slug": "geometry-angles-triangles",
   "core": true,
   "order": 6,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 240,
   "summary": "Angle relationships, triangle properties and the reasoning behind congruence — with construction, deferring formal proof.",
   "outcomes": [
     "Use angle relationships (on a line, around a point, in a triangle)",

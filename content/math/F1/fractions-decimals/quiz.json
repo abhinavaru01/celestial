@@ -3,34 +3,155 @@
   "levels": {
     "1": [
       {
-        "id": "math_F1_fractions_decimals_q1",
+        "id": "math_F1_fractions_decimals_l1_q1",
         "type": "mcq",
-        "prompt": "What is 1/2 + 1/3?",
+        "prompt": "Which decimal equals 3/4?",
         "choices": [
-          "2/5",
-          "5/6",
-          "1/6",
-          "2/6"
+          "0.75",
+          "0.34",
+          "0.43",
+          "1.33"
         ],
-        "answer": 1,
-        "explanation": "Common denominator 6: 3/6 + 2/6 = 5/6."
+        "answer": 0,
+        "explanation": "3 ÷ 4 = 0.75."
+      },
+      {
+        "id": "math_F1_fractions_decimals_l1_q2",
+        "type": "mcq",
+        "prompt": "Simplify 18/24 to lowest terms.",
+        "choices": [
+          "3/4",
+          "9/12",
+          "6/8",
+          "2/3"
+        ],
+        "answer": 0,
+        "explanation": "Divide top and bottom by the HCF, 6: 18/24 = 3/4."
+      },
+      {
+        "id": "math_F1_fractions_decimals_l1_q3",
+        "type": "mcq",
+        "prompt": "Which is larger, 0.7 or 0.65?",
+        "choices": [
+          "0.7",
+          "0.65",
+          "equal",
+          "cannot tell"
+        ],
+        "answer": 0,
+        "explanation": "Pad to equal places: 0.70 vs 0.65. Compare tenths first — 7 > 6."
+      },
+      {
+        "id": "math_F1_fractions_decimals_l1_q4",
+        "type": "numeric",
+        "prompt": "Compute 6 ÷ 1/2.",
+        "answer": 12,
+        "tolerance": 0,
+        "explanation": "How many halves fit into 6? Twelve. Equivalently 6 × 2 = 12."
       }
     ],
     "2": [
       {
-        "id": "math_F1_fractions_decimals_q2",
+        "id": "math_F1_fractions_decimals_l2_q1",
         "type": "mcq",
-        "prompt": "What is (3/4) ÷ (1/2)?",
+        "prompt": "Compute 1/2 + 1/3.",
         "choices": [
-          "3/8",
-          "3/2",
-          "1/2",
-          "6"
+          "5/6",
+          "2/5",
+          "1/6",
+          "3/5"
         ],
-        "answer": 1,
-        "explanation": "Flip and multiply: 3/4 × 2/1 = 6/4 = 3/2."
+        "answer": 0,
+        "explanation": "Common denominator 6: 3/6 + 2/6 = 5/6. Note 2/5 is impossible — the answer must exceed 1/2."
+      },
+      {
+        "id": "math_F1_fractions_decimals_l2_q2",
+        "type": "mcq",
+        "prompt": "Which is larger, 5/8 or 2/3?",
+        "choices": [
+          "2/3",
+          "5/8",
+          "equal",
+          "depends on the whole"
+        ],
+        "answer": 0,
+        "explanation": "Cross-multiply: 5×3 = 15 vs 2×8 = 16. Since 16 > 15, 2/3 is larger."
+      },
+      {
+        "id": "math_F1_fractions_decimals_l2_q3",
+        "type": "mcq",
+        "prompt": "Compute (4/9) × (3/8), simplifying first.",
+        "choices": [
+          "1/6",
+          "12/72",
+          "7/17",
+          "3/2"
+        ],
+        "answer": 0,
+        "explanation": "Cancel 4 with 8 and 3 with 9: (1/3)×(1/2) = 1/6."
+      },
+      {
+        "id": "math_F1_fractions_decimals_l2_q4",
+        "type": "numeric",
+        "prompt": "A 6 m ribbon is cut into 3/4 m pieces. How many pieces?",
+        "answer": 8,
+        "tolerance": 0,
+        "explanation": "6 ÷ 3/4 = 6 × 4/3 = 8."
       }
     ],
-    "3": []
+    "3": [
+      {
+        "id": "math_F1_fractions_decimals_l3_q1",
+        "type": "mcq",
+        "prompt": "Which fraction has a terminating decimal expansion?",
+        "choices": [
+          "1/40",
+          "1/30",
+          "1/7",
+          "1/6"
+        ],
+        "answer": 0,
+        "explanation": "40 = 2³ × 5 has only the factors 2 and 5, so 1/40 = 0.025 terminates. The others carry a factor of 3 or 7."
+      },
+      {
+        "id": "math_F1_fractions_decimals_l3_q2",
+        "type": "mcq",
+        "prompt": "A student writes (3 + 4)/3 = 4 by \"cancelling the 3s\". What is the error?",
+        "choices": [
+          "you may only cancel a factor of the whole numerator, not one term of a sum",
+          "the addition should have been done last",
+          "3 + 4 is not 7",
+          "nothing is wrong"
+        ],
+        "answer": 0,
+        "explanation": "Cancelling requires a common factor of the entire numerator and denominator. Here (3+4)/3 = 7/3, not 4."
+      },
+      {
+        "id": "math_F1_fractions_decimals_l3_q3",
+        "type": "mcq",
+        "prompt": "Compute 5/8 + 2/3.",
+        "choices": [
+          "31/24",
+          "7/11",
+          "10/24",
+          "16/24"
+        ],
+        "answer": 0,
+        "explanation": "LCM(8,3) = 24: 15/24 + 16/24 = 31/24, i.e. 1 and 7/24 — just above 1, as expected."
+      },
+      {
+        "id": "math_F1_fractions_decimals_l3_q4",
+        "type": "mcq",
+        "prompt": "Why does multiplying numerator and denominator by the same k leave a fraction unchanged, while adding k does not?",
+        "choices": [
+          "multiplying by k/k is multiplying by 1; adding k changes the ratio of the parts",
+          "because k cancels in addition too",
+          "it is a convention chosen for convenience",
+          "adding k is allowed if k is small"
+        ],
+        "answer": 0,
+        "explanation": "k/k = 1 and multiplying by 1 changes nothing. Addition alters the relationship between numerator and denominator: 1/2 ≠ 2/3."
+      }
+    ]
   }
 }

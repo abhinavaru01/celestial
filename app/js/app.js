@@ -27,7 +27,8 @@ const topicsFor = (subject, tier) => DATA.manifest.topics
   .filter((t) => t.subject === subject && (!tier || t.tier === tier))
   .sort((a, b) => a.order - b.order);
 const topicById = (id) => DATA.content[id];
-const depthTag = (t) => (t.depth === 'flagship'
+const isDeep = (t) => t.depth === 'flagship' || t.depth === 'deep';
+const depthTag = (t) => (isDeep(t)
   ? '<span class="tag flagship">deep dive</span>'
   : '');
 
@@ -155,7 +156,7 @@ function renderTopic(main, id) {
     <div class="chip-row">
     ${(t.competitiveTags || []).map((c) => `<span class="chip static comp">${c}</span>`).join('')}
     <span class="chip static">${tierMeta(t.tier).label}</span>
-    ${t.depth === 'flagship' ? '<span class="chip static flag">deep dive</span>' : ''}</div>`;
+    ${isDeep(t) ? '<span class="chip static flag">deep dive</span>' : ''}</div>`;
   wrap.appendChild(head);
 
   // outcomes + prereqs (informational only — nothing is locked)

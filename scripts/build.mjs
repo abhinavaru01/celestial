@@ -12,6 +12,9 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CONTENT = join(ROOT, 'content');
 const OUT = join(ROOT, 'app', 'data');
 const CHECK_ONLY = process.argv.includes('--check');
+// --strict promotes every depth-bar shortfall to a build error (not just for topics
+// that declare depth "deep"). Turn this on permanently once the backlog is empty.
+const STRICT = process.argv.includes('--strict');
 
 const REQUIRED_FILES = ['topic.json', 'notes.md', 'quiz.json', 'mistakes.md', 'tricks.md', 'memory-aids.md'];
 const LAYER_OF = {
@@ -101,7 +104,8 @@ function validateQuiz(quiz, rel) {
   for (const lvl of ['1', '2', '3']) {
     const qs = quiz.levels[lvl] ?? [];
     if (!Array.isArray(qs)) { err(`${rel}/quiz.json: level ${lvl} must be an array`); continue; }
-    if (qs.length === 0) { warn(`${rel}/quiz.json: level ${lvl} has no questions yet`); continue; }
+    // Empty/thin levels are reported by the depth audit, which is stricter than this.
+    if (qs.length === 0) continue;
     for (const q of qs) {
       if (!q.id) err(`${rel}/quiz.json L${lvl}: a question is missing "id"`);
       if (!q.prompt) err(`${rel}/quiz.json L${lvl} (${q.id}): missing "prompt"`);
@@ -118,6 +122,91 @@ function validateQuiz(quiz, rel) {
     }
   }
 }
+
+// ---- depth audit ----
+// The six-layer contract guarantees each layer EXISTS. The depth bar guarantees each
+// layer is worth reading. Topics marked "deep" or "flagship" must clear it or the build
+// fails, so a deepened topic can never silently regress to a stub. Topics still marked
+// "module" only warn — that is the migration backlog, reported as a dashboard below.
+const DEPTH_BAR = {
+  notesChars: 3500,   // a real teaching treatment, not a summary
+  sections: 4,        // "## " headings within notes.md
+  examples: 1,        // worked-example callouts
+  formulaBlocks: 1,   // ```formula key formulas / key facts
+  quizPerLevel: 3,    // at each of levels 1, 2, 3
+  listItems: 4,       // in each of mistakes / tricks / memory-aids
+};
+
+const countMatches = (s, re) => (s.match(re) || []).length;
+// Depth shows up in more than one shape: the generated topics use "- " bullets while the
+// hand-written flagships use "### 1." headings for the same purpose. Count both, so the
+// bar measures substance rather than a house style.
+const countListItems = (s) => countMatches(s, /^(?:-\s+\S|#{3}\s+\S|\d+\.\s+\S)/gm);
+// A worked example takes several legitimate forms: an "[!example]" callout, a bolded
+// Problem/Worked-example lead, an example-titled heading, explicit numbered working, or —
+// in CS, where it is the natural form — an annotated runnable code block.
+const countExamples = (s) => countMatches(s, /^>\s*\[!example\]/gm)
+  + countMatches(s, /\*\*(?:Problem|Worked example|Example)\b/g)
+  + countMatches(s, /^#{2,4}\s+.*\b(example|worked)\b/gim)
+  + countMatches(s, /^\d+\.\s+\S/gm)
+  + countMatches(s, /^```(?!svg|formula|html|\s*$)\w+/gm);
+// A key-formula/facts summary is a ```formula block, display math, or a reference table.
+const countFormulaBlocks = (s) => countMatches(s, /^```formula\b/gm)
+  + countMatches(s, /^\s*\$\$/gm)
+  + countMatches(s, /^\s*\|?[\s:|-]+\|[\s:|-]*$/gm);
+
+function auditDepth(t) {
+  const gaps = [];
+  const notes = t.notes || '';
+  // Ignore the title (#) and count only teaching sections (##+).
+  const sections = countMatches(notes, /^#{2,3}\s+\S/gm);
+  const examples = countExamples(notes);
+  const formulaBlocks = countFormulaBlocks(notes);
+
+  if (notes.length < DEPTH_BAR.notesChars) gaps.push(`notes.md is ${notes.length} chars (bar: ${DEPTH_BAR.notesChars})`);
+  if (sections < DEPTH_BAR.sections) gaps.push(`${sections} section(s) (bar: ${DEPTH_BAR.sections})`);
+  if (examples < DEPTH_BAR.examples) gaps.push(`${examples} worked example(s) (bar: ${DEPTH_BAR.examples})`);
+  if (formulaBlocks < DEPTH_BAR.formulaBlocks) gaps.push(`no key-formula/facts block`);
+
+  for (const lvl of ['1', '2', '3']) {
+    const n = (t.quiz?.levels?.[lvl] ?? []).length;
+    if (n < DEPTH_BAR.quizPerLevel) gaps.push(`quiz L${lvl} has ${n} question(s) (bar: ${DEPTH_BAR.quizPerLevel})`);
+  }
+  for (const [layer, src] of [['mistakes', t.mistakes], ['tricks', t.tricks], ['memory-aids', t.memoryAids]]) {
+    const n = countListItems(src || '');
+    if (n < DEPTH_BAR.listItems) gaps.push(`${layer} has ${n} item(s) (bar: ${DEPTH_BAR.listItems})`);
+  }
+  return gaps;
+}
+
+const deepTopics = [];
+const shallowTopics = [];
+for (const t of topics) {
+  const gaps = auditDepth(t);
+  const claimsDepth = t.depth === 'deep' || t.depth === 'flagship';
+  if (gaps.length === 0) deepTopics.push(t);
+  else {
+    shallowTopics.push(t);
+    const msg = `${t.dir}: below the depth bar — ${gaps.join('; ')}`;
+    if (claimsDepth) err(`${msg}  [declared depth="${t.depth}"]`);
+    else if (STRICT) err(msg);
+    else warn(msg);
+  }
+}
+
+function depthDashboard() {
+  const bySubject = {};
+  for (const t of topics) {
+    const s = (bySubject[t.subject] ||= { deep: 0, total: 0 });
+    s.total++;
+    if (!shallowTopics.includes(t)) s.deep++;
+  }
+  const rows = Object.entries(bySubject)
+    .map(([s, v]) => `    ${s.padEnd(10)} ${String(v.deep).padStart(3)}/${String(v.total).padEnd(3)} ${bar(v.deep / v.total)}`)
+    .join('\n');
+  return `  depth: ${deepTopics.length}/${topics.length} topics at the depth bar\n${rows}`;
+}
+function bar(frac) { const n = Math.round(frac * 20); return '█'.repeat(n) + '·'.repeat(20 - n); }
 
 // ---- dependency graph: validate prereqs, detect dangling refs, cycles, tier-order violations ----
 const edges = [];
@@ -221,7 +310,8 @@ function countBy(arr, f) { const m = {}; for (const x of arr) { const k = f(x); 
 
 if (CHECK_ONLY) {
   console.log(`✓ Validation passed: ${topics.length} topic(s), all six signature layers present, graph acyclic.`);
-  if (warnings.length) { console.log(`  ${warnings.length} warning(s):`); for (const w of warnings) console.log('    ~ ' + w); }
+  console.log(depthDashboard());
+  if (warnings.length) console.log(`  ${warnings.length} topic(s) still below the depth bar (run with --strict to fail on them)`);
   process.exit(0);
 }
 
@@ -236,5 +326,6 @@ console.log(`✓ BUILD OK`);
 console.log(`  topics: ${topics.length}  |  edges: ${edges.length} (${summary.crossSubjectEdges} cross-subject)`);
 console.log(`  by subject: ${JSON.stringify(summary.bySubject)}`);
 console.log(`  wrote app/data/{manifest,content,graph,board-coverage,summary}.json`);
+console.log(depthDashboard());
 if (cycleFound) process.exit(1);
-if (warnings.length) { console.log(`  ${warnings.length} warning(s):`); for (const w of warnings) console.log('    ~ ' + w); }
+if (warnings.length) console.log(`  ${warnings.length} topic(s) still below the depth bar (run with --strict to fail on them)`);

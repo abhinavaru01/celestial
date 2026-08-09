@@ -3,34 +3,155 @@
   "levels": {
     "1": [
       {
-        "id": "math_F1_algebra_generalized_arithmetic_q1",
+        "id": "math_F1_algebra_generalized_arithmetic_l1_q1",
+        "type": "numeric",
+        "prompt": "Evaluate 3x + 2 when x = 5.",
+        "answer": 17,
+        "tolerance": 0,
+        "explanation": "3(5) + 2 = 15 + 2 = 17."
+      },
+      {
+        "id": "math_F1_algebra_generalized_arithmetic_l1_q2",
         "type": "mcq",
-        "prompt": "Simplify 3x + 2x + 4.",
+        "prompt": "Simplify 5x + 3x.",
         "choices": [
-          "9x",
-          "5x + 4",
-          "5x",
-          "6x + 4"
+          "8x",
+          "8x²",
+          "15x",
+          "5x + 3x cannot be simplified"
         ],
-        "answer": 1,
-        "explanation": "Combine like terms 3x + 2x = 5x; the 4 stays: 5x + 4."
+        "answer": 0,
+        "explanation": "Like terms count together: (5 + 3)x = 8x."
+      },
+      {
+        "id": "math_F1_algebra_generalized_arithmetic_l1_q3",
+        "type": "mcq",
+        "prompt": "Which expression means \"5 less than n\"?",
+        "choices": [
+          "n − 5",
+          "5 − n",
+          "5n",
+          "n/5"
+        ],
+        "answer": 0,
+        "explanation": "\"Less than\" reverses the order. Test with n = 10: five less than ten is 5, and 10 − 5 = 5."
+      },
+      {
+        "id": "math_F1_algebra_generalized_arithmetic_l1_q4",
+        "type": "mcq",
+        "prompt": "Expand 3(2x + 5).",
+        "choices": [
+          "6x + 15",
+          "6x + 5",
+          "5x + 15",
+          "6x + 8"
+        ],
+        "answer": 0,
+        "explanation": "Multiply both terms: 3×2x = 6x and 3×5 = 15."
       }
     ],
     "2": [
       {
-        "id": "math_F1_algebra_generalized_arithmetic_q2",
+        "id": "math_F1_algebra_generalized_arithmetic_l2_q1",
         "type": "mcq",
-        "prompt": "Expand 2(x + 3).",
+        "prompt": "Simplify 5 − 2(x − 3).",
         "choices": [
-          "2x + 3",
-          "2x + 6",
-          "x + 6",
-          "2x + 5"
+          "11 − 2x",
+          "−2x − 1",
+          "2x − 1",
+          "11 + 2x"
         ],
-        "answer": 1,
-        "explanation": "Distribute the 2 to both terms: 2x + 6."
+        "answer": 0,
+        "explanation": "−2 times −3 is +6, so 5 − 2x + 6 = 11 − 2x."
+      },
+      {
+        "id": "math_F1_algebra_generalized_arithmetic_l2_q2",
+        "type": "mcq",
+        "prompt": "Simplify 7x − 3y − 2x + 5y.",
+        "choices": [
+          "5x + 2y",
+          "5x − 2y",
+          "9x + 2y",
+          "5xy"
+        ],
+        "answer": 0,
+        "explanation": "Group like terms: (7x − 2x) + (−3y + 5y) = 5x + 2y."
+      },
+      {
+        "id": "math_F1_algebra_generalized_arithmetic_l2_q3",
+        "type": "numeric",
+        "prompt": "Evaluate 3x² − 2x + 1 when x = 4.",
+        "answer": 41,
+        "tolerance": 0,
+        "explanation": "3(16) − 8 + 1 = 48 − 8 + 1 = 41."
+      },
+      {
+        "id": "math_F1_algebra_generalized_arithmetic_l2_q4",
+        "type": "mcq",
+        "prompt": "Factorise 12x + 18 completely.",
+        "choices": [
+          "6(2x + 3)",
+          "3(4x + 6)",
+          "2(6x + 9)",
+          "6(2x + 18)"
+        ],
+        "answer": 0,
+        "explanation": "The highest common factor is 6, leaving 2x + 3 which has no further common factor."
       }
     ],
-    "3": []
+    "3": [
+      {
+        "id": "math_F1_algebra_generalized_arithmetic_l3_q1",
+        "type": "mcq",
+        "prompt": "Simplify 4(2x − 1) − 3(x − 5).",
+        "choices": [
+          "5x + 11",
+          "5x − 19",
+          "11x + 11",
+          "5x + 1"
+        ],
+        "answer": 0,
+        "explanation": "8x − 4 − 3x + 15 = 5x + 11. Check at x = 1: original 4 + 12 = 16; answer 5 + 11 = 16. ✓"
+      },
+      {
+        "id": "math_F1_algebra_generalized_arithmetic_l3_q2",
+        "type": "mcq",
+        "prompt": "A student writes (x + 3)² = x² + 9. Which substitution most quickly disproves it?",
+        "choices": [
+          "x = 1, giving 16 versus 10",
+          "x = 0, giving 9 versus 9",
+          "x = −3, giving 0 versus 18",
+          "no substitution can disprove it"
+        ],
+        "answer": 0,
+        "explanation": "x = 0 accidentally agrees, so it is a poor test. x = 1 gives 16 on the left and 10 on the right, exposing the missing 6x."
+      },
+      {
+        "id": "math_F1_algebra_generalized_arithmetic_l3_q3",
+        "type": "mcq",
+        "prompt": "A shirt costs ₹x and trousers cost ₹200 more. What is the total cost of one of each?",
+        "choices": [
+          "2x + 200",
+          "x + 200",
+          "2x",
+          "2(x + 200)"
+        ],
+        "answer": 0,
+        "explanation": "Trousers cost x + 200, so the pair costs x + (x + 200) = 2x + 200."
+      },
+      {
+        "id": "math_F1_algebra_generalized_arithmetic_l3_q4",
+        "type": "mcq",
+        "prompt": "Why are \"twice n then add 3\" and \"add 3 to n then double\" different?",
+        "choices": [
+          "brackets record order: 2n + 3 versus 2(n + 3), which differ by 3",
+          "they are actually the same expression",
+          "because n could be negative",
+          "because doubling is not commutative"
+        ],
+        "answer": 0,
+        "explanation": "2(n + 3) = 2n + 6, which exceeds 2n + 3 by 3 for every n. At n = 1 they give 5 and 8."
+      }
+    ]
   }
 }

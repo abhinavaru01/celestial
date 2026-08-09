@@ -1,10 +1,16 @@
 # Memory & Retention Aids — Number Sense & Estimation
 
-> How to remember this — and keep it.
+> How to remember this — and still have it months later.
 
-- "Left is less, right is more" — the number line orders everything.
+- "Place tells value" — the digit is only half the information; where it sits is the other half.
 
-- "Estimate first, compute second" — the habit that catches decimal slips.
+- "Minus means opposite direction, not less than nothing." Debt, below sea level, cooling — all the same idea.
 
-- Negatives are mirror images across zero; two mirrors (−(−x)) bring you back.
+- "Further left is smaller" settles every negative-number comparison in one glance at the line.
+
+- "Estimate, then calculate, then compare" — say it as a three-beat rhythm before any messy computation.
+
+- Anchors worth memorising: 10³ = thousand, 10⁶ = million, 10⁹ = billion, 10⁻³ = milli, 10⁻⁶ = micro.
+
+- Two negatives make a positive because "removing a debt" and "reversing a reversal" are the same move.
 

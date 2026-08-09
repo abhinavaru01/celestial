@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T08:14:44.646Z",
+  "generatedAt": "2026-08-09T14:14:05.004Z",
   "subjects": [
     {
       "id": "math",
@@ -2812,13 +2812,13 @@
       "slug": "algebra-generalized-arithmetic",
       "core": true,
       "order": 4,
-      "estMinutes": 180,
+      "estMinutes": 240,
       "summary": "Variables are just numbers whose value we have not fixed yet; algebra is arithmetic with letters standing in for numbers.",
       "prereqs": [
         "math.F1.ratio-proportion-percentage"
       ],
       "competitiveTags": [],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 1,
       "outDegree": 1
     },
@@ -2830,13 +2830,13 @@
       "slug": "data-graphs-i",
       "core": true,
       "order": 7,
-      "estMinutes": 180,
+      "estMinutes": 210,
       "summary": "Reading and drawing bar charts, pictographs and line graphs — and spotting misleading ones.",
       "prereqs": [
         "math.F1.geometry-angles-triangles"
       ],
       "competitiveTags": [],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 1,
       "outDegree": 1
     },
@@ -2848,13 +2848,13 @@
       "slug": "fractions-decimals",
       "core": true,
       "order": 2,
-      "estMinutes": 180,
+      "estMinutes": 240,
       "summary": "Fractions, decimals and division are three views of the same idea — parts of a whole on the number line.",
       "prereqs": [
         "math.F1.number-sense-estimation"
       ],
       "competitiveTags": [],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 1,
       "outDegree": 0
     },
@@ -2866,13 +2866,13 @@
       "slug": "geometry-angles-triangles",
       "core": true,
       "order": 6,
-      "estMinutes": 180,
+      "estMinutes": 240,
       "summary": "Angle relationships, triangle properties and the reasoning behind congruence — with construction, deferring formal proof.",
       "prereqs": [
         "math.F1.linear-equations-one-variable"
       ],
       "competitiveTags": [],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 1,
       "outDegree": 1
     },
@@ -2884,7 +2884,7 @@
       "slug": "linear-equations-one-variable",
       "core": true,
       "order": 5,
-      "estMinutes": 180,
+      "estMinutes": 240,
       "summary": "Solving equations by keeping both sides balanced, and using them to model word problems directly.",
       "prereqs": [
         "math.F1.algebra-generalized-arithmetic"
@@ -2892,7 +2892,7 @@
       "competitiveTags": [
         "JEE-Main"
       ],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 1,
       "outDegree": 2
     },
@@ -2904,11 +2904,11 @@
       "slug": "number-sense-estimation",
       "core": true,
       "order": 1,
-      "estMinutes": 180,
+      "estMinutes": 240,
       "summary": "Place value, negative numbers, orders of magnitude, mental math and the discipline of estimating before computing.",
       "prereqs": [],
       "competitiveTags": [],
-      "depth": "module",
+      "depth": "deep",
       "inDegree": 0,
       "outDegree": 1
     },

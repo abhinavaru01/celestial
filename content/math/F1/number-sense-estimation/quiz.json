@@ -3,29 +3,130 @@
   "levels": {
     "1": [
       {
-        "id": "math_F1_number_sense_estimation_q1",
+        "id": "math_F1_number_sense_estimation_l1_q1",
         "type": "numeric",
-        "prompt": "Compute −7 + 3.",
-        "answer": -4,
+        "prompt": "What is the value of the digit 4 in 3407?",
+        "answer": 400,
         "tolerance": 0,
-        "explanation": "Start at −7, move 3 right → −4."
+        "explanation": "The 4 sits in the hundreds place, so its value is 4 × 100 = 400."
+      },
+      {
+        "id": "math_F1_number_sense_estimation_l1_q2",
+        "type": "mcq",
+        "prompt": "Which is smaller: −8 or −3?",
+        "choices": [
+          "−8",
+          "−3",
+          "they are equal",
+          "cannot be compared"
+        ],
+        "answer": 0,
+        "explanation": "−8 lies further left on the number line, so it is smaller — even though 8 > 3 in size."
+      },
+      {
+        "id": "math_F1_number_sense_estimation_l1_q3",
+        "type": "numeric",
+        "prompt": "Compute 7 − (−3).",
+        "answer": 10,
+        "tolerance": 0,
+        "explanation": "Subtracting a negative is adding the opposite: 7 + 3 = 10."
+      },
+      {
+        "id": "math_F1_number_sense_estimation_l1_q4",
+        "type": "numeric",
+        "prompt": "What is 2.5 × 10?",
+        "answer": 25,
+        "tolerance": 0,
+        "explanation": "Shift one place left. \"Adding a zero\" would wrongly give 2.50."
       }
     ],
     "2": [
       {
-        "id": "math_F1_number_sense_estimation_q2",
+        "id": "math_F1_number_sense_estimation_l2_q1",
+        "type": "numeric",
+        "prompt": "Use halve-and-double to compute 25 × 36.",
+        "answer": 900,
+        "tolerance": 0,
+        "explanation": "25 × 36 = 50 × 18 = 100 × 9 = 900."
+      },
+      {
+        "id": "math_F1_number_sense_estimation_l2_q2",
+        "type": "numeric",
+        "prompt": "Compute 19 × 21 using the difference of squares.",
+        "answer": 399,
+        "tolerance": 0,
+        "explanation": "(20 − 1)(20 + 1) = 20² − 1² = 400 − 1 = 399."
+      },
+      {
+        "id": "math_F1_number_sense_estimation_l2_q3",
         "type": "mcq",
-        "prompt": "Estimate 612 × 39 to one significant figure.",
+        "prompt": "Estimate 380 × 21 to one significant figure in each factor.",
         "choices": [
-          "~24000",
-          "~2400",
-          "~180000",
-          "~6000"
+          "about 8000",
+          "about 800",
+          "about 80 000",
+          "about 600"
         ],
         "answer": 0,
-        "explanation": "600 × 40 = 24000 — the right order of magnitude."
+        "explanation": "4 × 2 = 8 and 10² × 10¹ = 10³, so about 8000 (exact value 7980)."
+      },
+      {
+        "id": "math_F1_number_sense_estimation_l2_q4",
+        "type": "numeric",
+        "prompt": "What is |−12| + |5|?",
+        "answer": 17,
+        "tolerance": 0,
+        "explanation": "Absolute value is distance from zero: 12 + 5 = 17."
       }
     ],
-    "3": []
+    "3": [
+      {
+        "id": "math_F1_number_sense_estimation_l3_q1",
+        "type": "mcq",
+        "prompt": "A pitch is about 100 m by 70 m. A student reports its area as 6 800 000 m². What is the most likely error?",
+        "choices": [
+          "a factor of about 1000 — probably a km/m or decimal slip",
+          "a rounding error of a few percent",
+          "no error; the value is reasonable",
+          "the pitch was measured in feet"
+        ],
+        "answer": 0,
+        "explanation": "The true area is about 10⁴ m² ≈ 7000 m². Being 1000× too large is the classic signature of a unit or decimal-place mistake."
+      },
+      {
+        "id": "math_F1_number_sense_estimation_l3_q2",
+        "type": "mcq",
+        "prompt": "Roughly how many seconds are in a human lifetime of about 75 years?",
+        "choices": [
+          "about 10⁹",
+          "about 10⁶",
+          "about 10¹²",
+          "about 10⁴"
+        ],
+        "answer": 0,
+        "explanation": "A year is about 3 × 10⁷ s, so 75 years ≈ 2 × 10⁹ s — of the order of a billion seconds."
+      },
+      {
+        "id": "math_F1_number_sense_estimation_l3_q3",
+        "type": "numeric",
+        "prompt": "A student computes 4823 ÷ 7 = 68. Multiplying back gives roughly 480, not 4800. What should the answer be, to the nearest whole number?",
+        "answer": 689,
+        "tolerance": 1,
+        "explanation": "7 × 689 = 4823. The check \"multiply back, roughly\" caught a missing factor of 10."
+      },
+      {
+        "id": "math_F1_number_sense_estimation_l3_q4",
+        "type": "mcq",
+        "prompt": "Why must (−1) × (−2) equal +2?",
+        "choices": [
+          "to keep the pattern 3×(−2)=−6, 2×(−2)=−4, 1×(−2)=−2, 0×(−2)=0 consistent",
+          "because two minus signs cancel visually",
+          "it is a convention with no justification",
+          "because −1 and −2 are both negative"
+        ],
+        "answer": 0,
+        "explanation": "Each step down in the first factor adds 2 to the product. Continuing the pattern past zero forces (−1)×(−2) = +2 — the rule is required by consistency, not decreed."
+      }
+    ]
   }
 }

@@ -3,29 +3,130 @@
   "levels": {
     "1": [
       {
-        "id": "math_F1_geometry_angles_triangles_q1",
+        "id": "math_F1_geometry_angles_triangles_l1_q1",
         "type": "numeric",
-        "prompt": "Two angles of a triangle are 50° and 60°. Find the third angle in degrees.",
+        "prompt": "Two angles on a straight line: one is 115°. What is the other, in degrees?",
+        "answer": 65,
+        "tolerance": 0,
+        "explanation": "Angles on a straight line sum to 180°, so 180 − 115 = 65."
+      },
+      {
+        "id": "math_F1_geometry_angles_triangles_l1_q2",
+        "type": "numeric",
+        "prompt": "A triangle has angles 50° and 60°. What is the third angle, in degrees?",
         "answer": 70,
         "tolerance": 0,
-        "explanation": "Angles sum to 180°: 180 − 50 − 60 = 70°."
+        "explanation": "The angle sum is 180°: 180 − 50 − 60 = 70."
+      },
+      {
+        "id": "math_F1_geometry_angles_triangles_l1_q3",
+        "type": "numeric",
+        "prompt": "Each angle of an equilateral triangle is how many degrees?",
+        "answer": 60,
+        "tolerance": 0,
+        "explanation": "All three angles are equal and sum to 180°, so each is 60°."
+      },
+      {
+        "id": "math_F1_geometry_angles_triangles_l1_q4",
+        "type": "mcq",
+        "prompt": "Vertically opposite angles are:",
+        "choices": [
+          "equal",
+          "supplementary",
+          "complementary",
+          "unrelated"
+        ],
+        "answer": 0,
+        "explanation": "Each is 180° minus the same adjacent angle, so they are equal."
       }
     ],
     "2": [
       {
-        "id": "math_F1_geometry_angles_triangles_q2",
+        "id": "math_F1_geometry_angles_triangles_l2_q1",
+        "type": "numeric",
+        "prompt": "A transversal cuts two parallel lines. A co-interior angle is 108°. What is the other co-interior angle, in degrees?",
+        "answer": 72,
+        "tolerance": 0,
+        "explanation": "Co-interior (allied) angles are supplementary: 180 − 108 = 72."
+      },
+      {
+        "id": "math_F1_geometry_angles_triangles_l2_q2",
+        "type": "numeric",
+        "prompt": "In triangle ABC, angle A = 50° and angle B = 60°. BC is extended to D. Find angle ACD, in degrees.",
+        "answer": 110,
+        "tolerance": 0,
+        "explanation": "Exterior angle = sum of the two opposite interior angles = 50 + 60 = 110°."
+      },
+      {
+        "id": "math_F1_geometry_angles_triangles_l2_q3",
+        "type": "numeric",
+        "prompt": "An isosceles triangle has an apex angle of 40°. What is each base angle, in degrees?",
+        "answer": 70,
+        "tolerance": 0,
+        "explanation": "(180 − 40)/2 = 70° each, since equal sides face equal angles."
+      },
+      {
+        "id": "math_F1_geometry_angles_triangles_l2_q4",
         "type": "mcq",
-        "prompt": "Which is NOT a valid congruence condition?",
+        "prompt": "Which set of information does NOT prove two triangles congruent?",
         "choices": [
+          "AAA",
           "SSS",
           "SAS",
-          "AAA",
-          "ASA"
+          "RHS"
         ],
-        "answer": 2,
-        "explanation": "AAA gives similar (same shape) triangles, not necessarily congruent ones."
+        "answer": 0,
+        "explanation": "AAA fixes shape but not size — that is similarity. Congruence needs at least one side."
       }
     ],
-    "3": []
+    "3": [
+      {
+        "id": "math_F1_geometry_angles_triangles_l3_q1",
+        "type": "mcq",
+        "prompt": "Why is SSA unreliable as a congruence rule?",
+        "choices": [
+          "two different triangles can satisfy the same two sides and non-included angle",
+          "it uses too few measurements",
+          "it only works for right-angled triangles",
+          "it is actually reliable"
+        ],
+        "answer": 0,
+        "explanation": "This is the ambiguous case: the unknown side can swing to two positions. The angle must be included between the two sides."
+      },
+      {
+        "id": "math_F1_geometry_angles_triangles_l3_q2",
+        "type": "mcq",
+        "prompt": "A diagram shows two lines that appear parallel but carry no arrow marks. May you use alternate angles?",
+        "choices": [
+          "no — parallelism must be given or proved first",
+          "yes, if they look parallel",
+          "yes, all lines in a figure are parallel unless stated",
+          "only for acute angles"
+        ],
+        "answer": 0,
+        "explanation": "Diagrams are not to scale. Parallel-line rules require parallelism to be marked, stated, or previously proved."
+      },
+      {
+        "id": "math_F1_geometry_angles_triangles_l3_q3",
+        "type": "numeric",
+        "prompt": "A triangle has angles in the ratio 2 : 3 : 4. What is the largest angle, in degrees?",
+        "answer": 80,
+        "tolerance": 0,
+        "explanation": "Total parts 2+3+4 = 9; one part = 180/9 = 20°. The largest is 4 × 20 = 80°."
+      },
+      {
+        "id": "math_F1_geometry_angles_triangles_l3_q4",
+        "type": "mcq",
+        "prompt": "How is \"the angles of a triangle sum to 180°\" proved from the parallel-line facts?",
+        "choices": [
+          "draw a line through one vertex parallel to the opposite side; the two outer angles equal the base angles (alternate), and the three form a straight line",
+          "by measuring many triangles with a protractor",
+          "it is an axiom and cannot be proved",
+          "by the exterior angle theorem alone"
+        ],
+        "answer": 0,
+        "explanation": "The parallel construction turns the three interior angles into three angles on a straight line, which sum to 180°."
+      }
+    ]
   }
 }
