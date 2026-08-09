@@ -6,8 +6,8 @@
   "slug": "trigonometry-i",
   "core": true,
   "order": 3,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 270,
   "summary": "Right-triangle ratios (sin, cos, tan) and early unit-circle intuition — the tools physics vectors need.",
   "outcomes": [
     "Use sin, cos and tan in right triangles",

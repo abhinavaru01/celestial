@@ -1,9 +1,10 @@
 # PROJECT MEMORY — Project Compression ("The Ultimate Learner")
-_Last updated: 2026-07-20 by session 1 (cont.)_
+_Last updated: 2026-08-09 by session 2_
 
 > **Website brand name is "The Ultimate Learner"** (D-010). "Project Compression" is the internal initiative/PRD name.
 > **Everything is open** — locking, mastery gates, and completion tracking were removed from the platform (D-009).
 > **Full curriculum is built:** all 192 topics across 6 subjects × 6 tiers exist with all six layers (3 flagship deep-dives + 189 generated modules, D-008).
+> **CURRENT INITIATIVE — depth (D-012).** The layers all existed but were thin (~1.2KB of notes per topic; 189 topics had at least one empty quiz level). There is now a **depth bar enforced by `build.mjs`**, and topics are being re-authored to textbook depth via `scripts/curriculum/deep/<subject>/<tier>.mjs` + `node scripts/deepen.mjs`. **Run `node scripts/build.mjs` to see the live depth dashboard — that is the progress tracker.**
 
 ## 1. What this project is (one paragraph)
 A compressed, restructured global curriculum delivering grades 6–12 equivalent knowledge in ≤3 years, plus the web platform that delivers it. Compression comes from **removing redundancy and interleaving concepts across subjects** (teach each idea once, reuse it everywhere via a knowledge dependency graph), NOT from longer study days. Progression is **mastery-based** through six difficulty sub-levels (F1→A2). Subjects: Math, Physics, Chemistry, Biology, English, CS (Python→C). Every topic ships six signature layers (deep notes, quizzes, common mistakes, tricks, memory aids, prerequisite links). See `PRD.md` for the full brief.
@@ -19,8 +20,12 @@ A compressed, restructured global curriculum delivering grades 6–12 equivalent
   - 3 proof-of-model topics, all six layers each: `math.F1.ratio-proportion-percentage`, `physics.F1.motion` (reuses the math topic — compression demonstrated), `cs.F1.python-variables-types-expressions`.
   - Platform MVP (`app/`): notes, 3-level quiz engine (mcq+numeric, instant feedback), mastery/progress engine with prerequisite unlocking, per-topic Mistakes/Tricks/Memory tabs, board-map tab, dependency-map view, search, teacher coverage matrix. **Verified end-to-end in a real Chromium browser: renders correctly, quiz→mastery→unlock flow works, 0 JS errors.**
   - Competitive sample (`content/competitive/jee/`), business docs (positioning, roadmap, research notes).
-- **IN PROGRESS:** none (session 1 checkpoint reached).
-- **NEXT:** author more topics (highest-leverage first — see roadmap "immediate next content targets"); make competitive sets first-class in-app data; multi-student rosters (needs backend — the documented trigger).
+- **IN PROGRESS (session 2): the depth initiative (D-012, D-013).** Pipeline + enforcement are complete and verified. Content re-authoring is underway, subject by subject, tier by tier.
+  - **Done:** Math F1, F2, I1, I2 (26 of 37 math topics at the bar).
+  - **Remaining:** Math A1/A2 (11 topics), then Physics, Chemistry, Biology, English, CS — 164 topics in total.
+  - **How to continue:** add entries to `scripts/curriculum/deep/<subject>/<tier>.mjs` (schema documented in `scripts/curriculum/deep/index.mjs`), then `node scripts/deepen.mjs --only=<subject>` and `node scripts/build.mjs`. Author bodies with **`String.raw`** — in a plain template literal `\frac` becomes a form-feed character.
+  - Work is on branch `deep-content-initiative` → PR #5 (not merged; merging redeploys the live site).
+- **NEXT after depth:** flip `build.mjs` to `--strict` permanently once the backlog is empty; then make competitive sets first-class in-app data (Phase 4); multi-student rosters (needs backend — the documented trigger).
 
 ## 3. How to run the project
 - **Stack:** zero-build static app. Node (18+) for the build script; any static server to serve.
@@ -57,12 +62,14 @@ A compressed, restructured global curriculum delivering grades 6–12 equivalent
 - None blocking. Future decision (not yet needed): when to add a backend — trigger is multi-student rosters / cross-device accounts (documented in architecture + roadmap).
 
 ## 8. Known issues / tech debt
+- **164 topics are still below the depth bar** (the module backlog from D-008). `node scripts/build.mjs` prints the per-subject dashboard; `--strict` fails on them. This is the active work, not a latent bug.
 - Math rendering is a lightweight Unicode prettifier (no external math engine, by the zero-dependency design decision). Adequate and readable for current notes; if heavy LaTeX is needed later, bundle a vendored KaTeX locally (still no network) rather than a CDN.
 - Progress is single-device (localStorage) — intended for MVP; backend swap-in point is isolated in `app/js/progress.js`.
 - Competitive content is Markdown docs, not yet first-class in-app quiz data (Phase 4).
 - `app/data/*.json` is generated but committed; remember to re-run `build.mjs` after content edits (or add a pre-commit hook later).
 
 ## 9. Changelog (append-only, newest at top)
+- 2026-08-09 (session 2) — **Depth initiative begun (D-012, D-013).** Audited the build and found the six-layer contract was being met in form but not substance: 184/192 topics had notes under 1.5KB against a 7.5KB flagship bar, and 189/192 had at least one empty quiz level (158 empty at L3) — all while the build reported success. Added a **deep-content pipeline** (`scripts/curriculum/deep/<subject>/<tier>.mjs` + `scripts/deepen.mjs`, idempotent, never touches flagships) and a **depth audit enforced in `build.mjs`** (≥3500 chars notes, ≥4 sections, ≥1 worked example, ≥1 formula/facts block, ≥3 quiz questions at every level, ≥4 items per signature layer); `deep`/`flagship` topics now fail the build if they miss it, `module` topics warn and appear in a per-subject dashboard. Re-authored **Math F1, F2, I1 and I2** to textbook depth (25 topics, ~1.2KB → ~6KB notes each, 12 quiz questions apiece across all three levels). Fixed two rendering bugs: `md.js` rendered brace-less LaTeX (`\tfrac34`) as the literal text "tfrac34" — **this was affecting the live site**, including the physics flagship — and generated worked-example callouts nested into `> >`. Verified in Chromium at desktop and 375px: 0 console errors, 0 nested callouts, 0 raw LaTeX, quiz grading correct, no horizontal overflow. Depth: **28/192** (was 3/192). Branch `deep-content-initiative`, PR #5, not merged.
 - 2026-07-20 (session 1 cont.) — **Full curriculum + rebrand + de-gating.** Authored the entire 6×6 curriculum: all 192 topics now exist with all six signature layers (37 math, 30 physics, 30 chemistry, 30 biology, 28 english, 37 CS) via structured datasets `scripts/curriculum/*.mjs` + `scripts/generate-content.mjs` (3 flagship deep-dives kept; 189 generated modules). Build passes: 192 topics, 282 dependency edges (24 cross-subject), acyclic. Removed locking/mastery/completion from the platform — everything open (D-009); rewrote `app/js/app.js`, retired `app/js/progress.js`. Rebranded site to "The Ultimate Learner" (D-010). Fixed the math renderer that was mangling flagship LaTeX (D-011). Verified end-to-end in Chromium: 192 topics browsable, all tabs render, quizzes work, flagship math clean, 0 JS errors. Decisions D-008…D-011 logged. Deploy workflow already live (GitHub Pages, auto-deploys on push to main).
 - 2026-07-19 (session 1) — Delivered Phases 0–3 end-to-end and scaffolded 4–6: full scaffold + content model + validating build script; tier system; 6 subject syllabi; dependency-graph/board-equivalence/timeline/mastery-gating/competitive-integration blueprints; 3 fully-built proof-of-model topics (Math/Physics/CS); platform MVP (notes/quiz/mastery/signature-layer tabs/dependency map/search/teacher tools) verified in a real browser with 0 JS errors; competitive sample content; business positioning/roadmap/research-notes; README. Build passes (`3 topics, all six layers, graph acyclic`).
 - 2026-07-19 (session 1) — memory.md created from Appendix A template; Phase 0 begun.

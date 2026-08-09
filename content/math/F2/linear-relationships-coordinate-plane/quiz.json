@@ -3,24 +3,140 @@
   "levels": {
     "1": [
       {
-        "id": "math_F2_linear_relationships_coordinate_plane_q1",
+        "id": "math_F2_linear_relationships_coordinate_plane_l1_q1",
+        "type": "mcq",
+        "prompt": "In which quadrant does the point (−3, 5) lie?",
+        "choices": [
+          "II",
+          "I",
+          "III",
+          "IV"
+        ],
+        "answer": 0,
+        "explanation": "Negative x with positive y is the top-left quadrant, II."
+      },
+      {
+        "id": "math_F2_linear_relationships_coordinate_plane_l1_q2",
         "type": "numeric",
-        "prompt": "For y = 2x + 1, what is y when x = 3?",
-        "answer": 7,
+        "prompt": "For the line y = 2x + 3, what is the y-intercept?",
+        "answer": 3,
         "tolerance": 0,
-        "explanation": "y = 2(3) + 1 = 7."
+        "explanation": "c is the value of y when x = 0, so the intercept is 3."
+      },
+      {
+        "id": "math_F2_linear_relationships_coordinate_plane_l1_q3",
+        "type": "numeric",
+        "prompt": "For the line y = 2x + 3, what is the gradient?",
+        "answer": 2,
+        "tolerance": 0,
+        "explanation": "In y = mx + c the coefficient of x is the gradient, m = 2."
+      },
+      {
+        "id": "math_F2_linear_relationships_coordinate_plane_l1_q4",
+        "type": "mcq",
+        "prompt": "What is the gradient of a horizontal line?",
+        "choices": [
+          "0",
+          "1",
+          "undefined",
+          "negative"
+        ],
+        "answer": 0,
+        "explanation": "y never changes, so the rise is 0 and m = 0. (A vertical line is the one with undefined gradient.)"
       }
     ],
     "2": [
       {
-        "id": "math_F2_linear_relationships_coordinate_plane_q2",
+        "id": "math_F2_linear_relationships_coordinate_plane_l2_q1",
         "type": "numeric",
-        "prompt": "A line passes through (0,1) and (2,5). What is its slope?",
-        "answer": 2,
+        "prompt": "Find the gradient of the line through (1, 5) and (3, 11).",
+        "answer": 3,
         "tolerance": 0,
-        "explanation": "Slope = (5−1)/(2−0) = 4/2 = 2."
+        "explanation": "(11 − 5)/(3 − 1) = 6/2 = 3."
+      },
+      {
+        "id": "math_F2_linear_relationships_coordinate_plane_l2_q2",
+        "type": "mcq",
+        "prompt": "Find the equation of the line through (1, 5) and (3, 11).",
+        "choices": [
+          "y = 3x + 2",
+          "y = 3x − 2",
+          "y = 2x + 3",
+          "y = 6x − 1"
+        ],
+        "answer": 0,
+        "explanation": "m = 3; substituting (1,5) gives 5 = 3 + c so c = 2. Check (3,11): 3(3)+2 = 11. ✓"
+      },
+      {
+        "id": "math_F2_linear_relationships_coordinate_plane_l2_q3",
+        "type": "mcq",
+        "prompt": "Which line is parallel to y = 2x − 1?",
+        "choices": [
+          "2y = 4x + 6",
+          "y = −2x + 1",
+          "y = x + 2",
+          "x = 2"
+        ],
+        "answer": 0,
+        "explanation": "2y = 4x + 6 rearranges to y = 2x + 3 — the same gradient, so parallel."
+      },
+      {
+        "id": "math_F2_linear_relationships_coordinate_plane_l2_q4",
+        "type": "numeric",
+        "prompt": "A taxi charges ₹50 plus ₹15 per km. What is the fare, in rupees, for 10 km?",
+        "answer": 200,
+        "tolerance": 0,
+        "explanation": "C = 15(10) + 50 = 200."
       }
     ],
-    "3": []
+    "3": [
+      {
+        "id": "math_F2_linear_relationships_coordinate_plane_l3_q1",
+        "type": "numeric",
+        "prompt": "A tank holds 500 L and drains at 20 L per minute. After how many minutes is it empty?",
+        "answer": 25,
+        "tolerance": 0,
+        "explanation": "V = 500 − 20t; set V = 0 to get t = 25 minutes."
+      },
+      {
+        "id": "math_F2_linear_relationships_coordinate_plane_l3_q2",
+        "type": "mcq",
+        "prompt": "That same model gives V = −100 at t = 30. What does this tell you?",
+        "choices": [
+          "the model is only valid until t = 25; beyond that it is meaningless",
+          "the tank refills in reverse",
+          "the gradient must be wrong",
+          "the volume really is negative"
+        ],
+        "answer": 0,
+        "explanation": "Linear models hold only over a domain. Extrapolating past the point where the tank empties produces arithmetic without meaning."
+      },
+      {
+        "id": "math_F2_linear_relationships_coordinate_plane_l3_q3",
+        "type": "mcq",
+        "prompt": "Why does a vertical line have an undefined gradient rather than a very large one?",
+        "choices": [
+          "the run is exactly 0 and division by zero is undefined",
+          "because it is not a function",
+          "its gradient is infinity, which is a number",
+          "because x and y are reversed"
+        ],
+        "answer": 0,
+        "explanation": "m = rise/run with run = 0. Near-vertical lines have huge gradients, but exactly vertical is undefined, not infinite."
+      },
+      {
+        "id": "math_F2_linear_relationships_coordinate_plane_l3_q4",
+        "type": "mcq",
+        "prompt": "Two points on a line give m = 4. A third point on the same line is used to compute the gradient with the first point. What must the result be?",
+        "choices": [
+          "exactly 4 — the gradient of a line is constant between any two of its points",
+          "it depends which points are chosen",
+          "half of 4, since the distance is different",
+          "undefined without more information"
+        ],
+        "answer": 0,
+        "explanation": "Constant gradient between every pair of points is precisely what makes a relationship linear."
+      }
+    ]
   }
 }

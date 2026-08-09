@@ -3,34 +3,165 @@
   "levels": {
     "1": [
       {
-        "id": "math_F2_polynomials_factoring_q1",
+        "id": "math_F2_polynomials_factoring_l1_q1",
         "type": "mcq",
-        "prompt": "Expand (x + 2)(x + 3).",
+        "prompt": "What is the degree of 3x² − 5x + 7?",
         "choices": [
-          "x² + 5x + 6",
-          "x² + 6x + 5",
-          "x² + 6",
-          "x² + 5x + 5"
+          "2",
+          "3",
+          "1",
+          "7"
         ],
         "answer": 0,
-        "explanation": "FOIL: x² + 3x + 2x + 6 = x² + 5x + 6."
+        "explanation": "The highest power of x present is 2, so it is a quadratic."
+      },
+      {
+        "id": "math_F2_polynomials_factoring_l1_q2",
+        "type": "mcq",
+        "prompt": "Expand (x + 3)(x + 5).",
+        "choices": [
+          "x² + 8x + 15",
+          "x² + 15x + 8",
+          "x² + 15",
+          "x² + 8x + 8"
+        ],
+        "answer": 0,
+        "explanation": "x² + 5x + 3x + 15 = x² + 8x + 15."
+      },
+      {
+        "id": "math_F2_polynomials_factoring_l1_q3",
+        "type": "mcq",
+        "prompt": "Factor out the common factor: 6x³ + 9x².",
+        "choices": [
+          "3x²(2x + 3)",
+          "3x(2x² + 3x)",
+          "x²(6x + 9)",
+          "3(2x³ + 3x²)"
+        ],
+        "answer": 0,
+        "explanation": "HCF of 6 and 9 is 3, and the lowest power of x is x². Check: 3x²(2x+3) = 6x³ + 9x²."
+      },
+      {
+        "id": "math_F2_polynomials_factoring_l1_q4",
+        "type": "mcq",
+        "prompt": "Expand (a + b)².",
+        "choices": [
+          "a² + 2ab + b²",
+          "a² + b²",
+          "a² + ab + b²",
+          "2a + 2b"
+        ],
+        "answer": 0,
+        "explanation": "(a+b)(a+b) gives the middle term 2ab. Test a = b = 1: 4, not 2."
       }
     ],
     "2": [
       {
-        "id": "math_F2_polynomials_factoring_q2",
+        "id": "math_F2_polynomials_factoring_l2_q1",
         "type": "mcq",
-        "prompt": "Factor x² − 5x + 6.",
+        "prompt": "Factorise x² + 8x + 15.",
         "choices": [
-          "(x−2)(x−3)",
-          "(x+2)(x+3)",
-          "(x−1)(x−6)",
-          "(x−6)(x+1)"
+          "(x + 3)(x + 5)",
+          "(x + 1)(x + 15)",
+          "(x − 3)(x − 5)",
+          "(x + 4)(x + 4)"
         ],
         "answer": 0,
-        "explanation": "Two numbers multiplying to 6 and adding to −5 are −2 and −3."
+        "explanation": "Two numbers with product 15 and sum 8: 3 and 5."
+      },
+      {
+        "id": "math_F2_polynomials_factoring_l2_q2",
+        "type": "mcq",
+        "prompt": "Factorise x² − 49.",
+        "choices": [
+          "(x − 7)(x + 7)",
+          "(x − 7)²",
+          "(x + 7)²",
+          "it does not factorise"
+        ],
+        "answer": 0,
+        "explanation": "Difference of two squares: a² − b² = (a−b)(a+b) with a = x, b = 7."
+      },
+      {
+        "id": "math_F2_polynomials_factoring_l2_q3",
+        "type": "mcq",
+        "prompt": "Factorise x² − 2x − 15.",
+        "choices": [
+          "(x − 5)(x + 3)",
+          "(x + 5)(x − 3)",
+          "(x − 5)(x − 3)",
+          "(x + 5)(x + 3)"
+        ],
+        "answer": 0,
+        "explanation": "c < 0 means opposite signs; product 15 and difference 2 give 5 and 3, with the larger negative since b < 0."
+      },
+      {
+        "id": "math_F2_polynomials_factoring_l2_q4",
+        "type": "mcq",
+        "prompt": "Simplify (3x² − 2x + 1) − (x² − 5x + 4).",
+        "choices": [
+          "2x² + 3x − 3",
+          "2x² − 7x + 5",
+          "2x² + 3x + 5",
+          "4x² − 7x + 5"
+        ],
+        "answer": 0,
+        "explanation": "Negate every term of the second bracket: 3x² − x² = 2x², −2x + 5x = 3x, 1 − 4 = −3."
       }
     ],
-    "3": []
+    "3": [
+      {
+        "id": "math_F2_polynomials_factoring_l3_q1",
+        "type": "mcq",
+        "prompt": "Factorise 2x³ − 18x completely.",
+        "choices": [
+          "2x(x − 3)(x + 3)",
+          "2x(x² − 9)",
+          "2(x³ − 9x)",
+          "2x(x − 3)²"
+        ],
+        "answer": 0,
+        "explanation": "Common factor 2x first, then x² − 9 is a difference of squares. Stopping at 2x(x²−9) is incomplete."
+      },
+      {
+        "id": "math_F2_polynomials_factoring_l3_q2",
+        "type": "mcq",
+        "prompt": "Solve x² − 2x − 15 = 0.",
+        "choices": [
+          "x = 5 or x = −3",
+          "x = −5 or x = 3",
+          "x = 5 or x = 3",
+          "x = 15 or x = −1"
+        ],
+        "answer": 0,
+        "explanation": "(x−5)(x+3) = 0, so a factor is zero: x = 5 or x = −3."
+      },
+      {
+        "id": "math_F2_polynomials_factoring_l3_q3",
+        "type": "mcq",
+        "prompt": "Simplify (x² − 9)/(x + 3), stating any restriction.",
+        "choices": [
+          "x − 3, provided x ≠ −3",
+          "x² − 3",
+          "x + 3",
+          "x − 3 with no restriction"
+        ],
+        "answer": 0,
+        "explanation": "Factor to (x−3)(x+3)/(x+3) and cancel the common factor. The original is undefined at x = −3, so that value must be excluded."
+      },
+      {
+        "id": "math_F2_polynomials_factoring_l3_q4",
+        "type": "mcq",
+        "prompt": "Why does factorising help solve equations, given that AB = 12 tells you nothing about A and B?",
+        "choices": [
+          "zero is special: AB = 0 forces A = 0 or B = 0",
+          "because factors are always smaller than products",
+          "because 12 has many factor pairs and 0 has none",
+          "it does not help; it is only a tidier form"
+        ],
+        "answer": 0,
+        "explanation": "The zero-product property is what converts one equation into simple separate ones — which is why you always move everything to one side first."
+      }
+    ]
   }
 }

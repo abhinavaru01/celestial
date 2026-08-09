@@ -1,12 +1,24 @@
 {
   "topicId": "math.I2.integrals-intuition",
   "levels": {
-    "1": [],
-    "2": [
+    "1": [
       {
-        "id": "math_I2_integrals_intuition_q1",
+        "id": "math_I2_integrals_intuition_l1_q1",
         "type": "mcq",
-        "prompt": "Find ∫ x² dx.",
+        "prompt": "What does the area under a speed–time graph represent?",
+        "choices": [
+          "distance travelled",
+          "acceleration",
+          "average speed",
+          "time elapsed"
+        ],
+        "answer": 0,
+        "explanation": "Height × width = speed × time = distance. The units confirm it."
+      },
+      {
+        "id": "math_I2_integrals_intuition_l1_q2",
+        "type": "mcq",
+        "prompt": "Find ∫x² dx.",
         "choices": [
           "x³/3 + C",
           "2x + C",
@@ -14,22 +26,122 @@
           "3x³ + C"
         ],
         "answer": 0,
-        "explanation": "Raise power to 3, divide by 3, add C."
+        "explanation": "Raise the power to 3 and divide by 3. Differentiating back gives x². ✓"
       },
       {
-        "id": "math_I2_integrals_intuition_q2",
+        "id": "math_I2_integrals_intuition_l1_q3",
+        "type": "numeric",
+        "prompt": "Evaluate ∫₀³ x² dx.",
+        "answer": 9,
+        "tolerance": 0,
+        "explanation": "[x³/3] from 0 to 3 = 9 − 0 = 9."
+      },
+      {
+        "id": "math_I2_integrals_intuition_l1_q4",
         "type": "mcq",
-        "prompt": "The area under a velocity–time graph represents:",
+        "prompt": "Why does an indefinite integral include + C?",
         "choices": [
-          "distance",
-          "acceleration",
-          "speed",
-          "time"
+          "every constant differentiates to 0, so infinitely many functions share the derivative",
+          "to make the answer look complete",
+          "because integration is approximate",
+          "to account for negative areas"
         ],
         "answer": 0,
-        "explanation": "Accumulating velocity over time gives distance."
+        "explanation": "x², x²+7 and x²−3 all differentiate to 2x, so the antiderivative is a family of curves."
       }
     ],
-    "3": []
+    "2": [
+      {
+        "id": "math_I2_integrals_intuition_l2_q1",
+        "type": "numeric",
+        "prompt": "A tank fills at r(t) = 4t litres per minute. How many litres enter in the first 3 minutes?",
+        "answer": 18,
+        "tolerance": 0,
+        "explanation": "∫₀³ 4t dt = [2t²]₀³ = 18 L. Check: average rate 6 L/min over 3 min = 18 L."
+      },
+      {
+        "id": "math_I2_integrals_intuition_l2_q2",
+        "type": "mcq",
+        "prompt": "Why is ∫xⁿ dx = xⁿ⁺¹/(n+1) invalid when n = −1?",
+        "choices": [
+          "it would divide by zero; the answer is ln|x| + C",
+          "because x⁻¹ is not a power",
+          "because the integral diverges everywhere",
+          "it is valid for n = −1"
+        ],
+        "answer": 0,
+        "explanation": "n + 1 = 0, so the formula breaks. That case is exactly where the natural logarithm enters calculus."
+      },
+      {
+        "id": "math_I2_integrals_intuition_l2_q3",
+        "type": "mcq",
+        "prompt": "A definite integral evaluates to a negative number. What does this mean?",
+        "choices": [
+          "more of the region lies below the axis than above",
+          "a calculation error has occurred",
+          "the limits were equal",
+          "the function is undefined"
+        ],
+        "answer": 0,
+        "explanation": "Area below the axis counts negative, so the integral gives the net signed area."
+      },
+      {
+        "id": "math_I2_integrals_intuition_l2_q4",
+        "type": "mcq",
+        "prompt": "What is ∫ₐᵇ f(x)dx in terms of an antiderivative F?",
+        "choices": [
+          "F(b) − F(a)",
+          "F(a) − F(b)",
+          "F(b) + F(a)",
+          "F(b − a)"
+        ],
+        "answer": 0,
+        "explanation": "Top limit minus bottom limit; the constant C cancels in the subtraction."
+      }
+    ],
+    "3": [
+      {
+        "id": "math_I2_integrals_intuition_l3_q1",
+        "type": "numeric",
+        "prompt": "A particle has v = t − 3 m/s for 0 ≤ t ≤ 5. What is its displacement in metres?",
+        "answer": -2.5,
+        "tolerance": 0.01,
+        "explanation": "[t²/2 − 3t]₀⁵ = 12.5 − 15 = −2.5 m — a net movement backwards."
+      },
+      {
+        "id": "math_I2_integrals_intuition_l3_q2",
+        "type": "numeric",
+        "prompt": "For that same particle, what total distance does it travel, in metres?",
+        "answer": 6.5,
+        "tolerance": 0.01,
+        "explanation": "v changes sign at t = 3. |∫₀³| = 4.5 and ∫₃⁵ = 2, so the total distance is 6.5 m."
+      },
+      {
+        "id": "math_I2_integrals_intuition_l3_q3",
+        "type": "mcq",
+        "prompt": "What does the Fundamental Theorem of Calculus assert?",
+        "choices": [
+          "differentiation and integration are inverse operations, linking tangents to areas",
+          "every function has an area under it",
+          "all integrals can be evaluated exactly",
+          "derivatives are always positive"
+        ],
+        "answer": 0,
+        "explanation": "It connects the two apparently unrelated problems — instantaneous slope and accumulated area — as inverses, which is what makes the definite integral computable via antiderivatives."
+      },
+      {
+        "id": "math_I2_integrals_intuition_l3_q4",
+        "type": "mcq",
+        "prompt": "You know a tank's flow rate in L/s and integrate over seconds. What are the units of the result?",
+        "choices": [
+          "litres",
+          "litres per second",
+          "seconds",
+          "litres per second squared"
+        ],
+        "answer": 0,
+        "explanation": "(L/s) × s = L. Checking units is a reliable way to confirm what an integral has actually computed."
+      }
+    ]
   }
 }

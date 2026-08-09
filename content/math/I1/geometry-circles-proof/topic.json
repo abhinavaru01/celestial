@@ -6,8 +6,8 @@
   "slug": "geometry-circles-proof",
   "core": true,
   "order": 5,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 240,
   "summary": "Circle theorems and deductive proof as a skill in itself — reasoning that transfers to CS correctness.",
   "outcomes": [
     "Apply circle theorems (angles, tangents, chords)",

@@ -1,35 +1,142 @@
 {
   "topicId": "math.I2.derivatives-intuition",
   "levels": {
-    "1": [],
-    "2": [
+    "1": [
       {
-        "id": "math_I2_derivatives_intuition_q1",
+        "id": "math_I2_derivatives_intuition_l1_q1",
         "type": "mcq",
-        "prompt": "Differentiate f(x) = x³.",
+        "prompt": "Differentiate f(x) = x².",
         "choices": [
-          "3x²",
-          "x²",
-          "3x",
-          "x⁴/4"
+          "2x",
+          "x",
+          "2",
+          "x³/3"
         ],
         "answer": 0,
-        "explanation": "Power rule: 3·x^(3−1) = 3x²."
+        "explanation": "Power rule: bring the 2 down and reduce the power by one."
       },
       {
-        "id": "math_I2_derivatives_intuition_q2",
+        "id": "math_I2_derivatives_intuition_l1_q2",
+        "type": "numeric",
+        "prompt": "What is the derivative of the constant function f(x) = 7?",
+        "answer": 0,
+        "tolerance": 0,
+        "explanation": "A constant graph is horizontal, so its gradient is 0 everywhere."
+      },
+      {
+        "id": "math_I2_derivatives_intuition_l1_q3",
         "type": "mcq",
-        "prompt": "The derivative of a constant, e.g. f(x)=7, is:",
+        "prompt": "The derivative at a point equals:",
         "choices": [
-          "0",
-          "7",
-          "1",
-          "undefined"
+          "the gradient of the tangent there",
+          "the value of the function there",
+          "the area under the curve",
+          "the average gradient of the whole curve"
         ],
         "answer": 0,
-        "explanation": "A constant does not change, so its rate is 0."
+        "explanation": "As the chord interval shrinks to zero, the chord becomes the tangent."
+      },
+      {
+        "id": "math_I2_derivatives_intuition_l1_q4",
+        "type": "mcq",
+        "prompt": "If f′(x) > 0 on an interval, the function is:",
+        "choices": [
+          "increasing",
+          "decreasing",
+          "constant",
+          "at a maximum"
+        ],
+        "answer": 0,
+        "explanation": "A positive gradient means the tangent slopes upward."
       }
     ],
-    "3": []
+    "2": [
+      {
+        "id": "math_I2_derivatives_intuition_l2_q1",
+        "type": "mcq",
+        "prompt": "Differentiate f(x) = 3x² − 5x + 7.",
+        "choices": [
+          "6x − 5",
+          "6x − 5 + 7",
+          "3x − 5",
+          "6x² − 5"
+        ],
+        "answer": 0,
+        "explanation": "Term by term: 6x, −5, and the constant gives 0."
+      },
+      {
+        "id": "math_I2_derivatives_intuition_l2_q2",
+        "type": "numeric",
+        "prompt": "For f(x) = 3x² − 5x + 7, what is the gradient at x = 2?",
+        "answer": 7,
+        "tolerance": 0,
+        "explanation": "f′(x) = 6x − 5, so f′(2) = 12 − 5 = 7."
+      },
+      {
+        "id": "math_I2_derivatives_intuition_l2_q3",
+        "type": "numeric",
+        "prompt": "For f(x) = x² − 6x + 5, at what x is the stationary point?",
+        "answer": 3,
+        "tolerance": 0,
+        "explanation": "f′(x) = 2x − 6 = 0 gives x = 3."
+      },
+      {
+        "id": "math_I2_derivatives_intuition_l2_q4",
+        "type": "mcq",
+        "prompt": "At that stationary point, f″ = 2. What kind of point is it?",
+        "choices": [
+          "a minimum",
+          "a maximum",
+          "a point of inflection",
+          "cannot be determined"
+        ],
+        "answer": 0,
+        "explanation": "f″ > 0 means the slope is increasing, so the curve is cupped upward — a minimum."
+      }
+    ],
+    "3": [
+      {
+        "id": "math_I2_derivatives_intuition_l3_q1",
+        "type": "numeric",
+        "prompt": "A ball's height is s = 20t − 5t². At what time in seconds does it reach maximum height?",
+        "answer": 2,
+        "tolerance": 0,
+        "explanation": "v = ds/dt = 20 − 10t; setting v = 0 gives t = 2 s."
+      },
+      {
+        "id": "math_I2_derivatives_intuition_l3_q2",
+        "type": "numeric",
+        "prompt": "For that ball, what is the maximum height in metres?",
+        "answer": 20,
+        "tolerance": 0,
+        "explanation": "s(2) = 40 − 20 = 20 m."
+      },
+      {
+        "id": "math_I2_derivatives_intuition_l3_q3",
+        "type": "mcq",
+        "prompt": "At the top of its flight the ball has v = 0. What is its acceleration?",
+        "choices": [
+          "−10 m/s² — still accelerating downward under gravity",
+          "0, since it is momentarily at rest",
+          "+10 m/s²",
+          "undefined at that instant"
+        ],
+        "answer": 0,
+        "explanation": "a = dv/dt = −10 throughout. Zero velocity and zero acceleration are entirely different conditions."
+      },
+      {
+        "id": "math_I2_derivatives_intuition_l3_q4",
+        "type": "mcq",
+        "prompt": "Why is cancelling h in [2xh + h²]/h legitimate when finding a derivative?",
+        "choices": [
+          "h is approaching 0 but is never equal to 0, so the division is valid",
+          "because h² is negligible",
+          "because the limit is taken afterwards, so any step is allowed",
+          "it is not legitimate — the result is a coincidence"
+        ],
+        "answer": 0,
+        "explanation": "The limit asks what happens as h approaches zero. Since h ≠ 0 throughout, dividing by it is valid — which is precisely how the 0/0 problem is avoided."
+      }
+    ]
   }
 }

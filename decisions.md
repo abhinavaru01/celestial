@@ -74,3 +74,26 @@ _Append-only. Each entry: decision, options considered, reasoning, date. Referen
 **Decision:** Rewrote `prettifyMath` in `app/js/md.js` to correctly convert LaTeX (`\frac`/`\dfrac`/`\tfrac`, `\text`, `\quad`, greek letters, symbols, super/subscripts) to clean readable math, unwrapping `\text{}` before fractions and mapping unknown/spacing commands to spaces so words never jam.
 
 **Reasoning:** The prior prettifier mangled flagship notes (e.g., "quadwhich meansquad", "dfracab"). Fix keeps the zero-dependency, no-external-math-engine constraint (D-001) while rendering correctly. Verified against the actual flagship content.
+
+## D-012: Depth is a mechanical contract, enforced by the build <a id="d-012"></a>
+**Date:** 2026-08-09
+
+**Decision:** Introduce a **depth bar** and enforce it in `scripts/build.mjs`, alongside a deep-content authoring pipeline (`scripts/curriculum/deep/<subject>/<tier>.mjs` → `scripts/deepen.mjs`). A topic clears the bar when it has ≥3500 characters of notes, ≥4 teaching sections, ≥1 worked example, ≥1 key-formula/facts block, **≥3 quiz questions at each of levels 1, 2 and 3**, and ≥4 items in each of mistakes / tricks / memory-aids. Topics declaring `depth: "deep"` or `"flagship"` **fail the build** if they miss it; topics still marked `"module"` warn and appear in a per-subject dashboard. `--strict` promotes every shortfall to an error, to be switched on permanently once the backlog is empty.
+
+**Options considered:**
+1. Keep deepening content ad hoc, tracked in prose in the roadmap
+2. Add a linter run separately from the build
+3. **Extend `build.mjs` — the thing that already gates every change — with a depth audit** ← chosen
+
+**Reasoning:** D-002 made the *presence* of the six layers mechanical rather than aspirational, and that is exactly why the six layers never silently disappeared. The same reasoning applies one level up: the audit that exposed this problem found 184 of 192 topics with roughly two paragraphs of notes and 189 with at least one empty quiz level, all while the build reported success. Depth had no enforcement, so it decayed. Putting the bar in `build.mjs` means a deepened topic cannot regress to a stub without breaking the build, and the dashboard keeps the remaining backlog visible on every run instead of buried in a roadmap note.
+
+Detection is deliberately **signal-based rather than house-style**: `###`-headed items count alongside `-` bullets, display math alongside ` ```formula ` blocks, and annotated code blocks count as worked examples. This lets the three hand-written flagships pass on their own terms rather than forcing every topic through the generator's formatting — the bar measures substance, not conformity.
+
+The separate `deepen.mjs` (rather than extending `generate-content.mjs`) exists because the generator deliberately **skips** existing directories to protect hand-written content, whereas the deep dataset **is** the authored source of truth for the topics it covers and must overwrite. Both scripts leave `depth: "flagship"` topics untouched.
+
+## D-013: Deep content is authored in datasets, not directly in `content/` <a id="d-013"></a>
+**Date:** 2026-08-09
+
+**Decision:** Deepened topics are authored in `scripts/curriculum/deep/<subject>/<tier>.mjs` and expanded into the six files by `scripts/deepen.mjs`, which is idempotent. `content/` remains generated output for these topics; `topic.json` is patched in place so hand-curated metadata (prereqs, `boardMap`, `competitiveTags`) survives.
+
+**Reasoning:** Consistent with D-002/D-008 — content as data. Authoring in the dataset means the house style (numbered sections, intro callout, worked-example callouts, summary toolkit, outcomes pulled from `topic.json`) is applied uniformly by one code path, so a formatting improvement re-renders 190 topics instead of requiring 190 edits. It also keeps prose reviewable in one file per subject-tier rather than scattered across directories. Bodies are written with `String.raw` because in an ordinary template literal `\frac` silently becomes a form-feed character — a trap worth recording.

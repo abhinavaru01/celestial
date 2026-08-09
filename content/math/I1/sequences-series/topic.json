@@ -6,8 +6,8 @@
   "slug": "sequences-series",
   "core": true,
   "order": 4,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 240,
   "summary": "Arithmetic and geometric progressions, their sums, and links to growth and finance.",
   "outcomes": [
     "Identify AP and GP and find nth terms",

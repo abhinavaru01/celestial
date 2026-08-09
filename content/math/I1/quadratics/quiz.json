@@ -3,33 +3,139 @@
   "levels": {
     "1": [
       {
-        "id": "math_I1_quadratics_q1",
+        "id": "math_I1_quadratics_l1_q1",
         "type": "mcq",
         "prompt": "Solve x² − 5x + 6 = 0.",
         "choices": [
-          "x = 2 or 3",
-          "x = −2 or −3",
-          "x = 1 or 6",
-          "x = 5 or 6"
+          "x = 2 or x = 3",
+          "x = −2 or x = −3",
+          "x = 1 or x = 6",
+          "x = 5 or x = 6"
         ],
         "answer": 0,
-        "explanation": "Factors (x−2)(x−3) = 0 → x = 2 or 3."
+        "explanation": "(x−2)(x−3) = 0, so each factor gives a root."
+      },
+      {
+        "id": "math_I1_quadratics_l1_q2",
+        "type": "numeric",
+        "prompt": "For y = 2x² + 3x − 5, what is the y-intercept?",
+        "answer": -5,
+        "tolerance": 0,
+        "explanation": "Setting x = 0 leaves y = c = −5."
+      },
+      {
+        "id": "math_I1_quadratics_l1_q3",
+        "type": "mcq",
+        "prompt": "If a > 0, the parabola y = ax² + bx + c:",
+        "choices": [
+          "opens upward and has a minimum",
+          "opens downward and has a maximum",
+          "is a straight line",
+          "has no vertex"
+        ],
+        "answer": 0,
+        "explanation": "A positive leading coefficient gives a valley shape with a lowest point."
+      },
+      {
+        "id": "math_I1_quadratics_l1_q4",
+        "type": "numeric",
+        "prompt": "How many real roots does a quadratic with discriminant 49 have?",
+        "answer": 2,
+        "tolerance": 0,
+        "explanation": "Δ > 0 means two distinct real roots."
       }
     ],
-    "2": [],
-    "3": [
+    "2": [
       {
-        "id": "math_I1_quadratics_q2",
+        "id": "math_I1_quadratics_l2_q1",
         "type": "mcq",
-        "prompt": "How many real roots does x² + x + 1 = 0 have?",
+        "prompt": "Solve 2x² + 3x − 5 = 0.",
         "choices": [
-          "0",
-          "1",
-          "2",
-          "infinite"
+          "x = 1 or x = −2.5",
+          "x = −1 or x = 2.5",
+          "x = 5 or x = −2",
+          "no real roots"
         ],
         "answer": 0,
-        "explanation": "Discriminant = 1 − 4 = −3 < 0 → no real roots."
+        "explanation": "Δ = 9 + 40 = 49, so x = (−3 ± 7)/4, giving 1 and −2.5."
+      },
+      {
+        "id": "math_I1_quadratics_l2_q2",
+        "type": "mcq",
+        "prompt": "Write x² + 6x + 5 in completed-square form.",
+        "choices": [
+          "(x + 3)² − 4",
+          "(x + 3)² + 4",
+          "(x + 6)² − 31",
+          "(x + 3)² − 9"
+        ],
+        "answer": 0,
+        "explanation": "Half of 6 is 3; (x+3)² = x² + 6x + 9, so subtract 4 to restore the +5."
+      },
+      {
+        "id": "math_I1_quadratics_l2_q3",
+        "type": "mcq",
+        "prompt": "Solve x² = 5x correctly.",
+        "choices": [
+          "x = 0 or x = 5",
+          "x = 5 only",
+          "x = 0 only",
+          "no solution"
+        ],
+        "answer": 0,
+        "explanation": "Move everything across: x(x−5) = 0. Dividing by x would discard the root x = 0."
+      },
+      {
+        "id": "math_I1_quadratics_l2_q4",
+        "type": "numeric",
+        "prompt": "For y = x² + 6x + 5, what is the x-coordinate of the vertex?",
+        "answer": -3,
+        "tolerance": 0,
+        "explanation": "x = −b/(2a) = −6/2 = −3."
+      }
+    ],
+    "3": [
+      {
+        "id": "math_I1_quadratics_l3_q1",
+        "type": "numeric",
+        "prompt": "A rectangle is 3 m longer than it is wide and has area 40 m². What is its width in metres?",
+        "answer": 5,
+        "tolerance": 0,
+        "explanation": "w² + 3w − 40 = 0 gives (w+8)(w−5) = 0. The width cannot be −8, so w = 5 m."
+      },
+      {
+        "id": "math_I1_quadratics_l3_q2",
+        "type": "numeric",
+        "prompt": "A farmer fences three sides of a rectangular pen with 40 m of fencing. What is the maximum area in m²?",
+        "answer": 200,
+        "tolerance": 0,
+        "explanation": "A = x(40−2x) = −2(x−10)² + 200, so the maximum is 200 m² at x = 10."
+      },
+      {
+        "id": "math_I1_quadratics_l3_q3",
+        "type": "mcq",
+        "prompt": "A quadratic model gives a discriminant of −16. What does this mean in context?",
+        "choices": [
+          "there are no real solutions — the described situation never occurs",
+          "there are two solutions, both negative",
+          "the model has an arithmetic error",
+          "there is one repeated solution"
+        ],
+        "answer": 0,
+        "explanation": "Δ < 0 means the parabola never meets the axis. In a model — say, a ball reaching a given height — it means that height is never attained."
+      },
+      {
+        "id": "math_I1_quadratics_l3_q4",
+        "type": "mcq",
+        "prompt": "For 2x² + 3x − 5 = 0, which check confirms the roots 1 and −2.5?",
+        "choices": [
+          "sum = −b/a = −1.5 and product = c/a = −2.5",
+          "sum = b/a and product = −c/a",
+          "sum = a/b and product = a/c",
+          "the roots must multiply to give b"
+        ],
+        "answer": 0,
+        "explanation": "Sum of roots = −b/a = −3/2 = −1.5 ✓, product = c/a = −5/2 = −2.5 ✓. A fast, independent verification."
       }
     ]
   }

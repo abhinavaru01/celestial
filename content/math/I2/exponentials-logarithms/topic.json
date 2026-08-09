@@ -6,8 +6,8 @@
   "slug": "exponentials-logarithms",
   "core": true,
   "order": 5,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 240,
   "summary": "Exponential growth and decay, logarithms as the inverse, and their laws — used across chemistry, biology and CS.",
   "outcomes": [
     "Work with exponential functions",

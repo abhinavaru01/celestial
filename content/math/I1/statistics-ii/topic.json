@@ -6,8 +6,8 @@
   "slug": "statistics-ii",
   "core": true,
   "order": 6,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 210,
   "summary": "Grouped data, measures of dispersion, and reading real studies critically.",
   "outcomes": [
     "Compute mean/median for grouped data",

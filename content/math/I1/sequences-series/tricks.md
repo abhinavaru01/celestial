@@ -1,10 +1,18 @@
 # Tricks & Problem-Solving Techniques — Sequences & Series
 
-> Faster, cleaner ways to handle this topic.
+> Faster, cleaner ways to handle this topic — and when each one applies.
 
-- AP nth term: a + (n−1)d. GP nth term: a·r^(n−1).
+- **Diagnose in two steps: differences, then ratios.** Ten seconds of checking prevents using the wrong formula entirely.
 
-- AP sum: n/2 × (first + last). GP sum: a(rⁿ−1)/(r−1).
+- **Simplify the explicit formula** — 3 + 4(n−1) becomes 4n − 1, which is easier to solve and to substitute into.
 
-- A GP with |r|<1 has a finite infinite-sum a/(1−r).
+- **Rebuild the arithmetic sum by Gauss pairing** if you forget the formula: pair the first with the last, and every pair has the same total.
+
+- **Use Sₙ = (n/2)(a + l)** whenever you know the last term; it is far quicker than the expanded form.
+
+- **Read r straight from a percentage:** +8% → 1.08, −15% → 0.85, halving → 0.5.
+
+- **Solve "which term is X?" by setting the explicit formula equal to X** and solving for n. A non-integer answer means X is not in the sequence.
+
+- **Sanity-check compound interest against simple interest** — the compound answer must be larger, and the gap should grow with n.
 

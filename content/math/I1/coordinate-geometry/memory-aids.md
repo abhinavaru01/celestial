@@ -1,10 +1,18 @@
 # Memory & Retention Aids — Coordinate Geometry
 
-> How to remember this — and keep it.
+> How to remember this — and still have it months later.
 
-- "Distance = √(Δx² + Δy²)" — Pythagoras in disguise.
+- "Distance is Pythagoras with coordinates."
 
-- "Midpoint = average the coordinates."
+- "Midpoint is the average."
 
-- Perpendicular slopes multiply to −1.
+- "Perpendicular: flip it and negate it."
+
+- "The circle equation subtracts the centre, so the sign you see is the opposite of the centre."
+
+- "The constant is r squared."
+
+- "Tangent is perpendicular to the radius."
+
+- "Compare d², not d."
 

@@ -6,8 +6,8 @@
   "slug": "coordinate-geometry",
   "core": true,
   "order": 2,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 240,
   "summary": "Distance, midpoint and section formulas, and the equations of lines and circles.",
   "outcomes": [
     "Use distance, midpoint and section formulas",

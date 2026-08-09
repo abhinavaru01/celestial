@@ -1,10 +1,16 @@
 # Memory & Retention Aids — Polynomials & Factoring Basics
 
-> How to remember this — and keep it.
+> How to remember this — and still have it months later.
 
-- "(a+b)² = a² + 2ab + b²" — do not lose the middle term.
+- "Factoring is multiplying backwards" — and expanding is the free check.
 
-- "Multiply to c, add to b" for quadratics.
+- "Common factor first, always."
 
-- Common factor out first, always.
+- "Product c, sum b" for the simple quadratic pair.
+
+- "Difference of squares splits; sum of squares does not."
+
+- "Zero product means a zero factor" — the whole reason we factorise to solve.
+
+- "Cancel factors, not terms."
 

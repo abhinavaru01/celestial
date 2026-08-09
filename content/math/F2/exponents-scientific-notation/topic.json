@@ -6,8 +6,8 @@
   "slug": "exponents-scientific-notation",
   "core": true,
   "order": 1,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 240,
   "summary": "Powers as repeated multiplication, the laws of exponents, and scientific notation for very large and small numbers.",
   "outcomes": [
     "Apply the laws of exponents",

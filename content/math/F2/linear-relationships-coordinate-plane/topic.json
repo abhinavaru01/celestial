@@ -6,8 +6,8 @@
   "slug": "linear-relationships-coordinate-plane",
   "core": true,
   "order": 2,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 240,
   "summary": "The coordinate plane, and y = mx + c as the mathematics of a constant rate — the direct bridge from ratio thinking.",
   "outcomes": [
     "Plot points and lines on the coordinate plane",

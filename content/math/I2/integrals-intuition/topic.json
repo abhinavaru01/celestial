@@ -6,8 +6,8 @@
   "slug": "integrals-intuition",
   "core": true,
   "order": 4,
-  "depth": "module",
-  "estMinutes": 180,
+  "depth": "deep",
+  "estMinutes": 240,
   "summary": "Accumulation and area under a curve — the reverse of differentiation.",
   "outcomes": [
     "Interpret an integral as accumulated area",

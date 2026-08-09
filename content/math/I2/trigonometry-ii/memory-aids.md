@@ -1,10 +1,18 @@
 # Memory & Retention Aids — Trigonometry II
 
-> How to remember this — and keep it.
+> How to remember this — and still have it months later.
 
-- "sin² + cos² = 1."
+- "CAST — All, Sine, Tangent, Cosine" anticlockwise from quadrant IV.
 
-- "Sine rule for angle-side pairs; cosine rule for the odd one out."
+- "The unit circle defines it; the triangle only illustrated it."
 
-- Trig equations repeat every period.
+- "sin partners with 180 − θ; cos partners with 360 − θ; tan repeats at 180."
+
+- "The calculator gives one answer, never all of them."
+
+- "Cosine rule is Pythagoras with a correction."
+
+- "Matching pair? Sine rule. No pair? Cosine rule."
+
+- "Prove an identity by transforming one side only."
 

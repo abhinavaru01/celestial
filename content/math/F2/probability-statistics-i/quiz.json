@@ -3,29 +3,155 @@
   "levels": {
     "1": [
       {
-        "id": "math_F2_probability_statistics_i_q1",
+        "id": "math_F2_probability_statistics_i_l1_q1",
         "type": "mcq",
-        "prompt": "A fair die is rolled. P(rolling a 4)?",
+        "prompt": "What is the probability of rolling an even number on a fair six-sided die?",
         "choices": [
-          "1/6",
-          "1/4",
-          "4/6",
-          "1/2"
+          "1/2",
+          "1/3",
+          "2/3",
+          "1/6"
         ],
         "answer": 0,
-        "explanation": "One favourable outcome out of six: 1/6."
+        "explanation": "Three favourable outcomes (2, 4, 6) out of six: 3/6 = 1/2."
+      },
+      {
+        "id": "math_F2_probability_statistics_i_l1_q2",
+        "type": "mcq",
+        "prompt": "If P(rain) = 0.3, what is P(no rain)?",
+        "choices": [
+          "0.7",
+          "0.3",
+          "1.3",
+          "0.5"
+        ],
+        "answer": 0,
+        "explanation": "Complement rule: 1 − 0.3 = 0.7."
+      },
+      {
+        "id": "math_F2_probability_statistics_i_l1_q3",
+        "type": "numeric",
+        "prompt": "Find the mean of 3, 4, 4, 5, 24.",
+        "answer": 8,
+        "tolerance": 0,
+        "explanation": "Total 40 ÷ 5 = 8."
+      },
+      {
+        "id": "math_F2_probability_statistics_i_l1_q4",
+        "type": "mcq",
+        "prompt": "Which value can a probability never take?",
+        "choices": [
+          "1.4",
+          "0",
+          "1",
+          "0.25"
+        ],
+        "answer": 0,
+        "explanation": "Probabilities lie between 0 and 1 inclusive, so 1.4 is impossible."
       }
     ],
     "2": [
       {
-        "id": "math_F2_probability_statistics_i_q2",
+        "id": "math_F2_probability_statistics_i_l2_q1",
+        "type": "mcq",
+        "prompt": "Two fair coins are tossed. What is the probability of two heads?",
+        "choices": [
+          "1/4",
+          "1/2",
+          "1/3",
+          "2/3"
+        ],
+        "answer": 0,
+        "explanation": "Independent events multiply: ½ × ½ = ¼."
+      },
+      {
+        "id": "math_F2_probability_statistics_i_l2_q2",
+        "type": "mcq",
+        "prompt": "Two fair dice are rolled. What is P(total = 7)?",
+        "choices": [
+          "1/6",
+          "1/12",
+          "1/36",
+          "7/36"
+        ],
+        "answer": 0,
+        "explanation": "Six of the 36 pairs total 7, so 6/36 = 1/6 — six times as likely as a total of 12."
+      },
+      {
+        "id": "math_F2_probability_statistics_i_l2_q3",
         "type": "numeric",
-        "prompt": "Find the median of 3, 1, 4, 1, 5.",
-        "answer": 3,
+        "prompt": "Find the median of 3, 4, 4, 5, 24.",
+        "answer": 4,
         "tolerance": 0,
-        "explanation": "Ordered: 1,1,3,4,5 → middle value is 3."
+        "explanation": "Ordered, the middle of five values is the third: 4."
+      },
+      {
+        "id": "math_F2_probability_statistics_i_l2_q4",
+        "type": "mcq",
+        "prompt": "After five heads in a row with a fair coin, what is P(head) on the next toss?",
+        "choices": [
+          "1/2",
+          "less than 1/2",
+          "more than 1/2",
+          "it cannot be determined"
+        ],
+        "answer": 0,
+        "explanation": "Tosses are independent — the coin has no memory. Believing otherwise is the gambler's fallacy."
       }
     ],
-    "3": []
+    "3": [
+      {
+        "id": "math_F2_probability_statistics_i_l3_q1",
+        "type": "mcq",
+        "prompt": "Two fair dice are rolled. What is P(at least one six)?",
+        "choices": [
+          "11/36",
+          "1/6",
+          "1/3",
+          "25/36"
+        ],
+        "answer": 0,
+        "explanation": "P(no six) = (5/6)² = 25/36, so P(at least one) = 1 − 25/36 = 11/36."
+      },
+      {
+        "id": "math_F2_probability_statistics_i_l3_q2",
+        "type": "mcq",
+        "prompt": "Two cards are drawn from a standard deck without replacement. What is P(both kings)?",
+        "choices": [
+          "(4/52) × (3/51)",
+          "(4/52)²",
+          "(4/52) + (3/51)",
+          "(4/52) × (4/52)"
+        ],
+        "answer": 0,
+        "explanation": "Without replacement the events are not independent: after one king is removed, 3 remain among 51 cards."
+      },
+      {
+        "id": "math_F2_probability_statistics_i_l3_q3",
+        "type": "mcq",
+        "prompt": "Class A scores 49, 50, 51; class B scores 0, 50, 100. What does comparing only the means hide?",
+        "choices": [
+          "the spread — identical means of 50 conceal ranges of 2 and 100",
+          "nothing; the classes are equivalent",
+          "that class B has a higher mean",
+          "that the medians differ"
+        ],
+        "answer": 0,
+        "explanation": "Both have mean 50 and median 50, but wildly different consistency. An average without a spread is an incomplete summary."
+      },
+      {
+        "id": "math_F2_probability_statistics_i_l3_q4",
+        "type": "mcq",
+        "prompt": "Why is P(king or heart) not 4/52 + 13/52?",
+        "choices": [
+          "the king of hearts belongs to both, so it is counted twice",
+          "the events are independent, so you must multiply",
+          "hearts are more likely than kings",
+          "it is correct as written"
+        ],
+        "answer": 0,
+        "explanation": "Adding requires mutually exclusive events. Here the overlap must be subtracted: 4/52 + 13/52 − 1/52 = 16/52."
+      }
+    ]
   }
 }

@@ -3,29 +3,150 @@
   "levels": {
     "1": [
       {
-        "id": "math_I2_exponentials_logarithms_q1",
+        "id": "math_I2_exponentials_logarithms_l1_q1",
         "type": "numeric",
-        "prompt": "Evaluate log base 2 of 8.",
+        "prompt": "What is log₂ 8?",
         "answer": 3,
         "tolerance": 0,
-        "explanation": "2³ = 8, so log₂8 = 3."
+        "explanation": "2³ = 8, so the answer is 3."
+      },
+      {
+        "id": "math_I2_exponentials_logarithms_l1_q2",
+        "type": "numeric",
+        "prompt": "What is log₁₀ 1?",
+        "answer": 0,
+        "tolerance": 0,
+        "explanation": "Any base to the power 0 gives 1, so the log of 1 is always 0."
+      },
+      {
+        "id": "math_I2_exponentials_logarithms_l1_q3",
+        "type": "mcq",
+        "prompt": "For 8% annual growth, what is the growth factor b in y = ab^x?",
+        "choices": [
+          "1.08",
+          "0.08",
+          "8",
+          "0.92"
+        ],
+        "answer": 0,
+        "explanation": "The quantity keeps 100% and gains 8%, so it is multiplied by 1.08 each year."
+      },
+      {
+        "id": "math_I2_exponentials_logarithms_l1_q4",
+        "type": "mcq",
+        "prompt": "Which expression is undefined?",
+        "choices": [
+          "log(−5)",
+          "log(0.5)",
+          "log(1)",
+          "log(100)"
+        ],
+        "answer": 0,
+        "explanation": "No power of a positive base gives a negative number, so the log of a negative is undefined."
       }
     ],
     "2": [
       {
-        "id": "math_I2_exponentials_logarithms_q2",
+        "id": "math_I2_exponentials_logarithms_l2_q1",
         "type": "mcq",
-        "prompt": "log(ab) equals:",
+        "prompt": "Simplify log(xy).",
         "choices": [
-          "log a + log b",
-          "log a × log b",
-          "log a − log b",
-          "log(a+b)"
+          "log x + log y",
+          "log x × log y",
+          "log x − log y",
+          "(log x)(log y)"
         ],
         "answer": 0,
-        "explanation": "The product law turns multiplication into addition."
+        "explanation": "Multiplying numbers adds exponents, so it adds logs."
+      },
+      {
+        "id": "math_I2_exponentials_logarithms_l2_q2",
+        "type": "numeric",
+        "prompt": "Roughly how many years does money take to double at 8% compound interest? Give your answer to the nearest whole year.",
+        "answer": 9,
+        "tolerance": 0.5,
+        "explanation": "t = log 2 / log 1.08 ≈ 0.3010/0.0334 ≈ 9.0 years — matching the Rule of 72."
+      },
+      {
+        "id": "math_I2_exponentials_logarithms_l2_q3",
+        "type": "mcq",
+        "prompt": "Which law lets you solve 1.08^t = 2 for t?",
+        "choices": [
+          "log(xⁿ) = n log x",
+          "log(xy) = log x + log y",
+          "log(x/y) = log x − log y",
+          "log(x + y) = log x + log y"
+        ],
+        "answer": 0,
+        "explanation": "Bringing the exponent down in front is what turns the unknown exponent into a solvable linear equation."
+      },
+      {
+        "id": "math_I2_exponentials_logarithms_l2_q4",
+        "type": "mcq",
+        "prompt": "A quantity has a constant half-life. Its model is:",
+        "choices": [
+          "exponential decay",
+          "linear decrease",
+          "quadratic",
+          "arithmetic"
+        ],
+        "answer": 0,
+        "explanation": "A constant halving time means a constant multiplier, which is exponential."
       }
     ],
-    "3": []
+    "3": [
+      {
+        "id": "math_I2_exponentials_logarithms_l3_q1",
+        "type": "mcq",
+        "prompt": "Solution A has pH 3 and solution B pH 5. How many times more acidic is A?",
+        "choices": [
+          "100",
+          "2",
+          "20",
+          "10"
+        ],
+        "answer": 0,
+        "explanation": "pH is −log₁₀[H⁺], so 2 units correspond to a factor of 10² = 100."
+      },
+      {
+        "id": "math_I2_exponentials_logarithms_l3_q2",
+        "type": "mcq",
+        "prompt": "Why is log(x + y) = log x + log y wrong?",
+        "choices": [
+          "logs convert multiplication to addition, not addition to addition — test x = y = 1",
+          "because x + y might be negative",
+          "it is correct for positive numbers",
+          "because logs need a base"
+        ],
+        "answer": 0,
+        "explanation": "At x = y = 1 the left is log 2 ≈ 0.30 and the right is 0. No law exists for the log of a sum."
+      },
+      {
+        "id": "math_I2_exponentials_logarithms_l3_q3",
+        "type": "mcq",
+        "prompt": "Is (log 2)/(log 1.08) the same as log(2/1.08)?",
+        "choices": [
+          "no — dividing logs is change of base; log(2/1.08) equals log 2 − log 1.08",
+          "yes, both equal log 2 − log 1.08",
+          "yes, division of logs is the quotient law",
+          "only when the base is 10"
+        ],
+        "answer": 0,
+        "explanation": "The quotient law gives a *difference* of logs. A *ratio* of logs is a different operation entirely — this is the commonest slip in the topic."
+      },
+      {
+        "id": "math_I2_exponentials_logarithms_l3_q4",
+        "type": "mcq",
+        "prompt": "Why must an exponential eventually overtake any linear function?",
+        "choices": [
+          "it multiplies by a fixed factor each step while the line only adds a fixed amount",
+          "because its starting value is larger",
+          "because exponentials are always steep",
+          "it need not — a steep enough line stays ahead"
+        ],
+        "answer": 0,
+        "explanation": "Repeated multiplication outgrows repeated addition regardless of the constants; the line may lead at first, but never permanently."
+      }
+    ]
   }
 }
